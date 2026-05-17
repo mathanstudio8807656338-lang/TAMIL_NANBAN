@@ -1,0 +1,576 @@
+{
+  "subject": "English",
+  "class": "8",
+  "term": "Annual",
+  "title": "Supplementary: Homeless Man and his Friends",
+  "summary": "",
+  "sections": [
+    {
+      "title": "1. Supplementary: Homeless Man and his Friends (வீடற்றவரும் நண்பர்களும்) - Summary",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● [[Core Theme]]",
+            "answer": "Human compassion and the unbreakable bond between a man and his pets. || மனித நேயம் மற்றும் மனிதன் - விலங்குகளுக்கு இடையேயானப் பிணைப்பு."
+          },
+          {
+            "question": "● [[The Protagonist]]",
+            "answer": "Cesare, a homeless man who lives on the streets but is rich in love for his dogs. || சிசேர் (Cesare) எனும் வீடற்றவர்; ஆனால் தனது நாய்களின் மீது அதிகப் பாசம் கொண்டவர்."
+          },
+          {
+            "question": "● [[The Struggle]]",
+            "answer": "Cesare faces many challenges but never abandons his dogs. He shares whatever little he has with them. People's acts of kindness toward him show the better side of humanity. || வறுமையிலும் தனது நாய்களை அவர் கைவிடவில்லை. தன்னிடம் இருந்தச் சிறுப் பங்கையும் அவற்றுடன்ப் பகிர்ந்து கொண்டார். மக்கள் அவருக்குச் செய்த உதவிகள் மனிதநேயத்தைச் சுட்டுகின்றன."
+          }
+        ]
+      }
+    },
+    {
+      "title": "2. Glossary: Compassion & Survival (Exam Focus - Synonyms)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● [[Homeless]] / வீடற்ற / திக்கற்ற",
+            "answer": "A person without a permanent home."
+          },
+          {
+            "question": "● [[Compassion]] / பரிவு / இரக்கம்",
+            "answer": "Sympathetic pity and concern for the sufferings or misfortunes of others."
+          },
+          {
+            "question": "● [[Companion]] / தோழன்",
+            "answer": "A person or animal with whom one spends a lot of time."
+          },
+          {
+            "question": "● [[Struggle]] / போராட்டம்",
+            "answer": "Make forceful or violent efforts to get free of restraint or constriction."
+          },
+          {
+            "question": "● [[Shelter]] / தங்குமிடம்",
+            "answer": "A place giving temporary protection from bad weather or danger."
+          },
+          {
+            "question": "● [[Devoted]] / அர்ப்பணிப்புள்ள",
+            "answer": "Very loving or loyal."
+          }
+        ]
+      }
+    },
+    {
+      "title": "3. Character Analysis (கதாபாத்திர ஆய்வு)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● [[Cesare]]",
+            "answer": "A man of great heart despite being poor. || ஏழ்மையிலும்ப் பெரிய இதயம் கொண்டவர்."
+          },
+          {
+            "question": "● [[The Dogs]]",
+            "answer": "His only family and source of joy. || அவரது ஒரேக் குடும்பம் மற்றும் மகிழ்ச்சியின் உந்துசக்தி."
+          }
+        ]
+      }
+    },
+    {
+      "title": "4. Grammars: Sentence Patterns (S V O C)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● [[S + V + O + C]]",
+            "answer": "We made him (O) happy (C). || நாங்கள் அவனை மகிழ்ச்சியாக்கினோம்."
+          },
+          {
+            "question": "● [[S + V + O]]",
+            "answer": "He fed the dogs. || அவர் நாய்களுக்கு உணவளித்தார்."
+          }
+        ]
+      }
+    },
+    {
+      "title": "5. Values of the Story (கதையின் மதிப்பீடுகள்)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● Sharing",
+            "answer": "He shared his bread with his furry friends. || தனது உணவை நாய்களுடன்ப் பகிர்ந்து கொண்டார்."
+          },
+          {
+            "question": "● Empathy",
+            "answer": "Feeling for the suffering of a fellow human. || ஒரு மனிதனின்ப் போராட்டத்தைப் புரிந்துகொள்ளுதல்."
+          }
+        ]
+      }
+    },
+    {
+      "title": "6. Previous Year Questions & Competitive Focus",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● Who is the homeless man in the story?",
+            "answer": "[[Cesare]]. || சிசேர்."
+          },
+          {
+            "question": "● What is the synonym of 'Compassion'?",
+            "answer": "[[Pity]] or [[Kindness]]. || இரக்கம்."
+          },
+          {
+            "question": "● Identify Sentence: 'He called the dog [[Buddy]]'.",
+            "answer": "[[S V O C]]."
+          },
+          {
+            "question": "● What did Cesare share with his dogs?",
+            "answer": "His [[food]] and [[shelter]]. || தனது உணவு மற்றும் தங்குமிடம்."
+          }
+        ]
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Who is the central character in 'Homeless Man and his Friends'? || 'வீடற்றவரும் நண்பர்களும்' கதையின் மைய கதாபாத்திரம் யார்?",
+      "options": [
+        "A King",
+        "Cesare (சிசேர்)",
+        "A doctor",
+        "A rich man"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Who were Cesare's best friends? || சிசேரின்ச் சிறந்த நண்பர்கள் யார்?",
+      "options": [
+        "Old people",
+        "His dogs (அவரது நாய்கள்)",
+        "Police",
+        "Drivers"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What did Cesare do with the little food he got? || தனக்குக் கிடைத்தச் சிறு உணவை சிசேர் என்னச் செய்தார்?",
+      "options": [
+        "Ate it all alone",
+        "Shared it with his dogs (நாய்களுடன்ப் பகிர்ந்து கொண்டார்)",
+        "Sold it",
+        "Threw it away"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Where did Cesare mostly live? || சிசேர் பெரும்பாலும் எங்கே வசித்தார்?",
+      "options": [
+        "In a hotel",
+        "On the streets / Under shelters (தெருக்களில் / நிழல் தரும் பகுதிகளில்)",
+        "In a palace",
+        "In a village"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "How did other people help Cesare? || மற்றவர்கள் சிசேருக்கு எவ்வாறுக் கைக்கொடுத்தனர்?",
+      "options": [
+        "By hating him",
+        "With kindness and small gifts (அன்பாலும்ச் சிறுப் பொருட்களாலும் உதவினர்)",
+        "By arresting him",
+        "Ignoring him"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What is the meaning of 'Homeless'? || 'Homeless' என்பதன் பொருள்?",
+      "options": [
+        "Rich person",
+        "Person without a permanent house (வீடற்றவர்)",
+        "Fast runner",
+        "A traveler"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What is the synonym of 'Compassion'? || 'Compassion' என்பதன் ஒத்தப்பொருள் யாது?",
+      "options": [
+        "Angry",
+        "Sympathy and Concern (பரிவு மற்றும் இரக்கம்)",
+        "Fear",
+        "Speed"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identification: 'The people made Cesare happy'. What is 'happy'? || இதில் 'happy' என்பது எவ்வகைச் சொல்?",
+      "options": [
+        "Subject",
+        "Complement (நிறைவி / காம்ப்ளிமெண்ட்)",
+        "Verb",
+        "Object"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Did Cesare treat his dogs as employees? || நாய்களைத் தனது வேலையாட்களாக சிசேர் நடத்தினாரா?",
+      "options": [
+        "Yes",
+        "No, he treated them as family/friends (இல்லை, தோழர்களாகவும் குடும்பமாகவும் நடத்தினார்)",
+        "Maybe",
+        "Unknown"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of 'Shelter': || 'Shelter' (ஷெல்டர்) என்பதன் பொருள்?",
+      "options": [
+        "Danger",
+        "A place giving protection (தங்குமிடம் / புகலிடம்)",
+        "A road",
+        "A book"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Explain: S V O C pattern. || S V O C வாக்கிய அமைப்பு என்பது?",
+      "options": [
+        "Subject + Verb + Object + Complement (எழுவாய் + வினை + செயப்படுபொருள் + நிறைவி)",
+        "Only Subject",
+        "Verb first",
+        "None"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "What kind of man was Cesare despite his poverty? || ஏழ்மையிலும் சிசேர் எத்தகைய மனிதராக இருந்தார்?",
+      "options": [
+        "Selfish",
+        "Kind-hearted and devoted (அன்பான மற்றும் அர்ப்பணிப்புள்ளவர்)",
+        "Greedy",
+        "Silent"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of 'Struggle' in the story context: || இக்கதையில் 'Struggle' எதனைச் சுட்டுகிறது?",
+      "options": [
+        "Running for gold",
+        "Difficulty in surviving on streets (தெருவில் வாழப் போராடுதல்)",
+        "Fighting in war",
+        "Sleeping"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Who was his 'Only Family'? || சிசேருக்குத் தெரிந்த ஒரேக் 'குடும்பம்' எது?",
+      "options": [
+        "Distant cousins",
+        "His loyal dogs (அவனது நாய்கள்)",
+        "The police",
+        "Strangers"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: SVOC in \"She named the baby Mani\". || இதில் எது 'காம்ப்ளிமெண்ட்' (C)?",
+      "options": [
+        "She",
+        "named",
+        "the baby",
+        "Mani (மணி)"
+      ],
+      "a": 3,
+      "ex": ""
+    },
+    {
+      "q": "Synonym for 'Devoted': || 'Devoted' என்பதன் ஒத்தப்பொருள்?",
+      "options": [
+        "Loyal / Loving (விசுவாசமான / அன்பான)",
+        "Angry",
+        "Fearful",
+        "Lazy"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "How does Cesare's life teach us a lesson? || சிசரேவின் வாழ்க்கை நமக்கு என்னப் பாடம் புகட்டுகிறது?",
+      "options": [
+        "To buy many dogs",
+        "True wealth is love and kindness (உண்மையானச் செல்வம் அன்புதான்)",
+        "Don't help anyone",
+        "Money is king"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of 'Companion' again? || 'Companion' என்பது?",
+      "options": [
+        "Enemy",
+        "Partner / Friend (கூட்டாளி / தோழன்)",
+        "A food",
+        "A city"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "The story 'Homeless Man and his Friends' is likely based on? || இந்தக் கதை எதனை அடிப்படையாகக் கொண்டது?",
+      "options": [
+        "Fairy tales",
+        "Real observation of human lives (மனித வாழ்வின் நிதர்சனமான அவதானிப்பு)",
+        "Ghost stories",
+        "Space wars"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: 'OC' in sentence pattern stands for? || SVOC - ல் வரும் 'OC' எதனைக் குறிக்கும்?",
+      "options": [
+        "Object Complement (செயப்படுபொருள் நிறைவி)",
+        "Over Case",
+        "Only Care",
+        "None"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "What was the dogs' role in Cesare's life? || சிசேரின் வாழ்வில் நாய்களின்ப் பங்கு என்ன?",
+      "options": [
+        "To guard money",
+        "To give him emotional strength and friendship (நம்பிக்கையையும்த் தோழமையையும் அளித்தன)",
+        "To find work",
+        "To bite people"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of 'Gracious': || 'Gracious' (கரேஷியஸ்) என்பதன் பொருள்?",
+      "options": [
+        "Mean",
+        "Kind and Courteous (கனிவான மற்றும் பெருந்தன்மையான)",
+        "Fast",
+        "Brave"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What is 'Community' role in this story? || இக்கதையில்ச் 'சமூகத்தின்' பங்கு என்ன?",
+      "options": [
+        "To ignore people",
+        "To show humanity by helping those in need (தேவையிலிருப்போருக்கு உதவிக் காக்கும் மனிதநேயம்)",
+        "To build walls",
+        "To shout"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: \"I found the job easy\". || இதில் செயப்படுபொருள் (Object) எது?",
+      "options": [
+        "I",
+        "found",
+        "the job (வேலை)",
+        "easy"
+      ],
+      "a": 2,
+      "ex": ""
+    },
+    {
+      "q": "Synonym of 'Abundant': || 'Abundant' (அபான்டன்ட்) என்பதன் ஒத்தப்பொருள்?",
+      "options": [
+        "Small",
+        "Plenty / In great quantity (அதிகமான அளவு)",
+        "End",
+        "Safe"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Was Cesare an angry person due to his poverty? || வறுமையினால் சிசேர் கோபக்காரராக இருந்தாரா?",
+      "options": [
+        "Yes",
+        "No, he was very patient (இல்லை, அவர் பொறுமையானவர்)",
+        "Maybe",
+        "Unknown"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Conclusion: Every 'Homeless' person deserves? || முடிவு: ஒவ்வொரு 'வீடற்ற' நபரும் எதனைப் பெறத் தகுதியானவர்?",
+      "options": [
+        "Punishment",
+        "Dignity and basic kindness (மரியாதை மற்றும் அடிப்படை மனிதநேயம்)",
+        "Hate",
+        "Ignore"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: \"We elected him chairman\". What is the pattern? || இதற்குரிய வாக்கிய அமைப்பு?",
+      "options": [
+        "S V O C (எழுவாய் + வினை + செயப்படுபொருள் + நிறைவி)",
+        "S V O",
+        "S V A",
+        "S V"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of 'Misfortune': || 'Misfortune' (மிஸ்பார்ச்சூன்) என்பதன் பொருள்?",
+      "options": [
+        "Good luck",
+        "Bad luck / Hardship (துரதிருஷ்டம் / கடினமானக் காலம்)",
+        "Wealth",
+        "Happiness"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Correct spelling in English: || 'Compassion' - சரியான வடிவம் எது?",
+      "options": [
+        "Compassion (இரக்கம்)",
+        "Compasion",
+        "Compession",
+        "Compassionary"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "The expansion of 'C' in Cesare context? || சிசரேவின்ச் சூழலில் 'C' என்பது?",
+      "options": [
+        "Compassion / Cesare (இரக்கம் / சிசேர்)",
+        "City",
+        "Company",
+        "Cold"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Where did Cesare live finally in the story part? || கதையில் சிசேர் இறுதியில் எங்கே வசித்தார்?",
+      "options": [
+        "Still on street with his dogs",
+        "Often in people's hearts and temporary shelters (மக்களின் மனதிலும் தற்காலிக நிழல்களிலும்)",
+        "PALACE",
+        "None"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify the 'V' in \"God made man\". || மவுண்டு இதில் வினைச்சொல் எது?",
+      "options": [
+        "God",
+        "made (உருவாக்கினார்)",
+        "man",
+        "None"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Conclusion: A man with no house but with dogs is not ______? || முடிவு: வீடின்றி நாய்களுடன் இருப்பவன் ______ அல்ல?",
+      "options": [
+        "Rich",
+        "Truly alone (தனியாளாக இல்லை)",
+        "Poor",
+        "Alive"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: \"I saw the news\". Is there a complement here? || இதில் 'நிறைவி' (Complement) உள்ளதா?",
+      "options": [
+        "Yes",
+        "No, it is only S V O (இல்லை, இது S V O மட்டுமே)",
+        "Maybe",
+        "Unknown"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of 'Endure' regarding people on streets? || வறியவர்களின்ச் சூழலில் 'Endure' என்பது?",
+      "options": [
+        "To break",
+        "To tolerate or bear hardship (துன்பங்களைத் தாங்குதல்)",
+        "To play",
+        "To sing"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "The story emphasizes on ______ bond? || இக்கதை எத்தகையப் பிணைப்பை வலியுறுத்துகிறது?",
+      "options": [
+        "Chemical",
+        "Human-Animal (மனிதன்-விலங்கு)",
+        "Gold",
+        "Electronic"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What to call a 'Street dog' nicely? || தெரு நாயை எவ்வாறு கௌரவமாக அழைக்கலாம்?",
+      "options": [
+        "Street pet",
+        "Stray dog (ஸ்ட்ரே டாக் - நாடோடி நாய்)",
+        "Bad dog",
+        "None"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify the 'C' in \"They made the room bright\". || இதில் எது 'காம்ப்ளிமெண்ட்'?",
+      "options": [
+        "room",
+        "bright (பிரகாசமான)",
+        "They",
+        "made"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Final Note: Kindness is the language the ______ can hear. || இறுதிச் செய்தி: இரக்கம் எனும் மொழியை ______ கேட்க முடியும்.",
+      "options": [
+        "Deaf (காது கேளாதவர்கள்)",
+        "Loud",
+        "Fast",
+        "None"
+      ],
+      "a": 0,
+      "ex": ""
+    }
+  ],
+  "credits": "தொகுப்பு: A1 ONLINE COACHING CENTER"
+}

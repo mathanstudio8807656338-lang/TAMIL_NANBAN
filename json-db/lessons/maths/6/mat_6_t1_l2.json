@@ -1,0 +1,92 @@
+{
+  "isBilingual": true,
+  "unit": "Unit 2",
+  "subject": "Maths",
+  "class": "6",
+  "term": 1,
+  "title": "Algebra (இயற்கணிதம்)",
+  "summary": "மாறிகள், மாறிலிகள், இயற்கணிதக் கூற்றுகள் மற்றும் எளிய சமன்பாடுகளைத் தீர்க்கும் முறைகள் குறித்த விரிவான விளக்கம்.",
+  "material": {
+    "isBilingual": true,
+    "sections": [
+      {
+        "title": "2.1 அறிமுகம் (Introduction)",
+        "type": "bilingual",
+        "en": ["Algebra is an important branch of mathematics. The name Algebra is derived from the Arabic word 'Al-Jabr'. it teaches us how to find unknown values using known numbers. Algebra begins by observing numbers, shapes, and patterns found in daily life. It helps to create a rule and generalize it."],
+        "ta": ["இயற்கணிதம் (Algebra) என்பது கணிதத்தின் ஒரு முக்கியப் பிரிவாகும். 'அல்-ஜப்ர்' (Al-Jabr) என்ற அரேபிய சொல்லில் இருந்து இயற்கணிதம் என்ற பெயர் உருவானது. நமக்குத் தெரிந்த எண்களைப் பயன்படுத்தி, தெரியாத மதிப்புகளைக் கண்டறியும் முறையை இது கற்பிக்கிறது. எண்கள், வடிவங்கள் மற்றும் அன்றாட வாழ்வில் காணப்படும் அமைப்புகளை (Patterns) உற்றுநோக்குவதன் மூலம் இயற்கணிதம் தொடங்குகிறது. ஒரு விதியை உருவாக்கி, அதைப் பொதுமைப்படுத்த (Generalization) இயற்கணிதம் உதவுகிறது."]
+      },
+      {
+        "title": "2.2 அமைப்புகள் (Patterns)",
+        "type": "bilingual",
+        "en": [
+          "Patterns refer to numbers, shapes, or colors that repeat according to a specific rule.",
+          "1. Patterns in Numbers: (e.g., 2, 4, 6, 8... this is the pattern of even numbers. The general rule for this is '2n').",
+          "2. Patterns in Shapes: Patterns can be formed using matchsticks to create shapes. For example, to make one 'T' shape, 2 matchsticks are needed. To make two 'T' shapes, 4 matchsticks are needed. The general rule is '2n' (where n is the number of 'T's). Similarly, for a square, 4 matchsticks (rule: 4n), and for a triangle, 3 matchsticks (rule: 3n)."
+        ],
+        "ta": [
+          "அமைப்புகள் (Patterns) என்பவை எண்கள், வடிவங்கள் அல்லது வண்ணங்கள் ஒரு குறிப்பிட்ட விதியின்படி திரும்பத் திரும்ப வருவதைக் குறிக்கும்.",
+          "1. எண்களில் அமைப்புகள்: (எ.கா: 2, 4, 6, 8... இது இரட்டை எண்களின் அமைப்பு. இதற்கான பொது விதி '2n').",
+          "2. வடிவங்களில் அமைப்புகள்: தீக்குச்சிகளைப் பயன்படுத்தி வடிவங்களை உருவாக்கும்போது ஒரு அமைப்பு கிடைக்கும். உதாரணமாக, ஒரு 'T' வடிவத்தை உருவாக்க 2 தீக்குச்சிகள் தேவை. இரண்டு 'T' உருவாக்க 4 குச்சிகள் தேவை. இதற்கான பொது விதி '2n' (n என்பது 'T' களின் எண்ணிக்கை). இதேபோல் ஒரு சதுரம் அமைக்க 4 குச்சிகள் தேவை (விதி: 4n). ஒரு முக்கோணம் அமைக்க 3 குச்சிகள் தேவை (விதி: 3n)."
+        ]
+      },
+      {
+        "title": "2.3 மாறிகள் மற்றும் மாறிலிகள் (Variables and Constants)",
+        "type": "bilingual",
+        "en": [
+          "1. Variable: A 'Variable' is a symbol that takes different values. Its value is not fixed and varies from problem to problem. Variables are usually denoted by lowercase English letters like a, b, c... x, y, z. They are used to represent unknown values.",
+          "2. Constant: A 'Constant' has a fixed numerical value. Its value never changes. All numbers (e.g., 5, -10, 100) are constants.",
+          "For example, in '3n', '3' is a constant and 'n' is a variable."
+        ],
+        "ta": [
+          "1. மாறி (Variable): 'மாறி' என்பது வெவ்வேறு மதிப்புகளை ஏற்கும் ஒரு குறியீடு ஆகும். இதன் மதிப்பு நிலையானது அல்ல, கணக்கிற்கு கணக்கு மாறுபடும். மாறிகளைக் குறிக்க பொதுவாக ஆங்கிலச் சிறிய எழுத்துக்களான a, b, c... x, y, z ஆகியவை பயன்படுத்தப்படுகின்றன. தெரியாத மதிப்பைக் குறிக்கவே மாறி பயன்படுகிறது.",
+          "2. மாறிலி (Constant): 'மாறிலி' என்பது நிலையான எண்ணளவைக் குறிக்கும். இதன் மதிப்பு எப்போதும் மாறாது. எண்கள் அனைத்தும் (எ.கா: 5, -10, 100) மாறிலிகள் ஆகும்.",
+          "உதாரணமாக, '3n' என்பதில் '3' என்பது மாறிலி, 'n' என்பது மாறி."
+        ]
+      },
+      {
+        "title": "2.4 இயற்கணிதக் கூற்றுகள் (Algebraic Statements)",
+        "type": "bilingual",
+        "en": [
+          "Verbal statements can be converted into algebraic statements, and vice versa.",
+          "Examples:",
+          "1. 'Add 5 to x' → x + 5",
+          "2. 'Subtract 7 from y' → y - 7",
+          "3. '4 times p' → 4p (or 4 × p)",
+          "4. 'Divide m by 3' → m/3",
+          "5. 'Add 5 to 2 times x' → 2x + 5",
+          "Conversely, the algebraic statement 'a - 5' can be written as the verbal statement 'Subtract 5 from a'."
+        ],
+        "ta": [
+          "வாய்மொழிக் கூற்றுகளை (Verbal statements) இயற்கணிதக் கூற்றுகளாகவும் (Algebraic statements), இயற்கணிதக் கூற்றுகளை வாய்மொழிக் கூற்றுகளாகவும் மாற்றலாம்.",
+          "எடுத்துக்காட்டுகள்:",
+          "1. 'x உடன் 5-ஐக் கூட்டுக' → x + 5",
+          "2. 'y இலிருந்து 7-ஐக் கழிக்க' → y - 7",
+          "3. 'p இன் 4 மடங்கு' → 4p (அல்லது 4 x p)",
+          "4. 'm ஐ 3-ஆல் வகுக்க' → m/3",
+          "5. 'x-இன் 2 மடங்குடன் 5-ஐக் கூட்டுக' → 2x + 5",
+          "அதேபோல், இயற்கணிதக் கூற்றான 'a - 5' என்பதை 'a இலிருந்து 5-ஐக் குறைத்தல்' என வாய்மொழிக் கூற்றாக எழுதலாம்."
+        ]
+      },
+      {
+        "title": "2.5 சமன்பாடுகள் (Equations)",
+        "type": "bilingual",
+        "en": [
+          "An equation is a mathematical statement with an equal sign (=) between two algebraic expressions. It indicates that the Left Hand Side (L.H.S) and Right Hand Side (R.H.S) are equal. (e.g., x + 3 = 8).",
+          "Solution of an Equation: The value of the variable that makes an equation true is called its solution.",
+          "e.g., In x + 3 = 8, substituting x = 5 makes 5 + 3 = 8, so both sides are equal. Therefore, x = 5 is the solution.",
+          "Trial and Error Method: This method involves substituting different values for the variable to find which value makes both sides equal."
+        ],
+        "ta": [
+          "சமன்பாடு (Equation) என்பது இரண்டு இயற்கணிதக் கூற்றுகளுக்கு இடையே சமக்குறியீட்டை (=) கொண்ட ஒரு கணிதத் தொடராகும். இது சமக்குறியின் இடது பக்கம் (L.H.S) மற்றும் வலது பக்கம் (R.H.S) ஆகிய இரண்டும் சமம் என்பதைக் குறிக்கிறது. (எ.கா: x + 3 = 8).",
+          "சமன்பாட்டின் தீர்வு (Solution): ஒரு சமன்பாட்டை உண்மையாக்கும் மாறியின் மதிப்பே, அச்சமன்பாட்டின் தீர்வு எனப்படும்.",
+          "எ.கா: x + 3 = 8 என்ற சமன்பாட்டில், x-க்கு 5 எனப் பிரதியிட்டால் 5 + 3 = 8 என இருபுறமும் சமமாகிறது. எனவே x = 5 என்பதே இதன் தீர்வு.",
+          "தீர்ப்பதற்கான எளிய முறை (Trial and Error Method): மாறிக்கு வெவ்வேறு மதிப்புகளைப் பிரதியிட்டு, எந்த மதிப்பிற்கு இரண்டு பக்கங்களும் சமமாகின்றனவோ அதைக் கண்டறிவதே முயன்று பிழை நீக்கும் முறையாகும்."
+        ]
+      }
+    ]
+  },
+  "quiz": {
+    "questions": []
+  },
+  "credits": "A1 ONLINE COACHING CENTER"
+}

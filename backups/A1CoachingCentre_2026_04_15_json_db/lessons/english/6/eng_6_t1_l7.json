@@ -1,0 +1,87 @@
+{
+  "unit": "Lesson 7",
+  "subject": "English",
+  "class": "6",
+  "term": 1,
+  "title": "A Visitor from Distant Lands",
+  "summary": "Mani and his family learn about the surprising foreign origins of common Indian vegetables like chilies, potatoes, and tomatoes, which were brought to India by explorers and traders centuries ago.",
+  "sections": [
+    {
+      "title": "1. Story Context & Food (கதை பின்னணி & உணவு)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          { "question": "What were Mani and his family eating? / மணியும் அவரது குடும்பத்தினரும் என்ன சாப்பிட்டுக் கொண்டிருந்தார்கள்?", "answer": "[[Curd rice and potato curry]]" },
+          { "question": "Who did Mani think was the visitor? / யார் அந்த விருந்தினர் என்று மணி நினைத்தான்?", "answer": "A [[Foreigner (Human)]]" },
+          { "question": "Who was the actual visitor mentioned by Mani's father? / மணியின் அப்பா குறிப்பிட்ட உண்மையான விருந்தினர் யார்?", "answer": "[[Vegetables (like Chilies)]]" },
+          { "question": "What did Mani want to throw away? / மணி எதனைத் தூக்கி எறிய விரும்பினான்?", "answer": "[[Chilies]] from the curry" },
+          { "question": "Why did Selvi scold Mani? / செல்வி ஏன் மணியைத் திட்டினாள்?", "answer": "For wasting [[Vegetables]]" },
+          { "question": "Which spice was known as 'Black Gold'? / 'கருப்பு தங்கம்' என்று அழைக்கப்பட்ட நறுமணப் பொருள் எது?", "answer": "[[Black Pepper]]" },
+          { "question": "Where was black pepper exported from? / கருப்பு மிளகு எங்கிருந்து ஏற்றுமதி செய்யப்பட்டது?", "answer": "[[India]] (Kerala coast)" },
+          { "question": "Who brought chilies to India? / மிளகாயை இந்தியாவிற்கு கொண்டு வந்தது யார்?", "answer": "[[The Portuguese]]" }
+        ]
+      }
+    },
+    {
+      "title": "2. History of Spices (நறுமணப் பொருட்களின் வரலாறு)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          { "question": "Where did chilies originate? / மிளகாய் முதன்முதலில் எங்கு தோன்றியது?", "answer": "[[South America]]" },
+          { "question": "Which explorer discovered America while searching for India? / இந்தியாவைத் தேடும்போது அமெரிக்காவைக் கண்டுபிடித்தவர் யார்?", "answer": "[[Christopher Columbus]]" },
+          { "question": "Why did Columbus go to South America? / கொலம்பஸ் ஏன் தென் அமெரிக்காவிற்குச் சென்றார்?", "answer": "In search of [[Black Pepper]]" },
+          { "question": "Instead of pepper, what did Columbus find? / மிளகுக்கு பதிலாக கொலம்பஸ் எதனைக் கண்டுபிடித்தார்?", "answer": "[[Chilies]]" },
+          { "question": "What did Columbus call chilies? / மிளகாயை கொலம்பஸ் எவ்வாறு அழைத்தார்?", "answer": "[[Red Pepper]]" },
+          { "question": "Who was the sailor who reached Calicut? / கள்ளிக்கோட்டைக்கு வந்திறங்கிய மாலுமி யார்?", "answer": "[[Vasco da Gama]]" },
+          { "question": "What did Vasco da Gama take back to Portugal? / வாஸ்கோடகாமா போர்ச்சுகலுக்கு எதனை எடுத்துச் சென்றார்?", "answer": "[[Black Pepper]]" }
+        ]
+      }
+    },
+    {
+      "title": "3. Vegetable Origins (காயறிகளின் பிறப்பிடம்)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          { "question": "Where did the Potato come from? / உருளைக்கிழங்கு எங்கிருந்து வந்தது?", "answer": "[[South America]]" },
+          { "question": "Where did the Tomato come from? / தக்காளி எங்கிருந்து வந்தது?", "answer": "[[South America]]" },
+          { "question": "Where did the Ladies' Finger (Okra) come from? / வெண்டைக்காய் எங்கிருந்து வந்தது?", "answer": "[[Africa]]" },
+          { "question": "Where did the Corn come from? / சோளம் எங்கிருந்து வந்தது?", "answer": "[[South America]]" },
+          { "question": "Which vegetable is often used in Indian curry but is foreign? / இந்தியக் குழம்புகளில் அதிகம் பயன்படுத்தப்படும் அந்நியக் காய்கறி எது?", "answer": "[[Tomato]]" },
+          { "question": "Which district in Andhra is famous for chilies? / ஆந்திராவில் மிளகாய்க்கு புகழ்பெற்ற மாவட்டம் எது?", "answer": "[[Guntur]]" },
+          { "question": "Are chilies and potatoes native to India? / மிளகாயும் உருளைக்கிழங்கும் இந்தியாவைப் பூர்வீகமாகக் கொண்டவையா?", "answer": "[[No]], they are from South America" }
+        ]
+      }
+    },
+    {
+      "title": "4. Glossary & Vocabulary (அரும்பதப்பொருள்)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          { "question": "What is the meaning of 'Foreign'? / 'Foreign' என்பதன் பொருள் என்ன?", "answer": "[[Not belonging to one's own country]]" },
+          { "question": "What is the meaning of 'Merchant'? / 'Merchant' என்பதன் பொருள் என்ன?", "answer": "[[Trader]] or Businessman" },
+          { "question": "What is the meaning of 'Delicious'? / 'Delicious' என்பதன் பொருள் என்ன?", "answer": "[[Very tasty]]" },
+          { "question": "Meaning of 'Origin'? / 'Origin' என்பதன் பொருள் என்ன?", "answer": "The [[source]] or starting point" },
+          { "question": "What is 'Black Gold'? / 'கருப்பு தங்கம்' என்பது எது?", "answer": "[[Black Pepper]]" },
+          { "question": "What is 'Export'? / 'Export' என்றால் என்ன?", "answer": "Sending goods to [[another country]]" },
+          { "question": "Meaning of 'Sailor'? / 'Sailor' என்பதன் பொருள் என்ன?", "answer": "One who [[travels on a ship]]" },
+          { "question": "What part of speech is 'Delicious'? / 'Delicious' என்பது எவ்வகை சொல்?", "answer": "[[Adjective]]" }
+        ]
+      }
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "question": "Which vegetable did Mani want to throw away?",
+        "options": ["Potato", "Chili", "Tomato", "Carrot"],
+        "answer": 1
+      },
+      {
+        "question": "Where did chilies originate from?",
+        "options": ["India", "Africa", "South America", "China"],
+        "answer": 2
+      }
+    ]
+  },
+  "credits": "A1 ONLINE COACHING CENTER"
+}

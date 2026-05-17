@@ -1,0 +1,1964 @@
+{
+  "code": "mt_4_ss",
+  "title": "TET மாதிரித் தேர்வு 4 (சமூக அறிவியல்)",
+  "sections": [
+    {
+      "title": "தேர்வு விவரம்",
+      "content": "150 வினாக்கள்: உளவியல்-30, தமிழ்-30, ஆங்கிலம்-30, சமூக அறிவியல்-60."
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "question": "கற்றலில் உடல் மற்றும் மன முதிர்ச்சி (Maturation) எவ்வாறு அமைகிறது?",
+        "options": [
+          "தடையாக",
+          "மாற்றமாக",
+          "அடித்தளமாக",
+          "தேவையாக"
+        ],
+        "answer": 2,
+        "explanation": "முறையான கற்றல் நிகழ்வதற்கு உடல் மற்றும் மன ரீதியான முதிர்ச்சி ஒரு அடிப்படைத் தேவையாக அல்லது அடித்தளமாக அமைகிறது.",
+        "originalFile": "psy_l3.json",
+        "section": "உளவியல்"
+      },
+      {
+        "question": "குழந்தை மொழி மற்றும் பண்பாட்டு விழுமியங்களை முதன்முதலில் யாரிடமிருந்து கற்றுக்கொள்கிறது?",
+        "options": [
+          "ஆசிரியர்களிடம் இருந்து",
+          "நண்பர்களிடம் இருந்து",
+          "குடும்ப உறுப்பினர்களிடம் இருந்து",
+          "தொலைக்காட்சியில் இருந்து"
+        ],
+        "answer": 2,
+        "explanation": "குழந்தை தனது குடும்ப உறுப்பினர்களுடனான தொடர்பு மூலமே மொழி மற்றும் பண்பாட்டு விழுமியங்களைக் கற்கிறது.",
+        "originalFile": "psy_l8.json",
+        "section": "உளவியல்"
+      },
+      {
+        "question": "கார்ல் யுங்கின் வகைப்பாட்டில், அதிக நண்பர்களைக் கொண்டு சமூகத்தோடு எளிதில் பழகுபவர்கள் யார்?",
+        "options": [
+          "புறமுகி (Extrovert)",
+          "அகமுகி (Introvert)",
+          "எண்டோமார்பிக்",
+          "உளப்பகுப்பாய்வாளர்"
+        ],
+        "answer": 0,
+        "explanation": "சமூகத்துடன் எளிதில் பழகும் தன்மை கொண்டவர்கள் புறமுகிகள் ஆவர்.",
+        "originalFile": "psy_l5.json",
+        "section": "உளவியல்"
+      },
+      {
+        "question": "நடத்தையியலாளர்கள் எதனை ஆராய்வதில்லை?",
+        "options": [
+          "வெளிப்படையான செயல்",
+          "உள்மன எண்ணங்கள் (Internal Feelings)",
+          "தண்டனை",
+          "பரிசு"
+        ],
+        "answer": 1,
+        "explanation": "நடத்தையியலாளர்கள் கண்களால் பார்க்கக்கூடிய மாற்றங்களை மட்டுமே ஆராய்வர்.",
+        "originalFile": "rev_3_psy.json",
+        "section": "உளவியல்"
+      },
+      {
+        "question": "ரோர்சாக் மைத்தடச் சோதனை (Rorschach Inkblot Test) எத்தனை அட்டைகளைப் பயன்படுத்துகிறது?",
+        "options": [
+          "5",
+          "15",
+          "10",
+          "20"
+        ],
+        "answer": 2,
+        "explanation": "ரோர்சாக் மைத்தடச் சோதனையில் 10 மைத்தட அட்டைகள் பயன்படுத்தப்படுகின்றன.",
+        "originalFile": "rev_6_psy.json",
+        "section": "உளவியல்"
+      },
+      {
+        "question": "குழந்தையின் ஆளுமையை முதலில் பாதிக்கும் சூழல் எது?",
+        "options": [
+          "பள்ளி",
+          "குடும்பம்",
+          "சமூகம்",
+          "சினிமா"
+        ],
+        "answer": 1,
+        "explanation": "குடும்பத்தில் இருந்தே ஆளுமைப் பண்புகள் வளரத் தொடங்குகின்றன.",
+        "originalFile": "rev_5_psy.json",
+        "section": "உளவியல்"
+      },
+      {
+        "question": "மாணவர்களின் அடைவுத் திறனை (Achievement) அளவிட உதவும் மதிப்பீடு எது?",
+        "options": [
+          "கற்றலுக்கான மதிப்பீடு",
+          "வளர்நிலை மதிப்பீடு",
+          "கற்றலை மதிப்பீடு செய்தல்",
+          "சுய மதிப்பீடு"
+        ],
+        "answer": 2,
+        "explanation": "கற்றலை மதிப்பீடு செய்தல் (Assessment of Learning) என்பது முழுமையான அடைவுத் திறனை அளவிட உதவுகிறது.",
+        "originalFile": "psy_l8.json",
+        "section": "உளவியல்"
+      },
+      {
+        "question": "தர்ஸ்டன் எத்தனை முதன்மை மனத்திறன்களை வலியுறுத்துகிறார்?",
+        "options": [
+          "5",
+          "7",
+          "8",
+          "120"
+        ],
+        "answer": 1,
+        "explanation": "தர்ஸ்டனின் குழு காரணி கோட்பாடு ஏழு (7) முதன்மை மனத்திறன்களை வலியுறுத்துகிறது.",
+        "originalFile": "psy_l4.json",
+        "section": "உளவியல்"
+      },
+      {
+        "question": "MOOC என்பதன் சரியான விரிவாக்கம் என்ன?",
+        "options": [
+          "Modern Open Online Classes",
+          "Massive Open Online Courses",
+          "Main Open Online Centers",
+          "Multiple Open Online Courses"
+        ],
+        "answer": 1,
+        "explanation": "MOOC என்பதன் விரிவாக்கம் Massive Open Online Courses என்பதாகும்.",
+        "originalFile": "psy_l9.json",
+        "section": "உளவியல்"
+      },
+      {
+        "question": "ஆல்பர்ட் பாண்டுராவின் (Bandura) 'கவனித்து கற்றல்' கோட்பாடு எதனுடன் தொடர்புடையது?",
+        "options": [
+          "உடல் ஒருங்கிணைப்பு",
+          "பள்ளியின் பன்முகத்தன்மை",
+          "ஊடகங்களில் வன்முறையைப் பார்த்து பின்பற்றுதல்",
+          "விளையாட்டில் குழுவாகச் செயல்படுதல்"
+        ],
+        "answer": 2,
+        "explanation": "குழந்தைகள் ஊடகங்களில் தாங்கள் காணும் வன்முறை மற்றும் தவறான நடத்தைகளை அப்படியே பின்பற்றுவதையே இது விளக்குகிறது.",
+        "originalFile": "rev_6_psy.json",
+        "section": "உளவியல்"
+      },
+      {
+        "question": "இந்தியக் கல்வியின் தரத்தை மேம்படுத்த உருவாக்கப்பட்ட வழிகாட்டி ஆவணம் எது?",
+        "options": [
+          "RTE Act 2009",
+          "NCF 2005",
+          "NEP 2020",
+          "CCE"
+        ],
+        "answer": 1,
+        "explanation": "தேசியக் கலைத்திட்டக் கட்டமைப்பு - 2005 (NCF, 2005) என்பது இந்தியக் கல்வியின் தரத்தை மேம்படுத்த உருவாக்கப்பட்ட ஆவணம்.",
+        "originalFile": "psy_l9.json",
+        "section": "உளவியல்"
+      },
+      {
+        "question": "குழந்தைகள் மற்றவர்களைப் பார்த்து அப்படியே செய்தல் எவ்வகை கற்றல்?",
+        "options": [
+          "உட்காட்சி வழிக்கற்றல்",
+          "செய்து கற்றல்",
+          "பாவனை வழிக்கற்றல் (Imitation)",
+          "நிலைநிறுத்தல்"
+        ],
+        "answer": 2,
+        "explanation": "பெரியவர்கள் செய்வதைப் பின்பற்றி நடப்பது பாவனை அல்லது போலச் செய்தல்.",
+        "originalFile": "rev_3_psy.json",
+        "section": "உளவியல்"
+      },
+      {
+        "question": "உளப்பகுப்பாய்வு (Psychoanalysis) முறையின் தந்தை யார்?",
+        "options": [
+          "வாட்சன்",
+          "சிக்மண்ட் பிராய்டு",
+          "கோலர்",
+          "தார்ண்டைக்"
+        ],
+        "answer": 1,
+        "explanation": "மனதின் ஆழமான ஆளுமைகளை ஆராய இம்முறை உதவுகிறது.",
+        "originalFile": "rev_3_psy.json",
+        "section": "உளவியல்"
+      },
+      {
+        "question": "மெய்நிகர் (Virtual) உலகில் அதிக நேரம் செலவிடுவதால் என்ன நிகழ வாய்ப்புள்ளது?",
+        "options": [
+          "நேரடிச் சமூகத் தொடர்புகள் குறையும்",
+          "உடல் உழைப்பு அதிகரிக்கும்",
+          "பள்ளியில் மதிப்பெண்கள் அதிகரிக்கும்",
+          "புதிய நண்பர்களை நேரில் சந்திக்கலாம்"
+        ],
+        "answer": 0,
+        "explanation": "இணையத்திலேயே மூழ்கியிருப்பதால், உண்மையான சமூக மற்றும் நேரடி மனிதத் தொடர்புகள் குறையத் தொடங்குகின்றன.",
+        "originalFile": "rev_6_psy.json",
+        "section": "உளவியல்"
+      },
+      {
+        "question": "கற்றல் என்பது முதிர்ச்சியால் (Maturation) மட்டும் ஏற்படும் மாற்றம் அல்ல - இது சரியா?",
+        "options": [
+          "சரி",
+          "தவறு",
+          "பகுதியளவு சரி",
+          "கூற முடியாது"
+        ],
+        "answer": 0,
+        "explanation": "கற்றல் என்பது பயிற்சி மற்றும் அனுபவத்தால் ஏற்படுவது, வெறும் உடல் வளர்ச்சியால் (முதிர்ச்சி) மட்டும் ஏற்படுவதல்ல.",
+        "originalFile": "psy_l3.json",
+        "section": "உளவியல்"
+      },
+      {
+        "question": "16 ஆளுமைக் காரணிகளை (16PF) உருவாக்கிய உளவியலாளர் யார்?",
+        "options": [
+          "காட்டெல்",
+          "ஆல்போர்ட்",
+          "ஷெல்டன்",
+          "ஹிப்போகிரேட்ஸ்"
+        ],
+        "answer": 0,
+        "explanation": "காட்டெல் (Cattell) 16 ஆளுமைக் காரணிகளை (16PF) உருவாக்கினார்.",
+        "originalFile": "rev_6_psy.json",
+        "section": "உளவியல்"
+      },
+      {
+        "question": "எண்டோமார்ஃபிக், மீசோமார்ஃபிக், எக்டோமார்ஃபிக் என உடல் அமைப்பின் அடிப்படையில் ஆளுமையைப் பிரித்தவர்?",
+        "options": [
+          "ஷெல்டன்",
+          "ஆல்போர்ட்",
+          "காட்டெல்",
+          "ஹிப்போகிரேட்ஸ்"
+        ],
+        "answer": 0,
+        "explanation": "உடல் அமைப்பின் அடிப்படையில் இந்த வகைப்பாட்டை அளித்தவர் ஷெல்டன் (Sheldon) ஆவார்.",
+        "originalFile": "rev_6_psy.json",
+        "section": "உளவியல்"
+      },
+      {
+        "question": "16 ஆளுமைக் காரணிகளை (16PF) உருவாக்கிய உளவியலாளர் யார்?",
+        "options": [
+          "காட்டெல்",
+          "ஆல்போர்ட்",
+          "ஷெல்டன்",
+          "ஹிப்போகிரேட்ஸ்"
+        ],
+        "answer": 0,
+        "explanation": "காட்டெல் (Cattell) 16 ஆளுமைக் காரணிகளை (16PF) உருவாக்கினார்.",
+        "originalFile": "psy_l5.json",
+        "section": "உளவியல்"
+      },
+      {
+        "question": "ஒரு குழந்தை எந்த முகமையிலிருந்து சமூகப் பொறுப்புணர்வைக் (Social Responsibility) கட்டாயமாகக் கற்கிறது?",
+        "options": [
+          "விளையாட்டு மைதானம்",
+          "பள்ளி",
+          "திரையரங்கம்",
+          "தனியறை"
+        ],
+        "answer": 1,
+        "explanation": "பள்ளிக்கூடமே மாணவர்களுக்கு ஒழுக்கத்தையும், சமூகப் பொறுப்புணர்வையும் முறைப்படி கற்பிக்கும் தலமாகும்.",
+        "originalFile": "psy_l6.json",
+        "section": "உளவியல்"
+      },
+      {
+        "question": "புதிய கற்பித்தல் முறைகளைக் கற்றுத் தரும் ICT தளங்களுக்கு ஓர் எடுத்துக்காட்டு தருக.",
+        "options": [
+          "Wikipedia",
+          "SWAYAM",
+          "Google Forms",
+          "E-Portfolio"
+        ],
+        "answer": 1,
+        "explanation": "SWAYAM, DIKSHA மற்றும் NPTEL போன்றவை புதிய கற்பித்தல் முறைகளைக் கற்றுத் தரும் ICT தளங்களாகும்.",
+        "originalFile": "psy_l9.json",
+        "section": "உளவியல்"
+      },
+      {
+        "question": "கல்வி உளவியலின் தந்தை எனப்படும் தார்ண்டைக் எந்த நாட்டு உளவியலாளர்?",
+        "options": [
+          "ஜெர்மனி",
+          "அமெரிக்கா",
+          "இலண்டன்",
+          "ரஷ்யா"
+        ],
+        "answer": 1,
+        "explanation": "எட்வர்டு லீ தார்ண்டைக் அமெரிக்காவைச் சேர்ந்தவர்.",
+        "originalFile": "rev_3_psy.json",
+        "section": "உளவியல்"
+      },
+      {
+        "question": "ஒரு குழு விளையாட்டின் போது ரவி தோல்வியடைந்து மிகவும் கோபப்படுகிறான். விளையாட்டின் மூலம் அவன் இன்னும் எந்த வளர்ச்சியைப் பெறவில்லை?",
+        "options": [
+          "உடல் வளர்ச்சி",
+          "அறிவு வளர்ச்சி",
+          "உணர்ச்சி வளர்ச்சி",
+          "மொழி வளர்ச்சி"
+        ],
+        "answer": 2,
+        "explanation": "தோல்விகளைத் தாங்கும் மனப்பக்குவமும், உணர்ச்சிகளைக் கட்டுப்படுத்துதலும் உணர்ச்சி வளர்ச்சியின் (Emotional Development) முக்கிய பகுதியாகும்.",
+        "originalFile": "psy_l6.json",
+        "section": "உளவியல்"
+      },
+      {
+        "question": "விதிகளைப் பின்பற்றுதல் மற்றும் குழுவாகச் செயல்படுதல் (Teamwork) எதனை உணர்த்துகிறது?",
+        "options": [
+          "சமூக வளர்ச்சி",
+          "உடல் வளர்ச்சி",
+          "அறிவு வளர்ச்சி",
+          "உணர்ச்சி வளர்ச்சி"
+        ],
+        "answer": 0,
+        "explanation": "மற்றவர்களுடன் இணைந்து செயல்படுதல் மற்றும் விதிகளுக்குக் கட்டுப்படுதல் ஆகியவை சமூக வளர்ச்சியின் (Social Development) வெளிப்பாடாகும்.",
+        "originalFile": "rev_6_psy.json",
+        "section": "உளவியல்"
+      },
+      {
+        "question": "ஒரு மாணவன் ஆசிரியரின் பாராட்டிற்காகப் பாடம் படிக்கிறான் எனில், இது எவ்வகை ஊக்கம்?",
+        "options": [
+          "அக ஊக்கம்",
+          "புற ஊக்கம்",
+          "அடைவூக்கம்",
+          "தன்மதிப்பு ஊக்கம்"
+        ],
+        "answer": 1,
+        "explanation": "வெளிக்காரணிகளான பாராட்டு, பரிசு போன்றவற்றிற்காகச் செயல்படுவது புற ஊக்கம்.",
+        "originalFile": "psy_l3.json",
+        "section": "உளவியல்"
+      },
+      {
+        "question": "சொற்கள், எண்கள் மற்றும் குறியீடுகளைக் கையாளும் திறன் எவ்வாறு அழைக்கப்படுகிறது?",
+        "options": [
+          "சமூக நுண்ணறிவு",
+          "கருத்தியல் நுண்ணறிவு",
+          "செயல்முறை நுண்ணறிவு",
+          "படைப்பாற்றல் நுண்ணறிவு"
+        ],
+        "answer": 1,
+        "explanation": "கருத்தியல் நுண்ணறிவு (Abstract Intelligence) என்பது குறியீடுகள், எண்கள் மற்றும் சொற்களைக் கையாளும் திறனைக் குறிக்கிறது.",
+        "originalFile": "psy_l4.json",
+        "section": "உளவியல்"
+      },
+      {
+        "question": "ஒரு ஆசிரியை நாளைய வகுப்பிற்கான கற்பித்தல் துணைக்கருவிகளைத் (TLM) தயார் செய்கிறார். ஜாக்சனின் கற்பித்தல் நிலைகளில் இது எந்த நிலையைக் குறிக்கிறது?",
+        "options": [
+          "இடைவினை நிலை",
+          "பின்-செயல்பாட்டு நிலை",
+          "முன்-செயல்பாட்டு நிலை",
+          "இவை எதுவுமில்லை"
+        ],
+        "answer": 2,
+        "explanation": "வகுப்பறைக்குச் செல்லும் முன் செய்யப்படும் தயாரிப்புகள் மற்றும் திட்டமிடல்கள் முன்-செயல்பாட்டு நிலை ஆகும்.",
+        "originalFile": "psy_l7.json",
+        "section": "உளவியல்"
+      },
+      {
+        "question": "ஒரு வகுப்பில் ஒரு மாணவன் பார்வைக்குறைபாடு உடையவனாக இருக்கிறான். அவனுக்காகப் பெரிய எழுத்துக்களில் அச்சிடப்பட்ட புத்தகங்கள் வழங்கப்பட்டு மற்ற சாதாரண மாணவர்களுடன் இணைந்து பயில்கிறான். இது எதன் உதாரணம்?",
+        "options": [
+          "தனிமைப்படுத்தப்பட்ட கல்வி",
+          "முறைசாராக் கல்வி",
+          "உள்ளடக்கிய கல்வி",
+          "சிறப்புப் பள்ளி"
+        ],
+        "answer": 2,
+        "explanation": "மாற்றுத்திறனாளி மாணவர்களைச் சாதாரண மாணவர்களுடன் இணைத்து சிறப்பு வசதி தருவது உள்ளடக்கிய கல்வியாகும்.",
+        "originalFile": "psy_l7.json",
+        "section": "உளவியல்"
+      },
+      {
+        "question": "முயற்சி செய்தும் கற்றலில் முன்னேற்றம் ஏதும் இல்லாத இடைகால நிலை?",
+        "options": [
+          "ஆரம்ப வேகம்",
+          "கற்றல் தேக்க நிலை (Plateau Phase)",
+          "இறுதி வேகம்",
+          "வெற்றி"
+        ],
+        "answer": 1,
+        "explanation": "முன்னேற்றம் தேங்கி நிற்கும் சமதள நிலை.",
+        "originalFile": "rev_3_psy.json",
+        "section": "உளவியல்"
+      },
+      {
+        "question": "எரிக்சனின் கோட்பாட்டின்படி 6 - 12 வயது என்பது எந்த நிலையைச் சார்ந்தது?",
+        "options": [
+          "பள்ளிப் பருவம்",
+          "குமரப் பருவம்",
+          "குழவிப் பருவம்",
+          "முதுமைப் பருவம்"
+        ],
+        "answer": 0,
+        "explanation": "பள்ளிப் பருவம்",
+        "originalFile": "psy_l1.json",
+        "section": "உளவியல்"
+      },
+      {
+        "question": "குறிப்பிட்ட துறைகளில் (எ.கா: இசை, ஓவியம்) தனித்து விளங்கும் திறன் ஸ்பியர்மனின் கோட்பாட்டின்படி எது?",
+        "options": [
+          "g-காரணி",
+          "s-காரணி",
+          "முதன்மைக் காரணி",
+          "பொருளடக்கம்"
+        ],
+        "answer": 1,
+        "explanation": "தனித்துவமான அல்லது குறிப்பிட்ட சிறப்பான திறன்கள் 's' காரணி (Specific factor) எனப்படும்.",
+        "originalFile": "psy_l4.json",
+        "section": "உளவியல்"
+      },
+      {
+        "question": "'ஒளி பிறந்தது' என்னும் பாடப்பகுதி யாருடனான நேர்காணலாக அமைந்துள்ளது?",
+        "options": [
+          "சி.வி. இராமன்",
+          "ஏ.பி.ஜே. அப்துல் கலாம்",
+          "மயில்சாமி அண்ணாதுரை",
+          "க. சிவன்"
+        ],
+        "answer": 1,
+        "explanation": "இப்பாடம் மாணவர்களுக்கும் ஏ.பி.ஜே. அப்துல் கலாம் அவர்களுக்கும் இடையிலான நேர்காணலாக அமைந்துள்ளது.",
+        "originalFile": "tam_6_t1_l4.json",
+        "section": "தமிழ்"
+      },
+      {
+        "question": "24. 'உழவர்' : ஏர் :: 'நெசவாளர்' : _________",
+        "options": [
+          "கத்தி",
+          "சுத்தியல்",
+          "தறி",
+          "ஊசி"
+        ],
+        "answer": 2,
+        "explanation": "உழவரின் முதன்மைக் கருவி ஏர், நெசவாளரின் முதன்மைக் கருவி தறி.",
+        "originalFile": "rev_4_tam.json",
+        "section": "தமிழ்"
+      },
+      {
+        "question": "பிறிதின்நோய் தந்நோய்போல் போற்றாக் கடை... இக்குறள் வலியுறுத்துவது எது?",
+        "options": [
+          "சுயநலம்",
+          "இரக்கம் / பிற உயிரை நேசித்தல்",
+          "செல்வம் சேர்த்தல்",
+          "கல்வி கற்றல்"
+        ],
+        "answer": 1,
+        "explanation": "பிற உயிர்களின் துன்பத்தை தன் துன்பமாகக் கருதும் பண்பு அறிவின் பயன் என வலியுறுத்தப்படுகிறது.",
+        "originalFile": "tam_6_t2_l17.json",
+        "section": "தமிழ்"
+      },
+      {
+        "question": "37. 'மக்கள் கவிஞர்' என அழைக்கப்படும் பட்டுக்கோட்டை கல்யாணசுந்தரம் எந்தத் துறையின் மூலமாகத் தன் சீர்திருத்தக் கருத்துகளை மக்களிடம் எளிதாகக் கொண்டு சேர்த்தார்?",
+        "options": [
+          "நாடகம்",
+          "திரையிசைப் பாடல்கள்",
+          "சிறுகதைகள்",
+          "மேடைப் பேச்சுகள்"
+        ],
+        "answer": "திரையிசைப் பாடல்கள்",
+        "explanation": "திரையிசைப் பாடல்கள் மூலமாகவே அவர் உழைப்பாளிகளின் உணர்வுகளையும் சீர்திருத்தங்களையும் பரப்பினார்.",
+        "originalFile": "tam_6_t2_l1.json",
+        "section": "தமிழ்"
+      },
+      {
+        "question": "சொல்லின் இடையில் வரும் எழுத்துகள் எவை?",
+        "options": [
+          "அ) மெய்யெழுத்துகள் மட்டும்",
+          "ஆ) உயிர்மெய் எழுத்துகள் மட்டும்",
+          "இ) மெய், உயிர்மெய், ஆய்தம் மற்றும் அளபெடையில் உயிரெழுத்து",
+          "ஈ) ஆய்த எழுத்து மட்டும்"
+        ],
+        "answer": "இ) மெய், உயிர்மெய், ஆய்தம் மற்றும் அளபெடையில் உயிரெழுத்து",
+        "explanation": "உயிர் எழுத்துகள் அளபெடையில் மட்டுமே இடையில் வரும்.",
+        "originalFile": "tam_6_t1_l16.json",
+        "section": "தமிழ்"
+      },
+      {
+        "question": "14. விவசாயம் செய்த எழிலன் எவற்றைப் பயிரிட்டான்?",
+        "options": [
+          "காய்கறிகள்",
+          "மலர்ச்செடிகள்",
+          "பழ மரங்கள்",
+          "மூலிகைகள்"
+        ],
+        "answer": 0,
+        "explanation": "அவன் நிலத்தில் காய்கறிகளைப் பயிரிட்டு, அவற்றை விற்றுப் லாபம் ஈட்டினான்.",
+        "originalFile": "tam_6_t2_l15.json",
+        "section": "தமிழ்"
+      },
+      {
+        "question": "1. 'ஏதிலிக்குருவிகள்' கவிதையை இயற்றியவர் யார்?",
+        "options": [
+          "பாரதியார்",
+          "அழகிய பெரியவன்",
+          "சுரதா",
+          "கண்ணதாசன்"
+        ],
+        "answer": 1,
+        "explanation": "ஏதிலிக்குருவிகள் என்னும் கவிதையை எழுதியவர் அழகிய பெரியவன் ஆவார்.",
+        "originalFile": "tam_6_t1_l8.json",
+        "section": "தமிழ்"
+      },
+      {
+        "question": "நாவின் நுனி அண்ணத்தின் நுனியைப் பொருந்துவது எதற்கு?",
+        "options": [
+          "அ) க், ங்",
+          "ஆ) ச், ஞ்",
+          "இ) ட், ண்",
+          "ஈ) த், ந்"
+        ],
+        "answer": "இ) ட், ண்",
+        "explanation": "டகரமும் ணகரமும் நுனி நாவால் பிறக்கின்றன.",
+        "originalFile": "tam_8_l5.json",
+        "section": "தமிழ்"
+      },
+      {
+        "question": "15. α««α«░α»üα«ñα»ìα«ñα»üα«╡α««α»ì, α«àα«▒α«┐α«╡α«┐α«»α«▓α»ì α««α«▒α»ìα«▒α»üα««α»ì α«òα«úα«┐α«ñ α«¿α»éα«▓α»ìα«òα«│α»ì α«Äα«¿α»ìα«ñα«ñα»ì α«ñα«│α«ñα»ìα«ñα«┐α«▓α»ì α«ëα«│α»ìα«│α«⌐?",
+        "options": [
+          "α«¿α«╛α«⌐α»ìα«òα«╛α««α»ì α«ñα«│α««α»ì",
+          "α«Éα«¿α»ìα«ñα«╛α««α»ì α«ñα«│α««α»ì",
+          "α«åα«▒α«╛α««α»ì α«ñα«│α««α»ì",
+          "α«Åα«┤α«╛α««α»ì α«ñα«│α««α»ì"
+        ],
+        "answer": 1,
+        "explanation": "α«Éα«¿α»ìα«ñα«╛α««α»ì α«ñα«│α««α»ì α««α«░α»üα«ñα»ìα«ñα»üα«╡α««α»ì, α«àα«▒α«┐α«╡α«┐α«»α«▓α»ì, α«òα«úα«┐α«ñ α«¿α»éα«▓α»ìα«òα«│α»üα«òα»ìα«òα«╛α«ò α«Æα«ñα»üα«òα»ìα«òα«¬α»ìα«¬α«ƒα»ìα«ƒα»üα«│α»ìα«│α«ñα»ü.",
+        "originalFile": "backup_l4_utf8.json",
+        "section": "தமிழ்"
+      },
+      {
+        "question": "வாழ்க்கையில் வெற்றி பெற கலாம் கூறும் வழிகள் எத்தனை?",
+        "options": [
+          "ஒன்று",
+          "இரண்டு",
+          "மூன்று",
+          "நான்கு"
+        ],
+        "answer": "இரண்டு",
+        "explanation": "அறிவை வளர்க்கும் பேச்சைக் கேட்பது மற்றும் கடின உழைப்பு என இரண்டு வழிகளைக் கூறுகிறார்.",
+        "originalFile": "tam_6_t1_l15.json",
+        "section": "தமிழ்"
+      },
+      {
+        "question": "தந்நோய்போல் போற்றாக் கடை - இதில் 'கடை' என்பதன் பொருள் யாது?",
+        "options": [
+          "கடைசி",
+          "இல்லாவிட்டால்",
+          "அங்காடி",
+          "வாசல்படி"
+        ],
+        "answer": 1,
+        "explanation": "போற்றாக் கடை என்றால் போற்றாவிட்டால் அல்லது பேணாவிட்டால் என்று பொருள்.",
+        "originalFile": "tam_6_t2_l17.json",
+        "section": "தமிழ்"
+      },
+      {
+        "question": "நாவின் நுனி மேல்வாய்ப் பல்லின் அடியைப் பொருந்துவதால் பிறக்கும் எழுத்துக்கள்?",
+        "options": [
+          "அ) க், ங்",
+          "ஆ) ச், ஞ்",
+          "இ) ட், ண்",
+          "ஈ) த், ந்"
+        ],
+        "answer": "ஈ) த், ந்",
+        "explanation": "நாக்கின் நுனி மேல்வாய்ப் பல்லின் அடிப்பகுதியைத் தொடும்போது இவை பிறக்கின்றன.",
+        "originalFile": "tam_8_l5.json",
+        "section": "தமிழ்"
+      },
+      {
+        "question": "22. ஆய்த எழுத்து தனக்கு பின் எவ்வகை எழுத்தைப் பெற்று வரும்?",
+        "options": [
+          "மெல்லின உயிர்மெய்",
+          "இடையின உயிர்மெய்",
+          "வல்லின உயிர்மெய்",
+          "வல்லின மெய்"
+        ],
+        "answer": 2,
+        "explanation": "ஆய்த எழுத்து தனக்கு பின் எப்போதும் ஒரு வல்லின உயிர்மெய் எழுத்தைப் பெற்று வரும்.",
+        "originalFile": "tam_6_t1_l10.json",
+        "section": "தமிழ்"
+      },
+      {
+        "question": "'சந்தனம்' என்ற சொல்லில் வந்துள்ள இன எழுத்துகள் எவை?",
+        "options": [
+          "ண் - ட்",
+          "ந் - த்",
+          "ம் - ப்",
+          "ன் - ற்"
+        ],
+        "answer": 1,
+        "explanation": "சந்தனம் என்ற சொல்லில் 'ந்' என்னும் மெல்லினத்திற்குப் பின் 'த்' (த) வந்துள்ளது.",
+        "originalFile": "tam_6_t2_l5.json",
+        "section": "தமிழ்"
+      },
+      {
+        "question": "முதலெழுத்துகள் எனப்படுபவை யாவை?",
+        "options": [
+          "உயிர் மட்டும்",
+          "மெய் மட்டும்",
+          "உயிரும் மெய்யும்",
+          "ஆய்தம்"
+        ],
+        "answer": "உயிரும் மெய்யும்",
+        "explanation": "",
+        "originalFile": "tam_6_t1_l10.json",
+        "section": "தமிழ்"
+      },
+      {
+        "question": "அப்துல் கலாம் வெற்றி பெறுவதற்கு எத்தனை வழிகள் உள்ளன என்று மாணவர்களுக்குக் கூறினார்?",
+        "options": [
+          "ஒன்று",
+          "இரண்டு",
+          "மூன்று",
+          "நான்கு"
+        ],
+        "answer": 1,
+        "explanation": "வெற்றி பெற இரண்டு வழிகள் உள்ளதாகக் கலாம் குறிப்பிட்டார்.",
+        "originalFile": "tam_6_t1_l15.json",
+        "section": "தமிழ்"
+      },
+      {
+        "question": "இரா. இளங்குமரனார் எங்கு நூலகம் ஒன்றை அமைத்துள்ளார்?",
+        "options": [
+          "அ) திருச்சியில் (அல்லூர்)",
+          "ஆ) மதுரையில்",
+          "இ) சென்னையில்",
+          "ஈ) கோவையில்"
+        ],
+        "answer": "அ) திருச்சியில் (அல்லூர்)",
+        "explanation": "திருச்சி அருகே அல்லூரில் 'திருவள்ளுவர் தவச்சாலை' மற்றும் 'பாவாணர் நூலகம்' அமைத்துள்ளார்.",
+        "originalFile": "tam_8_l4.json",
+        "section": "தமிழ்"
+      },
+      {
+        "question": "நூறு ஆண்டுகளுக்குப் பிறகு இந்தியாவில் எந்தப் பல்கலைக்கழகத்தைப் போல வலுவான கல்வி முறை இருக்கும் என கலாம் நம்புகிறார்?",
+        "options": [
+          "தட்சசீலம்",
+          "நாளந்தா",
+          "காஞ்சி",
+          "மதுரை"
+        ],
+        "answer": 1,
+        "explanation": "பண்டைய இந்தியாவின் மிகச்சிறந்த கல்வி நிறுவனமான நாளந்தாவைப் போல் கல்வி முறை மாறும் என்றார் கலாம்.",
+        "originalFile": "tam_6_t1_l15.json",
+        "section": "தமிழ்"
+      },
+      {
+        "question": "'மாத்திரை' என்பது இலக்கணத்தில் எதனைக் குறிக்கிறது?",
+        "options": [
+          "மருந்து",
+          "எடை",
+          "கால அளவு",
+          "நீளம்"
+        ],
+        "answer": 2,
+        "explanation": "மாத்திரை என்பது இங்கு எழுத்துகளை ஒலிக்கும் கால அளவைக் குறிக்கிறது.",
+        "originalFile": "tam_6_t1_l5.json",
+        "section": "தமிழ்"
+      },
+      {
+        "question": "32. 'மரம்' என்ற சொல்லின் பொருள் வீரம். 'அறம்' என்பதன் பொருள் என்னவாக இருக்கும்?",
+        "options": [
+          "தீமை",
+          "நற்செயல் / தருமம்",
+          "மரம்",
+          "போர்"
+        ],
+        "answer": 1,
+        "explanation": "அறம் என்பது நல்லொழுக்கம் அல்லது நற்செயலைக் குறிக்கும் சொல்லாகும்.",
+        "originalFile": "tam_6_t2_l12.json",
+        "section": "தமிழ்"
+      },
+      {
+        "question": "பொருத்துக: முத்துச்சுடர் போல - _________",
+        "options": [
+          "தென்றல்",
+          "மாடங்கள்",
+          "நிலாவொளி",
+          "உள்ளம்"
+        ],
+        "answer": 2,
+        "explanation": "",
+        "originalFile": "tam_6_t1_l7.json",
+        "section": "தமிழ்"
+      },
+      {
+        "question": "28. 'பத்து' என்ற சொல்லில் உள்ள சார்பெழுத்து எது?",
+        "options": [
+          "ப",
+          "த்",
+          "து",
+          "இதில் சார்பெழுத்து இல்லை"
+        ],
+        "answer": 2,
+        "explanation": "ப (உயிர்மெய் - சார்பெழுத்து), த் (மெய் - முதலெழுத்து), து (உயிர்மெய் - சார்பெழுத்து). எனினும் 'து' என்பது குற்றியலுகரம் என்ற சார்பெழுத்து வகையிலும் வரும்.",
+        "originalFile": "tam_6_t1_l10.json",
+        "section": "தமிழ்"
+      },
+      {
+        "question": "செய்யுளில் ஓசை குறையும்போது அதனை நிறைவு செய்ய உயிர் எழுத்து அளபெடுப்பது?",
+        "options": [
+          "ஒற்றளபெடை",
+          "உயிரளபெடை",
+          "குற்றியலிகரம்",
+          "குற்றியலுகரம்"
+        ],
+        "answer": 1,
+        "explanation": "உயிரெழுத்துக்கள் நீண்டு ஒலிப்பது உயிரளபெடை எனப்படும்.",
+        "originalFile": "rev_1_tam.json",
+        "section": "தமிழ்"
+      },
+      {
+        "question": "26. காமராசரின் இல்லங்கள் அமைந்துள்ள இடங்கள் யாவை?",
+        "options": [
+          "சென்னை மற்றும் மதுரை",
+          "சென்னை மற்றும் விருதுநகர்",
+          "கன்னியாகுமரி மற்றும் விருதுநகர்",
+          "மதுரை மற்றும் விருதுநகர்"
+        ],
+        "answer": "சென்னை மற்றும் விருதுநகர்",
+        "explanation": "சென்னை மற்றும் விருதுநகரில் உள்ள அவரது இல்லங்கள் அரசுடைமையாக்கப்பட்டு நினைவு இல்லங்களாக உள்ளன.",
+        "originalFile": "tam_6_t2_l2.json",
+        "section": "தமிழ்"
+      },
+      {
+        "question": "தக்க வழிகளை ஆராய்ந்து கூறும் அறிஞர்கள் மன்னனுக்கு எவ்வாறு அமைகிறார்கள்?",
+        "options": [
+          "அமைச்சராக",
+          "கண்ணாக",
+          "ஆயுதமாக",
+          "நிழலாக"
+        ],
+        "answer": 1,
+        "explanation": "சூழ்வார் கண்ணாக ஒழுகலான் மன்னவன் - அறிஞர்களே மன்னனுக்குக் கண்கள் போன்றவர்கள்.",
+        "originalFile": "tam_6_t2_l17.json",
+        "section": "தமிழ்"
+      },
+      {
+        "question": "6. மாமல்லபுரத்தை இன்று எவ்வாறு அழைக்கிறோம்?",
+        "options": [
+          "மகாபலிபுரம்",
+          "சென்னை",
+          "பூம்புகார்",
+          "உறையூர்"
+        ],
+        "answer": 0,
+        "explanation": "மாமல்லன் பெயரால் அமைந்த இந்நகரம் காலப்போக்கில் மகாபலிபுரம் என வழங்கப்படலாயிற்று.",
+        "originalFile": "tam_6_t2_l16.json",
+        "section": "தமிழ்"
+      },
+      {
+        "question": "35. 'மீள்கோணம்' - நூலின் ஆசிரியர் யார்?",
+        "options": [
+          "சுப்புரத்தினம்",
+          "அரவிந்தன் (அழகிய பெரியவன்)",
+          "இராதாகிருஷ்ணன்",
+          "மு.வரதராசனார்"
+        ],
+        "answer": 1,
+        "explanation": "மீள்கோணம் என்ற கட்டுரைத் தொகுப்பை எழுதியவர் அழகிய பெரியவன்.",
+        "originalFile": "tam_6_t1_l8.json",
+        "section": "தமிழ்"
+      },
+      {
+        "question": "மரபு நிலைத் திரியின் _________?",
+        "options": [
+          "அ) நன்மை தரும்",
+          "ஆ) பிறிது பிறிதாகும்",
+          "இ) இன்பம் தரும்",
+          "ஈ) எதுவும் மாறாது"
+        ],
+        "answer": "ஆ) பிறிது பிறிதாகும்",
+        "explanation": "பொருள் மாறிவிடும் என்று தொல்காப்பியம் எச்சரிக்கிறது.",
+        "originalFile": "tam_8_l2.json",
+        "section": "தமிழ்"
+      },
+      {
+        "question": "26. ஔவையார் கையாண்ட தூது முறை எத்தகையது?",
+        "options": [
+          "மிரட்டல் முறை",
+          "கெஞ்சும் முறை",
+          "உளவியல் சார்ந்த மதிநுட்ப முறை",
+          "பரிசளிக்கும் முறை"
+        ],
+        "answer": 2,
+        "explanation": "எதிரியைப் புகழ்வது போலப் பேசி அவனது உளவியலை மாற்றி, அறியாமையை அகற்றிய மதிநுட்பம் அது.",
+        "originalFile": "tam_6_t2_l9.json",
+        "section": "தமிழ்"
+      },
+      {
+        "question": "'தள்ளினுந் தள்ளாமை நீர்த்து' - இதில் 'நீர்த்து' என்பதன் பொருள் என்ன?",
+        "options": [
+          "தண்ணீர் போன்றது",
+          "தன்மை உடையது",
+          "கரைந்து போகும்",
+          "பயனற்றது"
+        ],
+        "answer": 1,
+        "explanation": "நீர்த்து என்பது 'தன்மை உடையது' அல்லது 'இயல்புடையது' என்ற பொருளைத் தரும்.",
+        "originalFile": "tam_6_t2_l11.json",
+        "section": "தமிழ்"
+      },
+      {
+        "question": "Meaning of 'Conservation'? || 'Conservation' என்பதன் பொருள்?",
+        "options": [
+          "Killing animals",
+          "Preservation/Protection",
+          "Waste",
+          "Building city"
+        ],
+        "answer": 1,
+        "explanation": "",
+        "originalFile": "eng_8_l6.json",
+        "section": "ஆங்கிலம்"
+      },
+      {
+        "question": "How should we handle misunderstanding in friendship? || தோழமையில் வரும்த் தப்பபிப்பிராயத்தை எவ்வாறுப் போக்கலாம்?",
+        "options": [
+          "Stop talking forever",
+          "Talk and solve it",
+          "Tell bad things to others",
+          "Start a big fight"
+        ],
+        "answer": 1,
+        "explanation": "",
+        "originalFile": "eng_8_l16.json",
+        "section": "ஆங்கிலம்"
+      },
+      {
+        "question": "Identify the verb: 'She sings beautifully.'",
+        "options": [
+          "She",
+          "Sings",
+          "Beautifully",
+          "Is"
+        ],
+        "answer": 1,
+        "explanation": "'Sings' is the action being performed.",
+        "originalFile": "rev_2_eng.json",
+        "section": "ஆங்கிலம்"
+      },
+      {
+        "question": "Identify: \"A soul you serve\". Who is the person being served? || இது யாரைக் குறிக்கும்?",
+        "options": [
+          "Every person we meet",
+          "Only the rich",
+          "The poet himself",
+          "God"
+        ],
+        "answer": 0,
+        "explanation": "",
+        "originalFile": "eng_8_l8.json",
+        "section": "ஆங்கிலம்"
+      },
+      {
+        "question": "In the poem, the computer is compared to? || கவிதையில் கணினி எதனுடன் ஒப்பிடப்படுகிறது?",
+        "options": [
+          "A tired person/child",
+          "A car",
+          "A mountain",
+          "The sun"
+        ],
+        "answer": 0,
+        "explanation": "",
+        "originalFile": "eng_8_l20.json",
+        "section": "ஆங்கிலம்"
+      },
+      {
+        "question": "Safety on the internet is also called? || இணையப் பாதுகாப்பு எவ்வாறு அழைக்கப்படுகிறது?",
+        "options": [
+          "Food safety",
+          "Cyber Safety",
+          "Water safety",
+          "Road safety"
+        ],
+        "answer": 1,
+        "explanation": "",
+        "originalFile": "eng_8_l13.json",
+        "section": "ஆங்கிலம்"
+      },
+      {
+        "question": "Who is the 'I' in the poem 'Fire Work Night'? || 'பயர்வொர்க் நைட்' கவிதையில் 'நான்' (I) என்பது யாரைக் குறிக்கும்?",
+        "options": [
+          "The Master",
+          "The Dog",
+          "A firework",
+          "A child"
+        ],
+        "answer": 1,
+        "explanation": "",
+        "originalFile": "eng_8_l14.json",
+        "section": "ஆங்கிலம்"
+      },
+      {
+        "question": "Identify: Prefix of 'Disappear'. || 'Disappear' எனும் சொல்லின் முன்னொட்டு?",
+        "options": [
+          "Appear",
+          "Dis",
+          "Ear",
+          "Pear"
+        ],
+        "answer": 1,
+        "explanation": "",
+        "originalFile": "eng_8_l3.json",
+        "section": "ஆங்கிலம்"
+      },
+      {
+        "question": "What is the meaning of 'Everlasting'? || 'Everlasting' என்ற சொல்லின் பொருள் என்ன?",
+        "options": [
+          "Short-lived",
+          "Lasting forever / Eternal",
+          "Small",
+          "Weak"
+        ],
+        "answer": 1,
+        "explanation": "",
+        "originalFile": "eng_8_l2.json",
+        "section": "ஆங்கிலம்"
+      },
+      {
+        "question": "Expansion of PIN? || PIN என்பதன் விரிவாக்கம்?",
+        "options": [
+          "Personal Identification Number",
+          "Post Information Network",
+          "Public Info Node",
+          "None"
+        ],
+        "answer": 0,
+        "explanation": "",
+        "originalFile": "eng_8_l1.json",
+        "section": "ஆங்கிலம்"
+      },
+      {
+        "question": "What is the meaning of 'Cuisine'? || 'Cuisine' என்பதன் பொருள்?",
+        "options": [
+          "Traveling",
+          "Style of cooking",
+          "Sport",
+          "Book reading"
+        ],
+        "answer": 1,
+        "explanation": "",
+        "originalFile": "eng_8_l4.json",
+        "section": "ஆங்கிலம்"
+      },
+      {
+        "question": "Mani's writing became a 'successful career' because? || மணியின் எழுத்துப்பணி எதனால் ஒரு வெற்றிகரமானத் தொழிலாக மாறியது?",
+        "options": [
+          "He practiced a lot",
+          "He had no other work",
+          "The king paid him",
+          "It was a magic book"
+        ],
+        "answer": 0,
+        "explanation": "",
+        "originalFile": "eng_8_l4.json",
+        "section": "ஆங்கிலம்"
+      },
+      {
+        "question": "43. How does the poet describe his father's love in \"Special Hero\"?",
+        "options": [
+          "Temporary",
+          "Everlasting",
+          "Strict",
+          "Conditional"
+        ],
+        "answer": 1,
+        "explanation": "The poet says, \"Your love is everlasting,\" highlighting a permanent, unconditional bond.",
+        "originalFile": "rev_4_eng.json",
+        "section": "ஆங்கிலம்"
+      },
+      {
+        "question": "What did Newton find out about light using a prism? || முப்பட்டகத்தைப் பயன்படுத்தி ஒளி பற்றி நியூட்டன் என்னத் தெரிவித்தார்?",
+        "options": [
+          "Light is black",
+          "White light has seven colors",
+          "Light only has one color",
+          "Light doesn't travel"
+        ],
+        "answer": 1,
+        "explanation": "",
+        "originalFile": "eng_8_l7.json",
+        "section": "ஆங்கிலம்"
+      },
+      {
+        "question": "The island was a small green _____. / அந்த தீவு ஒரு சிறிய பச்சை ____.",
+        "options": [
+          "a) Desert",
+          "b) Paradise",
+          "c) Forest",
+          "d) Park"
+        ],
+        "answer": "b) Paradise",
+        "explanation": "The rocky island transformed into a green paradise with trees.",
+        "originalFile": "eng_6_t1_l5.json",
+        "section": "ஆங்கிலம்"
+      },
+      {
+        "question": "Rucha was afraid of ________.",
+        "options": [
+          "Running",
+          "Failing",
+          "Cycling",
+          "Losing"
+        ],
+        "answer": 2,
+        "explanation": "She had a fall while cycling and lost her confidence.",
+        "originalFile": "rev_5_eng.json",
+        "section": "ஆங்கிலம்"
+      },
+      {
+        "question": "Why is the father called a 'Hero'? || தந்தை ஏன் ஒரு நாயகனாக அழைக்கப்படுகிறார்?",
+        "options": [
+          "He fought in war",
+          "For his noble love and protection",
+          "He is famous",
+          "He won a medal"
+        ],
+        "answer": 1,
+        "explanation": "",
+        "originalFile": "eng_8_l2.json",
+        "section": "ஆங்கிலம்"
+      },
+      {
+        "question": "Meaning of 'Vigour'? || 'Vigour' என்பதன் பொருள்?",
+        "options": [
+          "Weakness",
+          "Liveliness and Energy",
+          "Sadness",
+          "Slowness"
+        ],
+        "answer": 1,
+        "explanation": "",
+        "originalFile": "eng_8_l4.json",
+        "section": "ஆங்கிலம்"
+      },
+      {
+        "question": "If the king had not helped the hermit, what would have happened? || அரசர் ஞானிக்கு உதவாமல் திரும்பியிருந்தால் என்னவாயிருக்கும்?",
+        "options": [
+          "He would have been safe",
+          "The enemy would have attacked him on the way",
+          "He would have found gold",
+          "Nothing would have changed"
+        ],
+        "answer": 1,
+        "explanation": "",
+        "originalFile": "eng_8_l9.json",
+        "section": "ஆங்கிலம்"
+      },
+      {
+        "question": "What was the name of the school the girls belonged to? / சிறுமிகள் படிக்கும் பள்ளியின் பெயர் என்ன?",
+        "options": [
+          "a) New Era",
+          "b) Springfields",
+          "c) Global School",
+          "d) Victory High"
+        ],
+        "answer": "b) Springfields",
+        "explanation": "Springfields is the name of their school.",
+        "originalFile": "eng_6_t2_l3.json",
+        "section": "ஆங்கிலம்"
+      },
+      {
+        "question": "Meaning of 'Special' in Tamil: || 'Special' என்பதன் தமிழ்ப் பொருள்?",
+        "options": [
+          "சாதாரண",
+          "/",
+          "பழைய",
+          "வேகமான"
+        ],
+        "answer": 1,
+        "explanation": "",
+        "originalFile": "eng_8_l17.json",
+        "section": "ஆங்கிலம்"
+      },
+      {
+        "question": "The expansion of 'A' in the friend context? || ஏ (A) என்பது நட்பின்ச் சூழலில்?",
+        "options": [
+          "Affection",
+          "Angry",
+          "Above",
+          "Away"
+        ],
+        "answer": 0,
+        "explanation": "",
+        "originalFile": "eng_8_l16.json",
+        "section": "ஆங்கிலம்"
+      },
+      {
+        "question": "What is the synonym of 'Gloom'? || 'Gloom' என்பதன் ஒத்தப்பொருள் யாது?",
+        "options": [
+          "Brightness",
+          "Darkness/Sadness",
+          "Happiness",
+          "Speed"
+        ],
+        "answer": 1,
+        "explanation": "",
+        "originalFile": "eng_8_l11.json",
+        "section": "ஆங்கிலம்"
+      },
+      {
+        "question": "Identify: 'Blackboard' || 'பிளாக்போர்டு' என்பது?",
+        "options": [
+          "Adjective",
+          "Compound word",
+          "Verb",
+          "Pronoun"
+        ],
+        "answer": 1,
+        "explanation": "",
+        "originalFile": "eng_8_l2.json",
+        "section": "ஆங்கிலம்"
+      },
+      {
+        "question": "Which word is a synonym for 'spectacular'?",
+        "options": [
+          "A) Boring",
+          "B) Eye-catching",
+          "C) Frightened",
+          "D) Delicious"
+        ],
+        "answer": "B",
+        "explanation": "'Spectacular' means beautiful in a dramatic and eye-catching way.",
+        "originalFile": "eng_6_t2_l4.json",
+        "section": "ஆங்கிலம்"
+      },
+      {
+        "question": "Why are the sights 'gone forever'?",
+        "options": [
+          "A) The train crashes",
+          "B) The train moves so fast that the specific fleeting moment can never be seen exactly the same way again",
+          "C) The poet goes blind",
+          "D) The sights are destroyed after the train passes"
+        ],
+        "answer": "B",
+        "explanation": "The journey is continuous, and the rapid forward motion leaves the momentary sights permanently behind.",
+        "originalFile": "eng_6_t2_l5.json",
+        "section": "ஆங்கிலம்"
+      },
+      {
+        "question": "In the poem 'I Dream of Spices', what did the boy actually buy instead of spices?",
+        "options": [
+          "Sugar and Salt",
+          "Onion and Garlic",
+          "Sesame Seeds and Onions",
+          "Chillies and Mustard"
+        ],
+        "answer": 2,
+        "explanation": "He forgets the list and buys sesame seeds and onions.",
+        "originalFile": "rev_2_eng.json",
+        "section": "ஆங்கிலம்"
+      },
+      {
+        "question": "Identify the homophone for 'Hear'. || 'Hear' - என்பதற்கான 'ஹோமோபோன்' எது?",
+        "options": [
+          "Here",
+          "Hair",
+          "Heir",
+          "None"
+        ],
+        "answer": 0,
+        "explanation": "",
+        "originalFile": "eng_8_l20.json",
+        "section": "ஆங்கிலம்"
+      },
+      {
+        "question": "Identify: 'Shravya' is an expansion of? || சிராவியா என்பது எதைக் குறிக்கும்?",
+        "options": [
+          "A real person",
+          "A fake name/identity",
+          "A school",
+          "None"
+        ],
+        "answer": 1,
+        "explanation": "",
+        "originalFile": "eng_8_l21.json",
+        "section": "ஆங்கிலம்"
+      },
+      {
+        "question": "What does a 'Rational fly' suggest? || 'Rational fly' (பகுத்தறிவுப் பறத்தல்) என்பது எதனைக் குறிக்கும்?",
+        "options": [
+          "A flying insect",
+          "Thinking logically about life",
+          "A fast plane",
+          "None"
+        ],
+        "answer": 1,
+        "explanation": "",
+        "originalFile": "eng_8_l5.json",
+        "section": "ஆங்கிலம்"
+      },
+      {
+        "question": "குறைந்தது 1000 மீட்டர் உயரத்திற்கு மேல் காணப்படும் உயர்ந்த நிலப்பகுதிகள் யாவை?",
+        "options": [
+          "மலைகள்",
+          "பீடபூமிகள்",
+          "சமவெளிகள்",
+          "பள்ளத்தாக்குகள்"
+        ],
+        "answer": "மலைகள்",
+        "explanation": "சுற்றுப்புறத்தை விட 600 மீட்டருக்கு மேல் உயர்ந்தவை மலைகள். பீடபூமிகள் சமமான மேற்பரப்பைக் கொண்ட உயர்த்தப்பட்ட நிலப்பகுதிகள்.",
+        "originalFile": "soc_6_t1_l6.json",
+        "section": "சமூக அறிவியல்"
+      },
+      {
+        "question": "இந்தியத் தொழிலகங்களின் கூட்டமைப்பு (CII) எந்த ஆண்டு தொடங்கப்பட்டது?",
+        "options": [
+          "1885",
+          "1895",
+          "1907",
+          "1948"
+        ],
+        "answer": 1,
+        "explanation": "இந்தியத் தொழிலகங்களின் கூட்டமைப்பு (CII) 1895 ஆம் ஆண்டு தொடங்கப்பட்டது. இது ஒரு அரசு சாரா, இலாப நோக்கற்ற அமைப்பாகும்.",
+        "originalFile": "soc_8_l6.json",
+        "section": "சமூக அறிவியல்"
+      },
+      {
+        "question": "ஒப்புமை தருக: பல்லவர் : கயிலாசநாதர் கோயில் :: சோழர் : ?",
+        "options": [
+          "மதுரை மீனாட்சியம்மன் கோயில்",
+          "கல்லணை",
+          "மாமல்லபுரம்",
+          "குடைவரைக் கோயில்"
+        ],
+        "answer": "கல்லணை",
+        "explanation": "பல்லவர்கள் எப்படி கயிலாசநாதர் கோயிலைக் கட்டி கட்டடக் கலையில் சிறந்து விளங்கினரோ, அதேபோல சோழர்கள் (கரிகாலன்) கல்லணையைக் கட்டி நீர் மேலாண்மையில் சிறந்து விளங்கினர்.",
+        "originalFile": "soc_6_t1_l4.json",
+        "section": "சமூக அறிவியல்"
+      },
+      {
+        "question": "கீழ்க்கண்டவற்றுள் சேவைத் துறைக்கு (மூன்றாம் நிலைத் தொழில்) பொருந்தாதது எது?",
+        "options": [
+          "வங்கி",
+          "போக்குவரத்து",
+          "சுரங்கத் தொழில்",
+          "தகவல் தொடர்பு"
+        ],
+        "answer": 2,
+        "explanation": "சுரங்கத் தொழில் என்பது இயற்கையிலிருந்து கனிமங்களை எடுக்கும் முதல்நிலைத் தொழிலாகும். மற்றவை சேவைத் துறைகள்.",
+        "originalFile": "soc_6_t2_l7.json",
+        "section": "சமூக அறிவியல்"
+      },
+      {
+        "question": "கதக் எந்தப் பகுதியின் முக்கியச் செவ்வியல் நடனம்?",
+        "options": [
+          "தமிழ்நாடு",
+          "வட இந்தியா",
+          "கேரளா",
+          "மணிப்பூர்"
+        ],
+        "answer": "வட இந்தியா",
+        "explanation": "கதக் என்பது வட இந்திய மாநிலங்களில் ஆடப்படும் பாரம்பரிய நடனம்.",
+        "originalFile": "soc_6_t1_l7.json",
+        "section": "சமூக அறிவியல்"
+      },
+      {
+        "question": "புத்தர் எங்கு பிறந்தார்?",
+        "options": [
+          "கயா",
+          "குந்தகிராமம்",
+          "சாரநாத்",
+          "லும்பினி தோட்டம்"
+        ],
+        "answer": 3,
+        "explanation": "புத்தர் நேபாள நாட்டில் உள்ள லும்பினி தோட்டத்தில் பிறந்தார்.",
+        "originalFile": "soc_6_t2_l2.json",
+        "section": "சமூக அறிவியல்"
+      },
+      {
+        "question": "கீழ்க்கண்ட எந்த நகரம் குர்க்காப் போரின் போது ஆங்கிலேயர்களால் நிறுவப்படவில்லை?",
+        "options": [
+          "சிம்லா",
+          "டார்ஜிலிங்",
+          "ஊட்டி",
+          "இவை எதுவும் இல்லை"
+        ],
+        "answer": 0,
+        "explanation": "சிம்லா மட்டுமே 1814-1816 குர்க்காப் போரின் போது நிறுவப்பட்டது.",
+        "originalFile": "soc_8_l7.json",
+        "section": "சமூக அறிவியல்"
+      },
+      {
+        "question": "சுற்றுலாப் பயணிகளுக்காகத் திறக்கப்பட்ட பண்டைய நகரம் எது?",
+        "options": [
+          "பூம்புகார் (புகார்)",
+          "மதுரை",
+          "தஞ்சை",
+          "சென்னை"
+        ],
+        "answer": 0,
+        "explanation": "கடல் வணிகத்திற்காக உலகெங்கும் பேசப்பட்ட நகரம்.",
+        "originalFile": "rev_2_soc.json",
+        "section": "சமூக அறிவியல்"
+      },
+      {
+        "question": "தற்பொழுது பயன்பாட்டில் இல்லாததும், இருப்பிடம் அறியப்படாமல் இருப்பதும் எவ்வகை வளங்களாகும்?",
+        "options": [
+          "உலகளாவிய வளங்கள்",
+          "மறைந்திருக்கும் வளங்கள்",
+          "கண்டறியப்பட்ட வளங்கள்",
+          "சமூக வளங்கள்"
+        ],
+        "answer": 1,
+        "explanation": "பயன்பாட்டில் இல்லாத, இருப்பிடம் அறியப்படாத வளங்கள் மறைந்திருக்கும் வளங்கள் (Potential) எனப்படும்.",
+        "originalFile": "soc_6_t2_l4.json",
+        "section": "சமூக அறிவியல்"
+      },
+      {
+        "question": "பிப்ரவரி 1757-ல் அலிநகர் உடன்படிக்கை யார் யாருக்கிடையே கையெழுத்தானது?",
+        "options": [
+          "மீர் காசிம் மற்றும் ஹெக்டர் மன்றோ",
+          "சிராஜ்-உத்-தௌலா மற்றும் ராபர்ட் கிளைவ்",
+          "ஹைதர் அலி மற்றும் சர் அயர் கூட்",
+          "சுஜா-உத்-தௌலா மற்றும் ராபர்ட் கிளைவ்"
+        ],
+        "answer": 1,
+        "explanation": "இருட்டறைத் துயரச் சம்பவத்திற்குப் பிறகு, கல்கத்தாவை மீண்டும் ஆங்கிலேயர்கள் கைப்பற்றியதால், சிராஜ்-உத்-தௌலாவிற்கும் ராபர்ட் கிளைவிற்கும் இடையே அலிநகர் உடன்படிக்கை ஏற்பட்டது.",
+        "originalFile": "soc_8_l2.json",
+        "section": "சமூக அறிவியல்"
+      },
+      {
+        "question": "மௌரியர் நிர்வாகத்தில் அரசருக்கு உதவ இருந்த குழுவின் பெயர் என்ன?",
+        "options": [
+          "நவரத்தினங்கள்",
+          "அஷ்டதிக்கஜங்கள்",
+          "மந்திரி பரிஷத்",
+          "அஷ்டபிரதான்"
+        ],
+        "answer": 2,
+        "explanation": "மந்திரி பரிஷத் என்பது அரசருக்கு ஆலோசனை வழங்கும் அமைப்பாகும்.",
+        "originalFile": "soc_6_t2_l3.json",
+        "section": "சமூக அறிவியல்"
+      },
+      {
+        "question": "குருகுலக் கல்வியில் பாடங்கள் எவ்வாறு கற்பிக்கப்பட்டன?",
+        "options": [
+          "ஓலைச்சுவடிகள் மூலம்",
+          "கல்வெட்டுகள் மூலம்",
+          "வாய்மொழி மரபில்",
+          "மட்பாண்ட எழுத்துகள் மூலம்"
+        ],
+        "answer": 2,
+        "explanation": "வேதகால குருகுலக் கல்வியில் பாடங்கள் வாய்மொழி மரபிலேயே கற்பிக்கப்பட்டன.",
+        "originalFile": "soc_6_t2_l1.json",
+        "section": "சமூக அறிவியல்"
+      },
+      {
+        "question": "சர்வதேச மலைகள் தினம் எந்த நாளில் கொண்டாடப்படுகிறது?",
+        "options": [
+          "டிசம்பர் 11",
+          "ஜூன் 5",
+          "செப்டம்பர் 16",
+          "ஏப்ரல் 22"
+        ],
+        "answer": "டிசம்பர் 11",
+        "explanation": "மலைகளின் முக்கியத்துவத்தை உலகறியச் செய்ய ஒவ்வொரு ஆண்டும் டிசம்பர் 11 ஆம் தேதி சர்வதேச மலைகள் தினமாகக் கடைபிடிக்கப்படுகிறது.",
+        "originalFile": "soc_6_t1_l6.json",
+        "section": "சமூக அறிவியல்"
+      },
+      {
+        "question": "வரலாறு என்ற சொல் எம்மொழிச் சொல்லிலிருந்து பெறப்பட்டது?",
+        "options": [
+          "இலத்தீன்",
+          "கிரேக்கம்",
+          "சமஸ்கிருதம்",
+          "அரபு"
+        ],
+        "answer": "கிரேக்கம்",
+        "explanation": "",
+        "originalFile": "soc_6_t1_l1.json",
+        "section": "சமூக அறிவியல்"
+      },
+      {
+        "question": "தமிழ்நாட்டில் மொத்தம் எத்தனை பாளையங்கள் இருந்தன?",
+        "options": [
+          "70",
+          "72",
+          "75",
+          "82"
+        ],
+        "answer": 1,
+        "explanation": "விஸ்வநாத நாயக்கர் காலத்தில் 72 பாளையங்களாகப் பிரிக்கப்பட்டது.",
+        "originalFile": "soc_8_l4.json",
+        "section": "சமூக அறிவியல்"
+      },
+      {
+        "question": "1804-ஆம் ஆண்டு வங்காள ஒழுங்குமுறைச் சட்டம் எதனைச் சட்டவிரோதமானது என அறிவித்தது?",
+        "options": [
+          "சதி முறை",
+          "தேவதாசி முறை",
+          "பெண் சிசுக்கொலை",
+          "பலதார மணம்"
+        ],
+        "answer": 2,
+        "explanation": "",
+        "originalFile": "soc_8_l8.json",
+        "section": "சமூக அறிவியல்"
+      },
+      {
+        "question": "மகாஜனபதங்கள் தோன்றிய காலம் ________.",
+        "options": [
+          "கி.மு. 6-ம் நூற்றாண்டு",
+          "கி.மு. 10-ம் நூற்றாண்டு",
+          "கி.பி. 1-ம் நூற்றாண்டு",
+          "கி.மு. 15-ம் நூற்றாண்டு"
+        ],
+        "answer": 0,
+        "explanation": "புத்தர் மற்றும் மகாவீரர் வாழ்ந்த காலத்தில் 16 மகாஜனபதங்கள் இருந்தன.",
+        "originalFile": "rev_3_soc.json",
+        "section": "சமூக அறிவியல்"
+      },
+      {
+        "question": "ஆரியர்கள் எந்தப் பகுதியிலிருந்து இந்தியாவிற்குள் குடிபெயர்ந்தனர்?",
+        "options": [
+          "மத்திய ஆசியா",
+          "கிழக்கு ஐரோப்பா",
+          "தென்கிழக்கு ஆசியா",
+          "தென் ஆப்பிரிக்கா"
+        ],
+        "answer": 0,
+        "explanation": "ஆரியர்கள் மத்திய ஆசியாவிலிருந்து இந்தியாவிற்குள் வந்தனர்.",
+        "originalFile": "soc_6_t2_l1.json",
+        "section": "சமூக அறிவியல்"
+      },
+      {
+        "question": "1613-ஆம் ஆண்டில் டச்சுக்காரர்கள் பழவேற்காட்டில் (Pulicat) கட்டிய கோட்டையின் பெயர் என்ன?",
+        "options": [
+          "புனித டேவிட் கோட்டை",
+          "கெல்டிரியா கோட்டை",
+          "டேனஸ்பர்க் கோட்டை",
+          "புனித லூயிஸ் கோட்டை"
+        ],
+        "answer": 1,
+        "explanation": "டச்சுக்காரர்கள் பழவேற்காட்டில் கட்டிய கோட்டையின் பெயர் 'கெல்டிரியா கோட்டை'. இங்கு வைரம் ஏற்றுமதி செய்யப்பட்டது.",
+        "originalFile": "soc_8_l1.json",
+        "section": "சமூக அறிவியல்"
+      },
+      {
+        "question": "எவ்வகை வளங்களை மீண்டும் மீண்டும் பயன்படுத்தினாலும் தீர்ந்து போகாது?",
+        "options": [
+          "புதுப்பிக்கத்தக்க வளங்கள் (Renewable)",
+          "புதுப்பிக்க இயலாத வளங்கள்",
+          "குறைந்து வரும் வளங்கள்",
+          "தனித்துவ வளங்கள்"
+        ],
+        "answer": 0,
+        "explanation": "சூரிய ஆற்றல், காற்று, நீர் போன்றவை புதுப்பிக்கத்தக்க வளங்கள்.",
+        "originalFile": "rev_5_soc.json",
+        "section": "சமூக அறிவியல்"
+      },
+      {
+        "question": "மனிதனின் தேவையை நிறைவு செய்யும் எந்தவொரு பொருளும் எவ்வாறு அழைக்கப்படுகிறது?",
+        "options": [
+          "மூலப்பொருள்",
+          "வளங்கள்",
+          "உற்பத்திப் பொருள்",
+          "கனிமங்கள்"
+        ],
+        "answer": 1,
+        "explanation": "மனிதனின் தேவையை நிறைவு செய்யும் எந்தவொரு பொருளும் வளமாகும்.",
+        "originalFile": "soc_6_t2_l4.json",
+        "section": "சமூக அறிவியல்"
+      },
+      {
+        "question": "இந்திய அரசியலமைப்புச் சட்டத்தின் உண்மைப் பிரதிகள் (இந்தி, ஆங்கிலம்) எங்குப் பாதுகாக்கப்படுகின்றன?",
+        "options": [
+          "குடியரசுத் தலைவர் மாளிகை",
+          "உச்ச நீதிமன்றம்",
+          "நாடாளுமன்ற நூலகம் (ஹீலியம் வாயுப் பெட்டியில்)",
+          "அருங்காட்சியகம்"
+        ],
+        "answer": 2,
+        "explanation": "சிதைவடையாமல் இருக்க ஹீலியம் வாயு நிரப்பப்பட்ட பெட்டியில் வைக்கப்பட்டுள்ளது.",
+        "originalFile": "rev_5_soc.json",
+        "section": "சமூக அறிவியல்"
+      },
+      {
+        "question": "கிராம பஞ்சாயத்துகளின் நிர்வாக அதிகாரி யார்?",
+        "options": [
+          "தலைவர்",
+          "செயலாளர் (BDO)",
+          "பஞ்சாயத்து தலைவர்",
+          "ஆட்சியர்"
+        ],
+        "answer": 1,
+        "explanation": "பஞ்சாயத்து செயலாளர் அல்லது நிர்வாக அலுவலர் அரசுப் பணிகளைக் கவனிப்பார்.",
+        "originalFile": "rev_3_soc.json",
+        "section": "சமூக அறிவியல்"
+      },
+      {
+        "question": "ஆரியர்கள் முதன்முதலில் குடியேறிய இந்தியப் பகுதி எது?",
+        "options": [
+          "கங்கைச் சமவெளி",
+          "சப்த சிந்து (ஏழு ஆறுகள் ஓடும் பகுதி)",
+          "தமிழகம்",
+          "தக்காணம்"
+        ],
+        "answer": 1,
+        "explanation": "மத்திய ஆசியாவிலிருந்து வந்தவர்கள் பஞ்சாப் பகுதியில் குடியேறினர்.",
+        "originalFile": "rev_3_soc.json",
+        "section": "சமூக அறிவியல்"
+      },
+      {
+        "question": "தேசியக் கொடியில் உள்ள அசோகச் சக்கரம் எத்தனை ஆரங்களைக் கொண்டுள்ளது?",
+        "options": [
+          "20",
+          "22",
+          "24",
+          "26"
+        ],
+        "answer": 2,
+        "explanation": "கருநீல நிறத்தில் அமைந்துள்ள அசோகச் சக்கரம் 24 ஆரங்களைக் கொண்டுள்ளது.",
+        "originalFile": "soc_6_t2_l5.json",
+        "section": "சமூக அறிவியல்"
+      },
+      {
+        "question": "வட துருவத்தை மையமாகக் கொண்டு அமைந்துள்ள பெருங்கடல் எது?",
+        "options": [
+          "பசிபிக்",
+          "ஆரக்டிக்",
+          "தென் பெருங்கடல்",
+          "இந்தியப் பெருங்கடல்"
+        ],
+        "answer": "ஆரக்டிக்",
+        "explanation": "வட துருவம் (90° N) ஆரக்டிக் பெருங்கடலின் மையத்தில் அமைந்துள்ளது.",
+        "originalFile": "soc_6_t1_l6.json",
+        "section": "சமூக அறிவியல்"
+      },
+      {
+        "question": "தேசிய உள்ளாட்சி தினம் எப்போது கொண்டாடப்படுகிறது?",
+        "options": [
+          "ஏப்ரல் 24",
+          "மே 1",
+          "ஜனவரி 1",
+          "அக்டோபர் 2"
+        ],
+        "answer": 0,
+        "explanation": "பஞ்சாயத்து ராஜ் சட்டம் நடைமுறைக்கு வந்த தினமாகும்.",
+        "originalFile": "rev_3_soc.json",
+        "section": "சமூக அறிவியல்"
+      },
+      {
+        "question": "முதல் கர்நாடகப் போரின் போது (1746) சென்னையில் நடைபெற்ற முக்கியமான போர் எது?",
+        "options": [
+          "ஆம்பூர் போர்",
+          "ஆற்காடு போர்",
+          "அடையாறு போர்",
+          "வந்தவாசிப் போர்"
+        ],
+        "answer": 2,
+        "explanation": "முதல் கர்நாடகப் போரின் போது பிரெஞ்சுப் படைக்கும் கர்நாடக நவாப் அன்வருதீன் படைக்கும் இடையே சென்னையில் 'அடையாறு போர்' (1746) நடைபெற்றது.",
+        "originalFile": "soc_8_l2.json",
+        "section": "சமூக அறிவியல்"
+      },
+      {
+        "question": "148. உன்னுடைய பகுதியில் ஒரு தொல்லியல் ஆய்வகம் (Archaeological site) கண்டுபிடிக்கப்பட்டால், நீ செய்ய வேண்டியது என்ன?",
+        "options": [
+          "அங்குள்ள பொருட்களை எடுத்துச் செல்வது",
+          "அதை மறைப்பது",
+          "அந்தப் பொருட்களை அழிக்க முயற்சிப்பது",
+          "தொல்லியல் துறை அதிகாரிகளுக்கோ அரசுக்கோ தகவல் தெரிவிப்பது"
+        ],
+        "answer": 3,
+        "explanation": "வரலாற்றுச் சின்னங்களைப் பாதுகாப்பது குடிமக்களின் கடமையாகும்.",
+        "originalFile": "rev_4_soc.json",
+        "section": "சமூக அறிவியல்"
+      },
+      {
+        "question": "சூரிய ஒளி மற்றும் காற்று ஆகியவை எவ்வகை பரவல் வளங்களுக்கு எடுத்துக்காட்டாகும்?",
+        "options": [
+          "உள்ளூர் வளங்கள்",
+          "உலகளாவிய வளங்கள்",
+          "தனிநபர் வளங்கள்",
+          "சமூக வளங்கள்"
+        ],
+        "answer": 1,
+        "explanation": "சூரிய ஒளியும் காற்றும் உலகின் அனைத்து பகுதிகளிலும் காணப்படுவதால் இவை உலகளாவிய வளங்கள்.",
+        "originalFile": "soc_6_t2_l4.json",
+        "section": "சமூக அறிவியல்"
+      },
+      {
+        "question": "கீழடி, பொருந்தல், கொடுமணல், ஆதிச்சநல்லூர் ஆகிய அகழ்வாய்வு மையங்களை அவற்றின் சிறப்புப் பொருட்களுடன் சரியாகப் பொருத்தியுள்ள விடையைத் தேர்ந்தெடுக்கவும்.",
+        "options": [
+          "கீழடி - சுழல் அச்சுகள்",
+          "பொருந்தல் - தங்க ஆபரணங்கள்",
+          "கொடுமணல் - சுழல் அச்சுகள்",
+          "ஆதிச்சநல்லூர் - கொழுமுனைகள்"
+        ],
+        "answer": 2,
+        "explanation": "சரியான பொருத்தம்: கீழடி - பகடை, பொருந்தல் - கொழுமுனைகள், கொடுமணல் - சுழல் அச்சுகள், ஆதிச்சநல்லூர் - தங்க ஆபரணங்கள்.",
+        "originalFile": "soc_6_t2_l1.json",
+        "section": "சமூக அறிவியல்"
+      },
+      {
+        "question": "சிறுமிகளுக்கான தொடக்கப் பள்ளிகளைத் திறக்கப் பரிந்துரைத்த கல்விக் குழு எது?",
+        "options": [
+          "வுட்ஸ் கல்வி அறிக்கை",
+          "ஹண்டர் குழு (1882)",
+          "கோத்தாரி கல்விக் குழு (1964)",
+          "ராதாகிருஷ்ணன் குழு"
+        ],
+        "answer": 1,
+        "explanation": "",
+        "originalFile": "soc_8_l8.json",
+        "section": "சமூக அறிவியல்"
+      },
+      {
+        "question": "தேசிய இலச்சினையின் பீடத்தில் அமைந்துள்ள குதிரை எதைக் குறிக்கிறது?",
+        "options": [
+          "வேகம்",
+          "ஆற்றல்",
+          "கடின உழைப்பு",
+          "கம்பீரம்"
+        ],
+        "answer": 0,
+        "explanation": "தேசிய இலச்சினையின் பீடத்தில் உள்ள குதிரை 'வேகம்' என்பதைக் குறிக்கிறது.",
+        "originalFile": "soc_6_t2_l5.json",
+        "section": "சமூக அறிவியல்"
+      },
+      {
+        "question": "மௌரியர் காலத்து நாணயங்களில் பொறிக்கப்பட்டிருந்த சின்னங்கள் எவை?",
+        "options": [
+          "மயில், மலை மற்றும் பிறைச் சந்திரன்",
+          "புலி, சிங்கம் மற்றும் யானை",
+          "சூரியன், சந்திரன் மற்றும் நட்சத்திரம்",
+          "வில், அம்பு மற்றும் வாள்"
+        ],
+        "answer": 0,
+        "explanation": "மௌரியர்கள் தங்களது நாணயங்களில் மயில், மலை, பிறைச் சந்திரன் ஆகிய சின்னங்களைப் பொறித்திருந்தனர்.",
+        "originalFile": "soc_6_t2_l3.json",
+        "section": "சமூக அறிவியல்"
+      },
+      {
+        "question": "தங்கம் குறிப்பிட்ட சில இடங்களில் மட்டுமே வெட்டியெடுக்கப்படுகிறது. எனவே இது எவ்வகை வளம்? (பயன்பாட்டு வினா)",
+        "options": [
+          "உலகளாவிய வளம்",
+          "பன்னாட்டு வளம்",
+          "உள்ளூர் வளம்",
+          "சமூக வளம்"
+        ],
+        "answer": 2,
+        "explanation": "குறிப்பிட்ட பகுதிகளில் மட்டுமே கிடைக்கும் வளம் உள்ளூர் வளம் என வரையறுக்கப்படுகிறது.",
+        "originalFile": "soc_6_t2_l4.json",
+        "section": "சமூக அறிவியல்"
+      },
+      {
+        "question": "மனிதர்கள் ஓரிடத்தில் நிலைத்து வாழ்வதற்கு முக்கியக் காரணமாக அமைந்தது எது?",
+        "options": [
+          "சக்கரம் கண்டுபிடிப்பு",
+          "பாறை குகைகள்",
+          "நெருப்பின் பயன்பாடு",
+          "விவசாயம்"
+        ],
+        "answer": "விவசாயம்",
+        "explanation": "",
+        "originalFile": "soc_6_t1_l2.json",
+        "section": "சமூக அறிவியல்"
+      },
+      {
+        "question": "சமணத்தின் 24-வது and கடைசி தீர்த்தங்கரர் யார்?",
+        "options": [
+          "கௌதம புத்தர்",
+          "மகாவீரர்",
+          "ரிஷபர்",
+          "பார்சவநாதர்"
+        ],
+        "answer": 1,
+        "explanation": "சமண மதத்தின் 24-வது மற்றும் இறுதி தீர்த்தங்கரர் மகாவீரர் (வர்த்தமானர்) ஆவார்.",
+        "originalFile": "soc_6_t2_l2.json",
+        "section": "சமூக அறிவியல்"
+      },
+      {
+        "question": "அரசியலமைப்பு நிர்ணய சபையில் இடம்பெற்றிருந்த பெண் உறுப்பினர்களின் எண்ணிக்கை எத்தனை?",
+        "options": [
+          "12",
+          "15",
+          "10",
+          "22"
+        ],
+        "answer": 1,
+        "explanation": "இந்த அமைப்பில் 15 பெண் உறுப்பினர்கள் இருந்தனர்.",
+        "originalFile": "soc_6_t2_l6.json",
+        "section": "சமூக அறிவியல்"
+      },
+      {
+        "question": "சந்தையில் கீழ்க்கண்டவற்றுள் எவை தீர்மானிக்கப்படுகின்றன?",
+        "options": [
+          "பொருட்களின் மதிப்பு",
+          "தேவை மற்றும் அளிப்பு",
+          "லாபம் மற்றும் நட்டம்",
+          "மேற்கூறிய அனைத்தும்"
+        ],
+        "answer": 3,
+        "explanation": "சந்தையில் ஒரு பொருளின் மதிப்பு, லாபம், நட்டம், தேவை மற்றும் அளிப்பு ஆகிய அனைத்துக் காரணிகளும் தீர்மானிக்கப்படுகின்றன.",
+        "originalFile": "soc_6_t2_l7.json",
+        "section": "சமூக அறிவியல்"
+      },
+      {
+        "question": "இரண்டாவது பௌத்த மாநாடு எங்கு கூட்டப்பட்டது?",
+        "options": [
+          "ராஜகிருகம்",
+          "வைசாலி",
+          "காஷ்மீர்",
+          "பாடலிபுத்திரம்"
+        ],
+        "answer": 1,
+        "explanation": "இரண்டாம் பௌத்த மாநாடு வைசாலியில் நடைபெற்றது.",
+        "originalFile": "soc_6_t2_l2.json",
+        "section": "சமூக அறிவியல்"
+      },
+      {
+        "question": "புகழ்பெற்ற சீனப் பயணி யுவான் சுவாங் கல்வி கற்க எங்கு வந்தார்?",
+        "options": [
+          "தஞ்சாவூர்",
+          "காஞ்சிபுரம்",
+          "கும்பகோணம்",
+          "சிதம்பரம்"
+        ],
+        "answer": 1,
+        "explanation": "காஞ்சியில் இருந்த கடிகையில் தங்கி அவர் கல்வி கற்றார்.",
+        "originalFile": "rev_2_soc.json",
+        "section": "சமூக அறிவியல்"
+      },
+      {
+        "question": "முதலாம் ராஜராஜன் காலத்தில் 'எண்ணாயிரம்' என்ற இடத்தில் செயல்பட்ட கல்வி நிலையம் எது?",
+        "options": [
+          "மருத்துவப் பள்ளி",
+          "வேதக் கல்லூரி",
+          "இஸ்லாமிய மதரஸா",
+          "பௌத்த விகாரை"
+        ],
+        "answer": 1,
+        "explanation": "சோழர் காலத்தில் முதலாம் ராஜராஜன் எண்ணாயிரம் என்ற இடத்தில் ஒரு புகழ்வாய்ந்த வேதக் கல்லூரியை நிறுவினார்.",
+        "originalFile": "soc_8_l5.json",
+        "section": "சமூக அறிவியல்"
+      },
+      {
+        "question": "நாளங்காடி மற்றும் அல்லங்காடி என்ற இருவகை அங்காடிகள் எந்த நகரத்தில் செயல்பட்டன?",
+        "options": [
+          "பூம்புகார்",
+          "உறையூர்",
+          "காஞ்சிபுரம்",
+          "மதுரை"
+        ],
+        "answer": "மதுரை",
+        "explanation": "பகலில் நாளங்காடியும், இரவில் அல்லங்காடியும் செயல்பட்டு இரவு பகல் வேறுபாடின்றி பரபரப்பாக இருந்ததால் மதுரைக்கு 'தூங்கா நகரம்' என பெயர் வந்தது.",
+        "originalFile": "soc_6_t1_l4.json",
+        "section": "சமூக அறிவியல்"
+      },
+      {
+        "question": "மாவட்ட நிர்வாகத்தின் தலைவர் யார்?",
+        "options": [
+          "வட்டாட்சியர்",
+          "மாவட்ட ஆட்சியர் (Collector)",
+          "மாவட்ட நீதிபதி",
+          "போலீஸ் சூப்பிரண்டு"
+        ],
+        "answer": 1,
+        "explanation": "மாவட்டத்தின் அனைத்துத் துறைகளையும் இவர் ஒருங்கிணைப்பார்.",
+        "originalFile": "rev_2_soc.json",
+        "section": "சமூக அறிவியல்"
+      },
+      {
+        "question": "சுதந்திர நாளில் செங்கோட்டையில் இந்தியாவின் முதல் தேசியக் கொடியை ஏற்றியவர் யார்?",
+        "options": [
+          "ராஜேந்திர பிரசாத்",
+          "மகாத்மா காந்தி",
+          "ஜவஹர்லால் நேரு",
+          "சர்தார் வல்லபாய் படேல்"
+        ],
+        "answer": 2,
+        "explanation": "15.08.1947 அன்று சுதந்திர இந்தியாவின் முதல் தேசியக் கொடியைச் செங்கோட்டையில் ஏற்றியவர் ஜவஹர்லால் நேரு.",
+        "originalFile": "soc_6_t2_l5.json",
+        "section": "சமூக அறிவியல்"
+      },
+      {
+        "question": "வாக்களிக்கும் வயது வரம்பு 21-லிருந்து 18 ஆகக் குறைக்கப்பட்ட ஆண்டு?",
+        "options": [
+          "1988",
+          "1950",
+          "1947",
+          "1992"
+        ],
+        "answer": 0,
+        "explanation": "61-வது சட்டத்திருத்தத்தின்படி வயது குறைக்கப்பட்டது.",
+        "originalFile": "rev_1_soc.json",
+        "section": "சமூக அறிவியல்"
+      },
+      {
+        "question": "இரும்பு எஃகு ஆலை என்பது எவ்வகைத் தொழிற்சாலையைக் குறிக்கும்?",
+        "options": [
+          "காடு சார்ந்த",
+          "கனிமம் சார்ந்த",
+          "வேளாண் சார்ந்த",
+          "கடல் சார்ந்த"
+        ],
+        "answer": 1,
+        "explanation": "இரும்புத் தாது போன்ற கனிமங்களை அடிப்படையாகக் கொண்டு செயல்படுவதால் இது கனிமம் சார்ந்த தொழிற்சாலை ஆகும்.",
+        "originalFile": "soc_6_t2_l7.json",
+        "section": "சமூக அறிவியல்"
+      },
+      {
+        "question": "புத்தரின் முதல் போதனை நடைபெற்ற சாரநாத் மான் பூங்கா எந்த நகருக்கு அருகில் அமைந்துள்ளது?",
+        "options": [
+          "பாட்னா",
+          "வாரணாசி (காசி)",
+          "மதுரா",
+          "அலகாபாத்"
+        ],
+        "answer": 1,
+        "explanation": "சாரநாத் மான் பூங்கா உத்திரப் பிரதேசத்தில் உள்ள வாரணாசிக்கு (காசி) அருகில் அமைந்துள்ளது.",
+        "originalFile": "soc_6_t2_l2.json",
+        "section": "சமூக அறிவியல்"
+      },
+      {
+        "question": "குறைந்த பாலின விகிதம் கொண்ட மாவட்டம் (2011)?",
+        "options": [
+          "நீலகிரி",
+          "தருமபுரி",
+          "சென்னை",
+          "மதுரை"
+        ],
+        "answer": "தருமபுரி",
+        "explanation": "தருமபுரி மாவட்டம் தமிழகத்தில் குறைந்த பாலின விகிதத்தைக் கொண்டுள்ளது.",
+        "originalFile": "soc_6_t1_l8.json",
+        "section": "சமூக அறிவியல்"
+      },
+      {
+        "question": "ஆங்கிலேய-மராத்தியப் போர்களையும் அதன் உடன்படிக்கைகளையும் பொருத்துக.\n1. முதல் மராத்தியப் போர் - a. பசீன் உடன்படிக்கை (1802)\n2. இரண்டாம் மராத்தியப் போர் - b. சால்பை உடன்படிக்கை (1782)",
+        "options": [
+          "1-a, 2-b",
+          "1-b, 2-a",
+          "1-a, 2-a",
+          "1-b, 2-b"
+        ],
+        "answer": 1,
+        "explanation": "முதல் மராத்தியப் போர் சால்பை உடன்படிக்கை (1782) மூலமும், இரண்டாம் மராத்தியப் போர் பசீன் உடன்படிக்கை (1802) மூலமும் முடிவடைந்தன.",
+        "originalFile": "soc_8_l2.json",
+        "section": "சமூக அறிவியல்"
+      },
+      {
+        "question": "கீழ்க்கண்டவற்றுள் எது மதப் பண்டிகை அல்ல?",
+        "options": [
+          "ரம்ஜான்",
+          "கிறிஸ்துமஸ்",
+          "சுதந்திர தினம்",
+          "குருநானக் ஜெயந்தி"
+        ],
+        "answer": "சுதந்திர தினம்",
+        "explanation": "சுதந்திர தினம், குடியரசு தினம் போன்றவை தேசியப் பண்டிகைகள்.",
+        "originalFile": "soc_6_t1_l7.json",
+        "section": "சமூக அறிவியல்"
+      },
+      {
+        "question": "உள்ளாட்சி அமைப்புகளின் தந்தை என அழைக்கப்படுபவர் யார்?",
+        "options": [
+          "நேரு",
+          "காந்தி",
+          "ரிப்பன் பிரபு",
+          "டல்ஹவுசி"
+        ],
+        "answer": 2,
+        "explanation": "1882-ல் உள்ளாட்சித் தீர்மானத்தைக் கொண்டு வந்தார்.",
+        "originalFile": "rev_5_soc.json",
+        "section": "சமூக அறிவியல்"
+      },
+      {
+        "question": "தான் வாழும் ஆற்றின் சூழல் தரத்தை உணர்த்தும் கருவியாக செயல்படுவது எது?",
+        "options": [
+          "முதலை",
+          "நீர்யானை",
+          "ஆற்று ஓங்கில் (Dolphin)",
+          "கடற்குதிரை"
+        ],
+        "answer": 2,
+        "explanation": "ஆற்று ஓங்கில் (Dolphin) தான் வாழும் ஆற்றின் சூழல் தரத்தை உணர்த்தும் கருவியாகச் செயல்படுகிறது.",
+        "originalFile": "soc_6_t2_l5.json",
+        "section": "சமூக அறிவியல்"
+      },
+      {
+        "question": "சரியான கூற்றைத் தேர்ந்தெடு: 1. செவ்வாய் செந்நிறக் கோள். 2. யுரேனஸ் உருளும் கோள். 3. சனிக் கோள் வளையங்களைக் கொண்டது.",
+        "options": [
+          "1 மட்டும் சரி",
+          "2 மட்டும் சரி",
+          "3 மட்டும் சரி",
+          "அனைத்தும் சரி"
+        ],
+        "answer": "அனைத்தும் சரி",
+        "explanation": "இவை அனைத்தும் அந்தந்த கோள்களின் முக்கிய மற்றும் தனித்துவமான பண்புகள் ஆகும்.",
+        "originalFile": "soc_6_t1_l5.json",
+        "section": "சமூக அறிவியல்"
+      },
+      {
+        "question": "பண்டமாற்று முறையில் பழங்கால மக்கள் எதிர்கொண்ட முக்கியச் சிக்கல் எதுவாக இருந்திருக்கும்?",
+        "options": [
+          "பொருட்களை எடுத்துச் செல்வது எளிதாக இருந்தது",
+          "இருவருக்குமான தேவையின் பொருத்தம் (Double coincidence of wants) அமைவது கடினம்",
+          "பணம் அதிகம் தேவைப்பட்டது",
+          "வங்கிகள் இல்லாதது"
+        ],
+        "answer": 1,
+        "explanation": "ஒருவருக்கு அரிசி தேவைப்பட்டு, அவரிடம் உப்பு இருக்கலாம். ஆனால் அரிசி வைத்திருப்பவருக்கு உப்பு தேவைப்படாமல் போகலாம். இந்த இருமுகத் தேவைப் பொருத்தம் அமைவது கடினமாக இருந்தது.",
+        "originalFile": "soc_6_t2_l7.json",
+        "section": "சமூக அறிவியல்"
+      },
+      {
+        "question": "ஆங்கிலம் இந்தியாவின் எவ்வகையான மொழியாகப் பயன்படுத்தப்படுகிறது?",
+        "options": [
+          "தாய்மொழி",
+          "வட்டார மொழி",
+          "துணை அலுவலக மொழி (Subsidiary Official Language)",
+          "செம்மொழி"
+        ],
+        "answer": "துணை அலுவலக மொழி (Subsidiary Official Language)",
+        "explanation": "நிர்வாக வசதிக்காக ஆங்கிலம் இந்தியாவின் முக்கிய இணைப்பு மொழியாகவும் துணை அலுவலக மொழியாகவும் உள்ளது.",
+        "originalFile": "soc_6_t1_l7.json",
+        "section": "சமூக அறிவியல்"
+      },
+      {
+        "question": "இரும்பு உருக்கப்பட்டதற்கான சான்றுகள் எந்த அகழ்வாய்விடத்தில் கிடைத்துள்ளன?",
+        "options": [
+          "கொடுமணல்",
+          "பையம்பள்ளி",
+          "பொருந்தல்",
+          "கீழடி"
+        ],
+        "answer": 1,
+        "explanation": "வேலூர் மாவட்டத்திலுள்ள பையம்பள்ளியில் இரும்பு உருக்கப்பட்டதற்கான சான்றுகள் கிடைத்துள்ளன.",
+        "originalFile": "soc_6_t2_l1.json",
+        "section": "சமூக அறிவியல்"
+      },
+      {
+        "question": "'இண்டிகோ கிளர்ச்சி' (1859 - 1860) ஏற்படுவதற்கான முதன்மைக் காரணம் என்ன?",
+        "options": [
+          "நிலவரி 30% உயர்த்தப்பட்டதால்",
+          "மார்வாரி வட்டிக்காரர்களின் அதிக வட்டியால்",
+          "ஐரோப்பியப் பண்ணையார்கள் விவசாயிகளை அவுரி (Indigo) பயிரிடக் கட்டாயப்படுத்தியதால்",
+          "பஞ்சம் வந்தபோதும் அரசு வரியைத் தள்ளுபடி செய்ய மறுத்ததால்"
+        ],
+        "answer": 2,
+        "explanation": "ஐரோப்பியர்கள் தங்கள் லாபத்திற்காக இந்திய விவசாயிகளை இண்டிகோ பயிரிடக் கட்டாயப்படுத்திச் சுரண்டியதே இக்கிளர்ச்சிக்கு முக்கியக் காரணம்.",
+        "originalFile": "soc_8_l3.json",
+        "section": "சமூக அறிவியல்"
+      },
+      {
+        "question": "ஒப்புமை தருக: நியாண்டர்தால் : யூரேசியா :: ஹோமோ ஹேபிலிஸ் : ?",
+        "options": [
+          "கிழக்கு ஆப்பிரிக்கா",
+          "லண்டன்",
+          "தென் ஆப்பிரிக்கா",
+          "சீனா"
+        ],
+        "answer": "தென் ஆப்பிரிக்கா",
+        "explanation": "",
+        "originalFile": "soc_6_t1_l2.json",
+        "section": "சமூக அறிவியல்"
+      },
+      {
+        "question": "சிந்துவெளி நாகரிகம் எந்த ஆண்டளவில் சரியத் தொடங்கியது?",
+        "options": [
+          "கி.மு 3300",
+          "கி.மு 2500",
+          "கி.மு 1900",
+          "கி.மு 1500"
+        ],
+        "answer": "கி.மு 1900",
+        "explanation": "சுமார் கி.மு 1900 வாக்கில் வெள்ளப்பெருக்கு, பருவநிலை மாற்றம், படையெடுப்பு போன்ற காரணங்களால் ஹரப்பா நாகரிகம் வீழ்ச்சியடையத் தொடங்கியது.",
+        "originalFile": "soc_6_t1_l3.json",
+        "section": "சமூக அறிவியல்"
+      }
+    ]
+  }
+}

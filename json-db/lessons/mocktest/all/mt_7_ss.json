@@ -1,0 +1,1665 @@
+{
+  "lesson_meta": {
+    "title": "TNTET மாதிரி வினாத்தாள் - முழுமையான 150 வினாக்கள்",
+    "unit": "All",
+    "grade": "TET",
+    "term": "Model",
+    "subject": "General",
+    "code": "tntet_model_paper"
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "பியாஜேயின் அறிதிறன் வளர்ச்சிக் கொள்கையில், 'பொருள் நிலைத்தன்மை' (Object Permanence) எந்தப் பருவத்தில் ஏற்படுகிறது?",
+        "options": [
+          "புலனியக்கப் பருவம்",
+          "செயல்பாட்டுக்கு முந்தைய பருவம்",
+          "பருப்பொருள் செயல்பாட்டுப் பருவம்",
+          "முழுமையான செயல்பாட்டுப் பருவம்"
+        ],
+        "answer": 0,
+        "explanation": "பியாஜேயின் கொள்கைப்படி, பிறப்பு முதல் 2 வயது வரையிலான புலனியக்கப் பருவத்தில் (Sensorimotor stage) தான் குழந்தைகள் மறைக்கப்பட்ட பொருள்களும் இருப்பு கொண்டவையே என்பதை உணர்கின்றனர்."
+      },
+      {
+        "question": "கற்றலில் 'சாரம் அமைத்தல்' (Scaffolding) என்ற கருத்தை வலியுறுத்திய உளவியலாளர் யார்?",
+        "options": [
+          "சிக்மண்ட் பிராய்ட்",
+          "ஜீயான் பியாஜே",
+          "லெவ் வைகாட்ஸ்கி",
+          "பி.எப். ஸ்கின்னர்"
+        ],
+        "answer": 2,
+        "explanation": "கற்றலில் பெரியவர்கள் அல்லது திறமையானவர்களின் தற்காலிக வழிகாட்டுதலைப் பெறுவதை 'சாரம் அமைத்தல்' என லெவ் வைகாட்ஸ்கி (Lev Vygotsky) தனது சமூக-கலாச்சாரக் கொள்கையில் குறிப்பிட்டுள்ளார்."
+      },
+      {
+        "question": "எரிக்சனின் சமூக-உளவியல் வளர்ச்சிக் கொள்கையில், குமரப்பருவத்தினர் எதிர்கொள்ளும் முக்கிய உளவியல் முரண்பாடு எது?",
+        "options": [
+          "நம்பிக்கை எதிர் நம்பிக்கையின்மை",
+          "தன்னாட்சி எதிர் சந்தேகம்",
+          "முயற்சி எதிர் குற்றவுணர்வு",
+          "அடையாளம் எதிர் பாத்திரக் குழப்பம்"
+        ],
+        "answer": 3,
+        "explanation": "குமரப்பருவத்தினர் (12-18 வயது) தாங்கள் யார், சமூகத்தில் தங்கள் பங்கு என்ன என்ற அடையாளம் காணும் சிக்கலையும் (Identity vs Role confusion) பாத்திரக் குழப்பத்தையும் சந்திக்கின்றனர்."
+      },
+      {
+        "question": "பாவ்லோவின் ஆக்கநிலையுறுத்தல் (Classical Conditioning) சோதனையில் பயன்படுத்தப்பட்ட விலங்கு எது?",
+        "options": [
+          "எலி",
+          "புறா",
+          "நாய்",
+          "சிம்பன்சி"
+        ],
+        "answer": 2,
+        "explanation": "ரஷ்ய உளவியலாளர் இவான் பாவ்லோவ், நாயின் உமிழ்நீர் சுரக்கும் வினையை வைத்து ஆக்கநிலையுறுத்தல் கற்றல் கோட்பாட்டை உருவாக்கினார்."
+      },
+      {
+        "question": "செயல்படு ஆக்கநிலையுறுத்தல் (Operant Conditioning) கோட்பாட்டை உருவாக்கியவர் யார்?",
+        "options": [
+          "பி.எப். ஸ்கின்னர்",
+          "இ.எல். தார்ண்டைக்",
+          "ஆல்பர்ட் பண்டுரா",
+          "வில்லியம் ஜேம்ஸ்"
+        ],
+        "answer": 0,
+        "explanation": "பி.எப். ஸ்கின்னர் எலி மற்றும் புறாக்களை வைத்து நடத்திய சோதனைகள் மூலம் செயல்படு ஆக்கநிலையுறுத்தல் அல்லது கருவிசார் கற்றல் கோட்பாட்டை உருவாக்கினார்."
+      },
+      {
+        "question": "கோல்பர்க்கின் (Kohlberg) தார்மீக வளர்ச்சிக் கொள்கை எத்தனை நிலைகளைக் கொண்டது?",
+        "options": [
+          "2 நிலைகள், 4 படிகள்",
+          "3 நிலைகள், 6 படிகள்",
+          "4 நிலைகள், 8 படிகள்",
+          "5 நிலைகள், 10 படிகள்"
+        ],
+        "answer": 1,
+        "explanation": "லாரன்ஸ் கோல்பர்க் மனிதனின் ஒழுக்க அல்லது தார்மீக வளர்ச்சியை 3 முக்கிய நிலைகளாகவும் (Levels), ஒவ்வொரு நிலைக்கும் 2 படிகள் என மொத்தம் 6 படிகளாகவும் (Stages) பிரித்துள்ளார்."
+      },
+      {
+        "question": "பன்முக நுண்ணறிவுத் (Multiple Intelligences) கோட்பாட்டை முன்மொழிந்தவர் யார்?",
+        "options": [
+          "ஆல்பிரட் பினே",
+          "சார்லஸ் ஸ்பியர்மேன்",
+          "ஹோவர்ட் கார்ட்னர்",
+          "ராபர்ட் ஸ்டெர்ன்பெர்க்"
+        ],
+        "answer": 2,
+        "explanation": "நுண்ணறிவு என்பது ஒற்றைத் திறன் அல்ல, அது மொழியியல், தர்க்கம், இசை, உடலியக்கம் என எட்டு வகையான பன்முகத் திறன்களைக் கொண்டது என்று ஹோவர்ட் கார்ட்னர் கூறினார்."
+      },
+      {
+        "question": "நுண்ணறிவுச் சோதனைகளின் தந்தை என்று அழைக்கப்படுபவர் யார்?",
+        "options": [
+          "டெர்மன்",
+          "ஆல்பிரட் பினே",
+          "வெஸ்லர்",
+          "கால்டன்"
+        ],
+        "answer": 1,
+        "explanation": "பிரெஞ்சு உளவியலாளர் ஆல்பிரட் பினே (Alfred Binet) 1905 ஆம் ஆண்டு முதல் நுண்ணறிவுச் சோதனையை உருவாக்கினார். இவரே நுண்ணறிவுச் சோதனைகளின் தந்தை எனப்படுகிறார்."
+      },
+      {
+        "question": "நுண்ணறிவு ஈவு (IQ) கணக்கிடுவதற்கான சரியான சூத்திரம் எது?",
+        "options": [
+          "(கால வயது / மன வயது) × 100",
+          "(மன வயது / கால வயது) × 100",
+          "(மன வயது × கால வயது) / 100",
+          "(மன வயது + கால வயது) × 100"
+        ],
+        "answer": 1,
+        "explanation": "நுண்ணறிவு ஈவு (IQ) = (Mental Age / Chronological Age) × 100 என டெர்மன் (Terman) வரையறுத்தார்."
+      },
+      {
+        "question": "மீத்திறன் மிக்க (Gifted) குழந்தைகளின் நுண்ணறிவு ஈவு (IQ) பொதுவாக எந்த அளவுக்கு மேல் இருக்கும்?",
+        "options": [
+          "90",
+          "110",
+          "120",
+          "130"
+        ],
+        "answer": 3,
+        "explanation": "IQ மதிப்பீட்டு அட்டவணையின்படி 130 அல்லது 140-க்கும் மேல் நுண்ணறிவு ஈவு உள்ளவர்கள் மீத்திறன் மிக்கவர்கள் அல்லது மேதைகள் எனப்படுவர்."
+      },
+      {
+        "question": "மாஸ்லோவின் (Maslow) தேவைப் படிநிலைக் கோட்பாட்டில் மனிதனின் மிக உயர்ந்த நிலைத் தேவை எது?",
+        "options": [
+          "பாதுகாப்புத் தேவைகள்",
+          "அன்பு மற்றும் ஏற்புத் தேவைகள்",
+          "மதிப்புத் தேவைகள்",
+          "தன்னிறைவுத் தேவைகள் (Self-actualization)"
+        ],
+        "answer": 3,
+        "explanation": "அடிப்படைத் தேவைகள் அனைத்தும் பூர்த்தியான பின் மனிதன் தனது முழு திறனையும் உணர்ந்து அடையும் மிக உயர்ந்த நிலையே தன்னிறைவு அல்லது தன்-நனவாக்கம் எனப்படும்."
+      },
+      {
+        "question": "கவனித்தல் மற்றும் பின்பற்றுதல் மூலமாகவே பெரும்பாலான கற்றல் நிகழ்கிறது என்று கூறும் சமூகக் கற்றல் கோட்பாட்டை உருவாக்கியவர்?",
+        "options": [
+          "ஆல்பர்ட் பண்டுரா",
+          "ஜான் டூயி",
+          "கார்ல் ரோஜர்ஸ்",
+          "கர்ட் லெவின்"
+        ],
+        "answer": 0,
+        "explanation": "ஆல்பர்ட் பண்டுரா (Albert Bandura) போபோ பொம்மை சோதனை மூலம் குழந்தைகள் மற்றவர்களை உற்றுநோக்குதல் மற்றும் பின்பற்றுதல் வழியாகக் கற்கிறார்கள் என்பதை நிரூபித்தார்."
+      },
+      {
+        "question": "பொருளறிந்து கற்றல் அல்லது கண்டுபிடித்தல் கற்றல் (Discovery Learning) என்ற கருத்தை வலியுறுத்தியவர்?",
+        "options": [
+          "ஆசுபெல்",
+          "ப்ரூனர்",
+          "பியாஜே",
+          "காக்னே"
+        ],
+        "answer": 1,
+        "explanation": "மாணவர்கள் தாமாகவே தகவல்களைத் தேடி, ஆராய்ந்து, கண்டறிந்து கற்பதே சிறந்த கற்றல் என ஜெரோம் ப்ரூனர் (Jerome Bruner) வாதிட்டார்."
+      },
+      {
+        "question": "கருப்பொருள் இணைத்தறி சோதனை (Thematic Apperception Test - TAT) யாரால் உருவாக்கப்பட்டது?",
+        "options": [
+          "ஹெர்மன் ரோர்ஷாக்",
+          "முர்ரே மற்றும் மார்கன்",
+          "ரேவன்",
+          "கேட்டல்"
+        ],
+        "answer": 1,
+        "explanation": "படங்களைக் காட்டி கதை எழுதச் செய்யும் புறத்தேற்று நுண்முறையான TAT-ஐ முர்ரே மற்றும் மார்கன் (Murray and Morgan) உருவாக்கினர்."
+      },
+      {
+        "question": "டிஸ்லெக்ஸியா (Dyslexia) என்பது எதனுடன் தொடர்புடைய கற்றல் குறைபாடாகும்?",
+        "options": [
+          "கணிதத் திறன் குறைபாடு",
+          "எழுதுதல் குறைபாடு",
+          "படித்தல் மற்றும் மொழித்திறன் குறைபாடு",
+          "கவனச்சிதறல் குறைபாடு"
+        ],
+        "answer": 2,
+        "explanation": "டிஸ்லெக்ஸியா என்பது எழுத்துக்களை அடையாளம் காண்பதிலும், சரளமாகப் படிப்பதிலும் சிரமத்தை ஏற்படுத்தும் ஒரு நரம்பியல் சார்ந்த கற்றல் குறைபாடாகும்."
+      },
+      {
+        "question": "ADHD என்பதன் விரிவாக்கம் என்ன?",
+        "options": [
+          "Attention Deficit Hyperactivity Disorder",
+          "Active Development and Hyperactive Disorder",
+          "Attention Delay and Hearing Disorder",
+          "Adolescent Development and Health Disorder"
+        ],
+        "answer": 0,
+        "explanation": "ADHD என்பது கவனக்குறைவு மற்றும் அதிவேகச் செயல்பாட்டுக் குறைபாடு (Attention Deficit Hyperactivity Disorder) எனப்படும் நரம்பியல் வளர்ச்சிக் கோளாறாகும்."
+      },
+      {
+        "question": "ப்ளூமின் வகைப்பாட்டியலில் (Bloom's Taxonomy) அறிவுப் புலத்தின் (Cognitive domain) மிக அடிப்படையான கீழ்நிலை எது?",
+        "options": [
+          "புரிந்துகொள்ளுதல்",
+          "பயன்படுத்துதல்",
+          "அறிவு (நினைவுகூர்தல்)",
+          "மதிப்பிடுதல்"
+        ],
+        "answer": 2,
+        "explanation": "ப்ளூமின் அறிவுப்புலப் படிநிலைகளில் மிகக் கீழ்நிலை 'அறிவு' அல்லது 'நினைவுகூர்தல்' (Knowledge / Remembering) ஆகும்."
+      },
+      {
+        "question": "வகுப்பறையில் பாடம் கற்பிக்கும்போதே மாணவர்களின் புரிதலை அறிய நடத்தப்படும் மதிப்பீடு எது?",
+        "options": [
+          "தொகுத்தறி மதிப்பீடு",
+          "வளரறி மதிப்பீடு (Formative Assessment)",
+          "தரநிலை மதிப்பீடு",
+          "இறுதி மதிப்பீடு"
+        ],
+        "answer": 1,
+        "explanation": "கற்றல்-கற்பித்தல் நிகழ்வின் போதே மாணவர்களின் குறைகளைக் கண்டறிந்து திருத்த உதவும் மதிப்பீடு வளரறி மதிப்பீடு ஆகும்."
+      },
+      {
+        "question": "இந்தியாவில் நுண்ணிலைக் கற்பித்தல் சுழற்சியின் (Microteaching cycle) மொத்த கால அளவு எவ்வளவு?",
+        "options": [
+          "45 நிமிடங்கள்",
+          "30 நிமிடங்கள்",
+          "36 நிமிடங்கள்",
+          "50 நிமிடங்கள்"
+        ],
+        "answer": 2,
+        "explanation": "NCERT-ன் பரிந்துரைப்படி இந்தியாவில் ஒரு நுண்ணிலைக் கற்பித்தல் சுழற்சியின் மொத்த கால அளவு 36 நிமிடங்களாகும் (6+6+6+6+6+6)."
+      },
+      {
+        "question": "உலகின் முதல் உளவியல் ஆய்வகத்தை ஜெர்மனியில் உள்ள லீப்சிக் நகரில் நிறுவியவர் யார்?",
+        "options": [
+          "வில்லியம் ஜேம்ஸ்",
+          "வில்ஹெல்ம் வுண்ட்",
+          "ஜான் வாட்சன்",
+          "சிக்மண்ட் பிராய்ட்"
+        ],
+        "answer": 1,
+        "explanation": "1879 ஆம் ஆண்டில் வில்ஹெல்ம் வுண்ட் (Wilhelm Wundt) என்பவரால் முதல் உளவியல் ஆய்வகம் நிறுவப்பட்டு, உளவியல் ஒரு தனி அறிவியலாக உருவானது."
+      },
+      {
+        "question": "குறுகிய கால நினைவின் (Short-term memory) சராசரி கொள்ளளவு எவ்வளவு?",
+        "options": [
+          "3 ± 1 உருப்படிகள்",
+          "5 ± 2 உருப்படிகள்",
+          "7 ± 2 உருப்படிகள்",
+          "9 ± 3 உருப்படிகள்"
+        ],
+        "answer": 2,
+        "explanation": "ஜார்ஜ் மில்லர் (George Miller) என்பவரின் ஆய்வின்படி மனிதனின் குறுகிய கால நினைவின் வீச்சு மாய எண் 7 ± 2 (அதாவது 5 முதல் 9 உருப்படிகள்) ஆகும்."
+      },
+      {
+        "question": "முடிக்கப்பட்ட செயல்களை விட, முடிக்கப்படாத அல்லது பாதியில் விடப்பட்ட செயல்கள் நீண்ட காலம் நினைவில் இருப்பதைக் குறிக்கும் விளைவு?",
+        "options": [
+          "ஹாலோ விளைவு",
+          "ஜெய்கார்னிக் விளைவு (Zeigarnik effect)",
+          "பிளாசிபோ விளைவு",
+          "எப்பிங்ஹாஸ் விளைவு"
+        ],
+        "answer": 1,
+        "explanation": "ரஷ்ய உளவியலாளர் புளுமா ஜெய்கார்னிக் கண்டறிந்த இவ்விளைவு, முற்றுப்பெறாத செயல்கள் மனதில் ஒருவித அழுத்தத்தை ஏற்படுத்தி நினைவில் நிற்கின்றன என்கிறது."
+      },
+      {
+        "question": "மிதிவண்டி ஓட்டக் கற்ற ஒருவருக்கு, இருசக்கர மோட்டார் வாகனம் ஓட்டக் கற்பது எளிதாக இருப்பது எவ்வகைக் கற்றல் மாற்றம்?",
+        "options": [
+          "எதிர்மறை மாற்றம்",
+          "சுழிய மாற்றம்",
+          "நேர்மறை மாற்றம்",
+          "பக்கவாட்டு மாற்றம்"
+        ],
+        "answer": 2,
+        "explanation": "முற்கற்றல் ஒரு புதிய செயலைக் கற்பதற்கு உதவி செய்தால் அது நேர்மறை கற்றல் மாற்றம் (Positive transfer of learning) எனப்படும்."
+      },
+      {
+        "question": "சுல்தான் என்ற சிம்பன்சியை வைத்து 'உட்காட்சி வழிக் கற்றல்' (Insightful learning) சோதனையை நடத்திய கெஸ்டால்ட் உளவியலாளர் யார்?",
+        "options": [
+          "வொல்ஃப்கேங் கோலர்",
+          "குர்த் கோப்கா",
+          "மேக்ஸ் வெர்தீமர்",
+          "குர்த் லெவின்"
+        ],
+        "answer": 0,
+        "explanation": "பிரச்சினையை முழுமையாகப் பகுப்பாய்வு செய்து திடீரெனத் தீர்வு காணும் உட்காட்சி வழிக் கற்றலை கோலர் (Kohler) சிம்பன்சி மூலம் விளக்கினார்."
+      },
+      {
+        "question": "கற்றலில் 'விளைவு விதியை' (Law of Effect) முதன்முதலில் முன்மொழிந்தவர் யார்?",
+        "options": [
+          "பாவ்லோவ்",
+          "வாட்சன்",
+          "தார்ண்டைக்",
+          "ஸ்கின்னர்"
+        ],
+        "answer": 2,
+        "explanation": "இ.எல். தார்ண்டைக் (E.L. Thorndike) முயன்று தவறிக்கற்றல் கோட்பாட்டில் ஆயத்த விதி, பயிற்சி விதி மற்றும் விளைவு விதி ஆகிய மூன்றை வகுத்தார்."
+      },
+      {
+        "question": "ஒரு மாணவன் தனக்குப் பிடித்தமான பாடத்தை அதிக விருப்பத்துடன் எந்தவித வற்புறுத்தலுமின்றி படிப்பது எவ்வகை ஊக்கத்தின் பாற்படும்?",
+        "options": [
+          "புற ஊக்கம்",
+          "அக ஊக்கம் (Intrinsic motivation)",
+          "சமூக ஊக்கம்",
+          "பரிசு ஊக்கம்"
+        ],
+        "answer": 1,
+        "explanation": "தனிநபரின் உள்ளார்ந்த ஆர்வத்தாலும், செயலில் உள்ள ஈடுபாட்டாலும் தோன்றும் ஊக்கம் அக ஊக்கம் எனப்படும்."
+      },
+      {
+        "question": "ஆளுமையை அகமுகர் (Introvert) மற்றும் புறமுகர் (Extrovert) என வகைப்படுத்திய உளவியலாளர் யார்?",
+        "options": [
+          "கார்ல் யுங் (Carl Jung)",
+          "ஆல்பிரட் ஆட்லர்",
+          "ஹென்றி முர்ரே",
+          "ரேமண்ட் கேட்டல்"
+        ],
+        "answer": 0,
+        "explanation": "சுவிஸ் உளவியலாளர் கார்ல் யுங் மனித ஆளுமையை அவர்களின் சமூகத் தொடர்புகளின் அடிப்படையில் அகமுகர், புறமுகர் எனப் பிரித்தார்."
+      },
+      {
+        "question": "சிக்மண்ட் பிராய்டின் உளப்பகுப்பாய்வுக் கோட்பாட்டின்படி, முழுமையாக இன்பக் கொள்கையின் (Pleasure principle) அடிப்படையில் செயல்படும் மனதின் பகுதி எது?",
+        "options": [
+          "ஈகோ (Ego)",
+          "சூப்பர் ஈகோ (Superego)",
+          "இட் (Id)",
+          "நனவு மனம்"
+        ],
+        "answer": 2,
+        "explanation": "இட் (Id) என்பது விலங்குத் தன்மையானது. இது சரி, தவறு பார்க்காமல் உடனடி இன்பத்தையே நாடும் தன்மை கொண்டது."
+      },
+      {
+        "question": "தான் தேர்வில் தோல்வியடைந்ததற்கு வினாத்தாள் கடினமாக இருந்ததே காரணம் என ஒரு மாணவன் கூறுவது எவ்வகைத் தற்காப்பு நடத்தை?",
+        "options": [
+          "இடமாற்றம்",
+          "புறத்தேற்றுதல்",
+          "காரணம் கற்பித்தல் (Rationalization)",
+          "பின்னடைவு"
+        ],
+        "answer": 2,
+        "explanation": "தன்னுடைய குறையை மறைக்க, ஏற்றுக்கொள்ளக்கூடிய ஒரு பொய்யான அல்லது சாக்குப்போக்கான காரணத்தைக் கூறுவது காரணம் கற்பித்தல் ('திராட்சை புளிக்கும்' மனப்பான்மை) எனப்படும்."
+      },
+      {
+        "question": "உளவியலில் 'இயற்கை எதிர் வளர்ப்பு' (Nature vs. Nurture) விவாதம் எதைக் குறிக்கிறது?",
+        "options": [
+          "பள்ளி மற்றும் வீடு",
+          "மரபு மற்றும் சூழ்நிலை",
+          "உடல் மற்றும் மனம்",
+          "ஆசிரியர் மற்றும் மாணவர்"
+        ],
+        "answer": 1,
+        "explanation": "மனித வளர்ச்சியில் 'இயற்கை' என்பது மரபுவழியையும் (Heredity), 'வளர்ப்பு' என்பது அவர் வளரும் சூழ்நிலையையும் (Environment) குறிக்கிறது."
+      },
+      {
+        "question": "தொல்காப்பியத்தில் உள்ள மொத்த அதிகாரங்களின் எண்ணிக்கை எத்தனை?",
+        "options": [
+          "3",
+          "5",
+          "9",
+          "27"
+        ],
+        "answer": 0,
+        "explanation": "தமிழின் மிகப் பழமையான இலக்கண நூலான தொல்காப்பியம் எழுத்து, சொல், பொருள் என 3 அதிகாரங்களைக் கொண்டுள்ளது."
+      },
+      {
+        "question": "எட்டுத்தொகை நூல்களுள் அகமும் புறமும் கலந்த நூல் எது?",
+        "options": [
+          "நற்றிணை",
+          "குறுந்தொகை",
+          "பரிபாடல்",
+          "கலித்தொகை"
+        ],
+        "answer": 2,
+        "explanation": "பரிபாடல் மட்டுமே எட்டுத்தொகை நூல்களில் அகம் மற்றும் புறம் ஆகிய இரண்டு கருத்துகளையும் பாடும் சிறப்பைப் பெற்றுள்ளது."
+      },
+      {
+        "question": "திருக்குறளில் உள்ள மொத்த அதிகாரங்களின் எண்ணிக்கை எவ்வளவு?",
+        "options": [
+          "100",
+          "133",
+          "1330",
+          "108"
+        ],
+        "answer": 1,
+        "explanation": "திருக்குறள் அறத்துப்பால் (38), பொருட்பால் (70), இன்பத்துப்பால் (25) என மொத்தம் 133 அதிகாரங்களைக் கொண்டுள்ளது."
+      },
+      {
+        "question": "சிலப்பதிகாரம் எத்தனை காண்டங்களைக் கொண்டுள்ளது?",
+        "options": [
+          "2 காண்டங்கள்",
+          "3 காண்டங்கள்",
+          "5 காண்டங்கள்",
+          "6 காண்டங்கள்"
+        ],
+        "answer": 1,
+        "explanation": "இளங்கோவடிகள் இயற்றிய சிலப்பதிகாரம் புகார் காண்டம், மதுரைக் காண்டம், வஞ்சிக் காண்டம் என 3 காண்டங்களையும் 30 காதைகளையும் கொண்டுள்ளது."
+      },
+      {
+        "question": "கவிச்சக்கரவர்த்தி கம்பர் பிறந்த ஊர் எது?",
+        "options": [
+          "எட்டயபுரம்",
+          "திருவழுந்தூர் (தேரழுந்தூர்)",
+          "சிக்கில்",
+          "திருமறைக்காடு"
+        ],
+        "answer": 1,
+        "explanation": "கம்பர் சோழ நாட்டில் உள்ள மயிலாடுதுறைக்கு அருகிலுள்ள திருவழுந்தூர் (தேரழுந்தூர்) என்னும் ஊரில் பிறந்தார்."
+      },
+      {
+        "question": "மகாகவி பாரதியார் ஆசிரியராகப் பணியாற்றிய இதழ் எது?",
+        "options": [
+          "குயில்",
+          "தென்றல்",
+          "இந்தியா",
+          "சுதேசமித்திரன்"
+        ],
+        "answer": 2,
+        "explanation": "பாரதியார் 'இந்தியா', 'விஜயா', 'பாலபாரதி' போன்ற பல இதழ்களுக்கு ஆசிரியராக இருந்து சுதந்திர வேட்கையைத் தூண்டினார். சுதேசமித்திரனில் துணை ஆசிரியராக இருந்தார்."
+      },
+      {
+        "question": "‘உவமைக் கவிஞர்’ எனச் சிறப்பிக்கப்படும் சுரதாவின் இயற்பெயர் என்ன?",
+        "options": [
+          "முத்தையா",
+          "ராசகோபாலன்",
+          "சுப்புரத்தினம்",
+          "கனகசபை"
+        ],
+        "answer": 1,
+        "explanation": "பாரதிதாசன் (சுப்புரத்தினம்) மீதான பற்றால் சுப்புரத்தினதாசன் (சுரதா) எனப் பெயர் மாற்றிக்கொண்ட இவரின் இயற்பெயர் ராசகோபாலன் ஆகும்."
+      },
+      {
+        "question": "முத்தொள்ளாயிரம் எந்த மூவேந்தர்களைப் பற்றிப் பாடும் நூல்?",
+        "options": [
+          "சேர, சோழ, பாண்டியர்",
+          "பல்லவ, சோழ, பாண்டியர்",
+          "சேர, பாண்டிய, நாயக்கர்",
+          "பல்லவ, சாளுக்கிய, ராஷ்டிரகூடர்"
+        ],
+        "answer": 0,
+        "explanation": "முத்தொள்ளாயிரம் என்பது சேர, சோழ, பாண்டிய மன்னர்களின் சிறப்புகளைப் பற்றி தலா 300 பாடல்கள் வீதம் 900 பாடல்களைக் கொண்ட நூலாகும்."
+      },
+      {
+        "question": "குற்றியலுகரம் எத்தனை வகைப்படும்?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "answer": 2,
+        "explanation": "குற்றியலுகரம் நெடில்தொடர், ஆய்தத்தொடர், உயிர்த்தொடர், வன்றொடர், மென்றொடர், இடைத்தொடர் என 6 வகைப்படும்."
+      },
+      {
+        "question": "உயிரளபெடை எத்தனை வகைப்படும்?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": 1,
+        "explanation": "உயிரளபெடை செய்யுளிசையளபெடை (இசைநிறையளபெடை), இன்னிசையளபெடை, சொல்லிசையளபெடை என 3 வகைப்படும்."
+      },
+      {
+        "question": "ஆகுபெயர் பொதுவாக எத்தனை வகைப்படும் என நன்னூல் கூறுகிறது?",
+        "options": [
+          "10",
+          "12",
+          "16",
+          "18"
+        ],
+        "answer": 2,
+        "explanation": "பொருள், இடம், காலம், சினை, குணம், தொழில் எனப் பல வகைகளில் தோன்றி ஆகுபெயர் மொத்தம் 16 வகைப்படும் என நன்னூல் குறிப்பிடுகிறது."
+      },
+      {
+        "question": "தமிழில் வேற்றுமை எத்தனை வகைப்படும்?",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "answer": 2,
+        "explanation": "முதல் வேற்றுமை (எழுவாய்) முதல் எட்டாம் வேற்றுமை (விளி) வரை தமிழில் வேற்றுமை 8 வகைப்படும்."
+      },
+      {
+        "question": "‘காலம் கரந்த பெயரெச்சம்’ என இலக்கண நூல்கள் எதைக் குறிப்பிடுகின்றன?",
+        "options": [
+          "பண்புத்தொகை",
+          "வினைத்தொகை",
+          "உவமைத்தொகை",
+          "அன்மொழித்தொகை"
+        ],
+        "answer": 1,
+        "explanation": "காலத்தைக் காட்டும் இடைநிலையும் பெயரெச்ச விகுதியும் மறைந்து வரும் பெயரெச்சம் வினைத்தொகை எனப்படும். (எ.கா: ஊறுகாய்)."
+      },
+      {
+        "question": "'போல, புரைய, ஒப்ப, உறழ' என்பவை எவ்வகை உருபுகள்?",
+        "options": [
+          "வேற்றுமை உருபுகள்",
+          "பண்புருபுகள்",
+          "உவம உருபுகள்",
+          "இடைச்சொற்கள்"
+        ],
+        "answer": 2,
+        "explanation": "இவை ஒரு பொருளை மற்றொரு பொருளோடு ஒப்பிட்டுக் காட்டப் பயன்படும் உவம உருபுகள் ஆகும்."
+      },
+      {
+        "question": "பிரித்தால் பொருள் தராத சொற்றொடர் எது?",
+        "options": [
+          "அடுக்குத்தொடர்",
+          "இரட்டைக்கிளவி",
+          "பண்புத்தொகை",
+          "உம்மைத்தொகை"
+        ],
+        "answer": 1,
+        "explanation": "சலசல, கலகல போன்ற ஒலிக் குறிப்புச் சொற்கள் எப்போதும் இரட்டித்தே வரும், பிரித்தால் பொருள் தராது. இது இரட்டைக்கிளவி எனப்படும்."
+      },
+      {
+        "question": "அடுக்குத்தொடர் எத்தனை முறை அடுக்கி வரலாம்?",
+        "options": [
+          "2 முறை மட்டும்",
+          "3 முறை மட்டும்",
+          "2, 3, அல்லது 4 முறை",
+          "எத்தனை முறை வேண்டுமானாலும்"
+        ],
+        "answer": 2,
+        "explanation": "அசைநிலை, விரைவு, வெகுளி, அச்சம், உவகை போன்ற பொருள்களில் ஒரு சொல் இரண்டு, மூன்று அல்லது நான்கு முறை வரை அடுக்கி வருவது அடுக்குத்தொடராகும்."
+      },
+      {
+        "question": "தமிழ் விடு தூது நூலில் உள்ள கண்ணிகளின் எண்ணிக்கை எத்தனை?",
+        "options": [
+          "268",
+          "368",
+          "168",
+          "468"
+        ],
+        "answer": 0,
+        "explanation": "மதுரையில் வீற்றிருக்கும் சொக்கநாதர் மீது காதல் கொண்ட பெண் ஒருத்தி தமிழையே தூது விடுவதாக அமைந்த இந்நூல் 268 கண்ணிகளைக் கொண்டுள்ளது."
+      },
+      {
+        "question": "‘ஒன்றே குலம் ஒருவனே தேவன்’ எனப் பாடிய சித்தர் யார்?",
+        "options": [
+          "அகத்தியர்",
+          "போகர்",
+          "திருமூலர்",
+          "பாம்பாட்டிச் சித்தர்"
+        ],
+        "answer": 2,
+        "explanation": "பன்னிரு திருமுறைகளில் பத்தாம் திருமுறையாகிய திருமந்திரத்தை இயற்றிய திருமூலர் இக்கருத்தை வலியுறுத்தியுள்ளார்."
+      },
+      {
+        "question": "பெரியபுராணம் என்னும் நூலை இயற்றியவர் யார்?",
+        "options": [
+          "கம்பர்",
+          "ஒட்டக்கூத்தர்",
+          "சேக்கிழார்",
+          " புகழேந்திப் புலவர்"
+        ],
+        "answer": 2,
+        "explanation": "63 நாயன்மார்களின் வரலாற்றைக் கூறும் திருத்தொண்டர் புராணம் என்ற பெரியபுராணத்தை இயற்றியவர் சேக்கிழார் பெருமான் ஆவார்."
+      },
+      {
+        "question": "நாலடியார் நூலை இயற்றியவர்கள் யார்?",
+        "options": [
+          "சமண முனிவர்கள்",
+          "பௌத்தத் துறவிகள்",
+          "சைவ அடியார்கள்",
+          "ஆழ்வார்கள்"
+        ],
+        "answer": 0,
+        "explanation": "பதினெண்கீழ்க்கணக்கு நூல்களுள் ஒன்றான நாலடியார், பல சமண முனிவர்களால் பாடப்பட்ட 400 வெண்பாக்களைக் கொண்ட தொகுப்பாகும்."
+      },
+      {
+        "question": "‘திராவிட மொழிகளின் ஒப்பிலக்கணம்’ என்ற புகழ்பெற்ற நூலை எழுதியவர் யார்?",
+        "options": [
+          "வீரமாமுனிவர்",
+          "ராபர்ட் டி நொபிலி",
+          "கால்டுவெல்",
+          "ஜி.யு. போப்"
+        ],
+        "answer": 2,
+        "explanation": "ராபர்ட் கால்டுவெல் (Robert Caldwell) 1856 ஆம் ஆண்டு இந்நூலை எழுதி திராவிட மொழிகள் சமஸ்கிருதத்திலிருந்து வேறுபட்டவை என நிரூபித்தார்."
+      },
+      {
+        "question": "தமிழில் ‘தனித்தமிழ் இயக்கத்தைத்’ தோற்றுவித்தவர் யார்?",
+        "options": [
+          "பாரதியார்",
+          "மறைமலை அடிகள்",
+          "தேவநேயப் பாவாணர்",
+          "பரிதிமாற்கலைஞர்"
+        ],
+        "answer": 1,
+        "explanation": "வேதாசலம் என்ற தன் பெயரை மறைமலை அடிகள் என மாற்றிக்கொண்டு, பிறமொழி கலப்பின்றி தூய தமிழில் எழுதும் தனித்தமிழ் இயக்கத்தைத் தோற்றுவித்தார்."
+      },
+      {
+        "question": "பத்துப்பாட்டு நூல்களுள் ஒன்றான ‘குறிஞ்சிப்பாட்டைப்’ பாடியவர் யார்?",
+        "options": [
+          "நக்கீரர்",
+          "கபிலர்",
+          "மாங்குடி மருதனார்",
+          "கடியலூர் உருத்திரங்கண்ணனார்"
+        ],
+        "answer": 1,
+        "explanation": "ஆரிய அரசன் பிரகத்தனுக்குத் தமிழின் பெருமையை உணர்த்த கபிலர் 99 வகையான பூக்களின் பெயர்களைத் தொகுத்து குறிஞ்சிப்பாட்டைப் பாடினார்."
+      },
+      {
+        "question": "தமிழின் முதல் அகராதியான ‘சதுரகராதியை’ வெளியிட்டவர் யார்?",
+        "options": [
+          "ஜி.யு. போப்",
+          "ஆறுமுக நாவலர்",
+          "வீரமாமுனிவர்",
+          "உ.வே.சா"
+        ],
+        "answer": 2,
+        "explanation": "கான்ஸ்டான்டைன் ஜோசப் பெஸ்கி என்ற இயற்பெயர் கொண்ட வீரமாமுனிவர் பெயர், பொருள், தொகை, தொடை என 4 பிரிவுகளைக் கொண்ட சதுரகராதியை வெளியிட்டார்."
+      },
+      {
+        "question": "தமிழ்நாட்டின் மாநில மரம் எது?",
+        "options": [
+          "ஆலமரம்",
+          "அரசமரம்",
+          "பனைமரம்",
+          "தென்னைமரம்"
+        ],
+        "answer": 2,
+        "explanation": "பண்டைய காலம்தொட்டே தமிழர்களின் வாழ்வோடு இரண்டறக் கலந்துள்ள கற்பகத்தருவான பனைமரமே தமிழ்நாட்டின் மாநில மரமாகும்."
+      },
+      {
+        "question": "‘மனோன்மணீயம்’ என்ற நாடகக் காப்பியத்தை எழுதியவர் யார்?",
+        "options": [
+          "பம்மல் சம்பந்த முதலியார்",
+          "சங்கரதாஸ் சுவாமிகள்",
+          "பேராசிரியர் சுந்தரனார்",
+          "பாரதிதாசன்"
+        ],
+        "answer": 2,
+        "explanation": "தமிழ்நாட்டின் தமிழ்த்தாய் வாழ்த்தாக உள்ள 'நீராரும் கடலுடுத்த' என்ற பாடல் இடம்பெற்றுள்ள மனோன்மணீயத்தை எழுதியவர் பெ. சுந்தரனார் ஆவார்."
+      },
+      {
+        "question": "நற்றிணைப் பாடல்களின் அடிவரையறை என்ன?",
+        "options": [
+          "4 முதல் 8 அடிகள்",
+          "9 முதல் 12 அடிகள்",
+          "13 முதல் 31 அடிகள்",
+          "3 முதல் 6 அடிகள்"
+        ],
+        "answer": 1,
+        "explanation": "எட்டுத்தொகை நூலான நற்றிணை 9 அடிச் சிறுமையும் 12 அடிப் பெருமையும் கொண்ட 400 அகவற்பாக்களைக் கொண்டது."
+      },
+      {
+        "question": "இஸ்லாமிய இலக்கியமான ‘சீறாப்புராணத்தை’ இயற்றியவர் யார்?",
+        "options": [
+          "மஸ்தான் சாகிபு",
+          "குணங்குடி மஸ்தான்",
+          "உமறுப்புலவர்",
+          "செய்குத்தம்பி பாவலர்"
+        ],
+        "answer": 2,
+        "explanation": "இஸ்லாமிய இறைதூதர் நபிகள் நாயகத்தின் வாழ்க்கை வரலாற்றைக் கூறும் சீறாப்புராணத்தை வள்ளல் சீதக்காதியின் வேண்டுகோளுக்கிணங்க உமறுப்புலவர் இயற்றினார்."
+      },
+      {
+        "question": "புறநானூற்றுப் பாடல்கள் சிலவற்றை ஆங்கிலத்தில் மொழிபெயர்த்த அறிஞர் யார்?",
+        "options": [
+          "கால்டுவெல்",
+          "எல்லிஸ்",
+          "ஜி.யு. போப்",
+          "வீரமாமுனிவர்"
+        ],
+        "answer": 2,
+        "explanation": "தமிழ் இலக்கியங்கள் மீது அதீத பற்று கொண்ட ஜி.யு. போப் திருக்குறள், நாலடியார், புறநானூறு மற்றும் திருவாசகம் ஆகியவற்றை ஆங்கிலத்தில் மொழிபெயர்த்துள்ளார்."
+      },
+      {
+        "question": "‘தமிழ்த்தென்றல்’ எனச் சிறப்பிக்கப்படும் தமிழறிஞர் யார்?",
+        "options": [
+          "மு. வரதராசனார்",
+          "திரு.வி. கல்யாணசுந்தரனார்",
+          "ரா.பி. சேதுப்பிள்ளை",
+          "அறிஞர் அண்ணா"
+        ],
+        "answer": 1,
+        "explanation": "தமிழ் மொழியை மேடைப் பேச்சிலும் எழுத்திலும் மிகச் சிறப்பாகக் கையாண்ட திரு.வி.க அவர்கள் 'தமிழ்த்தென்றல்' எனப் போற்றப்படுகிறார்."
+      },
+      {
+        "question": "Identify the noun in the following sentence: 'Honesty is the best policy.'",
+        "options": [
+          "Honesty",
+          "is",
+          "best",
+          "policy"
+        ],
+        "answer": 0,
+        "explanation": "'Honesty' is an abstract noun that acts as the subject of the sentence. 'Policy' is also a noun, but 'Honesty' is the primary subject noun here."
+      },
+      {
+        "question": "Fill in the blank with the suitable article: He is ___ honest man.",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "no article"
+        ],
+        "answer": 1,
+        "explanation": "The word 'honest' starts with a silent 'h', producing a vowel sound ('o' sound). Hence, the article 'an' is used."
+      },
+      {
+        "question": "Choose the correct preposition: He died ___ cholera.",
+        "options": [
+          "from",
+          "with",
+          "by",
+          "of"
+        ],
+        "answer": 3,
+        "explanation": "When someone dies as a direct result of a disease, the correct preposition to use is 'of' (died of cholera/cancer)."
+      },
+      {
+        "question": "Choose the correct tense form: I ___ (read) this book since morning.",
+        "options": [
+          "am reading",
+          "was reading",
+          "have been reading",
+          "read"
+        ],
+        "answer": 2,
+        "explanation": "An action that started in the past and is still continuing is expressed in the present perfect continuous tense."
+      },
+      {
+        "question": "Change the sentence into Passive Voice: 'Close the door.'",
+        "options": [
+          "The door is closed.",
+          "Let the door be closed.",
+          "You are ordered to close the door.",
+          "The door should be closed."
+        ],
+        "answer": 1,
+        "explanation": "For imperative sentences (commands), the passive voice is formed using 'Let + object + be + past participle'."
+      },
+      {
+        "question": "Which conjunction is used to connect assertive sentences in indirect speech?",
+        "options": [
+          "if",
+          "whether",
+          "to",
+          "that"
+        ],
+        "answer": 3,
+        "explanation": "In reported speech, statement (assertive) sentences are joined using the conjunction 'that'."
+      },
+      {
+        "question": "Change into Superlative degree: 'No other boy in the class is as tall as Ram.'",
+        "options": [
+          "Ram is taller than any other boy in the class.",
+          "Ram is the tallest boy in the class.",
+          "Ram is tall in the class.",
+          "Very few boys are as tall as Ram."
+        ],
+        "answer": 1,
+        "explanation": "The sentence indicates that no one exceeds Ram's height, making him the absolute highest, which is expressed by the superlative 'the tallest'."
+      },
+      {
+        "question": "Identify the sentence pattern: 'They elected him President.'",
+        "options": [
+          "S V O",
+          "S V Ido Ddo",
+          "S V O C",
+          "S V O A"
+        ],
+        "answer": 2,
+        "explanation": "They (Subject) elected (Verb) him (Object) President (Complement - completes the meaning of the object)."
+      },
+      {
+        "question": "Add a suitable question tag: 'Let's go to the beach, ___?'",
+        "options": [
+          "will you",
+          "don't we",
+          "shall we",
+          "aren't we"
+        ],
+        "answer": 2,
+        "explanation": "Sentences starting with 'Let us' or 'Let's' always take the question tag 'shall we?'."
+      },
+      {
+        "question": "Fill in the blank: If I ___ a bird, I would fly in the sky.",
+        "options": [
+          "was",
+          "am",
+          "were",
+          "had been"
+        ],
+        "answer": 2,
+        "explanation": "In an imaginary or hypothetical condition (Type 2 conditional), 'were' is used for all subjects."
+      },
+      {
+        "question": "What is the meaning of the phrasal verb 'call off'?",
+        "options": [
+          "postpone",
+          "cancel",
+          "summon",
+          "speak loudly"
+        ],
+        "answer": 1,
+        "explanation": "The phrasal verb 'call off' means to cancel an event or an agreement."
+      },
+      {
+        "question": "What does the idiom 'Once in a blue moon' mean?",
+        "options": [
+          "Very often",
+          "Always",
+          "Very rarely",
+          "At night"
+        ],
+        "answer": 2,
+        "explanation": "A blue moon is a rare astronomical event. Hence, the idiom means something that happens very rarely."
+      },
+      {
+        "question": "Find the synonym for the word 'Abundant'.",
+        "options": [
+          "Scarce",
+          "Plentiful",
+          "Limited",
+          "Empty"
+        ],
+        "answer": 1,
+        "explanation": "'Abundant' means existing or available in large quantities; plentiful."
+      },
+      {
+        "question": "What is the antonym of 'Optimist'?",
+        "options": [
+          "Realist",
+          "Pessimist",
+          "Activist",
+          "Pacifist"
+        ],
+        "answer": 1,
+        "explanation": "An optimist always looks at the positive side of things, while a pessimist always expects the worst."
+      },
+      {
+        "question": "Add a suitable prefix to the word 'understand'.",
+        "options": [
+          "un-",
+          "dis-",
+          "mis-",
+          "in-"
+        ],
+        "answer": 2,
+        "explanation": "The correct prefix is 'mis-', forming the word 'misunderstand' (to fail to understand correctly)."
+      },
+      {
+        "question": "Choose the correct homophone for the word 'Peace'.",
+        "options": [
+          "Peas",
+          "Piece",
+          "Pace",
+          "Pause"
+        ],
+        "answer": 1,
+        "explanation": "'Peace' and 'Piece' sound exactly the same (homophones) but have different spellings and meanings."
+      },
+      {
+        "question": "How many syllables are there in the word 'Beautiful'?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": 1,
+        "explanation": "The word is syllabified as Beau-ti-ful, containing three distinct vowel sounds."
+      },
+      {
+        "question": "Identify the figure of speech: 'He fought like a lion in the battle.'",
+        "options": [
+          "Metaphor",
+          "Simile",
+          "Personification",
+          "Hyperbole"
+        ],
+        "answer": 1,
+        "explanation": "A direct comparison using the words 'like' or 'as' is called a Simile."
+      },
+      {
+        "question": "Identify the figure of speech: 'The wind whispered through the trees.'",
+        "options": [
+          "Simile",
+          "Metaphor",
+          "Personification",
+          "Oxymoron"
+        ],
+        "answer": 2,
+        "explanation": "Giving human qualities (whispering) to an inanimate object (the wind) is called Personification."
+      },
+      {
+        "question": "What is the plural form of the word 'Datum'?",
+        "options": [
+          "Datums",
+          "Data",
+          "Dati",
+          "Datas"
+        ],
+        "answer": 1,
+        "explanation": "Datum is a Latin singular noun. Its standard plural form is Data."
+      },
+      {
+        "question": "Fill in the relative pronoun: The man ___ stole the bag was caught by the police.",
+        "options": [
+          "whom",
+          "whose",
+          "which",
+          "who"
+        ],
+        "answer": 3,
+        "explanation": "'Who' is used as a subject relative pronoun to refer to people."
+      },
+      {
+        "question": "Choose the correct conjunction: ___ he was sick, he attended the meeting.",
+        "options": [
+          "Because",
+          "But",
+          "Though",
+          "Therefore"
+        ],
+        "answer": 2,
+        "explanation": "'Though' or 'Although' is used to introduce a subordinate clause expressing a contrast."
+      },
+      {
+        "question": "Fill in with the correct modal verb: I ___ swim across the river easily.",
+        "options": [
+          "may",
+          "can",
+          "must",
+          "shall"
+        ],
+        "answer": 1,
+        "explanation": "The modal verb 'can' is used to express ability or capacity to do something."
+      },
+      {
+        "question": "Identify the gerund in the sentence: 'Walking is a good exercise.'",
+        "options": [
+          "Walking",
+          "is",
+          "good",
+          "exercise"
+        ],
+        "answer": 0,
+        "explanation": "A gerund is a verb form ending in '-ing' that functions as a noun. Here, 'Walking' acts as the subject noun."
+      },
+      {
+        "question": "Choose the word with the correct spelling.",
+        "options": [
+          "Acommodation",
+          "Accomodation",
+          "Accommodation",
+          "Accommadation"
+        ],
+        "answer": 2,
+        "explanation": "The correct spelling is 'Accommodation', which has a double 'c' and a double 'm'."
+      },
+      {
+        "question": "A person who knows and can use several languages is called a:",
+        "options": [
+          "Linguist",
+          "Polyglot",
+          "Bilingual",
+          "Philologist"
+        ],
+        "answer": 1,
+        "explanation": "A 'Polyglot' is someone who is fluent in multiple languages. A linguist studies the science of language."
+      },
+      {
+        "question": "What is the rhyme scheme of the lines: 'Twinkle, twinkle, little star / How I wonder what you are'?",
+        "options": [
+          "abab",
+          "aabb",
+          "aa",
+          "ab"
+        ],
+        "answer": 2,
+        "explanation": "'star' and 'are' rhyme with each other, forming a couplet with the rhyme scheme 'aa'."
+      },
+      {
+        "question": "How many vowel sounds are there in the English phonetic system?",
+        "options": [
+          "5",
+          "12",
+          "20",
+          "24"
+        ],
+        "answer": 2,
+        "explanation": "While there are 5 vowel letters, they produce 20 distinct vowel sounds (12 pure vowels/monophthongs and 8 diphthongs) in English phonetics."
+      },
+      {
+        "question": "Identify the complex sentence.",
+        "options": [
+          "The sun rose and the fog disappeared.",
+          "Because he was late, he missed the train.",
+          "He is poor but honest.",
+          "Seeing the tiger, the deer ran away."
+        ],
+        "answer": 1,
+        "explanation": "A complex sentence contains one independent clause and at least one dependent clause (starting with 'Because')."
+      },
+      {
+        "question": "What is the meaning of the phrase 'to give up'?",
+        "options": [
+          "to start",
+          "to distribute",
+          "to abandon or surrender",
+          "to rise"
+        ],
+        "answer": 2,
+        "explanation": "'To give up' means to stop trying, to quit doing something, or to surrender."
+      },
+      {
+        "question": "பழங்கற்கால மனிதன் முதன்முதலில் பழக்கப்படுத்திய விலங்கு எது?",
+        "options": [
+          "பசு",
+          "குதிரை",
+          "நாய்",
+          "யானை"
+        ],
+        "answer": 2,
+        "explanation": "ஆரம்பகால மனிதர்கள் வேட்டையாடுவதற்கும், தங்களைப் பாதுகாத்துக் கொள்வதற்கும் நாயை முதன்முதலில் பழக்கப்படுத்தி வளர்த்தனர்."
+      },
+      {
+        "question": "சிந்து சமவெளி நாகரிகத்தில் மிகவும் புகழ்பெற்ற ‘பெருங்குளம்’ (Great Bath) எங்கு கண்டுபிடிக்கப்பட்டது?",
+        "options": [
+          "ஹரப்பா",
+          "லோத்தல்",
+          "மொகஞ்சதாரோ",
+          "காளபங்கன்"
+        ],
+        "answer": 2,
+        "explanation": "மொகஞ்சதாரோவில் சுட்ட செங்கற்களால் கட்டப்பட்ட, நீர் கசியாத வண்ணம் வடிவமைக்கப்பட்ட மிகப்பெரிய பொதுக்குளியல் குளம் கண்டுபிடிக்கப்பட்டது."
+      },
+      {
+        "question": "நான்கு வேதங்களில் மிகவும் பழமையான வேதம் எது?",
+        "options": [
+          "சாம வேதம்",
+          "ரிக் வேதம்",
+          "யஜுர் வேதம்",
+          "அதர்வண வேதம்"
+        ],
+        "answer": 1,
+        "explanation": "சுமார் கி.மு. 1500 அளவில் இயற்றப்பட்ட ரிக் வேதம் இந்து மதத்தின் மிகப்பழமையான புனித நூலாகும். இது தெய்வங்களைத் துதிக்கும் பாடல்களைக் கொண்டது."
+      },
+      {
+        "question": "சமண மதத்தின் 24-வது தீர்த்தங்கரரான மகாவீரரின் இயற்பெயர் என்ன?",
+        "options": [
+          "சித்தார்த்தர்",
+          "சுத்தோதனர்",
+          "வர்த்தமானர்",
+          "ராகுலன்"
+        ],
+        "answer": 2,
+        "explanation": "மகாவீரர் வைசாலிக்கு அருகிலுள்ள குந்தகிராமத்தில் பிறந்தார். இவருடைய இயற்பெயர் வர்த்தமானர் என்பதாகும்."
+      },
+      {
+        "question": "இந்தியாவின் முதல் பெரும் பேரரசான மௌரியப் பேரரசை நிறுவியவர் யார்?",
+        "options": [
+          "பிந்துசாரர்",
+          "அசோகர்",
+          "சந்திரகுப்த மௌரியர்",
+          "தனநந்தர்"
+        ],
+        "answer": 2,
+        "explanation": "சாணக்கியரின் உதவியுடன் நந்த வம்சத்தின் கடைசி அரசரான தனநந்தரைத் தோற்கடித்து சந்திரகுப்த மௌரியர் இப்பேரரசை நிறுவினார்."
+      },
+      {
+        "question": "பேரரசர் அசோகரின் கல்வெட்டுகள் பெரும்பாலும் எந்த மொழியில் எழுதப்பட்டிருந்தன?",
+        "options": [
+          "சமஸ்கிருதம்",
+          "பிராகிருதம்",
+          "பாலி",
+          "தமிழ்"
+        ],
+        "answer": 1,
+        "explanation": "அசோகரின் அரச கட்டளைகள் மக்கள் எளிதில் புரிந்துகொள்ளும் வகையில் பிராமி எழுத்துருவில் பிராகிருத மொழியிலேயே அதிகமாக பொறிக்கப்பட்டிருந்தன."
+      },
+      {
+        "question": "சங்க காலத்தில் முச்சங்கங்கள் நடைபெற்றன. இதில் ‘கடைச்சங்கம்’ எங்கு நடைபெற்றது?",
+        "options": [
+          "தென்மதுரை",
+          "கபாடபுரம்",
+          "மதுரை",
+          "உறையூர்"
+        ],
+        "answer": 2,
+        "explanation": "முதல் சங்கம் தென்மதுரையிலும், இடைச்சங்கம் கபாடபுரத்திலும், மூன்றாம் சங்கமான கடைச்சங்கம் இன்றைய மதுரையிலும் நடைபெற்றது."
+      },
+      {
+        "question": "பல்லவ மன்னர்களின் தலைநகரம் எது?",
+        "options": [
+          "உறையூர்",
+          "மதுரை",
+          "வஞ்சி",
+          "காஞ்சிபுரம்"
+        ],
+        "answer": 3,
+        "explanation": "தொண்டை மண்டலத்தை ஆட்சி செய்த பல்லவர்களின் புகழ்பெற்ற தலைநகரமாகத் திகழ்ந்தது காஞ்சிபுரம் ஆகும்."
+      },
+      {
+        "question": "தஞ்சாவூரில் உள்ள புகழ்பெற்ற பிரகதீஸ்வரர் கோயிலைக் (பெரிய கோயில்) கட்டியவர் யார்?",
+        "options": [
+          "முதலாம் ராஜேந்திர சோழன்",
+          "முதலாம் ராஜராஜ சோழன்",
+          "கரிகால சோழன்",
+          "விஜயாலய சோழன்"
+        ],
+        "answer": 1,
+        "explanation": "கி.பி. 1010 ஆம் ஆண்டு சோழப் பேரரசர் முதலாம் ராஜராஜ சோழனால் இந்த மாபெரும் சிவாலயம் கட்டி முடிக்கப்பட்டது."
+      },
+      {
+        "question": "முதல் தரைன் போர் எந்த ஆண்டு நடைபெற்றது?",
+        "options": [
+          "1191",
+          "1192",
+          "1526",
+          "1757"
+        ],
+        "answer": 0,
+        "explanation": "கி.பி. 1191 இல் நடைபெற்ற முதல் தரைன் போரில் ராஜபுத்திர அரசர் பிருத்திவிராஜ் சவுகான், முகமது கோரியைத் தோற்கடித்தார்."
+      },
+      {
+        "question": "டெல்லி சுல்தானியத்தை ஆட்சி செய்த முதல் மற்றும் ஒரே பெண் அரசி யார்?",
+        "options": [
+          "நூர்ஜஹான்",
+          "மும்தாஜ்",
+          "ரஸியா சுல்தானா",
+          "சாந்த் பீபி"
+        ],
+        "answer": 2,
+        "explanation": "அடிமை வம்சத்தைச் சேர்ந்த இல்துமிஷின் மகளான ரஸியா சுல்தானா (1236-1240) டெல்லியை ஆண்ட முதல் பெண் அரசி ஆவார்."
+      },
+      {
+        "question": "விஜயநகரப் பேரரசின் தலைசிறந்த அரசரான கிருஷ்ணதேவராயர் எந்த வம்சத்தைச் சேர்ந்தவர்?",
+        "options": [
+          "சங்கம வம்சம்",
+          "சாளுவ வம்சம்",
+          "துளுவ வம்சம்",
+          "ஆரவீடு வம்சம்"
+        ],
+        "answer": 2,
+        "explanation": "விஜயநகரப் பேரரசை ஆண்ட நான்கு வம்சங்களில் (சங்கம, சாளுவ, துளுவ, ஆரவீடு) மிகச் சிறந்த அரசனான கிருஷ்ணதேவராயர் துளுவ வம்சத்தைச் சேர்ந்தவர்."
+      },
+      {
+        "question": "உலகின் ஏழு அதிசயங்களில் ஒன்றான தாஜ்மஹாலைக் கட்டிய முகலாயப் பேரரசர் யார்?",
+        "options": [
+          "அக்பர்",
+          "ஜஹாங்கீர்",
+          "ஷாஜஹான்",
+          "ஔரங்கசீப்"
+        ],
+        "answer": 2,
+        "explanation": "முகலாயக் கட்டிடக்கலையின் பொற்காலம் என அழைக்கப்பட்ட ஷாஜஹானின் ஆட்சிக் காலத்தில் அவரது மனைவி மும்தாஜின் நினைவாக தாஜ்மஹால் கட்டப்பட்டது."
+      },
+      {
+        "question": "இந்தியாவில் போர்ச்சுகீசிய ஆதிக்கத்திற்கு உண்மையான அடித்தளமிட்டவர் யார்?",
+        "options": [
+          "வாஸ்கோடா காமா",
+          "பிரான்சிஸ்கோ டி அல்மேய்டா",
+          "அல்போன்சோ டி அல்புகர்க்",
+          "நினோ டா குன்ஹா"
+        ],
+        "answer": 2,
+        "explanation": "அல்போன்சோ டி அல்புகர்க் இந்தியாவில் போர்ச்சுகீசியப் பேரரசை நிலைநிறுத்திய உண்மையான நிறுவனர் ஆவார். இவர் கோவாவைக் கைப்பற்றினார்."
+      },
+      {
+        "question": "பிரிட்டிஷ் கிழக்கிந்தியக் கம்பெனியின் அரசியல் அதிகாரம் இந்தியாவில் வேரூன்றக் காரணமான பிளாசிப் போர் நடைபெற்ற ஆண்டு?",
+        "options": [
+          "1757",
+          "1764",
+          "1857",
+          "1799"
+        ],
+        "answer": 0,
+        "explanation": "1757 இல் ராபர்ட் கிளைவ் தலைமையிலான ஆங்கிலேயப் படை வங்காள நவாப் சிராஜ்-உத்-தௌலாவை பிளாசிப் போரில் தோற்கடித்தது."
+      },
+      {
+        "question": "வங்காளத்தில் ‘நிலையான நிலவரித் திட்டத்தை’ அறிமுகப்படுத்திய கவர்னர் ஜெனரல் யார்?",
+        "options": [
+          "வாரன் ஹேஸ்டிங்ஸ்",
+          "காரன்வாலிஸ் பிரபு",
+          "வெல்லெஸ்லி பிரபு",
+          "டல்ஹௌசி பிரபு"
+        ],
+        "answer": 1,
+        "explanation": "1793 ஆம் ஆண்டு காரன்வாலிஸ் பிரபு வங்காளம், பீகார், ஒரிசா பகுதிகளில் ஜமீன்தாரி முறை என்ற நிலையான நிலவரித் திட்டத்தை அறிமுகப்படுத்தினார்."
+      },
+      {
+        "question": "1857 ஆம் ஆண்டு பெரும் புரட்சியின் உடனடிக் காரணம் என்ன?",
+        "options": [
+          "வாரிசு இழப்புக் கொள்கை",
+          "துணைப்படைத் திட்டம்",
+          "கொழுப்பு தடவப்பட்ட தோட்டாக்கள்",
+          "சதி ஒழிப்பு"
+        ],
+        "answer": 2,
+        "explanation": "புதிய என்பீல்டு துப்பாக்கிகளுக்கான தோட்டாக்களில் பசு மற்றும் பன்றிக் கொழுப்பு தடவப்பட்டிருப்பதாகப் பரவிய வதந்தியே சிப்பாய்க் கலகத்தின் உடனடிக் காரணமாகும்."
+      },
+      {
+        "question": "ஆரிய சமாஜத்தை (1875) நிறுவியவர் யார்?",
+        "options": [
+          "ராஜாராம் மோகன் ராய்",
+          "சுவாமி விவேகானந்தர்",
+          "சுவாமி தயானந்த சரஸ்வதி",
+          "ஈஸ்வர சந்திர வித்யாசாகர்"
+        ],
+        "answer": 2,
+        "explanation": "சுவாமி தயானந்த சரஸ்வதி மும்பையில் ஆரிய சமாஜத்தை நிறுவினார். 'வேதங்களுக்குத் திரும்புவோம்' என்பது இவரது முழக்கமாகும்."
+      },
+      {
+        "question": "தமிழ்நாட்டில் வேதாரண்யம் உப்பு சத்யாகிரகப் போராட்டத்திற்குத் தலைமையேற்று நடத்தியவர் யார்?",
+        "options": [
+          "காமராஜர்",
+          "வ.உ.சிதம்பரனார்",
+          "சி. ராஜகோபாலாச்சாரி (ராஜாஜி)",
+          "திருப்பூர் குமரன்"
+        ],
+        "answer": 2,
+        "explanation": "காந்தியடிகள் தண்டி யாத்திரை நடத்திய அதே வேளையில், தமிழ்நாட்டில் திருச்சியிலிருந்து வேதாரண்யம் வரை ராஜாஜி தலைமையில் உப்பு சத்யாகிரகம் நடைபெற்றது."
+      },
+      {
+        "question": "இந்திய தேசிய ராணுவத்தை (INA) முதன்முதலில் உருவாக்கியவர் யார்?",
+        "options": [
+          "சுபாஷ் சந்திர போஸ்",
+          "மோகன் சிங்",
+          "பகத் சிங்",
+          "சந்திரசேகர் ஆசாத்"
+        ],
+        "answer": 1,
+        "explanation": "மலேயாவில் ஜப்பானியப் படைகளிடம் சரணடைந்த இந்தியப் போர்வீரர்களைக் கொண்டு கேப்டன் மோகன் சிங் என்பவரே முதன்முதலில் INA-வை உருவாக்கினார். பின்னர் சுபாஷ் சந்திர போஸ் அதனைத் தலைமையேற்று வழிநடத்தினார்."
+      },
+      {
+        "question": "சூரிய குடும்பத்தில் உள்ள கோள்களில் மிகப்பெரிய கோள் எது?",
+        "options": [
+          "பூமி",
+          "சனி",
+          "வியாழன்",
+          "யுரேனஸ்"
+        ],
+        "answer": 2,
+        "explanation": "வியாழன் (Jupiter) சூரிய குடும்பத்தின் மிகப்பெரிய கோளாகும். இது பூமியை விட சுமார் 1300 மடங்கு பெரியதாகும்."
+      },
+      {
+        "question": "தன்னைச் சுற்றி வளையங்களைக் (Rings) கொண்ட கோள் எது?",
+        "options": [
+          "செவ்வாய்",
+          "சனி",
+          "நெப்டியூன்",
+          "சுக்கிரன்"
+        ],
+        "answer": 1,
+        "explanation": "சனி (Saturn) கோள் பனித்துகள்கள் மற்றும் பாறைத்துண்டுகளால் ஆன அழகான வளையங்களைக் கொண்டுள்ளது."
+      },
+      {
+        "question": "பூமியின் மீது வரையப்பட்டுள்ள மொத்த தீர்க்க ரேகைகளின் (Longitudes) எண்ணிக்கை எவ்வளவு?",
+        "options": [
+          "90",
+          "180",
+          "360",
+          "181"
+        ],
+        "answer": 2,
+        "explanation": "பூமியின் மையக்கோணம் 360° என்பதால், ஒரு டிகிரிக்கு ஒரு ரேகை வீதம் மொத்தம் 360 செங்குத்தான தீர்க்க ரேகைகள் வரையப்பட்டுள்ளன."
+      },
+      {
+        "question": "நிலநடுக்கோட்டின் (Equator) அட்ச ரேகை அளவு என்ன?",
+        "options": [
+          "0°",
+          "23½° வ",
+          "66½° தெ",
+          "90°"
+        ],
+        "answer": 0,
+        "explanation": "பூமியை வடக்கு, தெற்காக சரிபாதியாகப் பிரிக்கும் கற்பனைக் கோடான நிலநடுக்கோடு 0° அட்ச ரேகை ஆகும்."
+      },
+      {
+        "question": "‘உலகின் கூரை’ என்று அழைக்கப்படும் உலகின் மிக உயர்ந்த பீடபூமி எது?",
+        "options": [
+          "தக்காண பீடபூமி",
+          "பாமீர் பீடபூமி (திபெத்)",
+          "கொலராடோ பீடபூமி",
+          "அரேபிய பீடபூமி"
+        ],
+        "answer": 1,
+        "explanation": "மத்திய ஆசியாவில் அமைந்துள்ள திபெத் (பாமீர்) பீடபூமி உலகின் மிக உயர்ந்த பீடபூமி என்பதால் உலகின் கூரை எனப்படுகிறது."
+      },
+      {
+        "question": "பரப்பளவில் உலகின் மிகப்பெரிய கண்டம் எது?",
+        "options": [
+          "ஆப்பிரிக்கா",
+          "வட அமெரிக்கா",
+          "ஐரோப்பா",
+          "ஆசியா"
+        ],
+        "answer": 3,
+        "explanation": "உலகில் உள்ள ஏழு கண்டங்களில் நிலப்பரப்பு மற்றும் மக்கள் தொகை ஆகிய இரண்டிலுமே ஆசியா தான் மிகப்பெரிய கண்டமாகும்."
+      },
+      {
+        "question": "உலகின் ஆழமான பகுதியான ‘மரியானா அகழி’ எந்தப் பெருங்கடலில் அமைந்துள்ளது?",
+        "options": [
+          "அட்லாண்டிக் பெருங்கடல்",
+          "இந்தியப் பெருங்கடல்",
+          "பசிபிக் பெருங்கடல்",
+          "ஆர்க்டிக் பெருங்கடல்"
+        ],
+        "answer": 2,
+        "explanation": "பூமியின் மிகப்பெரிய மற்றும் ஆழமான பெருங்கடலான பசிபிக் பெருங்கடலில்தான் சுமார் 10,994 மீட்டர் ஆழமுள்ள மரியானா அகழி உள்ளது."
+      },
+      {
+        "question": "கீழ்க்கண்டவற்றுள் தீப்பாறைகளுக்கு (Igneous rocks) சிறந்த உதாரணம் எது?",
+        "options": [
+          "பசால்ட் (Basalt) / கருங்கல்",
+          "சுண்ணாம்புக்கல்",
+          "மணற்பாறை",
+          "பளிங்குக்கல்"
+        ],
+        "answer": 0,
+        "explanation": "எரிமலையிலிருந்து வெளிவரும் கற்குழம்பு (மாக்மா) குளிர்ந்து உறைவதால் பசால்ட் மற்றும் கிரானைட் போன்ற முதன்மைத் தீப்பாறைகள் உருவாகின்றன."
+      },
+      {
+        "question": "காற்றின் திசையை அளவிடப் பயன்படும் கருவி எது?",
+        "options": [
+          "அனிமோமீட்டர்",
+          "பாரோமீட்டர்",
+          "காற்றுத் திசைகாட்டி (Wind vane)",
+          "ஹைக்ரோமீட்டர்"
+        ],
+        "answer": 2,
+        "explanation": "காற்று எந்தத் திசையிலிருந்து வீசுகிறது என்பதைத் துல்லியமாகக் கண்டறிய காற்றுத் திசைகாட்டி பயன்படுகிறது."
+      },
+      {
+        "question": "வட இந்தியாவில் கோடைகாலத்தில் வீசும் ‘லூ’ (Loo) என்பது எவ்வகைக் காற்றாகும்?",
+        "options": [
+          "கோள் காற்று",
+          "பருவக் காற்று",
+          "தலக் காற்று (Local wind)",
+          "கடல் காற்று"
+        ],
+        "answer": 2,
+        "explanation": "ஒரு குறிப்பிட்ட சிறிய பகுதியில், ஒரு குறிப்பிட்ட காலத்தில் மட்டும் வீசும் காற்று தலக்காற்று எனப்படும். 'லூ' ஒரு வெப்பமான தலக்காற்று ஆகும்."
+      },
+      {
+        "question": "சூரியனின் புறஊதாக் கதிர்களைத் தடுத்து பூமியைக் காக்கும் ஓசோன் படலம் வளிமண்டலத்தின் எந்த அடுக்கில் அமைந்துள்ளது?",
+        "options": [
+          "அடிவளிமண்டலம் (Troposphere)",
+          "படை மண்டலம் (Stratosphere)",
+          "இடை மண்டலம் (Mesosphere)",
+          "வெப்ப மண்டலம் (Thermosphere)"
+        ],
+        "answer": 1,
+        "explanation": "ஓசோன் வாயுக்களால் ஆன படலம் படை மண்டலத்தில் (Stratosphere) அமைந்து பூமியின் குடையாகச் செயல்படுகிறது."
+      },
+      {
+        "question": "இந்தியாவில் அதிக மழைபெறும் பகுதியான மௌசின்ராம் (Mawsynram) எந்த மாநிலத்தில் உள்ளது?",
+        "options": [
+          "அசாம்",
+          "மேகாலயா",
+          "அருணாச்சலப் பிரதேசம்",
+          "கேரளா"
+        ],
+        "answer": 1,
+        "explanation": "மேகாலயா மாநிலத்தில் உள்ள காசி மலையின் தென்பகுதியில் அமைந்துள்ள மௌசின்ராம் இந்தியாவிலேயே அதிக மழைப்பொழிவைப் பெறும் இடமாகும்."
+      },
+      {
+        "question": "தமிழ்நாட்டிற்கு அதிக மழையைத் தரும் பருவக்காற்று எது?",
+        "options": [
+          "தென்மேற்குப் பருவக்காற்று",
+          "வடமேற்குப் பருவக்காற்று",
+          "வடகிழக்குப் பருவக்காற்று",
+          "தென்கிழக்குப் பருவக்காற்று"
+        ],
+        "answer": 2,
+        "explanation": "தமிழ்நாடு, ஆந்திரா போன்ற கோரமண்டலக் கடற்கரைப் பகுதிகள் அக்டோபர்-நவம்பர் மாதங்களில் வீசும் வடகிழக்குப் பருவக்காற்றால் அதிக மழையைப் பெறுகின்றன."
+      },
+      {
+        "question": "இந்தியாவின் தென்கோடி முனை எது?",
+        "options": [
+          "கன்னியாகுமரி",
+          "பாயிண்ட் கலிமியர்",
+          "இந்திரா முனை (பிக்மிலியன் முனை)",
+          "ராமேஸ்வரம்"
+        ],
+        "answer": 2,
+        "explanation": "அந்தமான் நிக்கோபார் தீவுகளின் தென்பகுதியில் அமைந்துள்ள இந்திரா முனை (Indira Point) ஒட்டுமொத்த இந்தியப் நிலப்பரப்பின் தென்கோடி முனையாகும்."
+      },
+      {
+        "question": "இந்தியாவின் மையமாகச் செல்லும் கடக ரேகை (Tropic of Cancer) எத்தனை மாநிலங்கள் வழியாகச் செல்கிறது?",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "answer": 2,
+        "explanation": "கடக ரேகை குஜராத், ராஜஸ்தான், மத்தியப் பிரதேசம், சத்தீஸ்கர், ஜார்க்கண்ட், மேற்கு வங்காளம், திரிபுரா, மிசோரம் ஆகிய 8 மாநிலங்கள் வழியே செல்கிறது."
+      },
+      {
+        "question": "இந்தியாவின் மிகப்பழமையான மடிப்பு மலைத்தொடர் எது?",
+        "options": [
+          "இமயமலை",
+          "ஆரவல்லி மலைத்தொடர்",
+          "விந்திய மலைத்தொடர்",
+          "சாத்புரா மலைத்தொடர்"
+        ],
+        "answer": 1,
+        "explanation": "வடமேற்கு இந்தியாவில் அமைந்துள்ள ஆரவல்லி மலைத்தொடரே இந்தியாவின் மிகப்பழமையான எஞ்சிய மடிப்பு மலைத்தொடராகும்."
+      },
+      {
+        "question": "‘தட்சிண கங்கா’ (தென்னிந்தியாவின் கங்கை) என்று சிறப்பிக்கப்படும் தென்னிந்தியாவின் மிக நீளமான ஆறு எது?",
+        "options": [
+          "கிருஷ்ணா",
+          "காவிரி",
+          "நர்மதை",
+          "கோதாவரி"
+        ],
+        "answer": 3,
+        "explanation": "தீபகற்ப இந்தியாவின் மிக நீளமான நதியான கோதாவரி, அதன் புனிதம் மற்றும் அளவின் காரணமாக விருத்த கங்கா அல்லது தட்சிண கங்கா எனப்படுகிறது."
+      },
+      {
+        "question": "இந்தியாவின் மிக நீளமான அணையான ஹீராகுட் அணை எந்த ஆற்றின் குறுக்கே கட்டப்பட்டுள்ளது?",
+        "options": [
+          "தாமோதர்",
+          "மகாநதி",
+          "கோதுமாரி",
+          "கிருஷ்ணா"
+        ],
+        "answer": 1,
+        "explanation": "ஒடிசா மாநிலத்தில் மகாநதியின் குறுக்கே கட்டப்பட்டுள்ள ஹீராகுட் அணைக்கட்டே உலகின் மிக நீளமான மண் அணையாகும்."
+      },
+      {
+        "question": "ஒற்றைக்கொம்பு காண்டாமிருகங்களுக்குப் புகழ்பெற்ற காசிரங்கா தேசியப் பூங்கா எங்குள்ளது?",
+        "options": [
+          "மேற்கு வங்காளம்",
+          "அசாம்",
+          "குஜராத்",
+          "மத்தியப் பிரதேசம்"
+        ],
+        "answer": 1,
+        "explanation": "அசாம் மாநிலத்தில் உள்ள காசிரங்கா தேசியப் பூங்கா அழிந்து வரும் ஒற்றைக்கொம்பு காண்டாமிருகங்களைப் பாதுகாக்கும் சரணாலயமாகும்."
+      },
+      {
+        "question": "புவியின் மேலோட்டிற்கும் (Crust) கவசத்திற்கும் (Mantle) இடையே உள்ள எல்லைக்கோடு எவ்வாறு அழைக்கப்படுகிறது?",
+        "options": [
+          "கட்டன்பர்க் எல்லை",
+          "கோன்ராட் எல்லை",
+          "மோஹோரோவிசிக் எல்லை (Mohorovicic discontinuity)",
+          "லெஹ்மன் எல்லை"
+        ],
+        "answer": 2,
+        "explanation": "மேலோடு மற்றும் கவசத்தைப் பிரிக்கும் எல்லை 'மோஹோரோவிசிக் எல்லை' என்றும், கவசம் மற்றும் உட்கருவைப் பிரிக்கும் எல்லை 'கட்டன்பர்க் எல்லை' என்றும் அழைக்கப்படுகிறது."
+      },
+      {
+        "question": "இந்தியாவின் தேசிய கீதமான 'ஜன கண மன' பாடலை இயற்றியவர் யார்?",
+        "options": [
+          "பங்கிம் சந்திர சாட்டர்ஜி",
+          "ரவீந்திரநாத் தாகூர்",
+          "சுப்பிரமணிய பாரதியார்",
+          "சரோஜினி நாயுடு"
+        ],
+        "answer": 1,
+        "explanation": "கவிஞர் ரவீந்திரநாத் தாகூர் அவர்களால் வங்காள மொழியில் எழுதப்பட்ட இப்பாடல் 1950 ஜனவரி 24 அன்று தேசிய கீதமாக ஏற்றுக்கொள்ளப்பட்டது."
+      },
+      {
+        "question": "இந்திய தேசியக் கொடியை வடிவமைத்தவர் யார்?",
+        "options": [
+          "பிங்காலி வெங்கய்யா",
+          "அன்னி பெசன்ட்",
+          "காமராஜர்",
+          "மகாத்மா காந்தி"
+        ],
+        "answer": 0,
+        "explanation": "ஆந்திராவைச் சேர்ந்த பிங்காலி வெங்கய்யா என்பவரால் மூவண்ணக் கொடி வடிவமைக்கப்பட்டு, ஜூலை 22, 1947 அன்று அங்கீகரிக்கப்பட்டது."
+      },
+      {
+        "question": "இந்திய அரசியலமைப்பு நிர்ணய சபையின் (Constituent Assembly) முதல் கூட்டத்திற்குத் தற்காலிகத் தலைவராகச் செயல்பட்டவர் யார்?",
+        "options": [
+          "டாக்டர் பி.ஆர். அம்பேத்கர்",
+          "டாக்டர் ராஜேந்திர பிரசாத்",
+          "டாக்டர் சச்சிதானந்த சின்கா",
+          "ஜவகர்லால் நேரு"
+        ],
+        "answer": 2,
+        "explanation": "டிசம்பர் 9, 1946 இல் நடைபெற்ற முதல் கூட்டத்தில் மூத்த உறுப்பினரான டாக்டர் சச்சிதானந்த சின்கா தற்காலிகத் தலைவராகத் தேர்ந்தெடுக்கப்பட்டார்."
+      },
+      {
+        "question": "இந்திய அரசியலமைப்பில் அடிப்படைக் கடமைகள் (Fundamental Duties) எந்த நாட்டின் அரசியலமைப்பிலிருந்து பெறப்பட்டன?",
+        "options": [
+          "அமெரிக்கா",
+          "சோவியத் ரஷ்யா (USSR)",
+          "பிரிட்டன்",
+          "அயர்லாந்து"
+        ],
+        "answer": 1,
+        "explanation": "1976 ஆம் ஆண்டு 42-வது சட்டத்திருத்தத்தின் மூலம் ஸ்வரண் சிங் கமிட்டியின் பரிந்துரைப்படி ரஷ்யாவிலிருந்து அடிப்படைக் கடமைகள் பெறப்பட்டு சேர்க்கப்பட்டன."
+      },
+      {
+        "question": "இந்தியக் குடியரசுத் தலைவராவதற்கான குறைந்தபட்ச வயது வரம்பு என்ன?",
+        "options": [
+          "25 வயது",
+          "30 வயது",
+          "35 வயது",
+          "40 வயது"
+        ],
+        "answer": 2,
+        "explanation": "குடியரசுத் தலைவர், துணைக் குடியரசுத் தலைவர் மற்றும் மாநில ஆளுநர் பதவிகளுக்குப் போட்டியிட குறைந்தபட்சம் 35 வயது நிறைவடைந்திருக்க வேண்டும்."
+      },
+      {
+        "question": "மாநிலங்களவையின் (Rajya Sabha) பதவிவழித் தலைவர் (Ex-officio Chairman) யார்?",
+        "options": [
+          "குடியரசுத் தலைவர்",
+          "பிரதமர்",
+          "சபாநாயகர்",
+          "துணைக் குடியரசுத் தலைவர்"
+        ],
+        "answer": 3,
+        "explanation": "அரசியலமைப்புச் சட்டம் 64-ன் படி இந்தியத் துணைக் குடியரசுத் தலைவர் மாநிலங்களவையின் தலைவராகச் செயல்படுவார்."
+      },
+      {
+        "question": "மக்களவையின் (Lok Sabha) அதிகபட்ச உறுப்பினர்களின் எண்ணிக்கை எவ்வளவு?",
+        "options": [
+          "545",
+          "552",
+          "250",
+          "500"
+        ],
+        "answer": 1,
+        "explanation": "அரசியலமைப்பின்படி மக்களவையின் அதிகபட்ச பலம் 552 ஆகும் (மாநிலங்கள்-530, யூனியன் பிரதேசங்கள்-20, நியமன உறுப்பினர்கள்-2)."
+      },
+      {
+        "question": "ஒரு மாநில ஆளுநரை நியமிப்பவர் யார்?",
+        "options": [
+          "முதலமைச்சர்",
+          "உச்சநீதிமன்ற தலைமை நீதிபதி",
+          "குடியரசுத் தலைவர்",
+          "பிரதமர்"
+        ],
+        "answer": 2,
+        "explanation": "அரசியலமைப்பு விதி 155-ன் படி மாநில ஆளுநர் இந்தியக் குடியரசுத் தலைவரால் நியமிக்கப்படுகிறார்."
+      },
+      {
+        "question": "உச்சநீதிமன்ற (Supreme Court) நீதிபதிகளின் ஓய்வுபெறும் வயது என்ன?",
+        "options": [
+          "60",
+          "62",
+          "65",
+          "70"
+        ],
+        "answer": 2,
+        "explanation": "உச்சநீதிமன்ற நீதிபதிகளின் ஓய்வுபெறும் வயது 65 ஆகும். உயர்நீதிமன்ற நீதிபதிகளுக்கு இது 62 வயதாகும்."
+      },
+      {
+        "question": "இந்தியாவில் மூன்றடுக்கு பஞ்சாயத்து முறையைப் பரிந்துரைத்த முதல் குழு எது?",
+        "options": [
+          "பல்வந்த்ராய் மேத்தா குழு (1957)",
+          "அசோக் மேத்தா குழு",
+          "எல்.எம். சிங்வி குழு",
+          "சர்க்காரியா குழு"
+        ],
+        "answer": 0,
+        "explanation": "பல்வந்த்ராய் மேத்தா குழு கிராம அளவில் கிராமப் பஞ்சாயத்து, வட்டார அளவில் பஞ்சாயத்து சமிதி, மாவட்ட அளவில் ஜில்லா பரிஷத் என்ற மூன்றடுக்கு முறையைப் பரிந்துரைத்தது."
+      },
+      {
+        "question": "தமிழ்நாடு சட்டப்பேரவையின் (Legislative Assembly) மொத்த தேர்ந்தெடுக்கப்பட்ட உறுப்பினர்களின் எண்ணிக்கை எவ்வளவு?",
+        "options": [
+          "234",
+          "235",
+          "245",
+          "250"
+        ],
+        "answer": 0,
+        "explanation": "தமிழ்நாடு சட்டமன்றம் மக்களால் நேரடியாகத் தேர்ந்தெடுக்கப்படும் 234 உறுப்பினர்களைக் கொண்டுள்ளது."
+      },
+      {
+        "question": "குழந்தைகளுக்கான இலவச மற்றும் கட்டாயக் கல்வி உரிமைச் சட்டம் (RTE) எந்த ஆண்டு நாடாளுமன்றத்தில் நிறைவேற்றப்பட்டது?",
+        "options": [
+          "2005",
+          "2009",
+          "2010",
+          "2012"
+        ],
+        "answer": 1,
+        "explanation": "Right to Education (RTE) சட்டம் 2009 இல் நிறைவேற்றப்பட்டு, ஏப்ரல் 1, 2010 முதல் இந்தியா முழுவதும் நடைமுறைக்கு வந்தது."
+      },
+      {
+        "question": "‘நோட்டா’ (NOTA - மேற்கண்ட எவரும் இல்லை) முறை இந்தியாவில் முதன்முதலில் எந்த ஆண்டு தேர்தல்களில் அறிமுகப்படுத்தப்பட்டது?",
+        "options": [
+          "2012",
+          "2014",
+          "2016",
+          "2019"
+        ],
+        "answer": 1,
+        "explanation": "வாக்காளர்கள் எந்த வேட்பாளருக்கும் வாக்களிக்க விரும்பாத நிலையைத் தெரிவிக்க NOTA பொத்தான் 2014 பொதுத் தேர்தல்களில் அறிமுகப்படுத்தப்பட்டது."
+      },
+      {
+        "question": "பொருளாதாரத்தில் முதன்மைத் துறை (Primary Sector) எனப்படுவது எது?",
+        "options": [
+          "தொழில்துறை",
+          "சேவைத் துறை",
+          "வேளாண்மைத் துறை",
+          "வங்கித் துறை"
+        ],
+        "answer": 2,
+        "explanation": "இயற்கை வளங்களை நேரடியாகப் பயன்படுத்திப் பொருட்களை உற்பத்தி செய்யும் வேளாண்மை மற்றும் அதற்சார்ந்த தொழில்கள் முதன்மைத் துறை எனப்படுகின்றன."
+      },
+      {
+        "question": "பொருளாதாரத்தில் மூன்றாம் துறை (Tertiary Sector) எவ்வாறு அழைக்கப்படுகிறது?",
+        "options": [
+          "உற்பத்தித் துறை",
+          "சேவைத் துறை",
+          "வேளாண்மைத் துறை",
+          "கட்டுமானத் துறை"
+        ],
+        "answer": 1,
+        "explanation": "போக்குவரத்து, வங்கி, காப்பீடு, கல்வி போன்ற கண்ணுக்குத் தெரியாத சேவைகளை வழங்கும் துறை சேவைத் துறை அல்லது மூன்றாம் துறை ஆகும்."
+      },
+      {
+        "question": "ஒரு நாட்டின் பொருளாதார வளர்ச்சியை அளவிடப் பயன்படும் மிக முக்கியக் குறியீடு எது?",
+        "options": [
+          "பணவீக்கம்",
+          "மொத்த உள்நாட்டு உற்பத்தி (GDP)",
+          "அந்நியச் செலாவணி",
+          "ஏற்றுமதி அளவு"
+        ],
+        "answer": 1,
+        "explanation": "ஓராண்டில் ஒரு நாட்டின் புவியியல் எல்லைக்குள் உற்பத்தி செய்யப்படும் அனைத்து இறுதிப் பொருட்கள் மற்றும் சேவைகளின் பண மதிப்பே GDP ஆகும்."
+      },
+      {
+        "question": "பொருளியலில் பணவீக்கம் (Inflation) என்றால் என்ன?",
+        "options": [
+          "விலைவாசி குறைதல்",
+          "பணத்தின் மதிப்பு அதிகரித்தல்",
+          "விலைவாசி உயர்வு மற்றும் பணத்தின் மதிப்பு குறைதல்",
+          "பண விநியோகம் குறைதல்"
+        ],
+        "answer": 2,
+        "explanation": "பொருட்களின் விலை தொடர்ந்து அதிகரித்து, அதனால் பணத்தின் வாங்கும் திறன் (மதிப்பு) குறையும் நிலையே பணவீக்கம் எனப்படும்."
+      },
+      {
+        "question": "வரிகள் பொதுவாக எத்தனை வகைப்படும்?",
+        "options": [
+          "இரண்டு (நேர்முக வரி, மறைமுக வரி)",
+          "மூன்று",
+          "நான்கு",
+          "ஐந்து"
+        ],
+        "answer": 0,
+        "explanation": "வரிகள் செலுத்தும் முறையைப் பொறுத்து வருமான வரி போன்ற நேர்முக வரி (Direct tax) மற்றும் GST போன்ற மறைமுக வரி (Indirect tax) என இருவகைப்படும்."
+      },
+      {
+        "question": "உலக வர்த்தக அமைப்பின் (WTO) தலைமையகம் எங்கு அமைந்துள்ளது?",
+        "options": [
+          "நியூயார்க்",
+          "வாஷிங்டன்",
+          "ஜெனீவா",
+          "பாரிஸ்"
+        ],
+        "answer": 2,
+        "explanation": "பன்னாட்டு வர்த்தகத்தை ஒழுங்குபடுத்தும் உலக வர்த்தக அமைப்பு (World Trade Organization) சுவிட்சர்லாந்து நாட்டின் ஜெனீவா நகரில் அமைந்துள்ளது."
+      },
+      {
+        "question": "இந்தியாவில் பசுமைப் புரட்சியின் (Green Revolution) தந்தை என்று அழைக்கப்படுபவர் யார்?",
+        "options": [
+          "எம்.எஸ். சுவாமிநாதன்",
+          "வர்கீஸ் குரியன்",
+          "சாம் பிட்ரோடா",
+          "நார்மன் போர்லாக்"
+        ],
+        "answer": 0,
+        "explanation": "1960-களில் இந்தியாவில் கோதுமை மற்றும் நெல் உற்பத்தியைப் பெருக்க வீரிய ரக விதைகளை அறிமுகப்படுத்திய எம்.எஸ். சுவாமிநாதன் இந்தியாவின் பசுமைப் புரட்சியின் தந்தை எனப்படுகிறார்."
+      }
+    ]
+  },
+  "audio": "audio/mocktest/mt_7_ss.mp3"
+}

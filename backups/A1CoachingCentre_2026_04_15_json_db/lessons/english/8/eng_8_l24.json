@@ -1,0 +1,580 @@
+{
+  "subject": "English",
+  "class": "8",
+  "term": "Annual",
+  "title": "Supplementary: The Ant and the Grasshopper (Play)",
+  "summary": "",
+  "sections": [
+    {
+      "title": "1. Supplementary: The Ant and the Grasshopper (எறும்பும் வெட்டுக்கிளியும்) - Summary",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● [[Core Theme]]",
+            "answer": "Hard work and planning for the future vs. laziness and temporary pleasure. || கடின உழைப்பு மற்றும் எதிர்காலத் திட்டமிடுதலின் அவசியம்."
+          },
+          {
+            "question": "● [[The Characters]]",
+            "answer": "The Ant (Industrious and hardworking) and the Grasshopper (Lazy and carefree). || எறும்பு (உழைப்பாளி) மற்றும் வெட்டுக்கிளி (சோம்பேறி)."
+          },
+          {
+            "question": "● [[The Story]]",
+            "answer": "During summer, the Ant works hard to collect food for the coming winter. The Grasshopper, on the other hand, spends his time singing and playing. He mocks the Ant for working too hard. When winter arrives, the Grasshopper finds no food and is starving. He goes to the Ant for help. The Ant reminds him that while she worked, he only played. || கோடைக் காலத்தில் எறும்புத் தானியங்களைச் சேகரித்தது. ஆனால் வெட்டுக்கிளிப் பாட்டுப் பாடி விளையாடியது. குளிர்காலம் வந்தபோது வெட்டுக்கிளிக்கு உணவு இல்லை. அது எறும்பிடக் கேட்டது. நான் உழைக்கும்போது நீ என்னச் செய்தாய் என எறும்புத் தட்டிக் கேட்டது."
+          },
+          {
+            "question": "● [[Moral]]",
+            "answer": "Work hard today to reap the rewards tomorrow. || வரும் முன் காப்பதேத் துணிவு."
+          }
+        ]
+      }
+    },
+    {
+      "title": "2. Glossary: Work & Survival (Exam Focus - Synonyms)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● [[Industrious]] / உழைப்பாளி / கடினமாக உழைக்கும்",
+            "answer": "Diligent and hard-working."
+          },
+          {
+            "question": "● [[Famine]] / பஞ்சம் / உணவுப் பற்றாக்குறை",
+            "answer": "Extreme scarcity of food."
+          },
+          {
+            "question": "● [[Chirp]] / கீச் கீச் ஒலி / சிணுங்குதல்",
+            "answer": "A short, sharp, high-pitched sound (made by a small bird or insect)."
+          },
+          {
+            "question": "● [[Mocks]] / கேலிச் செய்தல் / பரிகாசம்",
+            "answer": "Tease or laugh at in a scornful or contemptuous manner."
+          },
+          {
+            "question": "● [[Prudence]] / விவேகம் / முன்னெச்சரிக்கை",
+            "answer": "The quality of being prudent; cautiousness."
+          },
+          {
+            "question": "● [[Starving]]",
+            "answer": "Dying of hunger. (பசியில்த் துடித்தல்)."
+          }
+        ]
+      }
+    },
+    {
+      "title": "3. Grammars: Sentence Patterns Recap (S V C, S V O)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● [[S + V + C]]",
+            "answer": "The Ant is industrious. || எறும்பு ஒரு உழைப்பாளி."
+          },
+          {
+            "question": "● [[S + V + O]]",
+            "answer": "The Ant collected grains. || எறும்புத் தானியங்களைச் சேகரித்தது."
+          }
+        ]
+      }
+    },
+    {
+      "title": "4. Sequence of Seasonal Activities (பருவகாலச் செயல்பாடுகள்)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● Summer",
+            "answer": "Time for gathering food and preparation. || சேகரிப்பதற்கும் தயார் செய்வதற்கும் உரியக் காலம்."
+          },
+          {
+            "question": "● Winter",
+            "answer": "Time for rest and using the stored food. || ஓய்வெடுப்பதற்கும் சேமிப்பை உண்பதற்கும் உரியக் காலம்."
+          }
+        ]
+      }
+    },
+    {
+      "title": "5. Character Contrast (பண்பு ஒப்பீடு)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● [[The Ant]]",
+            "answer": "Wise, disciplined, and forward-thinking. || அறிவு, ஒழுக்கம் மற்றும் தொலைநோக்குப் பார்வை."
+          },
+          {
+            "question": "● [[The Grasshopper]]",
+            "answer": "Careless, lazy, and short-sighted. || கவனக்குறைவு, சோம்பல் மற்றும் குறுகியப் பார்வை."
+          }
+        ]
+      }
+    },
+    {
+      "title": "6. Previous Year Questions & Competitive Focus",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● Who is the industrious character?",
+            "answer": "The [[Ant]]. || எறும்பு."
+          },
+          {
+            "question": "● What did the Grasshopper do in the summer?",
+            "answer": "He [[sang]] and [[played]]. || பாடி விளையாடினான்."
+          },
+          {
+            "question": "● Meaning of 'Scarcity'?",
+            "answer": "[[Lack]] / [[Famine]]. || பற்றாக்குறை / பஞ்சம்."
+          },
+          {
+            "question": "● Identify Verb: 'Birds chirp'.",
+            "answer": "[[Intransitive]] verb. || செயப்படுபொருள் அற்ற வினை."
+          }
+        ]
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "q": "What did the Ant do during the summer? || கோடைக் காலத்தில எறும்பு என்னச் செய்தது?",
+      "options": [
+        "Slept all day",
+        "Collected food and prepared for winter (உணவுச் சேமித்துத் தயாரானது)",
+        "Played music",
+        "Went on vacation"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What did the Grasshopper do instead of working? || உழைப்பிற்குப் பதிலாக வெட்டுக்கிளி என்னச் செய்தது?",
+      "options": [
+        "Worked harder than the ant",
+        "Sang and enjoyed the sun (பாடி மகிழ்ந்துத் திரிந்தது)",
+        "Built a house",
+        "Helped the ant"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "When winter came, what was the Grasshopper's condition? || குளிர்காலம் வந்தபோது வெட்டுக்கிளியின் நிலை என்ன?",
+      "options": [
+        "He was happy with food",
+        "He was starving and cold (பசி மற்றும் குளிரில்த் துடித்தான்)",
+        "He was sleeping well",
+        "He became a king"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Who did the Grasshopper go to for help? || வெட்டுக்கிளி யாரிடமு உதவிக்கெனச் சென்றது?",
+      "options": [
+        "A lion",
+        "The Ant (எறும்பிடம்)",
+        "A farmer",
+        "A bird"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What did the Ant ask the Grasshopper? || எறும்பு வெட்டுக்கிளியிடம் என்னக் கேட்டது?",
+      "options": [
+        "How are you?",
+        "What did you do during the summer? (கோடையில் நீ என்னச் செய்தாய்?)",
+        "Do you want to dance?",
+        "None"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What is the moral lesson of the story? || இக்கதையின் நீதி என்ன?",
+      "options": [
+        "Laziness brings happiness",
+        "Work today for a better tomorrow (இன்று உழைத்தால் நாளைப் பலன் கிடைக்கும்)",
+        "Never share food",
+        "Singing is bad"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of the word 'Industrious': || 'Industrious' என்பதன் பொருள்?",
+      "options": [
+        "Lazy",
+        "Hard-working and diligent (கடினமாக உழைக்கும்ப் பண்பு)",
+        "Angry",
+        "Fearful"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "The Grasshopper spent his time in 'Idleness'. What is 'Idleness'? || வெட்டுக்கிளி 'சோம்பேறித்தனத்தில்' (Idleness) காலத்தைக் கழித்தது. இதன் பொருள்?",
+      "options": [
+        "Hard work",
+        "Laziness / Doing nothing (சோம்பல் / வேலையில்லாமல் இருப்பது)",
+        "Fast running",
+        "Studying"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "As which season is the time of 'scarcity' in this story? || இக்கதையில் எந்தக் காலம் 'பற்றாக்குறை' காலமாகும்?",
+      "options": [
+        "Summer",
+        "Winter (குளிர்காலம்)",
+        "Rainy season",
+        "Spring"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Is the Ant right to refuse food to the lazy Grasshopper? || வெட்டுக்கிளிக்கு உணவுத் தர மறுத்தது சரியா?",
+      "options": [
+        "Yes, as it teaches him a lesson (ஆம், அவனுக்குப் பாடம் புகட்ட இதுச் சரி)",
+        "No, it's mean",
+        "Maybe",
+        "None"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Identify: 'The Ant is small'. Is a/an? || இது எவ்வகை வாக்கியம்?",
+      "options": [
+        "S V O",
+        "S V C (எழுவாய் + வினை + நிறைவி)",
+        "S V A",
+        "S V"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of 'Famine': || 'Famine' (பேமின்) என்பதன் பொருள்?",
+      "options": [
+        "Plenty of food",
+        "Extreme hunger/scarcity of food (கடும் பஞ்சம் / பற்றாக்குறை)",
+        "Party",
+        "Holiday"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "The Grasshopper made 'Merriment'. What is it? || வெட்டுக்கிளி 'கொண்டாட்டத்தை' (Merriment) செய்தது. இதன் பொருள்?",
+      "options": [
+        "Work",
+        "Joy and fun (மகிழ்ச்சி மற்றும் கொண்டாட்டம்)",
+        "Crying",
+        "Angry"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Who wrote 'Aesop's Fables'? || 'ஈசாப் கதைகளை' எழுதியவர் யார்?",
+      "options": [
+        "Aesop (ஈசாப்)",
+        "Shakespeare",
+        "Milton",
+        "Anna Sewell"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Identify: 'Ants collect food'. Pattern? || இதற்குரிய வாக்கிய அமைப்பு?",
+      "options": [
+        "S V O (எழுவாய் + வினை + செயப்படுபொருள்)",
+        "S V C",
+        "S V A",
+        "None"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of 'Prudence': || 'Prudence' (புரூடன்ஸ்) - என்பதன் பொருள்?",
+      "options": [
+        "Carelessness",
+        "Wisdom and caution for future (புத்திசாலித்தனம் மற்றும் முன்னெச்சரிக்கை)",
+        "Speed",
+        "Fear"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Which insect symbolises hard work? || கடின உழைப்பிற்கு அடையாளமாகச் சொல்லப்படும்ப் பூச்சி எது?",
+      "options": [
+        "Grasshopper",
+        "Ant (எறும்பு)",
+        "Mosquito",
+        "None"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "How does the Grasshopper feel in the end? || இறுதியில் வெட்டுக்கிளி எவ்வாறுக் கருதும்?",
+      "options": [
+        "Happy",
+        "Regretful (வருத்தம் அடையும் / வருந்தும்)",
+        "Proud",
+        "Fast"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: Past tense of 'Prepare'. || 'Prepare' - என்பதன் கடந்தக் காலம்?",
+      "options": [
+        "Prepare",
+        "Prepared (பிரிபேர்ட் / தயாரித்தேன்)",
+        "Preparing",
+        "None"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "The Ant 'Gathered' the grains. What is 'Gathered'? || 'கூட்டினான் / சேகரித்தான்' என்பதன் ஆங்கிலச் சொல்?",
+      "options": [
+        "Scattered",
+        "Collected / Gathered (சேகரித்தல்)",
+        "Threw",
+        "None"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: \"She is a queen ant\". Pattern is? || இதற்குரிய வாக்கிய அமைப்பு?",
+      "options": [
+        "S V O",
+        "S V C (எழுவாய் + வினை + நிறைவி)",
+        "S V A",
+        "None"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of 'Starvation': || 'Starvation' (ஸ்டார்வேஷன்) என்பதன் பொருள்?",
+      "options": [
+        "Eating too much",
+        "Suffering from extreme hunger (பசியில்த் துடித்தல் / பட்டினி)",
+        "Sleeping",
+        "Playing"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Is the Ant 'greedy' for storing food? || எறும்பு உணவுச் சேமிப்பதுப் 'பேராசையா'?",
+      "options": [
+        "Yes",
+        "No, it is called Wise Planning (இல்லை, இதுச் புத்திசாலித்தனமானத் திட்டமிடல்)",
+        "Maybe",
+        "None"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of 'Chirp' relates to? || 'Chirp' என்பது யாருக்குப் பொருந்தும்?",
+      "options": [
+        "Dog",
+        "Insects and small birds (பூச்சிகள் மற்றும் பறவைகள்)",
+        "Car",
+        "None"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: \"Summer passed quickly\". Pattern? || இதற்குரிய வாக்கிய அமைப்பு?",
+      "options": [
+        "S V A (எழுவாய் + வினை + இடத்தைச் சுட்டும் பெயரடை)",
+        "S V O",
+        "S V",
+        "None"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Expansion of 'F' in the context of food lack? || உணவுப் பற்றாக்குறையில் 'F' என்பது?",
+      "options": [
+        "Famine (பஞ்சம்)",
+        "Fast",
+        "Future",
+        "None"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Was the Ant's house warm in winter? || குளிர்காலத்தில் எறும்பின் வீடு இதமாக இருந்ததா?",
+      "options": [
+        "Yes (ஆம்)",
+        "No, it was cold",
+        "Not mentioned",
+        "Unknown"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of 'Mocks' in Tamil: || 'Mocks' என்பதன் தமிழ்ப் பொருள்?",
+      "options": [
+        "போற்றுதல்",
+        "ஏளனம்ச் செய்தல் / கேலிப் பேசுதல்",
+        "உழவாடுதல்",
+        "தூக்கம்"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: \"The grasshopper was lazy\". Type? || எவ்வகை வாக்கியம்?",
+      "options": [
+        "S V C (எழுவாய் + வினை + நிறைவி)",
+        "S V O",
+        "None",
+        "None"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Conclusion: ______ today, ______ tomorrow. || முடிவு: இன்று ______ , நாளை ______ .",
+      "options": [
+        "Sleep, Cry",
+        "Work, Reap (உழையுங்கள், பலன் பெறுங்கள்)",
+        "Play, Play",
+        "None"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: Past Participle of 'Know'. || 'Know' என்பதன் வினையெச்சம்?",
+      "options": [
+        "Know",
+        "Known (நோன் / எனக்குத் தெரியும்)",
+        "Knew",
+        "None"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Choose the correctly spelled word. || சரியான எழுத்துப்பிழையற்றச் சொல் எது?",
+      "options": [
+        "Grasshopper (வெட்டுக்கிளி)",
+        "Grashopper",
+        "Gras hopper",
+        "Grasshoper"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Final Tip: Don't be a Grasshopper, be ______! || இறுதித் தகவல்: வெட்டுக்கிளிப் போல இருக்காதீர்கள், ______ போல இருங்கள்!",
+      "options": [
+        "Lazy",
+        "Industrious / Like the Ant (உழைப்பாளி போல)",
+        "Slow",
+        "None"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of 'Chant': || 'Chant' - என்பதன் பொருள்?",
+      "options": [
+        "To sing a song repeatedly (தொடர்ந்துப் பாடுதல்)",
+        "To sleep",
+        "To eat",
+        "None"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Identify the 'C': \"The ant made the store full\". || இதில் எது 'காம்ப்ளிமெண்ட்'?",
+      "options": [
+        "store",
+        "full (நிரம்பியது)",
+        "The ant",
+        "made"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What did the Grasshopper have to eat in winter? || குளிர்காலத்தில் வெட்டுக்கிளி எதனை உண்டது?",
+      "options": [
+        "Rice",
+        "Nothing (ஒன்றுமில்லை)",
+        "Cakes",
+        "None"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: \"A penny saved is a penny earned\". || இது எதனைக் குறிக்கிறது?",
+      "options": [
+        "Eating",
+        "Importance of saving (சேமிப்பின் அவசியம்)",
+        "Running",
+        "None"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of 'Grub': || 'Grub' (கப்ப்) - என்பதன் பொருள்?",
+      "options": [
+        "Soil",
+        "Food - slang word (உணவு - எளியச் சொல்)",
+        "A car",
+        "None"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Final thought: Using time ______ is the best way to live. || இறுதிச் சிந்தனை: நேரத்தை ______ பயன்படுத்துவதேச் சிறந்த வாழ்வு.",
+      "options": [
+        "Selfishly",
+        "Wisely (அறிவுப்பூர்வமாக)",
+        "Carelessly",
+        "Slowly"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Who said: \"You sang in summer, now dance in winter!\"? || \"கோடையில் பாடினாய், குளிரில் ஆடு!\" எனப் ஏளனம்ச் செய்தது யார்?",
+      "options": [
+        "The Ant (எறும்பு)",
+        "The King",
+        "The Lion",
+        "None"
+      ],
+      "a": 0,
+      "ex": ""
+    }
+  ],
+  "credits": "தொகுப்பு: A1 ONLINE COACHING CENTER"
+}

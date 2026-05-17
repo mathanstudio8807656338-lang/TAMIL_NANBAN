@@ -1,0 +1,612 @@
+{
+  "lesson_meta": {
+    "title": "A Prayer to the Teacher",
+    "unit": "l7",
+    "grade": "7",
+    "term": "t1",
+    "subject": "english",
+    "code": "eng_7_t1_l7"
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "What was the occasion on which Subroto Bagchi delivered this speech?",
+        "options": [
+          "Annual School Day",
+          "Convocation Address",
+          "Republic Day Celebration",
+          "Teacher's Day Celebration"
+        ],
+        "answer": 1,
+        "explanation": "Subroto Bagchi delivered this speech as part of the convocation address at the International Academy for Creative Teaching, Bangalore, on January 6, 2005."
+      },
+      {
+        "question": "Who is the author of the speech 'A Prayer to the Teacher'?",
+        "options": [
+          "A.P.J. Abdul Kalam",
+          "Rabindranath Tagore",
+          "Subroto Bagchi",
+          "Edward Lear"
+        ],
+        "answer": 2,
+        "explanation": "The lesson is based on a speech given by Subroto Bagchi, founder and CEO of Mindtree."
+      },
+      {
+        "question": "According to the speaker, what is essential for a person to do well in life and push boundaries?",
+        "options": [
+          "Consumerism",
+          "The value of inclusion",
+          "Racial intolerance",
+          "Cut-throat competition"
+        ],
+        "answer": 1,
+        "explanation": "The speaker prays to the teacher to teach the value of inclusion, stating that without it, one will not know that boundaries are meant to be pushed, not to be lived in."
+      },
+      {
+        "question": "Why does the speaker say a person empties garbage on the road after cleaning their house?",
+        "options": [
+          "Because the road is too big to clean",
+          "Because garbage belongs on the road",
+          "Because the road is not 'included' in what they feel is their own",
+          "Because there are no dustbins available"
+        ],
+        "answer": 2,
+        "explanation": "The author uses this as an example of a lack of inclusion. The road is not treated as part of one's own space."
+      },
+      {
+        "question": "What happens when a person gets caught in the 'rat race' of common entrance tests?",
+        "options": [
+          "They learn to communicate effectively",
+          "Their survival depends on the power to impress",
+          "They appreciate the nature of things",
+          "They learn to love their fellow human beings"
+        ],
+        "answer": 1,
+        "explanation": "The text states that in the rat race and cut-throat competition, everyone says survival depends on the power to impress."
+      },
+      {
+        "question": "According to the author, the more a person wants to impress, the less they will ________.",
+        "options": [
+          "Contemplate",
+          "Communicate",
+          "Compete",
+          "Learn"
+        ],
+        "answer": 1,
+        "explanation": "The author points out that focusing entirely on impressing others reduces a person's ability to genuinely communicate."
+      },
+      {
+        "question": "With whom does the speaker NOT explicitly ask the teacher to help him communicate?",
+        "options": [
+          "People less privileged than him",
+          "Things animate and inanimate",
+          "Those who cannot speak or hear",
+          "Politicians and celebrities"
+        ],
+        "answer": 3,
+        "explanation": "The speaker asks to communicate with the simplicity of a child, a flower, the disabled, the less privileged, ancestors, successors, and nature. Politicians are not mentioned."
+      },
+      {
+        "question": "Why is 'one-time learning' not good enough in the wide world?",
+        "options": [
+          "Because books become outdated quickly",
+          "Because we need the ability to learn newer and more difficult things rapidly",
+          "Because teachers expect us to read daily",
+          "Because exams are conducted every year"
+        ],
+        "answer": 1,
+        "explanation": "The world requires individuals to fend for themselves and others, necessitating the continuous process of learning new and difficult things."
+      },
+      {
+        "question": "What is the ultimate result of learning newer ways to learn?",
+        "options": [
+          "It makes learning a joy",
+          "It guarantees high-paying jobs",
+          "It helps in clearing all entrance tests",
+          "It makes a person arrogant"
+        ],
+        "answer": 0,
+        "explanation": "Bagchi says that if the teacher helps him learn the process of learning itself, it will make learning a joy."
+      },
+      {
+        "question": "What causes the singing birds to go away from the city's skyline?",
+        "options": [
+          "Awesome imbalances in nature caused by urban decay and indiscriminate use of pesticides",
+          "The arrival of alien bird species",
+          "Excessive rainfall in the city",
+          "Construction of tall skyscrapers"
+        ],
+        "answer": 0,
+        "explanation": "Killing small creatures with fertilizers/pesticides and causing urban decay through consumerism creates imbalances that destroy nature, driving singing birds away."
+      },
+      {
+        "question": "Which bird does the speaker see on the city's skyline instead of singing birds?",
+        "options": [
+          "Peacock",
+          "Parrot",
+          "Scavenging bird",
+          "Pigeon"
+        ],
+        "answer": 2,
+        "explanation": "The speaker asks the teacher to explain why he sees a scavenging bird on the skyline while singing birds disappear."
+      },
+      {
+        "question": "What enslaves a person according to the text?",
+        "options": [
+          "Poverty and hunger",
+          "Doing exactly as told without asking questions",
+          "Not passing the common entrance tests",
+          "Talking too much"
+        ],
+        "answer": 1,
+        "explanation": "Bagchi mentions, 'Everyone is telling me to do as I am told. Before I know it, I am enslaved. It is because we do not ask questions.'"
+      },
+      {
+        "question": "What emerges in the exchange when we learn to question and be questioned?",
+        "options": [
+          "Truth",
+          "Conflict",
+          "Anger",
+          "Silence"
+        ],
+        "answer": 0,
+        "explanation": "If we ask questions, we become accountable. When we are willing to be questioned back, truth will emerge in that exchange."
+      },
+      {
+        "question": "How will personal success be determined in the increasingly commercial world?",
+        "options": [
+          "By the ability to consume",
+          "By the ability to remain silent",
+          "By helping the poor",
+          "By reading many books"
+        ],
+        "answer": 0,
+        "explanation": "The author notes that in a commercial world, a person is judged on value created by buying/selling, and personal success is determined by the ability to consume."
+      },
+      {
+        "question": "Which of the following elements does NOT come free of cost, as per the lesson's underlying theme?",
+        "options": [
+          "The sun's light",
+          "The cow's milk",
+          "The sea's catch of the day",
+          "Commercial products"
+        ],
+        "answer": 3,
+        "explanation": "The text highlights that all things that truly support life (sun, air, sea, earth, cow) come free, contrasting with the commercial world's paid products."
+      },
+      {
+        "question": "Why does the speaker want to learn the power of silence?",
+        "options": [
+          "To ignore people he doesn't like",
+          "To contemplate the power within",
+          "To sleep peacefully at work",
+          "To avoid answering questions"
+        ],
+        "answer": 1,
+        "explanation": "In a noisy world, appreciating the sound of silence allows a person to contemplate the power within themselves."
+      },
+      {
+        "question": "When does the speaker want to raise his voice?",
+        "options": [
+          "When he wants to impress someone",
+          "When he is arguing with his friends",
+          "When his silence can hurt another life",
+          "When he wants to prove a scientific fact"
+        ],
+        "answer": 2,
+        "explanation": "The speaker asks to be taught how to make a point without raising his voice, EXCEPT when his silence could hurt another life."
+      },
+      {
+        "question": "In the past, on what negative aspects was patriotism often founded?",
+        "options": [
+          "Love, care, and diversity",
+          "Religious bigotry, racial intolerance, and narrow domestic walls",
+          "Economic growth and agricultural development",
+          "Educational reforms and technology"
+        ],
+        "answer": 1,
+        "explanation": "The speaker notes that for hundreds of years, the world lived within narrow domestic walls where patriotism was founded on religious bigotry and racial intolerance."
+      },
+      {
+        "question": "Which word does the author want to completely remove from his vocabulary?",
+        "options": [
+          "Poverty",
+          "Syllabus",
+          "Foreigner",
+          "Silence"
+        ],
+        "answer": 2,
+        "explanation": "To appreciate diversity and treat everyone equally across boundaries, the speaker wants to remove the words 'foreign' and 'foreigner' from his vocabulary."
+      },
+      {
+        "question": "What is the meaning of the word 'engulf' as given in the glossary?",
+        "options": [
+          "To eat or to swallow",
+          "To illuminate",
+          "To look after",
+          "To think deeply"
+        ],
+        "answer": 0,
+        "explanation": "According to the glossary, engulf means 'to eat or to swallow' (often used metaphorically for destruction overwhelming us)."
+      },
+      {
+        "question": "Find the exact meaning of 'indiscriminate' from the lesson's glossary.",
+        "options": [
+          "Extremely important",
+          "Without careful judgement",
+          "Money minded",
+          "Disadvantaged"
+        ],
+        "answer": 1,
+        "explanation": "Indiscriminate means acting without careful judgement, especially mentioned in the context of using fertilizers and pesticides."
+      },
+      {
+        "question": "Match the following words with their meanings: 1. Bigotry 2. Fend 3. Contemplate",
+        "options": [
+          "1 - Look after, 2 - Think deeply, 3 - Intolerance",
+          "1 - Intolerance, 2 - Look after, 3 - Think deeply",
+          "1 - Think deeply, 2 - Intolerance, 3 - Look after",
+          "1 - Intolerance, 2 - Think deeply, 3 - Look after"
+        ],
+        "answer": 1,
+        "explanation": "Bigotry means intolerance towards others; Fend means to look after; Contemplate means to think deeply about something."
+      },
+      {
+        "question": "Choose the correct prefix to form a new word: ___ + form = conform.",
+        "options": [
+          "in",
+          "dis",
+          "con",
+          "un"
+        ],
+        "answer": 2,
+        "explanation": "The correct prefix is 'con'. Con + form = conform."
+      },
+      {
+        "question": "Which suffix is added to the word 'patriot' to form a new word in the vocabulary section?",
+        "options": [
+          "ness",
+          "ism",
+          "ity",
+          "en"
+        ],
+        "answer": 1,
+        "explanation": "Adding the suffix '-ism' to 'patriot' forms the word 'patriotism'."
+      },
+      {
+        "question": "Identify the correct antonym for the word 'animate' using a prefix.",
+        "options": [
+          "Disanimate",
+          "Unanimate",
+          "Inanimate",
+          "Exanimate"
+        ],
+        "answer": 2,
+        "explanation": "Adding the prefix 'in-' gives 'inanimate', which is the antonym of animate."
+      },
+      {
+        "question": "What is the correct antonym for 'privileged' derived using a prefix/suffix?",
+        "options": [
+          "Non-privileged",
+          "Over-privileged",
+          "Underprivileged / Less privileged",
+          "Anti-privileged"
+        ],
+        "answer": 2,
+        "explanation": "The text refers to people who are 'less privileged' or 'underprivileged' as the opposite of privileged."
+      },
+      {
+        "question": "According to the World Health Organization (WHO), how many core life skills are prescribed?",
+        "options": [
+          "Five",
+          "Seven",
+          "Ten",
+          "Twelve"
+        ],
+        "answer": 2,
+        "explanation": "The information box lists exactly Ten core life skills prescribed by WHO."
+      },
+      {
+        "question": "Which of the following is NOT one of the 10 core life skills prescribed by WHO?",
+        "options": [
+          "Empathy",
+          "Creative thinking",
+          "Coping with stress",
+          "Consumerism"
+        ],
+        "answer": 3,
+        "explanation": "Consumerism is a concept criticized in the lesson. Empathy, creative thinking, and coping with stress are WHO core life skills."
+      },
+      {
+        "question": "Fill in the blank with the correct preposition: We shall meet them _____ the club this evening.",
+        "options": [
+          "in",
+          "at",
+          "on",
+          "over"
+        ],
+        "answer": 1,
+        "explanation": "The Language Check box specifies: Use 'at' for small places like a club, park, or school. Do not say 'in the club'."
+      },
+      {
+        "question": "Complete the grammatical rule correctly: Use 'above' when there is _________, and 'over' when there is _________.",
+        "options": [
+          "movement / no movement",
+          "no movement / movement",
+          "a person / an object",
+          "an object / a person"
+        ],
+        "answer": 1,
+        "explanation": "The grammar section clearly states: Use 'above' when there is no movement. Use 'over' when there is movement (e.g., The plane flew over the building)."
+      },
+      {
+        "question": "Fill in the blank: I walk _____ foot.",
+        "options": [
+          "by",
+          "on",
+          "with",
+          "in"
+        ],
+        "answer": 1,
+        "explanation": "'On' is used for actions involving body parts (on foot). 'By' is used for means of transport (by car)."
+      },
+      {
+        "question": "Choose the appropriate preposition: Julian placed her lunchbox _____ her bag.",
+        "options": [
+          "inside",
+          "above",
+          "through",
+          "over"
+        ],
+        "answer": 0,
+        "explanation": "From the book back exercise, 'inside' correctly indicates the position of the lunchbox within the bag."
+      },
+      {
+        "question": "Choose the correct preposition: There is unity in diversity _____ the people.",
+        "options": [
+          "between",
+          "within",
+          "among",
+          "into"
+        ],
+        "answer": 2,
+        "explanation": "'Among' is used when referring to a group of more than two people."
+      },
+      {
+        "question": "Choose the correct preposition: Lithisha was praised _____ her father.",
+        "options": [
+          "for",
+          "with",
+          "by",
+          "since"
+        ],
+        "answer": 2,
+        "explanation": "The sentence is in passive voice. The action is done 'by' her father."
+      },
+      {
+        "question": "Choose the correct preposition: He has been absent _____ last week.",
+        "options": [
+          "for",
+          "since",
+          "by",
+          "from"
+        ],
+        "answer": 1,
+        "explanation": "'Since' is used to refer to a specific point in time in the past continuing to the present."
+      },
+      {
+        "question": "Fill in the blanks: The conference will be held _____ 10 a.m. _____ 5 p.m.",
+        "options": [
+          "from / to",
+          "between / and",
+          "since / for",
+          "at / in"
+        ],
+        "answer": 0,
+        "explanation": "To indicate a duration starting at one point and ending at another, we use 'from... to...'."
+      },
+      {
+        "question": "Fill in the blanks: This picture was drawn _____ the girl _____ charcoal.",
+        "options": [
+          "with / by",
+          "by / with",
+          "from / in",
+          "on / for"
+        ],
+        "answer": 1,
+        "explanation": "The agent performing the action takes 'by' (by the girl), and the tool/material used takes 'with' (with charcoal)."
+      },
+      {
+        "question": "What is a 'Limerick' as described in the textbook?",
+        "options": [
+          "A serious epic poem",
+          "A type of silly poem with five lines",
+          "A speech given during graduation",
+          "A traditional folk song"
+        ],
+        "answer": 1,
+        "explanation": "A limerick is a type of silly, often nonsensical poem consisting of exactly five lines."
+      },
+      {
+        "question": "Who made Limericks famous in the 1800s by writing the 'Book of Nonsense'?",
+        "options": [
+          "William Shakespeare",
+          "Edward Lear",
+          "Subroto Bagchi",
+          "Robert Frost"
+        ],
+        "answer": 1,
+        "explanation": "Edward Lear is the famous author who wrote an entire book of silly limericks called the 'Book of Nonsense'."
+      },
+      {
+        "question": "What is the typical rhyming scheme of a Limerick?",
+        "options": [
+          "Line 1, 2, 3 rhyme together; Line 4, 5 rhyme together",
+          "Line 1, 3, 5 rhyme together; Line 2, 4 rhyme together",
+          "Line 1, 2, 5 rhyme together; Line 3, 4 rhyme together",
+          "All five lines rhyme together"
+        ],
+        "answer": 2,
+        "explanation": "In a limerick, the 1st, 2nd, and 5th lines rhyme with each other. The 3rd and 4th lines rhyme with each other."
+      },
+      {
+        "question": "Assertion (A): The speaker says we should ask questions. Reason (R): Asking questions makes us slaves to the system.",
+        "options": [
+          "Both A and R are true, and R is the correct explanation of A",
+          "Both A and R are true, but R is not the correct explanation of A",
+          "A is true, but R is false",
+          "A is false, but R is true"
+        ],
+        "answer": 2,
+        "explanation": "The speaker says asking questions frees us from being enslaved and helps us find truth. Thus, the Reason is completely false."
+      },
+      {
+        "question": "Analogy: 'above' : No movement :: 'over' : _________",
+        "options": [
+          "Inside",
+          "Movement",
+          "Small places",
+          "Body parts"
+        ],
+        "answer": 1,
+        "explanation": "The preposition 'above' denotes a higher position with no movement, while 'over' denotes a higher position involving movement."
+      },
+      {
+        "question": "Life-Scenario Question: You notice a factory dumping chemicals into a nearby river, causing the fishes to die. According to Subroto Bagchi's speech, what concept are the factory owners failing to appreciate?",
+        "options": [
+          "The power of silence",
+          "The interconnected nature of things",
+          "The rule of grammar",
+          "The art of writing a limerick"
+        ],
+        "answer": 1,
+        "explanation": "Dumping chemicals and killing aquatic life relates to failing to appreciate how our actions destroy nature and cause awesome imbalances (interconnectedness)."
+      },
+      {
+        "question": "Match the following Prepositions with their type: 1. at 5:00 a.m. 2. inside the classroom 3. above the head",
+        "options": [
+          "1-Time, 2-Position, 3-Place",
+          "1-Place, 2-Time, 3-Position",
+          "1-Time, 2-Place, 3-Position",
+          "1-Position, 2-Place, 3-Time"
+        ],
+        "answer": 2,
+        "explanation": "'at 5:00 a.m.' indicates Time. 'inside the classroom' indicates Place. 'above the head' indicates Position."
+      },
+      {
+        "question": "What does the author imply by the phrase 'nakedness of a flower'?",
+        "options": [
+          "A flower without petals",
+          "Complete purity, transparency, and natural beauty without any artificiality",
+          "A flower that has dried up",
+          "A flower that is expensive"
+        ],
+        "answer": 1,
+        "explanation": "He uses 'nakedness of a flower' metaphorically to represent pure, honest, and unpretentious communication, stripping away the artificial need to 'impress'."
+      },
+      {
+        "question": "Why does the author state that 'the sea does not come to get royalties on the catch of the day'?",
+        "options": [
+          "To prove that fishermen are rich",
+          "To show that sea water is salty",
+          "To emphasize that nature selflessly sustains life without demanding commercial payment",
+          "To explain the legal rights of the ocean"
+        ],
+        "answer": 2,
+        "explanation": "He contrasts the commercial, money-minded human world with nature (sea, sun, earth), which freely gives life-sustaining resources without asking for money."
+      },
+      {
+        "question": "HOTS: If a student completely masters the school syllabus but refuses to help a struggling classmate, which of Bagchi's prayers has the teacher failed to fulfill?",
+        "options": [
+          "Teach me to question",
+          "Teach me the power of silence",
+          "Teach me the value of inclusion and love for fellow human beings",
+          "Teach me grammar"
+        ],
+        "answer": 2,
+        "explanation": "Ignoring a struggling classmate means the student has not learned 'inclusion' or 'loving fellow human beings', which Bagchi emphasizes is more important than the syllabus."
+      },
+      {
+        "question": "HOTS: 'Teach me to appreciate that poverty, disease and hunger have no nationality.' What is the underlying message of this statement?",
+        "options": [
+          "Only one country suffers from poverty",
+          "Diseases can only be cured in foreign countries",
+          "Human suffering is universal, and our empathy shouldn't be restricted by borders",
+          "Patriotism means fighting other countries"
+        ],
+        "answer": 2,
+        "explanation": "Bagchi wants students to develop a 'world view' where they realize that human struggles are universal, tearing down the 'narrow domestic walls' of false patriotism."
+      },
+      {
+        "question": "Which of the following sentences has the INCORRECT use of a preposition according to the 'Language Check' section?",
+        "options": [
+          "I walk on foot.",
+          "We shall meet them at the club.",
+          "The plane flew above the building.",
+          "He discussed the problem with his parents."
+        ],
+        "answer": 2,
+        "explanation": "According to the Language Check, since a plane is moving, one should say 'The plane flew over the building', not 'above'."
+      },
+      {
+        "question": "According to the story 'Sarah Wants to Talk' given in the Speaking section, why was Sarah feeling sad initially?",
+        "options": [
+          "She failed her English test",
+          "She missed her home and her friends",
+          "Her brother broke her toy",
+          "She lost her pencil"
+        ],
+        "answer": 1,
+        "explanation": "The short story explicitly states: 'Sarah was feeling sad. She missed her home and her friends.'"
+      }
+    ]
+  },
+  "material": {
+    "sections": [
+      {
+        "title": "பாடச் சுருக்கம் (Lesson Summary)",
+        "content": "This lesson is based on a speech given by Subroto Bagchi, founder and CEO of Mindtree, as part of the convocation address at the International Academy for Creative Teaching, Bangalore, on January 6, 2005. He addresses the graduating teachers and requests them to go beyond the syllabus and teach students the values and skills they need to live a useful and meaningful life. He prays to the teachers to impart life-altering qualities such as inclusion, effective communication, the ability to 'learn to learn', understanding the interconnected nature of things, the power to question, humility, the power of silence, and a broad world view that appreciates diversity and dialogue."
+      },
+      {
+        "title": "பாடக்கருத்துக்கள் - 1. உள்ளடக்கம் (Value of Inclusion)",
+        "content": "▸ Bagchi prays to teach the value of inclusion. He states that without a sense of inclusion, individuals will not know that boundaries are meant to be pushed and not to be lived in. Real-life examples provided in the text:\n• - Cleaning one's house but emptying garbage on the road because the road is not 'included' in their personal space.\n• - Feeding one's own child but not caring about the maid's hunger.\n• - Taking one's own child to a movie but ignoring the neighbour's child.\n• Teachers must teach that all people, irrespective of differences, are part of our world."
+      },
+      {
+        "title": "பாடக்கருத்துக்கள் - 2. தகவல் தொடர்பு மற்றும் கற்றல் (Communication & Learning)",
+        "content": "• Communication: In the modern 'rat race' of common entrance tests and cut-throat competition, society teaches that survival depends on the power to impress. However, Bagchi warns that the more one wants to impress, the less they actually communicate. We must learn to communicate honestly with the simplicity of a child, the nakedness of a flower, the disabled, the less privileged, our ancestors and successors, and all animate and inanimate things.\n\n• Learning: Preparing for the wide world means one-time learning is inadequate. Students must possess the ability to learn newer and more difficult things quickly. Therefore, learning the process itself ('learn to learn') is far more critical than just memorizing facts. This approach makes learning a joy rather than a burden."
+      },
+      {
+        "title": "பாடக்கருத்துக்கள் - 3. இயற்கையின் தொடர்பு மற்றும் கேள்வி கேட்கும் திறன் (Interconnectedness & Questioning)",
+        "content": "• Interconnected Nature: We must look beyond the surface—not just learning why waves rise, but what causes them to fall. Indiscriminate use of fertilizers and pesticides, killing small creatures, and causing urban decay through excessive consumerism create awesome imbalances in nature. This destruction can eventually engulf humanity. We must question why scavenging birds are seen instead of singing birds and learn how to bring singing birds back to our window sills.\n\n• Power to Question: Simply doing as we are told enslaves us. Only if we ask questions can we get answers, establish a better order, and learn to be accountable. In an environment where questions are welcomed and challenged, true knowledge and truth emerge."
+      },
+      {
+        "title": "பாடக்கருத்துக்கள் - 4. அமைதி மற்றும் உலகளாவிய பார்வை (Silence & World View)",
+        "content": "• Humility & Free Things: We live in an increasingly commercial world where personal success is often determined by the ability to consume (buying and selling). We must remain humble by realizing that the most critical things that support life come without payment. The sea, sun, air, river, clouds, earth, and cow do not charge money for their essential services.\n\n• Power of Silence: In a noisy world, we must learn to appreciate silence to contemplate our inner power. A person should be able to make a point without raising their voice. However, one must boldly raise their voice when their silence could hurt another life.\n\n• World View: Poverty, disease, and hunger do not have nationalities. Historical patriotism was often built on religious bigotry, racial intolerance, and 'narrow domestic walls'. We must appreciate global diversity, practice tolerance, and completely erase the words 'foreign' and 'foreigner' from our vocabulary."
+      },
+      {
+        "title": "கலைச்சொற்கள் (Glossary)",
+        "content": "• syllabi - plural of syllabus\n• inclusion - all people being valued, irrespective of differences\n• cut throat - competitive\n• less privileged - disadvantaged\n• animate - living\n• fend - look after\n• critical - extremely important\n• indiscriminate - without careful judgement\n• consumerism - the protection or promotion of the interests of consumers\n• destruction - the action of damaging or destroying something\n• engulf - to eat or to swallow\n• scavenger bird - anything that feeds on dead animals (example: crow)\n• perch - to rest on / to stay on\n• enslaved - made someone slave\n• commercial - money minded\n• contemplate - think deeply about something\n• bigotry - intolerance towards others with a different opinion\n• illuminated - light up"
+      },
+      {
+        "title": "தகவல் பேழை - 10 Core Life Skills (WHO)",
+        "content": "▸ Ten core life skills prescribed by WHO (World Health Organization) are:\n• Self-awareness\n• Empathy\n• Critical thinking\n• Creative thinking\n• Decision making\n• Problem Solving\n• Effective communication\n• Interpersonal relationship\n• Coping with stress\n• Coping with emotion"
+      },
+      {
+        "title": "தகவல் பேழை - இலக்கணம் (Grammar: Prepositions)",
+        "content": "• A preposition comes before a noun or pronoun in a sentence and shows its relationship to another word or part of the sentence.\n\n▸ Classification of Prepositions:\n• - Time: at 5:00 a.m., during the morning, in the evening.\n• - Place: in Villupuram, at the Bus stop, inside the classroom.\n• - Position: on the table, above the head, over the bridge.\n\n▸ Language Check (Don't Say -> Say -> Note):\n• Don't say: The plane flew above the building. -> Say: The plane flew over the building. (Note: Use 'above' when there is no movement. Use 'over' when there is movement).\n• Don't say: We shall meet them in the club this evening. -> Say: We shall meet them at the club this evening. (Note: Use 'in' for large places like countries/cities. Use 'at' for small places like parks/schools/clubs).\n• Don't say: I walk by foot. -> Say: I walk on foot. (Note: 'On' is used for actions involving body parts. 'By' is usually used to mention the means of transport like by car, by bus)."
+      },
+      {
+        "title": "பாட பின்புற வினாக்கள் - 1 மதிப்பெண் (Book Back Evaluation - I, II & Vocab)",
+        "content": "• I. Which of these statements do you find in the speech?\n• - Inclusion is essential for us to do well in life. (Found in speech)\n• - We should neglect others. (Not found)\n• - Communicate politely with the less privileged. (Found in speech)\n• - Teachers teach us to communicate well. (Found in speech)\n• - Effective Communication is inessential to excel in life. (Not found)\n\n▸ II. Tick the correct words:\n• We should develop the ability to learn from - self, others, books. (All options apply)\n• Teachers help me to learn - new, difficult things.\n• Teach me to appreciate - nature, small creatures.\n• We should learn to - ask, answer questions.\n\n▸ Vocabulary - Prefix & Suffix combinations:\n• con + form = conform\n• patriot + ism = patriotism\n• diverse + ity = diversity\n• en + slave + d = enslaved\n• in + animate = inanimate\n• consumer + ism = consumerism\n• naked + ness = nakedness\n\n▸ Find Antonyms using Prefix or Suffix:\n• privileged -> underprivileged / less privileged\n• animate -> inanimate\n• discriminate -> indiscriminate\n• empty -> emptiness (noun form) / unempty (rare)\n• communicate -> uncommunicative / excommunicate\n• learn -> unlearn"
+      },
+      {
+        "title": "பாட பின்புற வினாக்கள் - இலக்கணப் பயிற்சி (Grammar Exercises - Prepositions)",
+        "content": "▸ F. Underlined Prepositions:\n• Julian placed her lunchbox [inside] her bag.\n• Vinothini left the house [before] sunrise.\n• Ben saw Daisy playing [across] the road.\n• Hema keeps all her teddy bears [on] top of her wardrobe.\n• Divya hid the sweets [behind] her back.\n• Sudha fell [over] during the basketball match.\n• Madhusudhan checked to see if his keys had fallen [underneath] his chair.\n• Mrs Meena asked the children to go [into] her classroom.\n• [After] lunch, the children were allowed to play.\n• Saravanan climbed [onto] the horse.\n\n▸ G. Choose the appropriate preposition:\n• Is your mother [at] home?\n• There is unity in diversity [among] the people.\n• He discussed the problem [with] his parents.\n• Lithisha was praised [by] her father.\n• Can you finish the work [by] tomorrow?\n• He has been absent [since] last week.\n\n▸ H. Fill in the blanks:\n• What do you do [during/at] weekends?\n• I am going to my village [on] Sunday.\n• I haven't met my friends [since] December.\n• Run [across] the street and get me the ribbon.\n• He told me in detail [about] the incident.\n• This picture was drawn [by] the girl [with] charcoal.\n• The car was travelling [at] a great speed.\n• The ball fell [into] the lake.\n• There is a bridge [over/across] the river.\n• The conference will be held [from] 10 a.m. [to] 5 p.m."
+      },
+      {
+        "title": "உங்களுக்குத் தெரியுமா? - Limerick (கவிதை வடிவம்)",
+        "content": "• A limerick is a type of a silly poem with exactly five lines. They are often funny or nonsensical. Limericks were made famous by Edward Lear, a famous author who wrote the 'Book of Nonsense' in the 1800s.\n\n• How to write a limerick poem?\n• - The 1st, 2nd, and 5th lines rhyme with each other and have the same number of syllables (typically 8 or 9).\n• - The 3rd and 4th lines rhyme with each other and have the same number of syllables (typically 5 or 6).\n• - Limericks often start with the line 'There once was a...' or 'There was a...'"
+      }
+    ]
+  }
+}

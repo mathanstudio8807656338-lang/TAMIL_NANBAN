@@ -1,0 +1,380 @@
+{
+  "code": "rev_4_eng",
+  "quiz": {
+    "questions": [
+      {
+        "question": "31. Who is the author of \"The Nose-Jewel\"?",
+        "options": [
+          "C. Rajagopalachari",
+          "R.K. Narayan",
+          "Ruskin Bond",
+          "Rabindranath Tagore"
+        ],
+        "answer": 0,
+        "explanation": "The story \"The Nose-Jewel\" is written by Chakravarti Rajagopalachari."
+      },
+      {
+        "question": "32. Where did the sparrows build their nest in Ramayya's house?",
+        "options": [
+          "In the tree",
+          "On the roof",
+          "In the ventilator",
+          "Under the staircase"
+        ],
+        "answer": 2,
+        "explanation": "The two sparrows built a nest in a nice spot in the roof of Ramayya's house (ventilator)."
+      },
+      {
+        "question": "33. What did the male bird find on the muck-heap?",
+        "options": [
+          "A worm",
+          "A diamond nose-jewel",
+          "A coin",
+          "A seed"
+        ],
+        "answer": 1,
+        "explanation": "While searching for food, the male bird found a shining diamond nose-stud in the muck."
+      },
+      {
+        "question": "34. \"Special Hero\" is a poem about whom?",
+        "options": [
+          "Mother",
+          "Teacher",
+          "Father",
+          "Friend"
+        ],
+        "answer": 2,
+        "explanation": "The poem beautifully expresses the love and bond between a child and their father."
+      },
+      {
+        "question": "35. Who is the author of \"The Woman on Platform 8\"?",
+        "options": [
+          "Ruskin Bond",
+          "Jim Corbett",
+          "Roald Dahl",
+          "O. Henry"
+        ],
+        "answer": 0,
+        "explanation": "This classic short story about Arun and the strange kind woman was written by Ruskin Bond."
+      },
+      {
+        "question": "36. Identify the Noun: \"Honesty is the best policy.\"",
+        "options": [
+          "Honesty",
+          "Best",
+          "Policy",
+          "Both a and c"
+        ],
+        "answer": 3,
+        "explanation": "'Honesty' and 'Policy' are abstract nouns."
+      },
+      {
+        "question": "37. Ajay Kumar Garg's hobby was ________.",
+        "options": [
+          "Singing",
+          "Painting",
+          "Reading",
+          "Fishing"
+        ],
+        "answer": 1,
+        "explanation": "Ajay Kumar Garg is a very talented young artist whose hobby became his career (Miniature painting)."
+      },
+      {
+        "question": "38. Ilavazhagi was a champion in which sport?",
+        "options": [
+          "Chess",
+          "Carrom",
+          "Badminton",
+          "Tennis"
+        ],
+        "answer": 1,
+        "explanation": "S. Ilavazhagi is an Indian carrom player who won the World Carrom Championship."
+      },
+      {
+        "question": "39. What is the synonym of 'Panic'?",
+        "options": [
+          "Calm",
+          "Fear",
+          "Joy",
+          "Bravery"
+        ],
+        "answer": 1,
+        "explanation": "Panic means sudden uncontrollable fear or anxiety."
+      },
+      {
+        "question": "40. What is the antonym of 'Cruel'?",
+        "options": [
+          "Bad",
+          "Kind",
+          "Evil",
+          "Harsh"
+        ],
+        "answer": 1,
+        "explanation": "The opposite of cruel (causing pain/suffering) is kind."
+      },
+      {
+        "question": "41. Why did the male bird drop the diamond stud?",
+        "options": [
+          "The female bird refused it",
+          "It was too heavy",
+          "The bird wanted to play",
+          "To give it to Ramayya"
+        ],
+        "answer": 0,
+        "explanation": "The female bird said the jewel was useless to her and asked him to find food (grub) for their young ones instead."
+      },
+      {
+        "question": "42. Analyze the character of Ramayya's wife. She was:",
+        "options": [
+          "Content and peaceful",
+          "Greedy and panicked",
+          "Generous",
+          "Brave"
+        ],
+        "answer": 1,
+        "explanation": "She took the jewel out of greed but later lived in constant panic of being caught."
+      },
+      {
+        "question": "43. How does the poet describe his father's love in \"Special Hero\"?",
+        "options": [
+          "Temporary",
+          "Everlasting",
+          "Strict",
+          "Conditional"
+        ],
+        "answer": 1,
+        "explanation": "The poet says, \"Your love is everlasting,\" highlighting a permanent, unconditional bond."
+      },
+      {
+        "question": "44. Why did Arun feel a connection with the strange woman on Platform 8?",
+        "options": [
+          "She gave him money",
+          "She was kind and treated him like a son",
+          "She was his relative",
+          "She had a pet"
+        ],
+        "answer": 1,
+        "explanation": "She provided him comfort, food, and companionship while he was waiting alone."
+      },
+      {
+        "question": "45. How did reading become a successful career for the author in \"My Hobby: Reading\"?",
+        "options": [
+          "It helped him sleep",
+          "It unlocked his imagination and writing skills",
+          "It made him rich instantly",
+          "It helped him pass exams"
+        ],
+        "answer": 1,
+        "explanation": "Reading improved his thoughts, vocabulary, and ability to construct stories, eventually making him a writer."
+      },
+      {
+        "question": "46. Match the words with their meanings:",
+        "options": [
+          "Muck - 1) Whisper",
+          "Mutter - 2) Dirt/Rubbish",
+          "Suspicion - 3) Shining",
+          "Glistening - 4) Doubt"
+        ],
+        "answer": 0,
+        "explanation": "Muck=Dirt, Mutter=Whisper/speak low, Suspicion=Doubt, Glistening=Shining."
+      },
+      {
+        "question": "47. Assertion (A): Ramayya and his wife lived in fear for the rest of their lives. Reason (R): They secretly kept the diamond jewel that didn't belong to them.",
+        "options": [
+          "Both A and R are true, R is the correct explanation",
+          "A is true, R is false",
+          "A is false, R is true",
+          "Both are true, but R is not the correct explanation."
+        ],
+        "answer": 0,
+        "explanation": "Their guilt and fear of police searching their house caused their lifelong panic."
+      },
+      {
+        "question": "48. Assertion (A): Hobbies can turn into successful careers. Reason (R): Passionate engagement in a hobby develops unique skills.",
+        "options": [
+          "Both A and R are true, R is the correct explanation",
+          "A is true, R is false",
+          "A is false, R is true",
+          "Both are true, but R is not the correct explanation."
+        ],
+        "answer": 0,
+        "explanation": "Consistent practice in what you love (hobby) hones skills that can be monetized."
+      },
+      {
+        "question": "49. Reading : Knowledge :: Painting : ________",
+        "options": [
+          "Colors",
+          "Creativity",
+          "Brush",
+          "Canvas"
+        ],
+        "answer": 1,
+        "explanation": "Reading builds knowledge; painting builds and expresses creativity."
+      },
+      {
+        "question": "50. Diamond : Hard :: Sponge : ________",
+        "options": [
+          "Soft",
+          "Wet",
+          "Yellow",
+          "Clean"
+        ],
+        "answer": 0,
+        "explanation": "Based on physical properties, a diamond is hard and a sponge is soft."
+      },
+      {
+        "question": "51. If you find a valuable item on the road like the bird did, what is the right action?",
+        "options": [
+          "Sell it",
+          "Hand it over to the police",
+          "Keep it a secret",
+          "Throw it away"
+        ],
+        "answer": 1,
+        "explanation": "Taking responsibility and returning lost property is morally and legally correct."
+      },
+      {
+        "question": "52. How would you apply the lessons from \"The Nose Jewel\" to your life?",
+        "options": [
+          "Always buy diamonds",
+          "Never be greedy for things that belong to others",
+          "Feed birds",
+          "Keep secrets"
+        ],
+        "answer": 1,
+        "explanation": "Greed leads to pain and paranoia, which is the core moral of the story."
+      },
+      {
+        "question": "53. If your hobby is photography, how can you turn it into a career?",
+        "options": [
+          "By hiding photos",
+          "By creating a portfolio and taking professional projects",
+          "By buying a costly camera only",
+          "By deleting photos"
+        ],
+        "answer": 1,
+        "explanation": "Showcasing your skills practically is the way to build a profession out of a hobby."
+      },
+      {
+        "question": "54. Create a title for a story where a boy helps an old man at a railway station.",
+        "options": [
+          "The Lost Train",
+          "Kindness in Transit",
+          "The Stolen Ticket",
+          "Platform 9"
+        ],
+        "answer": 1,
+        "explanation": "The title perfectly reflects the theme of empathy during a journey."
+      },
+      {
+        "question": "55. Substitute the underlined word: The child was *crying*.",
+        "options": [
+          "Weeping",
+          "Smiling",
+          "Laughing",
+          "Playing"
+        ],
+        "answer": 0,
+        "explanation": "Weeping is the direct synonym for crying."
+      },
+      {
+        "question": "56. Fill in the blank with a suitable pronoun: Ramayya bought a new house. _____ moved in yesterday.",
+        "options": [
+          "He",
+          "She",
+          "They",
+          "It"
+        ],
+        "answer": 0,
+        "explanation": "The subject 'Ramayya' is singular male, so 'He' is appropriate (If referring to family, 'They' could fit, but 'He' directly replaces Ramayya)."
+      },
+      {
+        "question": "57. Identify the sentence pattern: \"Birds fly.\"",
+        "options": [
+          "SVO",
+          "SV",
+          "SVC",
+          "SVIODO"
+        ],
+        "answer": 1,
+        "explanation": "Subject (Birds) + Verb (fly). No object is needed to complete the meaning."
+      },
+      {
+        "question": "58. Change to plural: 'Knife'",
+        "options": [
+          "Knifes",
+          "Knivi",
+          "Knives",
+          "Knife"
+        ],
+        "answer": 2,
+        "explanation": "Nouns ending in -fe change to -ves in the plural."
+      },
+      {
+        "question": "59. Add a suitable prefix to the word 'happy'.",
+        "options": [
+          "un",
+          "dis",
+          "in",
+          "mis"
+        ],
+        "answer": 0,
+        "explanation": "Un + happy = Unhappy (Meaning not happy)."
+      },
+      {
+        "question": "60. Pick the odd one out.",
+        "options": [
+          "Carrom",
+          "Chess",
+          "Ludo",
+          "Football (Reason: Outdoor game)"
+        ],
+        "answer": 3,
+        "explanation": "Football is an outdoor sport, while the rest are indoor board games."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "title": "Part 2: English (Questions 31 - 60)",
+      "content": [
+        "**LOT & MOT:**",
+        "**31. Who is the author of \"The Nose-Jewel\"?**\na) C. Rajagopalachari\nb) R.K. Narayan\nc) Ruskin Bond\nd) Rabindranath Tagore\n\n* **Answer:** a) C. Rajagopalachari\n* **Explanation:** The story \"The Nose-Jewel\" is written by Chakravarti Rajagopalachari.",
+        "**32. Where did the sparrows build their nest in Ramayya's house?**\na) In the tree\nb) On the roof\nc) In the ventilator\nd) Under the staircase\n\n* **Answer:** c) In the ventilator\n* **Explanation:** The two sparrows built a nest in a nice spot in the roof of Ramayya's house (ventilator).",
+        "**33. What did the male bird find on the muck-heap?**\na) A worm\nb) A diamond nose-jewel\nc) A coin\nd) A seed\n\n* **Answer:** b) A diamond nose-jewel\n* **Explanation:** While searching for food, the male bird found a shining diamond nose-stud in the muck.",
+        "**34. \"Special Hero\" is a poem about whom?**\na) Mother\nb) Teacher\nc) Father\nd) Friend\n\n* **Answer:** c) Father\n* **Explanation:** The poem beautifully expresses the love and bond between a child and their father.",
+        "**35. Who is the author of \"The Woman on Platform 8\"?**\na) Ruskin Bond\nb) Jim Corbett\nc) Roald Dahl\nd) O. Henry\n\n* **Answer:** a) Ruskin Bond\n* **Explanation:** This classic short story about Arun and the strange kind woman was written by Ruskin Bond.",
+        "**36. Identify the Noun: \"Honesty is the best policy.\"**\na) Honesty\nb) Best\nc) Policy\nd) Both a and c\n\n* **Answer:** d) Both a and c\n* **Explanation:** 'Honesty' and 'Policy' are abstract nouns.",
+        "**37. Ajay Kumar Garg's hobby was ________.**\na) Singing\nb) Painting\nc) Reading\nd) Fishing\n\n* **Answer:** b) Painting\n* **Explanation:** Ajay Kumar Garg is a very talented young artist whose hobby became his career (Miniature painting).",
+        "**38. Ilavazhagi was a champion in which sport?**\na) Chess\nb) Carrom\nc) Badminton\nd) Tennis\n\n* **Answer:** b) Carrom\n* **Explanation:** S. Ilavazhagi is an Indian carrom player who won the World Carrom Championship.",
+        "**39. What is the synonym of 'Panic'?**\na) Calm\nb) Fear\nc) Joy\nd) Bravery\n\n* **Answer:** b) Fear\n* **Explanation:** Panic means sudden uncontrollable fear or anxiety.",
+        "**40. What is the antonym of 'Cruel'?**\na) Bad\nb) Kind\nc) Evil\nd) Harsh\n\n* **Answer:** b) Kind\n* **Explanation:** The opposite of cruel (causing pain/suffering) is kind.",
+        "**HOT & Analysis:**",
+        "**41. Why did the male bird drop the diamond stud?**\na) The female bird refused it\nb) It was too heavy\nc) The bird wanted to play\nd) To give it to Ramayya\n\n* **Answer:** a) The female bird refused it\n* **Explanation:** The female bird said the jewel was useless to her and asked him to find food (grub) for their young ones instead.",
+        "**42. Analyze the character of Ramayya's wife. She was:**\na) Content and peaceful\nb) Greedy and panicked\nc) Generous\nd) Brave\n\n* **Answer:** b) Greedy and panicked\n* **Explanation:** She took the jewel out of greed but later lived in constant panic of being caught.",
+        "**43. How does the poet describe his father's love in \"Special Hero\"?**\na) Temporary\nb) Everlasting\nc) Strict\nd) Conditional\n\n* **Answer:** b) Everlasting\n* **Explanation:** The poet says, \"Your love is everlasting,\" highlighting a permanent, unconditional bond.",
+        "**44. Why did Arun feel a connection with the strange woman on Platform 8?**\na) She gave him money\nb) She was kind and treated him like a son\nc) She was his relative\nd) She had a pet\n\n* **Answer:** b) She was kind and treated him like a son\n* **Explanation:** She provided him comfort, food, and companionship while he was waiting alone.",
+        "**45. How did reading become a successful career for the author in \"My Hobby: Reading\"?**\na) It helped him sleep\nb) It unlocked his imagination and writing skills\nc) It made him rich instantly\nd) It helped him pass exams\n\n* **Answer:** b) It unlocked his imagination and writing skills\n* **Explanation:** Reading improved his thoughts, vocabulary, and ability to construct stories, eventually making him a writer.",
+        "**Match the following:**",
+        "**46. Match the words with their meanings:**\nA) Muck - 1) Whisper | B) Mutter - 2) Dirt/Rubbish | C) Suspicion - 3) Shining | D) Glistening - 4) Doubt\n\n* **Answer:** a) A-2, B-1, C-4, D-3\n* **Explanation:** Muck=Dirt, Mutter=Whisper/speak low, Suspicion=Doubt, Glistening=Shining.",
+        "**Assertion - Reason:**",
+        "**47. Assertion (A): Ramayya and his wife lived in fear for the rest of their lives. Reason (R): They secretly kept the diamond jewel that didn't belong to them.**\na) Both A and R are true, R is the correct explanation\nb) A is true, R is false\nc) A is false, R is true\nd) Both are true, but R is not the correct explanation.\n\n* **Answer:** a) Both A and R are true, R is the correct explanation\n* **Explanation:** Their guilt and fear of police searching their house caused their lifelong panic.",
+        "**48. Assertion (A): Hobbies can turn into successful careers. Reason (R): Passionate engagement in a hobby develops unique skills.**\na) Both A and R are true, R is the correct explanation\nb) A is true, R is false\nc) A is false, R is true\nd) Both are true, but R is not the correct explanation.\n\n* **Answer:** a) Both A and R are true, R is the correct explanation\n* **Explanation:** Consistent practice in what you love (hobby) hones skills that can be monetized.",
+        "**Analogy & Life-oriented:**",
+        "**49. Reading : Knowledge :: Painting : ________**\na) Colors\nb) Creativity\nc) Brush\nd) Canvas\n\n* **Answer:** b) Creativity\n* **Explanation:** Reading builds knowledge; painting builds and expresses creativity.",
+        "**50. Diamond : Hard :: Sponge : ________**\na) Soft\nb) Wet\nc) Yellow\nd) Clean\n\n* **Answer:** a) Soft\n* **Explanation:** Based on physical properties, a diamond is hard and a sponge is soft.",
+        "**51. If you find a valuable item on the road like the bird did, what is the right action?**\na) Sell it\nb) Hand it over to the police\nc) Keep it a secret\nd) Throw it away\n\n* **Answer:** b) Hand it over to the police\n* **Explanation:** Taking responsibility and returning lost property is morally and legally correct.",
+        "**52. How would you apply the lessons from \"The Nose Jewel\" to your life?**\na) Always buy diamonds\nb) Never be greedy for things that belong to others\nc) Feed birds\nd) Keep secrets\n\n* **Answer:** b) Never be greedy for things that belong to others\n* **Explanation:** Greed leads to pain and paranoia, which is the core moral of the story.",
+        "**53. If your hobby is photography, how can you turn it into a career?**\na) By hiding photos\nb) By creating a portfolio and taking professional projects\nc) By buying a costly camera only\nd) By deleting photos\n\n* **Answer:** b) By creating a portfolio and taking professional projects\n* **Explanation:** Showcasing your skills practically is the way to build a profession out of a hobby.",
+        "**54. Create a title for a story where a boy helps an old man at a railway station.**\na) The Lost Train\nb) Kindness in Transit\nc) The Stolen Ticket\nd) Platform 9\n\n* **Answer:** b) Kindness in Transit\n* **Explanation:** The title perfectly reflects the theme of empathy during a journey.",
+        "**55. Substitute the underlined word: The child was *crying*.**\na) Weeping\nb) Smiling\nc) Laughing\nd) Playing\n\n* **Answer:** a) Weeping\n* **Explanation:** Weeping is the direct synonym for crying.",
+        "**Grammar & Application:**",
+        "**56. Fill in the blank with a suitable pronoun: Ramayya bought a new house. _____ moved in yesterday.**\na) He\nb) She\nc) They\nd) It\n\n* **Answer:** a) He\n* **Explanation:** The subject 'Ramayya' is singular male, so 'He' is appropriate (If referring to family, 'They' could fit, but 'He' directly replaces Ramayya).",
+        "**57. Identify the sentence pattern: \"Birds fly.\"**\na) SVO\nb) SV\nc) SVC\nd) SVIODO\n\n* **Answer:** b) SV\n* **Explanation:** Subject (Birds) + Verb (fly). No object is needed to complete the meaning.",
+        "**58. Change to plural: 'Knife'**\na) Knifes\nb) Knivi\nc) Knives\nd) Knife\n\n* **Answer:** c) Knives\n* **Explanation:** Nouns ending in -fe change to -ves in the plural.",
+        "**59. Add a suitable prefix to the word 'happy'.**\na) un\nb) dis\nc) in\nd) mis\n\n* **Answer:** a) un\n* **Explanation:** Un + happy = Unhappy (Meaning not happy).",
+        "**60. Pick the odd one out.**\na) Carrom\nb) Chess\nc) Ludo\nd) Football (Reason: Outdoor game)\n\n* **Answer:** d) Football\n* **Explanation:** Football is an outdoor sport, while the rest are indoor board games."
+      ]
+    }
+  ]
+}

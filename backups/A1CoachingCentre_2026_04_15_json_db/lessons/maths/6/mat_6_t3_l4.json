@@ -1,0 +1,102 @@
+{
+  "isBilingual": true,
+  "unit": "Unit 4",
+  "subject": "Maths",
+  "class": "6",
+  "term": 3,
+  "title": "Symmetry (சமச்சீர்த் தன்மை)",
+  "summary": "வடிவங்களைப் பிரித்தல், எதிரொளித்தல், சுழற்றுதல் மற்றும் இடமாற்றுதல் ஆகியவற்றின் மூலம் ஏற்படும் சமச்சீர் நிலைகளை இப்பாடம் விளக்குகிறது.",
+  "material": {
+    "isBilingual": true,
+    "sections": [
+      {
+        "title": "4.1 சமச்சீர்த் தன்மை - அறிமுகம் (Symmetry - Introduction)",
+        "type": "bilingual",
+        "en": [
+          "Symmetry: If a figure can be divided into two identical halves that coincide when folded.",
+          "Line of Symmetry: The line that divides the figure into two identical halves.",
+          "Origin: Derived from Greek 'Symmetros', meaning 'of like measure'.",
+          "Note: A rectangle's diagonal is NOT a line of symmetry because the halves don't coincide when folded."
+        ],
+        "ta": [
+          "சமச்சீர்த் தன்மை: இரு சமபாகங்களாகப் பிரிக்கும்போது, ஒரு பகுதி மற்றொரு பகுதியுடன் சரியாகப் பொருந்தினால் அது சமச்சீர்த் தன்மை எனப்படும்.",
+          "சமச்சீர்க்கோடு: ஒரு படத்தை இரு சமபாகங்களாகப் பிரிக்கும் அக்கோட்டினைச் சமச்சீர்க்கோடு அல்லது சமச்சீர் அச்சு என்கிறோம்.",
+          "பெயர்க்காரணம்: 'Symmetros' என்ற கிரேக்கச் சொல்லிலிருந்து பெறப்பட்டது. இதன் பொருள் 'ஒத்த அளவினையுடைய'.",
+          "குறிப்பு: ஒரு செவ்வகத்தின் மூலைவிட்டம் சமச்சீர்க்கோடு அல்ல, ஏனெனில் மடிக்கும்போது அவை சரியாகப் பொருந்தாது."
+        ]
+      },
+      {
+        "title": "4.2 ஒழுங்கு பலகோணங்கள் (Regular Polygons)",
+        "type": "bilingual",
+        "en": [
+          "Regular Polygon: A closed figure with all sides and all angles equal.",
+          "Rule: The number of lines of symmetry in a regular polygon is equal to its number of sides (n).",
+          "Equilateral Triangle: 3 lines.",
+          "Square: 4 lines.",
+          "Regular Pentagon: 5 lines.",
+          "Regular Hexagon: 6 lines."
+        ],
+        "ta": [
+          "ஒழுங்கு பலகோணம்: அனைத்துப் பக்கங்களையும், அனைத்து கோணங்களையும் சமமாகக் கொண்ட ஒரு மூடிய வடிவம்.",
+          "விதி: ஒரு ஒழுங்கு பலகோணத்தின் சமச்சீர்க்கோடுகளின் எண்ணிக்கை அதன் பக்கங்களின் எண்ணிக்கைக்கு (n) சமமாக இருக்கும்.",
+          "சமபக்க முக்கோணம்: 3 சமச்சீர்க்கோடுகள்.",
+          "சதுரம்: 4 சமச்சீர்க்கோடுகள்.",
+          "ஒழுங்கு ஐங்கோணம்: 5 சமச்சீர்க்கோடுகள்.",
+          "ஒழுங்கு அறுகோணம்: 6 சமச்சீர்க்கோடுகள்."
+        ]
+      },
+      {
+        "title": "4.3 எதிரொளிப்பு சமச்சீர்த் தன்மை (Reflection Symmetry)",
+        "type": "bilingual",
+        "en": [
+          "Also known as 'Mirror Symmetry'.",
+          "A figure that has a line of symmetry possesses reflection symmetry.",
+          "Lateral Inversion: The only difference between an object and its mirror image is left-right reversal.",
+          "Letters like A, H, I, M, O, T, U, V, W, X, Y look identical in a mirror."
+        ],
+        "ta": [
+          "இது 'ஆடிச் சமச்சீர்த் தன்மை' என்றும் அழைக்கப்படுகிறது.",
+          "ஒரு வடிவம் சமச்சீர்க்கோட்டினைப் பெற்றிருந்தால் அது எதிரொளிப்பு சமச்சீர்த் தன்மையைப் பெற்றிருக்கும்.",
+          "இட வல மாற்றம்: பொருளுக்கும் அதன் ஆடிப் பிம்பத்திற்கும் இடையே உள்ள ஒரே வேறுபாடு அதன் இட வல மாற்றம் ஆகும்.",
+          "A, H, I, M, O, T, U, V, W, X, Y போன்ற எழுத்துகள் கண்ணாடியில் மாறாமல் (அதேபோன்று) தெரியும்."
+        ]
+      },
+      {
+        "title": "4.4 சுழல் சமச்சீர்த் தன்மை (Rotational Symmetry)",
+        "type": "bilingual",
+        "en": [
+          "Rotation: Turning around a fixed center point.",
+          "Order of Rotational Symmetry: The number of times a figure fits onto itself during a full 360° turn.",
+          "Minimum Requirement: A figure must have an order of at least 2 to have rotational symmetry.",
+          "Square: Order 4.",
+          "Rectangle: Order 2.",
+          "Circle: Infinite order."
+        ],
+        "ta": [
+          "சுழற்சி: ஒரு மையப்புள்ளியைப் பொறுத்துச் சுற்றி வருதல்.",
+          "சுழல் சமச்சீர் வரிசை: ஒரு முழுச் சுழற்சியில் (360°) ஒரு பொருளானது எத்தனை முறை தன்னுடன் சரியாகப் பொருந்துகிறதோ அதுவே அதன் சுழல் சமச்சீர் வரிசை ஆகும்.",
+          "தகுதி: குறைந்தபட்சம் 2 சுழல் சமச்சீர் வரிசையைப் பெற்றிருக்க வேண்டும்.",
+          "சதுரம்: வரிசை 4.",
+          "செவ்வகம்: வரிசை 2.",
+          "வட்டம்: எண்ணற்றவை."
+        ]
+      },
+      {
+        "title": "4.5 இடப்பெயர்வு சமச்சீர்த் தன்மை (Translational Symmetry)",
+        "type": "bilingual",
+        "en": [
+          "Occurs when a pattern slides or moves to a new position without rotation or reflection.",
+          "Examples: Saree borders, kolam designs, chess board pattern, wall paper designs."
+        ],
+        "ta": [
+          "ஒரு வடிவமைப்பு சுழற்சியும் எதிரொளிப்பும் இன்றி புதிய இடத்திற்கு நகர்ந்து அமையுமானால் அது இடப்பெயர்வு சமச்சீர் எனப்படும்.",
+          "எடுத்துக்காட்டு: சேலை விளிம்பு, கோலம், சதுரங்கப் பலகைக் கட்டங்கள், சுவர் சித்திரங்கள்."
+        ]
+      }
+    ]
+  },
+  "quiz": {
+    "questions": []
+  },
+  "credits": "A1 ONLINE COACHING CENTER"
+}

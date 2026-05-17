@@ -1,0 +1,573 @@
+{
+  "subject": "English",
+  "class": "8",
+  "term": "Annual",
+  "title": "Prose: Friendship",
+  "summary": "",
+  "sections": [
+    {
+      "title": "1. Prose: Friendship (நட்பு) - Summary",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● [[Core Theme]]",
+            "answer": "True friendship is based on trust, loyalty, and mutual respect. || உண்மையான நட்பு என்பது விடாதப் பற்று மற்றும் நம்பிக்கையின் அடிப்படையில் அமையும்."
+          },
+          {
+            "question": "● [[Nature of a Friend]]",
+            "answer": "A friend is a person with whom one has a bond of mutual affection. True friends stand by us during hard times. They offer support without expecting anything in return. || இன்பக் துன்பங்களைச் சமமாகப் பங்கிடுபவர் நண்பர். கடின நேரத்தில் உடன் இருப்பவரேச் சிறந்தத் தோழர்."
+          }
+        ]
+      }
+    },
+    {
+      "title": "2. Glossary: Friendship Terms (Exam Focus - Synonyms)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● [[Companion]] / தோழன் / கூட்டாளி",
+            "answer": "A person with whom one spends a lot of time."
+          },
+          {
+            "question": "● [[Reliable]] / நம்பகமான",
+            "answer": "Consistently good in quality or performance; able to be trusted."
+          },
+          {
+            "question": "● [[Sincere]] / உண்மையான / நேர்மையான",
+            "answer": "Proceeding from genuine feelings; free from pretense."
+          },
+          {
+            "question": "● [[Mutual]] / இருதரப்பு / சமமான",
+            "answer": "Experienced or done by each of two or more parties."
+          },
+          {
+            "question": "● [[Bond]]",
+            "answer": "A relationship between people or groups. (பிணைப்பு)."
+          },
+          {
+            "question": "● [[Virtue]]",
+            "answer": "Behavior showing high moral standards. (நற்பண்பு)."
+          }
+        ]
+      }
+    },
+    {
+      "title": "3. Grammars: Active & Passive Voice (செய்வினை மற்றும் செயப்பாட்டு வினை)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● [[Active Voice]]",
+            "answer": "Subject performs the action (e.g., Aakash helped the friend). || எழுவாய் வினையைச் செய்வதைக் குறிக்கும்."
+          },
+          {
+            "question": "● [[Passive Voice]]",
+            "answer": "Action is performed on the subject (e.g., The friend was helped by Aakash). || வினையைக் கொண்டு வாக்கியம்த் தொடங்குதல்."
+          },
+          {
+            "question": "● Rules",
+            "answer": "Use 'by' and past participle of the verb. || 'By' என்றச் சொல்லையும், வினையின் மூன்றாம் வடிவையும் (V3) பயன்படுத்த வேண்டும்."
+          }
+        ]
+      }
+    },
+    {
+      "title": "4. Characteristics of True Friends (நண்பனின்ப் பண்புகள்)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● Loyalty",
+            "answer": "Never leaving in danger. || ஆபத்தான நேரத்தில் கைவிடாதத் தன்மை."
+          },
+          {
+            "question": "● Honesty",
+            "answer": "Telling the truth even if it is hard. || உண்மையை நேரடியாகக் கூறுதல்."
+          },
+          {
+            "question": "● Sharing",
+            "answer": "Joy and sorrow together. || இன்பக் துன்பங்களைப் பகிர்ந்துக் கொள்ளுதல்."
+          }
+        ]
+      }
+    },
+    {
+      "title": "5. Phrases in the Lesson (முக்கியச் சொற்றொடர்கள்)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● [[Stand by]] someone",
+            "answer": "Support or remain loyal to. || ஒருவருக்கு ஆதரவாக இருத்தல்."
+          },
+          {
+            "question": "● [[Fall out]]",
+            "answer": "To have an argument. || சண்டையிடுதல்."
+          },
+          {
+            "question": "● [[Get along]]",
+            "answer": "Have a harmonious relationship. || இணக்கமாகச் செல்லுதல்."
+          }
+        ]
+      }
+    },
+    {
+      "title": "6. Previous Year Questions & Competitive Focus",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● What is the opposite of 'Friend'?",
+            "answer": "[[Enemy]]. || எதிரி."
+          },
+          {
+            "question": "● 'A friend in need is a friend ______'.",
+            "answer": "[[Indeed]]. || உண்மையான நண்பன்."
+          },
+          {
+            "question": "● Change to Passive: 'He wrote a book'.",
+            "answer": "[[A book was written by him]]."
+          },
+          {
+            "question": "● Synoym of 'Affection'?",
+            "answer": "[[Love]] or [[Care]]. || அன்பு."
+          }
+        ]
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "q": "What is the key base of true friendship? || உண்மையானத் தோழமையின் அடிப்படை எது?",
+      "options": [
+        "Money",
+        "Trust and Loyalty (நம்பிக்கை மற்றும் விசுவாசம்)",
+        "Appearance",
+        "Only for toys"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What is the famous proverb about friends? || நண்பர்களைப் பற்றியப் புகழ்பெற்றப் பழமொழி எது?",
+      "options": [
+        "Time is money",
+        "A friend in need is a friend indeed (சமயத்தில் உதவுபவனே உண்மையான நண்பன்)",
+        "All that glitters is not gold",
+        "Work is worship"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "A 'Companion' is one who ______? || 'Companion' என்பது யாரைக் குறிக்கும்?",
+      "options": [
+        "Lives alone",
+        "Spends time with us (நம்மோடு நேரத்தைக் கழிப்பவர்)",
+        "Hates us",
+        "Runs fast"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of the word 'Sincere': || 'Sincere' என்பதன் பொருள்?",
+      "options": [
+        "Liar",
+        "Honest and genuine (உண்மையான மற்றும் நேர்மையான)",
+        "Noisy",
+        "Fake"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: Passive voice of 'Ram helps Mani'. || 'Ram helps Mani' - இதன் செயப்பாட்டு வினை?",
+      "options": [
+        "Mani is helped by Ram (மணி ராமினால் உதவப்படுகிறான்)",
+        "Mani helped Ram",
+        "Ram helped Mani",
+        "None"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "True or False: Friends should only be for fun times. || சரியா தவறா: நண்பர்கள் ஜாலியாக இருக்கும்போது மட்டும் இருந்தால் போதும்?",
+      "options": [
+        "True",
+        "False (தவறு)",
+        "Maybe",
+        "Unknown"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What does 'Mutual' respect mean? || 'சமமான' (Mutual) மதிப்பு என்பது?",
+      "options": [
+        "Only one person respects",
+        "Both people respect each other (இருவரும் ஒருவருக்கொருவர் மதிப்பளிப்பது)",
+        "No respect",
+        "Respect for money"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: 'Passive Voice' of 'They built the house'. || 'They built the house' - செயப்பாட்டு வினை?",
+      "options": [
+        "The house was built by them (வீடு அவர்களால் கட்டப்பட்டது)",
+        "The house were built",
+        "They were building house",
+        "none"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of 'Virtue': || 'Virtue' (வெர்சியூ) - என்பதன் பொருள்?",
+      "options": [
+        "Sin/Bad habit",
+        "Good behavior/Moral excellence (நற்பண்பு / மேலானக் குணம்)",
+        "Anger",
+        "Speed"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What is 'Loyalty'? || 'Loyalty' (விசுவாசம்) என்பது என்ன?",
+      "options": [
+        "Changing sides often",
+        "Strong and steady support (விடாதப் பற்று மற்றும் ஆதரவு)",
+        "Cheating",
+        "Running away"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "A 'Reliable' person is one who ______? || 'Reliable' நபர் என்பவர்?",
+      "options": [
+        "Can be trusted (நம்பகமானவர்)",
+        "Cannot be trusted",
+        "Is always late",
+        "Is never seen"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "When do you 'Fall out' with a friend? || நண்பனுடன் நீங்கள் எப்போது 'Fall out' ஆவீர்கள்?",
+      "options": [
+        "To have a party",
+        "To have an argument/fight (வாதிடுதல் அல்லதுச் சண்டையிடுதல்)",
+        "To play",
+        "To sing"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: 'Active Voice' focuses on? || செய்வினை (Active Voice) எதனை வலியுறுத்தும்?",
+      "options": [
+        "The Action",
+        "The Doer / Subject (செய்பவர் / எழுவாய்)",
+        "The Object",
+        "The Place"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "How should we handle misunderstanding in friendship? || தோழமையில் வரும்த் தப்பபிப்பிராயத்தை எவ்வாறுப் போக்கலாம்?",
+      "options": [
+        "Stop talking forever",
+        "Talk and solve it (பேசித் தீர்க்கலாம்)",
+        "Tell bad things to others",
+        "Start a big fight"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of 'Bond': || 'Bond' (பாண்ட்) என்பதன் பொருள்?",
+      "options": [
+        "Fear",
+        "A relationship or link (உறவு / பிணைப்பு)",
+        "A stone",
+        "A tree"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What is the opposite of 'Reliable'? || 'Reliable' (நம்பகமான) என்பதன் எதிர்ச்சொல்?",
+      "options": [
+        "Honest",
+        "Unreliable (நம்பகத்தன்மையற்ற)",
+        "Good",
+        "Fast"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: \"A song was sung by Mary\". Is this Active or Passive? || இது எவ்வகை வாக்கியம்?",
+      "options": [
+        "Active",
+        "Passive Voice (செயப்பாட்டு வினை)",
+        "Both",
+        "None"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of 'Endure': || 'Endure' (என்டியூர்) - என்பதன் பொருள்?",
+      "options": [
+        "Break",
+        "Stay strong for a long time (நீடித்திருத்தல் / தாங்குதல்)",
+        "End early",
+        "Cry"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Should friendship be based solely on money? || நட்பு என்பதுப் பணத்தில்த்தான் தொடங்க வேண்டுமா?",
+      "options": [
+        "Yes",
+        "No, it is based on heart (இல்லை, அதுக் குணத்தில்த்தான் அமையும்)",
+        "Maybe",
+        "Only if rich"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What is 'Admiration'? || 'Admiration' (அட்மிரேஷன்) என்றால் என்ன?",
+      "options": [
+        "Hate",
+        "Respect and liking (மதிப்பு மற்றும் ஈர்ப்பு)",
+        "Anger",
+        "Boredom"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: Passive for \"He gave me a pen\". || 'He gave me a pen' - செயப்பாட்டு வினை?",
+      "options": [
+        "A pen was given to me by him (அவரால் எனக்குப் பேனாத் தரப்பட்டது)",
+        "I give him pen",
+        "He gave pen",
+        "none"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Word for 'A person you don't like or fight with': || ஒருவரைப் பிடிக்கவில்லை என்றால் அவரை எவ்வாறு அழைப்போம்?",
+      "options": [
+        "Admirer",
+        "Enemy / Foe (எதிரி)",
+        "Friend",
+        "Guide"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Who is a 'True Friend'? || 'உன்மையான நண்பன்' என யாரைக் கூறுவோம்?",
+      "options": [
+        "Who leaves you in trouble",
+        "Who stays with you forever (எப்போதும் உன்னுடனே இருப்பவன்)",
+        "Who speaks bad behind back",
+        "Who likes your money only"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of 'Harmony': || 'Harmony' (ஹார்மனி) என்பதன் பொருள்?",
+      "options": [
+        "Conflict",
+        "Peaceful agreement/Living together well (இணக்கமாக / அமைதியாக வாழ்தல்)",
+        "Fear",
+        "War"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: \"The book is read by kids\". Active voice is? || இதற்குரியச் செய்வினை யாது?",
+      "options": [
+        "Kids read the book (குழந்தைகள் புத்தகம் படிக்கின்றனர்)",
+        "Kids reading book",
+        "Book read kids",
+        "none"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of 'Foster': || 'Foster' (பாஸ்டர்) - என்பதன் பொருள்?",
+      "options": [
+        "Hate",
+        "Encourage or help grow (வளர்த்து எடுத்தல் / ஊக்கப்படுத்துதல்)",
+        "Kill",
+        "Destroy"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "A bridge of ______ connects two hearts. || இரண்டு இதயங்களை இணைக்கும்ச் ______ பாலம்.",
+      "options": [
+        "Stone",
+        "Friendship / Love (தோழமை / அன்பு)",
+        "Gold",
+        "Water"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: \"I broke the glass\". Passive Voice: || 'I broke the glass' - செயப்பாட்டு வினை?",
+      "options": [
+        "The glass was broken by me (என்னால் கண்ணாடி உடைக்கப்பட்டது)",
+        "I break glass",
+        "Broken glass me",
+        "none"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Which values should a friend have? || ஒரு நண்பனுக்கு இருக்க வேண்டியப் பண்புகள் எவை?",
+      "options": [
+        "Selfishness",
+        "Empathy and Kindness (பரிவு மற்றும் இரக்கம்)",
+        "Anger",
+        "Greed"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of 'Cherish': || 'Cherish' (செரிஷ்) எனபதன் பொருள்?",
+      "options": [
+        "Hate",
+        "Love and protect (நேசித்தல் / பேணுதல்)",
+        "Bore",
+        "Hide"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Correct spelling of 'தோழமை' in English: || நட்பிற்குரியச் சரியான ஆங்கிலச் சொல்?",
+      "options": [
+        "Friendship (பிரண்ட்ஷிப்)",
+        "Frindship",
+        "Freindship",
+        "Frandship"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Identify: \"He plays cards\". Passive is: || 'He plays cards' - செயப்பாட்டு வினை?",
+      "options": [
+        "Cards are played by him (அவரால் சீட்டுகள் விளையாடப்பட்டன)",
+        "He play card",
+        "Cards play him",
+        "none"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Friendship is a ______ treasure. || நட்பு என்பது ஒரு ______ புதையல்.",
+      "options": [
+        "Cheap",
+        "Lifelong / Precious (வாழ்நாள் முழுமையான் / விலைமதிப்பற்ற)",
+        "Useless",
+        "Broken"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "How to show loyalty? || விசுவாசத்தை எவ்வாறு வெளிப்படுத்துவது?",
+      "options": [
+        "Talking bad behind back",
+        "Helping when they are in trouble (அவர்கள் ஆபத்தில் இருக்கும்போது உதவுதல்)",
+        "Forgetting them",
+        "Running away"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "The expansion of 'A' in the friend context? || ஏ (A) என்பது நட்பின்ச் சூழலில்?",
+      "options": [
+        "Affection (அன்பு / பாசம்)",
+        "Angry",
+        "Above",
+        "Away"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of 'Genuine': || 'Genuine' (ஜெனுவின்) - என்பதன் பொருள்?",
+      "options": [
+        "Fake",
+        "Real/True (உண்மையான)",
+        "Broken",
+        "Fast"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Conclusion: Friendship is a gift that we ______? || முடிவு: நட்பு என்பது நாம் ______ வேண்டியப் பரிசு.",
+      "options": [
+        "Destroy",
+        "Gift/Cherish (போற்ற / பேணிக் காக்க)",
+        "Sell",
+        "Waste"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: \"We read the news\". What type of voice? || இதில் எவ்வகை வினை உள்ளது?",
+      "options": [
+        "Active Voice (செய்வினை)",
+        "Passive",
+        "None",
+        "Exclamation"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Words like 'Buddy' or 'Pal' are? || 'பெட்டி' அல்லது 'பால்' போன்றச் சொற்கள் எதனைக் குறிக்கும்?",
+      "options": [
+        "Formal names",
+        "Informal terms for a friend (நண்பனின்ச் செல்லப் பெயர்கள்)",
+        "Bad names",
+        "Food items"
+      ],
+      "a": 1,
+      "ex": ""
+    }
+  ],
+  "credits": "தொகுப்பு: A1 ONLINE COACHING CENTER"
+}

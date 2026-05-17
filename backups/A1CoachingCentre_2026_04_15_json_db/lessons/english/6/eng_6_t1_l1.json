@@ -1,0 +1,78 @@
+{
+  "unit": "Lesson 1",
+  "subject": "English",
+  "class": "6",
+  "term": 1,
+  "title": "Sea Turtles (கடல் ஆமைகள்)",
+  "summary": "This lesson describes the life cycle and challenges of sea turtles, specifically the five species found in India, highlighting the amazing journey of the Olive Ridley turtles.",
+  "sections": [
+    {
+      "title": "Key Facts about Sea Turtles",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "How many species of sea turtles are there in the world?",
+            "answer": "There are [[seven]] species of sea turtles worldwide."
+          },
+          {
+            "question": "Which are the five species found in Indian coastal waters?",
+            "answer": "The [[Olive Ridley]], the [[Hawksbill]], the [[Green Sea Turtle]], the [[Loggerhead]], and the [[Leatherback]]."
+          },
+          {
+            "question": "Which is the smallest and most common species in India?",
+            "answer": "The [[Olive Ridley]] is the smallest and most common."
+          },
+          {
+            "question": "Which is the largest sea turtle species?",
+            "answer": "The [[Leatherback]] turtle, which grows to a length of [[2.2m]] and weighs up to [[700kg]]."
+          }
+        ]
+      }
+    },
+    {
+      "title": "Nesting and Life Cycle",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "When do Olive Ridleys come ashore to lay eggs?",
+            "answer": "Between [[January and March]], usually at [[night]]."
+          },
+          {
+            "question": "How many eggs does a female turtle lay at a time?",
+            "answer": "About [[100 eggs]] in a nest cavity of [[45 cm]] depth."
+          },
+          {
+            "question": "How do the eggs hatch?",
+            "answer": "The eggs are incubated by the [[warmth of the sun]]."
+          },
+          {
+            "question": "What is the incubation period?",
+            "answer": "The eggs hatch after [[45 to 60 days]]."
+          }
+        ]
+      }
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "question": "How many species of sea turtles are there in the world?",
+        "options": ["Five", "Ten", "Seven", "Eight"],
+        "answer": 2
+      },
+      {
+        "question": "Which is the smallest sea turtle species?",
+        "options": ["Olive Ridley", "Leatherback", "Green Sea Turtle", "Hawksbill"],
+        "answer": 0
+      },
+      {
+        "question": "Where do sea turtles spend their entire lives?",
+        "options": ["Forests", "Lakes", "Rivers", "Ocean"],
+        "answer": 3
+      }
+    ]
+  },
+  "credits": "A1 ONLINE COACHING CENTER"
+}

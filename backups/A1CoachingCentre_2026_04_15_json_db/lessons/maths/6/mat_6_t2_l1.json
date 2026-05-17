@@ -1,0 +1,138 @@
+{
+  "isBilingual": true,
+  "unit": "Unit 1",
+  "subject": "Maths",
+  "class": "6",
+  "term": 2,
+  "title": "Numbers (எண்கள்)",
+  "summary": "இந்த பாடம் காரணிகள், மடங்குகள், பகா மற்றும் பகு எண்கள், வகுபடும் தன்மைக்கான விதிகள், மீ.பொ.கா மற்றும் மீ.பொ.ம ஆகியவற்றைக் கையாள்கிறது.",
+  "material": {
+    "isBilingual": true,
+    "sections": [
+      {
+        "title": "1.1 அறிமுகம் (Introduction)",
+        "type": "bilingual",
+        "en": [
+          "In previous classes, we learned about numbers, their place value, odd, and even numbers. Numbers 1, 2, 3... go on endlessly.",
+          "Factors: The numbers that divide a number exactly without leaving a remainder are called its 'Factors'.",
+          "Multiples: The numbers obtained by multiplying a number by non-zero whole numbers are called its 'Multiples'.",
+          "Rules: 1 is a factor for all numbers. Every number is its largest factor. The number of factors is finite, but multiples are infinite."
+        ],
+        "ta": [
+          "முந்தைய வகுப்புகளில் எண்கள், அவற்றின் இடமதிப்பு, ஒற்றை மற்றும் இரட்டை எண்கள் பற்றிக் கற்றோம். எண்கள் 1, 2, 3... என முடிவில்லாமல் செல்கின்றன.",
+          "காரணிகள்: ஓர் எண்ணை மீதியின்றி வகுக்கும் எண்கள் அதன் 'காரணிகள்' (Factors) எனப்படும்.",
+          "மடங்குகள்: ஓர் எண்ணை சுழியற்ற முழு எண்களால் பெருக்கக் கிடைக்கும் எண்கள் அதன் 'மடங்குகள்' (Multiples) எனப்படும்.",
+          "விதிகள்: 1 என்பது அனைத்து எண்களுக்கும் ஒரு காரணியாகும். ஒவ்வொரு எண்ணும் தனக்குத்தானே மிகப்பெரிய காரணியாகும். காரணிகளின் எண்ணிக்கை வரையறுக்கப்பட்டவை, ஆனால் மடங்குகளின் எண்ணிக்கை முடிவற்றவை."
+        ]
+      },
+      {
+        "title": "1.2 ஒற்றை மற்றும் இரட்டை எண்கள் (Odd and Even Numbers)",
+        "type": "bilingual",
+        "en": [
+          "Even Numbers: Numbers that are divisible by 2 are even numbers. They end in digits 0, 2, 4, 6, 8.",
+          "Odd Numbers: Numbers not divisible by 2 are odd numbers. They end in digits 1, 3, 5, 7, 9.",
+          "Properties: 1. Sum of two odd numbers is always even. 2. Sum of two even numbers is always even. 3. Sum of an odd and an even number is always odd. 4. Product of an odd and an even number is always even."
+        ],
+        "ta": [
+          "இரட்டை எண்கள்: 2 ஆல் மீதியின்றி வகுபடும் எண்கள் இரட்டை எண்கள் (Even Numbers) எனப்படும். இவை 0, 2, 4, 6, 8 என்ற இலக்கங்களில் முடியும்.",
+          "ஒற்றை எண்கள்: 2 ஆல் மீதியின்றி வகுபடாத எண்கள் ஒற்றை எண்கள் (Odd Numbers) எனப்படும். இவை 1, 3, 5, 7, 9 என்ற இலக்கங்களில் முடியும்.",
+          "பண்புகள்: 1. இரண்டு ஒற்றை எண்களின் கூடுதல் எப்போதும் ஓர் இரட்டை எண்ணாகும். 2. இரண்டு இரட்டை எண்களின் கூடுதல் எப்போதும் ஓர் இரட்டை எண்ணாகும். 3. ஓர் ஒற்றை எண் மற்றும் ஓர் இரட்டை எண்ணின் கூடுதல் எப்போதும் ஓர் ஒற்றை எண்ணாகும். 4. ஓர் ஒற்றை எண் மற்றும் ஓர் இரட்டை எண்ணின் பெருக்கற்பலன் எப்போதுமே இரட்டை எண்ணாகவே இருக்கும்."
+        ]
+      },
+      {
+        "title": "1.3 பகா மற்றும் பகு எண்கள் (Prime and Composite Numbers)",
+        "type": "bilingual",
+        "en": [
+          "Prime Number: A number having only 1 and itself as factors (e.g., 2, 3, 5, 7, 11).",
+          "Composite Number: A number having more than two factors (e.g., 4, 6, 8, 9).",
+          "Key Notes: 1 is neither prime nor composite. 2 is the only even prime number. There are 25 prime numbers between 1 and 100, found using the 'Sieve of Eratosthenes'.",
+          "Co-primes: Two numbers with 1 as their only common factor. Twin Primes: Two primes with a difference of 2."
+        ],
+        "ta": [
+          "பகா எண்: 1 மற்றும் அதே எண்ணை மட்டுமே காரணிகளாகக் கொண்ட எண் 'பகா எண்' (Prime Number) எனப்படும். (எ.கா: 2, 3, 5, 7, 11).",
+          "பகு எண்கள்: இரண்டிற்கும் மேற்பட்ட காரணிகளைப் பெற்றிருக்கும் எண்கள் 'பகு எண்கள்' (Composite Numbers) எனப்படும். (எ.கா: 4, 6, 8, 9).",
+          "குறிப்பு: 1 என்ற எண் பகு எண்ணும் அல்ல, பகா எண்ணும் அல்ல. 2 என்பது மட்டுமே இரட்டைப் பகா எண்ணாகும். 1 முதல் 100 வரை 25 பகா எண்கள் உள்ளன. இவற்றை எரடோஸ்தனிஸ் சல்லடை (Sieve of Eratosthenes) முறை மூலம் கண்டறியலாம்.",
+          "சார்பகா எண்கள்: இரு எண்களின் பொதுக்காரணி 1 மட்டுமே எனில், அவை 'சார்பகா எண்கள்' (Co-primes) எனப்படும். இரட்டைப் பகா எண்கள்: இரு பகா எண்களின் வித்தியாசம் 2 எனில் அவை 'இரட்டைப் பகா எண்கள்' (Twin Primes) எனப்படும்."
+        ]
+      },
+      {
+        "title": "1.4 வகுபடும் தன்மைக்கான விதிகள் (Divisibility Rules)",
+        "type": "bilingual",
+        "en": [
+          "Divisible by 2: Ends in 0, 2, 4, 6, or 8.",
+          "Divisible by 3: Sum of digits is divisible by 3.",
+          "Divisible by 4: Last two digits are divisible by 4 or end in 00.",
+          "Divisible by 5: Ends in 0 or 5.",
+          "Divisible by 6: Divisible by both 2 and 3.",
+          "Divisible by 8: Last three digits are divisible by 8.",
+          "Divisible by 9: Sum of digits is divisible by 9.",
+          "Divisible by 10: Ends in 0.",
+          "Divisible by 11: Difference between the sum of alternate digits is 0 or a multiple of 11."
+        ],
+        "ta": [
+          "2-ஆல் வகுபடும் தன்மை: ஒன்றாம் இலக்கம் 0, 2, 4, 6 அல்லது 8 ஆக இருக்க வேண்டும்.",
+          "3-ஆல் வகுபடும் தன்மை: இலக்கங்களின் கூடுதல் 3-ஆல் வகுபட வேண்டும்.",
+          "4-ஆல் வகுபடும் தன்மை: கடைசி இரண்டு இலக்கங்கள் 4-ஆல் வகுபட வேண்டும் அல்லது இரண்டு பூஜ்ஜியங்களில் முடிய வேண்டும்.",
+          "5-ஆல் வகுபடும் தன்மை: ஒன்றாம் இலக்கம் 0 அல்லது 5 ஆக இருக்க வேண்டும்.",
+          "6-ஆல் வகுபடும் தன்மை: அந்த எண் 2 மற்றும் 3 ஆகிய இரண்டாலும் வகுபட வேண்டும்.",
+          "8-ஆல் வகுபடும் தன்மை: கடைசி மூன்று இலக்கங்கள் 8-ஆல் வகுபட வேண்டும்.",
+          "9-ஆல் வகுபடும் தன்மை: இலக்கங்களின் கூடுதல் 9-ஆல் வகுபட வேண்டும்.",
+          "10-ஆல் வகுபடும் தன்மை: ஒன்றாம் இலக்கம் 0-வில் முடிய வேண்டும்.",
+          "11-ஆல் வகுபடும் தன்மை: ஒன்றுவிட்ட இலக்கங்களின் கூடுதல்களின் வித்தியாசம் 0 அல்லது 11-ன் மடங்காக இருக்க வேண்டும்."
+        ]
+      },
+      {
+        "title": "1.5 பகா காரணிப்படுத்துதல் (Prime Factorisation)",
+        "type": "bilingual",
+        "en": [
+          "Expressing a composite number as a product of prime numbers is called 'Prime Factorisation'.",
+          "Methods: 1. Division Method - Successively dividing by the smallest prime. 2. Factor Tree Method - Splitting branches until all ends are prime numbers."
+        ],
+        "ta": [
+          "ஒரு பகு எண்ணை பகா எண்களின் பெருக்கற்பலனாக வெளிப்படுத்தும் முறை 'பகா காரணிப்படுத்துதல்' (Prime Factorisation) எனப்படும்.",
+          "முறைகள்: 1. வகுத்தல் முறை (Division Method) - தொடர்ச்சியாக மிகச்சிறிய பகா எண்ணால் வகுத்து வருதல். 2. காரணிச் செடி முறை (Factor Tree Method) - பகு எண்ணைப் பிரித்து, இறுதியில் அனைத்துக் கிளைகளின் முனைகளிலும் பகா எண்கள் வருமாறு செய்தல்."
+        ]
+      },
+      {
+        "title": "1.6 மீப்பெரு பொதுக் காரணி (HCF / GCD)",
+        "type": "bilingual",
+        "en": [
+          "HCF (Highest Common Factor) is the largest common factor of two or more numbers. Also called GCD (Greatest Common Divisor).",
+          "Rules: If a smaller number is a factor of a larger one, the smaller number is their HCF. HCF of two co-primes is 1. HCF of two consecutive numbers is 1."
+        ],
+        "ta": [
+          "இரண்டு அல்லது அதற்கு மேற்பட்ட எண்களின் பொதுவான காரணிகளில் மிகப்பெரியது 'மீப்பெரு பொதுக் காரணி' (மீ.பொ.கா - HCF) எனப்படும். இதனை 'மீப்பெரு பொது வகுத்தி' (GCD) என்றும் அழைக்கலாம்.",
+          "விதிகள்: இரு எண்களில் சிறிய எண் பெரிய எண்ணின் காரணியாக அமைந்தால், அந்தச் சிறிய எண்ணே மீ.பொ.கா. சார்பகா எண்களின் மீ.பொ.கா 1. அடுத்தடுத்த எண்களின் மீ.பொ.கா 1."
+        ]
+      },
+      {
+        "title": "1.7 மீச்சிறு பொது மடங்கு (LCM)",
+        "type": "bilingual",
+        "en": [
+          "LCM (Least Common Multiple) is the smallest common multiple of two or more numbers.",
+          "Rules: If a larger number is a multiple of a smaller one, the larger number is their LCM. LCM of two co-primes is their product. LCM of two consecutive numbers is their product."
+        ],
+        "ta": [
+          "இரண்டு அல்லது அதற்கு மேற்பட்ட எண்களின் பொதுவான மடங்குகளில் மிகச்சிறிய மடங்கு 'மீச்சிறு பொது மடங்கு' (மீ.பொ.ம - LCM) எனப்படும்.",
+          "விதிகள்: இரு எண்களில் பெரிய எண் சிறிய எண்ணின் மடங்காக அமைந்தால், பெரிய எண்ணே மீ.பொ.ம. சார்பகா எண்களின் மீ.பொ.ம அவற்றின் பெருக்கற்பலன். அடுத்தடுத்த எண்களின் மீ.பொ.ம அவற்றின் பெருக்கற்பலன்."
+        ]
+      },
+      {
+        "title": "1.8 மீ.பொ.கா மற்றும் மீ.பொ.ம பயன்பாடுகள் (Applications)",
+        "type": "bilingual",
+        "en": [
+          "Relationship: Product of two numbers = HCF × LCM. HCF is always a factor of its LCM.",
+          "Real-life: HCF is used to find maximum capacity/longest length. LCM is used to find when items like bells or signals will coincide."
+        ],
+        "ta": [
+          "தொடர்பு: இரு எண்களின் பெருக்கற்பலன் = அவற்றின் மீ.பொ.கா × மீ.பொ.ம. மீ.பொ.கா எப்போதுமே அதன் மீ.பொ.ம-வின் காரணியாக அமையும்.",
+          "பயன்பாடுகள்: அதிகபட்ச அளவு, மிகப்பெரிய கொள்ளளவு கண்டறிய மீ.பொ.கா பயன்படுகிறது. மணி ஒலித்தல், ஒருசேர சந்திக்கும் நேரம் கண்டறிய மீ.பொ.ம பயன்படுகிறது."
+        ]
+      }
+    ]
+  },
+  "quiz": {
+    "questions": []
+  },
+  "credits": "A1 ONLINE COACHING CENTER"
+}

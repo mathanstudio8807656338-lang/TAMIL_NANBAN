@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamil Nanban - Dashboard</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Noto+Sans+Tamil:wght@400;700&family=Baloo+Thambi+2:wght@800&display=swap">
+    <style>
+        /* --- BRAND HEADER --- */
+        .header-standard {
+            background: #ffffff;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-top: 1px solid #1e3a8a;
+            border-bottom: 1px solid #1e3a8a; /* Standard blue top border */
+        }
+        .brand-container {
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .brand-main {
+            font-family: 'Baloo Thambi 2', cursive;
+            font-size: 2.1rem;
+            font-weight: 800;
+            color: #002d5b;
+            line-height: 0.9;
+            margin: 0;
+        }
+        .brand-sub {
+            font-family: 'Outfit', sans-serif;
+            font-size: 0.75rem;
+            font-weight: 800;
+            color: #002d5b;
+            letter-spacing: 0.3em;
+            text-transform: uppercase;
+            margin-top: 4px;
+        }
+        @media (max-width: 480px) {
+            .brand-main { font-size: 1.6rem; }
+            .brand-sub { font-size: 0.6rem; }
+        }
+
+        :root {
+            --primary: #1e3a8a;
+            --bg-light: #f3f6ff;
+            --card-bg: #ffffff;
+            --text-dark: #334155;
+            --text-dim: #64748b;
+            --accent: #f59e0b;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Outfit', 'Noto Sans Tamil', sans-serif;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body {
+            background: var(--bg-light);
+            color: var(--text-dark);
+            min-height: 100vh;
+            padding-bottom: 80px; /* Space for bottom nav */
+        }
+
+            .brand-sub { font-size: 0.6rem; }
+        }
+        
+
+        .hero-section {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .section-title {
+            text-align: left;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: #475569;
+            margin: 10px 0 20px;
+            padding-left: 5px;
+        }
+
+        /* --- Free Exam Buttons --- */
+        .cta-box {
+            background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+            padding: 20px;
+            border-radius: 20px;
+            margin-bottom: 25px;
+            color: white;
+            box-shadow: 0 10px 25px rgba(30, 58, 138, 0.2);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cta-box h2 { font-size: 1.2rem; margin-bottom: 15px; font-weight: 800; }
+        
+        .btn-group { display: flex; gap: 10px; }
+
+        .btn-main {
+            flex: 1;
+            padding: 12px;
+            border-radius: 12px;
+            border: none;
+            font-weight: 800;
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: 0.3s;
+        }
+
+        .btn-free { background: #f59e0b; color: white; }
+        .btn-res { background: rgba(255,255,255,0.2); color: white; backdrop-filter: blur(5px); }
+
+        /* --- Subject List Layout --- */
+        .subject-list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 5px;
+        }
+
+        .subject-card {
+            background: var(--card-bg);
+            border-radius: 18px;
+            padding: 15px 20px;
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+            border: 1px solid #edf2f7;
+            transition: all 0.3s ease;
+        }
+
+        .subject-card:active {
+            transform: scale(0.97);
+            background: #f8fafc;
+        }
+
+        .icon-wrapper {
+            width: 48px;
+            height: 48px;
+            border-radius: 12px;
+            background: #f8fafc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.4rem;
+            margin-right: 18px;
+            border: 1px solid #f1f5f9;
+        }
+
+        .subject-info {
+            flex-grow: 1;
+            font-weight: 700;
+            font-size: 1.15rem;
+        }
+
+        .chevron {
+            color: #cbd5e1;
+            font-size: 1.2rem;
+        }
+
+        /* --- Theme Colors for Subjects --- */
+        .tamil .subject-info { color: #9f1239; }
+        .english .subject-info { color: #0369a1; }
+        .maths .subject-info { color: #0f766e; }
+        .science .subject-info { color: #15803d; }
+        .social .subject-info { color: #4338ca; }
+        .psy .subject-info { color: #7e22ce; }
+        .std678 .subject-info { color: #1e40af; }
+
+        /* --- Bottom Nav --- */
+        .bottom-nav {
+            position: fixed;
+            bottom: 0; left: 0; width: 100%;
+            background: white;
+            display: flex;
+            justify-content: space-around;
+            padding: 10px 0;
+            border-top: 1px solid #eee;
+            box-shadow: 0 -5px 20px rgba(0,0,0,0.05);
+            z-index: 1000;
+        }
+
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-decoration: none;
+            color: #64748b;
+            font-size: 0.75rem;
+            font-weight: 700;
+            gap: 4px;
+        }
+
+        .nav-item.active { color: #1e3a8a; }
+
+        .nav-icon { font-size: 1.4rem; }
+
+        /* --- Modal --- */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0,0,0,0.5);
+            backdrop-filter: blur(5px);
+            z-index: 2000;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .modal-content {
+            background: white;
+            width: 100%;
+            max-width: 400px;
+            border-radius: 25px;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .input-mobile {
+            width: 100%;
+            padding: 15px;
+            border-radius: 12px;
+            border: 2px solid #eee;
+            margin: 20px 0;
+            font-size: 1.1rem;
+            outline: none;
+        }
+
+        .input-mobile:focus { border-color: #1e3a8a; }
+
+        .btn-submit {
+            width: 100%;
+            padding: 15px;
+            background: #1e3a8a;
+            color: white;
+            border: none;
+            border-radius: 12px;
+            font-weight: 800;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+<div id="updateOverlay" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(15,23,42,0.95); z-index:9999; color:white; flex-direction:column; align-items:center; justify-content:center; text-align:center; backdrop-filter:blur(8px);">
+        <div class="spinner" style="width:50px; height:50px; border:5px solid rgba(255,255,255,0.1); border-top:5px solid #1a73e8; border-radius:50%; animation:spin 1s linear infinite; margin-bottom:1.5rem;"></div>
+        <h2 style="margin:0; font-size:1.5rem; font-weight:800;">Updating App...</h2>
+        <p style="opacity:0.8; margin-top:0.5rem; font-weight:600;">புதிய பாடங்கள் புதுப்பிக்கப்படுகின்றன...<br>(Please wait while we load new lessons)</p>
+    </div>
+    <style>
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+    </style>
+
+
+    <header class="header-standard">
+        <a href="index.html" class="brand-container">
+            <div class="brand-main">தமிழ் நண்பன்</div>
+            <div class="brand-sub">COACHING CENTER</div>
+        </a>
+    </header>
+
+    <main class="hero-section">
+        
+        <div class="cta-box">
+            <h2>வரவிருக்கும் இலவசத் தேர்வுகள்!</h2>
+            <div class="btn-group">
+                <button onclick="openExamModal()" class="btn-main btn-free">🎁 Free Exam</button>
+                <button onclick="alert('முடிவுகள் விரைவில்!')}" class="btn-main btn-res">📊 Result</button>
+            </div>
+        </div>
+
+        <h2 class="section-title">பாடத்தைத் தேர்ந்தெடுக்கவும்</h2>
+
+        <div class="subject-list">
+            <a href="subject.html?id=tamil" class="subject-card tamil">
+                <div class="icon-wrapper">📚</div>
+                <div class="subject-info">தமிழ்</div>
+                <div class="chevron">›</div>
+            </a>
+
+            <a href="subject.html?id=english" class="subject-card english">
+                <div class="icon-wrapper">📖</div>
+                <div class="subject-info">English</div>
+                <div class="chevron">›</div>
+            </a>
+
+            <a href="subject.html?id=maths" class="subject-card maths">
+                <div class="icon-wrapper">📐</div>
+                <div class="subject-info">கணிதம்</div>
+                <div class="chevron">›</div>
+            </a>
+
+            <a href="subject.html?id=science" class="subject-card science">
+                <div class="icon-wrapper">🔬</div>
+                <div class="subject-info">அறிவியல்</div>
+                <div class="chevron">›</div>
+            </a>
+
+            <a href="subject.html?id=social" class="subject-card social">
+                <div class="icon-wrapper">🌍</div>
+                <div class="subject-info">சமூக அறிவியல்</div>
+                <div class="chevron">›</div>
+            </a>
+
+            <a href="subject.html?id=psychology" class="subject-card psychology">
+                <div class="icon-wrapper">🧠</div>
+                <div class="subject-info">உளவியல்</div>
+                <div class="chevron">›</div>
+            </a>
+
+            <a href="subject.html?id=mocktest" class="subject-card mocktest">
+                <div class="icon-wrapper">📝</div>
+                <div class="subject-info">மாதிரித்தேர்வு</div>
+                <div class="chevron">›</div>
+            </a>
+
+            <a href="subject.html?id=revision" class="subject-card revision">
+                <div class="icon-wrapper">🔄</div>
+                <div class="subject-info">திருப்புதல் தேர்வு</div>
+                <div class="chevron">›</div>
+            </a>
+
+            <a href="subject.html?id=standard_9_10" class="subject-card std910">
+                <div class="icon-wrapper">📚</div>
+                <div class="subject-info">9 & 10 பாடங்கள்</div>
+                <div class="chevron">›</div>
+            </a>
+        </div>
+    </main>
+
+    <nav class="bottom-nav">
+        <a href="index.html" class="nav-item active">
+            <span class="nav-icon">🏠</span>
+            <span>Home</span>
+        </a>
+        <a href="subject.html" class="nav-item">
+            <span class="nav-icon">📚</span>
+            <span>Course</span>
+        </a>
+        <a href="tel:6369371452" class="nav-item">
+            <span class="nav-icon">📞</span>
+            <span>Contact</span>
+        </a>
+        <a href="#" class="nav-item">
+            <span class="nav-icon">💳</span>
+            <span>Pay</span>
+        </a>
+        <a href="#" class="nav-item logout" id="authBtn">
+            <span class="nav-icon">🚪</span>
+            <span>Logout</span>
+        </a>
+    </nav>
+
+    <!-- Modal -->
+    <div id="examModal" class="modal">
+        <div class="modal-content">
+            <h3 style="font-weight: 800;">இலவசத் தேர்வு</h3>
+            <p style="color: #64748b; font-size: 0.9rem; margin-top: 10px;">தொடர உங்கள் மொபைல் எண்ணை உள்ளிடவும்.</p>
+            <input type="tel" id="mobileInput" class="input-mobile" placeholder="9876543210" maxlength="10">
+            <button class="btn-submit" onclick="submitRegistration()">பதிவு செய்</button>
+            <button onclick="closeModal()" style="margin-top: 15px; background:none; border:none; color:#ef4444; font-weight:700;">மூடுக</button>
+        </div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+
+<footer></footer>
+
+<script type="module">
+        (async () => {
+            const { APP_VERSION, LAST_UPDATED } = await import(`./js/version.js?v=${Date.now()}`);
+            const v = APP_VERSION;
+            
+            // Force Reload Logic for Mobile
+            const storedVersion = localStorage.getItem('app_version');
+            if (storedVersion && storedVersion !== APP_VERSION) {
+                const overlay = document.getElementById('updateOverlay');
+                if (overlay) overlay.style.display = 'flex';
+                
+                setTimeout(() => {
+                    localStorage.setItem('app_version', APP_VERSION);
+                    window.location.reload(true); // Force reload from server
+                }, 1500); // Small delay to let user see it's updating
+                return;
+            }
+            localStorage.setItem('app_version', APP_VERSION);
+
+            const { checkAuth, waitForAuth } = await import(`./js/auth.js?v=${v}`);
+
+            // Synchronously set button state to avoid flicker
+            const _session = localStorage.getItem('a1_user_session');
+            const _user = _session ? JSON.parse(_session) : null;
+            const authBtn = document.getElementById('authBtn');
+            if (authBtn) { const span = authBtn.querySelectorAll('span')[1]; if(span) span.textContent = _user ? 'Logout' : 'Login'; }
+
+            // Check auth and update UI
+            checkAuth();
+
+            let currentUser = _user;
+            let authResolved = true;
+
+            waitForAuth().then((user) => {
+                currentUser = user;
+                authResolved = true;
+                if (authBtn) { const span = authBtn.querySelectorAll('span')[1]; if(span) span.textContent = user ? 'Logout' : 'Login'; }
+            });
+
+            // Update footer with version info
+            const footer = document.querySelector('footer');
+            if (footer) {
+                const vInfo = document.createElement('div');
+                vInfo.style.fontSize = '0.7rem';
+                vInfo.style.opacity = '0.5';
+                vInfo.style.marginTop = '0.5rem';
+                vInfo.innerHTML = `App Version: ${APP_VERSION} | Last Updated: ${new Date(LAST_UPDATED).toLocaleDateString()}`;
+                footer.appendChild(vInfo);
+            }
+
+            document.addEventListener('click', async (e) => {
+                const link = e.target.closest('a');
+                if (link && !link.closest('.nav-actions') && link.id !== 'authBtn') {
+                    const isContactLink = link.href.startsWith('tel:') || link.href.includes('wa.me') || link.target === '_blank';
+                    if (isContactLink) return;
+
+                    e.preventDefault();
+                    if (!authResolved) await waitForAuth();
+
+                    if (!currentUser) {
+                        alert("பாடங்களை அணுக லாகின் (Login) செய்ய வேண்டும்!");
+                        window.location.href = 'login.html';
+                    } else {
+                        window.location.href = link.href;
+                    }
+                }
+            });
+
+            const authBtnEl = document.getElementById('authBtn');
+            if (authBtnEl) {
+                authBtnEl.addEventListener('click', (e) => { e.preventDefault();
+                    if (currentUser) {
+                        if (window.logout) window.logout();
+                    } else {
+                        window.location.href = 'login.html';
+                    }
+                });
+            }
+        })();
+    </script>
+</body>
+</html>

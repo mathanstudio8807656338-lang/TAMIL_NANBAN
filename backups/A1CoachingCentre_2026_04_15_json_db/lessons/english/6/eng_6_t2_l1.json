@@ -1,0 +1,250 @@
+{
+  "lesson_meta": {
+    "title": "Prose: Sports Stars",
+    "unit": 1,
+    "std": 6,
+    "term": 2,
+    "subject": "English"
+  },
+  "sections": [
+    {
+      "title": "1. Mithali Dorai Raj (Cricket)",
+      "type": "infobox",
+      "content": [
+        {
+          "text": "<strong>Profile:</strong> Indian Cricketer & Captain of the Indian women’s cricket team in Tests and ODIs."
+        },
+        {
+          "text": "<strong>Records:</strong> Highest run-scorer in Women’s International Cricket and first woman to cross 6,000 runs in ODIs."
+        },
+        {
+          "text": "<strong>Nickname:</strong> \"Tendulkar of Indian women’s cricket.\""
+        }
+      ]
+    },
+    {
+      "title": "2. Usha Rani (Kabaddi)",
+      "type": "infobox",
+      "content": [
+        {
+          "text": "<strong>Profile:</strong> A police officer and Kabaddi champion known for her raiding skills."
+        },
+        {
+          "text": "<strong>Struggle:</strong> Sold flowers to support her family while practicing at Kanteerava Stadium."
+        },
+        {
+          "text": "<strong>Achievement:</strong> Won a Gold Medal in Kabaddi at the age of 29."
+        }
+      ]
+    },
+    {
+      "title": "3. P.V. Sindhu (Badminton)",
+      "type": "infobox",
+      "content": [
+        {
+          "text": "<strong>Profile:</strong> One of the top shuttlers in the world; Silver medalist in the 2016 Olympics."
+        },
+        {
+          "text": "<strong>Awards:</strong> Rajiv Gandhi Khel Ratna (2016), Padma Shri (2015), Arjuna Award (2013)."
+        },
+        {
+          "text": "<strong>Dedication:</strong> Travelled 56 km daily to reach Pullela Gopichand’s Academy."
+        }
+      ]
+    },
+    {
+      "title": "4. Exam High-Yield Facts",
+      "type": "infobox",
+      "content": [
+        {
+          "text": "<strong>Women's Cricket World Cup:</strong> First held in England in <strong>1973</strong>."
+        },
+        {
+          "text": "<strong>Kabaddi Dominance:</strong> India won all <strong>six</strong> Women's Kabaddi World Cups (2012-2017)."
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Who is known as the 'Tendulkar of Indian Women’s Cricket'?",
+      "options": ["P.V. Sindhu", "Mithali Raj", "Usha Rani", "Smriti Mandhana"],
+      "answer": 1,
+      "explanation": "Mithali Raj is called the Tendulkar of Indian women’s cricket due to her incredible scoring records."
+    },
+    {
+      "question": "Mithali Raj's mother tongue is _________.",
+      "options": ["Hindi", "Telugu", "Tamil", "Malayalam"],
+      "answer": 2,
+      "explanation": "Mithali Raj was born in a Tamil family even though she lives in Hyderabad."
+    },
+    {
+      "question": "The first Women's Cricket World Cup was held in which country?",
+      "options": ["India", "Australia", "England", "South Africa"],
+      "answer": 2,
+      "explanation": "The first Women's Cricket World Cup was held in England in 1973."
+    },
+    {
+      "question": "P.V. Sindhu started playing badminton at the age of _________.",
+      "options": ["10", "12", "8", "6"],
+      "answer": 2,
+      "explanation": "P.V. Sindhu started playing badminton at the age of 8."
+    },
+    {
+      "question": "Usha Rani sold _________ to support her family before becoming a Kabaddi star.",
+      "options": ["Fruits", "Vegetables", "Flowers", "Uniforms"],
+      "answer": 2,
+      "explanation": "Usha Rani sold flowers outside temples to support her family while practicing Kabaddi."
+    },
+    {
+      "question": "Which award did Mithali Raj receive from the Government of India?",
+      "options": ["Arjuna Award", "Padma Shri", "Bharat Ratna", "Khel Ratna"],
+      "answer": 1,
+      "explanation": "Mithali Raj was conferred with the Padma Shri award."
+    },
+    {
+      "question": "India won the Women's Kabaddi World Cup how many times between 2012 and 2017?",
+      "options": ["4", "5", "6", "3"],
+      "answer": 2,
+      "explanation": "India won all six Women's Kabaddi World Cups held during that period."
+    },
+    {
+      "question": "P.V. Sindhu won which medal in the 2016 Rio Olympics?",
+      "options": ["Gold", "Silver", "Bronze", "None"],
+      "answer": 1,
+      "explanation": "P.V. Sindhu won the Silver medal in the 2016 Olympics."
+    },
+    {
+      "question": "Who was P.V. Sindhu's coach and inspiration?",
+      "options": ["Pullela Gopichand", "Saina Nehwal", "Prannoy H.S.", "Kidambi Srikanth"],
+      "answer": 0,
+      "explanation": "She was inspired by Pullela Gopichand and joined his academy."
+    },
+    {
+      "question": "Usha Rani is currently serving in which police force?",
+      "options": ["Tamil Nadu Police", "Karnataka State Police", "Delhi Police", "Kerala Police"],
+      "answer": 1,
+      "explanation": "She was selected for the Karnataka State Police Force for her sporting excellence."
+    },
+    {
+      "question": "Mithali Raj was selected for the Indian team at the age of _________.",
+      "options": ["15", "17", "19", "21"],
+      "answer": 1,
+      "explanation": "She made her international debut at the age of 17."
+    },
+    {
+      "question": "What is the correct order of adjectives in English grammar?",
+      "options": ["Color -> Age -> Size", "Quantity -> Quality -> Size -> Age -> Colour", "Size -> Color -> Shape", "Quality -> Color -> Quantity"],
+      "answer": 1,
+      "explanation": "The standard order is Quantity, Quality, Size, Age, and then Colour."
+    },
+    {
+      "question": "Mithali Raj is the first woman cricketer to surpass _________ runs in ODIs.",
+      "options": ["5,000", "6,000", "7,000", "10,000"],
+      "answer": 1,
+      "explanation": "She was the first woman player to cross the 6,000-run mark in One Day Internationals."
+    },
+    {
+      "question": "Which of P.V. Sindhu's parents were volleyball players?",
+      "options": ["Only Father", "Only Mother", "Both Parents", "Neither"],
+      "answer": 2,
+      "explanation": "Both of P.V. Sindhu's parents were professional volleyball players."
+    },
+    {
+      "question": "Usha Rani won a Gold Medal at the age of _________.",
+      "options": ["25", "29", "21", "30"],
+      "answer": 1,
+      "explanation": "She won the Gold Medal when she was 29 years old."
+    },
+    {
+      "question": "The word 'Consecutive' means _________.",
+      "options": ["Random", "One after another", "Slowly", "Mixed up"],
+      "answer": 1,
+      "explanation": "Consecutive means following in unbroken or logical sequence."
+    },
+    {
+      "question": "The second most popular sport in the world is _________.",
+      "options": ["Cricket", "Soccer", "Badminton", "Kabaddi"],
+      "answer": 2,
+      "explanation": "According to the lesson, Soccer (Football) is 1st and Badminton is the 2nd popular sport."
+    },
+    {
+      "question": "What award did P.V. Sindhu win in 2013?",
+      "options": ["Padma Shri", "Arjuna Award", "Khel Ratna", "Param Vir Chakra"],
+      "answer": 1,
+      "explanation": "P.V. Sindhu won the Arjuna Award in 2013."
+    },
+    {
+      "question": "Mithali Raj scored 76 not out in a match against which country in 2018?",
+      "options": ["Pakistan", "Australia", "South Africa", "England"],
+      "answer": 2,
+      "explanation": "She scored an unbeaten 76 against South Africa in a T20 match."
+    },
+    {
+      "question": "Usha Rani is famous for which Kabaddi skill?",
+      "options": ["Defending", "Goal keeping", "Raiding", "Refereeing"],
+      "answer": 2,
+      "explanation": "She is highly acclaimed for her lightning-fast raiding skills."
+    },
+    {
+      "question": "Identify the adjective in: 'She is a talented cricketer.'",
+      "options": ["She", "is", "talented", "cricketer"],
+      "answer": 2,
+      "explanation": "'Talented' describes the noun 'cricketer', so it is an adjective."
+    },
+    {
+      "question": "How many kilometers did Sindhu travel daily for practice?",
+      "options": ["20 km", "40 km", "56 km", "100 km"],
+      "answer": 2,
+      "explanation": "She traveled 56 km every day from her house to the coaching camp."
+    },
+    {
+      "question": "P.V. Sindhu was awarded the Rajiv Gandhi Khel Ratna in which year?",
+      "options": ["2013", "2015", "2016", "2020"],
+      "answer": 2,
+      "explanation": "She received the Khel Ratna award in 2016 after her Olympic success."
+    },
+    {
+      "question": "The synonym of 'Privilege' is _________.",
+      "options": ["Honour", "Difficulty", "Punishment", "Waste"],
+      "answer": 0,
+      "explanation": "Privilege is a special right or honour given to a person."
+    },
+    {
+      "question": "Which state does Usha Rani belong to?",
+      "options": ["Tamil Nadu", "Karnataka", "Andhra Pradesh", "Maharashtra"],
+      "answer": 1,
+      "explanation": "Ushra Rani is from Bengaluru, Karnataka."
+    },
+    {
+      "question": "Mithali Raj has scored _________ consecutive half-centuries.",
+      "options": ["5", "6", "7", "10"],
+      "answer": 2,
+      "explanation": "Mithali Raj holds the record for 7 consecutive fifties in ODIs."
+    },
+    {
+      "question": "What does 'Determined' mean?",
+      "options": ["Lazy", "Will powered / Resolved", "Confused", "Afraid"],
+      "answer": 1,
+      "explanation": "Determined means having made a firm decision and being resolved not to change it."
+    },
+    {
+      "question": "What is the common error correction for: 'My sister is six feet high.'?",
+      "options": ["six feet tall", "six feet big", "six feet long", "No error"],
+      "answer": 0,
+      "explanation": "When referring to height of humans, we use 'tall' instead of 'high'."
+    },
+    {
+      "question": "Mithali Raj lives in which city?",
+      "options": ["Chennai", "Hyderabad", "Mumbai", "Bangalore"],
+      "answer": 1,
+      "explanation": "Although her mother tongue is Tamil, she resides in Hyderabad."
+    },
+    {
+      "question": "Pullela Gopichand was a champion in which sport?",
+      "options": ["Cricket", "Badminton", "Hockey", "Wrestling"],
+      "answer": 1,
+      "explanation": "Pullela Gopichand is a former All-England badminton champion and coach."
+    }
+  ]
+}

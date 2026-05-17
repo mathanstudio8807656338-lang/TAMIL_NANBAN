@@ -1,0 +1,573 @@
+{
+  "subject": "English",
+  "class": "8",
+  "term": "Annual",
+  "title": "Poem: Fire Work Night",
+  "summary": "",
+  "sections": [
+    {
+      "title": "1. Poem: Fire Work Night (வானவேடிக்கை இரவு) - Summary",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● [[Core Theme]]",
+            "answer": "The fear animals feel during loud celebrations and the need for protection. || வெடிச் சத்தத்தைக் கேட்டு விலங்குகள் அஞ்சும் நிலை மற்றும் அவற்றைக் காப்பதன் அவசியம்."
+          },
+          {
+            "question": "● [[About Author]]",
+            "answer": "Written by [[Enid Blyton]] (1897–1968), a famous children's writer from England. || ஈனிட் பிளைட்டன் (1897-1968) குழந்தைகளுக்கானப் புகழ்பெற்ற எழுத்தாளர்."
+          },
+          {
+            "question": "● [[The Perspective]]",
+            "answer": "The poem is told from a dog's point of view. The dog is terrified by the 'Bang' and 'Pop' of fireworks. He begs his master to let him inside the house where it is warm and safe. He promises to be a very good dog if protected from the frightening 'yelping' and 'crashing' sounds. || ஒரு நாயின் பார்வையில் கவிதை அமைந்துள்ளது. அது வெடிச் சத்தத்தைக் கேட்டு நடுங்குகிறது. தன்னை வீட்டிற்குள் அனுமதிக்கக் கெஞ்சுகிறது. தன்னை உள்ளேவிட்டால் மிகவும் சமத்தாக இருப்பேன் என்கிறது."
+          }
+        ]
+      }
+    },
+    {
+      "title": "2. Glossary: Fear & Sound Terms (Exam Focus - Synonyms)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● [[Tremble]] / நடுங்குதல் / அதிர்தல்",
+            "answer": "Shaking involuntarily from fear or cold."
+          },
+          {
+            "question": "● [[Crouch]] / பதுங்குதல் / பம்மாந்திருத்தல்",
+            "answer": "Adopt a position where the knees are bent and the upper body is brought forward and down."
+          },
+          {
+            "question": "● [[Scared]] / பயம்",
+            "answer": "Fearful or frightened."
+          },
+          {
+            "question": "● [[Bang]] / பலமானச் சத்தம்",
+            "answer": "A sudden loud noise."
+          },
+          {
+            "question": "● [[Kennel]]",
+            "answer": "A small shelter for a dog. (நாய்க்கூடு)."
+          },
+          {
+            "question": "● [[Yelping]] / லொள் என்குறைத்தல்",
+            "answer": "Giving a short, sharp cry of pain or alarm."
+          }
+        ]
+      }
+    },
+    {
+      "title": "3. Poetic Devices: Onomatopoeia & Personification",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● [[Onomatopoeia]]",
+            "answer": "Words that imitate sounds (e.g., Bang, Pop, Crack). || ஒலியை விவரிக்கும்ச் சொற்கள்."
+          },
+          {
+            "question": "● [[Personification]]",
+            "answer": "The dog is given human thoughts and can speak to his master. || நாய்க்கு மனித உணர்வுகளை அளித்தல்."
+          },
+          {
+            "question": "● [[Rhyme Scheme]]",
+            "answer": "Follows a rhyming pattern like [[abcb]] or [[aabb]] depending on the stanza. || இயைபு முறை."
+          }
+        ]
+      }
+    },
+    {
+      "title": "4. The Dog's Plea (நாயின் கோரிக்கை)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● Request",
+            "answer": "Open the door and let me in. || கதவைத் திறந்து என்னை உள்ளே விடுங்கள்."
+          },
+          {
+            "question": "● Promise",
+            "answer": "I will not bark or cause trouble. || நான் குரைக்க மாட்டேன், தொந்தரவு தர மாட்டேன்."
+          }
+        ]
+      }
+    },
+    {
+      "title": "5. Grammars: Prepositions Recap",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● [[Under]] the table",
+            "answer": "In a position below. || மேசைக்குக் கீழே."
+          },
+          {
+            "question": "● [[Outside]] the door",
+            "answer": "Not in the house. || வெளியே."
+          },
+          {
+            "question": "● [[Inside]] the room",
+            "answer": "Into the house. || உள்ளே."
+          }
+        ]
+      }
+    },
+    {
+      "title": "6. Previous Year Questions & Competitive Focus",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● Who is the speaker in the poem?",
+            "answer": "The [[Dog]]. || ஒரு நாய்."
+          },
+          {
+            "question": "● What sound is repeated in the poem?",
+            "answer": "[[Bang]] / [[Pop]]. || பலமானச் சத்தம்."
+          },
+          {
+            "question": "● Identify Onomatopoeia: 'The door shut with a [[thud]]'.",
+            "answer": "[[Thud]]."
+          },
+          {
+            "question": "● Where does the dog want to hide?",
+            "answer": "[[Under the table]] / In the [[house]]. || வீட்டிற்குள் / மேசைக்கு அடியில்."
+          }
+        ]
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Who is the 'I' in the poem 'Fire Work Night'? || 'பயர்வொர்க் நைட்' கவிதையில் 'நான்' (I) என்பது யாரைக் குறிக்கும்?",
+      "options": [
+        "The Master",
+        "The Dog (நாய்)",
+        "A firework",
+        "A child"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What sound does the dog hear outside? || வெளியே நாய் எத்தகையச் சத்தத்தைக் கேட்கிறது?",
+      "options": [
+        "Music",
+        "Bang and Pop (பெரிய வெடிச் சத்தம்)",
+        "Singing",
+        "Whisper"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Why does the dog want to go inside the house? || நாய் ஏன் வீட்டிற்குள்ச் செல்ல விரும்புகிறது?",
+      "options": [
+        "To eat food",
+        "Because it is frightened of the noise (சத்தத்தைக் கேட்டுப் பயந்ததால்)",
+        "To sleep on the bed",
+        "To play with a ball"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Who is the poet of 'Fire Work Night'? || 'பயர்வொர்க் நைட்' கவிதையின் கவிஞர் யார்?",
+      "options": [
+        "Robert Frost",
+        "Enid Blyton (ஈனிட் பிளைட்டன்)",
+        "John Keats",
+        "Sarojini Naidu"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Where does the dog want to be kept for protection? || பாதுக்காப்பிற்காக நாய் எங்கே இருக்க விரும்புகிறது?",
+      "options": [
+        "On the road",
+        "In the kennel",
+        "Under the table/Inside (வீட்டிற்குள்ளே / மேசைக்கடியில்)",
+        "In the park"
+      ],
+      "a": 2,
+      "ex": ""
+    },
+    {
+      "q": "What is the meaning of 'Tremble'? || 'Tremble' என்பதன் பொருள்?",
+      "options": [
+        "Jump",
+        "Shake with fear (பயத்தால் நடுங்குதல்)",
+        "Sing",
+        "Bark"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "As which sound is an example of Onomatopoeia? || ஒலியைக் குறிக்கும்ச் சொல் (Onomatopoeia) எது?",
+      "options": [
+        "Run",
+        "Crack / Pop (வெடிப்பு ஒலிகள்)",
+        "Fast",
+        "Happy"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Does the dog promise to be good if let inside? || தன்னை உள்ளேவிட்டால் சமத்தாக இருப்பதாக நாய் வாக்களிக்கிறதா?",
+      "options": [
+        "Yes (ஆம்)",
+        "No",
+        "Maybe",
+        "Only if fed"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "What is a 'Kennel'? || 'Kennel' (நாய்க்கூடு) என்பது?",
+      "options": [
+        "House for humans",
+        "A shelter for a dog (நாய்க்கான இருப்பிடம்)",
+        "A forest",
+        "A lake"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Why is the master asked to 'Open the door'? || எஜமானிடம் 'கதவைத் திற' என ஏன் நாய் கேட்கிறது?",
+      "options": [
+        "To go out",
+        "To let the dog in out of the dark (இருட்டிலிருந்து உள்ளே வர)",
+        "To bring food",
+        "To see the fireworks"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify the rhyming word for 'pop': || 'pop' - என்பதற்கான இயைபுச் சொல்?",
+      "options": [
+        "shop",
+        "top",
+        "stop",
+        "all of the above (இவையனைத்தும்)"
+      ],
+      "a": 3,
+      "ex": ""
+    },
+    {
+      "q": "How does the dog feel during the 'Fire Work Night'? || வானவேடிக்கை இரவில் நாய் எப்படி உணர்கிறது?",
+      "options": [
+        "Happy",
+        "Excited",
+        "Terrified / Frantic (மிகுந்தப் பயம்)",
+        "Calm"
+      ],
+      "a": 2,
+      "ex": ""
+    },
+    {
+      "q": "What does 'Bark' mean? || 'பார்க்' (Bark) என்றால் என்ன?",
+      "options": [
+        "Silent walk",
+        "Loud cry of a dog (நாய்க்குக் குரைத்தல்)",
+        "Sing",
+        "Sleep"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: \"Crash! Bang!\". These are ______ words. || இவை எத்தகையச் சொற்கள்?",
+      "options": [
+        "Onomatopoeic (ஒலிக்குறிப்புச் சொற்கள்)",
+        "Silent",
+        "Verbs only",
+        "Adjectives"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "The dog says he'll be 'quiet as a ______'. || நாய் எதைப் போல அமைதியாக இருப்பதாகக் கூறுகிறது?",
+      "options": [
+        "Lion",
+        "Mouse (எலியைப் போல)",
+        "Bird",
+        "Cloud"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What is the meaning of 'Crouch'? || 'Crouch' - என்பதன் பொருள்?",
+      "options": [
+        "Run",
+        "Bow/Bend low in fear (ஒதுங்கிப் பயந்துப் பதுங்குதல்)",
+        "Drink",
+        "Jump high"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Which preposition is used: \"I will sit ______ the table\". || இக்காலத்தில் பொருந்தும் முன்னிடைச் சொல் (Preposition) எது?",
+      "options": [
+        "On",
+        "Under (அடியில்)",
+        "Above",
+        "Between"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify the Rhyme: \"Door... Floor\". || 'Door... Floor' - என்பது?",
+      "options": [
+        "Rhyming pair (இயைபுச் சோடி)",
+        "Alliteration",
+        "Simile",
+        "None"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Is 'Firework' a single or compound word? || 'Firework' என்பது எவ்வகைச் சொல்?",
+      "options": [
+        "Simple",
+        "Compound word (கூட்டுச் சொல் - Fire + Work)",
+        "Root only",
+        "None"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "The dog is in the 'Mist of the dark'. What is 'Mist'? || 'Mist' என்பதன் பொருள் என்ன?",
+      "options": [
+        "Sunlight",
+        "Haze/Fog (மூடுபனி / இருள் மண்டலம்)",
+        "Rain",
+        "Fire"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: \"A short sharp cry of pain\". || வலியினால் எழுப்பப்படும் ஒருச் சிறு ஒலி எது?",
+      "options": [
+        "Yelp (எல்ப / நாயின்க் கத்தல்)",
+        "Roar",
+        "Hum",
+        "Hiss"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "What is the synonym of 'Fright'? || 'Fright' என்பதன் ஒத்தப்பொருள் யாது?",
+      "options": [
+        "Joy",
+        "Fear / Terror (பயம் / அச்சம்)",
+        "Hunger",
+        "Speed"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Where does the 'Bang' come from? || 'Bang' எனும் சத்தம் எங்கிருந்து வருகிறது?",
+      "options": [
+        "A car",
+        "Firecrackers (பட்டாசுகள்)",
+        "A song",
+        "The kitchen"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Who wrote 'Noddy' and 'Famous Five' series? || 'நாடி' மற்றும் 'பேமஸ் பைவ்' போன்றவற்றை எழுதியவர் யார்?",
+      "options": [
+        "John Keats",
+        "Enid Blyton (ஈனிட் பிளைட்டன்)",
+        "J.K. Rowling",
+        "Ruskin Bond"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of 'Scared' in Tamil: || 'Scared' - இதன் தமிழ்ப் பொருள்?",
+      "options": [
+        "மகிழ்ச்சி",
+        "அச்சம் / பயம்",
+        "வேகம்",
+        "தூக்கம்"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: \"Let me in!\". What type of sentence? || இது எவ்வகை வாக்கியம்?",
+      "options": [
+        "Question",
+        "Imperative (கட்டளை / வேண்டுகோள் வாக்கியம்)",
+        "Negative",
+        "Exclamation"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What is the tone of the dog in the poem? || கவிதையில் நாயின் பேசும்த் தொனி எவ்வாறு உள்ளது?",
+      "options": [
+        "Angry",
+        "Pleading/Fearful (கெஞ்சுதல் / பயம்)",
+        "Loudly shouting",
+        "Happy"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Commonly fireworks are used during? || பட்டாசுகள் பொதுவாக எப்போதுப் பயன்படுத்தப்படும்?",
+      "options": [
+        "Sleeping time",
+        "Festivals and celebrations (திருவிழாக்கள் மற்றும் கொண்டாட்டங்கள்)",
+        "In exams",
+        "In hospitals"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Rhyme for 'in': || 'in' - இதற்கான இயைபுச் சொல்?",
+      "options": [
+        "bin",
+        "win (வின் / வெற்றி)",
+        "tin",
+        "all of the above"
+      ],
+      "a": 3,
+      "ex": ""
+    },
+    {
+      "q": "Identify the figure of speech: \"Bang-Bang! Bang-Bang!\". || இதில் பயின்று வரும் அணி எது?",
+      "options": [
+        "Simile",
+        "Onomatopoeia (ஒலிக்குறிப்பு அணி)",
+        "Metaphor",
+        "Pun"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What is the synonym of 'Master'? || 'Master' என்பதன் ஒத்தப்பொருள் யாது?",
+      "options": [
+        "Servant",
+        "Owner / Primary person (எஜமான் / உரிமையாளர்)",
+        "Slave",
+        "Stranger"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "How can we help animals during fireworks? || வெடிகள் வெடிக்கும்போது நாம் விலங்குகளுக்கு எவ்வாறு உதவலாம்?",
+      "options": [
+        "Shout at them",
+        "Keep them inside and comfort them (அவற்றை உள்ளே வைத்து அரவணைத்தல்)",
+        "Beat them",
+        "Take them to see fireworks"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of 'Beheld': || 'Beheld' (பிஹெல்ட்) - என்பதன் பொருள்?",
+      "options": [
+        "Heard",
+        "Saw/Observed (பார்த்தேன்)",
+        "Touched",
+        "Smelled"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: \"I will be quite good\". Is 'quite' used for count or degree? || 'Quite' என்பது எதைக் குறிக்கும்?",
+      "options": [
+        "Adverb of degree (தீவிரத்தை உணர்த்தும் பெயரடை)",
+        "Noun",
+        "Verb",
+        "None"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "The dog is 'outside in the dark'. What part of speech is 'outside'? || இதில் 'outside' என்பது?",
+      "options": [
+        "Adverb of Place (இடத்தைச் சுட்டும் வினை உரிச்சொல்)",
+        "Adjective",
+        "Pronoun",
+        "None"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "What is 'Pop' in firework context? || வானவேடிக்கையில் 'பாப்' (Pop) என்பது?",
+      "options": [
+        "A drink",
+        "A light exploding sound (சிறிய வெடிப்புச் சத்தம்)",
+        "A song",
+        "A hat"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Conclusion: We should be ______ toward pets during loud noises. || முடிவு: சத்தமான நேரங்களில் நாம் செல்லப்பிராணிகளிடம் ______ ஆக இருக்க வேண்டும்.",
+      "options": [
+        "Angry",
+        "Kind and Protective (அன்பாகவும் பாதுகாப்பாகவும்)",
+        "Careless",
+        "Noisy"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Where does the dog hide finally? || இறுதியில் நாய் எங்கேப் பதுங்குகிறது?",
+      "options": [
+        "In the kennel",
+        "Behind the sofa/Under the table in house (வீட்டிற்குள் பாதுகாப்பாகப் பதுங்குகிறது)",
+        "In the street",
+        "On the roof"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Correct spelling of our author's name: || ஆசிரியரின்ப் பெயரின் சரியான எழுத்து வடிவம்?",
+      "options": [
+        "Enid Blyton (ஈனிட் பிளைட்டன்)",
+        "Enit Bliton",
+        "Eneid Blyton",
+        "Enid Bleten"
+      ],
+      "a": 0,
+      "ex": ""
+    }
+  ],
+  "credits": "தொகுப்பு: A1 ONLINE COACHING CENTER"
+}

@@ -1,0 +1,789 @@
+{
+  "title": "இரயில் வண்டியிலிருந்து (From A Railway Carriage - Poem) - மாதிரித் தேர்வு",
+  "subject": "english",
+  "className": "6",
+  "term": 2,
+  "lessonId": "eng_6_t2_l5",
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "What moves faster than fairies and witches in the poem?",
+      "options": [
+        "A) A galloping horse",
+        "B) A flying bird",
+        "C) A rushing train",
+        "D) A running child"
+      ],
+      "answer": "C",
+      "explanation": "The entire poem describes the speed of a train moving 'faster than fairies, faster than witches'."
+    },
+    {
+      "id": 2,
+      "type": "mcq",
+      "question": "Which of these are mentioned in the same line as 'ditches'?",
+      "options": [
+        "A) Hedges",
+        "B) Stations",
+        "C) Brambles",
+        "D) Rivers"
+      ],
+      "answer": "A",
+      "explanation": "The poem says, 'Bridges and houses, hedges and ditches'."
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "question": "What is charging along like troops in a battle?",
+      "options": [
+        "A) The child gathering brambles",
+        "B) The train",
+        "C) The horses and cattle",
+        "D) The driving rain"
+      ],
+      "answer": "B",
+      "explanation": "The train moves with great speed and force, compared to troops charging in a battle."
+    },
+    {
+      "id": 4,
+      "type": "mcq",
+      "question": "Where are the horses and cattle located according to the poem?",
+      "options": [
+        "A) In the road",
+        "B) On the green",
+        "C) In the meadows",
+        "D) Near the mill"
+      ],
+      "answer": "C",
+      "explanation": "The poem explicitly states, 'All through the meadows the horses and cattle'."
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "question": "What do the sights of the hill and plain fly as thick as?",
+      "options": [
+        "A) Wink of an eye",
+        "B) Driving rain",
+        "C) Gathering brambles",
+        "D) Troops in a battle"
+      ],
+      "answer": "B",
+      "explanation": "The line reads: 'Fly as thick as driving rain;'."
+    },
+    {
+      "id": 6,
+      "type": "mcq",
+      "question": "What whistles by 'in the wink of an eye'?",
+      "options": [
+        "A) Painted stations",
+        "B) Horses and cattle",
+        "C) A tramp",
+        "D) A cart"
+      ],
+      "answer": "A",
+      "explanation": "The poem says, 'Painted stations whistle by'."
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "question": "Who is clambering and scrambling?",
+      "options": [
+        "A) A child",
+        "B) A tramp",
+        "C) A man",
+        "D) A fairy"
+      ],
+      "answer": "A",
+      "explanation": "The text states, 'Here is a child who clambers and scrambles'."
+    },
+    {
+      "id": 8,
+      "type": "mcq",
+      "question": "What is the child gathering?",
+      "options": [
+        "A) Daisies",
+        "B) Brambles",
+        "C) Wood",
+        "D) Stones"
+      ],
+      "answer": "B",
+      "explanation": "The poem mentions the child 'All by himself and gathering brambles'."
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "question": "Who stands and gazes?",
+      "options": [
+        "A) A child",
+        "B) A tramp",
+        "C) A man with a load",
+        "D) A witch"
+      ],
+      "answer": "B",
+      "explanation": "The poem introduces 'a tramp who stands and gazes'."
+    },
+    {
+      "id": 10,
+      "type": "mcq",
+      "question": "What is the green space used for?",
+      "options": [
+        "A) Stringing the daisies",
+        "B) Gathering brambles",
+        "C) Troops to battle",
+        "D) The cart to run away"
+      ],
+      "answer": "A",
+      "explanation": "The text reads, 'And there is the green for stringing the daisies!'."
+    },
+    {
+      "id": 11,
+      "type": "mcq",
+      "question": "What runs away in the road?",
+      "options": [
+        "A) A train",
+        "B) A cart",
+        "C) A horse",
+        "D) A child"
+      ],
+      "answer": "B",
+      "explanation": "The poem says, 'Here is a cart run away in the road'."
+    },
+    {
+      "id": 12,
+      "type": "mcq",
+      "question": "Who is with the cart lumping along?",
+      "options": [
+        "A) A child and brambles",
+        "B) A man and load",
+        "C) A tramp and daisies",
+        "D) Fairies and witches"
+      ],
+      "answer": "B",
+      "explanation": "The line is 'Lumping along with man and load'."
+    },
+    {
+      "id": 13,
+      "type": "mcq",
+      "question": "What two landscape features are mentioned at the very end of the poem?",
+      "options": [
+        "A) A hill and a plain",
+        "B) A bridge and a house",
+        "C) A mill and a river",
+        "D) A meadow and a green"
+      ],
+      "answer": "C",
+      "explanation": "The poet sees 'a mill and there is a river'."
+    },
+    {
+      "id": 14,
+      "type": "mcq",
+      "question": "How long does each sight last?",
+      "options": [
+        "A) A few minutes",
+        "B) Each a glimpse and gone forever",
+        "C) An hour",
+        "D) Until the train stops"
+      ],
+      "answer": "B",
+      "explanation": "The final line states, 'Each a glimpse and gone forever!'."
+    },
+    {
+      "id": 15,
+      "type": "mcq",
+      "question": "Who is the poet of 'From A Railway Carriage'?",
+      "options": [
+        "A) William Wordsworth",
+        "B) Robert Louis Stevenson",
+        "C) John Keats",
+        "D) Rabindranath Tagore"
+      ],
+      "answer": "B",
+      "explanation": "The author is given as Robert Louis Stevenson."
+    },
+    {
+      "id": 16,
+      "type": "mcq",
+      "question": "When was Robert Louis Stevenson born?",
+      "options": [
+        "A) 3 December 1894",
+        "B) 15 August 1850",
+        "C) 13 Nov 1850",
+        "D) 12 September 1900"
+      ],
+      "answer": "C",
+      "explanation": "His birth date is provided as 13 Nov 1850."
+    },
+    {
+      "id": 17,
+      "type": "mcq",
+      "question": "Which of these is NOT listed as one of Stevenson's famous works in the text?",
+      "options": [
+        "A) Treasure Island",
+        "B) Kidnapped",
+        "C) A Child’s Garden of Verses",
+        "D) The Jungle Book"
+      ],
+      "answer": "D",
+      "explanation": "The Jungle Book is not listed among his works; the others are."
+    },
+    {
+      "id": 18,
+      "type": "mcq",
+      "question": "What is Stevenson's nationality?",
+      "options": [
+        "A) English",
+        "B) Scottish",
+        "C) Irish",
+        "D) American"
+      ],
+      "answer": "B",
+      "explanation": "He is described as a 'Scottish novelist, poet, essayist, musician and travel writer'."
+    },
+    {
+      "id": 20,
+      "type": "mcq",
+      "question": "What does the word 'Charge' mean in the glossary?",
+      "options": [
+        "A) To pay a fee",
+        "B) To make a rush at or sudden attack",
+        "C) To fill with electricity",
+        "D) To walk slowly"
+      ],
+      "answer": "B",
+      "explanation": "The glossary defines Charge as 'To make a rush at or sudden attack upon a person or thing'."
+    },
+    {
+      "id": 20,
+      "type": "mcq",
+      "question": "Which word means 'to climb or move in an awkward and laborious way'?",
+      "options": [
+        "A) Charge",
+        "B) Glimpse",
+        "C) Clamber",
+        "D) Lumping"
+      ],
+      "answer": "C",
+      "explanation": "Clamber means to climb or move in an awkward way using both hands and feet."
+    },
+    {
+      "id": 21,
+      "type": "mcq",
+      "question": "What are 'brambles'?",
+      "options": [
+        "A) Small stones on the road",
+        "B) A prickly scrambling shrub of the rose family",
+        "C) A type of train ticket",
+        "D) Colorful flowers"
+      ],
+      "answer": "B",
+      "explanation": "Brambles are defined as a prickly scrambling shrub of the rose family, especially a blackberry."
+    },
+    {
+      "id": 22,
+      "type": "mcq",
+      "question": "How is a 'tramp' defined in the text?",
+      "options": [
+        "A) A quick walk",
+        "B) A person who travels on foot in search of work or as a beggar",
+        "C) A heavy load",
+        "D) A fast train"
+      ],
+      "answer": "B",
+      "explanation": "The glossary defines a tramp as a person who travels from place to place on foot in search of work or as a beggar."
+    },
+    {
+      "id": 23,
+      "type": "mcq",
+      "question": "What does 'Stringing' mean?",
+      "options": [
+        "A) Hang so that it stretches in a long line",
+        "B) Playing a musical instrument",
+        "C) Tying a knot",
+        "D) Running fast"
+      ],
+      "answer": "A",
+      "explanation": "Stringing means to hang so that it stretches in a long line."
+    },
+    {
+      "id": 24,
+      "type": "mcq",
+      "question": "Which glossary word means 'Carry with difficulty'?",
+      "options": [
+        "A) Glimpse",
+        "B) Lumping",
+        "C) Clamber",
+        "D) Charge"
+      ],
+      "answer": "B",
+      "explanation": "Lumping is defined as 'Carry with difficulty'."
+    },
+    {
+      "id": 25,
+      "type": "mcq",
+      "question": "What does 'Glimpse' mean?",
+      "options": [
+        "A) To look deeply",
+        "B) See or perceive briefly or partially",
+        "C) A shiny object",
+        "D) To forget quickly"
+      ],
+      "answer": "B",
+      "explanation": "A glimpse is to see or perceive briefly or partially."
+    },
+    {
+      "id": 26,
+      "type": "mcq",
+      "question": "In the summary fill-in-the-blanks, what brings unique rhythms that inspire poets?",
+      "options": [
+        "A) Horses and cattle",
+        "B) Fairies and witches",
+        "C) Trains",
+        "D) The driving rain"
+      ],
+      "answer": "C",
+      "explanation": "Ever since their introduction, trains and their unique rhythms have inspired poets."
+    },
+    {
+      "id": 27,
+      "type": "mcq",
+      "question": "Where is the poet sharing his experience from?",
+      "options": [
+        "A) A horse carriage",
+        "B) A mountain top",
+        "C) A railway carriage window",
+        "D) A painted station"
+      ],
+      "answer": "C",
+      "explanation": "He presents natural scenes seen from a railway carriage window."
+    },
+    {
+      "id": 28,
+      "type": "mcq",
+      "question": "What line best sums up the poem according to the summary section?",
+      "options": [
+        "A) Faster than fairies, faster than witches",
+        "B) Fly as thick as driving rain",
+        "C) Each a glimpse and gone forever!",
+        "D) Painted stations whistle by"
+      ],
+      "answer": "C",
+      "explanation": "The summary notes the line that best sums up is the final one: 'Each a glimpse and gone forever!'."
+    },
+    {
+      "id": 29,
+      "type": "mcq",
+      "question": "What is the date of Stevenson's death?",
+      "options": [
+        "A) 3 December 1894",
+        "B) 13 November 1850",
+        "C) 15 August 1900",
+        "D) 12 September 1894"
+      ],
+      "answer": "A",
+      "explanation": "His biographical details state his lifespan as 13 Nov 1850 – 3 December 1894."
+    },
+    {
+      "id": 30,
+      "type": "mcq",
+      "question": "What is Stevenson's middle name?",
+      "options": [
+        "A) Louis",
+        "B) Arthur",
+        "C) Balfour",
+        "D) Edward"
+      ],
+      "answer": "C",
+      "explanation": "His full name is Robert Louis Balfour Stevenson."
+    },
+    {
+      "id": 31,
+      "type": "mcq",
+      "question": "Why does the poet mention 'bridges and houses, hedges and ditches'?",
+      "options": [
+        "A) To show things moving slower than the train",
+        "B) To list the sights flashing rapidly outside the train window",
+        "C) To describe where the fairies live",
+        "D) To explain where the train stops"
+      ],
+      "answer": "B",
+      "explanation": "These are the rapid visual elements the poet sees as the train speeds past the landscape."
+    },
+    {
+      "id": 32,
+      "type": "mcq",
+      "question": "Where is the child who is gathering brambles likely located?",
+      "options": [
+        "A) Inside the train",
+        "B) In the city center",
+        "C) In the rough countryside near the tracks",
+        "D) At the painted station"
+      ],
+      "answer": "C",
+      "explanation": "The child clambering and gathering brambles is seen outside by the tracks in a natural, rugged setting."
+    },
+    {
+      "id": 33,
+      "type": "mcq",
+      "question": "What does 'gathering brambles' suggest about the child's activity?",
+      "options": [
+        "A) He is playing a game with friends",
+        "B) He is collecting blackberries from prickly bushes",
+        "C) He is building a house",
+        "D) He is trying to catch the train"
+      ],
+      "answer": "B",
+      "explanation": "Brambles are prickly shrubs (blackberries), so the child is carefully picking fruit or wood from them."
+    },
+    {
+      "id": 34,
+      "type": "mcq",
+      "question": "What does 'painted stations whistle by' imply?",
+      "options": [
+        "A) The stations are blowing a whistle",
+        "B) The train passes colorful stations so fast it sounds like a whistle or blur",
+        "C) People are painting the station",
+        "D) The train stops at every station"
+      ],
+      "answer": "B",
+      "explanation": "It conveys the extreme speed of the train moving past the stations with a rushing sound."
+    },
+    {
+      "id": 35,
+      "type": "mcq",
+      "question": "In 'Each a glimpse and gone forever', what does 'each' refer to?",
+      "options": [
+        "A) Every passenger on the train",
+        "B) Every single sight or scene passed by the train",
+        "C) Every fairy and witch",
+        "D) Every train whistle"
+      ],
+      "answer": "B",
+      "explanation": "'Each' refers to all the previously mentioned sights (child, tramp, cart, mill, river) flashing by."
+    },
+    {
+      "id": 36,
+      "type": "mcq",
+      "question": "Why are the sights 'gone forever'?",
+      "options": [
+        "A) The train crashes",
+        "B) The train moves so fast that the specific fleeting moment can never be seen exactly the same way again",
+        "C) The poet goes blind",
+        "D) The sights are destroyed after the train passes"
+      ],
+      "answer": "B",
+      "explanation": "The journey is continuous, and the rapid forward motion leaves the momentary sights permanently behind."
+    },
+    {
+      "id": 37,
+      "type": "mcq",
+      "question": "What does the comparison 'charges along like troops in a battle' highlight about the train?",
+      "options": [
+        "A) Its violent aggression towards people",
+        "B) Its fast, relentless, and powerful forward movement",
+        "C) Its loud noise",
+        "D) Its quiet and slow pace"
+      ],
+      "answer": "B",
+      "explanation": "Like soldiers marching rapidly and forcefully into battle, the train moves with unstoppable momentum."
+    },
+    {
+      "id": 38,
+      "type": "mcq",
+      "question": "Which word could best replace 'charges' while maintaining the poem's context of speed?",
+      "options": [
+        "A) Marches",
+        "B) Pushes",
+        "C) Rushes",
+        "D) Crawls"
+      ],
+      "answer": "C",
+      "explanation": "Rushes best captures the high speed and suddenness described by the word 'charges' in this context."
+    },
+    {
+      "id": 39,
+      "type": "mcq",
+      "question": "Why might the child need to 'clamber and scramble'?",
+      "options": [
+        "A) To hide from the train",
+        "B) To cross a flat road",
+        "C) To move through the prickly brambles on difficult, uneven ground",
+        "D) To catch a butterfly"
+      ],
+      "answer": "C",
+      "explanation": "Gathering prickly brambles on a hill or ditch requires awkward and laborious climbing."
+    },
+    {
+      "id": 40,
+      "type": "mcq",
+      "question": "What is the contrast presented between the train and the scenery outside?",
+      "options": [
+        "A) The train is silent, but the outside is loud",
+        "B) The train's rhythm is regular and steady, but the outside view is constantly changing",
+        "C) The train is slow, but the scenery is fast",
+        "D) Both are completely still"
+      ],
+      "answer": "B",
+      "explanation": "The poem's summary notes that the rhythm is regular and steady but the window view constantly changes."
+    },
+    {
+      "id": 41,
+      "type": "mcq",
+      "question": "What is a simile?",
+      "options": [
+        "A) A word that sounds like what it means",
+        "B) A figure of speech that directly compares two things using 'like' or 'as'",
+        "C) A poem with exactly eleven words",
+        "D) A rhyming pair of words"
+      ],
+      "answer": "B",
+      "explanation": "The text states: 'A simile is a figure of speech that directly compares two things. Similes explicitly use connecting words such as ‘like’ and ‘as’.'"
+    },
+    {
+      "id": 42,
+      "type": "mcq",
+      "question": "Which of these lines from the poem contains a simile?",
+      "options": [
+        "A) Faster than fairies, faster than witches",
+        "B) And charging along like troops in a battle",
+        "C) Here is a child who clambers and scrambles",
+        "D) And there is the green for stringing the daisies"
+      ],
+      "answer": "B",
+      "explanation": "This line uses the word 'like' to compare the train's movement to troops in a battle."
+    },
+    {
+      "id": 43,
+      "type": "mcq",
+      "question": "Identify the rhyming pair found in the poem.",
+      "options": [
+        "A) Witches and Ditches",
+        "B) Road and River",
+        "C) Stations and Scrambles",
+        "D) Fairies and Cattle"
+      ],
+      "answer": "A",
+      "explanation": "Witches and ditches rhyme at the end of the first two lines."
+    },
+    {
+      "id": 44,
+      "type": "mcq",
+      "question": "Which of the following words rhyme in the poem?",
+      "options": [
+        "A) Battle and Cattle",
+        "B) Eye and Rain",
+        "C) Road and Brambles",
+        "D) Mill and Forever"
+      ],
+      "answer": "A",
+      "explanation": "The poem uses 'battle' and 'cattle' as rhyming words at the end of lines 3 and 4."
+    },
+    {
+      "id": 45,
+      "type": "mcq",
+      "question": "Vocabulary: 'I can help you to cross the river'. What noun from the poem am I?",
+      "options": [
+        "A) Train",
+        "B) Bridge",
+        "C) Cart",
+        "D) Hedge"
+      ],
+      "answer": "B",
+      "explanation": "A bridge is a structure built to span a physical obstacle like a river."
+    },
+    {
+      "id": 46,
+      "type": "mcq",
+      "question": "Vocabulary: 'I can border your garden'. What am I?",
+      "options": [
+        "A) Hedge",
+        "B) Ditch",
+        "C) River",
+        "D) Meadow"
+      ],
+      "answer": "A",
+      "explanation": "A hedge is a boundary or border made of bushes or shrubs, commonly bordering gardens."
+    },
+    {
+      "id": 47,
+      "type": "mcq",
+      "question": "Vocabulary: 'You can ride on me'. Which animal from the poem fits this?",
+      "options": [
+        "A) Fairies",
+        "B) Cattle",
+        "C) Horse",
+        "D) Tramp"
+      ],
+      "answer": "C",
+      "explanation": "Horses are animals mentioned in the poem that people can ride."
+    },
+    {
+      "id": 48,
+      "type": "mcq",
+      "question": "Vocabulary: 'I can carry you'. Which word from the poem matches this?",
+      "options": [
+        "A) Cart",
+        "B) Mill",
+        "C) Station",
+        "D) Ditch"
+      ],
+      "answer": "A",
+      "explanation": "A cart is a vehicle designed for transport, carrying people or loads."
+    },
+    {
+      "id": 49,
+      "type": "mcq",
+      "question": "In the Cinquain poem example provided, what are the adjectives in Line 2?",
+      "options": [
+        "A) Train, Procession",
+        "B) Hooting, chugging",
+        "C) Long, snaking",
+        "D) Along, winding"
+      ],
+      "answer": "C",
+      "explanation": "The example gives 'long snaking' as the two adjectives describing the title."
+    },
+    {
+      "id": 50,
+      "type": "mcq",
+      "question": "In the Cinquain poem example, which words are used to describe the action (verbs) in Line 3?",
+      "options": [
+        "A) Hooting, chugging, steaming",
+        "B) Long, snaking, along",
+        "C) Train, tracks, procession",
+        "D) Winding, tracks, hooting"
+      ],
+      "answer": "A",
+      "explanation": "The verbs showing the action of the train in the example are 'hooting, chugging, steaming'."
+    },
+    {
+      "id": 51,
+      "type": "mcq",
+      "question": "How does the rhythm of the poem contribute to its meaning?",
+      "options": [
+        "A) It makes the poem difficult to read",
+        "B) It mimics the fast, rhythmic 'chug-chug' motion of a moving train",
+        "C) It creates a sad and slow mood",
+        "D) It sounds like a gentle lullaby"
+      ],
+      "answer": "B",
+      "explanation": "The strong, driving rhythm reflects the physical motion and speed of the train tracks."
+    },
+    {
+      "id": 52,
+      "type": "mcq",
+      "question": "Why does the poet use the imagery of supernatural beings like fairies and witches in the first line?",
+      "options": [
+        "A) To show that the poem is a fairy tale",
+        "B) To emphasize a speed that seems magical or impossible",
+        "C) To scare children reading the poem",
+        "D) To describe the passengers on the train"
+      ],
+      "answer": "B",
+      "explanation": "Fairies and witches are known for magical flight; comparing the train to them highlights its extraordinary speed."
+    },
+    {
+      "id": 53,
+      "type": "mcq",
+      "question": "What is the rule for the first line of a Cinquain poem according to the text?",
+      "options": [
+        "A) It must be a five-word sentence",
+        "B) It must be a single word title, which is a noun",
+        "C) It must contain three verbs",
+        "D) It must rhyme with the last line"
+      ],
+      "answer": "B",
+      "explanation": "The structure notes state: 'Line 1: A single word title -a noun'."
+    },
+    {
+      "id": 54,
+      "type": "mcq",
+      "question": "According to the rules, what must the fourth line of a Cinquain poem describe?",
+      "options": [
+        "A) A feeling in a phrase of four words",
+        "B) Two adjectives",
+        "C) Three verbs",
+        "D) A single noun"
+      ],
+      "answer": "A",
+      "explanation": "The text states: 'Line 4: Four words that describe a feeling in a phrase'."
+    },
+    {
+      "id": 55,
+      "type": "mcq",
+      "question": "What is the total number of words required in a completed Cinquain poem?",
+      "options": [
+        "A) Five words",
+        "B) Fifteen words",
+        "C) Eleven words",
+        "D) Twenty words"
+      ],
+      "answer": "C",
+      "explanation": "The instructions clearly state: 'the finished poem should have only eleven words'."
+    },
+    {
+      "id": 56,
+      "type": "mcq",
+      "question": "What does the 'tramp who stands and gazes' represent in the context of the poem?",
+      "options": [
+        "A) The danger of the railway tracks",
+        "B) A moment of stillness contrasted against the rapid motion of the train",
+        "C) The conductor of the train",
+        "D) Someone waiting to board the train"
+      ],
+      "answer": "B",
+      "explanation": "The tramp is stationary ('stands and gazes'), providing a sharp contrast to the speeding perspective of the passenger."
+    },
+    {
+      "id": 57,
+      "type": "mcq",
+      "question": "How does the structure of the rhyming couplets (AABB) enhance the poem?",
+      "options": [
+        "A) It propels the reader forward quickly, matching the train's speed",
+        "B) It makes the poem sound like free verse",
+        "C) It stops the reader to ponder every word",
+        "D) It breaks the rhythm of the poem"
+      ],
+      "answer": "A",
+      "explanation": "The continuous rhyming couplets create a steady, rapid momentum that simulates a train ride."
+    },
+    {
+      "id": 58,
+      "type": "mcq",
+      "question": "What overarching theme does 'Each a glimpse and gone forever' convey about human travel and life?",
+      "options": [
+        "A) Trains are dangerous to ride",
+        "B) Life and journeys are full of fleeting moments that cannot be held onto",
+        "C) People should take photographs to remember things",
+        "D) It is better to walk than to ride a train"
+      ],
+      "answer": "B",
+      "explanation": "The line serves as a metaphor for the transient nature of moments we witness as we move through life."
+    },
+    {
+      "id": 59,
+      "type": "mcq",
+      "question": "Why is the metaphor 'thick as driving rain' highly effective in the poem?",
+      "options": [
+        "A) It implies that it is raining heavily outside",
+        "B) It perfectly captures how individual sights blur together into one continuous stream at high speeds",
+        "C) It shows that the train is waterproof",
+        "D) It means the hill and plain are covered in water"
+      ],
+      "answer": "B",
+      "explanation": "Just as heavy rain blurs individual drops into a sheet of water, the high speed blurs the scenery together."
+    },
+    {
+      "id": 60,
+      "type": "mcq",
+      "question": "What is the primary sensory experience the poet tries to evoke in 'From A Railway Carriage'?",
+      "options": [
+        "A) Taste and smell of train food",
+        "B) Visual speed and the rhythmic auditory sound of a train journey",
+        "C) The feeling of cold wind",
+        "D) The tactile sensation of brambles"
+      ],
+      "answer": "B",
+      "explanation": "The poem heavily relies on fast-paced visual imagery and rhythmic meter to make the reader see and hear the train ride."
+    }
+  ]
+}

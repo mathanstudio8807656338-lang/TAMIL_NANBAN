@@ -1,0 +1,592 @@
+{
+  "subject": "English",
+  "class": "8",
+  "term": "Annual",
+  "title": "Poem: Special Hero (Memoriter)",
+  "summary": "",
+  "sections": [
+    {
+      "title": "1. Poem: Special Hero (சிறப்பு நாயகன்) - Summary",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● [[Core Theme]]",
+            "answer": "Deep love, protection, and gratitude towards a father. || தந்தை மீதான ஆழமான அன்பு மற்றும் பாதுகாப்பு."
+          },
+          {
+            "question": "● [[About Author]]",
+            "answer": "Written by [[Christina M. Kerschen]]. A tribute to her father. || தந்தைக்காக கிறிஸ்டினா எம். கெர்ச்சென் எழுதியக் கவிதை."
+          },
+          {
+            "question": "● [[The Plot]]",
+            "answer": "The poet remembers being a baby and feeling safe in her father's arms. She believes our love is 'everlasting' and calls her dad her 'Special Hero'. || கவிஞர் தனது குழந்தை பருவ நினைவுகளைப் பகிர்ந்து கொள்கிறார். தனது தந்தையின் அரவணைப்பு தந்தப் பாதுகாப்பை விவரிக்கிறார். தந்தை ஒரு சிறப்பு நாயகன் என்றும், அவர்களின் அன்பு என்றும் நிலைக்கும் என்றும் கூறுகிறார்."
+          }
+        ]
+      }
+    },
+    {
+      "title": "2. Glossary: Important Poetic Terms (Exam Focus - Synonyms)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● [[Tenderness]]",
+            "answer": "Gentleness and kindness. || கனிவு மற்றும் அன்பு."
+          },
+          {
+            "question": "● [[Everlasting]]",
+            "answer": "Lasting forever; eternal. || அழிவற்ற / நிலையான."
+          },
+          {
+            "question": "● [[Special]]",
+            "answer": "Exceptional or unique. || சிறப்பான / தனித்துவமான."
+          },
+          {
+            "question": "● [[Hero]]",
+            "answer": "A person admired for courage or noble qualities. || நாயகன் / வீரன்."
+          },
+          {
+            "question": "● [[Looking up to]]",
+            "answer": "To admire or respect someone. || மரியாதையுடன் அணுகுதல்."
+          }
+        ]
+      }
+    },
+    {
+      "title": "3. Poetic Devices (கவிதை நயங்கள்)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● [[Rhyme Scheme]]",
+            "answer": "The poem follows an [[abcb]] rhyme scheme."
+          },
+          {
+            "question": "● [[Rhyming Words]]",
+            "answer": "see – me, love – above, know – so."
+          },
+          {
+            "question": "● [[Alliteration]]",
+            "answer": "Repetition of consonant sounds (e.g., \"[[S]]omething [[s]]pecial\")."
+          },
+          {
+            "question": "● [[Metaphor]]",
+            "answer": "Comparing father to a 'Special Hero'."
+          }
+        ]
+      }
+    },
+    {
+      "title": "4. Vocabulary: Compound Words (ஜோடிச் சொற்கள்)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● [[Blackboard]]",
+            "answer": "Black + Board"
+          },
+          {
+            "question": "● [[Rainbow]]",
+            "answer": "Rain + Bow"
+          },
+          {
+            "question": "● [[Waterfall]]",
+            "answer": "Water + Fall"
+          },
+          {
+            "question": "● [[Postman]]",
+            "answer": "Post + Man"
+          }
+        ]
+      }
+    },
+    {
+      "title": "5. Syllabification (அசை பிரித்தல்)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● [[Special]]",
+            "answer": "Spe-cial (2 syllables)"
+          },
+          {
+            "question": "● [[Adventure]]",
+            "answer": "Ad-ven-ture (3 syllables)"
+          },
+          {
+            "question": "● [[Education]]",
+            "answer": "Ed-u-ca-tion (4 syllables)"
+          }
+        ]
+      }
+    },
+    {
+      "title": "6. Previous Year Questions & Competitive Focus",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● Who is the speaker of the poem 'Special Hero'?",
+            "answer": "The poet, [[Christina M. Kerschen]]."
+          },
+          {
+            "question": "● \"Our love is ______\" - Complete the line.",
+            "answer": "[[Everlasting]]."
+          },
+          {
+            "question": "● Identify the rhyme scheme of Unit 1 Poem.",
+            "answer": "[[abcb]]."
+          },
+          {
+            "question": "● What is the noun form of 'Special'?",
+            "answer": "[[Specialty]] / Specialness."
+          }
+        ]
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Who is the 'Special Hero' mentioned in the poem? || இந்தக் கவிதையில் 'Special Hero' என்று கவிஞர் யாரைக் குறிப்பிடுகிறார்?",
+      "options": [
+        "A King",
+        "His Father (தனது தந்தை)",
+        "A Teacher",
+        "A Solider"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What did the poet feel in her father's eyes? || தந்தையின் கண்களில் கவிஞர் எதனைக் கண்டார்?",
+      "options": [
+        "Anger",
+        "Love and Tenderness (அன்பும் கனிவும்)",
+        "Sorrow",
+        "Fear"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "The poet felt ______ in her father's arms. || தந்தையின் அரவணைப்பில் இருக்கும்போது கவிஞர் எவ்வாறு உணர்ந்தார்?",
+      "options": [
+        "Scared",
+        "Lucky and Safe (அதிர்ஷ்டசாலி மற்றும் பாதுகாப்பாக)",
+        "Uncomfortable",
+        "Sad"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Where did the poet believe her father was sent from? || தனது தந்தை எங்கிருந்து வந்ததாகக் கவிஞர் நம்புகிறார்?",
+      "options": [
+        "A distant city",
+        "Heaven / Above (சொர்க்கம் / மேலிருந்து)",
+        "The sea",
+        "A hospital"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What is the meaning of 'Everlasting'? || 'Everlasting' என்ற சொல்லின் பொருள் என்ன?",
+      "options": [
+        "Short-lived",
+        "Lasting forever / Eternal (அழிவற்ற / நிலைத்த)",
+        "Small",
+        "Weak"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Who is the author of 'Special Hero'? || 'ஸ்பெஷல் ஹீரோ' கவிதையின் ஆசிரியர் யார்?",
+      "options": [
+        "Christina M. Kerschen (கிறிஸ்டினா எம். கெர்ச்சென்)",
+        "William Wordsworth",
+        "Robert Frost",
+        "T.S. Eliot"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "What is the rhyme scheme of the poem? || இக்கவிதையின் இயைபுத் தொடை (Rhyme Scheme) என்ன?",
+      "options": [
+        "aabb",
+        "abab",
+        "abcb",
+        "aaaa"
+      ],
+      "a": 2,
+      "ex": ""
+    },
+    {
+      "q": "Identify the rhyming word for 'see'. || 'see' - இதற்கான இயைபுச் சொல் எது?",
+      "options": [
+        "arms",
+        "me (மீ)",
+        "dad",
+        "above"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "How does the poet see her father? || கவிஞர் தனது தந்தையை எவ்வாறு பார்க்கிறார்?",
+      "options": [
+        "As a common man",
+        "As a Special Hero (ஒரு சிறப்பு நாயகனாக)",
+        "As a boss",
+        "As a king"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What does 'Looking up to' mean in the poem? || 'Looking up to' என்பதன் பொருள்?",
+      "options": [
+        "Looking at the sky",
+        "To admire or respect someone (மரியாதையுடன் நோக்குதல்)",
+        "Searching for something",
+        "Standing tall"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify the alliteration: \"Something special\". || \"Something special\" எனும் அடியில் வரும் மோனை எது?",
+      "options": [
+        "S sound ('S' ஓசை)",
+        "M sound",
+        "T sound",
+        "L sound"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "The love between dad and child is described as? || தந்தை மற்றும் மகளுக்குடைய அன்பு எத்தகையதாக விவரிக்கப்படுகிறது?",
+      "options": [
+        "Temporary",
+        "Everlasting (நிலையான / என்றும் அழியாத)",
+        "Angry",
+        "Fearful"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "How many syllables are in 'Adventure'? || 'Adventure' என்ற சொல்லில் எத்தனை அசைகள் (Syllables) உள்ளன?",
+      "options": [
+        "Two",
+        "Three (மூன்று)",
+        "Four",
+        "One"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Compound word for 'Rain': || 'Rain' என்பதனுடன் சேரும் மற்றொரு சொல் எது?",
+      "options": [
+        "Floor",
+        "Bow (வில் / வானவில்)",
+        "Board",
+        "Cake"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Compound word for 'Post': || 'Post' - இதனுடன் சேரும் சொல் எது?",
+      "options": [
+        "Tree",
+        "Man (மனிதன் / தபால்காரர்)",
+        "Road",
+        "Box"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "The poet was ______ that her dad was chosen for her. || தனது தந்தை தனக்காகத் தேர்ந்தெடுக்கப்பட்டதை கவிஞர் எப்படிக் கூறுகிறார்?",
+      "options": [
+        "Sad",
+        "Lucky (அதிர்ஷ்டசாலி)",
+        "Angry",
+        "Bored"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Why is the father called a 'Hero'? || தந்தை ஏன் ஒரு நாயகனாக அழைக்கப்படுகிறார்?",
+      "options": [
+        "He fought in war",
+        "For his noble love and protection (அன்பு மற்றும் பாதுகாப்பிற்காக)",
+        "He is famous",
+        "He won a medal"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify the rhyming word for 'love'. || 'love' - என்பதற்கான இயைபுச் சொல்?",
+      "options": [
+        "arms",
+        "above (அபவ்)",
+        "see",
+        "dad"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What does a 'Special' person mean? || 'ஸ்பெஷல்' (Special) நபர் என்பது எதனைக் குறிக்கும்?",
+      "options": [
+        "One like everyone",
+        "Exceptional and unique (தனித்துவம் வாய்ந்தவர்)",
+        "Old person",
+        "A stranger"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "The poem 'Special Hero' expresses? || இக்கவிதை எதனை வெளிப்படுத்துகின்றது?",
+      "options": [
+        "Fear of father",
+        "Gratitude for father's love (தந்தையின் அன்பிற்கான நன்றியுணர்வு)",
+        "School life",
+        "Nature's beauty"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "How many syllables are in 'Special'? || 'Special' என்பதில் எத்தனை அசைகள் உள்ளன?",
+      "options": [
+        "One",
+        "Two (Spe-cial)",
+        "Three",
+        "Four"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Which of these is a compound word? || இதில் எது கூட்டுச் சொல்?",
+      "options": [
+        "Beautiful",
+        "Waterfall (நீர்வீழ்ச்சி)",
+        "Reading",
+        "Running"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "The father's love is compared to a? || தந்தையின் அன்பு எதனோடு ஒப்பிடப்படுகிறது?",
+      "options": [
+        "Diamond",
+        "A gift from above (மேலிருந்து வந்த பரிசு)",
+        "Gold",
+        "A mountain"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What was the poet doing when the father held her? || தந்தை அவளைத் தூக்கியபோது அவள் என்னவாக இருந்தாள்?",
+      "options": [
+        "Student",
+        "Baby (குழந்தை)",
+        "Teacher",
+        "Doctor"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: 'Blackboard' || 'பிளாக்போர்டு' என்பது?",
+      "options": [
+        "Adjective",
+        "Compound word (கூட்டுச்சொல்)",
+        "Verb",
+        "Pronoun"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "The father kept the child safe from? || தந்தை குழந்தையை எதிலிருந்து பாதுகாத்தார்?",
+      "options": [
+        "Homework",
+        "All harm (அனைத்துத் தீங்குகள்)",
+        "Food",
+        "Friends"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of 'Tenderness'? || 'டெண்டர்னஸ்' (Tenderness) என்பதன் பொருள்?",
+      "options": [
+        "Hardness",
+        "Gentleness and kindness (கனிவு மற்றும் மென்மை)",
+        "Anger",
+        "Speed"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "The rhyme scheme 'abcb' means? || 'abcb' எனும் இயைபு எதனைக் குறிக்கும்?",
+      "options": [
+        "All lines rhyme",
+        "2nd and 4th lines rhyme (2 மற்றும் 4 வரிகள் ஒரு ஓசை)",
+        "1st and 3rd lines rhyme",
+        "No lines rhyme"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What is the opposite of 'Everlasting'? || 'Everlasting' - எதிர்ச்சொல்?",
+      "options": [
+        "Eternal",
+        "Temporary (தற்காலிகமான)",
+        "Big",
+        "Strong"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: \"You were the dad chosen for me\". || \"எனக்காகத் தேர்ந்தெடுக்கப்பட்ட தந்தை நீங்கள்\" - இது?",
+      "options": [
+        "Hatred",
+        "Luck and Fate (அதிர்ஷ்டம் / விதி)",
+        "Sadness",
+        "Jealousy"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Compound word for 'Key': || 'Key' என்பதனுடன் சேரும் சொல்?",
+      "options": [
+        "Chain",
+        "Board (போர்டு / கீபோர்டு)",
+        "Road",
+        "Floor"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "How many syllables in 'Education'? || 'Education' என்பதில் எத்தனை அசைகள்?",
+      "options": [
+        "Two",
+        "Three",
+        "Four (Ed-u-ca-tion)",
+        "Five"
+      ],
+      "a": 2,
+      "ex": ""
+    },
+    {
+      "q": "What does a child see in a father? || தந்தையிடம் ஒரு குழந்தை எதைக் காண்கிறது?",
+      "options": [
+        "Money",
+        "Security and Heroism (பாதுகாப்பு மற்றும் வீரம்)",
+        "Books",
+        "Toys"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of 'Hero' in the text? || இப்பாடத்தில் 'Hero' எனும் சொல் எதனைக் குறிக்கிறது?",
+      "options": [
+        "Film actor",
+        "Role model/Protector (பாதுகாவலர் / சீரிய பண்பாளர்)",
+        "Cricketer",
+        "Enemy"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Rhyme for 'know': || 'know' என்பதன் இயைபுச் சொல்?",
+      "options": [
+        "so (சோ)",
+        "go",
+        "no",
+        "all of the above"
+      ],
+      "a": 3,
+      "ex": ""
+    },
+    {
+      "q": "What is the lesson from the poem? || இக்கவிதை கூறும் பாடம் என்ன?",
+      "options": [
+        "To ignore parents",
+        "To value parental love (பெற்றோரின் அன்பைப் போற்றுதல்)",
+        "To buy a car",
+        "To go to heaven"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Christina M. Kerschen is a? || கிறிஸ்டினா எம். கெர்ச்சென் ஒரு?",
+      "options": [
+        "Poet (கவிஞர்)",
+        "Doctor",
+        "Engineer",
+        "Pilot"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Identify: \"I knew the love in your eyes\". What type of sentence is this? || இது எத்தகைய வாக்கியம்?",
+      "options": [
+        "Past tense (இறந்த காலம்)",
+        "Future tense",
+        "Question",
+        "Order"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Conclusion: A father is his child's first ______. || முடிவு: ஒரு தந்தை தனது குழந்தையின் முதல் ______.",
+      "options": [
+        "Enemy",
+        "Special Hero (சிறப்பு நாயகன்)",
+        "Teacher only",
+        "None"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Choose the correctly spelled word: || சரியான எழுத்துப்பிழையற்றச் சொல் எது?",
+      "options": [
+        "Special (ஸ்பெஷல்)",
+        "Spechial",
+        "Spacial",
+        "Spesial"
+      ],
+      "a": 0,
+      "ex": ""
+    }
+  ],
+  "credits": "தொகுப்பு: A1 ONLINE COACHING CENTER"
+}

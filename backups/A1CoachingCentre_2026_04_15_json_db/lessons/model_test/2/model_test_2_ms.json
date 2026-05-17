@@ -1,0 +1,1663 @@
+{
+  "unit": "Model Test 2",
+  "subject": "TET Model Test",
+  "class": "8",
+  "term": "Annual",
+  "title": "TET மாதிரித் தேர்வு - 2 (M/S)",
+  "summary": "அனைத்துப் பாடங்களையும் உள்ளடக்கிய 150 வினாக்கள் கொண்ட மாதிரித் தேர்வு.",
+  "sections": [],
+  "quiz": {
+    "questions": [
+      {
+        "question": "1. 'கற்றல்' என்பது ஒருவரின் நடத்தையில் ஏற்படும் ____ மாற்றத்தைக் குறிக்கிறது?",
+        "options": [
+          "தற்காலிக",
+          "நிலையான/நீடித்த",
+          "திடீர்",
+          "எதுவுமில்லை"
+        ],
+        "answer": 1,
+        "explanation": "கற்றல் என்பது அனுபவத்தின் மூலம் ஏற்படும் ஒப்பீட்டளவில் நிலையான மாற்றமாகும்."
+      },
+      {
+        "question": "2. பியாஜேயின் அறிதல் திறன் வளர்ச்சியில் 'புலன் இயக்க நிலை' (Sensory-motor) காலம் எது?",
+        "options": [
+          "0-2 வயது",
+          "2-7 வயது",
+          "7-11 வயது",
+          "11-15 வயது"
+        ],
+        "answer": 0,
+        "explanation": "பிறந்ததில் இருந்து 2 வயது வரை புலன்கள் மூலமாக உலகை அறிகிறான்."
+      },
+      {
+        "question": "3. கூற்று (A): ஸ்கின்னரின் கோட்பாடு 'வலுவூட்டலை' அடிப்படையாகக் கொண்டது.\nகாரணம் (R): நேர்மறை வலுவூட்டல் கற்றல் வேகத்தை அதிகரிக்கும்.",
+        "options": [
+          "A மற்றும் R சரி, சரியான விளக்கம்",
+          "A மற்றும் R சரி, விளக்கமல்ல",
+          "A சரி, R தவறு",
+          "A தவறு, R சரி"
+        ],
+        "answer": 0,
+        "explanation": "ஸ்கின்னர் பரிசுகள் மற்றும் பாராட்டுக்கள் மூலம் கற்றலை வலுப்படுத்தினார்."
+      },
+      {
+        "question": "4. ஒரு மாணவன் தேர்வில் மதிப்பெண் குறைந்ததால் தன் நண்பனைத் திட்டுவது எவ்வகை தற்காப்பு நடத்தை?",
+        "options": [
+          "பகுத்தறிதல்",
+          "இடமாற்றம் (Displacement)",
+          "மறைத்தல்",
+          "பின்னோக்கம்"
+        ],
+        "answer": 1,
+        "explanation": "தன் கோபத்தை பலவீனமான ஒருவரிடம் காட்டுவது இடமாற்றம் ஆகும்."
+      },
+      {
+        "question": "5. பொருத்துக:\n(a) தார்ண்டைக் - 1. உட்சுவழிக் கற்றல்\n(b) பாப்லோவ் - 2. முயன்று தவறி கற்றல்\n(c) கோலர் - 3. ஆக்கநிலையுறுத்தல்",
+        "options": [
+          "a-2, b-3, c-1",
+          "a-1, b-2, c-3",
+          "a-3, b-1, c-2",
+          "a-2, b-1, c-3"
+        ],
+        "answer": 0,
+        "explanation": "தார்ண்டைக் (பூனை), பாப்லோவ் (நாய்), கோலர் (சிம்பன்சி)."
+      },
+      {
+        "question": "6. 'அறிவுசார் வரைபடம்' (Cognitive Map) என்ற கருத்தைச் சொன்னவர் யார்?",
+        "options": [
+          "டோல்மேன்",
+          "பியாஜே",
+          "புரூனர்",
+          "மாஸ்லோ"
+        ],
+        "answer": 0,
+        "explanation": "எலிகளை வைத்து செய்த ஆய்வில் இதனைக் கூறினார்."
+      },
+      {
+        "question": "7. IQ சூத்திரத்தில் MA 12, CA 10 எனில் நுண்ணறிவு ஈவு எவ்வளவு?",
+        "options": [
+          "100",
+          "120",
+          "80",
+          "150"
+        ],
+        "answer": 1,
+        "explanation": "(12/10) * 100 = 120."
+      },
+      {
+        "question": "8. கவனத்தைச் சிதறடிக்கும் காரணிகளில் 'வெளிப்புறக் காரணி' எது?",
+        "options": [
+          "ஆர்வம்",
+          "உடல் சோர்வு",
+          "சத்தம்",
+          "பயம்"
+        ],
+        "answer": 2,
+        "explanation": "சுற்றுப்புறச் சத்தம் கவனச்சிதறலை ஏற்படுத்தும் வெளிப்புறக் காரணியாகும்."
+      },
+      {
+        "question": "9. 'இயக்கத் தேவை' (Drive) யை முதன்முதலில் அறிமுகப்படுத்தியவர்?",
+        "options": [
+          "உட்வொர்த்",
+          "ஹல்",
+          "மாஸ்லோ",
+          "பிராய்டு"
+        ],
+        "answer": 0,
+        "explanation": "உட்வொர்த் தான் இதனை அறிமுகப்படுத்தினார்."
+      },
+      {
+        "question": "10. ஒரு குழந்தை 'எல்லா பறவைகளும் பறக்கும்' என்று நினைப்பதும் புதிய பறவையைப் பார்க்கும் போது அதையும் அப்படியே அதனுடன் பொருத்திக்கொள்வதும்?",
+        "options": [
+          "அசிமிலேஷன் (Assimilation)",
+          "அக்காமடேஷன்",
+          "ஈக்விலிப்ரேஷன்",
+          "ஸ்கீமா"
+        ],
+        "answer": 0,
+        "explanation": "புதிய தகவலை ஏற்கனவே உள்ள தகவலுடன் சேர்த்தல்."
+      },
+      {
+        "question": "11. 'கற்றல் ஏணிவரிசை' (Hierarchy of Learning) எழுதியவர்?",
+        "options": [
+          "காக்னே",
+          "புரூனர்",
+          "பெஸ்டலாஜி",
+          "ப்ளூம்"
+        ],
+        "answer": 0,
+        "explanation": "எட்டு வகை கற்றல் நிலைகளை காக்னே கூறினார்."
+      },
+      {
+        "question": "12. நுண்ணறிவுச் சோதனைகளில் 'மொழி சாரா சோதனை' எது?",
+        "options": [
+          "ஆர்மி ஆல்பா",
+          "பாட்டியா சோதனை",
+          "பினே சோதனை",
+          "வெக்ஸ்லர்"
+        ],
+        "answer": 1,
+        "explanation": "பாட்டியா சோதனை வரைதல் மற்றும் பொருத்துதல் சார்ந்த மொழி சாரா சோதனை."
+      },
+      {
+        "question": "13. படைப்பாற்றல் மிக்க குழந்தைகளிடம் காணப்படும் சிந்தனை முறை?",
+        "options": [
+          "குவி சிந்தனை",
+          "விரி சிந்தனை (Divergent Thinking)",
+          "தருக்கச் சிந்தனை",
+          "எதுவுமில்லை"
+        ],
+        "answer": 1,
+        "explanation": "விரி சிந்தனை புதிய தீர்வுகளைக் கண்டறிய உதவும்."
+      },
+      {
+        "question": "14. எரிக்சனின் 5-வது நிலை (அடையாளம் vs குழப்பம்) வயது?",
+        "options": [
+          "12-18 வயது",
+          "6-12 வயது",
+          "3-6 வயது",
+          "18-35 வயது"
+        ],
+        "answer": 0,
+        "explanation": "குமரிப் பருவத்தில் (Adolescence) இது ஏற்படும்."
+      },
+      {
+        "question": "15. 'ஆழ்மனம்' (Unconscious mind) பற்றி அதிகம் பேசியவர் யார்?",
+        "options": [
+          "வாட்சன்",
+          "பிராய்டு",
+          "அட்லர்",
+          "யங்"
+        ],
+        "answer": 1,
+        "explanation": "சிக்மண்ட் பிராய்டு தனது உளப்பகுப்பாய்வில் இதைக் கூறினார்."
+      },
+      {
+        "question": "16. மாணவரின் மனப்பாங்கு (Attitude) எதன் மூலம் அளவிடப்படுகிறது?",
+        "options": [
+          "புராஜெக்டிவ் டெஸ்ட்",
+          "லிகர்ட் அளவுகோல் (Likert Scale)",
+          "IQ டெஸ்ட்",
+          "பார்வை"
+        ],
+        "answer": 1,
+        "explanation": "லிகர்ட் அளவுகோல் என்பது எண்ணங்களை அறியப் பயன்படுகிறது."
+      },
+      {
+        "question": "17. 'ஹரி’ என்னும் மாணவன் கணக்கை விரைவாகப் போடுகிறான், ஆனால் தமிழில் பிழையோடு எழுதுகிறான். இது எதைக் குறிக்கிறது?",
+        "options": [
+          "தனிநபர் இடை வேறுபாடு",
+          "தனிநபர் உள் வேறுபாடு",
+          "வளர்ச்சி",
+          "முதிர்ச்சி"
+        ],
+        "answer": 1,
+        "explanation": "ஒரே நபருக்குள் இருக்கும் வெவ்வேறு திறன்களின் வேறுபாடு."
+      },
+      {
+        "question": "18. 'கவனக்குறைவு மற்றும் அதீத செயல்பாடு' உள்ள நோய்க்குறி எது?",
+        "options": [
+          "Dyslexia",
+          "ADHD",
+          "Autism",
+          "Dyspraxia"
+        ],
+        "answer": 1,
+        "explanation": "Attention Deficit Hyperactivity Disorder."
+      },
+      {
+        "question": "19. வாழ்க்கைச் சூழல் வினா: ஒரு ஆசிரியர் வகுப்பில் எப்போதுமே ஒரே மாதிரியாக பாடம் நடத்தாமல் மாறுபட்ட முறைகளை கையாள்கிறார். இது எதனை ஊக்குவிக்கும்?",
+        "options": [
+          "சலிப்பு",
+          "கவனிப்பு (Attention)",
+          "பயம்",
+          "குழப்பம்"
+        ],
+        "answer": 1,
+        "explanation": "மாற்றம் கவனத்தை ஈர்க்கும்."
+      },
+      {
+        "question": "20. கோல்பர்க்கின் இரண்டாம் நிலையில் (Conventional Level) நிலவும் முக்கிய நடத்தை?",
+        "options": [
+          "தன்னலன்",
+          "சமூக மரபு/விதிமுறைகளை ஏற்றல்",
+          "தார்மீக அறம்",
+          "தண்டனை தவிர்த்தல்"
+        ],
+        "answer": 1,
+        "explanation": "சமூகத்தின் விதிகளை அப்படியே பின்பற்றும் நிலை."
+      },
+      {
+        "question": "21. நுண்ணறிவில் 'மூன்று பரிமாணக் காரணி' கோட்பாட்டை (3D Structure) சொன்னவர்?",
+        "options": [
+          "ஸ்பியர்மேன்",
+          "கில்ஃபோர்டு",
+          "தார்ண்டைக்",
+          "வெக்ஸ்லர்"
+        ],
+        "answer": 1,
+        "explanation": "Guilford தந்த நுண்ணறிவுக் கட்டுமானக் கோட்பாடு."
+      },
+      {
+        "question": "22. ஒரு குழந்தை கண்ணாடியில் தன் பிம்பத்தைப் பார்த்துச் சிரிக்கிறது. இது எதைக் காட்டுகிறது?",
+        "options": [
+          "தன்னறிவு (Self-awareness)",
+          "பயம்",
+          "குழப்பம்",
+          "முதிர்ச்சியின்மை"
+        ],
+        "answer": 0,
+        "explanation": "சுயத்தை அடையாளம்காணத் தொடங்குவது தன்னறிவின் அடையாளம்."
+      },
+      {
+        "question": "23. கற்றலில் 'மறதி' ஏற்படக் காரணமாக இருப்பது?",
+        "options": [
+          "பயிற்சி",
+          "ஆர்வம்",
+          "குறுக்கீடு (Interference)",
+          "தெளிவு"
+        ],
+        "answer": 2,
+        "explanation": "பழைய தகவல்கள் புதியவற்றைக் கெடுப்பது குறுக்கீடு எனப்படும்."
+      },
+      {
+        "question": "24. 'இயல்பூக்கக் கொள்கை' (Instinct Theory) யாரால் கூறப்பட்டது?",
+        "options": [
+          "மெக்டூகல்",
+          "மாஸ்லோ",
+          "ரோஜர்ஸ்",
+          "வாட்சன்"
+        ],
+        "answer": 0,
+        "explanation": "மனித நடத்தையின் ஊற்றுக்கண் இயல்பூக்கங்களே என்றார் மெக்டூகல்."
+      },
+      {
+        "question": "25. ஒரு ஆசிரியர் மாணவனைப் பாராட்டும்போது கிடைக்கும் வலுவூட்டல்?",
+        "options": [
+          "நேர்மறை",
+          "எதிர்மறை",
+          "தண்டனை",
+          "எதுவுமில்லை"
+        ],
+        "answer": 0,
+        "explanation": "பாராட்டு என்பது நேர்மறை வலுவூட்டல்."
+      },
+      {
+        "question": "26. ஒப்புமை காண்க:\nபியாஜே : அறிதிறன் வளர்ச்சி :: வைக்கோட்ஸ்கி : ____",
+        "options": [
+          "மனோசமூக வளர்ச்சி",
+          "சமூகப் பண்பாட்டுக் கற்றல்",
+          "தார்மீக வளர்ச்சி",
+          "உளப்பகுப்பாய்வு"
+        ],
+        "answer": 1,
+        "explanation": "வைக்கோட்ஸ்கி சமூகக் காரணியை வலியுறுத்தினார்."
+      },
+      {
+        "question": "27. கற்றல் கோட்பாட்டில் 'ஸ்கேஃபோல்டிங்' (Scaffolding) என்பது?",
+        "options": [
+          "தண்டனை",
+          "உதவி/தாங்குதல் அமைத்தல்",
+          "மனப்பாடம்",
+          "விளையாட்டு"
+        ],
+        "answer": 1,
+        "explanation": "கற்றலில் ஆசிரியர் தரும் தற்காலிக உதவி."
+      },
+      {
+        "question": "28. 'உளப்பகுப்பாய்வு' சிகிச்சையில் பயன்படுத்தப்படுவது?",
+        "options": [
+          "கனவு ஆய்வு",
+          "IQ டெஸ்ட்",
+          "ப்ராஜெக்ட்",
+          "மண்டல ஆய்வு"
+        ],
+        "answer": 0,
+        "explanation": "கனவுகளின் மூலம் ஆழ்மனதை அறியலாம் என்றார் பிராய்டு."
+      },
+      {
+        "question": "29. படைப்பாற்றல் அற்ற மாணவனிடம் காணப்படுவது?",
+        "options": [
+          "சுயசிந்தனை",
+          "பழக்கப்பட்ட வழிமுறையை மட்டுமே பின்பற்றுதல்",
+          "புதிய தீர்வு",
+          "ஆர்வம்"
+        ],
+        "answer": 1,
+        "explanation": "படைப்பாற்றல் குறைந்தவர்கள் முன்முடிவான வழிகளையே பின்பற்றுவர்."
+      },
+      {
+        "question": "30. மன வளர்ச்சி குன்றிய குழந்தைகளுக்குத் தேவையான கல்வி?",
+        "options": [
+          "முறைசாரா கல்வி",
+          "சிறப்புக் கல்வி (Special Education)",
+          "பொது கல்வி",
+          "தொழில் கல்வி"
+        ],
+        "answer": 1,
+        "explanation": "அவர்களுக்கு பிரத்யேகக் கற்றல் முறைகள் அவசியம்."
+      },
+      {
+        "question": "31. 'யாதும் ஊரே யாவரும் கேளிர்' - என்று பாடியவர் யார்?",
+        "options": [
+          "கபிலர்",
+          "ஔவையார்",
+          "கணியன் பூங்குன்றனார்",
+          "நக்கீரர்"
+        ],
+        "answer": 2,
+        "explanation": "இது புறநானூற்றில் இடம்பெற்ற புகழ்பெற்ற வரி."
+      },
+      {
+        "question": "32. பொருத்துக:\n(a) சிலப்பதிகாரம் - 1. திருத்தக்க தேவர்\n(b) மணிமேகலை - 2. இளங்கோவடிகள்\n(c) சீவக சிந்தாமணி - 3. சீத்தலைச் சாத்தனார்",
+        "options": [
+          "a-2, b-1, c-3",
+          "a-1, b-2, c-3",
+          "a-3, b-2, c-1",
+          "a-2, b-3, c-1"
+        ],
+        "answer": 3,
+        "explanation": "சிலப்பதிகாரம்-இளங்கோவடிகள், மணிமேகலை-சாத்தனார், சீவக சிந்தாமணி-திருத்தக்க தேவர்."
+      },
+      {
+        "question": "33. 'தமிழ்நாட்டின் பெர்னார்ட் ஷா' என்று அழைக்கப்படுபவர் யார்?",
+        "options": [
+          "அண்ணா",
+          "மு. வரதராசனார்",
+          "கலைஞர்",
+          "பாரதிதாசன்"
+        ],
+        "answer": 1,
+        "explanation": "டாக்டர் மு. வரதராசனார் அவருடைய சிறப்பான நடையால் இவ்வாறு அழைக்கப்படுகிறார்."
+      },
+      {
+        "question": "34. ஒப்புமை காண்க:\nபாரதியார் : குயில் பாட்டு :: பாரதிதாசன் : ____",
+        "options": [
+          "பாஞ்சாலி சபதம்",
+          "அழகின் சிரிப்பு",
+          "கண்ணன் பாட்டு",
+          "பெரியபுராணம்"
+        ],
+        "answer": 1,
+        "explanation": "பஞ்சாலி சபதம் மற்றும் கண்ணன் பாட்டு பாரதியார் எழுதியது. அழகின் சிரிப்பு பாரதிதாசன் எழுதியது."
+      },
+      {
+        "question": "35. கூற்று (A): 'திருக்குறள்' உலகப் பொதுமறை எனப்படுகிறது.\nகாரணம் (R): இது சாதி, மத பேதமின்றி உலகம் முழுமைக்கும் பொருந்தும் அறங்களைச் சொல்கிறது.",
+        "options": [
+          "A மற்றும் R சரி, சரியான விளக்கம்",
+          "A மற்றும் R சரி, விளக்கமல்ல",
+          "A சரி, R தவறு",
+          "A தவறு, R சரி"
+        ],
+        "answer": 0,
+        "explanation": "உலக மக்கள் அனைவருக்கும் பொதுவான உண்மைகளைக் கூறுவதால் இப்பெயர் பெற்றது."
+      },
+      {
+        "question": "36. 'கப்பலோட்டிய தமிழன்' வ.உ.சி. அவர்கள் வாங்கிய கப்பல்களின் பெயர்கள் என்ன?",
+        "options": [
+          "மேரி, லண்டன்",
+          "எஸ்.எஸ். காலியா, எஸ்.எஸ். லாவோ",
+          "டைட்டானிக், விக்டோரியா",
+          "எதுவுமில்லை"
+        ],
+        "answer": 1,
+        "explanation": "பிரிட்டிஷ் கப்பல்களுக்குப் போட்டியாக சுதேசி நாவாய்ச் சங்கத்தின் மூலம் இவை இயக்கப்பட்டன."
+      },
+      {
+        "question": "37. 'நெஞ்சை அள்ளும் சிலப்பதிகாரம்' - என்று பாடிய காவியக் கவிஞர் யார்?",
+        "options": [
+          "பாரதியார்",
+          "கவிமணி",
+          "கண்ணதாசன்",
+          "நாமக்கல் கவிஞர்"
+        ],
+        "answer": 0,
+        "explanation": "மகாக்கவி பாரதியார் சிலப்பதிகாரத்தின் சிறப்பை இவ்வாறு போற்றினார்."
+      },
+      {
+        "question": "38. தமிழுக்கு 'உதித்த ஞாயிறு' மற்றும் 'மொழி ஞாயிறு' எனப் போற்றப்படுபவர் யார்?",
+        "options": [
+          "தேவநேயப் பாவாணர்",
+          "உவேசா",
+          "ஜி.யு.போப்",
+          "வீரமாமுனிவர்"
+        ],
+        "answer": 0,
+        "explanation": "தமிழின் சொல் வளத்தை ஆராய்ந்தவர்."
+      },
+      {
+        "question": "39. ஆய்த எழுத்து எந்த இடத்தில் மட்டுமே வரும்?",
+        "options": [
+          "சொல்லின் முதலில்",
+          "சொல்லின் இடையில்",
+          "சொல்லின் இறுதியில்",
+          "எங்கும் வராது"
+        ],
+        "answer": 1,
+        "explanation": "ஆய்த எழுத்து எப்போதும் சொல்லின் இடையில் மட்டுமே வரும் (உ-ம்: அஃது)."
+      },
+      {
+        "question": "40. 'திராவிட மொழிகளின் ஒப்பிலக்கணம்' என்ற புகழ்பெற்ற நூலின் ஆசிரியர் யார்?",
+        "options": [
+          "ஜி.யு.போப்",
+          "கால்டுவெல்",
+          "வீரமாமுனிவர்",
+          "எல்லிஸ்"
+        ],
+        "answer": 1,
+        "explanation": "1856-இல் ராபர்ட் கால்டுவெல் இந்த நூலை வெளியிட்டார்."
+      },
+      {
+        "question": "41. 'சொல்லின் செல்வர்' எனக் குறிப்பிடப்படுபவர் யார்?",
+        "options": [
+          "திருவள்ளுவர்",
+          "ரா.பி. சேதுப்பிள்ளை",
+          "அண்ணா",
+          "கம்பர்"
+        ],
+        "answer": 1,
+        "explanation": "ரா.பி. சேதுப்பிள்ளை அவருடைய சொற்பொழிவுத் திறத்தால் இவ்வாறு அழைக்கப்படுகிறார்."
+      },
+      {
+        "question": "42. 'நாலடியார்' யாரால் இயற்றப்பட்ட நூலாகும்?",
+        "options": [
+          "சமண முனிவர்கள்",
+          "ஔவையார்",
+          "கபிலர்",
+          "திருவள்ளுவர்"
+        ],
+        "answer": 0,
+        "explanation": "நாலடியார் பல சமண முனிவர்களால் பாடப்பட்ட பாடல்களின் தொகுப்பு."
+      },
+      {
+        "question": "43. 'தமிழ்த் தென்றல்' என அழைக்கப்படுபவர் யார்?",
+        "options": [
+          "நா.பார்த்தசாரதி",
+          "திரு.வி. கலயாணசுந்தரனார்",
+          "பெரியார்",
+          "காமராஜர்"
+        ],
+        "answer": 1,
+        "explanation": "மேடைத் பேச்சிலும் எழுத்திலும் சிறந்து விளங்கியவர் திரு.வி.க."
+      },
+      {
+        "question": "44. 'ஆய்த எழுத்து' விற்கு வழங்கப்படும் மாத்திரை அளவு என்ன?",
+        "options": [
+          "1 மாத்திரை",
+          "2 மாத்திரை",
+          "அரை (1/2) மாத்திரை",
+          "கால் (1/4) மாத்திரை"
+        ],
+        "answer": 2,
+        "explanation": "மெய் மற்றும் ஆய்த எழுத்துக்களுக்கு அரை மாத்திரை."
+      },
+      {
+        "question": "45. 'திருக்குறளில்' உள்ள மொத்த அதிகாரங்கள் எவ்வளவு?",
+        "options": [
+          "100",
+          "133",
+          "180",
+          "150"
+        ],
+        "answer": 1,
+        "explanation": "அறம்(38), பொருள்(70), இன்பம்(25) என 133 அதிகாரங்கள்."
+      },
+      {
+        "question": "46. 'கம்பராமாயணம்' எத்தனை காண்டங்களைக் கொண்டுள்ளது?",
+        "options": [
+          "5 காண்டங்கள்",
+          "6 காண்டங்கள்",
+          "7 காண்டங்கள்",
+          "8 காண்டங்கள்"
+        ],
+        "answer": 1,
+        "explanation": "பால, அயோத்தி, ஆரணிய, கிட்கிந்தா, சுந்தர, யுத்த காண்டங்கள்."
+      },
+      {
+        "question": "47. ஒப்புமை காண்க:\nமூதுரை : ஔவையார் :: ஆசாரக்கோவை : ____",
+        "options": [
+          "நக்கீரர்",
+          "பெரூவாயின் முள்ளியார்",
+          "கபிலர்",
+          "சீத்தலைச் சாத்தனார்"
+        ],
+        "answer": 1,
+        "explanation": "ஆசாரக்கோவை பெருவாயின் முள்ளியாரால் இயற்றப்பட்டது."
+      },
+      {
+        "question": "48. 'அக்னிச் சிறகுகள்' யாருடைய சுயசரிதை நூலாகும்?",
+        "options": [
+          "ஜவஹர்லால் நேரு",
+          "மகாத்மா காந்தி",
+          "ஏ.பி.ஜே. அப்துல் கலாம்",
+          "ஈ.வெ.ரா. பெரியார்"
+        ],
+        "answer": 2,
+        "explanation": "முன்னாள் குடியரசுத் தலைவர் கலாமின் வாழ்க்கை வரலாற்று நூல்."
+      },
+      {
+        "question": "49. இலக்கண வினா: 'மரம்' என்பது எவ்வகைப் பெயர்ச் சொல்?",
+        "options": [
+          "இடுகுறிப் பெயர்",
+          "காரணப் பெயர்",
+          "இடுகுறிப் பொதுப்பெயர்",
+          "காரணப் பொதுப்பெயர்"
+        ],
+        "answer": 2,
+        "explanation": "காரணமின்றி ஒரு பொருளுக்கு இட்ட பெயர் மற்றும் அத்தகு எல்லா பொருட்களையும் பொதுவாகக் குறிப்பது."
+      },
+      {
+        "question": "50. 'பெரியபுராணத்தின்' ஆசிரியர் யார்?",
+        "options": [
+          "சேக்கிழார்",
+          "கம்பர்",
+          "ஒட்டக்கூத்தர்",
+          "புகழேந்தி"
+        ],
+        "answer": 0,
+        "explanation": "அறுபத்து மூன்று நாயன்மார்களின் வாழ்க்கைச் சரித்திரத்தை இது கூறுகிறது."
+      },
+      {
+        "question": "51. 'பகுத்தறிவுப் பகலவன்' என்று அழைக்கப்படுபவர் யார்?",
+        "options": [
+          "அண்ணா",
+          "ஈ.வெ.ரா. பெரியார்",
+          "காமராஜர்",
+          "அம்பேத்கர்"
+        ],
+        "answer": 1,
+        "explanation": "சமூகச் சீர்திருத்தக் கருத்துக்களுக்காக இவ்வாறு அழைக்கப்படுகிறார்."
+      },
+      {
+        "question": "52. பத்துப் பாட்டு நூல்களில் அதிக அடிகளை (782) கொண்ட நூல் எது?",
+        "options": [
+          "முல்லைப்பாட்டு",
+          "மதுரைக்காஞ்சி",
+          "பட்டினப்பாலை",
+          "நெடுநல்வாடை"
+        ],
+        "answer": 1,
+        "explanation": "மாங்குடி மருதனார் இயற்றிய மதுரைக்காஞ்சியே நீளமானது."
+      },
+      {
+        "question": "53. 'மனோன்மணீயம்' என்ற நாடக நூலை எழுதியவர் யார்?",
+        "options": [
+          "சுந்தரனார்",
+          "பாரதியார்",
+          "கண்ணதாசன்",
+          "நாமக்கல் கவிஞர்"
+        ],
+        "answer": 0,
+        "explanation": "பேராசிரியர் பெ. சுந்தரனார் இயற்றிய நாடக நூல்."
+      },
+      {
+        "question": "54. ஒப்புமை காண்க:\nதமிழ் வேதம் : திருக்குறள் :: சைவ வேதம் : ____",
+        "options": [
+          "தேவாரம்",
+          "திருவாசகம்",
+          "பெரியபுராணம்",
+          "நாலாயிர திவ்யப் பிரபந்தம்"
+        ],
+        "answer": 1,
+        "explanation": "திருவாசகத்தை சைவ வேதம் என்று குறிப்பிடுவார்கள்."
+      },
+      {
+        "question": "55. வாழ்க்கைச் சூழல் வினா: ஒரு மாணவன் எழுதும் போது 'ழ' கரத்திற்கு பதில் 'ல' கரம் போடுகிறான். இது எவ்வகை பிழை?",
+        "options": [
+          "மயங்கொலிப் பிழை",
+          "எழுத்துப் பிழை",
+          "வாக்கியப் பிழை",
+          "எதுவுமில்லை"
+        ],
+        "answer": 0,
+        "explanation": "ஒலிப்பில் சிறிய வேறுபாடு உள்ள எழுத்துக்களில் ஏற்படும் பிழை."
+      },
+      {
+        "question": "56. 'தெய்வப் புலவர்' என அழைக்கப்படுபவர் யார்?",
+        "options": [
+          "கம்பர்",
+          "திருவள்ளுவர்",
+          "நக்கீரர்",
+          "ஔவையார்"
+        ],
+        "answer": 1,
+        "explanation": "திருவள்ளுவரின் பல சிறப்புப் பெயர்களில் ஒன்று."
+      },
+      {
+        "question": "57. 'காவடிச் சிந்து' - தந்தை என அழைக்கப்படுபவர் யார்?",
+        "options": [
+          "சென்னிக்குளம் அண்ணாமலையார்",
+          "கவிமணி",
+          "வாலி",
+          "பாரதியார்"
+        ],
+        "answer": 0,
+        "explanation": "முருகப் பெருமானின் மீது காவடிச் சிந்தை பாடியவர்."
+      },
+      {
+        "question": "58. 'திராவிடச் சிசு' என்று திருஞானசம்பந்தரை அழைத்தவர் யார்?",
+        "options": [
+          "திருவள்ளுவர்",
+          "ஆதிசங்கரர்",
+          "சேக்கிழார்",
+          "நம்பி ஆண்டார் நம்பி"
+        ],
+        "answer": 1,
+        "explanation": "ஆதிசங்கரர் அவரை இவ்வாறு போற்றினார்."
+      },
+      {
+        "question": "59. 'சிலப்பதிகாரத்தில்' இடம்பெற்றுள்ள உரையாடல்கள் எவ்வகை நடையைச் சார்ந்தது?",
+        "options": [
+          "உரைநடை",
+          "செய்யுள்",
+          "நாடக நடை",
+          "எதுவுமில்லை"
+        ],
+        "answer": 2,
+        "explanation": "இயல், இசை, நாடகம் மூன்றும் இதில் உண்டு."
+      },
+      {
+        "question": "60. தமிழின் 'முதல் நாவல்' (புதினம்) எது?",
+        "options": [
+          "பிரதாப முதலியார் சரித்திரம்",
+          "மணிமேகலை",
+          "பொன்னியின் செல்வன்",
+          "சிவகாமியின் சபதம்"
+        ],
+        "answer": 0,
+        "explanation": "மாயூரம் வேதநாயகம் பிள்ளை 1879-இல் இதனை எழுதினார்."
+      },
+      {
+        "question": "61. What is the synonym of 'Optimistic'?",
+        "options": [
+          "Hopeful",
+          "Pessimistic",
+          "Sad",
+          "Careless"
+        ],
+        "answer": 0,
+        "explanation": "Optimistic means looking at the positive side."
+      },
+      {
+        "question": "62. Identification of voice: 'The cake was made by my mother.'",
+        "options": [
+          "Active Voice",
+          "Passive Voice",
+          "Direct Voice",
+          "Indirect Voice"
+        ],
+        "answer": 1,
+        "explanation": "The subject (cake) receives the action, hence it's passive."
+      },
+      {
+        "question": "63. Choose the correct Question Tag: 'She will join us, ____?'",
+        "options": [
+          "will she",
+          "won't she",
+          "doesn't she",
+          "can't she"
+        ],
+        "answer": 1,
+        "explanation": "A positive statement generally takes a negative tag."
+      },
+      {
+        "question": "64. Match the following collective nouns:\n(a) Book - 1. Flock\n(b) Ship - 2. Library\n(c) Sheep - 3. Fleet",
+        "options": [
+          "a-2, b-3, c-1",
+          "a-1, b-2, c-3",
+          "a-3, b-1, c-2",
+          "a-2, b-1, c-3"
+        ],
+        "answer": 0,
+        "explanation": "A library of books, fleet of ships, flock of sheep."
+      },
+      {
+        "question": "65. What is the meaning of the idiom 'Break a leg'?",
+        "options": [
+          "To get a serious injury",
+          "Good luck",
+          "To run very fast",
+          "To stop working out"
+        ],
+        "answer": 1,
+        "explanation": "It is a common theatrical idiom wishing someone success."
+      },
+      {
+        "question": "66. Scenario: If I ____ rich, I would help the poor.",
+        "options": [
+          "am",
+          "was",
+          "were",
+          "had been"
+        ],
+        "answer": 2,
+        "explanation": "Imaginary condition (Second conditional) uses 'were' for all subjects."
+      },
+      {
+        "question": "67. Identify the figure of speech: 'The waves danced joyfully.'",
+        "options": [
+          "Metaphor",
+          "Personification",
+          "Simile",
+          "Oxymoron"
+        ],
+        "answer": 1,
+        "explanation": "Human quality (dancing joyfully) is given to a non-human entity (waves)."
+      },
+      {
+        "question": "68. What is the antonym of 'Flexible'?",
+        "options": [
+          "Rigid",
+          "Soft",
+          "Plastic",
+          "Elastic"
+        ],
+        "answer": 0,
+        "explanation": "Rigid means stiff or inflexible."
+      },
+      {
+        "question": "69. What is the plural form of 'Thesis'?",
+        "options": [
+          "Thesises",
+          "Theses",
+          "Thesisey",
+          "Thesis"
+        ],
+        "answer": 1,
+        "explanation": "Words of Greek origin ending in '-is' change to '-es' in plural."
+      },
+      {
+        "question": "70. Assertion (A): 'Beauty' is considered an abstract noun.\nReason (R): It can be felt or thought of, but cannot be touched or seen as a physical object.",
+        "options": [
+          "Both A and R are true and R is correct explanation",
+          "A is true, R is false",
+          "Both A and R are false",
+          "A is false, R is true"
+        ],
+        "answer": 0,
+        "explanation": "Abstract nouns represent ideas, feelings, and qualities."
+      },
+      {
+        "question": "71. Identify the grammatical error and correct the sentence: 'He don't like coffee.'",
+        "options": [
+          "He not like",
+          "He doesn't like",
+          "He don't likes",
+          "No change required"
+        ],
+        "answer": 1,
+        "explanation": "Third person singular subjects take 'doesn't' in present tense."
+      },
+      {
+        "question": "72. Analogy check:\nBird : Nest :: Lion : ____",
+        "options": [
+          "Hive",
+          "Den",
+          "Stable",
+          "Kennel"
+        ],
+        "answer": 1,
+        "explanation": "The natural habitat of a lion is a den."
+      },
+      {
+        "question": "73. Choose the correct prefix to form the opposite of the word 'Legal'?",
+        "options": [
+          "Unlegal",
+          "Inlegal",
+          "Illegal",
+          "Dislegal"
+        ],
+        "answer": 2,
+        "explanation": "'Il-' is the prefix added to 'legal' to make 'illegal'."
+      },
+      {
+        "question": "74. Identify the sentence pattern: 'My brother became a doctor.'",
+        "options": [
+          "SVO",
+          "SVC",
+          "SVA",
+          "SVOC"
+        ],
+        "answer": 1,
+        "explanation": "Brother (Subject), became (Verb), doctor (Subject Complement)."
+      },
+      {
+        "question": "75. What is the collective noun for a group of 'Wolves'?",
+        "options": [
+          "Pack",
+          "Pride",
+          "Flock",
+          "Herd"
+        ],
+        "answer": 0,
+        "explanation": "A group of wolves is called a pack."
+      },
+      {
+        "question": "76. What is the synonym of 'Luminous'?",
+        "options": [
+          "Dim",
+          "Bright",
+          "Huge",
+          "Cold"
+        ],
+        "answer": 1,
+        "explanation": "Luminous means emitting light; shining brightly."
+      },
+      {
+        "question": "77. Which word is a homophone of 'Whole'?",
+        "options": [
+          "Hall",
+          "Hole",
+          "Hell",
+          "Hill"
+        ],
+        "answer": 1,
+        "explanation": "Hole and Whole sound the same but have entirely different meanings."
+      },
+      {
+        "question": "78. Identify the tense in the sentence: 'I have finished my homework.'",
+        "options": [
+          "Simple Past",
+          "Past Perfect",
+          "Present Perfect",
+          "Present Continuous"
+        ],
+        "answer": 2,
+        "explanation": "The structure 'Subject + has/have + V3' forms the Present Perfect tense."
+      },
+      {
+        "question": "79. What is the comparative degree of the adjective 'Bad'?",
+        "options": [
+          "Badder",
+          "More bad",
+          "Worse",
+          "Worst"
+        ],
+        "answer": 2,
+        "explanation": "Irregular adjective comparison: Bad -> Worse (Comparative)."
+      },
+      {
+        "question": "80. What suffix can be added to the word 'Child' to make it an abstract noun?",
+        "options": [
+          "-ish",
+          "-hood",
+          "-ly",
+          "-ness"
+        ],
+        "answer": 1,
+        "explanation": "Adding '-hood' forms 'Childhood'."
+      },
+      {
+        "question": "81. Identify the word with the correct spelling among the options.",
+        "options": [
+          "Recieve",
+          "Receive",
+          "Recive",
+          "Receve"
+        ],
+        "answer": 1,
+        "explanation": "The spelling rule 'i' before 'e' except after 'c' applies here (Receive)."
+      },
+      {
+        "question": "82. Choose the correct preposition: 'The book is ____ the table.'",
+        "options": [
+          "in",
+          "on",
+          "at",
+          "by"
+        ],
+        "answer": 1,
+        "explanation": "'On' indicates that the object is in surface contact."
+      },
+      {
+        "question": "83. What is the meaning of the phrasal verb 'Call off'?",
+        "options": [
+          "To visit",
+          "To cancel",
+          "To invite",
+          "To scream"
+        ],
+        "answer": 1,
+        "explanation": "To call off an event means you decide to cancel it."
+      },
+      {
+        "question": "84. Match the following professionals with their usual work locations:\n(a) Doctor - 1. Kitchen\n(b) Teacher - 2. Hospital\n(c) Chef - 3. School",
+        "options": [
+          "a-2, b-3, c-1",
+          "a-1, b-2, c-3",
+          "a-3, b-1, c-2",
+          "a-2, b-1, c-3"
+        ],
+        "answer": 0,
+        "explanation": "Doctors in hospitals, Teachers in schools, Chefs in kitchens."
+      },
+      {
+        "question": "85. Assertion (A): 'And' is an example of a coordinating conjunction.\nReason (R): It is used to join two independent clauses of equal rank.",
+        "options": [
+          "Both A and R are true and R is the correct explanation",
+          "A is true, R is false",
+          "Both A and R are false",
+          "A is false, R is true"
+        ],
+        "answer": 0,
+        "explanation": "Coordinating conjunctions (FANBOYS) connect equal sentence parts."
+      },
+      {
+        "question": "86. Identify the adverb in the given sentence: 'He ran quickly.'",
+        "options": [
+          "He",
+          "ran",
+          "quickly",
+          "none of the above"
+        ],
+        "answer": 2,
+        "explanation": "An adverb modifies the verb; 'quickly' tells how he ran."
+      },
+      {
+        "question": "87. What is the correct plural form of 'Knife'?",
+        "options": [
+          "Knifes",
+          "Knives",
+          "Knifees",
+          "Knive"
+        ],
+        "answer": 1,
+        "explanation": "Most words ending in 'fe' or 'f' change to 'ves' in plural form."
+      },
+      {
+        "question": "88. What is the masculine gender equivalent of 'Nun'?",
+        "options": [
+          "Priest",
+          "Monk",
+          "Lord",
+          "Boy"
+        ],
+        "answer": 1,
+        "explanation": "A monk is a male member of a religious community; a nun is female."
+      },
+      {
+        "question": "89. Scenario: You want to borrow your friend's pen politely. Which is the best way to say it?",
+        "options": [
+          "Give me the pen.",
+          "May I borrow your pen?",
+          "Pen please.",
+          "I want pen."
+        ],
+        "answer": 1,
+        "explanation": "Using modal verbs like 'May' or 'Could' makes a request polite."
+      },
+      {
+        "question": "90. What is the synonym of 'Vast'?",
+        "options": [
+          "Tiny",
+          "Huge",
+          "Empty",
+          "Full"
+        ],
+        "answer": 1,
+        "explanation": "Vast means of very great extent or quantity; immense or huge."
+      },
+      {
+        "question": "91. 100, 150 ஆகிய எண்களின் மீ.பெ.வ (HCF) காண்க.",
+        "options": [
+          "10",
+          "25",
+          "50",
+          "300"
+        ],
+        "answer": 2,
+        "explanation": "இரண்டையும் வகுக்கும் மிகப்பெரிய பொது எண் 50."
+      },
+      {
+        "question": "92. ஒரு எண்ணை அதன் பகா எண்களின் பெருக்கலாகப் பிரிப்பது எவ்வாறு அழைக்கப்படுகிறது?",
+        "options": [
+          "கூட்டல்",
+          "காரணிப்படுத்துதல்",
+          "வகுத்தல்",
+          "எதுவுமில்லை"
+        ],
+        "answer": 1,
+        "explanation": "ஒரு எண்ணை அதன் பகா எண்களின் பெருக்கலாகக் காட்டுதல் காரணிப்படுத்துதல் எனப்படும்."
+      },
+      {
+        "question": "93. ஒரு சதுரத்தின் பரப்பளவு 144 ச.செ.மீ எனில் அதன் ஒரு பக்க அளவு எவ்வளவு?",
+        "options": [
+          "10 செ.மீ",
+          "12 செ.மீ",
+          "14 செ.மீ",
+          "16 செ.மீ"
+        ],
+        "answer": 1,
+        "explanation": "பரப்பளவு = a²; √144 = 12."
+      },
+      {
+        "question": "94. 3x + 4 = 19 எனில் x இன் மதிப்பு என்ன?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "10"
+        ],
+        "answer": 1,
+        "explanation": "3x = 19 - 4 = 15; x = 5."
+      },
+      {
+        "question": "95. கூற்று (A): 2 என்பது ஒரே ஒரு இரட்டைப் பகா எண் ஆகும்.\nகாரணம் (R): 2-ஐத் தவிர மற்ற எல்லா இரட்டை எண்களும் 2-ஆல் வகுபடும்.",
+        "options": [
+          "A மற்றும் R சரி, சரியான விளக்கம்",
+          "A மற்றும் R சரி, விளக்கமல்ல",
+          "A சரி, R தவறு",
+          "A தவறு, R சரி"
+        ],
+        "answer": 0,
+        "explanation": "2 மட்டுமே இரட்டைப்படை பகா எண்; மற்ற அனைத்தும் செப்ப எண்கள்."
+      },
+      {
+        "question": "96. 1/4 என்ற பின்னத்தின் சதவீத (Percentage) மதிப்பு என்ன?",
+        "options": [
+          "10%",
+          "20%",
+          "25%",
+          "50%"
+        ],
+        "answer": 2,
+        "explanation": "(1/4)×100 = 25%."
+      },
+      {
+        "question": "97. ஒரு வட்டத்தின் மிகப்பெரிய நாண் (Chord) எது?",
+        "options": [
+          "ஆரம்",
+          "விட்டம் (Diameter)",
+          "வில்",
+          "தொடுகோடு"
+        ],
+        "answer": 1,
+        "explanation": "மையம் வழியாகச் செல்லும் நாண் விட்டம் எனப்படும், இதுவே வட்டத்தின் மிகப்பெரிய நாண்."
+      },
+      {
+        "question": "98. வாழ்க்கைச் சூழல் வினா: ஒரு மாணவன் ₹500 மதிப்புள்ள புத்தகத்தை 10% தள்ளுபடி விலையில் வாங்குகிறான். அவன் கடைக்காரருக்குச் செலுத்திய தொகை எவ்வளவு?",
+        "options": [
+          "₹400",
+          "₹450",
+          "₹490",
+          "₹510"
+        ],
+        "answer": 1,
+        "explanation": "தள்ளுபடி = 50. விலை 500-50 = 450."
+      },
+      {
+        "question": "99. ஒப்புமை காண்க:\nசெவ்வகத்தின் சுற்றளவு : 2(l+b) :: சதுரத்தின் சுற்றளவு : ____",
+        "options": [
+          "a²",
+          "4a",
+          "l × b",
+          "2a"
+        ],
+        "answer": 1,
+        "explanation": "சதுரத்தின் நான்கு பக்கங்களும் சமம் என்பதால் சுற்றளவு 4a."
+      },
+      {
+        "question": "100. ஒரு நேர்க்கோட்டு கோணத்தின் (Straight Angle) அளவு எவ்வளவு?",
+        "options": [
+          "90°",
+          "180°",
+          "270°",
+          "360°"
+        ],
+        "answer": 1,
+        "explanation": "ஒரு நேர்க்கோடு 180 டிகிரியை உருவாக்கும்."
+      },
+      {
+        "question": "101. 2³ + 3² இன் மதிப்பு என்ன?",
+        "options": [
+          "5",
+          "11",
+          "17",
+          "13"
+        ],
+        "answer": 2,
+        "explanation": "2³ = 8, 3² = 9. 8 + 9 = 17."
+      },
+      {
+        "question": "102. ஒரு முக்கோணத்தின் இரு கோணங்கள் 60°, 70° எனில் அந்த முக்கோணம் எவ்வகை முக்கோணம்?",
+        "options": [
+          "செங்கோண முக்கோணம்",
+          "குறுங்கோண முக்கோணம்",
+          "விரிகோண முக்கோணம்",
+          "எதுவுமில்லை"
+        ],
+        "answer": 1,
+        "explanation": "மூன்றாவது கோணம் = 180 - (60+70) = 50. மூன்றும் 90°-க்குக் கீழ் உள்ளதால் இது குறுங்கோண முக்கோணம்."
+      },
+      {
+        "question": "103. 'பித்தாகரஸ்' தேற்றத்தின்படி ஒரு செங்கோண முக்கோணத்தில் கர்ணம்² (Hypotenuse squared) = ___?",
+        "options": [
+          "பக்கம்² + பக்கம்²",
+          "பக்கம்² × பக்கம்²",
+          "பக்கம் + பக்கம்",
+          "பக்கம்²"
+        ],
+        "answer": 0,
+        "explanation": "கர்ணத்தின் வர்க்கம் மற்ற இரு பக்கங்களின் வர்க்கங்களின் கூடுதலுக்குச் சமம்."
+      },
+      {
+        "question": "104. ₹1000-க்கு 2 ஆண்டுகளுக்கு 10% தனிவட்டி முறையில் கிடைக்கும் வட்டி எவ்வளவு?",
+        "options": [
+          "₹100",
+          "₹200",
+          "₹300",
+          "₹400"
+        ],
+        "answer": 1,
+        "explanation": "I = PNR/100; (1000 × 2 × 10) / 100 = 200."
+      },
+      {
+        "question": "105. 12² + 5² = x² எனில் x இன் நேர்ம மதிப்பு என்ன?",
+        "options": [
+          "13",
+          "17",
+          "25",
+          "169"
+        ],
+        "answer": 0,
+        "explanation": "144 + 25 = 169. √169 = 13."
+      },
+      {
+        "question": "106. ஒரு வியாபாரி ஒரு கிலோ கத்தரிக்காயை ₹40-க்கு வாங்கி ₹50-க்கு விற்றால் அவருக்குக் கிடைக்கும் லாப சதவீதம்?",
+        "options": [
+          "10%",
+          "20%",
+          "25%",
+          "30%"
+        ],
+        "answer": 2,
+        "explanation": "லாபம் = 10. லாப % = (10/40) × 100 = 25%."
+      },
+      {
+        "question": "107. 3, 5, 7, 9, x ஆகியவற்றின் சராசரி 6 எனில் x இன் மதிப்பு என்ன?",
+        "options": [
+          "5",
+          "6",
+          "8",
+          "4"
+        ],
+        "answer": 1,
+        "explanation": "(3+5+7+9+x)/5 = 6; 24+x=30; x=6."
+      },
+      {
+        "question": "108. ஒரு கனசதுரத்தின் (Cube) பக்க அளவு 3 செ.மீ எனில் அதன் கனஅளவு என்ன?",
+        "options": [
+          "9 செ.மீ³",
+          "27 செ.மீ³",
+          "12 செ.மீ³",
+          "81 செ.மீ³"
+        ],
+        "answer": 1,
+        "explanation": "கனஅளவு = a³; 3 × 3 × 3 = 27."
+      },
+      {
+        "question": "109. ஒப்புமை காண்க:\nவட்டத்தின் விட்டம் (d) : 2r :: வட்டத்தின் சுற்றளவு (C) : ____",
+        "options": [
+          "2πr",
+          "πr²",
+          "r²",
+          "πd²"
+        ],
+        "answer": 0,
+        "explanation": "வட்டத்தின் சுற்றளவுக்கான சூத்திரம் 2πr அல்லது πd."
+      },
+      {
+        "question": "110. கணிதத்தில் 'பூஜ்ஜியம்' (Zero) என்ற கருத்தை உலகுக்கு அறிமுகப்படுத்திய நாடு எது?",
+        "options": [
+          "கிரேக்கம்",
+          "இந்தியா",
+          "சீனா",
+          "எகிப்து"
+        ],
+        "answer": 1,
+        "explanation": "பண்டைய இந்தியக் கணிதவியலாளர்கள் பூஜ்ஜியத்தை அறிமுகப்படுத்தினர்."
+      },
+      {
+        "question": "111. 3/5 என்ற பின்னத்திற்குச் சமமான சமான பின்னம் (Equivalent fraction) எது?",
+        "options": [
+          "6/10",
+          "9/12",
+          "1/2",
+          "3/10"
+        ],
+        "answer": 0,
+        "explanation": "பகுதியையும் தொகுதியையும் 2-ஆல் பெருக்கக் கிடைப்பது 6/10."
+      },
+      {
+        "question": "112. 0.75-இன் விழுக்காடு (Percentage) வடிவம் என்ன?",
+        "options": [
+          "0.75%",
+          "7.5%",
+          "75%",
+          "750%"
+        ],
+        "answer": 2,
+        "explanation": "0.75 × 100 = 75%."
+      },
+      {
+        "question": "113. 10³ இன் மதிப்பு என்ன?",
+        "options": [
+          "10",
+          "100",
+          "1000",
+          "10000"
+        ],
+        "answer": 2,
+        "explanation": "10 × 10 × 10 = 1000."
+      },
+      {
+        "question": "114. ஒரு சமபக்க முக்கோணத்தின் (Equilateral triangle) ஒவ்வொரு கோண அளவு எவ்வளவு?",
+        "options": [
+          "45°",
+          "60°",
+          "90°",
+          "120°"
+        ],
+        "answer": 1,
+        "explanation": "அனைத்து கோணங்களின் கூடுதல் 180. மூன்று கோணங்களும் சமம் என்பதால் 180/3 = 60°."
+      },
+      {
+        "question": "115. a² - b² இயற்கணித முற்றொருமையின் விரிவாகம் என்ன?",
+        "options": [
+          "(a+b)(a-b)",
+          "a² + 2ab + b²",
+          "(a-b)²",
+          "a+b"
+        ],
+        "answer": 0,
+        "explanation": "இயற்கணிதத்தின் அடிப்படை முற்றொருமைகளில் இதுவும் ஒன்று."
+      },
+      {
+        "question": "116. ஒரு பெட்டியில் 10 நீல பந்துகள், 5 சிவப்பு பந்துகள் உள்ளன. அடுக்கிலிருந்து ஒரு நீல பந்து எடுப்பதற்கான நிகழ்தகவு (Probability) என்ன?",
+        "options": [
+          "1/2",
+          "2/3",
+          "1/3",
+          "1/10"
+        ],
+        "answer": 1,
+        "explanation": "நீல பந்துகள் (10) / மொத்த பந்துகள் (15) = 10/15 = 2/3."
+      },
+      {
+        "question": "117. 1 முதல் 20 வரையிலான இயல் எண்களில் உள்ள பகா எண்களின் (Prime numbers) எண்ணிக்கை எவ்வளவு?",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "answer": 1,
+        "explanation": "பகா எண்கள்: 2, 3, 5, 7, 11, 13, 17, 19 (மொத்தம் 8)."
+      },
+      {
+        "question": "118. ஒரு உருளையின் வளைபரப்பு (Curved Surface Area) காணும் சூத்திரம் என்ன?",
+        "options": [
+          "πr²h",
+          "2πrh",
+          "2πr",
+          "πrl"
+        ],
+        "answer": 1,
+        "explanation": "ஒரு உருளையின் பக்கவாட்டு மேற்பரப்புக்கான பரப்பளவு சூத்திரம்."
+      },
+      {
+        "question": "119. 1 கிலோமீட்டர் (கி.மீ) என்பது எத்தனை சென்டிமீட்டருக்கு (செ.மீ) சமம்?",
+        "options": [
+          "1000 செ.மீ",
+          "10,000 செ.மீ",
+          "1,00,000 செ.மீ",
+          "10,00,000 செ.மீ"
+        ],
+        "answer": 2,
+        "explanation": "1 கிலோமீட்டர் = 1000 மீட்டர்; 1 மீட்டர் = 100 செ.மீ. ஆக 1000 × 100 = 100000."
+      },
+      {
+        "question": "120. 'கணித மேதை' ஸ்ரீனிவாச ராமானுஜத்தின் பிறந்த நாள் தேசிய கணித தினமாக எப்போது கொண்டாடப்படுகிறது?",
+        "options": [
+          "டிசம்பர் 22",
+          "ஆகஸ்ட் 15",
+          "ஜூன் 5",
+          "நவம்பர் 14"
+        ],
+        "answer": 0,
+        "explanation": "கணிதத்திற்கு அவர் செய்த பங்களிப்பை மதிக்கும் விதமாகத் தேசிய கணித தினமாகப் போற்றப்படுகிறது."
+      },
+      {
+        "question": "121. வேலை (Work) மற்றும் ஆற்றலின் (Energy) SI அலகு என்ன?",
+        "options": [
+          "வாட்",
+          "நியூட்டன்",
+          "ஜூல் (Joule)",
+          "பாஸ்கல்"
+        ],
+        "answer": 2,
+        "explanation": "ஜூல் என்பது வேலை மற்றும் ஆற்றலின் சர்வதேச அலகாகும்."
+      },
+      {
+        "question": "122. செல்லின் 'கட்டுப்பாட்டு மையம்' என்று அழைக்கப்படும் பகுதி எது?",
+        "options": [
+          "மைட்டோகாண்ட்ரியா",
+          "சைட்டோபிளாசம்",
+          "உட்கரு (Nucleus)",
+          "ரிபோசோம்"
+        ],
+        "answer": 2,
+        "explanation": "செல்லின் அனைத்துச் செயல்பாடுகளையும் மரபுப் பொருட்களையும் உட்கருவே கட்டுப்படுத்துகிறது."
+      },
+      {
+        "question": "123. கூற்று (A): பாதரசம் (Mercury) அறை வெப்பநிலையில் திரவ நிலையில் உள்ள ஓர் உலோகம்.\nகாரணம் (R): பாதரச அணுக்களுக்கு இடையேயான விசைகள் ஒப்பீட்டளவில் பலவீனமாக இருப்பதால் இது திரவமாக உள்ளது.",
+        "options": [
+          "A மற்றும் R சரி, சரியான விளக்கம்",
+          "A மற்றும் R சரி, விளக்கமல்ல",
+          "A சரி, R தவறு",
+          "A தவறு, R சரி"
+        ],
+        "answer": 0,
+        "explanation": "அனைத்து உலோகங்களும் திண்மமாக இருக்கும்போது, பாதரசம் மட்டுமே திரவமாக உள்ளது."
+      },
+      {
+        "question": "124. வாழ்க்கைச் சூழல் வினா: நாம் அன்றாடம் பயன்படுத்தும் உணவில் ஏன் அயோடின் கலந்த உப்பைச் சேர்க்க வேண்டும்?",
+        "options": [
+          "உணவின் ருசியைக் கூட்ட",
+          "மூளை வளர்ச்சியை அதிகரிக்க",
+          "முன்கழுத்துக் கழலை (Goitre) நோயைத் தடுக்க",
+          "இரத்த அழுத்தத்தைக் குறைக்க"
+        ],
+        "answer": 2,
+        "explanation": "அயோடின் குறைபாடு தைராய்டு சுரப்பியைப் பாதித்து முன்கழுத்துக் கழலையை ஏற்படுத்தும்."
+      },
+      {
+        "question": "125. ஒளிச்சேர்க்கையின் (Photosynthesis) போது தாவரங்கள் வளிமண்டலத்திற்கு வெளியிடும் வாயு எது?",
+        "options": [
+          "கார்பன் டை-ஆக்சைடு",
+          "நைட்ரஜன்",
+          "ஆக்சிஜன்",
+          "ஹைட்ரஜன்"
+        ],
+        "answer": 2,
+        "explanation": "தாவரங்கள் கார்பன் டை-ஆக்சைடை உள்ளிழுத்து ஆக்சிஜனை வெளியிட்டு காற்றைத் தூய்மைப்படுத்துகின்றன."
+      },
+      {
+        "question": "126. செல்லின் 'தற்கொலை பைகள்' (Suicidal bags) என்று அழைக்கப்படுவது எது?",
+        "options": [
+          "ரிபோசோம்கள்",
+          "லைசோசோம்கள் (Lysosomes)",
+          "கோல்ஜி உறுப்புகள்",
+          "சைட்டம்"
+        ],
+        "answer": 1,
+        "explanation": "செல்லில் உள்ள கழிவுகளைச் சிதைத்துத் தேவைப்படும் போது தன்னைத்தானும் சிதைத்துக் கொள்ளும்."
+      },
+      {
+        "question": "127. ஒப்பூமை காண்க:\nதிண்மம் : கல் :: திரவம் : ____",
+        "options": [
+          "காற்று",
+          "நீர்",
+          "வெப்பம்",
+          "ஒளி"
+        ],
+        "answer": 1,
+        "explanation": "கல் என்பது ஒரு திண்மப் பொருள்; நீர் என்பது ஒரு திரவ நிலை."
+      },
+      {
+        "question": "128. மனித உடலில் உள்ள மிக நீளமான மற்றும் வலிமையான எலும்பு எது?",
+        "options": [
+          "மண்டை ஓடு",
+          "முதுகெலும்பு",
+          "காறை எலும்பு",
+          "தொடை எலும்பு (Femur)"
+        ],
+        "answer": 3,
+        "explanation": "பீமர் எனப்படும் தொடை எலும்பு (Femur) மனிதனின் நீளமான எலும்பாகும்."
+      },
+      {
+        "question": "129. உடலின் இரத்த அழுத்தத்தை (Blood pressure) அளவிட மருத்துவமனைகளில் பயன்படும் கருவி எது?",
+        "options": [
+          "தெர்மாமீட்டர்",
+          "ஸ்பிக்மோமேனோமீட்டர்",
+          "அம்மீட்டர்",
+          "பரோமீட்டர்"
+        ],
+        "answer": 1,
+        "explanation": "ஸ்பிக்மோமேனோமீட்டரே (Sphygmomanometer) இரத்த அழுத்த அளவீட்டுக் கருவி."
+      },
+      {
+        "question": "130. உலகின் முதல் ஆன்டிபயாடிக்கான 'பெனிசிலினை' (Penicillin) கண்டுபிடித்தவர் யார்?",
+        "options": [
+          "லூயி பாஸ்டர்",
+          "அலெக்சாண்டர் பிளெமிங்",
+          "எட்வர்ட் ஜென்னர்",
+          "சார்லஸ் டார்வின்"
+        ],
+        "answer": 1,
+        "explanation": "அலெக்சாண்டர் பிளெமிங் பூஞ்சையிலிருந்து இதைக் கண்டறிந்தார்."
+      },
+      {
+        "question": "131. தொழிற்சாலை புகையினால் உருவாகும் 'அமில மழையில்' (Acid Rain) உள்ள முக்கிய அமிலங்கள் யாவை?",
+        "options": [
+          "ஹைட்ரோகுளோரிக் மற்றும் சிட்ரிக் அமிலம்",
+          "கந்தக மற்றும் நைட்ரிக் அமிலம்",
+          "அசிட்டிக் அமிலம்",
+          "எதுவுமில்லை"
+        ],
+        "answer": 1,
+        "explanation": "கந்தக டை ஆக்சைடு(SO2) மற்றும் நைட்ரஜன் ஆக்சைடுகள்(NO2) மழையுடன் கலந்து அமிலமாகின்றன."
+      },
+      {
+        "question": "132. லாக்டோமீட்டர் கருவி எதனைக் கண்டறியப் பொதுவாகப் பயன்படுத்தப்படுகிறது?",
+        "options": [
+          "நீரின் ஆழம்",
+          "பாலில் உள்ள தூய்மை/அடர்த்தி",
+          "காற்றின் வேகம்",
+          "வெப்பநிலை"
+        ],
+        "answer": 1,
+        "explanation": "பாலின் அடர்த்தியை வைத்துத் தூய்மையை அறியப் பால் பண்ணைகளில் பயன்படுகிறது."
+      },
+      {
+        "question": "133. செல்லின் 'ஆற்றல் மையம்' அல்லது 'சக்தி நிலையம்' (Power House) என்று அழைக்கப்படுவது எது?",
+        "options": [
+          "உட்கரு",
+          "மைட்டோகாண்ட்ரியா",
+          "சைட்டோபிளாசம்",
+          "பிளாஸ்மா"
+        ],
+        "answer": 1,
+        "explanation": "இது உணவுப் பொருட்களை எரித்து ஆற்றலை (ATP) உருவாக்குகிறது."
+      },
+      {
+        "question": "134. உலக சுற்றுச்சூழல் விழிப்புணர்வை ஏற்படுத்த உலக சுற்றுச்சூழல் தினம் (Environment Day) எப்போது கொண்டாடப்படுகிறது?",
+        "options": [
+          "ஜூன் 5",
+          "ஆகஸ்ட் 15",
+          "ஜனவரி 26",
+          "ஏப்ரல் 22"
+        ],
+        "answer": 0,
+        "explanation": "சுற்றுச்சூழலைப் பாதுகாப்பதன் அவசியத்தை உணர்த்த ஒவ்வொரு ஆண்டும் இது கொண்டாடப்படுகிறது."
+      },
+      {
+        "question": "135. சுற்றுச்சூழலை மாசுபடுத்தாத 'வெள்ளை நிலக்கரி' (White Coal) என்று அழைக்கப்படும் மின்சாரம் எது?",
+        "options": [
+          "வெப்ப மின்சாரம்",
+          "அணு மின்சாரம்",
+          "நீர்மின்சாரம்",
+          "காற்றாலை மின்சாரம்"
+        ],
+        "answer": 2,
+        "explanation": "தூய்மையான ஆற்றல் என்பதால் நீர்மின்சாரம் இவ்வாறு அழைக்கப்படுகிறது."
+      },
+      {
+        "question": "136. அறை வெப்பநிலையில் திரவ நிலையில் உள்ள ஒரே ஒரு அலோகம் (Non-metal) எது?",
+        "options": [
+          "கந்தகம்",
+          "புரோமின்",
+          "கார்பன்",
+          "பாஸ்பரஸ்"
+        ],
+        "answer": 1,
+        "explanation": "உலோகங்களில் பாதரசம் போன்று அலோகங்களில் புரோமின் மட்டுமே திரவமாக உள்ளது."
+      },
+      {
+        "question": "137. இரும்பு காற்றில் உள்ள ஈரப்பதத்தால் துருப்பிடித்தல் (Rusting) என்பது எவ்வகை மாற்றம்?",
+        "options": [
+          "இயற்பியல் மாற்றம்",
+          "வேதியியல் மாற்றம்",
+          "கால ஒழுங்கு மாற்றம்",
+          "எதுவுமில்லை"
+        ],
+        "answer": 1,
+        "explanation": "இரும்பு ஆக்சிஜன் மற்றும் நீருடன் வினைபுரிந்து இரும்பு ஆக்சைடு என்ற புதிய பொருளை உருவாக்குகிறது."
+      },
+      {
+        "question": "138. ஒரு பொருளின் நிறையினை (Mass) துல்லியமாக அளவிட எதைக் கொண்டு அளவிடலாம்?",
+        "options": [
+          "வில் தராசு",
+          "இயற்பியல் தராசு (Physical Balance)",
+          "தெர்மாமீட்டர்",
+          "அம்மீட்டர்"
+        ],
+        "answer": 1,
+        "explanation": "நிறையை இயற்பியல் அல்லது தராசுகள் மூலம் அளவிடலாம்; எடையை வில் தராசு மூலம் அளவிடலாம்."
+      },
+      {
+        "question": "139. உலோகங்களில் மின்சாரத்தை மிகச் சிறந்த முறையில் கடத்தும் கடத்தி (Best conductor) எது?",
+        "options": [
+          "தாமிரம் (Copper)",
+          "இரும்பு (Iron)",
+          "வெள்ளி (Silver)",
+          "தங்கம் (Gold)"
+        ],
+        "answer": 2,
+        "explanation": "வெள்ளி (Silver) மிகச்சிறந்த மின்கடத்தி ஆகும், ஆயினும் அதன் விலை காரணமாகத் தாமிரம் அதிகம் பயன்படுகிறது."
+      },
+      {
+        "question": "140. ஒப்புமை காண்க:\nஅமிபா : ஒரு செல் உயிரி :: மனிதன் : ____",
+        "options": [
+          "ஈருயிர்",
+          "பல செல் உயிரி (Multicellular)",
+          "முதலுயிரி",
+          "எதுவுமில்லை"
+        ],
+        "answer": 1,
+        "explanation": "அமிபா முழூக்க ஒரே செல்லால் செயல்படுகிறது, ஆனால் மனித உடல் கோடிக்கணக்கான செல்களால் ஆனது."
+      },
+      {
+        "question": "141. பூமிக்கும் அதில் வாழும் அனைத்து உயிரினங்களுக்கும் கிடைக்கும் மிகப்பெரிய இயற்கை ஆற்றல் ஆதாரம் எது?",
+        "options": [
+          "நிலக்கரி",
+          "விண்கற்கள்",
+          "சூரிய ஆற்றல் (Solar Energy)",
+          "அணு ஆற்றல்"
+        ],
+        "answer": 2,
+        "explanation": "சூரியனே பூமியின் அனைத்து ஆற்றல்களுக்கும் முதன்மை ஆதாரமாக விளங்குகிறது."
+      },
+      {
+        "question": "142. வைட்டமின் 'சி' (Vitamin C) குறைபாட்டினால் ஈறுகளில் ரத்தம் வடியும் நோயின் பெயர் என்ன?",
+        "options": [
+          "ரிக்கெட்ஸ்",
+          "பெர்ரி பெர்ரி",
+          "ஸ்கர்வி (Scurvy)",
+          "மாலைக்கண் நோய்"
+        ],
+        "answer": 2,
+        "explanation": "பற்களின் ஈறுகளில் இரத்தம் வடிதல் ஸ்கர்வி நோயின் முக்கிய அறிகுறியாகும்."
+      },
+      {
+        "question": "143. நாம் சுவாசிக்கும் காற்றில் (Atmosphere) நைட்ரஜன் (Nitrogen) வாயு எவ்வளவு சதவீதம் உள்ளது?",
+        "options": [
+          "21%",
+          "0.03%",
+          "78%",
+          "1%"
+        ],
+        "answer": 2,
+        "explanation": "நைட்ரஜன் காற்றில் அதிகளவான 78% உள்ளது; ஆக்சிஜன் 21% உள்ளது."
+      },
+      {
+        "question": "144. 'சிரிப்பூட்டும் வாயு' (Laughing Gas) என்று பரவலாக அறியப்படும் வாயு எது?",
+        "options": [
+          "கார்பன் மோனாக்சைடு",
+          "நைட்ரஸ் ஆக்சைடு",
+          "ஆக்சிஜன்",
+          "மீத்தேன்"
+        ],
+        "answer": 1,
+        "explanation": "நைட்ரஸ் ஆக்சைடை லேசாகச் சுவாசிக்க நேர்ந்தால் நரம்புகளைத் தூண்டி சிரிப்புண்டாக்கும்."
+      },
+      {
+        "question": "145. மனித உடலில் உள்ள மிகச்சிறிய எலும்பு எந்த உறுப்பில் அமைந்துள்ளது?",
+        "options": [
+          "கால் விரல்",
+          "மூக்கு",
+          "காது (நடுக்காது)",
+          "கை"
+        ],
+        "answer": 2,
+        "explanation": "நடுக்காதில் உள்ள 'ஸ்டேப்ஸ்' மனித உடலின் மிகச்சிறிய எலும்பாகும்."
+      },
+      {
+        "question": "146. தங்கம் மற்றும் பிளாட்டினம் போன்ற விலைமதிப்பற்ற கடின உலோகங்கள் எதில் கரையும்?",
+        "options": [
+          "தண்ணீர்",
+          "குளோரின்",
+          "ராஜதிராவகம் (Aqua Regia)",
+          "பெட்ரோல்"
+        ],
+        "answer": 2,
+        "explanation": "அடர்த்தியான ஹைட்ரோகுளோரிக் மற்றும் நைட்ரிக் அமிலக் கலவையான ராஜதிராவகத்தில் மட்டுமே தங்கம் கரையும்."
+      },
+      {
+        "question": "147. வாழ்க்கைச் சூழல் வினா: உங்கள் வீட்டில் உள்ள மின்சாரப் பெட்டியில் (Main Box) உருகிழை (Fuse) அறுந்துவிட்டால் நீங்கள் என்ன செய்வீர்கள்?",
+        "options": [
+          "தடிமனான செம்புக் கம்பியால் இணைப்பேன்",
+          "சரியான மின் அளவீடு உள்ள உருகுமிழை (Fuse wire) மாற்றுவேன்",
+          "இரும்புத் தகடு வைப்பேன்",
+          "எதுவும் செய்யமாட்டேன்"
+        ],
+        "answer": 1,
+        "explanation": "பாதுகாப்பிற்காகச் சரியான உருகுமிழைப் (Fuse wire) பயன்படுத்த வேண்டும், இல்லையெனில் தீ விபத்து ஏற்படலாம்."
+      },
+      {
+        "question": "148. வரலாற்றில் மில்லியன் கணக்கான மக்களைக் கொன்ற 'பிளேக்' (Plague) நோய் எந்த விலங்கின் மூலம் (தெள்ளுப் பூச்சிகள் வழி) பரவுகிறது?",
+        "options": [
+          "கொசு",
+          "எலிகள்",
+          "பன்றிகள்",
+          "குரங்குகள்"
+        ],
+        "answer": 1,
+        "explanation": "எலிகளின் மீதுள்ள தெள்ளுப் பூச்சிகளால் பாக்டீரியாக்கள் மனிதனுக்குப் பரவுகின்றன."
+      },
+      {
+        "question": "149. பூமிக்கடியில் இருந்து எடுக்கப்படும் எந்த எரிபொருள் 'திரவ தங்கம்' (Liquid Gold) அல்லது 'கருப்பு தங்கம்' என அழைக்கப்படுகிறது?",
+        "options": [
+          "தண்ணீர்",
+          "பெட்ரோலியம்",
+          "நிலக்கரி",
+          "பாதரசம்"
+        ],
+        "answer": 1,
+        "explanation": "பெட்ரோலியம் உலகப் பொருளாதாரத்தில் அதன் அதிக மதிப்பு காரணமாக இவ்வாறு அழைக்கப்படுகிறது."
+      },
+      {
+        "question": "150. வானம் பகல் நேரத்தில் நமக்கு 'நீல நிறமாகத்' (Blue sky) தோன்ற முக்கியக் காரணம் என்ன?",
+        "options": [
+          "கடல் நீர் ஒளியை எதிரொளிப்பது",
+          "வளிமண்டலத்தில் ஏற்படும் ஒளிச் சிதறல் (Scattering)",
+          "சூரிய ஒளியின் விலகல்",
+          "புறஊதா கதிர்களின் பாதிப்பு"
+        ],
+        "answer": 1,
+        "explanation": "ரிலேயின் கொள்கைப்படி, நீல ஒளியே அதிகம் சிதறடிக்கப்படுகிறது."
+      }
+    ]
+  }
+}

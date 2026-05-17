@@ -1,0 +1,580 @@
+{
+  "subject": "English",
+  "class": "8",
+  "term": "Annual",
+  "title": "Poem: Making Life Worth While (Memoriter)",
+  "summary": "",
+  "sections": [
+    {
+      "title": "1. Poem: Making Life Worth While (வாழ்க்கையைப் பயனுள்ளதாக்குதல்) - Summary",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● [[Core Theme]]",
+            "answer": "Humanity, kindness, and spiritual growth in everyday life. || அன்றாட வாழ்வில் மனிதநேயம் மற்றும் கனிவுடன் இருத்தல்."
+          },
+          {
+            "question": "● [[About Author]]",
+            "answer": "Written by [[George Eliot]] (pen name of Mary Ann Evans). She was a famous Victorian novelist. || ஜார்ஜ் எலியட் அவர்களால் எழுதப்பட்டது."
+          },
+          {
+            "question": "● [[The Message]]",
+            "answer": "Every soul we meet should be touched by a bit of grace, kindness, or encouragement. Life becomes worth living when we help others, offer a glimmer of light in the dark, and foster a spirit of courage. One should strive for selfless service. || நாம் சந்திக்கும் ஒவ்வொருத் தோழனிடமும் அன்பு காட்ட வேண்டும்; பிறருக்கு ஊக்கத்தைத் தர வேண்டும்; அதுவே வாழ்வைப் பயனுள்ளதாக்கும்."
+          }
+        ]
+      }
+    },
+    {
+      "title": "2. Glossary: Virtue Terms (Exam Focus - Synonyms)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● [[Grace]] / அருள் / கனிவு",
+            "answer": "Smoothness and elegance of movement or behavior."
+          },
+          {
+            "question": "● [[Glimmer]] / மினுமினுப்பு / சிறிய ஒளி",
+            "answer": "A faint or unsteady light."
+          },
+          {
+            "question": "● [[Courage]] / துணிச்சல்",
+            "answer": "The ability to do something that frightens one."
+          },
+          {
+            "question": "● [[Enlighten]]",
+            "answer": "Give someone greater knowledge and understanding. (அறிவுறுத்துதல்)."
+          },
+          {
+            "question": "● [[Inspiration]]",
+            "answer": "The process of being mentally stimulated to do or feel something. (ஊக்கம்)."
+          },
+          {
+            "question": "● [[Worth While]]",
+            "answer": "Value or importance. (மதிப்புமிக்க)."
+          }
+        ]
+      }
+    },
+    {
+      "title": "3. Poetic Devices (கவிதை நயங்கள்)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● [[Alliteration]]",
+            "answer": "Repetition of consonant sounds (e.g., \"[[S]]oul you [[s]]erve\"). || சொற்களில் ஒரேத் தொடக்க ஒலி."
+          },
+          {
+            "question": "● [[Rhyme Scheme]]",
+            "answer": "The poem has a flowing rhythm with rhymes like [[skies - wise]]. || இயைபுத் தொடை."
+          },
+          {
+            "question": "● [[Rhyming Words]]",
+            "answer": "grace - face, bit - it, skies - wise, life - strife."
+          }
+        ]
+      }
+    },
+    {
+      "title": "4. Grammars: Determiners (அளவைக் குறிகள்)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● [[Few]] / [[A few]]",
+            "answer": "Few (Negative) / A few (Positive). || எண் சார்ந்தவை."
+          },
+          {
+            "question": "● [[Little]] / [[A little]]",
+            "answer": "Little (Negative) / A little (Positive). || அளவு சார்ந்தவை."
+          },
+          {
+            "question": "● [[Many]] / [[Every]]",
+            "answer": "Many (Plural count) / Every (Each individual). || பல / ஒவ்வொன்றும்."
+          }
+        ]
+      }
+    },
+    {
+      "title": "5. Figures of Speech: Metaphor",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● [[Glimmer of light]]",
+            "answer": "Comparison of hope to a small light. || நம்பிக்கையை ஒரு சிறு ஒளியோடு உருவகப்படுத்துதல்."
+          }
+        ]
+      }
+    },
+    {
+      "title": "6. Previous Year Questions & Competitive Focus",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● Who is the author of 'Making Life Worth While'?",
+            "answer": "[[George Eliot]] (Mary Ann Evans). || ஜார்ஜ் எலியட்."
+          },
+          {
+            "question": "● What should we give to every soul we meet?",
+            "answer": "A bit of [[grace]], [[kindness]], or [[encouragement]]. || ஒரு சிறு அன்பு அல்லது ஊக்கம்."
+          },
+          {
+            "question": "● What is the pen name of Mary Ann Evans?",
+            "answer": "[[George Eliot]]. || ஜார்ஜ் எலியட்."
+          },
+          {
+            "question": "● Rhyming word for 'face' in Unit 3?",
+            "answer": "[[Grace]]. || கிரேஸ்."
+          }
+        ]
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Every soul you touch should get a bit of ______? || நாம் சந்திக்கும் ஒவ்வொரு உயிரும் எதனைக் கொஞ்சம் பெற வேண்டும்?",
+      "options": [
+        "Money",
+        "Grace (அருள் / கனிவு)",
+        "Food",
+        "Anger"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What should the poet give to a person in need? || உதவித் தேவைப்படுபவருக்குக் கவிஞர் எதனைக் கொடுக்கச் சொல்கிறார்?",
+      "options": [
+        "A glimmer of light (ஒரு சிறு ஒளிக்கற்றை)",
+        "A box of gold",
+        "A dark room",
+        "A heavy work"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "How does life become worth living according to the poem? || வாழ்க்கை எப்போதுப் பயனுள்ளாதாக மாறுகிறது?",
+      "options": [
+        "By earning more money",
+        "By helping and encouraging others (மற்றவர்களுக்கு உதவியும் ஊக்கமும் அளிப்பதன் மூலம்)",
+        "By traveling alone",
+        "By sleeping well"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What is the pen name of Mary Ann Evans? || மேரி ஆன் எவன்ஸ் என்பவரின் புனைப்பெயர் என்ன?",
+      "options": [
+        "Robert Frost",
+        "George Eliot (ஜார்ஜ் எலியட்)",
+        "T.S. Eliot",
+        "Shakespeare"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Where should the 'glimmer of light' be shown? || 'சிறிய ஒளியை' எங்கேக் காட்ட வேண்டும்?",
+      "options": [
+        "In bright sun",
+        "In the dark of some lonely soul (தனிமையான ஒரு மனதின் இருளில்)",
+        "On the road",
+        "In the forest"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Which of these is a rhyming word for 'skies'? || 'skies' - என்பதற்கான இயைபுச் சொல் எது?",
+      "options": [
+        "grace",
+        "bit",
+        "wise (வைஸ் / புத்திசாலி)",
+        "face"
+      ],
+      "a": 2,
+      "ex": ""
+    },
+    {
+      "q": "What is the meaning of 'Grace'? || 'Grace' என்பதன் பொருள்?",
+      "options": [
+        "A fall",
+        "Kindness/Smoothness (கனிவு / அழகு)",
+        "Jump",
+        "Loud sound"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "The poet says we should have an 'aspirating ______'? || கவிஞர் எத்தகைய 'லட்சியம்' கொண்டவராக இருக்கச் சொல்கிறார்?",
+      "options": [
+        "Thought",
+        "Aspirating sky (ஒரு உயர்ந்த லட்சிய வானம்)",
+        "Aspirating bird",
+        "Dream"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: 'One glimmer of light to brighten ______'. || இந்த வரியை நிறைவு செய்க.",
+      "options": [
+        "the sun",
+        "the road",
+        "the dark (இருள்)",
+        "the moon"
+      ],
+      "a": 2,
+      "ex": ""
+    },
+    {
+      "q": "What does a 'heritage' in the poem mean? || கவிதையில் 'ஹெரிடேஜ்' (Heritage) எதனைக் குறிக்கும்?",
+      "options": [
+        "House",
+        "Nobleness/Family legacy (மேன்மையானப் பண்பு / பாரம்பரியம்)",
+        "Money",
+        "Land"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of 'Worth While'? || 'Worth While' என்பதன் பொருள்?",
+      "options": [
+        "Valuable/Important (பயனுள்ள / விவரிக்கத்தக்க மதிப்பு)",
+        "Broken",
+        "Cheap",
+        "Old"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Rhyming word for 'life': || 'life' - என்பதற்கான இயைபுச் சொல்?",
+      "options": [
+        "strife (ஸ்டிரைஃப் / போராட்டம்)",
+        "wise",
+        "face",
+        "bit"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Identify the alliteration: \"Soul you serve\". || இதில் வரும் மோனை எது?",
+      "options": [
+        "'S' sound ('S' ஓசை)",
+        "Ending 'ou' sound",
+        "No alliteration",
+        "Middle sounds"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "George Eliot was a famous ______ writer. || ஜார்ஜ் எலியட் எந்தக் காலத்தைச் சேர்ந்த எழுத்தாளர்?",
+      "options": [
+        "Modern",
+        "Victorian (விக்டோரியன் காலம்)",
+        "Roman",
+        "Ancient"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "How can one encourage others according to the poem? || மற்றவர்களை எவ்வாறு ஊக்கப்படுத்தலாம்?",
+      "options": [
+        "By shouting",
+        "By a simple encouraging word (ஊக்கமளிக்கும் ஒருச் சொல்லால்)",
+        "By doing nothing",
+        "By taking money"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "The word 'heritage' refers to our ______? || 'ஹெரிடேஜ்' எதனைக் குறிக்கிறது?",
+      "options": [
+        "Ancestors' land",
+        "Courageous soul (துணிச்சலானத் தன்மையை)",
+        "Clothes",
+        "Songs"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What is the Determiner for 'Large amount': || 'Large amount' - என்பதற்கான அளவைச் சொல்?",
+      "options": [
+        "Few",
+        "Much/Many (அதிகமான)",
+        "Little",
+        "Every"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: \"A little ______\". || விடுபட்ட இடத்தை நிரப்புக.",
+      "options": [
+        "grace (கிரேஸ்)",
+        "light",
+        "soul",
+        "face"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of 'Strife': || 'Strife' என்பதன் பொருள்?",
+      "options": [
+        "Peace",
+        "Conflict/Struggle (போராட்டம் / சண்டை)",
+        "Happiness",
+        "Speed"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What does 'aspirating' mean? || 'Aspirating' என்பதன் பொருள்?",
+      "options": [
+        "Sleeping",
+        "Having high ambitions/Aims (உயர்ந்த லட்சியம்)",
+        "Walking",
+        "Running"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What is a 'Heritage of courage'? || 'துணிச்சலின்ப் பாரம்பரியம்' என்பது?",
+      "options": [
+        "Being brave like ancestors (வீரமானப் பாதையைப் பின்பற்றுதல்)",
+        "Running away",
+        "Crying",
+        "Fighting only"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Rhyme for 'bit': || 'bit' - என்பதன் இயைபுச் சொல்?",
+      "options": [
+        "fit",
+        "it (இட்)",
+        "sit",
+        "all of the above"
+      ],
+      "a": 3,
+      "ex": ""
+    },
+    {
+      "q": "Does the poet say we should meet only our family? || கவிஞர் நாம் குடும்பத்தை மட்டும் சந்திக்கச் சொல்கிறாரா?",
+      "options": [
+        "Yes",
+        "No, every soul we meet (இல்லை, நாம் சந்திக்கும் ஒவ்வொரு உயிரும்)",
+        "Only friends",
+        "No one"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Which of these is a determiner? || இதில் எது அளவைச் சொல் (Determiner)?",
+      "options": [
+        "Run",
+        "Every (ஒவ்வொரு)",
+        "Beautiful",
+        "Speak"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What is a 'Glimmer'? || 'Glimmer' (கிளிம்மர்) என்பது எத்தகைய ஒளி?",
+      "options": [
+        "Brightest sun",
+        "Fairly faint/Small light (சிறிய ஒளி)",
+        "Moon",
+        "No light"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Who to 'encourage' in life? || வாழ்வில் யாரை ஊக்கப்படுத்த வேண்டும்?",
+      "options": [
+        "Weak and failing people (பலவீனமான மற்றும் தோல்வியடைந்தவர்களை)",
+        "Strong people only",
+        "No one",
+        "Animals"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of 'Grace' in Tamil context of the poem: || இப்பாடச் சூழலில் 'Grace' என்பது?",
+      "options": [
+        "பணம்",
+        "அருள் / கனிவானத் தன்மை",
+        "பாடல்",
+        "மழை"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: \"One glimmer of ______\". || விடுபட்ட இடத்தை நிரப்புக.",
+      "options": [
+        "hope",
+        "light (ஒளி)",
+        "star",
+        "dark"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "The adjective form of 'Courage' is? || 'Courage' - என்பதன் பெயரடை வடிவம்?",
+      "options": [
+        "Courageing",
+        "Courageous (கரேஜியஸ் / துணிச்சலான)",
+        "Brave",
+        "Strong"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "We should handle 'every ______' soul with care. || விடுபட்டச் சொல் எது?",
+      "options": [
+        "lonely (தனிமையான)",
+        "busy",
+        "angry",
+        "known"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Rhyme for 'wise': || 'wise' - என்பதன் இயைபுச் சொல்?",
+      "options": [
+        "skies (ஸ்கைஸ் / மேகங்கள்)",
+        "life",
+        "bit",
+        "face"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "What kind of 'Service' makes life worthwhile? || எத்தகையச் சேவை வாழ்வை அர்த்தமுள்ளதாக்கும்?",
+      "options": [
+        "Paid service",
+        "Selfless service/Help (சுயநலமற்றச் சேவை)",
+        "No service",
+        "Only speaking"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Mary Ann Evans used George Eliot for? || மேரி ஏன் எவன்ஸ் ஏன் ஜார்ஜ் எலியட் என்ற பெயரைப் பயன்படுத்தினார்?",
+      "options": [
+        "To hide she was a woman (பெண் என்பதை மறைக்க)",
+        "It was a fun name",
+        "She liked George",
+        "None"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Determine: \"There are ______ students in class.\" || விடுபட்ட இடத்திற்குப் பொருந்துவது?",
+      "options": [
+        "Much",
+        "Many (மெனி / பல)",
+        "Little",
+        "A little"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Synonym of 'Worth': || 'Worth' - என்பதன் ஒத்தப்பொருள்?",
+      "options": [
+        "Useless",
+        "Value/Glory (மதிப்பு / பெருமை)",
+        "Old",
+        "Big"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What is the tone of the poem? || இக்கவிதையின் தொனி (Tone) என்ன?",
+      "options": [
+        "Aggressive",
+        "Inspiring/Positive (ஊக்கமளிக்கும் / நேர்மறையான)",
+        "Sad",
+        "Sarcastic"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "One thing the poet asks we should not forget? || நாம் மறக்கக் கூடாததாக கவிஞர் கூறுவது?",
+      "options": [
+        "Money",
+        "Heritage of courage (வீரம்மிக்கப் பாரம்பரியம்)",
+        "Eating",
+        "Going home"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: \"A soul you serve\". Who is the person being served? || இது யாரைக் குறிக்கும்?",
+      "options": [
+        "Every person we meet (நாம் சந்திக்கும் ஒவ்வொருவரும்)",
+        "Only the rich",
+        "The poet himself",
+        "God"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Conclusion: What is the final goal of life according to George Eliot? || முடிவு: ஜார்ஜ் எலியட்டின் கூற்றுப்படி வாழ்வின் இறுதி இலக்கு?",
+      "options": [
+        "Become famous",
+        "Make the life of others and our own worth while (நமது மற்றும் பிறர் வாழ்வை அர்த்தமுள்ளதாக்குதல்)",
+        "Buy a house",
+        "Travel the moon"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Correct spelling of our poet's pseudonym: || நமது கவிஞரின் புனைப்பெயர் சரியான வடிவம் எது?",
+      "options": [
+        "George Eliot (ஜார்ஜ் எலியட்)",
+        "Gorge Eliot",
+        "George Elliot",
+        "George Elliet"
+      ],
+      "a": 0,
+      "ex": ""
+    }
+  ],
+  "credits": "தொகுப்பு: A1 ONLINE COACHING CENTER"
+}

@@ -1,0 +1,706 @@
+{
+  "lesson_meta": {
+    "title": "The Listeners",
+    "unit": "l5",
+    "grade": "7",
+    "term": "t1",
+    "subject": "english",
+    "code": "eng_7_t1_l5"
+  },
+  "material": {
+    "sections": [
+      {
+        "title": "Poem Summary",
+        "content": "'The Listeners' is a mysterious poem by Walter de la Mare. It describes a lonely Traveller who arrives on horseback at a lone house in the middle of a forest on a moonlit night. He knocks on the door repeatedly and calls out, 'Is there anybody there?' However, he receives no answer from any living person. Inside the house, there is a 'host of phantom listeners' (ghosts or spirits) who hear his voice but remain silent. The Traveller is left perplexed and confused by the eerie silence. The poem perfectly captures a supernatural, eerie, and suspenseful atmosphere, contrasting the loud calls of the living Traveller with the absolute stillness of the phantom listeners."
+      },
+      {
+        "title": "About the Author",
+        "content": "Walter de la Mare (1873–1956) was an English poet, short story writer, and novelist. He is best known for his magical and mysterious works written for children. 'The Listeners' is widely considered to be his most famous poem."
+      },
+      {
+        "title": "Key Elements and Atmosphere",
+        "content": "• The poem creates a strong sense of mystery through its setting and word choices.\n• - Natural Elements: Moonlit door, forest's ferny floor, bird flying from a turret, leaf-fringed sill.\n• - Mysterious Elements: Phantom listeners, lone house, dark stair, empty hall, voice from the world of men.\n• - The Traveller represents the living world, while the silent house represents the supernatural or the unknown."
+      },
+      {
+        "title": "Glossary",
+        "content": "• champed - bit and chewed upon noisily\n• ferny - consisting of flowerless plants (ferns)\n• turret - a small tower that projects from the wall of a building\n• smote - knocked loudly\n• sill - a horizontal piece of timber beneath a window or a door\n• perplexed - confused\n• thronging - crowding\n• hearkening - listening attentively"
+      },
+      {
+        "title": "Book Back Exercises: True or False",
+        "content": "• The Traveller came at noon. - False (Quote: 'Knocking on the moonlit door')\n• The house was situated in the forest. - True (Quote: 'Of the forest's ferny floor')\n• There were ghostly listeners inside the house. - True (Quote: 'But only a host of phantom listeners')\n• The Traveller came to the house by bicycle. - False (Quote: 'And his horse in the silence champed the grasses')\n• The phantoms answered and asked the traveller to go away. - False (Quote: 'Stood listening in the quiet of the moonlight')"
+      },
+      {
+        "title": "Book Back Exercises: Q & A",
+        "content": "• Who is the speaker? - The speaker is an unseen narrator or observer describing the event.\n• What was the horse doing? - The horse was champing (chewing noisily) the grasses on the forest's ferny floor.\n• Who were the listeners? - The listeners were a host of phantoms (ghosts) dwelling in the lone house.\n• How did the Traveller feel when nobody answered? - He felt perplexed (confused) and stood still.\n• What kind of feeling does the poem create? - The poem creates a feeling of mystery, suspense, and eerie supernatural presence."
+      },
+      {
+        "title": "Poetic Devices",
+        "content": "• Alliteration: 'forest’s ferny floor' (repetition of the 'f' sound).\n▸ 2. Rhyming Words:\n• - head / said\n• - sill / still\n• - then / men\n• - hall / call\n• Words used to create a sense of mystery: phantom, lone house, dark stair, empty hall, hearkening."
+      }
+    ]
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "Who is the main human character in the poem 'The Listeners'?",
+        "options": [
+          "The Phantom",
+          "The Traveller",
+          "The Narrator",
+          "The Forest Guard"
+        ],
+        "answer": 1,
+        "explanation": "The poem revolves around 'the Traveller' who knocks on the moonlit door."
+      },
+      {
+        "question": "What time of the day does the poem take place?",
+        "options": [
+          "Early morning",
+          "Afternoon",
+          "Night time",
+          "Noon"
+        ],
+        "answer": 2,
+        "explanation": "The poem takes place at night, as indicated by the 'moonlit door' and 'faint moonbeams'."
+      },
+      {
+        "question": "What were the exact words the Traveller said when he knocked on the door?",
+        "options": [
+          "Hello, is anyone home?",
+          "Open the door!",
+          "Is there anybody there?",
+          "I have lost my way."
+        ],
+        "answer": 2,
+        "explanation": "The poem begins with the Traveller asking, 'Is there anybody there?'"
+      },
+      {
+        "question": "What animal accompanied the Traveller?",
+        "options": [
+          "A dog",
+          "A bird",
+          "A horse",
+          "A mule"
+        ],
+        "answer": 2,
+        "explanation": "The text mentions 'And his horse in the silence champed the grasses'."
+      },
+      {
+        "question": "What was the horse doing in the silence of the forest?",
+        "options": [
+          "Drinking water",
+          "Sleeping",
+          "Champing the grasses",
+          "Neighing loudly"
+        ],
+        "answer": 2,
+        "explanation": "The horse was 'champing' (biting and chewing noisily) the grasses."
+      },
+      {
+        "question": "What is the meaning of the word 'champed'?",
+        "options": [
+          "Ran very fast",
+          "Stomped feet",
+          "Bit and chewed upon noisily",
+          "Looked around nervously"
+        ],
+        "answer": 2,
+        "explanation": "According to the glossary, 'champed' means to bite and chew upon noisily."
+      },
+      {
+        "question": "How is the floor of the forest described in the poem?",
+        "options": [
+          "Rocky floor",
+          "Ferny floor",
+          "Muddy floor",
+          "Sandy floor"
+        ],
+        "answer": 1,
+        "explanation": "The poem describes it as 'the forest's ferny floor'."
+      },
+      {
+        "question": "What does the word 'ferny' refer to?",
+        "options": [
+          "Consisting of tall trees",
+          "Consisting of flowerless plants (ferns)",
+          "Covered with snow",
+          "Filled with thorns"
+        ],
+        "answer": 1,
+        "explanation": "Ferny means consisting of ferns, which are a type of flowerless plant."
+      },
+      {
+        "question": "What flew up over the Traveller's head?",
+        "options": [
+          "A bat",
+          "An owl",
+          "A bird",
+          "An insect"
+        ],
+        "answer": 2,
+        "explanation": "The poem states, 'And a bird flew up out of the turret, Above the Traveller’s head'."
+      },
+      {
+        "question": "Where did the bird fly out from?",
+        "options": [
+          "A window",
+          "A turret",
+          "A chimney",
+          "A tree branch"
+        ],
+        "answer": 1,
+        "explanation": "The bird flew up 'out of the turret'."
+      },
+      {
+        "question": "What is a 'turret'?",
+        "options": [
+          "A dark basement",
+          "A large wooden door",
+          "A small tower that projects from the wall of a building",
+          "A type of forest bird"
+        ],
+        "answer": 2,
+        "explanation": "A turret is a small tower that projects vertically from the wall of a building."
+      },
+      {
+        "question": "What did the Traveller do after the bird flew up?",
+        "options": [
+          "He rode away",
+          "He broke the window",
+          "He smote upon the door again a second time",
+          "He called for help"
+        ],
+        "answer": 2,
+        "explanation": "After the bird flew up, 'he smote upon the door again a second time'."
+      },
+      {
+        "question": "What does the word 'smote' mean?",
+        "options": [
+          "Whispered gently",
+          "Knocked loudly",
+          "Looked closely",
+          "Turned around"
+        ],
+        "answer": 1,
+        "explanation": "According to the glossary, 'smote' means knocked loudly."
+      },
+      {
+        "question": "Who descended to the Traveller after he knocked?",
+        "options": [
+          "An old man",
+          "A young child",
+          "A phantom",
+          "No one"
+        ],
+        "answer": 3,
+        "explanation": "The poem explicitly states, 'But no one descended to the Traveller'."
+      },
+      {
+        "question": "How is the window sill described in the poem?",
+        "options": [
+          "Dust-covered sill",
+          "Broken sill",
+          "Leaf-fringed sill",
+          "Wooden sill"
+        ],
+        "answer": 2,
+        "explanation": "The poem mentions 'No head from the leaf-fringed sill'."
+      },
+      {
+        "question": "What is a 'sill'?",
+        "options": [
+          "The roof of a house",
+          "A horizontal piece of timber beneath a window or a door",
+          "A lock on a door",
+          "A tall staircase"
+        ],
+        "answer": 1,
+        "explanation": "A sill is the horizontal piece of timber or stone at the bottom of a window or door."
+      },
+      {
+        "question": "What was the colour of the Traveller's eyes?",
+        "options": [
+          "Blue",
+          "Brown",
+          "Black",
+          "Grey"
+        ],
+        "answer": 3,
+        "explanation": "The poem describes that no one looked 'into his grey eyes'."
+      },
+      {
+        "question": "How did the Traveller stand when nobody answered him?",
+        "options": [
+          "Angry and shouting",
+          "Perplexed and still",
+          "Shivering and cold",
+          "Happy and relieved"
+        ],
+        "answer": 1,
+        "explanation": "He stood 'perplexed and still' because there was no response."
+      },
+      {
+        "question": "What does the word 'perplexed' mean?",
+        "options": [
+          "Confused",
+          "Excited",
+          "Tired",
+          "Brave"
+        ],
+        "answer": 0,
+        "explanation": "Perplexed means feeling completely baffled or confused."
+      },
+      {
+        "question": "Who was actually inside the lone house?",
+        "options": [
+          "Wild animals",
+          "Thieves",
+          "A host of phantom listeners",
+          "The Traveller's family"
+        ],
+        "answer": 2,
+        "explanation": "The house was occupied by 'a host of phantom listeners'."
+      },
+      {
+        "question": "What were the phantom listeners doing?",
+        "options": [
+          "Sleeping in the hall",
+          "Stood listening in the quiet of the moonlight",
+          "Whispering to each other",
+          "Trying to open the door"
+        ],
+        "answer": 1,
+        "explanation": "The phantoms 'Stood listening in the quiet of the moonlight'."
+      },
+      {
+        "question": "Whose voice were the phantoms listening to?",
+        "options": [
+          "The voice of the wind",
+          "The voice from the world of men",
+          "The voice of the horse",
+          "The voice of the bird"
+        ],
+        "answer": 1,
+        "explanation": "They were listening to the Traveller's call, described as 'that voice from the world of men'."
+      },
+      {
+        "question": "Where were the phantom listeners thronging?",
+        "options": [
+          "Outside the door",
+          "In the forest",
+          "On the faint moonbeams on the dark stair",
+          "On the roof"
+        ],
+        "answer": 2,
+        "explanation": "They 'Stood thronging the faint moonbeams on the dark stair'."
+      },
+      {
+        "question": "What does the word 'thronging' mean?",
+        "options": [
+          "Flying",
+          "Singing",
+          "Hiding",
+          "Crowding"
+        ],
+        "answer": 3,
+        "explanation": "Thronging means crowding or gathering tightly together in a large number."
+      },
+      {
+        "question": "Where does the dark stair go down to?",
+        "options": [
+          "The basement",
+          "The empty hall",
+          "The forest",
+          "The turret"
+        ],
+        "answer": 1,
+        "explanation": "The dark stair 'goes down to the empty hall'."
+      },
+      {
+        "question": "What were the phantoms doing in the stirred and shaken air?",
+        "options": [
+          "Hearkening",
+          "Screaming",
+          "Dancing",
+          "Sleeping"
+        ],
+        "answer": 0,
+        "explanation": "They were 'Hearkening in an air stirred and shaken'."
+      },
+      {
+        "question": "What is the meaning of 'hearkening'?",
+        "options": [
+          "Ignoring",
+          "Listening attentively",
+          "Looking closely",
+          "Running away"
+        ],
+        "answer": 1,
+        "explanation": "Hearkening is an old-fashioned word meaning to listen attentively."
+      },
+      {
+        "question": "What caused the air to be 'stirred and shaken'?",
+        "options": [
+          "The flapping wings of the bird",
+          "The strong wind",
+          "The lonely Traveller's call",
+          "The galloping horse"
+        ],
+        "answer": 2,
+        "explanation": "The air was stirred and shaken 'By the lonely Traveller's call'."
+      },
+      {
+        "question": "Who is the author of the poem 'The Listeners'?",
+        "options": [
+          "William Wordsworth",
+          "Walter de la Mare",
+          "Robert Frost",
+          "John Keats"
+        ],
+        "answer": 1,
+        "explanation": "The poem was written by the English poet Walter de la Mare."
+      },
+      {
+        "question": "What is the lifespan of Walter de la Mare?",
+        "options": [
+          "1850–1910",
+          "1873–1956",
+          "1900–1980",
+          "1820–1890"
+        ],
+        "answer": 1,
+        "explanation": "Walter de la Mare lived from 1873 to 1956."
+      },
+      {
+        "question": "Walter de la Mare is best known for his works written for _________.",
+        "options": [
+          "Adults",
+          "Scientists",
+          "Children",
+          "Historians"
+        ],
+        "answer": 2,
+        "explanation": "He is an English poet and novelist best known for his works for children."
+      },
+      {
+        "question": "Which of the following is considered Walter de la Mare's most famous poem?",
+        "options": [
+          "The Listeners",
+          "The Haunted Hill",
+          "The Empty Hall",
+          "The Dark Forest"
+        ],
+        "answer": 0,
+        "explanation": "'The Listeners' is said to be his most famous poem."
+      },
+      {
+        "question": "True or False Book Back Check: The Traveller came at noon.",
+        "options": [
+          "True",
+          "False",
+          "Partially True",
+          "Not mentioned"
+        ],
+        "answer": 1,
+        "explanation": "It is False. The quote 'Knocking on the moonlit door' indicates he came at night."
+      },
+      {
+        "question": "True or False Book Back Check: The house was situated in the forest.",
+        "options": [
+          "True",
+          "False",
+          "Partially True",
+          "Not mentioned"
+        ],
+        "answer": 0,
+        "explanation": "It is True. The poem mentions 'Of the forest's ferny floor'."
+      },
+      {
+        "question": "True or False Book Back Check: There were ghostly listeners inside the house.",
+        "options": [
+          "True",
+          "False",
+          "Partially True",
+          "Not mentioned"
+        ],
+        "answer": 0,
+        "explanation": "It is True. The poem talks about 'a host of phantom listeners'."
+      },
+      {
+        "question": "True or False Book Back Check: The Traveller came to the house by bicycle.",
+        "options": [
+          "True",
+          "False",
+          "Partially True",
+          "Not mentioned"
+        ],
+        "answer": 1,
+        "explanation": "It is False. The Traveller came on horseback ('And his horse in the silence')."
+      },
+      {
+        "question": "True or False Book Back Check: The phantoms answered and asked the traveller to go away.",
+        "options": [
+          "True",
+          "False",
+          "Partially True",
+          "Not mentioned"
+        ],
+        "answer": 1,
+        "explanation": "It is False. They did not answer; they just 'Stood listening in the quiet'."
+      },
+      {
+        "question": "Which figure of speech is used in the phrase 'forest’s ferny floor'?",
+        "options": [
+          "Simile",
+          "Metaphor",
+          "Alliteration",
+          "Personification"
+        ],
+        "answer": 2,
+        "explanation": "The repetition of the 'f' consonant sound in 'forest', 'ferny', and 'floor' is Alliteration."
+      },
+      {
+        "question": "Pick out the rhyming word for 'head' from the poem.",
+        "options": [
+          "Door",
+          "Said",
+          "Hall",
+          "Still"
+        ],
+        "answer": 1,
+        "explanation": "In the poem, 'head' rhymes with 'said'."
+      },
+      {
+        "question": "Pick out the rhyming word for 'sill' from the poem.",
+        "options": [
+          "Call",
+          "Hall",
+          "Men",
+          "Still"
+        ],
+        "answer": 3,
+        "explanation": "In the poem, 'sill' rhymes with 'still'."
+      },
+      {
+        "question": "Pick out the rhyming word for 'then' from the poem.",
+        "options": [
+          "Men",
+          "Floor",
+          "Door",
+          "Said"
+        ],
+        "answer": 0,
+        "explanation": "In the poem, 'then' rhymes with 'men'."
+      },
+      {
+        "question": "Pick out the rhyming word for 'hall' from the poem.",
+        "options": [
+          "Still",
+          "Call",
+          "Door",
+          "Men"
+        ],
+        "answer": 1,
+        "explanation": "In the poem, 'hall' rhymes with 'call'."
+      },
+      {
+        "question": "Which of the following phrases from the poem creates a sense of mystery?",
+        "options": [
+          "His horse in the silence",
+          "Knocking on the door",
+          "Phantom listeners",
+          "Grey eyes"
+        ],
+        "answer": 2,
+        "explanation": "The phrase 'phantom listeners' introduces supernatural elements, creating a deep sense of mystery."
+      },
+      {
+        "question": "Who is the speaker in the poem?",
+        "options": [
+          "The Traveller",
+          "The Phantom",
+          "An unseen observer/narrator",
+          "The Horse"
+        ],
+        "answer": 2,
+        "explanation": "The poem is told in the third person by an unseen narrator describing the Traveller's actions."
+      },
+      {
+        "question": "What overall feeling or mood does the poem create?",
+        "options": [
+          "Joyful and exciting",
+          "Comical and funny",
+          "Eerie and mysterious",
+          "Romantic and soft"
+        ],
+        "answer": 2,
+        "explanation": "The silent phantoms, the lone house in the forest, and the unanswered calls create an eerie, mysterious feeling."
+      },
+      {
+        "question": "Why is the Traveller described as 'lonely'?",
+        "options": [
+          "He doesn't have a horse",
+          "He is the only living human in the supernatural, isolated setting",
+          "He lost his family",
+          "He hates people"
+        ],
+        "answer": 1,
+        "explanation": "He is 'lonely' because he is isolated in the dark forest and receives no response to his human voice."
+      },
+      {
+        "question": "What does the contrast between the loud knocking and the absolute silence highlight?",
+        "options": [
+          "The Traveller's anger",
+          "The deafness of the phantoms",
+          "The spooky isolation and barrier between the living and the dead",
+          "The thickness of the door"
+        ],
+        "answer": 2,
+        "explanation": "The contrast emphasizes the impenetrable barrier between the Traveller (the living) and the phantoms (the supernatural)."
+      },
+      {
+        "question": "What action indicates that the house had been abandoned by living beings for a long time?",
+        "options": [
+          "The bird flying out of the turret",
+          "The door being locked",
+          "The horse eating grass",
+          "The moonlight shining"
+        ],
+        "answer": 0,
+        "explanation": "A bird flying out of the turret implies that nature has taken over the building and it has been abandoned by humans."
+      },
+      {
+        "question": "What does the phrase 'voice from the world of men' suggest?",
+        "options": [
+          "There is a world of animals nearby",
+          "The listeners belong to a different world, the supernatural world",
+          "The Traveller is an alien",
+          "The house is in a busy city"
+        ],
+        "answer": 1,
+        "explanation": "It emphasizes that the Traveller belongs to the living world ('world of men'), unlike the phantom listeners."
+      },
+      {
+        "question": "In the 'Warm Up' section, at what time of the day is a hypothetical mysterious scenario described?",
+        "options": [
+          "12 midnight",
+          "12 noon",
+          "6 AM",
+          "6 PM"
+        ],
+        "answer": 1,
+        "explanation": "The warm up says, 'You are walking into a grove at 12 noon. You feel that somebody is following you.'"
+      },
+      {
+        "question": "How many times does the poem explicitly mention the Traveller knocking or smiting the door?",
+        "options": [
+          "Only once",
+          "Twice",
+          "Three times",
+          "Four times"
+        ],
+        "answer": 1,
+        "explanation": "He knocks initially ('Knocking on the moonlit door') and then 'smote upon the door again a second time'."
+      },
+      {
+        "question": "What detail shows that the Traveller was looking closely for any sign of life inside?",
+        "options": [
+          "He looked at the horse",
+          "He waited for a head to lean over the leaf-fringed sill",
+          "He broke the door",
+          "He climbed the turret"
+        ],
+        "answer": 1,
+        "explanation": "He expected someone to look down at him from the window ('No head from the leaf-fringed sill Leaned over')."
+      },
+      {
+        "question": "HOTS Question: What is the significance of the 'faint moonbeams on the dark stair'?",
+        "options": [
+          "It helps the Traveller see the ghosts",
+          "It highlights the eerie emptiness and the shadows where the phantoms gather",
+          "It shows that morning is approaching",
+          "It proves the house has electricity"
+        ],
+        "answer": 1,
+        "explanation": "The moonbeams create a spooky lighting effect that emphasizes the dark, empty nature of the house where spirits crowd."
+      },
+      {
+        "question": "HOTS Question: Why does the poet use the word 'host' to describe the listeners?",
+        "options": [
+          "They are welcoming the Traveller as guests",
+          "To indicate there is a large, overwhelming number of phantoms present",
+          "To show they own the house",
+          "To mean they are offering food"
+        ],
+        "answer": 1,
+        "explanation": "In this context, a 'host' means a large multitude or crowd, intensifying the supernatural presence."
+      },
+      {
+        "question": "HOTS Question: What does the Traveller’s 'perplexed and still' reaction reveal about his state of mind?",
+        "options": [
+          "He knows exactly what to do next",
+          "He is terrified and running away",
+          "He is confused by the unnatural silence despite sensing a presence",
+          "He is simply taking a rest"
+        ],
+        "answer": 2,
+        "explanation": "He feels an unnatural vibe and is baffled because he expects a human response but gets only eerie silence."
+      },
+      {
+        "question": "What is meant by the 'lone house'?",
+        "options": [
+          "A house available for loan",
+          "A single, isolated house standing by itself",
+          "A broken down house",
+          "A newly built house"
+        ],
+        "answer": 1,
+        "explanation": "'Lone' means solitary or isolated, emphasizing its remote location in the forest."
+      },
+      {
+        "question": "Which sensory detail does the poet use to break the silence in the first few lines?",
+        "options": [
+          "The sight of the moon",
+          "The smell of the ferns",
+          "The sound of the horse champing grasses",
+          "The colour of the Traveller's eyes"
+        ],
+        "answer": 2,
+        "explanation": "The noisy chewing ('champing') of the horse is a sound that contrasts with the deep silence of the forest."
+      },
+      {
+        "question": "What was 'stirred and shaken' by the Traveller's call?",
+        "options": [
+          "The trees",
+          "The water in the river",
+          "The air",
+          "The doors"
+        ],
+        "answer": 2,
+        "explanation": "The poem says, 'Hearkening in an air stirred and shaken / By the lonely Traveller’s call.'"
+      },
+      {
+        "question": "How did the Traveller interact with the door?",
+        "options": [
+          "He pushed it open gently",
+          "He knocked and smote upon it",
+          "He kicked it down",
+          "He painted it"
+        ],
+        "answer": 1,
+        "explanation": "He is described as 'Knocking' and later he 'smote' (knocked loudly) upon it."
+      },
+      {
+        "question": "HOTS Question: The phrase 'dwelt in the lone house then' implies what about the phantoms?",
+        "options": [
+          "They are just visiting for the night",
+          "The house is their permanent supernatural residence now",
+          "They are hiding from the Traveller",
+          "They are trapped in the basement"
+        ],
+        "answer": 1,
+        "explanation": "The word 'dwelt' means lived or resided, indicating that the spirits are the actual 'inhabitants' of the abandoned house."
+      }
+    ]
+  }
+}

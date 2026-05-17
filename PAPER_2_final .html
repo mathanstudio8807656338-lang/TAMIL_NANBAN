@@ -1,0 +1,1315 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400;500;600;700;800&family=Noto+Sans+Tamil:wght@400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>A1 Admin - Tamil JSON Support</title>
+    <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <style>
+/* --- BRAND HEADER --- */
+.header-standard {
+    background: #ffffff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #1e3a8a;
+    border-bottom: 1px solid #1e3a8a;
+}
+.brand-container {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.brand-main {
+    font-family: 'Baloo Thambi 2', cursive;
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: #1e3a8a;
+    line-height: 1.2;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+.brand-sub {
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #ef4444;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-top: -2px;
+}
+@media (max-width: 480px) {
+    .brand-main { font-size: 1.5rem; }
+    .brand-sub { font-size: 0.65rem; }
+    .header-standard { height: 60px; }
+}
+
+/* Bottom Nav */
+.bottom-nav {
+    position: fixed;
+    bottom: 0; left: 0; right: 0;
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.6rem 0.4rem;
+    box-shadow: 0 -4px 20px rgba(0,0,0,0.08);
+    z-index: 1000;
+    border-top: 1px solid #f1f5f9;
+}
+.nav-item {
+    text-decoration: none;
+    color: #64748b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.65rem;
+    font-weight: 700;
+    gap: 4px;
+    flex: 1;
+    transition: color 0.3s ease;
+}
+.nav-item.active { color: #1e3a8a; }
+.nav-item.logout { color: #ef4444; }
+.nav-icon { font-size: 1.2rem; margin-bottom: 2px; }
+
+/* Global fixes */
+body {
+    padding-bottom: 80px;
+}
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --primary: #2563eb;
+            --primary-dark: #1d4ed8;
+            --secondary: #10b981;
+            --danger: #ef4444;
+            --bg: #f8fafc;
+            --card: #ffffff;
+            --border: #e2e8f0;
+            --text: #1e293b;
+        }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 2rem 1rem;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 24px;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: white;
+            padding: 2.5rem 2rem;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 1.75rem;
+            font-weight: 800;
+            margin-bottom: 0.5rem;
+        }
+        
+        .header .subtitle {
+            font-size: 1rem;
+            opacity: 0.95;
+            margin-top: 0.5rem;
+        }
+        
+        .content {
+            padding: 2rem;
+        }
+        
+        .section {
+            background: var(--bg);
+            padding: 1.5rem;
+            border-radius: 16px;
+            margin-bottom: 1.5rem;
+            border: 2px solid var(--border);
+        }
+        
+        .section-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+            padding-bottom: 0.75rem;
+            border-bottom: 2px solid var(--border);
+        }
+        
+        .section-title {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .badge {
+            background: var(--primary);
+            color: white;
+            padding: 0.25rem 0.75rem;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+        
+        .form-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+        
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+        
+        label {
+            font-weight: 600;
+            color: var(--text);
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        input, select {
+            padding: 0.75rem 1rem;
+            border: 2px solid var(--border);
+            border-radius: 12px;
+            font-size: 1rem;
+            font-family: inherit;
+            transition: all 0.3s;
+            background: white;
+        }
+        
+        input:focus, select:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+        }
+        
+        input[readonly] {
+            background: #f1f5f9;
+            color: var(--primary);
+            font-weight: 700;
+        }
+        
+        .btn {
+            padding: 0.75rem 1.5rem;
+            border: none;
+            border-radius: 12px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+        }
+        
+        .btn-primary {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px -5px rgba(37, 99, 235, 0.5);
+        }
+        
+        .btn-secondary {
+            background: linear-gradient(135deg, var(--secondary) 0%, #059669 100%);
+            color: white;
+        }
+        
+        .btn-secondary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px -5px rgba(16, 185, 129, 0.5);
+        }
+        
+        .btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+        
+        .upload-area {
+            border: 3px dashed var(--border);
+            border-radius: 16px;
+            padding: 2rem;
+            text-align: center;
+            background: white;
+            transition: all 0.3s;
+            cursor: pointer;
+        }
+        
+        .upload-area:hover {
+            border-color: var(--primary);
+            background: #f0f7ff;
+        }
+        
+        .upload-icon {
+            font-size: 3rem;
+            color: var(--primary);
+            margin-bottom: 1rem;
+        }
+        
+        .file-input {
+            display: none;
+        }
+        
+        .file-info {
+            background: #ecfdf5;
+            border: 2px solid #86efac;
+            border-radius: 12px;
+            padding: 1rem;
+            margin-top: 1rem;
+            display: none;
+        }
+        
+        .file-info.show {
+            display: block;
+        }
+        
+        .status-message {
+            padding: 1rem;
+            border-radius: 12px;
+            margin-top: 1rem;
+            font-weight: 600;
+            text-align: center;
+            display: none;
+        }
+        
+        .status-message.success {
+            background: #dcfce7;
+            color: #166534;
+            border: 2px solid #86efac;
+            display: block;
+        }
+        
+        .status-message.error {
+            background: #fee2e2;
+            color: #991b1b;
+            border: 2px solid #fca5a5;
+            display: block;
+        }
+        
+        .status-message.info {
+            background: #dbeafe;
+            color: #1e40af;
+            border: 2px solid #93c5fd;
+            display: block;
+        }
+        
+        .info-box {
+            background: #fef3c7;
+            border: 2px solid #fbbf24;
+            border-radius: 12px;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            display: flex;
+            gap: 0.75rem;
+        }
+        
+        .info-box ion-icon {
+            font-size: 1.5rem;
+            color: #d97706;
+            flex-shrink: 0;
+        }
+        
+        .settings-panel {
+            background: #f1f5f9;
+            padding: 1.5rem;
+            border-radius: 16px;
+            margin-bottom: 2rem;
+            border: 2px solid var(--border);
+        }
+        
+        .action-bar {
+            display: flex;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+        
+        .action-bar .btn {
+            flex: 1;
+        }
+        
+        /* JSON Preview Panel */
+        .json-preview-panel {
+            background: #f0fdf4;
+            border: 2px solid #86efac;
+            border-radius: 16px;
+            padding: 1.25rem;
+            margin-top: 1rem;
+            display: none;
+        }
+        .json-preview-panel.show { display: block; }
+        .json-preview-title {
+            font-weight: 700;
+            color: #166534;
+            font-size: 0.95rem;
+            margin-bottom: 0.75rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .json-fields-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            gap: 0.6rem;
+        }
+        .json-field-chip {
+            background: white;
+            border: 1.5px solid #86efac;
+            border-radius: 10px;
+            padding: 0.5rem 0.75rem;
+            font-size: 0.82rem;
+        }
+        .json-field-chip .chip-label {
+            color: #6b7280;
+            font-weight: 600;
+            font-size: 0.72rem;
+            text-transform: uppercase;
+            letter-spacing: 0.4px;
+        }
+        .json-field-chip .chip-value {
+            color: #166534;
+            font-weight: 700;
+            margin-top: 0.2rem;
+            word-break: break-all;
+        }
+        .chip-missing { border-color: #fca5a5 !important; }
+        .chip-missing .chip-value { color: #dc2626; }
+
+        /* Subject detect badge */
+        .auto-detect-badge {
+            background: #d1fae5;
+            color: #065f46;
+            border: 1.5px solid #6ee7b7;
+            border-radius: 8px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            padding: 0.2rem 0.6rem;
+            margin-left: 0.5rem;
+            display: none;
+        }
+        .auto-detect-badge.show { display: inline-block; }
+
+        /* Validation warning */
+        .validation-warning {
+            background: #fff7ed;
+            border: 2px solid #fdba74;
+            border-radius: 12px;
+            padding: 0.85rem 1rem;
+            margin-top: 0.75rem;
+            color: #9a3412;
+            font-size: 0.88rem;
+            font-weight: 600;
+            display: none;
+        }
+        .validation-warning.show { display: block; }
+
+        @media (max-width: 768px) {
+            body { padding: 1rem; }
+            .header h1 { font-size: 1.25rem; }
+            .form-grid { grid-template-columns: 1fr; }
+            .action-bar { flex-direction: column; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎓 A1 Online Coaching Center</h1>
+            <p class="subtitle">⚡ Tamil JSON Direct Upload - Auto Convert</p>
+            <p style="font-size: 0.85rem; margin-top: 0.75rem; opacity: 0.9;">
+                ✓ Tamil Format Support | ✓ Auto Field Fill | ✓ Frontend Convert
+            </p>
+        </div>
+        
+        <div class="content">
+            <!-- GitHub Settings -->
+            <div class="settings-panel">
+                <div class="section-header">
+                    <div class="section-title">
+                        <ion-icon name="logo-github"></ion-icon>
+                        GitHub Configuration
+                    </div>
+                </div>
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label>GitHub Username</label>
+                        <input type="text" id="gh_user" placeholder="muthukannan0510-dotcom">
+                    </div>
+                    <div class="form-group">
+                        <label>Repository Name</label>
+                        <input type="text" id="gh_repo" placeholder="a1lms">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Personal Access Token</label>
+                    <input type="password" id="gh_token" placeholder="ghp_xxxxxxxxxxxxx">
+                </div>
+                <button class="btn btn-primary" onclick="saveSettings()">
+                    <ion-icon name="save-outline"></ion-icon>
+                    Save Settings
+                </button>
+            </div>
+            
+            <!-- Auto-Filled Info -->
+            <div class="section">
+                <div class="section-header">
+                    <div class="section-title">
+                        <ion-icon name="information-circle-outline"></ion-icon>
+                        பாடம் தகவல்கள் (Auto-Filled)
+                    </div>
+                    <span class="badge" id="codeDisplay">-</span>
+                </div>
+                
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label>Subject <span class="auto-detect-badge" id="subjectBadge">✓ Auto Detected</span></label>
+                        <select id="subject" onchange="updateCode()">
+                            <option value="social">Social Science</option>
+                            <option value="science">Science</option>
+                            <option value="tamil">Tamil</option>
+                            <option value="english">English</option>
+                            <option value="maths">Mathematics</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>Grade / வகுப்பு</label>
+                        <input type="text" id="grade" readonly>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>Term / பருவம்</label>
+                        <input type="text" id="term" readonly>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>Unit / பாட எண்</label>
+                        <input type="text" id="unit" readonly>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label>Lesson Title / பாட தலைப்பு</label>
+                    <input type="text" id="lessonTitle" readonly>
+                </div>
+                
+                <div class="form-group">
+                    <label>File Code (Auto Generated)</label>
+                    <input type="text" id="file_code" readonly>
+                </div>
+            </div>
+            
+            <!-- JSON Upload -->
+            <div class="section">
+                <div class="section-header">
+                    <div class="section-title">
+                        <ion-icon name="cloud-upload-outline"></ion-icon>
+                        JSON File Upload
+                    </div>
+                </div>
+                
+                <div class="info-box">
+                    <ion-icon name="shield-checkmark-outline"></ion-icon>
+                    <div>
+                        <strong>Tamil Format Support:</strong><br>
+                        • வகுப்பு, பருவம், பாட_எண், பாட_தலைப்பு format ✓<br>
+                        • Auto-converts to frontend format ✓<br>
+                        • பாட தலைப்பு field auto-filled ✓
+                    </div>
+                </div>
+                
+                <input type="file" id="jsonFileInput" class="file-input" accept=".json" onchange="handleFileSelect(event)">
+                
+                <div class="upload-area" onclick="document.getElementById('jsonFileInput').click()">
+                    <div class="upload-icon">
+                        <ion-icon name="cloud-upload"></ion-icon>
+                    </div>
+                    <h3>Tamil JSON File-ஐ Upload செய்யவும்</h3>
+                    <p style="color: #64748b; margin-top: 0.5rem;">Click or drag and drop</p>
+                </div>
+                
+                <div id="fileInfo" class="file-info">
+                    <div style="display: flex; align-items: center; gap: 1rem;">
+                        <ion-icon name="document" style="font-size: 2rem; color: #059669;"></ion-icon>
+                        <div style="flex: 1;">
+                            <div style="font-weight: 700; color: #166534;" id="fileName"></div>
+                            <div style="font-size: 0.85rem; color: #166534; margin-top: 0.25rem;" id="fileSize"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- JSON Preview Panel -->
+                <div class="json-preview-panel" id="jsonPreviewPanel">
+                    <div class="json-preview-title">
+                        <ion-icon name="checkmark-circle-outline"></ion-icon>
+                        JSON இலிருந்து Auto-Detected Fields
+                    </div>
+                    <div class="json-fields-grid" id="jsonFieldsGrid">
+                        <!-- chips filled by JS -->
+                    </div>
+                </div>
+
+                <!-- Validation Warning -->
+                <div class="validation-warning" id="validationWarning"></div>
+            </div>
+            
+            <!-- Action Buttons -->
+            <div class="action-bar">
+                <button class="btn btn-secondary" onclick="uploadToGitHub()" id="uploadBtn" disabled>
+                    <ion-icon name="cloud-upload-outline"></ion-icon>
+                    Upload to GitHub (Auto-Convert + Map + Syllabus)
+                </button>
+            </div>
+            
+            <!-- Status Message -->
+            <div id="statusMessage" class="status-message"></div>
+        </div>
+    </div>
+
+    <script>
+        let tamilJsonData = null;
+        let convertedData = null;
+        
+        function loadSettings() {
+            const s = JSON.parse(localStorage.getItem('A1_GH_SETTINGS') || '{}');
+            document.getElementById('gh_user').value = s.user || 'muthukannan0510-dotcom';
+            document.getElementById('gh_repo').value = s.repo || 'a1lms';
+            document.getElementById('gh_token').value = s.token || '';
+        }
+        
+        function saveSettings() {
+            const s = {
+                user: document.getElementById('gh_user').value.trim(),
+                repo: document.getElementById('gh_repo').value.trim(),
+                token: document.getElementById('gh_token').value.trim()
+            };
+            
+            if (!s.user || !s.repo || !s.token) {
+                showStatus('அனைத்து settings களையும் நிரப்பவும்!', 'error');
+                return;
+            }
+            
+            localStorage.setItem('A1_GH_SETTINGS', JSON.stringify(s));
+            showStatus('✅ Settings saved!', 'success');
+        }
+        
+        function updateCode() {
+            if (!tamilJsonData) return;
+            
+            const subject = document.getElementById('subject').value;
+            const grade = document.getElementById('grade').value;
+            const term = 't' + document.getElementById('term').value;
+            const unit = document.getElementById('unit').value;
+            
+            let prefix = subject.substring(0, 3);
+            if (subject === 'maths') prefix = 'mat';
+            if (subject === 'tamil') prefix = 'tam';
+            
+            const code = `${prefix}_${grade}_${term}_l${unit}`;
+            document.getElementById('file_code').value = code;
+            document.getElementById('codeDisplay').textContent = code;
+        }
+        
+        // Subject keyword map for auto-detection
+        const SUBJECT_KEYWORDS = {
+            social:  ['social', 'சமூக', 'சமூகவியல்', 'history', 'வரலாறு', 'civics', 'குடிமையியல்', 'geography', 'புவியியல்'],
+            science: ['science', 'அறிவியல்', 'physics', 'chemistry', 'biology'],
+            tamil:   ['tamil', 'தமிழ்', 'இலக்கணம்', 'இலக்கியம்'],
+            english: ['english', 'ஆங்கிலம்'],
+            maths:   ['maths', 'mathematics', 'கணிதம்', 'math']
+        };
+
+        function detectSubject(json) {
+            // Check explicit subject field first
+            const raw = (json.பாடம் || json.subject || json.Subject || '').toString().toLowerCase().trim();
+            if (raw) {
+                for (const [key, keywords] of Object.entries(SUBJECT_KEYWORDS)) {
+                    if (keywords.some(k => raw.includes(k))) return key;
+                }
+            }
+            return null;
+        }
+
+        function showJsonPreview(data, jsonFormat) {
+            const fields = [
+                { label: 'வகுப்பு (Grade)',      value: data.grade      || '', missing: !data.grade },
+                { label: 'பருவம் (Term)',         value: data.term       || '', missing: !data.term  },
+                { label: 'பாட எண் (Unit)',        value: data.unit       || '', missing: !data.unit  },
+                { label: 'பாட தலைப்பு (Title)',  value: data.title      || '', missing: !data.title },
+                { label: 'பாடம் (Subject)',       value: data.subjectVal || '—', missing: false },
+                { label: 'கேள்விகள் (Questions)', value: data.qCount > 0 ? data.qCount + ' உள்ளன ✓' : '—', missing: false },
+                { label: 'பாடக்குறிப்பு (Sections)', value: data.secCount > 0 ? data.secCount + ' உள்ளன ✓' : (jsonFormat==='tamil' ? 'Converting...' : '⚠ 0'), missing: false },
+                { label: 'JSON Format',           value: jsonFormat === 'frontend' ? '✅ Ready Format' : '🔄 Tamil → Converting', missing: false }
+            ];
+
+            const grid = document.getElementById('jsonFieldsGrid');
+            grid.innerHTML = '';
+            const missing = [];
+
+            fields.forEach(f => {
+                if (f.missing) missing.push(f.label);
+                const chip = document.createElement('div');
+                chip.className = 'json-field-chip' + (f.missing ? ' chip-missing' : '');
+                chip.innerHTML = `<div class="chip-label">${f.label}</div>
+                    <div class="chip-value">${f.value || '⚠ இல்லை'}</div>`;
+                grid.appendChild(chip);
+            });
+
+            document.getElementById('jsonPreviewPanel').classList.add('show');
+
+            const warn = document.getElementById('validationWarning');
+            if (missing.length) {
+                warn.innerHTML = `⚠ இந்த fields கிடைக்கவில்லை: <b>${missing.join(', ')}</b><br>மஞ்சள் நிற boxes-ல் கையாக நிரப்பவும்.`;
+                warn.classList.add('show');
+            } else {
+                warn.classList.remove('show');
+            }
+        }
+
+        // Parse meta from filename: tam_3_t1_l2.json → {subject:'tamil', grade:'3', term:'1', unit:'2'}
+        function parseMetaFromFilename(filename) {
+            const name = filename.replace('.json','').toLowerCase();
+            const parts = name.split('_');
+            // Expected pattern: <subjectPrefix>_<grade>_t<term>_l<unit>
+            const subjectPrefixMap = {
+                'tam': 'tamil', 'soc': 'social', 'sci': 'science',
+                'eng': 'english', 'mat': 'maths', 'his': 'social',
+                'geo': 'social', 'civ': 'social'
+            };
+            let result = { grade: '', term: '', unit: '', subject: null };
+            if (parts.length >= 4) {
+                result.subject = subjectPrefixMap[parts[0]] || null;
+                result.grade   = parts[1] || '';
+                const tPart    = parts[2] || ''; // t1
+                result.term    = tPart.replace('t','') || '';
+                const lPart    = parts[3] || ''; // l2
+                result.unit    = lPart.replace('l','') || '';
+            }
+            return result;
+        }
+
+        // ── Smart Bullet Point Formatter ─────────────────────────────────
+        function formatContentAsBullets(content) {
+            if (!content) return content;
+
+            // ── \n உள்ளது — line-by-line smart processing ──────────────
+            if (content.includes('\n')) {
+                const lines = content.split('\n');
+                const result = [];
+                let prevBlank = false;
+
+                for (let line of lines) {
+                    line = line.trim();
+
+                    // blank line → section gap
+                    if (!line) {
+                        if (!prevBlank && result.length) result.push('');
+                        prevBlank = true;
+                        continue;
+                    }
+                    prevBlank = false;
+
+                    // Section header ending with ":" (not கூற்று/காரணம்)
+                    if (line.endsWith(':') && !line.startsWith('கூற்று') && !line.startsWith('காரணம்')) {
+                        result.push('▸ ' + line);
+                        continue;
+                    }
+
+                    // கூற்று: ... காரணம்: ... same line → split into 2 bullets
+                    if (line.includes('கூற்று:') && line.includes('காரணம்:')) {
+                        const kMatch = line.match(/கூற்று:(.*?)காரணம்:/s);
+                        const rMatch = line.match(/காரணம்:(.*?)(\(விடை[^)]*\))?$/s);
+                        const vMatch = line.match(/\(விடை[^)]*\)/);
+                        if (kMatch && rMatch) {
+                            result.push('• கூற்று: ' + kMatch[1].trim());
+                            let rText = rMatch[1].replace(/\s*\(விடை[^)]*\)\s*$/, '').trim();
+                            result.push('• காரணம்: ' + rText);
+                            if (vMatch) result.push('  ' + vMatch[0]);
+                        } else {
+                            result.push('• ' + line);
+                        }
+                        continue;
+                    }
+
+                    // numbered "1. xxx" → bullet
+                    const numMatch = line.match(/^(\d+)\.\s+(.+)/);
+                    if (numMatch) {
+                        result.push('• ' + numMatch[2]);
+                        continue;
+                    }
+
+                    // plain line → bullet
+                    if (!line.startsWith('•') && !line.startsWith('▸')) {
+                        result.push('• ' + line);
+                    } else {
+                        result.push(line);
+                    }
+                }
+
+                // trim trailing blank
+                while (result.length && result[result.length-1] === '') result.pop();
+                return result.join('\n');
+            }
+
+            // ── "–" + ";" format (no \n) ───────────────────────────────
+            if (content.includes('–') && content.includes(';')) {
+                const introMatch = content.match(/^(.*?\.)[\s]*(.*)/s);
+                let intro = '', bulletPart = content;
+                if (introMatch && !introMatch[1].includes('–')) {
+                    intro = introMatch[1].trim();
+                    bulletPart = introMatch[2].trim();
+                }
+                const items = bulletPart.split(';').map(x => x.trim().replace(/\.$/, '')).filter(Boolean);
+                const lines = intro ? [intro] : [];
+                items.forEach(item => lines.push('• ' + item));
+                return lines.join('\n');
+            }
+
+            // ── numbered inline "1. xxx 2. xxx" ──────────────────────
+            if (/\d+\./.test(content)) {
+                const m = content.match(/^(.*?)\s*1\.\s+(.*)/s);
+                if (m) {
+                    const intro = m[1].trim();
+                    const items = ('1. ' + m[2]).split(/\s*\d+\.\s+/).filter(Boolean);
+                    const lines = intro ? [intro] : [];
+                    items.forEach(i => lines.push('• ' + i.trim()));
+                    return lines.join('\n');
+                }
+            }
+
+            return content;
+        }
+
+        // ── கூற்று-காரணம் Question Fix ────────────────────────────────────
+        // "கூற்று (A): xxx. காரணம் (R): yyy." → "கூற்று (A): xxx.\nகாரணம் (R): yyy."
+        function fixKootruKaaranamInQuestion(text) {
+            if (!text) return text;
+            // Match: கூற்று (A): ... காரணம் (R): ...
+            // Also handle: கூற்று: ... காரணம்: ...
+            // Insert \n before காரணம் if not already on new line
+            return text
+                .replace(/(கூற்று\s*(?:\([^)]*\))?\s*:.*?)\s+(காரணம்\s*(?:\([^)]*\))?\s*:)/g, '$1\n$2')
+                .replace(/(Assertion\s*(?:\([^)]*\))?\s*:.*?)\s+(Reason\s*(?:\([^)]*\))?\s*:)/gi, '$1\n$2');
+        }
+
+        function fixAllQuestions(data) {
+            if (data?.quiz?.questions) {
+                data.quiz.questions = data.quiz.questions.map(q => ({
+                    ...q,
+                    question: fixKootruKaaranamInQuestion(q.question)
+                }));
+            }
+            return data;
+        }
+
+        function applyBulletFormatToSections(data) {
+            if (data?.material?.sections) {
+                data.material.sections = data.material.sections.map(section => ({
+                    ...section,
+                    content: formatContentAsBullets(section.content)
+                }));
+            }
+            // Fix கூற்று-காரணம் in quiz questions too
+            fixAllQuestions(data);
+            return data;
+        }
+
+        function detectJsonFormat(json) {
+            if (json.lesson_meta && json.quiz && json.material) return 'frontend';
+            return 'tamil';
+        }
+
+        function handleFileSelect(event) {
+            const file = event.target.files[0];
+            if (!file) return;
+            
+            if (!file.name.endsWith('.json')) {
+                showStatus('JSON file மட்டும் upload செய்யவும்!', 'error');
+                return;
+            }
+            
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                try {
+                    tamilJsonData = JSON.parse(e.target.result);
+
+                    const fileMeta   = parseMetaFromFilename(file.name);
+                    const jsonFormat = detectJsonFormat(tamilJsonData);
+
+                    let grade, term, unit, title, subjectVal;
+
+                    if (jsonFormat === 'frontend') {
+                        // ── Already converted format: lesson_meta இலிருந்து நேரடியாக படிக்க ──
+                        const meta = tamilJsonData.lesson_meta;
+                        grade      = (meta.grade   || fileMeta.grade || '').toString();
+                        const termRaw = (meta.term || '').toString(); // "t1"
+                        term       = termRaw.replace('t','') || fileMeta.term || '';
+                        unit       = (meta.unit || '').toString().replace('l','') || fileMeta.unit || '';
+                        title      = meta.title || '';
+                        subjectVal = meta.subject || fileMeta.subject || null;
+
+                        // Direct use — apply bullet format
+                        convertedData = applyBulletFormatToSections(tamilJsonData);
+
+                    } else {
+                        // ── Tamil raw format: filename fallback ──────────────
+                        grade      = (tamilJsonData.வகுப்பு  || fileMeta.grade || '').toString();
+                        term       = (tamilJsonData.பருவம்    || fileMeta.term  || '').toString();
+                        unit       = (tamilJsonData.பாட_எண்   || fileMeta.unit  || '').toString();
+                        title      =  tamilJsonData.பாட_தலைப்பு || '';
+                        subjectVal = detectSubject(tamilJsonData) || fileMeta.subject;
+
+                        // Store fallbacks for convertTamilToFrontend
+                        tamilJsonData._grade = grade;
+                        tamilJsonData._term  = term;
+                        tamilJsonData._unit  = unit;
+                        tamilJsonData._title = title;
+
+                        convertedData = applyBulletFormatToSections(convertTamilToFrontend(tamilJsonData));
+                    }
+
+                    // ── Subject dropdown ────────────────────────────────────
+                    const badge = document.getElementById('subjectBadge');
+                    if (subjectVal) {
+                        document.getElementById('subject').value = subjectVal;
+                        badge.classList.add('show');
+                    } else {
+                        badge.classList.remove('show');
+                    }
+
+                    // ── Fill form fields ────────────────────────────────────
+                    document.getElementById('grade').value       = grade;
+                    document.getElementById('term').value        = term;
+                    document.getElementById('unit').value        = unit;
+                    document.getElementById('lessonTitle').value = title;
+
+                    // Yellow highlight for empty fields → user must type
+                    ['grade','term','unit','lessonTitle'].forEach(id => {
+                        const el = document.getElementById(id);
+                        const isEmpty = !el.value.trim();
+                        el.readOnly = !isEmpty;
+                        el.style.background  = isEmpty ? '#fffbeb' : '';
+                        el.style.borderColor = isEmpty ? '#fbbf24' : '';
+                        el.removeEventListener('input', updateCode);
+                        el.addEventListener('input', updateCode);
+                    });
+
+                    updateCode();
+                    
+                    // ── File Info ───────────────────────────────────────────
+                    const qCount = jsonFormat === 'frontend'
+                        ? (tamilJsonData.quiz?.questions?.length || 0)
+                        : (tamilJsonData.கேள்விகள்?.length || 0);
+                    const secCount = jsonFormat === 'frontend'
+                        ? (tamilJsonData.material?.sections?.length || 0)
+                        : 0;
+                    const formatBadge = jsonFormat === 'frontend' ? '✅ Frontend Format' : '🔄 Tamil Format → Converting';
+
+                    document.getElementById('fileName').textContent = file.name;
+                    document.getElementById('fileSize').textContent =
+                        `${(file.size/1024).toFixed(1)} KB | ${formatBadge} | ${qCount} Questions | ${secCount} Sections`;
+                    document.getElementById('fileInfo').classList.add('show');
+                    document.getElementById('uploadBtn').disabled = false;
+
+                    // ── JSON Preview ────────────────────────────────────────
+                    showJsonPreview({ grade, term, unit, title, subjectVal, qCount, secCount }, jsonFormat);
+                    
+                    showStatus(`✅ JSON loaded! ${formatBadge} — Fields auto-filled.`, 'success');
+                } catch (error) {
+                    showStatus('❌ Invalid JSON: ' + error.message, 'error');
+                    tamilJsonData = null;
+                    convertedData = null;
+                    document.getElementById('jsonPreviewPanel').classList.remove('show');
+                    document.getElementById('validationWarning').classList.remove('show');
+                }
+            };
+            reader.readAsText(file);
+        }
+        
+        function convertTamilToFrontend(tamilJson) {
+            const subject = document.getElementById('subject').value;
+
+            // Safe getters — JSON fields first, then _prefixed fallbacks from filename
+            const grade = ((tamilJson.வகுப்பு || tamilJson.grade || tamilJson._grade || '') + '').trim();
+            const termNum = ((tamilJson.பருவம்  || tamilJson.term  || tamilJson._term  || '') + '').trim();
+            const unit  = ((tamilJson.பாட_எண்  || tamilJson.unit  || tamilJson._unit  || '') + '').trim();
+            const title =  (tamilJson.பாட_தலைப்பு || tamilJson.title || tamilJson._title || '').trim();
+            const term  = termNum ? 't' + termNum : 't1';
+            
+            let prefix = subject.substring(0, 3);
+            if (subject === 'maths') prefix = 'mat';
+            if (subject === 'tamil') prefix = 'tam';
+            const code = `${prefix}_${grade}_${term}_l${unit}`;
+            
+            // Convert பாடக்குறிப்புகள் to material sections
+            const sections = [];
+            const notes = tamilJson.பாடக்குறிப்புகள்;
+            
+            if (notes) {
+                // Add பாடச்சுருக்கம்
+                if (notes.பாடச்சுருக்கம்) {
+                    sections.push({
+                        title: 'பாடச் சுருக்கம்',
+                        content: notes.பாடச்சுருக்கம்
+                    });
+                }
+                
+                // Add பாடக்கருத்துக்கள்
+                if (notes.பாடக்கருத்துக்கள் && Array.isArray(notes.பாடக்கருத்துக்கள்)) {
+                    notes.பாடக்கருத்துக்கள்.forEach(item => {
+                        const content = item.விவரங்கள் ? item.விவரங்கள்.join('\n\n') : '';
+                        sections.push({
+                            title: item.தலைப்பு,
+                            content: content
+                        });
+                    });
+                }
+                
+                // Add other sections
+                if (notes.தகவல்_பேழை) {
+                    sections.push({
+                        title: 'தகவல் பேழை',
+                        content: Array.isArray(notes.தகவல்_பேழை) ? notes.தகவல்_பேழை.join('\n\n') : notes.தகவல்_பேழை
+                    });
+                }
+                
+                if (notes.உங்களுக்கு_தெரியுமா) {
+                    sections.push({
+                        title: 'உங்களுக்குத் தெரியுமா?',
+                        content: Array.isArray(notes.உங்களுக்கு_தெரியுமா) ? notes.உங்களுக்கு_தெரியுமா.join('\n\n') : notes.உங்களுக்கு_தெரியுமா
+                    });
+                }
+                
+                if (notes.படம்_சார்ந்த_குறிப்புகள்) {
+                    sections.push({
+                        title: 'படம் சார்ந்த குறிப்புகள்',
+                        content: Array.isArray(notes.படம்_சார்ந்த_குறிப்புகள்) ? notes.படம்_சார்ந்த_குறிப்புகள்.join('\n\n') : notes.படம்_சார்ந்த_குறிப்புகள்
+                    });
+                }
+                
+                if (notes.நினைவில்_கொள்க) {
+                    sections.push({
+                        title: 'நினைவில் கொள்க',
+                        content: Array.isArray(notes.நினைவில்_கொள்க) ? notes.நினைவில்_கொள்க.join('\n\n') : notes.நினைவில்_கொள்க
+                    });
+                }
+                
+                if (notes.கலைச்சொற்கள்) {
+                    const terms = Array.isArray(notes.கலைச்சொற்கள்) 
+                        ? notes.கலைச்சொற்கள்.map(t => `${t.சொல்}: ${t.பொருள்}`).join('\n\n')
+                        : notes.கலைச்சொற்கள்;
+                    sections.push({
+                        title: 'கலைச்சொற்கள்',
+                        content: terms
+                    });
+                }
+            }
+            
+            // Convert கேள்விகள் to quiz questions
+            const questions = [];
+            if (tamilJson.கேள்விகள் && Array.isArray(tamilJson.கேள்விகள்)) {
+                tamilJson.கேள்விகள்.forEach(q => {
+                    const answerIndex = q.ஆப்ஷன்கள் ? q.ஆப்ஷன்கள்.indexOf(q.விடை) : 0;
+                    questions.push({
+                        question: q.கேள்வி || '',
+                        options: q.ஆப்ஷன்கள் || ['','','',''],
+                        answer: answerIndex >= 0 ? answerIndex : 0,
+                        explanation: q.விளக்கம் || ''
+                    });
+                });
+            }
+            
+            return {
+                lesson_meta: {
+                    title: title,
+                    unit: `l${unit}`,
+                    grade: grade,
+                    term: term,
+                    subject: subject,
+                    code: code
+                },
+                quiz: {
+                    questions: questions
+                },
+                material: {
+                    sections: sections
+                }
+            };
+        }
+        
+        async function uploadToGitHub() {
+            const settings = JSON.parse(localStorage.getItem('A1_GH_SETTINGS') || '{}');
+            if (!settings.user || !settings.repo || !settings.token) {
+                showStatus('முதலில் GitHub Settings configure செய்யவும்!', 'error');
+                return;
+            }
+            
+            if (!convertedData) {
+                showStatus('JSON file upload செய்யவும்!', 'error');
+                return;
+            }
+            
+            const btn = document.getElementById('uploadBtn');
+            btn.disabled = true;
+            
+            try {
+                const authHeader = {
+                    'Authorization': `token ${settings.token}`,
+                    'Accept': 'application/vnd.github.v3+json'
+                };
+                const repoUrl = `https://api.github.com/repos/${settings.user}/${settings.repo}`;
+                const v = Date.now();
+                
+                const data = convertedData;
+
+                // ── Re-read from form fields (user may have typed manually) ──
+                data.lesson_meta.grade   = document.getElementById('grade').value.trim()       || data.lesson_meta.grade   || '';
+                data.lesson_meta.term    = 't' + (document.getElementById('term').value.trim() || '1');
+                data.lesson_meta.unit    = document.getElementById('unit').value.trim()         || data.lesson_meta.unit    || '';
+                data.lesson_meta.title   = document.getElementById('lessonTitle').value.trim()  || data.lesson_meta.title   || '';
+                data.lesson_meta.subject = document.getElementById('subject').value;
+
+                // Regenerate code from live form values
+                const subject = data.lesson_meta.subject;
+                const grade   = data.lesson_meta.grade;
+                const term    = data.lesson_meta.term;
+                const unit    = data.lesson_meta.unit;
+                let pfx = subject.substring(0,3);
+                if (subject==='maths') pfx='mat';
+                if (subject==='tamil') pfx='tam';
+                data.lesson_meta.code = `${pfx}_${grade}_${term}_l${unit}`;
+
+                if (!grade)   { showStatus('❌ வகுப்பு (Grade) நிரப்பவும்!',    'error'); btn.disabled=false; return; }
+                if (!unit)    { showStatus('❌ பாட எண் (Unit) நிரப்பவும்!',     'error'); btn.disabled=false; return; }
+                if (!subject) { showStatus('❌ Subject தேர்வு செய்யவும்!',       'error'); btn.disabled=false; return; }
+
+                const keyFile  = data.lesson_meta.code;
+                const keyTitle = data.lesson_meta.title || keyFile;
+                
+                const jsonPath = `json-db/lessons/${subject}/${grade}/${keyFile}.json`;
+                
+                // 1. Upload JSON
+                showStatus('📤 Uploading JSON...', 'info');
+                const jsonUrl = `${repoUrl}/contents/${jsonPath}`;
+                let jsonSha = null;
+                
+                try {
+                    const getResp = await fetch(jsonUrl, { headers: authHeader });
+                    if (getResp.ok) jsonSha = (await getResp.json()).sha;
+                } catch (e) {}
+                
+                const jsonString = JSON.stringify(data, null, 2);
+                
+                const putResp = await fetch(jsonUrl, {
+                    method: 'PUT',
+                    headers: { ...authHeader, 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        message: `Upload: ${keyFile} - ${keyTitle}`,
+                        content: btoa(unescape(encodeURIComponent(jsonString))),
+                        sha: jsonSha
+                    })
+                });
+                
+                if (!putResp.ok) throw new Error('Upload failed');
+                
+                // 2. Update Map
+                showStatus('📥 Updating Map...', 'info');
+                const mapPath = "js/data/lessonMap.js";
+                const mapUrl = `${repoUrl}/contents/${mapPath}`;
+                const mapGet = await fetch(mapUrl + `?v=${v}`, { headers: authHeader });
+                
+                if (mapGet.ok) {
+                    const mapJson = await mapGet.json();
+                    const mapStr = new TextDecoder().decode(Uint8Array.from(atob(mapJson.content), c => c.charCodeAt(0)));
+                    const cleanMap = mapStr.replace(/^export\s+const\s+\w+\s*=\s*/, '').replace(/;\s*$/, '').trim();
+                    
+                    if (cleanMap.startsWith('{')) {
+                        const mapObj = JSON.parse(cleanMap);
+                        if (!mapObj[subject]) mapObj[subject] = {};
+                        const entry = { local: true, filename: keyFile, grade: grade };
+                        mapObj[subject][keyFile] = entry;
+                        mapObj[subject][keyTitle] = entry;
+                        
+                        await fetch(mapUrl, {
+                            method: 'PUT',
+                            headers: { ...authHeader, 'Content-Type': 'application/json' },
+                            body: JSON.stringify({
+                                message: `Auto-Update Map: ${keyFile}`,
+                                content: btoa(unescape(encodeURIComponent(`export const lessonMap = ${JSON.stringify(mapObj, null, 2)};`))),
+                                sha: mapJson.sha
+                            })
+                        });
+                    }
+                }
+                
+                // 3. Update Syllabus
+                showStatus('📥 Updating Syllabus...', 'info');
+                const sylPath = "js/data/syllabus.js";
+                const sylUrl = `${repoUrl}/contents/${sylPath}`;
+                const sylGet = await fetch(sylUrl + `?v=${v}`, { headers: authHeader });
+                
+                if (sylGet.ok) {
+                    const sylJson = await sylGet.json();
+                    const sylStr = new TextDecoder().decode(Uint8Array.from(atob(sylJson.content), c => c.charCodeAt(0)));
+                    const cleanSyl = sylStr.replace(/^export\s+const\s+\w+\s*=\s*/, '').replace(/;\s*$/, '').trim();
+                    
+                    if (cleanSyl.startsWith('{')) {
+                        const sylObj = JSON.parse(cleanSyl);
+                        const gradeStr = (data.lesson_meta.grade || '').toString();
+                        const termStr  = (data.lesson_meta.term  || 't1').toString();
+                        const tNum = parseInt(termStr.replace('t','')) || 1;
+
+                        if (!gradeStr) throw new Error('வகுப்பு (Grade) தெரியவில்லை — மஞ்சள் box-ல் நிரப்பவும்');
+                        
+                        if (!sylObj[subject]) sylObj[subject] = {};
+                        if (!sylObj[subject][gradeStr]) sylObj[subject][gradeStr] = [];
+                        
+                        let termObj = sylObj[subject][gradeStr].find(t => t.term == tNum);
+                        if (!termObj) {
+                            termObj = { term: tNum, units: [{ title: "பாடப்பகுதிகள்", topics: [] }] };
+                            sylObj[subject][gradeStr].push(termObj);
+                        }
+                        
+                        let found = false;
+                        termObj.units[0].topics.forEach(topic => {
+                            if (topic.code === keyFile) {
+                                topic.title = keyTitle;
+                                topic.isUpdated = true;
+                                found = true;
+                            }
+                        });
+                        
+                        if (!found) {
+                            termObj.units[0].topics.push({ title: keyTitle, isUpdated: true, code: keyFile });
+                        }
+                        
+                        await fetch(sylUrl, {
+                            method: 'PUT',
+                            headers: { ...authHeader, 'Content-Type': 'application/json' },
+                            body: JSON.stringify({
+                                message: `Auto-Update Syllabus: ${keyFile}`,
+                                content: btoa(unescape(encodeURIComponent(`export const syllabusData = ${JSON.stringify(sylObj, null, 2)};`))),
+                                sha: sylJson.sha
+                            })
+                        });
+                    }
+                }
+                
+                showStatus('✅ வெற்றி! JSON converted & uploaded! Map & Syllabus updated!', 'success');
+                
+                setTimeout(() => {
+                    tamilJsonData = null;
+                    convertedData = null;
+                    document.getElementById('jsonFileInput').value = '';
+                    document.getElementById('fileInfo').classList.remove('show');
+                    document.getElementById('jsonPreviewPanel').classList.remove('show');
+                    document.getElementById('validationWarning').classList.remove('show');
+                    document.getElementById('subjectBadge').classList.remove('show');
+                    document.getElementById('uploadBtn').disabled = true;
+                    document.getElementById('grade').value = '';
+                    document.getElementById('term').value = '';
+                    document.getElementById('unit').value = '';
+                    document.getElementById('lessonTitle').value = '';
+                    document.getElementById('file_code').value = '';
+                    document.getElementById('codeDisplay').textContent = '-';
+                    ['grade','term','unit','lessonTitle'].forEach(id => {
+                        const el = document.getElementById(id);
+                        el.readOnly = true;
+                        el.style.background = '';
+                        el.style.borderColor = '';
+                    });
+                }, 3000);
+                
+            } catch (error) {
+                showStatus(`❌ பிழை: ${error.message}`, 'error');
+                console.error(error);
+            } finally {
+                btn.disabled = false;
+            }
+        }
+        
+        function showStatus(msg, type) {
+            const s = document.getElementById('statusMessage');
+            s.textContent = msg;
+            s.className = `status-message ${type}`;
+            if (type === 'success') setTimeout(() => s.className = 'status-message', 8000);
+        }
+        
+        // Drag and drop
+        const uploadArea = document.querySelector('.upload-area');
+        
+        uploadArea.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            uploadArea.style.borderColor = 'var(--primary)';
+        });
+        
+        uploadArea.addEventListener('dragleave', () => {
+            uploadArea.style.borderColor = 'var(--border)';
+        });
+        
+        uploadArea.addEventListener('drop', (e) => {
+            e.preventDefault();
+            uploadArea.style.borderColor = 'var(--border)';
+            const file = e.dataTransfer.files[0];
+            if (file) {
+                const input = document.getElementById('jsonFileInput');
+                const dataTransfer = new DataTransfer();
+                dataTransfer.items.add(file);
+                input.files = dataTransfer.files;
+                handleFileSelect({ target: input });
+            }
+        });
+        
+        loadSettings();
+    </script>
+        <nav class="bottom-nav">
+        <a href="index.html" class="nav-item">
+            <span class="nav-icon">🏠</span>
+            <span>Home</span>
+        </a>
+        <a href="subject.html" class="nav-item">
+            <span class="nav-icon">📚</span>
+            <span>Course</span>
+        </a>
+        <a href="tel:6369371452" class="nav-item">
+            <span class="nav-icon">📞</span>
+            <span>Contact</span>
+        </a>
+        <a href="#" class="nav-item">
+            <span class="nav-icon">💳</span>
+            <span>Pay</span>
+        </a>
+        <a href="#" onclick="window.logout(); return false;" class="nav-item logout">
+            <span class="nav-icon">🚪</span>
+            <span>Logout</span>
+        </a>
+    </nav>
+</body>
+</html>

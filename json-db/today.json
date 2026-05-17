@@ -1,0 +1,248 @@
+[
+    {
+        "subject": "social",
+        "class": "6",
+        "lessonId": "soc_6_t1_l1",
+        "title": "1. வரலாறு என்றால் என்ன? (Term 1)"
+    },
+    {
+        "subject": "social",
+        "class": "6",
+        "lessonId": "soc_6_t1_l2",
+        "title": "2. மனிதர்களின் பரிணாம வளர்ச்சி (Term 1)"
+    },
+    {
+        "subject": "social",
+        "class": "6",
+        "lessonId": "soc_6_t1_l3",
+        "title": "3. சிந்து வெளி நாகரிகம் (Term 1)"
+    },
+    {
+        "subject": "social",
+        "class": "6",
+        "lessonId": "soc_6_t1_l4",
+        "title": "4. தமிழ்நாட்டின் பண்டைய நகரங்கள் (Term 1)"
+    },
+    {
+        "subject": "social",
+        "class": "6",
+        "lessonId": "soc_6_t1_l5",
+        "title": "5. பேரண்டம் மற்றும் சூரியக்குடும்பம் (Term 1)"
+    },
+    {
+        "subject": "social",
+        "class": "6",
+        "lessonId": "soc_6_t1_l6",
+        "title": "6. நிலப்பரப்பும் பெருங்கடல்களும் (Term 1)"
+    },
+    {
+        "subject": "social",
+        "class": "6",
+        "lessonId": "soc_6_t1_l7",
+        "title": "7. பன்முகத் தன்மையினை அறிவோம் (Term 1)"
+    },
+    {
+        "subject": "social",
+        "class": "6",
+        "lessonId": "soc_6_t1_l8",
+        "title": "8. சமத்துவமின்மை மற்றும் பாகுபாடு (Term 1)"
+    },
+    {
+        "subject": "important_notes",
+        "class": "all",
+        "lessonId": "imp_notes_1",
+        "title": "முக்கிய குறிப்புகள் - 1"
+    },
+    {
+        "subject": "important_notes",
+        "class": "all",
+        "lessonId": "imp_notes_2",
+        "title": "முக்கிய குறிப்புகள் - 2"
+    },
+    {
+        "subject": "important_notes",
+        "class": "all",
+        "lessonId": "imp_notes_3",
+        "title": "முக்கிய குறிப்புகள் - 3"
+    },
+    {
+        "subject": "important_notes",
+        "class": "all",
+        "lessonId": "imp_notes_4",
+        "title": "முக்கிய குறிப்புகள் - 4"
+    },
+    {
+        "subject": "mocktest",
+        "class": "all",
+        "lessonId": "mt_3_ms",
+        "title": "TET மாதிரித் தேர்வு 3 (கணிதம் & அறிவியல்)"
+    },
+    {
+        "subject": "mocktest",
+        "class": "all",
+        "lessonId": "mt_3_ss",
+        "title": "TET மாதிரித் தேர்வு 3 (சமூக அறிவியல்)"
+    },
+    {
+        "subject": "mocktest",
+        "class": "all",
+        "lessonId": "mt_2_ms",
+        "title": "TET மாதிரித் தேர்வு 2 (கணிதம் & அறிவியல்)"
+    },
+    {
+        "subject": "mocktest",
+        "class": "all",
+        "lessonId": "mt_2_ss",
+        "title": "TET மாதிரித் தேர்வு 2 (சமூக அறிவியல்)"
+    },
+    {
+        "subject": "tamil",
+        "class": "8",
+        "lessonId": "tam_8_l1",
+        "title": "1. தமிழ்மொழி வாழ்த்து"
+    },
+    {
+        "subject": "tamil",
+        "class": "8",
+        "lessonId": "tam_8_l2",
+        "title": "2. ஆழிக்கு இணை"
+    },
+    {
+        "subject": "tamil",
+        "class": "8",
+        "lessonId": "tam_8_l3",
+        "title": "3. தமிழ் வரிவடிவ வளர்ச்சி"
+    },
+    {
+        "subject": "tamil",
+        "class": "8",
+        "lessonId": "tam_8_l4",
+        "title": "4. சொற்பூங்கா"
+    },
+    {
+        "subject": "tamil",
+        "class": "8",
+        "lessonId": "tam_8_l5",
+        "title": "5. எழுத்துகளின் பிறப்பு"
+    },
+    {
+        "subject": "english",
+        "class": "6",
+        "lessonId": "eng_6_t2_l5",
+        "title": "Poem: From a Railway Carriage (Memoriter)"
+    },
+    {
+        "subject": "english",
+        "class": "6",
+        "lessonId": "eng_6_t2_l3",
+        "title": "Supplementary Reader: Think to Win"
+    },
+    {
+        "subject": "english",
+        "class": "6",
+        "lessonId": "eng_6_t2_l4",
+        "title": "Prose: Trip to Ooty"
+    },
+    {
+        "subject": "english",
+        "class": "6",
+        "lessonId": "eng_6_t2_l2",
+        "title": "Poem: Team Work"
+    },
+    {
+        "subject": "english",
+        "class": "6",
+        "lessonId": "eng_6_t2_l1",
+        "title": "Prose: Sports Stars"
+    },
+    {
+        "subject": "tamil",
+        "class": "6",
+        "lessonId": "வளர்தமிழ்",
+        "title": "3. வளர்தமிழ்"
+    },
+    {
+        "subject": "tamil",
+        "class": "6",
+        "lessonId": "கனவு பலித்தது",
+        "title": "4. கனவு பலித்தது"
+    },
+    {
+        "subject": "tamil",
+        "class": "6",
+        "lessonId": "தமிழ் எழுத்துக்களின் வகையும் தொகையும்",
+        "title": "5. தமிழ் எழுத்துக்களின் வகையும் தொகையும்"
+    },
+    {
+        "subject": "tamil",
+        "class": "6",
+        "lessonId": "சிலப்பதிகாரம் *",
+        "title": "6. சிலப்பதிகாரம்"
+    },
+    {
+        "subject": "english",
+        "class": "6",
+        "lessonId": "Sea Turtles",
+        "title": "1. Sea Turtles"
+    },
+    {
+        "subject": "english",
+        "class": "6",
+        "lessonId": "The Crocodile",
+        "title": "2. The Crocodile"
+    },
+    {
+        "subject": "english",
+        "class": "6",
+        "lessonId": "Friendship",
+        "title": "3. Friendship"
+    },
+    {
+        "subject": "maths",
+        "class": "6",
+        "lessonId": "எண்கள்_1",
+        "title": "1. எண்கள்"
+    },
+    {
+        "subject": "maths",
+        "class": "6",
+        "lessonId": "இடமதிப்பு_ஒப்பிடுதல்",
+        "title": "3. இடமதிப்பு & ஒப்பிடுதல்"
+    },
+    {
+        "subject": "maths",
+        "class": "6",
+        "lessonId": "புதிய_எண்களை_உருவாக்குதல்_வாழ்வியல்",
+        "title": "3. புதிய எண்களை உருவாக்குதல் & அன்றாட வாழ்வியல்"
+    },
+    {
+        "subject": "maths",
+        "class": "6",
+        "lessonId": "செயலிகளின்_வரிசை_மதிப்பீடு",
+        "title": "4. செயலிகளின் வரிசை & மதிப்பீடு"
+    },
+    {
+        "subject": "maths",
+        "class": "6",
+        "lessonId": "முழு_எண்கள்_பண்புகள்",
+        "title": "5. முழு எண்கள் மற்றும் அவற்றின் பண்புகள்"
+    },
+    {
+        "subject": "maths",
+        "class": "6",
+        "lessonId": "எண்கள்_பயிற்சி",
+        "title": "எண்கள்: பயிற்சி கணக்குகள் (1.1 - 1.6)"
+    },
+    {
+        "subject": "maths",
+        "class": "6",
+        "lessonId": "mat_6_t2_l1",
+        "title": "அலகு 1: எண்கள் (Term 2)"
+    },
+    {
+        "subject": "tamil",
+        "class": "6",
+        "lessonId": "tam_6_t2_l1",
+        "title": "1. மூதுரை (Term 2)"
+    }
+]

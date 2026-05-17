@@ -1,0 +1,74 @@
+{
+  "isBilingual": true,
+  "unit": "Unit 2",
+  "subject": "Maths",
+  "class": "6",
+  "term": 3,
+  "title": "Integers (முழுக்கள்)",
+  "summary": "இப்பாடம் மிகை எண்கள், குறை எண்கள் மற்றும் பூஜ்ஜியம் ஆகியவற்றின் தொகுப்பான முழுக்கள் பற்றியும், எண்கோட்டில் அவற்றின் செயல்பாடுகள் மற்றும் அன்றாடப் பயன்பாடுகள் பற்றியும் விளக்குகிறது.",
+  "material": {
+    "isBilingual": true,
+    "sections": [
+      {
+        "title": "2.1 அறிமுகம் மற்றும் முழுக்கள் (Introduction & Integers)",
+        "type": "bilingual",
+        "en": [
+          "Collection of natural numbers (positive), zero, and negative numbers form 'Integers'.",
+          "Denoted by the letter 'Z', which stands for 'Zahlen' (meaning 'Number' in German).",
+          "Zero is neither positive nor negative."
+        ],
+        "ta": [
+          "இயல் எண்கள் (மிகை முழுக்கள்), பூஜ்ஜியம் மற்றும் குறை எண்கள் இணைந்த தொகுப்பே 'முழுக்கள்' (Integers) ஆகும்.",
+          "இது 'Z' என்ற குறியீட்டால் குறிக்கப்படுகிறது. 'Z' என்பது ஜெர்மன் சொல்லான 'Zahlen' (எண்) என்பதிலிருந்து வந்தது.",
+          "பூஜ்ஜியம் மிகை எண்ணும் அல்ல, குறை எண்ணும் அல்ல."
+        ]
+      },
+      {
+        "title": "2.2 எண்கோடு மற்றும் ஒப்பிடுதல் (Number Line & Comparison)",
+        "type": "bilingual",
+        "en": [
+          "On a number line, values increase towards the right and decrease towards the left.",
+          "Positive integers are to the right of 0, negative integers are to the left.",
+          "Every positive integer is greater than any negative integer. Among negative integers, the number with a smaller numerical value is larger (e.g., -1 > -10)."
+        ],
+        "ta": [
+          "எண்கோட்டில் வலதுபுறம் செல்லச் செல்ல மதிப்பு அதிகரிக்கும், இடதுபுறம் செல்லச் செல்ல மதிப்பு குறையும்.",
+          "0-க்கு வலதுபுறம் மிகை முழுக்களும், இடதுபுறம் குறை முழுக்களும் உள்ளன.",
+          "ஒவ்வொரு மிகை முழுவும் குறை முழுவை விடப் பெரியது. குறை எண்களில் எண் மதிப்பு சிறியதாகத் தெரிந்தால் அதன் மதிப்பு அதிகமாகும் (எ.கா: -1 > -10)."
+        ]
+      },
+      {
+        "title": "2.3 அன்றாட வாழ்வில் முழுக்கள் (Integers in Real Life)",
+        "type": "bilingual",
+        "en": [
+          "Positive (+): Profit, Deposit, Above Sea Level, Increase in temperature, AD/CE years.",
+          "Negative (-): Loss, Withdrawal, Below Sea Level, Decrease in temperature, BC/BCE years.",
+          "Opposite Numbers: Numbers at equal distance from zero but in opposite directions (e.g., +5 and -5)."
+        ],
+        "ta": [
+          "மிகை எண்கள் (+): லாபம், வரவு, கடல் மட்டத்திற்கு மேலே, வெப்பநிலை உயர்வு, கி.பி ஆண்டுகள்.",
+          "குறை எண்கள் (-): நட்டம், செலவு, கடல் மட்டத்திற்குக் கீழே, வெப்பநிலை வீழ்ச்சி, கி.மு ஆண்டுகள்.",
+          "எதிரெண்கள்: பூஜ்ஜியத்திலிருந்த சம தொலைவிலும், எதிரெதிர் திசையிலும் அமையும் எண்கள் (எ.கா: +5 மற்றும் -5)."
+        ]
+      },
+      {
+        "title": "2.4 முன்னி மற்றும் தொடரி (Predecessor & Successor)",
+        "type": "bilingual",
+        "en": [
+          "Successor: The number to the immediate right of an integer (number + 1).",
+          "Predecessor: The number to the immediate left of an integer (number - 1).",
+          "For example, the successor of -8 is -7, and the predecessor of -8 is -9."
+        ],
+        "ta": [
+          "தொடரி (Successor): ஓர் எண்ணிற்கு வலதுபுறம் உள்ள எண் (எண் + 1).",
+          "முன்னி (Predecessor): ஓர் எண்ணிற்கு இடதுபுறம் உள்ள எண் (எண் - 1).",
+          "உதாரணமாக, -8 இன் தொடரி -7 ஆகும். -8 இன் முன்னி -9 ஆகும்."
+        ]
+      }
+    ]
+  },
+  "quiz": {
+    "questions": []
+  },
+  "credits": "A1 ONLINE COACHING CENTER"
+}

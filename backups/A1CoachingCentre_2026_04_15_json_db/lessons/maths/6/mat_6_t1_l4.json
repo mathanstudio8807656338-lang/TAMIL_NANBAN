@@ -1,0 +1,159 @@
+{
+  "isBilingual": true,
+  "unit": "Unit 4",
+  "subject": "Maths",
+  "class": "6",
+  "term": 1,
+  "title": "Geometry (வடிவியல்)",
+  "summary": "வடிவியலின் அடிப்படைகளான புள்ளிகள், கோடுகள், கதிர்கள் மற்றும் கோணங்களின் வகைகள் குறித்த விரிவான விளக்கம்.",
+  "material": {
+    "isBilingual": true,
+    "sections": [
+      {
+        "title": "4.1 அறிமுகம் (Introduction)",
+        "type": "bilingual",
+        "en": ["Geometry is the branch of mathematics that deals with points, lines, angles, and shapes. Everything around us has a geometric structure. Geometry is a basic necessity for surveying land, constructing buildings, and drawing maps. In geometry, we measure everything from a tiny point to a line that extends endlessly."],
+        "ta": ["வடிவியல் (Geometry) என்பது புள்ளிகள், கோடுகள், கோணங்கள் மற்றும் வடிவங்கள் பற்றிய கணிதப் பிரிவாகும். நம்மைச் சுற்றியுள்ள அனைத்துப் பொருட்களும் ஏதோ ஒரு வடிவியல் அமைப்பைக் கொண்டுள்ளன. நிலத்தை அளக்க, கட்டடங்கள் கட்ட, வரைபடங்கள் வரைய வடிவியல் அடிப்படைத் தேவையாகும். ஒரு சிறு புள்ளி தொடங்கி, முடிவில்லாமல் செல்லும் கோடு வரை அனைத்தையும் வடிவியலில் நாம் அளவீடு செய்கிறோம்."]
+      },
+      {
+        "title": "4.2 புள்ளி, கோடு, கதிர் மற்றும் கோட்டுத்துண்டு (Point, Line, Ray and Line Segment)",
+        "type": "bilingual",
+        "en": [
+          "Point: Represents a specific location. It has no length, width, or thickness.",
+          "Line Segment: A part of a straight line with two endpoints. It can be measured with a scale.",
+          "Line: Extends endlessly in both directions. it has no endpoints and cannot be measured.",
+          "Ray: Has a starting point but goes endlessly in one direction without an endpoint. A ray also cannot be measured."
+        ],
+        "ta": [
+          "புள்ளி (Point): ஒரு குறிப்பிட்ட இடத்தைக் குறிப்பது. இதற்கு நீளம், அகலம், தடிமன் இல்லை.",
+          "கோட்டுத்துண்டு (Line Segment): இரண்டு இறுதிப் புள்ளிகளைக் கொண்ட ஒரு நேர்கோட்டின் பகுதி. இதனை அளவுகோல் கொண்டு அளக்க முடியும்.",
+          "கோடு (Line): இருபுறமும் முடிவில்லாமல் நீண்டு கொண்டே செல்வது. இதற்கு இறுதிப் புள்ளிகள் கிடையாது. அளக்க இயலாது.",
+          "கதிர் (Ray): ஒரு தொடக்கப் புள்ளி உண்டு, ஆனால் முடிவுப் புள்ளி இல்லாமல் ஒரு திசையில் முடிவிலியாகச் செல்லும். கதிரையும் அளக்க முடியாது."
+        ]
+      },
+      {
+        "title": "4.3 கோணங்கள் (Angles)",
+        "type": "bilingual",
+        "en": ["An angle is formed when two rays originate from the same point or when two line segments meet at a point. The point where the two rays meet is called the 'vertex', and the two rays forming the angle are called 'arms'. Angles are measured using a protractor. The unit of an angle is degrees (°)."],
+        "ta": ["இரண்டு கதிர்கள் ஒரே புள்ளியில் இருந்து புறப்படும்போதோ அல்லது இரண்டு கோட்டுத்துண்டுகள் ஒரு புள்ளியில் சந்திக்கும்போதோ கோணம் உருவாகிறது. இரண்டு கதிர்கள் சந்திக்கும் புள்ளி 'உச்சி' (Vertex) எனவும், கோணத்தை உருவாக்கும் இரு கதிர்கள் 'கரங்கள்' (Arms) எனவும் அழைக்கப்படும். கோணத்தை பாகைமானி (Protractor) மூலம் அளக்கிறோம். இதன் அலகு பாகை (Degree - °) ஆகும்."]
+      },
+      {
+        "title": "4.4 கோணங்களின் வகைகள் (Types of Angles)",
+        "type": "bilingual",
+        "en": [
+          "Angles are divided into several types based on their measure:",
+          "1. Acute Angle: An angle greater than 0° and less than 90°.",
+          "2. Right Angle: An angle measuring exactly 90°.",
+          "3. Obtuse Angle: An angle greater than 90° and less than 180°.",
+          "4. Straight Angle: An angle measuring exactly 180°.",
+          "5. Zero Angle: When rays overlap without moving, the angle is 0°.",
+          "6. Full Angle: An angle that completes one full rotation is 360°."
+        ],
+        "ta": [
+          "கோணங்களை அவற்றின் அளவைக் கொண்டு பல வகையாகப் பிரிக்கலாம்.",
+          "1. குறுங்கோணம் (Acute Angle): 0° க்கும் அதிகமாகவும் 90° க்கும் குறைவாகவும் உள்ள கோணம்.",
+          "2. செங்கோணம் (Right Angle): சரியாக 90° அளவுள்ள கோணம்.",
+          "3. விரிகோணம் (Obtuse Angle): 90° க்கும் அதிகமாகவும் 180° க்கும் குறைவாகவும் உள்ள கோணம்.",
+          "4. நேர்க்கோணம் (Straight Angle): சரியாக 180° அளவுள்ள கோணம்.",
+          "5. பூஜ்ஜியக் கோணம் (Zero Angle): கதிர்கள் நகராமல் ஒன்றின்மீது ஒன்று அமைந்தால் அது 0°.",
+          "6. முழுக்கோணம் (Full Angle): ஒரு முழுச் சுழற்சியை முடிக்கும் கோணம் 360°."
+        ]
+      },
+      {
+        "title": "4.5 நிரப்பு மற்றும் மிகை நிரப்பு கோணங்கள் (Complementary and Supplementary Angles)",
+        "type": "bilingual",
+        "en": [
+          "Complementary Angles: If the sum of two angles is exactly 90°, they are called complementary angles. (e.g., 30° and 60°).",
+          "Supplementary Angles: If the sum of two angles is exactly 180°, they are called supplementary angles. (e.g., 100° and 80°).",
+          "For any given angle, its complement or supplement can be found."
+        ],
+        "ta": [
+          "நிரப்பு கோணங்கள் (Complementary Angles): இரண்டு கோணங்களின் கூடுதல் சரியாக 90° ஆக இருந்தால் அவை நிரப்பு கோணங்கள் எனப்படும். (எ.கா: 30° மற்றும் 60°).",
+          "மிகை நிரப்பு கோணங்கள் (Supplementary Angles): இரண்டு கோணங்களின் கூடுதல் சரியாக 180° ஆக இருந்தால் அவை மிகை நிரப்பு கோணங்கள் எனப்படும். (எ.கா: 100° மற்றும் 80°).",
+          "எந்த ஒரு கோணத்திற்கும் அதன் நிரப்பியோ அல்லது மிகை நிரப்பியோ காண முடியும்."
+        ]
+      },
+      {
+        "title": "4.6 வெட்டும் கோடுகள் மற்றும் இணைகோடுகள் (Parallel and Intersecting Lines)",
+        "type": "bilingual",
+        "en": [
+          "Parallel Lines: Two lines in a plane that never meet and the perpendicular distance between them is equal everywhere are called parallel lines. (e.g., Railway tracks).",
+          "Intersecting Lines: If two lines meet at a common point, they are called intersecting lines. The meeting point is called the point of intersection."
+        ],
+        "ta": [
+          "இணைகோடுகள் (Parallel Lines): ஒரு தளத்தில் உள்ள இரண்டு கோடுகள் எங்குமே ஒன்றையொன்று சந்திக்காமல், அவற்றுக்கிடையே உள்ள செங்குத்துத் தொலைவு எங்கும் சமமாக இருந்தால் அவை இணைகோடுகள் எனப்படும். (எ.கா: ரயில் தண்டவாளம்).",
+          "வெட்டும் கோடுகள் (Intersecting Lines): இரண்டு கோடுகள் ஒரு பொதுவான புள்ளியில் ஒன்றையொன்று சந்தித்தால் அவை வெட்டும் கோடுகள் எனப்படும். சந்திக்கும் புள்ளி வெட்டும் புள்ளி எனப்படும்."
+        ]
+      },
+      {
+        "title": "4.7 ஒரு புள்ளி வழிச் செல்லும் கோடுகள் மற்றும் ஒரு கோடமைப் புள்ளிகள் (Collinear and Concurrent Lines)",
+        "type": "bilingual",
+        "en": [
+          "Collinear Points: If three or more points lie on the same straight line, they are called collinear points.",
+          "Concurrent Lines: If three or more lines pass through the same point, those lines are called concurrent lines. That common point is called the 'point of concurrency'."
+        ],
+        "ta": [
+          "ஒரு கோடமைப் புள்ளிகள் (Collinear Points): மூன்று அல்லது அதற்கு மேற்பட்ட புள்ளிகள் ஒரே நேர்கோட்டில் அமைந்தால் அவை ஒரு கோடமைப் புள்ளிகள் எனப்படும்.",
+          "ஒரு புள்ளி வழிச் செல்லும் கோடுகள் (Concurrent Lines): மூன்று அல்லது அதற்கு மேற்பட்ட கோடுகள் ஒரே புள்ளி வழியாகச் சென்றால், அக்கோடுகள் ஒரு புள்ளி வழிச் செல்லும் கோடுகள் எனப்படும். அந்தப் பொதுப்புள்ளி 'ஒருங்கு புள்ளி' எனப்படும்."
+        ]
+      },
+      {
+        "title": "4.8 நினைவில் கொள்க (Key Points)",
+        "type": "bilingual",
+        "en": [
+          "1. A line segment has 2 endpoints, a ray has 1, and a line has no endpoints.",
+          "2. A right angle always measures 90°.",
+          "3. A straight angle always measures 180°.",
+          "4. The blades of scissors are a great example of intersecting lines.",
+          "5. When a clock shows 3 o'clock or 9 o'clock, the angle between the hands is 90°.",
+          "6. When a clock shows 6 o'clock, the angle between the hands is 180°."
+        ],
+        "ta": [
+          "1. கோட்டுத்துண்டிற்கு 2 இறுதிப் புள்ளிகள், கதிருக்கு 1, கோட்டிற்கு இறுதிப்புள்ளிகள் இல்லை.",
+          "2. செங்கோணத்தின் அளவு எப்பொழுதும் 90° மட்டுமே.",
+          "3. நேர்க்கோணத்தின் அளவு எப்பொழுதும் 180°.",
+          "4. கத்தரிக்கோலின் இரு கத்திகள் வெட்டும் கோடுகளுக்கு சிறந்த எடுத்துக்காட்டு.",
+          "5. ஒரு கடிகாரத்தில் 3 மணி மற்றும் 9 மணி காட்டும்போது முட்களுக்கு இடைப்பட்ட கோணம் செங்கோணம் (90°) ஆகும்.",
+          "6. ஒரு கடிகாரத்தில் 6 மணி காட்டும்போது முட்களுக்கு இடைப்பட்ட கோணம் நேர்க்கோணம் (180°) ஆகும்."
+        ]
+      },
+      {
+        "title": "4.9 மேலும் அறிந்து கொள்வோம் (More to Know)",
+        "type": "bilingual",
+        "en": [
+          "The pyramids built by Egyptians are excellent examples of geometry. Even then, they knew rope-knotting methods to create right-angled triangles.",
+          "The tool used to measure angles is the protractor. It has markings from 0° to 180°.",
+          "Acute angles can be seen in English letters like A, V, W, and a right angle in L."
+        ],
+        "ta": [
+          "எகிப்தியர்கள் கட்டிய பிரமிடுகள் வடிவியலின் மிகச்சிறந்த எடுத்துக்காட்டுகளாகும். அன்றைய காலத்திலேயே அவர்கள் செங்கோண முக்கோணங்களை உருவாக்கும் கயிறு முடிச்சு முறைகளை அறிந்திருந்தனர்.",
+          "கோணங்களை அளக்கப் பயன்படும் கருவி பாகைமானி. இதில் 0° முதல் 180° வரை அளவுகள் குறிக்கப்பட்டிருக்கும். ஆங்கில எழுத்துக்களான A, V, W போன்றவற்றில் குறுங்கோணங்களையும், L இல் செங்கோணத்தையும் காண முடியும்."
+        ]
+      },
+      {
+        "title": "4.10 புத்தக மதிப்பீடு (Book Back Evaluation)",
+        "type": "bilingual",
+        "en": [
+          "1. How many endpoints does a line segment have? Ans: 2.",
+          "2. Angle measuring exactly 90°? Ans: Right angle.",
+          "3. Complementary angle of 40°? Ans: 50°.",
+          "4. Supplementary angle of 120°? Ans: 60°.",
+          "5. What are railway tracks examples of? Ans: Parallel lines.",
+          "6. The point where two lines intersect? Ans: Point of intersection."
+        ],
+        "ta": [
+          "1. ஒரு கோட்டுத்துண்டிற்கு எத்தனை இறுதிப் புள்ளிகள் உள்ளன? விடை: 2.",
+          "2. சரியாக 90° அளவுள்ள கோணம்? விடை: செங்கோணம்.",
+          "3. 40° இன் நிரப்பு கோணம் என்ன? விடை: 50°.",
+          "4. 120° இன் மிகை நிரப்பு கோணம் என்ன? விடை: 60°.",
+          "5. ரயில் தண்டவாளங்கள் எதற்கு உதாரணம்? விடை: இணைகோடுகள்.",
+          "6. இரு கோடுகள் வெட்டிக் கொள்ளும் புள்ளி? விடை: வெட்டும் புள்ளி."
+        ]
+      }
+    ]
+  },
+  "quiz": {
+    "questions": []
+  },
+  "credits": "A1 ONLINE COACHING CENTER"
+}

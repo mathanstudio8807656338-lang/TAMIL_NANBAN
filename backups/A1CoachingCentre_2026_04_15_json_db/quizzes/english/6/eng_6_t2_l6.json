@@ -1,0 +1,249 @@
+{
+  "subject": "English",
+  "class": "6",
+  "term": 2,
+  "lessonId": "eng_6_t2_l6",
+  "questions": [
+    {
+      "question": "What was Lemuel Gulliver's profession?",
+      "options": ["Merchant", "Ship's Doctor", "Captain", "Soldier"],
+      "answer": 1,
+      "explanation": "Gulliver is introduced as a ship's doctor who loves adventure."
+    },
+    {
+      "question": "In which sea did the storm cause Gulliver's shipwreck?",
+      "options": ["Arabian Sea", "South China Sea", "Pacific Ocean", "Indian Ocean"],
+      "answer": 1,
+      "explanation": "A violent storm blew up in the South China Sea, wrecking the ship Antelope."
+    },
+    {
+      "question": "How did Gulliver reach the shore after the shipwreck?",
+      "options": ["On a lifeboat", "Holding onto a log", "By swimming", "On a dolphin's back"],
+      "answer": 2,
+      "explanation": "Being a good swimmer, Gulliver managed to swim until he reached land."
+    },
+    {
+      "question": "When Gulliver woke up on the shore, what did he find?",
+      "options": ["He was in a comfortable bed", "He was tied to the ground", "He was in a cage", "He was alone"],
+      "answer": 1,
+      "explanation": "He found himself tied down to the ground with hundreds of tiny threads."
+    },
+    {
+      "question": "How tall were the inhabitants of Lilliput?",
+      "options": ["About 6 feet", "Less than 6 inches", "Exactly 1 foot", "4.5 inches"],
+      "answer": 1,
+      "explanation": "The Lilliputians are described as being less than six inches high."
+    },
+    {
+      "question": "What weapons did the tiny creatures use against Gulliver initially?",
+      "options": ["Swords", "Guns", "Bows and arrows", "Slingshots"],
+      "answer": 2,
+      "explanation": "The Lilliputians shot tiny but sharp arrows at Gulliver when he tried to loosen his bonds."
+    },
+    {
+      "question": "How did Gulliver communicate his hunger to the Lilliputians?",
+      "options": ["By shouting loudly", "By using a sign language", "By using gestures", "By writing on paper"],
+      "answer": 2,
+      "explanation": "He put his hand to his mouth to signal that he was hungry."
+    },
+    {
+      "question": "How many wheels did the special platform built for Gulliver have?",
+      "options": ["Four", "Twelve", "Twenty-two", "Fifty"],
+      "answer": 2,
+      "explanation": "They used a platform with twenty-two wheels to transport the 'Man-Mountain'."
+    },
+    {
+      "question": "How tall were the horses of Lilliput?",
+      "options": ["Six inches", "Four and a half inches", "Ten inches", "Two feet"],
+      "answer": 1,
+      "explanation": "Dozens of four-and-a-half-inch horses pulled the platform to the city."
+    },
+    {
+      "question": "What was the condition on which the Emperor of Lilliput freed Gulliver?",
+      "options": ["He must pay a tax", "He must marry a Lilliputian", "He must help them in times of need", "He must remain in a cage"],
+      "answer": 2,
+      "explanation": "He was freed on the condition that he would not harm them and would help them when required."
+    },
+    {
+      "question": "Which kingdom declared war against Lilliput?",
+      "options": ["Blefuscu", "England", "Wonderland", "Neverland"],
+      "answer": 0,
+      "explanation": "The neighboring kingdom of Blefuscu declared war on Lilliput."
+    },
+    {
+      "question": "How many ships did the king of Blefuscu send to attack Lilliput?",
+      "options": ["Fifty", "One hundred", "Two hundred", "Ten"],
+      "answer": 1,
+      "explanation": "The king of Blefuscu brought a hundred ships to attack Lilliput."
+    },
+    {
+      "question": "What did Gulliver use to capture the Blefuscu fleet?",
+      "options": ["A giant net", "A long rope", "His bare hands", "Magnets"],
+      "answer": 1,
+      "explanation": "He tied all the ships together with a long rope and dragged them."
+    },
+    {
+      "question": "How did Gulliver make the enemy soldiers 'giddy'?",
+      "options": ["By giving them wine", "By spinning them around", "By dragging their ships in circles in the water", "By telling them jokes"],
+      "answer": 2,
+      "explanation": "He dragged the ships until the soldiers were too dizzy (giddy) to fight."
+    },
+    {
+      "question": "What is 'Logical Sequencing'?",
+      "options": ["Doing things randomly", "Arranging events in the order they occur", "Skipping steps in a process", "Repeating the same action"],
+      "answer": 1,
+      "explanation": "Logical sequencing means putting things into a natural, chronological order."
+    },
+    {
+      "question": "Choose the correct sequence for plant growth.",
+      "options": ["Flower -> Fruit -> Seed", "Seed -> Root -> Leaves", "Leaves -> Seed -> Root", "Fruit -> Root -> Seed"],
+      "answer": 1,
+      "explanation": "A plant starts as a seed, then develops roots, and then leaves."
+    },
+    {
+      "question": "What is the correct sequence for leaving a hotel?",
+      "options": ["Drive -> Pack -> Pay bill", "Pack -> Vacate -> Pay bill -> Check out -> Drive", "Pay bill -> Pack -> Drive", "Check out -> Pack -> Vacate"],
+      "answer": 1,
+      "explanation": "You pack first, leave the room, pay, check out, and then leave."
+    },
+    {
+      "question": "Arrange the traffic signal steps logically.",
+      "options": ["Go -> Stop -> Wait", "Slow -> Stop -> Wait -> Get ready -> Go", "Stop -> Go -> Slow", "Wait -> Go -> Stop"],
+      "answer": 1,
+      "explanation": "This follows the natural progression of approaching and passing a traffic signal."
+    },
+    {
+      "question": "Who said, 'Don't let us down now, Gulliver; we need your help'?",
+      "options": ["The King of Blefuscu", "The Emperor of Lilliput", "A Lilliputian soldier", "The Ship's Captain"],
+      "answer": 1,
+      "explanation": "The Emperor of Lilliput asked for Gulliver's help during the war."
+    },
+    {
+      "question": "What does the word 'Giddy' mean?",
+      "options": ["Very angry", "Extremely happy", "Feeling that everything is spinning", "Being very brave"],
+      "answer": 2,
+      "explanation": "Giddy means having a sensation of whirling and a tendency to fall."
+    },
+    {
+      "question": "How did the war between Lilliput and Blefuscu end?",
+      "options": ["Gulliver destroyed both kingdoms", "They fought until everyone was gone", "The King of Blefuscu surrendered and they made peace", "Lilliput was conquered"],
+      "answer": 2,
+      "explanation": "Seeing his fleet captured, the King of Blefuscu surrendered, leading to peace."
+    },
+    {
+      "question": "Why did Gulliver restrain himself from crushing the tiny people?",
+      "options": ["He was too weak", "They were his friends", "He didn't want to be pricked with arrows and had promised to behave", "The Emperor ordered him not to"],
+      "answer": 2,
+      "explanation": "He restrained himself out of fear of their arrows and a promise of good behavior."
+    },
+    {
+      "question": "What was the name of the ship Gulliver was on?",
+      "options": ["The Titanic", "The Antelope", "The Mayflower", "The Black Pearl"],
+      "answer": 1,
+      "explanation": "The ship in the story is the Antelope."
+    },
+    {
+      "question": "What is the logical sequence for reading a book?",
+      "options": ["Finish -> Buy -> Open", "Pick book -> Open -> Read -> Close", "Close -> Read -> Pick book", "Read -> Pick book -> Finish"],
+      "answer": 1,
+      "explanation": "You first choose a book, open it, read it, and then close it."
+    },
+    {
+      "question": "What does 'Exhaustion' mean?",
+      "options": ["Being energetic", "Great tiredness", "Feeling hungry", "Being extremely thirsty"],
+      "answer": 1,
+      "explanation": "Exhaustion is the state of being extremely tired after hard work or effort."
+    },
+    {
+      "question": "State True or False: Gulliver was the captain of the ship.",
+      "options": ["True", "False"],
+      "answer": 1,
+      "explanation": "Gulliver was the ship's doctor, not the captain."
+    },
+    {
+      "question": "State True or False: The Lilliputians gave a ten-minute talk in Gulliver's language.",
+      "options": ["True", "False"],
+      "answer": 1,
+      "explanation": "They spoke in a language Gulliver could not understand."
+    },
+    {
+      "question": "Identify the character: 'He felt something moving along his body almost up to his chin.'",
+      "options": ["Emperor", "Gulliver", "Lilliputian Soldier", "Blefuscu King"],
+      "answer": 1,
+      "explanation": "This describes Gulliver's experience when he woke up on the shore."
+    },
+    {
+      "question": "What did the Lilliputians give Gulliver to drink?",
+      "options": ["Small cups of water", "Large buckets of milk", "Small barrels of wine", "Bottles of soda"],
+      "answer": 2,
+      "explanation": "They provided him with small barrels of wine which he drank in one go."
+    },
+    {
+      "question": "How long did Gulliver drag the Blefuscu fleet?",
+      "options": ["One hour", "An entire day", "Ten minutes", "A week"],
+      "answer": 1,
+      "explanation": "He dragged them until they were giddy, which took considerable time."
+    },
+    {
+      "question": "What was the name of the neighboring kingdom?",
+      "options": ["Lilliput", "Blefuscu", "Mildendo", "Brobdingnag"],
+      "answer": 1,
+      "explanation": "The neighboring kingdom was Blefuscu."
+    },
+    {
+      "question": "What is the correct logical sequence for a school routine?",
+      "options": ["Go home -> Study -> School -> Play", "Wake up -> School -> Lunch -> Homework -> Sleep", "Sleep -> School -> Wake up", "Lunch -> School -> Homework"],
+      "answer": 1,
+      "explanation": "This follows the chronological order of a student's day."
+    },
+    {
+      "question": "Which word is a synonym for 'Hailed' in the context of the story?",
+      "options": ["Ignored", "Praised", "Cursed", "Forgotten"],
+      "answer": 1,
+      "explanation": "He was hailed (praised) as a hero after the war."
+    },
+    {
+      "question": "Why did Gulliver fall into a deep sleep on the shore?",
+      "options": ["He was lazy", "He was bored", "He was exhausted from swimming", "He was drugged"],
+      "answer": 2,
+      "explanation": "He was extremely tired (exhausted) from swimming against the storm."
+    },
+    {
+      "question": "How did the Lilliputians feel about Gulliver after the war?",
+      "options": ["They were afraid", "They hated him", "They loved and respected him", "They wanted him to leave"],
+      "answer": 2,
+      "explanation": "After he helped win the war, they hailed him as a hero and loved him."
+    },
+    {
+      "question": "Which of these is a step in logical sequencing for 'Going to a movie'?",
+      "options": ["Eat popcorn -> Buy ticket -> Travel to theater", "Buy ticket -> Travel to theater -> Watch movie", "Watch movie -> Travel to theater -> Buy ticket", "Travel to theater -> Buy ticket -> Watch movie"],
+      "answer": 3,
+      "explanation": "First you travel to the theater, then buy a ticket, then watch the movie."
+    },
+    {
+      "question": "What does 'Surrender' mean?",
+      "options": ["To win a battle", "To stop fighting and admit defeat", "To run away", "To start a war"],
+      "answer": 1,
+      "explanation": "Surrender means to yield or give up to an opponent."
+    },
+    {
+      "question": "What happened to the ship Antelope?",
+      "options": ["It sailed to Lilliput safely", "It was wrecked by a storm", "It was stolen by pirates", "It returned to England"],
+      "answer": 1,
+      "explanation": "The Antelope was destroyed by a violent storm in the South China Sea."
+    },
+    {
+      "question": "How many Lilliputians did Gulliver feel tempted to crush at once?",
+      "options": ["Ten", "Fifty", "One hundred", "A thousand"],
+      "answer": 1,
+      "explanation": "The text mentions he was tempted to crush fifty of them but restrained himself."
+    },
+    {
+      "question": "Where was Gulliver taken on the platform?",
+      "options": ["To the forest", "To the capital city", "To the ocean", "To Blefuscu"],
+      "answer": 1,
+      "explanation": "The platform carried him to the capital city to meet the Emperor."
+    }
+  ],
+  "credits": "A1 ONLINE COACHING CENTER"
+}

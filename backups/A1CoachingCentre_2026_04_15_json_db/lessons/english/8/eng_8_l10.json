@@ -1,0 +1,580 @@
+{
+  "subject": "English",
+  "class": "8",
+  "term": "Annual",
+  "title": "Prose: My Reminiscence",
+  "summary": "",
+  "sections": [
+    {
+      "title": "1. Prose: My Reminiscence (எனது நினைவலைகள்) - Summary",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● [[Core Theme]]",
+            "answer": "Memories of childhood and the deep bond with the river Ganges. || தாகூரின் இளமைக்கால நினைவுகள் மற்றும் கங்கை நதியுடனானப் பிணைப்பு."
+          },
+          {
+            "question": "● [[About Author]]",
+            "answer": "Written by [[Rabindranath Tagore]] (1861–1941), a Nobel Prize-winning poet. || ரவீந்திரநாத் தாகூர் (1861-1941), நோபல் பரிசு பெற்ற கவிஞர்."
+          },
+          {
+            "question": "● [[The Riverside]]",
+            "answer": "Tagore describes the beauty of the Ganges. He spent rainy afternoons singing [[Vaishnava]] songs and playing the [[harmonium]]. He reflects on how mills have now replaced peaceful banks. || தாகூர் கங்கை நதியின் அழகை விவரிக்கிறார். மழைக் காலங்களில் ஹார்மோனியத்துடன் வைணவப் பாடல்களைப் பாடுவார். இப்போது தொழிற்சாலைகள் கரைகளை ஆக்கிரமித்துள்ளதை வருத்தத்துடன் கூறுகிறார்."
+          }
+        ]
+      }
+    },
+    {
+      "title": "2. Glossary: Important Vocabulary (Exam Focus - Synonyms)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● [[Ineffable]] / விவரிக்க முடியாத",
+            "answer": "Too great to be expressed in words."
+          },
+          {
+            "question": "● [[Languid]] / மெதுவான",
+            "answer": "Moving slowly or lacking energy."
+          },
+          {
+            "question": "● [[Plaintive]] / சோகமான",
+            "answer": "Sounding sad and mournful."
+          },
+          {
+            "question": "● [[Ministrations]]",
+            "answer": "The act of helping or caring for someone. (உதவி/பராமரிப்பு)."
+          },
+          {
+            "question": "● [[Belching]]",
+            "answer": "To let out smoke or gas forcefully. (புகையைக் கக்குதல்)."
+          }
+        ]
+      }
+    },
+    {
+      "title": "3. Grammar: Conjunctions (இணைப்புச் சொற்கள்)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● [[Co-ordinating]]",
+            "answer": "And, but, or, so, yet. (e.g., He is poor [[but]] happy). || இரண்டுச் சமமான வாக்கியங்களை இணைக்கும்."
+          },
+          {
+            "question": "● [[Subordinating]]",
+            "answer": "Because, since, although, if. (e.g., We stayed home [[because]] it rained). || ஒன்றையொன்று சார்ந்திருக்கும் வாக்கியங்களை இணைக்கும்."
+          },
+          {
+            "question": "● [[Correlative]]",
+            "answer": "Either...or, Neither...nor, Not only...but also. || ஜோடிச் சொற்களாக வரும்."
+          }
+        ]
+      }
+    },
+    {
+      "title": "4. Facts about the Villa & River (முக்கியத் தகவல்கள்)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● Villa Location",
+            "answer": "[[Chandernagore]], near the river Ganges. || கங்கை நதியோரம் உள்ளச் சந்தன்நகர்."
+          },
+          {
+            "question": "● The 'Dragons'",
+            "answer": "The author refers to smoke-belching [[mills]] as dragons. || தொழிற்சாலைகளை அரக்கர்களாகக் கருதுகிறார்."
+          },
+          {
+            "question": "● Tagore's Brother",
+            "answer": "He stayed with his brother [[Jyotirindra]]. || தனது சகோதரர் ஜோதிரிந்திராவுடன் தங்கியிருந்தார்."
+          }
+        ]
+      }
+    },
+    {
+      "title": "5. Sentence Patterns Recap",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● [[S + V]]",
+            "answer": "Clouds gather. || மேகங்கள் கூடுகின்றன."
+          },
+          {
+            "question": "● [[S + V + O]]",
+            "answer": "He plays music. || அவர் இசைக்கருவியை வாசிக்கிறார்."
+          }
+        ]
+      }
+    },
+    {
+      "title": "6. Previous Year Questions & Competitive Focus",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● Who won the Nobel Prize for Literature in 1913?",
+            "answer": "[[Rabindranath Tagore]]."
+          },
+          {
+            "question": "● What is the meaning of 'Languid'?",
+            "answer": "[[Moving slowly]]. || மெதுவாக நகர்தல்."
+          },
+          {
+            "question": "● Identify the conjunction: 'He failed because he was lazy.'",
+            "answer": "[[Because]] (Subordinating)."
+          },
+          {
+            "question": "● In which city did Tagore spend his reflective days?",
+            "answer": "[[Chandernagore]]. || சந்தன்நகர்."
+          }
+        ]
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Who is the author of 'My Reminiscence'? || 'மை ரெமினிசன்ஸ்' கதையின் ஆசிரியர் யார்?",
+      "options": [
+        "Rabindranath Tagore (தாகூர்)",
+        "Ruskin Bond",
+        "Mahatma Gandhi",
+        "Sarojini Naidu"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Which river is the central part of the story? || இந்தக் கதையின் மையமாகத் திகழும் நதி எது?",
+      "options": [
+        "Yamuna",
+        "Ganges (கங்கை நதி)",
+        "Kaveri",
+        "Indus"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What is the meaning of 'Ineffable'? || 'Ineffable' என்பதன் பொருள்?",
+      "options": [
+        "Small",
+        "Too great to be expressed in words (வார்த்தைகளால் விவரிக்க முடியாத)",
+        "Noisy",
+        "Broken"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "With whom did Tagore stay at Chandernagore? || தாகூர் சந்தன்நகரில் யாருடன் தங்கியிருந்தார்?",
+      "options": [
+        "His Father",
+        "His brother Jyotirindra (சகோதரர் ஜோதிரிந்திரா)",
+        "His friend",
+        "His sister"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What kind of instrument did Tagore use while singing? || பாடும்போது தாகூர் எதனைப் பயன்படுத்தினார்?",
+      "options": [
+        "Guitar",
+        "Harmonium (ஹார்மோனியம்)",
+        "Violin",
+        "Drums"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "The author compares the smoke-belching mills to? || புகை வெளிவிடும் தொழிற்சாலைகளை எதனோடு தாகூர் ஒப்பிடுகிறார்?",
+      "options": [
+        "Angels",
+        "Dragons / Demons (அரக்கர்கள்)",
+        "Clouds",
+        "Trees"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of 'Languid'? || 'Languid' என்பதன் பொருள்?",
+      "options": [
+        "Fast",
+        "Moving slowly (மெதுவாக நகரும்)",
+        "Active",
+        "Brave"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "In which city's villa did the author stay? || தாகூர் எந்த நகரத்தில் உள்ள மாளிகையில் தங்கியிருந்தார்?",
+      "options": [
+        "Calcutta",
+        "Chandernagore (சந்தன்நகர்)",
+        "London",
+        "Nainital"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What is 'Ministrations'? || 'Ministrations' என்பதன் பொருள்?",
+      "options": [
+        "Government",
+        "Act of helping or caring (உதவுதல் அல்லது பராமரித்தல்)",
+        "Singing",
+        "Fighting"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "The author spent his rainy afternoons singing ______? || மழைக் காலங்களில் அவர் என்னப் பாடல்களைப் பாடுவார்?",
+      "options": [
+        "English songs",
+        "Vaishnava songs (வைணவப் பாடல்கள்)",
+        "Pop music",
+        "Silent books"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "The Riverside was once peaceful, but now covered with? || நதிக்கரைகள் அமைதி இழந்து தற்போது எதனால் சூழப்பட்டுள்ளன?",
+      "options": [
+        "Forests",
+        "Smoke-belching mills (புகை வெளிவிடும் தொழிற்சாலைகள்)",
+        "Hospitals",
+        "Playgrounds"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "In which year did Rabindranath Tagore win the Nobel Prize? || ரவீந்திரநாத் தாகூர் எந்த ஆண்டு நோபல் பரிசு பெற்றார்?",
+      "options": [
+        "1901",
+        "1913 (1913-ல்)",
+        "1947",
+        "1861"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What is a 'Conjunction'? || 'இணைப்புச் சொல்' (Conjunction) என்பது என்ன?",
+      "options": [
+        "A naming word",
+        "A word used to connect two sentences (இரு வாக்கியங்களை இணைக்கும் சொல்)",
+        "An action word",
+        "None"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify the co-ordinating conjunction: 'He is poor but happy.' || இதில் வரும் இணைப்புச் சொல்லைக் கண்டறிக.",
+      "options": [
+        "is",
+        "poor",
+        "but (ஆனால்)",
+        "happy"
+      ],
+      "a": 2,
+      "ex": ""
+    },
+    {
+      "q": "What is the synonym of 'Plaintive'? || 'Plaintive' - என்பதன் ஒத்தப்பொருள்?",
+      "options": [
+        "Happy",
+        "Sad and mournful (சோகமான மற்றும் அழுகை போன்ற)",
+        "Strong",
+        "Fast"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What did Tagore do when the boat drifted with the current? || படகு ஆற்றின் நீரோட்டத்தோடுச் செல்லும்போது தாகூர் என்னச் செய்வார்?",
+      "options": [
+        "Cried",
+        "Sang songs (பாடல்கள் பாடுவார்)",
+        "Jumped",
+        "Slept"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify the Subordinating Conjunction from: [[Because]], [[And]], [[But]], [[Or]]. || இதில் எவைச் சார்பு இணைப்புச் சொல்?",
+      "options": [
+        "And",
+        "But",
+        "Because (ஏனெனில் / பிஸிகாஸ்)",
+        "Or"
+      ],
+      "a": 2,
+      "ex": ""
+    },
+    {
+      "q": "The author spent his adult life in the villa for nearly? || தாகூர் தனது முதிர்ந்த வயதில் எத்தனைய் மாதங்கள் அங்கு இருந்தார்?",
+      "options": [
+        "One month",
+        "Six months (ஆறு மாதங்கள்)",
+        "Two years",
+        "Five years"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What does a 'Dragon' symbolize in this story? || இக்கதையில் 'டிராகன்' எதனைச் அடையாளப்படுத்துகிறது?",
+      "options": [
+        "Magic",
+        "Industry/Pollution (தொழிற்சாலை / மாசு)",
+        "Love",
+        "Family"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Who is the brother of Rabindranath Tagore mentioned in the lesson? || பாடத்தில் குறிப்பிடப்படும் தாகூரின்ச் சகோதரர் யார்?",
+      "options": [
+        "Satyendranath",
+        "Jyotirindra (ஜோதிரிந்திரா)",
+        "Mani",
+        "Ravi"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of 'Belching': || 'Belching' - என்பதன் பொருள்?",
+      "options": [
+        "Sleeping",
+        "Letting out smoke/gas (புகையை வெளியேத் தள்ளுதல்)",
+        "Eating",
+        "Singing"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Is 'My Reminiscence' a purely fictional story? || 'மை ரெமினிசன்ஸ்' என்பது முழுக்க முழுக்கக் கற்பனைக் கதையா?",
+      "options": [
+        "Yes",
+        "No, it is an autobiography (இல்லை, இது ஒருத் சுயசரிதை)",
+        "Maybe",
+        "Unknown"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "The riverside was a 'joy of life' for the author. True or False? || நதிக்கரை என்பது ஆசிரியருக்கு வாழ்வின் மகிழ்ச்சி. சரியா தவறா?",
+      "options": [
+        "True (சரி)",
+        "False",
+        "Partly true",
+        "Unknown"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Identify: 'Either... or' is which type of conjunction? || 'Either... or' என்பது எவ்வகை இணைப்புச் சொல்?",
+      "options": [
+        "Co-ordinating",
+        "Correlative (ஜோடி இணைப்புச் சொல்)",
+        "Subordinating",
+        "Exclamation"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What is the opposite (Antonym) of 'Languid'? || 'Languid' என்பதன் எதிர்ச்சொல் என்ன?",
+      "options": [
+        "Slow",
+        "Energetic/Active (சுறுசுறுப்பான)",
+        "Lazy",
+        "Tired"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Which country is Rabindranath Tagore from? || ரவீந்திரநாத் தாகூர் எந்த நாட்டைச் சேர்ந்தவர்?",
+      "options": [
+        "England",
+        "India (இந்தியா)",
+        "Russia",
+        "USA"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What is the synonym for 'Gaze'? || 'Gaze' - ஒத்தப்பொருள்?",
+      "options": [
+        "Look/Stare (உற்றுப் பார்த்தல்)",
+        "Run",
+        "Hide",
+        "Speak"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "The 'Willow' trees were found on? || 'வில்லோ' மரங்கள் எங்கேக் காணப்பட்டன?",
+      "options": [
+        "In the desert",
+        "On the banks of the river (நதிக்கரைகளில்)",
+        "In a school",
+        "In the sea"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: \"He works and he plays\". What conjunction is used? || இதில் பயின்று வரும் இணைப்புச் சொல் எது?",
+      "options": [
+        "He",
+        "and (மற்றும்)",
+        "works",
+        "plays"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What kind of afternoon was described as 'In the rainy season'? || மழைக் காலகட்ட மதிய நேரங்கள் எவ்வாறு விவரிக்கப்படுகின்றன?",
+      "options": [
+        "Boring",
+        "Peaceful and musical (அமைதியான மற்றும் இசை நிறைந்தவை)",
+        "Hot",
+        "Fearful"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "The expansion of 'UN' related to UNESCO context? || UNESCO - வில் வரும் 'UN' என்பதன் விரிவாக்கம்?",
+      "options": [
+        "United Nations (ஐக்கிய நாடுகள்)",
+        "Union National",
+        "Under Now",
+        "None"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "What is the 'Clipped word' for 'Biographical'? || 'Biographical' - என்பதன் சுருக்கப்பட்ட வடிவம் (Clipped word) எது?",
+      "options": [
+        "Bio (பையோ)",
+        "Graph",
+        "Cal",
+        "Graphic"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "The author's 'Reminiscence' was published in which year originally? || 'மை ரெமினிசன்ஸ்' முதலில் எப்போது வெளியிடப்பட்டது?",
+      "options": [
+        "1913",
+        "1911 (வங்காள மொழியில் - ஜிரன்பட்டி)",
+        "1947",
+        "1861"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "How does the author feel about the current state of the river Ganges? || கங்கை நதியின் தற்போதைய நிலையைப் பற்றி ஆசிரியர் என்னக் கருதுகிறார்?",
+      "options": [
+        "Happy",
+        "Sad about the loss of peace/beauty (அழகு சிதைந்துப் போனதால் வருந்துகிறார்)",
+        "Excited",
+        "Angry"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify the sentence pattern: 'Stars shine'. || 'Stars shine' - இதன் அமைப்பு எது?",
+      "options": [
+        "S V (எழுவாய் + வினைமுற்று)",
+        "S V C",
+        "S V O",
+        "S V A"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "The word 'Villa' primarily means? || 'Villa' என்பது எதனைக் குறிக்கும்?",
+      "options": [
+        "A small hut",
+        "A large/luxurious country house (பெரிய மாளிகை)",
+        "A boat",
+        "A forest"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Who is considered the 'World Poet' (Viswakavi)? || 'உலகக் கவி' என்று அழைக்கப்படுபவர் யார்?",
+      "options": [
+        "Shakespeare",
+        "Rabindranath Tagore (தாகூர்)",
+        "Leo Tolstoy",
+        "Milton"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "In the villa, where did the author spend his evenings? || மாளிகையில் மாலை நேரத்தை ஆசிரியர் எங்கேக் கழித்தார்?",
+      "options": [
+        "In the kitchen",
+        "On the terrace overlooking the river (நதியைப் பார்த்தபடி மாடியில்)",
+        "In the bed",
+        "Under a tree"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What is the synonym for 'Mournful'? || 'Mournful' என்பதன் ஒத்தப்பொருள்?",
+      "options": [
+        "Bright",
+        "Melancholy/Sad (சோகமான)",
+        "Strong",
+        "Noisy"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Conclusion: 'My Reminiscence' teaches us to? || முடிவு: இக்கதை நமக்குக் கூறும் பாடம் என்ன?",
+      "options": [
+        "Forget childhood",
+        "Valuing our bond with nature and memories (இயற்கையையும் பழைய நினைவுகளையும்ப் போற்றுதல்)",
+        "Move to cities",
+        "Stop dreaming"
+      ],
+      "a": 1,
+      "ex": ""
+    }
+  ],
+  "credits": "தொகுப்பு: A1 ONLINE COACHING CENTER"
+}

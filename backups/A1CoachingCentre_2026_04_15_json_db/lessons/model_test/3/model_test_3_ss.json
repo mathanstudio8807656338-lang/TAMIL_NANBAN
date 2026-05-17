@@ -1,0 +1,1663 @@
+{
+  "unit": "Model Test 3",
+  "subject": "TET Model Test",
+  "class": "8",
+  "term": "Annual",
+  "title": "TET மாதிரித் தேர்வு - 3 (S/S)",
+  "summary": "அனைத்துப் பாடங்களையும் உள்ளடக்கிய 150 வினாக்கள் கொண்ட மாதிரித் தேர்வு.",
+  "sections": [],
+  "quiz": {
+    "questions": [
+      {
+        "question": "'குறுந்தொகை' எந்த சங்க நூல் வகையைச் சேர்ந்தது?",
+        "options": [
+          "பத்துப்பாட்டு",
+          "எட்டுத்தொகை",
+          "பதினெண்மேல்கணக்கு",
+          "பதினெண்கீழ்கணக்கு"
+        ],
+        "answer": 1,
+        "explanation": "எட்டுத்தொகை"
+      },
+      {
+        "question": "திருக்குறளில் மொத்தம் எத்தனை குறள்கள்?",
+        "options": [
+          "1000",
+          "1300",
+          "1330",
+          "1320"
+        ],
+        "answer": 2,
+        "explanation": "1330"
+      },
+      {
+        "question": "'யாதும் ஊரே யாவரும் கேளிர்' என்ற வரிகளை எழுதியவர் யார்?",
+        "options": [
+          "வள்ளுவர்",
+          "கணியன் பூங்குன்றனார்",
+          "கம்பர்",
+          "இளங்கோவடிகள்"
+        ],
+        "answer": 1,
+        "explanation": "கணியன் பூங்குன்றனார்"
+      },
+      {
+        "question": "தமிழ் எழுத்துக்கள் மொத்தம் எத்தனை?",
+        "options": [
+          "216",
+          "247",
+          "247",
+          "312"
+        ],
+        "answer": 1,
+        "explanation": "247"
+      },
+      {
+        "question": "'சிலப்பதிகாரம்' எழுதியவர் யார்?",
+        "options": [
+          "சீத்தலைச் சாத்தனார்",
+          "இளங்கோவடிகள்",
+          "கம்பர்",
+          "வள்ளுவர்"
+        ],
+        "answer": 1,
+        "explanation": "இளங்கோவடிகள்"
+      },
+      {
+        "question": "தமிழின் முதல் இலக்கண நூல் எது?",
+        "options": [
+          "தொல்காப்பியம்",
+          "நன்னூல்",
+          "வீரசோழியம்",
+          "கொல்லிமலை"
+        ],
+        "answer": 0,
+        "explanation": "தொல்காப்பியம்"
+      },
+      {
+        "question": "'உவமை அணி' என்பது?",
+        "options": [
+          "இரண்டு பொருள்களை நேர்மையாக ஒப்பிடுவது",
+          "ஒன்றை மற்றொன்றாக உருவகிப்பது",
+          "ஓசை நயம்",
+          "மறைமுக கருத்து"
+        ],
+        "answer": 0,
+        "explanation": "இரண்டு பொருள்களை நேர்மையாக ஒப்பிடுவது"
+      },
+      {
+        "question": "கம்பராமாயணத்தில் எத்தனை காண்டங்கள்?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": 1,
+        "explanation": "6"
+      },
+      {
+        "question": "'மனோன்மணியம்' என்ற நூலை எழுதியவர்?",
+        "options": [
+          "சுந்தரம் பிள்ளை",
+          "உ.வே.சாமிநாதையர்",
+          "திருவள்ளுவர்",
+          "கபிலர்"
+        ],
+        "answer": 0,
+        "explanation": "சுந்தரம் பிள்ளை"
+      },
+      {
+        "question": "தமிழில் 'வல்லினம்' என்பது எந்த எழுத்துக்கள்?",
+        "options": [
+          "க ச ட த ப ற",
+          "ங ஞ ண ந ம ன",
+          "ய ர ல வ ழ ள",
+          "அ இ உ"
+        ],
+        "answer": 0,
+        "explanation": "க ச ட த ப ற"
+      },
+      {
+        "question": "'அகப்பொருள்' சங்க இலக்கியத்தில் எதை குறிக்கிறது?",
+        "options": [
+          "புறத்திணை",
+          "அகத்திணை (காதல் நிலை)",
+          "போர் வீரம்",
+          "கடவுள் வாழ்த்து"
+        ],
+        "answer": 1,
+        "explanation": "அகத்திணை (காதல் நிலை)"
+      },
+      {
+        "question": "'ஐம்பெரும் காப்பியங்கள்' ல் சிலப்பதிகாரம் தவிர மற்றொன்று?",
+        "options": [
+          "மணிமேகலை",
+          "குறுந்தொகை",
+          "நற்றிணை",
+          "அகநானூறு"
+        ],
+        "answer": 0,
+        "explanation": "மணிமேகலை"
+      },
+      {
+        "question": "தமிழ் உரைநடையை தொடக்கிய கால கட்டம்?",
+        "options": [
+          "சங்க காலம்",
+          "தொல்காப்பிய காலம்",
+          "நவீன காலம் (19ஆம் நூற்றாண்டு)",
+          "மத்திய காலம்"
+        ],
+        "answer": 2,
+        "explanation": "நவீன காலம் (19ஆம் நூற்றாண்டு)"
+      },
+      {
+        "question": "'வேற்றுமை' என்பது இலக்கணத்தில் எதை குறிக்கிறது?",
+        "options": [
+          "சொற்களுக்கு இடையே உள்ள உறவு",
+          "ஓசை",
+          "கவிதை வகை",
+          "அணி வகை"
+        ],
+        "answer": 0,
+        "explanation": "சொற்களுக்கு இடையே உள்ள உறவு"
+      },
+      {
+        "question": "'திருமுருகாற்றுப்படை' எழுதியவர்?",
+        "options": [
+          "நக்கீரர்",
+          "கம்பர்",
+          "இளங்கோ",
+          "வள்ளுவர்"
+        ],
+        "answer": 0,
+        "explanation": "நக்கீரர்"
+      },
+      {
+        "question": "'புறநானூறு' எந்த வகை இலக்கியம்?",
+        "options": [
+          "அகப்பொருள்",
+          "புறப்பொருள்",
+          "சமய இலக்கியம்",
+          "நீதி இலக்கியம்"
+        ],
+        "answer": 1,
+        "explanation": "புறப்பொருள்"
+      },
+      {
+        "question": "தமிழ் எழுத்துக்களில் 'மெய்யெழுத்துக்கள்' எத்தனை?",
+        "options": [
+          "12",
+          "18",
+          "216",
+          "247"
+        ],
+        "answer": 1,
+        "explanation": "18"
+      },
+      {
+        "question": "'மூன்றாம் தமிழ்ச்சங்கம்' எங்கே நடைபெற்றது?",
+        "options": [
+          "மதுரை",
+          "காஞ்சி",
+          "பூம்புகார்",
+          "கபாடபுரம்"
+        ],
+        "answer": 0,
+        "explanation": "மதுரை"
+      },
+      {
+        "question": "'ஔவையார்' எழுதிய நீதி நூல்?",
+        "options": [
+          "ஆத்திசூடி",
+          "நான்மணிக்கடிகை",
+          "இன்னா நாற்பது",
+          "இனியவை நாற்பது"
+        ],
+        "answer": 0,
+        "explanation": "ஆத்திசூடி"
+      },
+      {
+        "question": "'நன்னூல்' இலக்கண நூலை எழுதியவர்?",
+        "options": [
+          "தொல்காப்பியர்",
+          "பவணந்தி முனிவர்",
+          "நக்கீரர்",
+          "கம்பர்"
+        ],
+        "answer": 1,
+        "explanation": "பவணந்தி முனிவர்"
+      },
+      {
+        "question": "சங்க இலக்கியத்தில் 'முல்லை திணை' எதை குறிக்கிறது?",
+        "options": [
+          "காடும் காட்டுசார்ந்த நிலமும்",
+          "குறிஞ்சி நிலம்",
+          "மருத நிலம்",
+          "பாலை நிலம்"
+        ],
+        "answer": 0,
+        "explanation": "காடும் காட்டுசார்ந்த நிலமும்"
+      },
+      {
+        "question": "'கலித்தொகை' பாட்டு வகை எது?",
+        "options": [
+          "அகவல்",
+          "கலி",
+          "வஞ்சி",
+          "துறை"
+        ],
+        "answer": 1,
+        "explanation": "கலி"
+      },
+      {
+        "question": "திருக்குறளில் முதல் அதிகாரம் எது?",
+        "options": [
+          "இல்வாழ்க்கை",
+          "கடவுள் வாழ்த்து",
+          "வாழ்க்கைத்துணை நலம்",
+          "அறன் வலியுறுத்தல்"
+        ],
+        "answer": 1,
+        "explanation": "கடவுள் வாழ்த்து"
+      },
+      {
+        "question": "'மொழிபெயர்ப்பு' என்பது?",
+        "options": [
+          "புதிய நூல் எழுதுதல்",
+          "ஒரு மொழியிலிருந்து மற்றொரு மொழியில் பொருள் கூறுதல்",
+          "கவிதை வகை",
+          "இலக்கணம்"
+        ],
+        "answer": 1,
+        "explanation": "ஒரு மொழியிலிருந்து மற்றொரு மொழியில் பொருள் கூறுதல்"
+      },
+      {
+        "question": "'எழுத்துக்கள் புணரும் விதிகளை' விளக்கும் இலக்கணம்?",
+        "options": [
+          "புணரியல்",
+          "சொல்லியல்",
+          "பொருளியல்",
+          "யாப்பியல்"
+        ],
+        "answer": 0,
+        "explanation": "புணரியல்"
+      },
+      {
+        "question": "'பழமொழி' என்பது?",
+        "options": [
+          "நீண்ட கவிதை",
+          "பழங்காலத்திலிருந்து வரும் சுருக்கமான அனுபவ வாக்கியம்",
+          "கடவுள் வாழ்த்து",
+          "போர்ப்பாட்டு"
+        ],
+        "answer": 1,
+        "explanation": "பழங்காலத்திலிருந்து வரும் சுருக்கமான அனுபவ வாக்கியம்"
+      },
+      {
+        "question": "'சந்தி விதி' என்பது?",
+        "options": [
+          "கவிதை எழுதும் விதி",
+          "இரண்டு சொற்கள் சேரும்போது நடக்கும் மாற்றங்களின் விதி",
+          "நடை விதி",
+          "அணி விதி"
+        ],
+        "answer": 1,
+        "explanation": "இரண்டு சொற்கள் சேரும்போது நடக்கும் மாற்றங்களின் விதி"
+      },
+      {
+        "question": "'பதிற்றுப்பத்து' எந்த மன்னர்களை பாடுகிறது?",
+        "options": [
+          "சோழர்",
+          "சேர மன்னர்கள்",
+          "பாண்டியர்",
+          "பல்லவர்"
+        ],
+        "answer": 1,
+        "explanation": "சேர மன்னர்கள்"
+      },
+      {
+        "question": "'அந்தாதி' என்பது எந்த வகை கவிதை?",
+        "options": [
+          "ஒரு பாடலின் கடைசி சொல் அடுத்த பாடலின் தொடக்கமாக வருவது",
+          "குறுகிய கவிதை",
+          "நீண்ட கவிதை",
+          "புராண கவிதை"
+        ],
+        "answer": 0,
+        "explanation": "ஒரு பாடலின் கடைசி சொல் அடுத்த பாடலின் தொடக்கமாக வருவது"
+      },
+      {
+        "question": "'சங்க காலம்' தமிழ் வரலாற்றில் எந்த காலத்தை குறிக்கிறது?",
+        "options": [
+          "கி.மு. 300 – கி.பி. 300",
+          "கி.பி. 600 – கி.பி. 900",
+          "கி.பி. 1000 – கி.பி. 1300",
+          "கி.பி. 1600 – கி.பி. 1900"
+        ],
+        "answer": 0,
+        "explanation": "கி.மு. 300 – கி.பி. 300"
+      },
+      {
+        "question": "Choose the correct form: She _______ to school every day.",
+        "options": [
+          "go",
+          "goes",
+          "went",
+          "going"
+        ],
+        "answer": 1,
+        "explanation": "goes"
+      },
+      {
+        "question": "'Antonym' of 'Ancient' is?",
+        "options": [
+          "Old",
+          "Modern",
+          "Historic",
+          "Primitive"
+        ],
+        "answer": 1,
+        "explanation": "Modern"
+      },
+      {
+        "question": "Identify the noun in: 'The beautiful garden bloomed in spring.'",
+        "options": [
+          "beautiful",
+          "bloomed",
+          "garden",
+          "spring"
+        ],
+        "answer": 2,
+        "explanation": "garden"
+      },
+      {
+        "question": "'Passive voice' of 'Ram writes a letter'?",
+        "options": [
+          "A letter writes Ram",
+          "A letter is written by Ram",
+          "A letter was written by Ram",
+          "Ram is written a letter"
+        ],
+        "answer": 1,
+        "explanation": "A letter is written by Ram"
+      },
+      {
+        "question": "Which sentence is in 'Simple Future Tense'?",
+        "options": [
+          "She is going to market",
+          "She went to market",
+          "She will go to market",
+          "She has gone to market"
+        ],
+        "answer": 2,
+        "explanation": "She will go to market"
+      },
+      {
+        "question": "'Synonym' of 'Courageous' is?",
+        "options": [
+          "Fearful",
+          "Brave",
+          "Timid",
+          "Cowardly"
+        ],
+        "answer": 1,
+        "explanation": "Brave"
+      },
+      {
+        "question": "Identify the adjective: 'The tall boy ran fast.'",
+        "options": [
+          "boy",
+          "ran",
+          "tall",
+          "fast"
+        ],
+        "answer": 2,
+        "explanation": "tall"
+      },
+      {
+        "question": "Which is the correct spelling?",
+        "options": [
+          "Accomodate",
+          "Accommodate",
+          "Acommodate",
+          "Accommoddate"
+        ],
+        "answer": 1,
+        "explanation": "Accommodate"
+      },
+      {
+        "question": "'I _______ my homework before dinner.' (Past Perfect)",
+        "options": [
+          "finish",
+          "finished",
+          "had finished",
+          "have finished"
+        ],
+        "answer": 2,
+        "explanation": "had finished"
+      },
+      {
+        "question": "What is a 'Compound Sentence'?",
+        "options": [
+          "Two independent clauses joined by a conjunction",
+          "A sentence with one clause",
+          "A complex sentence",
+          "A question sentence"
+        ],
+        "answer": 0,
+        "explanation": "Two independent clauses joined by a conjunction"
+      },
+      {
+        "question": "'Neither... nor' is used to connect?",
+        "options": [
+          "Positive ideas",
+          "Two negative alternatives",
+          "Questions",
+          "Commands"
+        ],
+        "answer": 1,
+        "explanation": "Two negative alternatives"
+      },
+      {
+        "question": "Identify the preposition: 'The book is on the table.'",
+        "options": [
+          "book",
+          "is",
+          "on",
+          "table"
+        ],
+        "answer": 2,
+        "explanation": "on"
+      },
+      {
+        "question": "'Reported speech' of: He said, 'I am happy.'",
+        "options": [
+          "He said that he is happy",
+          "He said that he was happy",
+          "He told I am happy",
+          "He says he is happy"
+        ],
+        "answer": 1,
+        "explanation": "He said that he was happy"
+      },
+      {
+        "question": "'Comprehension' means?",
+        "options": [
+          "Writing a letter",
+          "Understanding a passage",
+          "Composing a poem",
+          "Speaking skill"
+        ],
+        "answer": 1,
+        "explanation": "Understanding a passage"
+      },
+      {
+        "question": "Which word is a 'collective noun'?",
+        "options": [
+          "run",
+          "flock",
+          "beautiful",
+          "quickly"
+        ],
+        "answer": 1,
+        "explanation": "flock"
+      },
+      {
+        "question": "'Question tag' for: 'She can sing well, _______?'",
+        "options": [
+          "can she",
+          "can't she",
+          "isn't she",
+          "doesn't she"
+        ],
+        "answer": 1,
+        "explanation": "can't she"
+      },
+      {
+        "question": "'Simile' in: 'He is as brave as a lion.'",
+        "options": [
+          "He is brave",
+          "brave as a lion",
+          "as brave",
+          "brave"
+        ],
+        "answer": 1,
+        "explanation": "brave as a lion"
+      },
+      {
+        "question": "Which is NOT a 'linking verb'?",
+        "options": [
+          "is",
+          "seem",
+          "run",
+          "become"
+        ],
+        "answer": 2,
+        "explanation": "run"
+      },
+      {
+        "question": "'Inter' as a prefix means?",
+        "options": [
+          "within",
+          "between",
+          "against",
+          "before"
+        ],
+        "answer": 1,
+        "explanation": "between"
+      },
+      {
+        "question": "Identify the adverb: 'She sings beautifully.'",
+        "options": [
+          "She",
+          "sings",
+          "beautifully",
+          "song"
+        ],
+        "answer": 2,
+        "explanation": "beautifully"
+      },
+      {
+        "question": "'Who' is used for?",
+        "options": [
+          "things",
+          "animals",
+          "persons",
+          "places"
+        ],
+        "answer": 2,
+        "explanation": "persons"
+      },
+      {
+        "question": "'Homophone' of 'write' is?",
+        "options": [
+          "right",
+          "rate",
+          "road",
+          "rote"
+        ],
+        "answer": 0,
+        "explanation": "right"
+      },
+      {
+        "question": "'Exclamatory sentence' expresses?",
+        "options": [
+          "Command",
+          "Strong emotion",
+          "Question",
+          "Statement"
+        ],
+        "answer": 1,
+        "explanation": "Strong emotion"
+      },
+      {
+        "question": "'dis-' prefix in 'disagree' means?",
+        "options": [
+          "again",
+          "not/opposite",
+          "before",
+          "after"
+        ],
+        "answer": 1,
+        "explanation": "not/opposite"
+      },
+      {
+        "question": "Which is an 'abstract noun'?",
+        "options": [
+          "table",
+          "beauty",
+          "teacher",
+          "city"
+        ],
+        "answer": 1,
+        "explanation": "beauty"
+      },
+      {
+        "question": "'If I were a bird, I _______ fly.' (Conditional)",
+        "options": [
+          "will",
+          "would",
+          "shall",
+          "can"
+        ],
+        "answer": 1,
+        "explanation": "would"
+      },
+      {
+        "question": "'Alliteration' is?",
+        "options": [
+          "Same vowel sounds",
+          "Repetition of initial consonant sounds",
+          "Rhyme at end",
+          "Comparison"
+        ],
+        "answer": 1,
+        "explanation": "Repetition of initial consonant sounds"
+      },
+      {
+        "question": "Choose the correct article: 'She is ______ honest person.'",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "no article"
+        ],
+        "answer": 1,
+        "explanation": "an"
+      },
+      {
+        "question": "'Plural' of 'child' is?",
+        "options": [
+          "childs",
+          "childes",
+          "children",
+          "child"
+        ],
+        "answer": 2,
+        "explanation": "children"
+      },
+      {
+        "question": "'Reading comprehension skill' for class 6-8 SCERT focuses on?",
+        "options": [
+          "Only grammar",
+          "Understanding, inference and critical thinking",
+          "Only vocabulary",
+          "Only writing"
+        ],
+        "answer": 1,
+        "explanation": "Understanding, inference and critical thinking"
+      },
+      {
+        "question": "'கற்றல்' (Learning) க்கான ஒரு சரியான வரையறை?",
+        "options": [
+          "மனப்பாடம் செய்தல்",
+          "அனுபவத்தால் நிரந்தர நடத்தை மாற்றம்",
+          "ஆசிரியர் சொல்வதை கேட்டல்",
+          "தேர்வு எழுதுதல்"
+        ],
+        "answer": 1,
+        "explanation": "அனுபவத்தால் நிரந்தர நடத்தை மாற்றம்"
+      },
+      {
+        "question": "பாவ்லோவ் (Pavlov) கண்டுபிடித்த கற்றல் வகை?",
+        "options": [
+          "செயல்முறை நிபந்தனைப்படுத்தல்",
+          "உடன்நிகழ் நிபந்தனைப்படுத்தல் (Classical Conditioning)",
+          "கண்டுபிடிப்பு கற்றல்",
+          "அவதானிப்பு கற்றல்"
+        ],
+        "answer": 1,
+        "explanation": "உடன்நிகழ் நிபந்தனைப்படுத்தல் (Classical Conditioning)"
+      },
+      {
+        "question": "'மாறுதல் தடைக்கோடு' (Transfer of Learning) என்பது?",
+        "options": [
+          "பழைய கற்றல் புதிய கற்றலை எப்படி பாதிக்கிறது",
+          "மாணவர் பள்ளி மாறுதல்",
+          "ஆசிரியர் பணி மாறுதல்",
+          "பாடம் மாற்றுதல்"
+        ],
+        "answer": 0,
+        "explanation": "பழைய கற்றல் புதிய கற்றலை எப்படி பாதிக்கிறது"
+      },
+      {
+        "question": "'மாஸ்லோவின் தேவைகள் படிநிலை' (Maslow's Hierarchy) ல் உச்சகட்ட தேவை எது?",
+        "options": [
+          "உணவு தேவை",
+          "பாதுகாப்பு தேவை",
+          "தன்னை நிறைவேற்றும் தேவை (Self-Actualization)",
+          "சமூக தேவை"
+        ],
+        "answer": 2,
+        "explanation": "தன்னை நிறைவேற்றும் தேவை (Self-Actualization)"
+      },
+      {
+        "question": "ஒரு மாணவர் தன் நண்பனை பார்த்து கண்ணீர் விடுகிறான். இது எந்த வகை கற்றல்?",
+        "options": [
+          "நிபந்தனைப்படுத்தல்",
+          "அவதானிப்பு / மாதிரி கற்றல் (Observational Learning)",
+          "கண்டுபிடிப்பு கற்றல்",
+          "பயிற்சி கற்றல்"
+        ],
+        "answer": 1,
+        "explanation": "அவதானிப்பு / மாதிரி கற்றல் (Observational Learning)"
+      },
+      {
+        "question": "'குழந்தை மனநல ஆரோக்கியம்' (Mental Health) க்கு முக்கிய காரணி எது?",
+        "options": [
+          "அதிக தேர்வு மதிப்பெண்",
+          "பாதுகாப்பான, அன்பான குடும்ப சூழல்",
+          "அதிக நேரம் படிப்பு",
+          "தனிப்பட்ட வாழ்க்கை"
+        ],
+        "answer": 1,
+        "explanation": "பாதுகாப்பான, அன்பான குடும்ப சூழல்"
+      },
+      {
+        "question": "'நடத்தைவாதம்' (Behaviourism) படி கற்றல் என்பது?",
+        "options": [
+          "உள்மன செயல்முறை",
+          "சூழலுக்கு ஏற்ப நடத்தை மாற்றம்",
+          "சிந்தனை மாற்றம்",
+          "ஆளுமை மாற்றம்"
+        ],
+        "answer": 1,
+        "explanation": "சூழலுக்கு ஏற்ப நடத்தை மாற்றம்"
+      },
+      {
+        "question": "'ஆக்கபூர்வமான நினைவாற்றல்' (Constructive Memory) என்பது?",
+        "options": [
+          "எல்லாவற்றையும் சரியாக நினைவில் வைத்தல்",
+          "நினைவுகளை மறுகட்டமைத்தல்",
+          "புத்தகம் படித்தல்",
+          "புதிய தகவல் சேர்த்தல்"
+        ],
+        "answer": 1,
+        "explanation": "நினைவுகளை மறுகட்டமைத்தல்"
+      },
+      {
+        "question": "'படைப்பாற்றல்' (Creativity) ஐ வளர்க்க ஆசிரியர் என்ன செய்வது சரி?",
+        "options": [
+          "கட்டுப்பாடான விதிகள் விதித்தல்",
+          "திறந்த வினாக்கள் கேட்டல் மற்றும் புதிய யோசனைகளை ஊக்கப்படுத்தல்",
+          "மனப்பாடம் மட்டும்",
+          "தேர்வு மதிப்பெண் மட்டும்"
+        ],
+        "answer": 1,
+        "explanation": "திறந்த வினாக்கள் கேட்டல் மற்றும் புதிய யோசனைகளை ஊக்கப்படுத்தல்"
+      },
+      {
+        "question": "'கூட்டு கற்றல்' (Cooperative Learning) ல் மாணவர்கள் எவ்வாறு கற்கிறார்கள்?",
+        "options": [
+          "தனியாக",
+          "குழுவாக ஒன்றிணைந்து",
+          "ஆசிரியர் தலைமையில் மட்டும்",
+          "தேர்வு மூலம்"
+        ],
+        "answer": 1,
+        "explanation": "குழுவாக ஒன்றிணைந்து"
+      },
+      {
+        "question": "'மதிப்பீட்டு பக்கச்சார்பு' (Assessment Bias) என்பது?",
+        "options": [
+          "சரியான மதிப்பீடு",
+          "ஒரு குழுவிற்கு சாதகமாக அல்லது எதிராக தவறான மதிப்பீடு",
+          "கடினமான தேர்வு",
+          "எளிய தேர்வு"
+        ],
+        "answer": 1,
+        "explanation": "ஒரு குழுவிற்கு சாதகமாக அல்லது எதிராக தவறான மதிப்பீடு"
+      },
+      {
+        "question": "'சுய செயல்திறன்' (Self-Efficacy) கோட்பாட்டை வகுத்தவர்?",
+        "options": [
+          "பாண்டுரா (Bandura)",
+          "ஸ்கின்னர்",
+          "பியாஜே",
+          "வைகாட்ஸ்கி"
+        ],
+        "answer": 0,
+        "explanation": "பாண்டுரா (Bandura)"
+      },
+      {
+        "question": "'குழந்தையின் உரிமை' (Child Rights) ஐ உறுதி செய்யும் சர்வதேச ஒப்பந்தம்?",
+        "options": [
+          "UDHR",
+          "UNCRC (UN Convention on Rights of Child)",
+          "UNESCO",
+          "WHO"
+        ],
+        "answer": 1,
+        "explanation": "UNCRC (UN Convention on Rights of Child)"
+      },
+      {
+        "question": "'தடை' (Frustration) மற்றும் 'ஆக்கிரமிப்பு' (Aggression) தொடர்பு குறித்த கோட்பாடு யாது?",
+        "options": [
+          "மாஸ்லோவின் கோட்பாடு",
+          "Dollard et al. தடை-ஆக்கிரமிப்பு கோட்பாடு",
+          "பியாஜேவின் கோட்பாடு",
+          "கோல்பர்க் கோட்பாடு"
+        ],
+        "answer": 1,
+        "explanation": "Dollard et al. தடை-ஆக்கிரமிப்பு கோட்பாடு"
+      },
+      {
+        "question": "ஒரு 6ஆம் வகுப்பு மாணவர் புரியாத கேள்வி கேட்கிறார். ஆசிரியர் என்ன செய்ய வேண்டும்?",
+        "options": [
+          "கண்டிக்க வேண்டும்",
+          "அமைதியாக விளக்க வேண்டும் மற்றும் உதவ வேண்டும்",
+          "வேறு மாணவரை கேட்க சொல்ல வேண்டும்",
+          "புறக்கணிக்க வேண்டும்"
+        ],
+        "answer": 1,
+        "explanation": "அமைதியாக விளக்க வேண்டும் மற்றும் உதவ வேண்டும்"
+      },
+      {
+        "question": "'முன்னேற்ற மதிப்பீடு' (Summative Assessment) எப்போது நடைபெறுகிறது?",
+        "options": [
+          "தொடர்ந்து",
+          "கற்பித்தல் முடிந்த பிறகு",
+          "கற்பிக்கும் போது",
+          "சேர்க்கையில்"
+        ],
+        "answer": 1,
+        "explanation": "கற்பித்தல் முடிந்த பிறகு"
+      },
+      {
+        "question": "'எதிர்மறை வலுவூட்டல்' (Negative Reinforcement) என்பது?",
+        "options": [
+          "தண்டனை",
+          "விரும்பாத தூண்டுதலை நீக்கி நடத்தையை அதிகரிக்கல்",
+          "பரிசு",
+          "புறக்கணிப்பு"
+        ],
+        "answer": 1,
+        "explanation": "விரும்பாத தூண்டுதலை நீக்கி நடத்தையை அதிகரிக்கல்"
+      },
+      {
+        "question": "'நடத்தை பிரச்சனை' உள்ள மாணவருக்கு ஆசிரியர் முதல் என்ன செய்ய வேண்டும்?",
+        "options": [
+          "தண்டனை",
+          "காரணம் புரிந்துகொண்டு ஆலோசனை",
+          "பெற்றோரிடம் புகார்",
+          "கவனிக்காமல் விட"
+        ],
+        "answer": 1,
+        "explanation": "காரணம் புரிந்துகொண்டு ஆலோசனை"
+      },
+      {
+        "question": "'வெளிப்பட்ட நடத்தை' மட்டும் கவனிப்பது எந்த உளவியல் கோட்பாடு?",
+        "options": [
+          "நடத்தைவாதம் (Behaviourism)",
+          "மனோவிசிலேடணம்",
+          "கட்டமைப்பு கோட்பாடு",
+          "நரம்பியல் கோட்பாடு"
+        ],
+        "answer": 0,
+        "explanation": "நடத்தைவாதம் (Behaviourism)"
+      },
+      {
+        "question": "'விரிவடைந்த கல்வி' (Inclusive Education) TET தேர்வுப்படி என்ன?",
+        "options": [
+          "சிறப்பு பள்ளிகளில் மட்டும்",
+          "சாதாரண வகுப்பறையில் அனைத்து குழந்தைகளும் சேர்ந்து படிக்கல்",
+          "இணைய கல்வி",
+          "மட்டுமே ஆன்லைன் கல்வி"
+        ],
+        "answer": 1,
+        "explanation": "சாதாரண வகுப்பறையில் அனைத்து குழந்தைகளும் சேர்ந்து படிக்கல்"
+      },
+      {
+        "question": "'குழந்தை மையக் கல்வி' என்பது?",
+        "options": [
+          "ஆசிரியர் மட்டுமே பேசுவது",
+          "மாணவரின் தேவை, ஆர்வம், திறன் கருத்தில் கொண்டு கற்பிப்பது",
+          "பாடப்புத்தகம் மட்டும்",
+          "தேர்வு மட்டும்"
+        ],
+        "answer": 1,
+        "explanation": "மாணவரின் தேவை, ஆர்வம், திறன் கருத்தில் கொண்டு கற்பிப்பது"
+      },
+      {
+        "question": "'வலுவூட்டல் அட்டவணை' ல் மிகவும் வலுவான நடத்தை மாற்றம் தரும் வகை?",
+        "options": [
+          "நிலையான இடைவெளி",
+          "மாறுபடும் விகிதம் (Variable Ratio)",
+          "நிலையான விகிதம்",
+          "மாறுபடும் இடைவெளி"
+        ],
+        "answer": 1,
+        "explanation": "மாறுபடும் விகிதம் (Variable Ratio)"
+      },
+      {
+        "question": "'பகுப்பாய்வு சிந்தனை' (Analytical Thinking) மேம்படுத்த சரியான முறை?",
+        "options": [
+          "மனப்பாடம்",
+          "திறந்த வினாக்கள் மற்றும் விவாதங்கள்",
+          "மட்டுமே எழுத்துத்தேர்வு",
+          "மட்டுமே புத்தகம் படிக்கல்"
+        ],
+        "answer": 1,
+        "explanation": "திறந்த வினாக்கள் மற்றும் விவாதங்கள்"
+      },
+      {
+        "question": "'Mind Map' என்பது?",
+        "options": [
+          "கோட்டு வரைபடம்",
+          "மையக்கருத்திலிருந்து பிரிந்து வரும் கிளைத் தகவல் வரைபடம்",
+          "தரவு அட்டவணை",
+          "மதிப்பெண் பட்டியல்"
+        ],
+        "answer": 1,
+        "explanation": "மையக்கருத்திலிருந்து பிரிந்து வரும் கிளைத் தகவல் வரைபடம்"
+      },
+      {
+        "question": "'வெவ்வேறு கற்றல் பாணி' (Learning Styles) கோட்பாட்டில் VARK என்பது?",
+        "options": [
+          "Visual, Auditory, Read/Write, Kinesthetic",
+          "Visual, Arithmetic, Reading, Knowledge",
+          "Verbal, Auditory, Reasoning, Kinesthetic",
+          "Visual, Applied, Reading, Knowledge"
+        ],
+        "answer": 0,
+        "explanation": "Visual, Auditory, Read/Write, Kinesthetic"
+      },
+      {
+        "question": "'இரட்டைப் பதட்டம்' (Test Anxiety) என்பது மாணவனின் எதை பாதிக்கிறது?",
+        "options": [
+          "உடல் ஆரோக்கியம் மட்டும்",
+          "தேர்வு செயல்திறன் மற்றும் மனநலம்",
+          "நண்பர்கள் உறவு மட்டும்",
+          "வீட்டு பாடம் மட்டும்"
+        ],
+        "answer": 1,
+        "explanation": "தேர்வு செயல்திறன் மற்றும் மனநலம்"
+      },
+      {
+        "question": "'கல்வி இலக்குகள்' வகைப்படுத்த பயன்படும் வடிவம்?",
+        "options": [
+          "Piaget's Model",
+          "Bloom's Taxonomy",
+          "Vygotsky's ZPD",
+          "Maslow's Hierarchy"
+        ],
+        "answer": 1,
+        "explanation": "Bloom's Taxonomy"
+      },
+      {
+        "question": "'நடைமுறை ஞாபகம்' (Procedural Memory) என்பது?",
+        "options": [
+          "ஒரு நிகழ்வு நினைவு",
+          "திறன்களை நினைவில் வைத்தல் (எ.கா: சைக்கிள் ஓட்டுவது)",
+          "உண்மை தகவல்",
+          "எண் ஞாபகம்"
+        ],
+        "answer": 1,
+        "explanation": "திறன்களை நினைவில் வைத்தல் (எ.கா: சைக்கிள் ஓட்டுவது)"
+      },
+      {
+        "question": "'தன்னிரக்க மனப்பான்மை' (Empathy) ஆசிரியரிடம் இருக்க வேண்டியது ஏன் முக்கியம்?",
+        "options": [
+          "மாணவரை கட்டுப்படுத்த",
+          "மாணவரை புரிந்துகொண்டு சிறந்த வழிகாட்டுதல் வழங்க",
+          "தேர்வு சரியாக போட",
+          "நேரம் மிச்சப்படுத்த"
+        ],
+        "answer": 1,
+        "explanation": "மாணவரை புரிந்துகொண்டு சிறந்த வழிகாட்டுதல் வழங்க"
+      },
+      {
+        "question": "'RTE Act 2009' ல் 8ஆம் வகுப்பு வரை எந்த தண்டனை தடை செய்யப்பட்டுள்ளது?",
+        "options": [
+          "வீட்டுப்பாடம் கொடுக்காமல் இருத்தல்",
+          "உடல் தண்டனை மற்றும் மன அழுத்தம் கொடுக்கல்",
+          "தேர்வு நடத்துவது",
+          "கட்டாய கல்வி"
+        ],
+        "answer": 1,
+        "explanation": "உடல் தண்டனை மற்றும் மன அழுத்தம் கொடுக்கல்"
+      },
+      {
+        "question": "6ஆம் வகுப்பு: 'சிந்து சமவெளி நாகரிகம்' எந்த நதி கரையில் தோன்றியது?",
+        "options": [
+          "கங்கை",
+          "யமுனை",
+          "சிந்து நதி",
+          "கோதாவரி"
+        ],
+        "answer": 2,
+        "explanation": "சிந்து நதி"
+      },
+      {
+        "question": "'ஹரப்பா நாகரிகம்' எந்த நாட்டில் உள்ளது (தற்கால)?",
+        "options": [
+          "இந்தியா",
+          "பாகிஸ்தான்",
+          "வங்காளதேசம்",
+          "ஆப்கானிஸ்தான்"
+        ],
+        "answer": 1,
+        "explanation": "பாகிஸ்தான்"
+      },
+      {
+        "question": "'கடல்மட்டம்' (Sea Level) என்பது என்ன அடிப்படையில் அளவிடப்படுகிறது?",
+        "options": [
+          "மலை உச்சி",
+          "கடல் மேற்பரப்பின் சராசரி மட்டம்",
+          "நதி மட்டம்",
+          "பாலைவன மட்டம்"
+        ],
+        "answer": 1,
+        "explanation": "கடல் மேற்பரப்பின் சராசரி மட்டம்"
+      },
+      {
+        "question": "'மக்களாட்சி' (Democracy) என்பது?",
+        "options": [
+          "ஒருவர் ஆட்சி",
+          "மக்களால், மக்களுக்காக, மக்களின் ஆட்சி",
+          "ராணுவ ஆட்சி",
+          "மன்னர் ஆட்சி"
+        ],
+        "answer": 1,
+        "explanation": "மக்களால், மக்களுக்காக, மக்களின் ஆட்சி"
+      },
+      {
+        "question": "இந்தியாவில் 'பஞ்சாயத்து ராஜ் அமைப்பு' எந்த அரசியலமைப்பு திருத்தத்தால் வலுப்பெற்றது?",
+        "options": [
+          "42ஆவது",
+          "44ஆவது",
+          "73ஆவது",
+          "86ஆவது"
+        ],
+        "answer": 2,
+        "explanation": "73ஆவது"
+      },
+      {
+        "question": "7ஆம் வகுப்பு: 'மக்கள் தொகை அடர்த்தி' (Population Density) என்பது?",
+        "options": [
+          "மொத்த மக்கள் தொகை",
+          "ஒரு சதுர கி.மீ.க்கு வாழும் மக்கள் எண்ணிக்கை",
+          "நகர மக்கள்",
+          "கிராம மக்கள்"
+        ],
+        "answer": 1,
+        "explanation": "ஒரு சதுர கி.மீ.க்கு வாழும் மக்கள் எண்ணிக்கை"
+      },
+      {
+        "question": "'பசிபிக் பெருங்கடல்' உலகின் மிகப்பெரிய பெருங்கடல். இது எத்தனை சதவீதம் பூமியை மூடியுள்ளது?",
+        "options": [
+          "30%",
+          "46%",
+          "25%",
+          "60%"
+        ],
+        "answer": 1,
+        "explanation": "46%"
+      },
+      {
+        "question": "'வரலாறு' படிப்பதன் நோக்கம்?",
+        "options": [
+          "மட்டுமே தேர்வு தேர்ச்சி",
+          "கடந்தகால நிகழ்வுகளிலிருந்து பாடம் கற்று நிகழ்காலை புரிந்துகொள்ள",
+          "மட்டும் ஆண்டுகள் மனப்பாடம்",
+          "வெளிநாட்டு வரலாறு மட்டும்"
+        ],
+        "answer": 1,
+        "explanation": "கடந்தகால நிகழ்வுகளிலிருந்து பாடம் கற்று நிகழ்காலை புரிந்துகொள்ள"
+      },
+      {
+        "question": "8ஆம் வகுப்பு: இந்திய அரசியலமைப்பின் முன்னுரை (Preamble) எதனால் தொடங்குகிறது?",
+        "options": [
+          "'இந்தியா'",
+          "'நாம் இந்தியா மக்கள்'",
+          "'ஜனநாயகம்'",
+          "'இந்திய குடியரசு'"
+        ],
+        "answer": 1,
+        "explanation": "'நாம் இந்தியா மக்கள்'"
+      },
+      {
+        "question": "'காலநிலை மாற்றம்' (Climate Change) க்கு மனிதர்களின் முக்கிய பங்களிப்பு?",
+        "options": [
+          "வனவிலங்கு வேட்டை",
+          "புதை எரிபொருள் எரிப்பால் CO₂ அதிகரிப்பு",
+          "விவசாயம்",
+          "மீன்பிடித்தல்"
+        ],
+        "answer": 1,
+        "explanation": "புதை எரிபொருள் எரிப்பால் CO₂ அதிகரிப்பு"
+      },
+      {
+        "question": "6ஆம் வகுப்பு SCERT: 'கரிப் பயிர்கள்' (Kharif Crops) எப்போது விதைக்கப்படுகின்றன?",
+        "options": [
+          "ஜனவரி–மார்ச்",
+          "ஜூன்–ஜூலை (மழை காலம் தொடக்கம்)",
+          "அக்டோபர்–நவம்பர்",
+          "எந்த காலத்திலும்"
+        ],
+        "answer": 1,
+        "explanation": "ஜூன்–ஜூலை (மழை காலம் தொடக்கம்)"
+      },
+      {
+        "question": "'சுதந்திர இந்தியாவின் முதல் பிரதமர்' யார்?",
+        "options": [
+          "மகாத்மா காந்தி",
+          "சர்தார் வல்லபாய் படேல்",
+          "ஜவஹர்லால் நேரு",
+          "டாக்டர் அம்பேத்கர்"
+        ],
+        "answer": 2,
+        "explanation": "ஜவஹர்லால் நேரு"
+      },
+      {
+        "question": "'புவியின் உள் அமைப்பு' ல் மிக வெப்பமான பகுதி?",
+        "options": [
+          "மேலோடு (Crust)",
+          "மேன்மை (Mantle)",
+          "புற உட்கரு (Outer Core)",
+          "உட்கரு (Inner Core)"
+        ],
+        "answer": 3,
+        "explanation": "உட்கரு (Inner Core)"
+      },
+      {
+        "question": "'ஐக்கிய நாடுகள் சபை' (UN) நிறுவப்பட்ட ஆண்டு?",
+        "options": [
+          "1945",
+          "1947",
+          "1950",
+          "1960"
+        ],
+        "answer": 0,
+        "explanation": "1945"
+      },
+      {
+        "question": "7ஆம் வகுப்பு: 'பروவமழை' (Monsoon) இந்தியாவில் எந்த திசையிலிருந்து வருகிறது?",
+        "options": [
+          "வடகிழக்கிலிருந்து",
+          "தென்மேற்கிலிருந்து",
+          "வடமேற்கிலிருந்து",
+          "கிழக்கிலிருந்து"
+        ],
+        "answer": 1,
+        "explanation": "தென்மேற்கிலிருந்து"
+      },
+      {
+        "question": "'மௌரிய சாம்ராஜ்யம்' நிறுவியவர் யார்?",
+        "options": [
+          "அசோகர்",
+          "சந்திரகுப்த மௌரியர்",
+          "பிந்துசாரர்",
+          "அலெக்ஸாண்டர்"
+        ],
+        "answer": 1,
+        "explanation": "சந்திரகுப்த மௌரியர்"
+      },
+      {
+        "question": "'சமூக ஒதுக்கல்' (Social Exclusion) என்பது?",
+        "options": [
+          "சமூக பங்கேற்பு",
+          "சமூக நன்மைகள் மற்றும் வாய்ப்புகளிலிருந்து ஒரு குழுவை விலக்கல்",
+          "சமூக விழிப்புணர்வு",
+          "சமூக மேம்பாடு"
+        ],
+        "answer": 1,
+        "explanation": "சமூக நன்மைகள் மற்றும் வாய்ப்புகளிலிருந்து ஒரு குழுவை விலக்கல்"
+      },
+      {
+        "question": "8ஆம் வகுப்பு: 'வருமான வரி' (Income Tax) யார் கட்டுகிறார்கள்?",
+        "options": [
+          "மட்டுமே நிறுவனங்கள்",
+          "வரி விதிக்கப்பட்ட வருமானம் உள்ள தனிநபர்கள் மற்றும் நிறுவனங்கள்",
+          "மட்டுமே விவசாயிகள்",
+          "மட்டுமே அரசு ஊழியர்கள்"
+        ],
+        "answer": 1,
+        "explanation": "வரி விதிக்கப்பட்ட வருமானம் உள்ள தனிநபர்கள் மற்றும் நிறுவனங்கள்"
+      },
+      {
+        "question": "'மேற்கு தொடர்ச்சி மலை' (Western Ghats) எந்த நதிகளுக்கு மூலம்?",
+        "options": [
+          "கங்கை, யமுனை",
+          "கோதாவரி, கிருஷ்ணா, காவேரி",
+          "சிந்து, சட்லஜ்",
+          "மகாநதி, தாமோதர்"
+        ],
+        "answer": 1,
+        "explanation": "கோதாவரி, கிருஷ்ணா, காவேரி"
+      },
+      {
+        "question": "'குடியரசு தினம்' (Republic Day) இந்தியாவில் எந்த நாளில்?",
+        "options": [
+          "ஆகஸ்ட் 15",
+          "ஜனவரி 26",
+          "அக்டோபர் 2",
+          "நவம்பர் 14"
+        ],
+        "answer": 1,
+        "explanation": "ஜனவரி 26"
+      },
+      {
+        "question": "7ஆம் வகுப்பு SCERT: 'நகரமயமாக்கல்' (Urbanization) இன் முக்கிய விளைவு?",
+        "options": [
+          "விவசாயம் அதிகரிப்பு",
+          "நகரங்களில் மக்கள்தொகை அதிகரிப்பு",
+          "கிராமங்கள் வளர்ச்சி",
+          "வன பரப்பு அதிகரிப்பு"
+        ],
+        "answer": 1,
+        "explanation": "நகரங்களில் மக்கள்தொகை அதிகரிப்பு"
+      },
+      {
+        "question": "'ஐம்பது வருட திட்டம்' (Five Year Plans) இந்தியாவில் எந்த ஆண்டு தொடங்கியது?",
+        "options": [
+          "1947",
+          "1951",
+          "1956",
+          "1960"
+        ],
+        "answer": 1,
+        "explanation": "1951"
+      },
+      {
+        "question": "'அடிமைத்தனம்' (Slavery) ஒழிக்கப்பட்ட முக்கிய நாடு மற்றும் ஆண்டு?",
+        "options": [
+          "USA – 1865",
+          "UK – 1870",
+          "France – 1850",
+          "India – 1947"
+        ],
+        "answer": 0,
+        "explanation": "USA – 1865"
+      },
+      {
+        "question": "'பூமத்திய ரேகை' (Equator) கடந்து போகும் கண்டம்?",
+        "options": [
+          "ஆசியா மட்டும்",
+          "ஆப்பிரிக்கா, தென் அமெரிக்கா, ஆசியா",
+          "ஐரோப்பா",
+          "ஆஸ்திரேலியா"
+        ],
+        "answer": 1,
+        "explanation": "ஆப்பிரிக்கா, தென் அமெரிக்கா, ஆசியா"
+      },
+      {
+        "question": "8ஆம் வகுப்பு: 'நிதி ஆயோக்' (NITI Aayog) நிறுவப்பட்ட ஆண்டு?",
+        "options": [
+          "2005",
+          "2010",
+          "2015",
+          "2020"
+        ],
+        "answer": 2,
+        "explanation": "2015"
+      },
+      {
+        "question": "'முதல்நிலை ஆதாரம்' (Primary Source) என்பது?",
+        "options": [
+          "வரலாறு புத்தகம்",
+          "கைத்தொழில் பத்திரிகை",
+          "கல்வெட்டு, நாணயம், கையெழுத்துப் பிரதி",
+          "ஆண்டறிக்கை"
+        ],
+        "answer": 2,
+        "explanation": "கல்வெட்டு, நாணயம், கையெழுத்துப் பிரதி"
+      },
+      {
+        "question": "'இந்தியாவின் ஆட்டோ தலைநகர்' எந்த நகரம்?",
+        "options": [
+          "சென்னை",
+          "மும்பை",
+          "டெல்லி",
+          "பெங்களூரு"
+        ],
+        "answer": 0,
+        "explanation": "சென்னை"
+      },
+      {
+        "question": "'திராவிடர்கள்' மூலம் என்று வரலாற்றாளர்கள் கருதுகின்றனர்?",
+        "options": [
+          "ஆரியர்களுடன் வந்தவர்கள்",
+          "தென்னிந்திய மற்றும் சிந்து சமவெளி நாகரிக வேர்கள் கொண்டவர்கள்",
+          "வடக்கிலிருந்து வந்தவர்கள்",
+          "வெளி நாட்டினர்"
+        ],
+        "answer": 1,
+        "explanation": "தென்னிந்திய மற்றும் சிந்து சமவெளி நாகரிக வேர்கள் கொண்டவர்கள்"
+      },
+      {
+        "question": "'Make in India' திட்டத்தின் நோக்கம்?",
+        "options": [
+          "MNREGA",
+          "உற்பத்தி துறை வளர்ச்சி மற்றும் வேலைவாய்ப்பு",
+          "PM KISAN",
+          "Ujjwala"
+        ],
+        "answer": 1,
+        "explanation": "உற்பத்தி துறை வளர்ச்சி மற்றும் வேலைவாய்ப்பு"
+      },
+      {
+        "question": "6ஆம் வகுப்பு: பூமியின் 'ஓரங்கள்' (Poles) எத்தனை டிகிரி அட்சரேகையில் உள்ளன?",
+        "options": [
+          "0°",
+          "23.5°",
+          "66.5°",
+          "90°"
+        ],
+        "answer": 3,
+        "explanation": "90°"
+      },
+      {
+        "question": "'சட்டத்தின் ஆட்சி' (Rule of Law) என்பது?",
+        "options": [
+          "ஒருவர் மட்டும் சட்டம் வகுப்பது",
+          "அனைவரும் சட்டத்திற்கு கீழ் சமம்",
+          "அரசு மட்டும் சட்டம் வகுப்பது",
+          "நீதிமன்றம் மட்டும் சட்டம்"
+        ],
+        "answer": 1,
+        "explanation": "அனைவரும் சட்டத்திற்கு கீழ் சமம்"
+      },
+      {
+        "question": "7ஆம் வகுப்பு: 'கிழக்கிந்திய கம்பெனி' இந்தியாவில் வணிகம் தொடங்கிய ஆண்டு?",
+        "options": [
+          "1600",
+          "1650",
+          "1700",
+          "1757"
+        ],
+        "answer": 0,
+        "explanation": "1600"
+      },
+      {
+        "question": "'இந்தியாவின் தேசிய நதி' எது?",
+        "options": [
+          "காவேரி",
+          "கங்கை",
+          "சிந்து",
+          "யமுனை"
+        ],
+        "answer": 1,
+        "explanation": "கங்கை"
+      },
+      {
+        "question": "8ஆம் வகுப்பு: 'பொருளியல்' (Economics) ல் 'நுகர்வு' (Consumption) என்பது?",
+        "options": [
+          "உற்பத்தி",
+          "பொருட்களை பயன்படுத்துவது",
+          "சேமிப்பு",
+          "முதலீடு"
+        ],
+        "answer": 1,
+        "explanation": "பொருட்களை பயன்படுத்துவது"
+      },
+      {
+        "question": "'ஐக்கிய நாடுகள் சுற்றுசூழல் திட்டம்' (UNEP) தலைமையகம் எங்கே?",
+        "options": [
+          "நியூயார்க்",
+          "ஜெனீவா",
+          "நைரோபி",
+          "பாரிஸ்"
+        ],
+        "answer": 2,
+        "explanation": "நைரோபி"
+      },
+      {
+        "question": "'1857 சிப்பாய் கலகம்' க்கு முக்கிய காரணம்?",
+        "options": [
+          "நிலவரி",
+          "ராணுவ கெடுபிடி மட்டும்",
+          "புதிய துப்பாக்கி பயன்பாடு மற்றும் பல்வேறு அதிருப்திகள்",
+          "மதம்"
+        ],
+        "answer": 2,
+        "explanation": "புதிய துப்பாக்கி பயன்பாடு மற்றும் பல்வேறு அதிருப்திகள்"
+      },
+      {
+        "question": "'புவியச்சு சுற்று' (Rotation) எத்தனை நேரம் எடுக்கும்?",
+        "options": [
+          "365 நாட்கள்",
+          "24 மணி நேரம்",
+          "12 மணி நேரம்",
+          "28 நாட்கள்"
+        ],
+        "answer": 1,
+        "explanation": "24 மணி நேரம்"
+      },
+      {
+        "question": "'சமஷ்டி அரசு' (Federal Government) இந்தியாவில் என்ன அம்சம் கொண்டுள்ளது?",
+        "options": [
+          "ஒரே அரசு",
+          "மத்திய மற்றும் மாநில அரசுகளுக்கிடையே அதிகாரம் பகிர்வு",
+          "மாநிலங்கள் தனி நாடுகள்",
+          "மட்டுமே மாநில அரசு"
+        ],
+        "answer": 1,
+        "explanation": "மத்திய மற்றும் மாநில அரசுகளுக்கிடையே அதிகாரம் பகிர்வு"
+      },
+      {
+        "question": "7ஆம் வகுப்பு SCERT: 'வேளாண் சீர்திருத்தம்' (Land Reforms) எதை நோக்கமாக கொண்டது?",
+        "options": [
+          "விவசாயிகளிடமிருந்து நிலம் எடுத்தல்",
+          "நில உரிமையை நிலமற்ற விவசாயிகளுக்கு கொடுத்தல்",
+          "வணிக நிறுவனங்களுக்கு நிலம்",
+          "மட்டுமே பாசனம்"
+        ],
+        "answer": 1,
+        "explanation": "நில உரிமையை நிலமற்ற விவசாயிகளுக்கு கொடுத்தல்"
+      },
+      {
+        "question": "'சர்வதேச நாணய நிதியம்' (IMF) நிறுவப்பட்ட நோக்கம்?",
+        "options": [
+          "ஆயுதம் விற்பனை",
+          "உலக நிதி நிலைப்பாடு மற்றும் உதவி",
+          "வணிக மட்டும்",
+          "உணவு உதவி"
+        ],
+        "answer": 1,
+        "explanation": "உலக நிதி நிலைப்பாடு மற்றும் உதவி"
+      },
+      {
+        "question": "'ஆசியாவின் ஒளி' என்று அழைக்கப்படும் நாடு?",
+        "options": [
+          "சீனா",
+          "ஜப்பான்",
+          "இந்தியா",
+          "கொரியா"
+        ],
+        "answer": 1,
+        "explanation": "ஜப்பான்"
+      },
+      {
+        "question": "'சமூக இயக்கம்' (Social Movement) என்பது?",
+        "options": [
+          "தனிநபர் போராட்டம்",
+          "சமூக மாற்றத்திற்காக கூட்டுமுயற்சி",
+          "அரசு திட்டம்",
+          "நிறுவன முயற்சி"
+        ],
+        "answer": 1,
+        "explanation": "சமூக மாற்றத்திற்காக கூட்டுமுயற்சி"
+      },
+      {
+        "question": "8ஆம் வகுப்பு: 'இந்திய அரசியலமைப்பில்' அடிப்படை உரிமைகள் எத்தனை உண்டு?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": 1,
+        "explanation": "6"
+      },
+      {
+        "question": "6ஆம் வகுப்பு: 'தென்னகத்தில் முக்கிய நதிகள்' பாயும் திசை?",
+        "options": [
+          "வடக்கு",
+          "கிழக்கு",
+          "மேற்கு",
+          "தெற்கு"
+        ],
+        "answer": 1,
+        "explanation": "கிழக்கு"
+      },
+      {
+        "question": "'அரசியல் கட்சி' (Political Party) ஜனநாயகத்தில் என்ன பங்கு வகிக்கிறது?",
+        "options": [
+          "அரசை நடத்துவதற்கான பொறிமுறை மட்டும்",
+          "மக்கள் கருத்தை ஒருங்கிணைத்து தேர்தலில் போட்டியிடுவதற்கான கட்டமைப்பு",
+          "வரி வசூல்",
+          "காவல் நிர்வாகம்"
+        ],
+        "answer": 1,
+        "explanation": "மக்கள் கருத்தை ஒருங்கிணைத்து தேர்தலில் போட்டியிடுவதற்கான கட்டமைப்பு"
+      },
+      {
+        "question": "'வறுமை கோடு' (Poverty Line) என்பது?",
+        "options": [
+          "நடுத்தர வருமானம்",
+          "குறைந்தபட்ச வாழ்க்கை நிலை வரையறை",
+          "பணக்காரர் வரி",
+          "சராசரி வருமானம்"
+        ],
+        "answer": 1,
+        "explanation": "குறைந்தபட்ச வாழ்க்கை நிலை வரையறை"
+      },
+      {
+        "question": "7ஆம் வகுப்பு: 'வரலாற்று காலக்கட்டம்' ல் 'மத்திய காலம்' எந்த ஆண்டிலிருந்து?",
+        "options": [
+          "கி.பி. 300–600",
+          "கி.பி. 700–1700",
+          "கி.பி. 1700–1900",
+          "கி.பி. 1–300"
+        ],
+        "answer": 1,
+        "explanation": "கி.பி. 700–1700"
+      },
+      {
+        "question": "'உலகமயமாக்கல்' (Globalization) இன் முக்கிய பண்பு?",
+        "options": [
+          "நாடுகளுக்கிடையே தடை",
+          "உலக நாடுகளுக்கிடையே வணிக, கலாச்சார, பொருளியல் இணைப்பு",
+          "மட்டுமே உட்பொருள் வர்த்தகம்",
+          "மட்டுமே இந்தியா"
+        ],
+        "answer": 1,
+        "explanation": "உலக நாடுகளுக்கிடையே வணிக, கலாச்சார, பொருளியல் இணைப்பு"
+      },
+      {
+        "question": "8ஆம் வகுப்பு SCERT: 'நுகர்வோர் பாதுகாப்பு சட்டம்' (Consumer Protection Act) இந்தியாவில் எந்த ஆண்டு?",
+        "options": [
+          "1986",
+          "1991",
+          "2000",
+          "2019"
+        ],
+        "answer": 3,
+        "explanation": "2019"
+      },
+      {
+        "question": "'தேசிய வருவாய்' (National Income) என்பது?",
+        "options": [
+          "அரசு வரி வசூல்",
+          "ஒரு நாட்டில் ஒரு ஆண்டில் உற்பத்தியான அனைத்து பொருட்கள் மற்றும் சேவைகளின் மொத்த மதிப்பு",
+          "மட்டுமே ஏற்றுமதி",
+          "மட்டுமே இறக்குமதி"
+        ],
+        "answer": 1,
+        "explanation": "ஒரு நாட்டில் ஒரு ஆண்டில் உற்பத்தியான அனைத்து பொருட்கள் மற்றும் சேவைகளின் மொத்த மதிப்பு"
+      },
+      {
+        "question": "'சென்னை நகரம்' எந்த நதி கரையில் அமைந்துள்ளது?",
+        "options": [
+          "காவேரி",
+          "அடையாறு மற்றும் கூவம்",
+          "பாலாறு",
+          "வைகை"
+        ],
+        "answer": 1,
+        "explanation": "அடையாறு மற்றும் கூவம்"
+      },
+      {
+        "question": "'நிலையான வளர்ச்சி' (Sustainable Development) என்பது?",
+        "options": [
+          "மட்டுமே வளர்ச்சி",
+          "இன்றைய தலைமுறையின் தேவைகளை பூர்த்தி செய்வதுடன் வருங்கால தலைமுறைக்கும் சாதகமான வளர்ச்சி",
+          "மட்டுமே சுற்றுசூழல்",
+          "மட்டுமே பொருளியல்"
+        ],
+        "answer": 1,
+        "explanation": "இன்றைய தலைமுறையின் தேவைகளை பூர்த்தி செய்வதுடன் வருங்கால தலைமுறைக்கும் சாதகமான வளர்ச்சி"
+      },
+      {
+        "question": "7ஆம் வகுப்பு: 'சரிசம கால' (Equinox) என்ன நிகழ்வை குறிக்கிறது?",
+        "options": [
+          "மிக நீண்ட பகல்",
+          "பகலும் இரவும் சரிசமம்",
+          "மிக குறுகிய பகல்",
+          "சூரியகிரகணம்"
+        ],
+        "answer": 1,
+        "explanation": "பகலும் இரவும் சரிசமம்"
+      },
+      {
+        "question": "'தமிழ்நாடு கலாச்சார மரபு' ல் முக்கியமான நடன வகை?",
+        "options": [
+          "கத்தக்",
+          "பரதநாட்டியம்",
+          "குச்சிபுடி",
+          "மணிபுரி"
+        ],
+        "answer": 1,
+        "explanation": "பரதநாட்டியம்"
+      },
+      {
+        "question": "'இந்திய அரசியலமைப்பு' எந்த ஆண்டு நடைமுறைக்கு வந்தது?",
+        "options": [
+          "1947 ஆகஸ்ட் 15",
+          "1949 நவம்பர் 26",
+          "1950 ஜனவரி 26",
+          "1952 ஜனவரி 26"
+        ],
+        "answer": 2,
+        "explanation": "1950 ஜனவரி 26"
+      },
+      {
+        "question": "'காவேரி நதி' எங்கே உற்பத்தியாகிறது?",
+        "options": [
+          "தமிழ்நாடு",
+          "கர்நாடக மாநிலம் – தலைக்காவேரி",
+          "கேரளா",
+          "ஆந்திரா"
+        ],
+        "answer": 1,
+        "explanation": "கர்நாடக மாநிலம் – தலைக்காவேரி"
+      },
+      {
+        "question": "8ஆம் வகுப்பு: 'சமூக நீதி' (Social Justice) என்பது?",
+        "options": [
+          "பணக்காரர்களுக்கு மட்டும் நீதி",
+          "அனைத்து மக்களுக்கும் சம வாய்ப்பும் உரிமையும்",
+          "நீதிமன்ற நீதி மட்டும்",
+          "அரசியல் நீதி மட்டும்"
+        ],
+        "answer": 1,
+        "explanation": "அனைத்து மக்களுக்கும் சம வாய்ப்பும் உரிமையும்"
+      },
+      {
+        "question": "'தேசிய வளர்ச்சி கவுன்சில்' (NDC) என்பது?",
+        "options": [
+          "ஒரு தனியார் நிறுவனம்",
+          "மத்திய மற்றும் மாநில அரசுகளை இணைக்கும் ஆலோசனை அமைப்பு",
+          "UN அமைப்பு",
+          "தேர்தல் ஆணையம்"
+        ],
+        "answer": 1,
+        "explanation": "மத்திய மற்றும் மாநில அரசுகளை இணைக்கும் ஆலோசனை அமைப்பு"
+      },
+      {
+        "question": "7ஆம் வகுப்பு: 'அசோகர்' யாராக மாறினார்?",
+        "options": [
+          "போர் வீரர்",
+          "புத்த மதத்தை பரப்பியவர்",
+          "ஜைன மதத்தை நம்பியவர்",
+          "சைவ மதத்தை நம்பியவர்"
+        ],
+        "answer": 1,
+        "explanation": "புத்த மதத்தை பரப்பியவர்"
+      },
+      {
+        "question": "'இந்தியாவின் அரசியல் தலைநகர்' எது?",
+        "options": [
+          "மும்பை",
+          "சென்னை",
+          "புதுடெல்லி",
+          "கொல்கத்தா"
+        ],
+        "answer": 2,
+        "explanation": "புதுடெல்லி"
+      }
+    ]
+  }
+}

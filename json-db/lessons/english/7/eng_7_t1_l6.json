@@ -1,0 +1,722 @@
+{
+  "lesson_meta": {
+    "title": "The Red-Headed League",
+    "unit": "l6",
+    "grade": "7",
+    "term": "t1",
+    "subject": "english",
+    "code": "eng_7_t1_l6"
+  },
+  "material": {
+    "sections": [
+      {
+        "title": "Lesson Summary",
+        "content": "This play extract features the famous detective Sherlock Holmes solving a peculiar case. A red-haired pawnbroker named Jabez Wilson visits Holmes with a strange story. Wilson's assistant, Vincent Spaulding, had convinced him to join 'The Red-Headed League', an organization that paid Wilson four pounds a week just to copy out the Encyclopaedia Britannica. After eight weeks, the league abruptly dissolved. Holmes investigates and discovers that the 'League' was a clever distraction created by the notorious thief John Clay (disguised as Spaulding) and his accomplice Duncan Ross. The goal was to keep Wilson out of his pawnshop so they could dig a tunnel from the shop's cellar to the strong room of a nearby bank. Holmes, Watson, and the police ambush the thieves in the bank on a Saturday night and foil their plot."
+      },
+      {
+        "title": "Characters",
+        "content": "• Sherlock Holmes: The famous detective.\n• Doctor Watson: A doctor and Sherlock’s friend.\n• Jabez Wilson: A red-haired shopkeeper (pawnbroker) and Holmes's client.\n• Vincent Spaulding: Wilson’s assistant, who is actually the notorious thief John Clay.\n• Duncan Ross: Spaulding’s accomplice, a man with red hair who acts as the head of the League.\n• Mr. Jones: A detective from Scotland Yard."
+      },
+      {
+        "title": "The Client's Story",
+        "content": "Dr. Watson visits Sherlock Holmes and finds him talking to a client with bright red hair, Mr. Jabez Wilson. Wilson runs a pawnshop. His assistant, Vincent Spaulding, showed him an advertisement for an opening in the Red-Headed League, promising a salary of four pounds a week. Spaulding urged the timid pawnbroker to apply. Wilson was accepted by Mr. Duncan Ross. His nominal duties were to work from 10:00 a.m. to 2:00 p.m. every day, copying the Encyclopaedia Britannica in longhand. After doing this for eight weeks, he found the office closed with a notice that the league was dissolved. Disturbed, he approached Holmes."
+      },
+      {
+        "title": "Scene 1: Outside the Shop",
+        "content": "Holmes and Watson go to Saxe-Coburg Square, where Wilson's shop is located. Holmes walks up and down, hitting the ground outside the shop with his walking stick. He knocks on the door, and Spaulding opens it. Holmes observes that the legs of Spaulding's trousers are dirty. Holmes asks for directions to the Strand just to get a look at Spaulding. Holmes tells Watson he needs to look at the road behind the square and asks Watson to meet him at ten o'clock that night."
+      },
+      {
+        "title": "Scene 2: The Ambush at the Bank",
+        "content": "Holmes, Watson, Mr. Jones, and a policeman are hiding behind crates in the dark strong room of a bank. Watson notes it is 11:15 p.m. Suddenly, stones on the floor give way. Spaulding (John Clay) comes out of the ground with a gun, followed by Duncan Ross. Holmes strikes Spaulding's arm, dropping the gun. Ross escapes back into the tunnel but is caught by three men waiting at the other end. Holmes commends John Clay for his clever 'Red-Headed League' plan."
+      },
+      {
+        "title": "Scene 3: Holmes' Deduction",
+        "content": "Back in Holmes's study, Holmes explains his deductions to Watson. There was never a Red-Headed League; it was an invention to keep Wilson away from his shop for a few hours every day. Holmes suspected Spaulding because he worked for half-wages and often went down to the cellar. Hitting the stick on the ground confirmed the cellar was at the back of the shop, not the front. The dirty trousers proved Spaulding was doing dirty work—digging a tunnel. Holmes saw the bank behind the shop and deduced the target. They ambushed them on a Saturday night because the league dissolved that day (meaning the tunnel was ready) and the bank is closed on Sundays, giving the thieves time to escape."
+      },
+      {
+        "title": "Glossary",
+        "content": "• strong room - a room in a bank designed to protect valuable items against fire and theft\n• crates - a wooden box used for transporting goods\n• investigation - systematic examination\n• tunnel - an artificial underground passage\n• notorious - famous for some bad qualities\n• cellar - lower ground floor; basement\n• recognized - identified"
+      },
+      {
+        "title": "Book Back Questions (True or False)",
+        "content": "• Photography was Vincent Spaulding’s hobby. - False (His real 'hobby' in the cellar was digging the tunnel).\n• Mr. Ross did not want to hire Mr. Wilson. - False (He hired him easily because of his red hair).\n• Mr. Wilson worked for Mr. Ross for six weeks. - False (He worked for eight weeks).\n• Mr. Jones was a lawyer. - False (He was a detective from Scotland Yard).\n• Spaulding dug a tunnel from the cellar of the shop to the jewellery shop. - False (It was to the bank's strong room)."
+      },
+      {
+        "title": "Book Back Information: Holmes' Findings and Clues",
+        "content": "• Finding: Mr. Holmes found the tunnel. Clue: He hit the ground outside the shop with his walking stick to find where the cellar was.\n• Finding: Mr. Spaulding dug the tunnel. Clue: The legs of his trousers were dirty.\n• Finding: The tunnel was made to get into the bank's strong room. Clue: The bank was located right at the back of the shop.\n• Finding: Spaulding could be the thief. Clue: He agreed to work for half-wages and spent a lot of time in the cellar."
+      },
+      {
+        "title": "Sequence of Events (Pyramid Activity)",
+        "content": "• Wilson got the job in The Red-Headed League.\n• Wilson was assigned to copy the encyclopaedia.\n• One day he found the notice that 'The Red-Headed League' was dissolved.\n• Wilson asked Sherlock Holmes for help.\n• Holmes recognised Spaulding who was actually John Clay, a notorious criminal.\n• Holmes found the tunnel from the cellar to the bank’s strong room.\n• Spaulding and Ross were caught by the famous detective."
+      },
+      {
+        "title": "Break the Code (Number - Alphabet Mapping)",
+        "content": "• Mapping: A=11, B=12, C=13, D=14, E=15 / F=21, G=22, H=23, I=24, J=25 / K=31, L=32, M=33, N=34, O=35 / P=41, Q=42, R=43, S=44, T=45 / U=51, V=52, W=53, X=54, Y=55 / Z=61, .=62, ,=63, ?=64\n• 44 15 13 43 15 45 = SECRET\n• 22 23 35 44 45 = GHOST\n• 45 43 24 13 31 = TRICK\n• 43 24 14 14 32 15 = RIDDLE\n• 41 51 61 61 32 15 = PUZZLE"
+      }
+    ]
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "Who is the author/creator of the character Sherlock Holmes (implicit knowledge context)?",
+        "options": [
+          "Agatha Christie",
+          "William Shakespeare",
+          "Arthur Conan Doyle",
+          "Walter de la Mare"
+        ],
+        "answer": 2,
+        "explanation": "Though not explicitly in the short text, Sherlock Holmes is universally known to be created by Sir Arthur Conan Doyle."
+      },
+      {
+        "question": "What is the profession of Mr. Jabez Wilson?",
+        "options": [
+          "A detective from Scotland Yard",
+          "A pawnbroker/shopkeeper",
+          "A bank manager",
+          "A doctor"
+        ],
+        "answer": 1,
+        "explanation": "The text introduces Mr. Jabez Wilson as a red-haired shopkeeper who runs a pawnshop."
+      },
+      {
+        "question": "What is the physical feature that distinguishes Mr. Jabez Wilson?",
+        "options": [
+          "He wears glasses",
+          "He is very tall",
+          "He has bright red hair",
+          "He has a scar on his face"
+        ],
+        "answer": 2,
+        "explanation": "He is described as a client with bright red hair."
+      },
+      {
+        "question": "Who was Vincent Spaulding?",
+        "options": [
+          "A detective from Scotland Yard",
+          "Mr. Wilson's assistant",
+          "The head of the Red-Headed League",
+          "Dr. Watson's friend"
+        ],
+        "answer": 1,
+        "explanation": "Vincent Spaulding is introduced as Wilson's assistant, who is later revealed to be John Clay."
+      },
+      {
+        "question": "How much salary did the Red-Headed League promise per week?",
+        "options": [
+          "Four pounds",
+          "Ten pounds",
+          "Fifty pounds",
+          "Two pounds"
+        ],
+        "answer": 0,
+        "explanation": "The announcement promised a salary of four pounds a week."
+      },
+      {
+        "question": "Who was the head of the Red-Headed League?",
+        "options": [
+          "Mr. Jones",
+          "Sherlock Holmes",
+          "Vincent Spaulding",
+          "Mr. Duncan Ross"
+        ],
+        "answer": 3,
+        "explanation": "Wilson was accepted into the League by Mr. Duncan Ross, the head of the League."
+      },
+      {
+        "question": "What were the working hours for Mr. Wilson at the League?",
+        "options": [
+          "9:00 a.m. to 5:00 p.m.",
+          "10:00 a.m. until 2:00 p.m.",
+          "12:00 p.m. to 4:00 p.m.",
+          "8:00 a.m. to 12:00 p.m."
+        ],
+        "answer": 1,
+        "explanation": "His nominal duties consisted of coming to the office from 10:00 a.m. until 2:00 p.m. each day."
+      },
+      {
+        "question": "What was Jabez Wilson's specific job at the League office?",
+        "options": [
+          "To clean the office",
+          "To count money",
+          "To copy out the Encyclopaedia Britannica in longhand",
+          "To repair old watches"
+        ],
+        "answer": 2,
+        "explanation": "He was tasked with copying out the Encyclopaedia Britannica in longhand."
+      },
+      {
+        "question": "For how long did Jabez Wilson work for the League before it was dissolved?",
+        "options": [
+          "Two weeks",
+          "Six weeks",
+          "Eight weeks",
+          "Ten weeks"
+        ],
+        "answer": 2,
+        "explanation": "The text states: 'This he did for eight weeks until one day he arrived at the office to find it closed'."
+      },
+      {
+        "question": "Why did Mr. Wilson go to Sherlock Holmes?",
+        "options": [
+          "He wanted to open a new shop",
+          "He lost his money",
+          "He was disturbed by the thought that someone played a practical joke on him",
+          "He wanted Holmes to join the League"
+        ],
+        "answer": 2,
+        "explanation": "He was disturbed by the abrupt dissolution and thought it was a practical joke, so he sought a solution."
+      },
+      {
+        "question": "Where is Mr. Wilson's shop located?",
+        "options": [
+          "Baker Street",
+          "The Strand",
+          "Saxe-Coburg Square",
+          "Scotland Yard"
+        ],
+        "answer": 2,
+        "explanation": "Holmes and Dr. Watson move to Wilson’s shop in Saxe-Coburg Square at once."
+      },
+      {
+        "question": "What did Sherlock Holmes do outside Wilson's shop before knocking?",
+        "options": [
+          "He hit the ground with his walking stick",
+          "He took photographs",
+          "He spoke to the neighbors",
+          "He looked through the window"
+        ],
+        "answer": 0,
+        "explanation": "Now and then he hits the ground outside the shop with his walking stick."
+      },
+      {
+        "question": "When Spaulding opened the door, what did Holmes ask him?",
+        "options": [
+          "Where is Mr. Wilson?",
+          "How can I get to the Strand?",
+          "Can I buy a watch?",
+          "What is your real name?"
+        ],
+        "answer": 1,
+        "explanation": "Holmes asked, 'Yes. How can I get to the Strand?' just to get a look at him."
+      },
+      {
+        "question": "What specific detail about Spaulding's appearance did Holmes notice?",
+        "options": [
+          "His red hair",
+          "His dirty trousers",
+          "His expensive shoes",
+          "His injured hand"
+        ],
+        "answer": 1,
+        "explanation": "Holmes asked Watson, 'Did you notice his trousers?' because the legs of his trousers were dirty."
+      },
+      {
+        "question": "Why did Holmes ask Spaulding for directions to the Strand even though he knew London very well?",
+        "options": [
+          "He wanted to hear his accent",
+          "He forgot the way",
+          "He wanted to see Spaulding face-to-face",
+          "He wanted to stall for time"
+        ],
+        "answer": 2,
+        "explanation": "Watson deduced, 'You wanted to see him.' Holmes wanted to observe Spaulding to confirm his suspicions."
+      },
+      {
+        "question": "Where did Watson have to go after leaving Saxe-Coburg Square in Scene 1?",
+        "options": [
+          "To the police station",
+          "To the hospital",
+          "To his house",
+          "To the bank"
+        ],
+        "answer": 1,
+        "explanation": "Watson says, 'Yes, to the hospital.' when Holmes mentions he had to go to work."
+      },
+      {
+        "question": "At what time did Holmes ask Watson to meet him for the investigation?",
+        "options": [
+          "Nine o'clock",
+          "Eleven o'clock",
+          "Midnight",
+          "Ten o'clock"
+        ],
+        "answer": 3,
+        "explanation": "Holmes says, 'Right, but I want your help tonight. Come at ten o’clock.'"
+      },
+      {
+        "question": "Where does Scene 2 take place?",
+        "options": [
+          "Holmes's study",
+          "Wilson's pawnshop",
+          "The strong room at a bank",
+          "The Scotland Yard office"
+        ],
+        "answer": 2,
+        "explanation": "Scene 2 begins in: 'The strong room at a bank, with many boxes and crates in it.'"
+      },
+      {
+        "question": "Who represents Scotland Yard in the ambush?",
+        "options": [
+          "Dr. Watson",
+          "Mr. Jones",
+          "Mr. Ross",
+          "John Clay"
+        ],
+        "answer": 1,
+        "explanation": "Mr. Jones is the detective from Scotland Yard."
+      },
+      {
+        "question": "What time is it when Watson whispers to Holmes in the dark strong room?",
+        "options": [
+          "10:00",
+          "11:15",
+          "12:00",
+          "1:30"
+        ],
+        "answer": 1,
+        "explanation": "Watson whispers, 'It’s 11.15, Holmes.'"
+      },
+      {
+        "question": "How do the thieves enter the bank's strong room?",
+        "options": [
+          "Through the main door",
+          "By breaking the window",
+          "Through the stone floor (a tunnel)",
+          "Down the chimney"
+        ],
+        "answer": 2,
+        "explanation": "Suddenly the stones give way. First a hand with a gun comes out of the ground."
+      },
+      {
+        "question": "Who was the first person to come out of the tunnel into the strong room?",
+        "options": [
+          "Mr. Wilson",
+          "Duncan Ross",
+          "Mr. Jones",
+          "Spaulding (John Clay)"
+        ],
+        "answer": 3,
+        "explanation": "Spaulding comes out followed by Ross."
+      },
+      {
+        "question": "What does Holmes do immediately when the thieves emerge?",
+        "options": [
+          "He shoots them",
+          "He turns on all the lights and shouts",
+          "He comes out with a light and hits Spaulding's arm",
+          "He arrests Ross first"
+        ],
+        "answer": 2,
+        "explanation": "With his light, Holmes comes out from behind his box, and hits Spaulding’s arm."
+      },
+      {
+        "question": "What happens to Duncan Ross during the ambush?",
+        "options": [
+          "He is caught immediately by Holmes",
+          "He gets back into the tunnel but is caught at the other end",
+          "He successfully escapes",
+          "He fights with Mr. Jones"
+        ],
+        "answer": 1,
+        "explanation": "Ross quickly gets back into the tunnel... Holmes says, 'There are three men waiting for him at the other end.'"
+      },
+      {
+        "question": "What is the real, notorious identity of Vincent Spaulding?",
+        "options": [
+          "Mr. Jones",
+          "Duncan Ross",
+          "John Clay",
+          "Jabez Wilson"
+        ],
+        "answer": 2,
+        "explanation": "Holmes says, 'You can’t get away, John Clay!' and Watson later calls him 'the notorious thief'."
+      },
+      {
+        "question": "Why did John Clay and Duncan Ross invent the 'Red-Headed League'?",
+        "options": [
+          "To help red-headed people find jobs",
+          "To write a new encyclopaedia",
+          "To get Mr. Wilson out of his shop for a few hours every day",
+          "To steal Mr. Wilson's pawnbroker items"
+        ],
+        "answer": 2,
+        "explanation": "Holmes explains, 'The villains wanted Wilson away from the shop for some hours every day.'"
+      },
+      {
+        "question": "What was the initial clue that made Holmes suspect Spaulding?",
+        "options": [
+          "He had red hair",
+          "He was happy to work for half-wages",
+          "He was a bad assistant",
+          "He was always reading the newspaper"
+        ],
+        "answer": 1,
+        "explanation": "Holmes says, 'I suspected when Spaulding was happy to work for half-wages.'"
+      },
+      {
+        "question": "Why did Spaulding often go down to the cellar of the pawnshop?",
+        "options": [
+          "To develop photographs",
+          "To sleep",
+          "To dig a tunnel to the bank",
+          "To count the stolen money"
+        ],
+        "answer": 2,
+        "explanation": "He was making a tunnel from the cellar to the bank's strong room."
+      },
+      {
+        "question": "Why did Holmes hit the ground outside the shop with his walking stick?",
+        "options": [
+          "He was angry",
+          "To check if the cellar was in front of or behind the shop",
+          "To signal Dr. Watson",
+          "To scare away dogs"
+        ],
+        "answer": 1,
+        "explanation": "Holmes wanted to know if the cellar was in front of the shop. By hitting the ground, he deduced it was behind the shop."
+      },
+      {
+        "question": "What confirmed to Holmes that Spaulding was digging a tunnel?",
+        "options": [
+          "The map he found",
+          "The dirt on the knees/legs of Spaulding's trousers",
+          "The sound of digging",
+          "Spaulding's confession"
+        ],
+        "answer": 1,
+        "explanation": "Holmes noticed his trousers were dirty because making a tunnel is dirty work."
+      },
+      {
+        "question": "What building was located directly behind Mr. Wilson's shop?",
+        "options": [
+          "A hospital",
+          "A jewellery shop",
+          "A bank",
+          "Scotland Yard"
+        ],
+        "answer": 2,
+        "explanation": "Holmes went into the next street at the back of the shop and saw 'The Bank'."
+      },
+      {
+        "question": "How did Holmes deduce the specific night the robbery would take place?",
+        "options": [
+          "The thieves left a note",
+          "He guessed randomly",
+          "The Red-Headed League was closed, meaning the tunnel was ready",
+          "Spaulding told him"
+        ],
+        "answer": 2,
+        "explanation": "Because they closed the offices of the Red-Headed League. Holmes thought, 'The tunnel must be ready.'"
+      },
+      {
+        "question": "Why did the thieves choose a Saturday night for the robbery?",
+        "options": [
+          "Because they get paid on Saturday",
+          "Because Mr. Wilson is out of town",
+          "Because the bank does not open on Sunday, giving them time to escape",
+          "Because it was a dark night"
+        ],
+        "answer": 2,
+        "explanation": "Holmes explains, 'And Saturday is a good day. The bank does not open on Sunday. It would have given the thieves enough time to get away.'"
+      },
+      {
+        "question": "Book Back True/False: Photography was Vincent Spaulding’s hobby.",
+        "options": [
+          "True",
+          "False",
+          "Partially True",
+          "Cannot be determined"
+        ],
+        "answer": 1,
+        "explanation": "False. It was an excuse to spend time in the cellar where he was actually digging a tunnel."
+      },
+      {
+        "question": "Book Back True/False: Mr. Ross did not want to hire Mr. Wilson.",
+        "options": [
+          "True",
+          "False",
+          "Partially True",
+          "Cannot be determined"
+        ],
+        "answer": 1,
+        "explanation": "False. Mr. Ross intentionally hired Mr. Wilson because he had red hair and they needed him out of the shop."
+      },
+      {
+        "question": "Book Back True/False: Spaulding dug a tunnel from the cellar of the shop to the jewellery shop.",
+        "options": [
+          "True",
+          "False",
+          "Partially True",
+          "Cannot be determined"
+        ],
+        "answer": 1,
+        "explanation": "False. He dug the tunnel to the bank's strong room, not a jewellery shop."
+      },
+      {
+        "question": "Book Back Sequence Match: Which event happens FIRST in the story's timeline?",
+        "options": [
+          "Wilson was assigned to copy the encyclopaedia",
+          "Wilson asked Sherlock Holmes for help",
+          "Wilson got the job in The Red-Headed League",
+          "Holmes found the tunnel"
+        ],
+        "answer": 2,
+        "explanation": "According to the pyramid sequence, the first step is 'Wilson got the job in The Red - Headed League.'"
+      },
+      {
+        "question": "Book Back Sequence Match: Which event happens IMMEDIATELY AFTER the League is dissolved?",
+        "options": [
+          "Holmes recognized Spaulding",
+          "Wilson got the job",
+          "Wilson asked Sherlock Holmes for help",
+          "Spaulding and Ross were caught"
+        ],
+        "answer": 2,
+        "explanation": "After finding the notice that the league was dissolved, Wilson went to ask Sherlock Holmes for help."
+      },
+      {
+        "question": "Glossary check: What does 'notorious' mean?",
+        "options": [
+          "Famous for good deeds",
+          "Very intelligent",
+          "Famous for some bad qualities",
+          "A type of bank account"
+        ],
+        "answer": 2,
+        "explanation": "According to the glossary, 'notorious' means famous for some bad qualities."
+      },
+      {
+        "question": "Glossary check: What is a 'strong room'?",
+        "options": [
+          "A gym in a bank",
+          "A room in a bank designed to protect valuable items",
+          "A police cell",
+          "A tunnel"
+        ],
+        "answer": 1,
+        "explanation": "A strong room is a room in a bank designed to protect valuable items against fire and theft."
+      },
+      {
+        "question": "Glossary check: What is the meaning of 'cellar'?",
+        "options": [
+          "A person who sells items",
+          "A tall tower",
+          "Lower ground floor; basement",
+          "A wooden box"
+        ],
+        "answer": 2,
+        "explanation": "A cellar is the lower ground floor or basement of a building."
+      },
+      {
+        "question": "Code Breaking: In the step-to-success code, what word does '44 15 13 43 15 45' represent? (Clue: 44=S, 15=E, 13=C)",
+        "options": [
+          "SECURE",
+          "SECRET",
+          "STREET",
+          "SILENT"
+        ],
+        "answer": 1,
+        "explanation": "Mapping the numbers to letters gives S-E-C-R-E-T."
+      },
+      {
+        "question": "Code Breaking: What word does '45 43 24 13 31' represent? (Clue: 45=T, 43=R)",
+        "options": [
+          "TRAIN",
+          "TRUCK",
+          "TRICK",
+          "TRACK"
+        ],
+        "answer": 2,
+        "explanation": "Mapping gives T-R-I-C-K."
+      },
+      {
+        "question": "Code Breaking: What does '41 51 61 61 32 15' represent?",
+        "options": [
+          "PUDDLE",
+          "PURPLE",
+          "PUZZLE",
+          "PEOPLE"
+        ],
+        "answer": 2,
+        "explanation": "Mapping gives P-U-Z-Z-L-E."
+      },
+      {
+        "question": "HOTS Question: Why was 'copying the Encyclopaedia Britannica' chosen as Wilson's task?",
+        "options": [
+          "Because he was very knowledgeable",
+          "To test his handwriting skills for a secret mission",
+          "Because it was a tedious, time-consuming task that kept him locked in an office",
+          "Because they wanted to publish a new book"
+        ],
+        "answer": 2,
+        "explanation": "The task had no real value; it was designed solely to keep him busy and away from his shop for four hours every day so they could dig."
+      },
+      {
+        "question": "HOTS Question: If Spaulding was such a clever criminal, why did he take the job at the pawnshop for half-wages?",
+        "options": [
+          "He was desperate for any job",
+          "He needed the pawnshop's specific location to access the bank",
+          "He was learning the pawnbroker trade",
+          "He wanted to steal Wilson's encyclopaedia"
+        ],
+        "answer": 1,
+        "explanation": "Spaulding took a low-paying job to get access to Wilson's cellar, which was perfectly positioned right next to the bank."
+      },
+      {
+        "question": "What is the relationship between Mr. Jones and the thieves?",
+        "options": [
+          "He is their friend",
+          "He is the police detective trying to arrest them",
+          "He works in the bank",
+          "He is the creator of the League"
+        ],
+        "answer": 1,
+        "explanation": "Jones is from Scotland Yard (the police) and is there to ambush and arrest the criminals."
+      },
+      {
+        "question": "What detail shows Holmes's anticipation of the thieves' escape route?",
+        "options": [
+          "He locked the main door",
+          "He placed three men at the other end of the tunnel",
+          "He tied them up",
+          "He removed their guns beforehand"
+        ],
+        "answer": 1,
+        "explanation": "When Ross tries to escape, Holmes confidently states, 'There are three men waiting for him at the other end.'"
+      },
+      {
+        "question": "Which of these traits best describes Mr. Jabez Wilson as portrayed in the text?",
+        "options": [
+          "Highly intelligent and suspicious",
+          "Brave and adventurous",
+          "Timid and somewhat gullible",
+          "Aggressive and angry"
+        ],
+        "answer": 2,
+        "explanation": "The text describes him as the 'timid red-haired pawnbroker' who easily fell for Spaulding's fake advertisement."
+      },
+      {
+        "question": "Analogy Check: Detective : Investigation :: Thief : _________",
+        "options": [
+          "Protection",
+          "Examination",
+          "Robbery",
+          "Copying"
+        ],
+        "answer": 2,
+        "explanation": "A detective conducts an investigation; a thief commits a robbery."
+      },
+      {
+        "question": "Assertion (A): Holmes and his team waited in the dark inside the bank's strong room.\nReason (R): They wanted to catch the thieves red-handed as they broke in.",
+        "options": [
+          "Both A and R are true, and R is the correct explanation of A.",
+          "Both A and R are true, but R is not the correct explanation of A.",
+          "A is true, but R is false.",
+          "A is false, but R is true."
+        ],
+        "answer": 0,
+        "explanation": "They waited in the dark so they wouldn't be spotted and could catch Spaulding and Ross in the act of robbing the bank."
+      },
+      {
+        "question": "Assertion (A): Holmes asked for directions to the Strand because he was lost.\nReason (R): Holmes didn't know London very well.",
+        "options": [
+          "Both A and R are true, and R is the correct explanation of A.",
+          "Both A and R are true, but R is not the correct explanation of A.",
+          "A is true, but R is false.",
+          "Both A and R are false."
+        ],
+        "answer": 3,
+        "explanation": "Both are false. Holmes knew London very well; he asked for directions merely as an excuse to see Spaulding."
+      },
+      {
+        "question": "Real-life Scenario: If someone offers you a job that pays very well for almost no actual work, like copying a book, you should:",
+        "options": [
+          "Accept it immediately",
+          "Be suspicious of their true motives",
+          "Invite your friends to join",
+          "Quit all your other jobs"
+        ],
+        "answer": 1,
+        "explanation": "This mirrors the plot of the story, where an 'too good to be true' job offer was actually a front for a criminal plot."
+      },
+      {
+        "question": "What did Spaulding say when Holmes caught him in the strong room?",
+        "options": [
+          "I surrender!",
+          "Who are you?",
+          "You think of everything, Mr. Holmes. You're very clever.",
+          "Please don't arrest me!"
+        ],
+        "answer": 2,
+        "explanation": "Spaulding admits defeat by saying, 'You think of everything, Mr. Holmes. You’re very clever.'"
+      },
+      {
+        "question": "How did Duncan Ross contribute to the plan?",
+        "options": [
+          "He dug the tunnel alone",
+          "He acted as the head of the Red-Headed League to keep Wilson occupied",
+          "He was the bank manager",
+          "He drove the getaway car"
+        ],
+        "answer": 1,
+        "explanation": "Ross's role was to manage the fake office and keep Wilson busy copying the encyclopaedia."
+      },
+      {
+        "question": "Where did the light come from just before the thieves emerged?",
+        "options": [
+          "From a flashlight Holmes was holding",
+          "Through the stone floor",
+          "From the ceiling lamp",
+          "From outside the window"
+        ],
+        "answer": 1,
+        "explanation": "The text says: '(They see a light coming through the stone floor. Suddenly the stones give way.)'"
+      },
+      {
+        "question": "HOTS Question: What does Holmes’s ability to connect 'half-wages', 'cellar', 'dirty trousers', and 'the bank' show about his character?",
+        "options": [
+          "He is very lucky",
+          "He possesses exceptional logical reasoning and observational skills",
+          "He read the script beforehand",
+          "He is good at making wild guesses"
+        ],
+        "answer": 1,
+        "explanation": "Holmes uses deductive reasoning, taking small, seemingly unrelated facts to form a complete picture of the crime."
+      },
+      {
+        "question": "What item was stored in the strong room where Holmes and the team hid?",
+        "options": [
+          "Guns and ammunition",
+          "Books and encyclopaedias",
+          "Many boxes and crates",
+          "Old clothes"
+        ],
+        "answer": 2,
+        "explanation": "The scene is described as 'The strong room at a bank, with many boxes and crates in it.'"
+      },
+      {
+        "question": "Connecting to Self scenario: If you are home alone at midnight and someone knocks on the door, what is the safest action?",
+        "options": [
+          "Open the door immediately",
+          "Do not open the door and inform your parents or the police if suspicious",
+          "Go out through the back door and fight them",
+          "Invite them in"
+        ],
+        "answer": 1,
+        "explanation": "Based on the 'Connecting to self' safety exercise, it is important not to open doors to strangers at midnight when alone."
+      },
+      {
+        "question": "HOTS Question: Why was the colour of Mr. Wilson's hair specifically 'red' crucial to the thieves' plan?",
+        "options": [
+          "Red hair made him better at copying books",
+          "It allowed them to create an exclusive, absurd club that only he would qualify for in the area",
+          "Red hair was considered lucky",
+          "John Clay hated red hair"
+        ],
+        "answer": 1,
+        "explanation": "Clay saw Ross's red hair and used it as the premise for the 'Red-Headed League' to specifically target and isolate Wilson."
+      }
+    ]
+  }
+}

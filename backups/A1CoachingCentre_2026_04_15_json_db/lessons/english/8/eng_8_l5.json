@@ -1,0 +1,572 @@
+{
+  "subject": "English",
+  "class": "8",
+  "term": "Annual",
+  "title": "Poem: My Hobby: Reading",
+  "summary": "",
+  "sections": [
+    {
+      "title": "1. Poem: My Hobby: Reading (எனது பொழுதுபோக்கு: வாசிப்பு) - Summary",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● [[Core Theme]]",
+            "answer": "The joys of reading and how it helps the mind travel and grow. || வாசிப்பின் சிறப்புகள் மற்றும் அதன் மூலம் அறிவு எப்படி பெருகுகிறது என்பது."
+          },
+          {
+            "question": "● [[About Author]]",
+            "answer": "Written by [[Arunachalam Chandrashekaran]]. He describes reading as a life-long companion. || அருணாச்சலம் சந்திரசேகரன் அவர்களால் எழுதப்பட்டது."
+          },
+          {
+            "question": "● [[The Content]]",
+            "answer": "Reading helps in 'breeding' thoughts. It helps the poet travel to places without wings. It teaches us to enjoy both success and failure with a rational mind. It keeps the soul alive. || வாசிப்பு புதிய எண்ணங்களை உருவாக்குகிறது. இறக்கைகள் இல்லாமலேயே நம்மைப் பல இடங்களுக்கு அழைத்துச் செல்லும். வெற்றி தோல்விகளைச் சமமாகப் பாவிக்கக் கற்றுக் கொடுக்கும்."
+          }
+        ]
+      }
+    },
+    {
+      "title": "2. Glossary: Thought & Growth Terms (Exam Focus - Synonyms)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● [[Breeding]] / உருவாக்குதல்",
+            "answer": "Producing or developing something."
+          },
+          {
+            "question": "● [[Rational]] / பகுத்தறிவுள்ள",
+            "answer": "Based on or in accordance with reason or logic."
+          },
+          {
+            "question": "● [[Ajar]] / பாதி திறந்த",
+            "answer": "Slightly open (doors or windows)."
+          },
+          {
+            "question": "● [[Cackle]] / கலகலவென சிரித்தல்",
+            "answer": "Make a harsh, raucous sound when laughing."
+          },
+          {
+            "question": "● [[Construct]]",
+            "answer": "To build or create something typically complex (கட்டுமானம்)."
+          }
+        ]
+      }
+    },
+    {
+      "title": "3. Poetic Devices (கவிதை நயங்கள்)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● [[Rhyming Words]]",
+            "answer": "breeding – feeding, wings – things, ajar – far, cry – fly."
+          },
+          {
+            "question": "● [[Rhyme Scheme]]",
+            "answer": "The poem follows an [[aabb]] / [[abab]] varied structure (e.g., breeding-feeding / wings-things)."
+          },
+          {
+            "question": "● [[Metaphor]]",
+            "answer": "Comparing reading to a journey without wings. || வாசிப்பைச் சிறகில்லாப் பயணத்திற்கு ஒப்பிடுதல்."
+          }
+        ]
+      }
+    },
+    {
+      "title": "4. Grammars: Sentence Patterns Recap",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● [[S + V + C]]",
+            "answer": "Reading is my hobby. || வாசிப்பது எனது பொழுதுபோக்கு."
+          },
+          {
+            "question": "● [[S + V + O]]",
+            "answer": "I read books. || நான் புத்தகங்களைப் படிக்கிறேன்."
+          }
+        ]
+      }
+    },
+    {
+      "title": "5. Figures of Speech: Personification",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● [[Personification]]",
+            "answer": "Giving life to reading by saying it 'takes' the poet places. || வாசிப்பை ஒரு மனிதனைப் போல நம்மை ஒரு இடத்திற்கு அழைத்துச் செல்வதாகக் கூறுதல்."
+          }
+        ]
+      }
+    },
+    {
+      "title": "6. Previous Year Questions & Competitive Focus",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● What is the poet's hobby?",
+            "answer": "[[Reading]]. || வாசிப்பு."
+          },
+          {
+            "question": "● Reading helps to keep the doors ______.",
+            "answer": "[[Ajar]] (Slightly open). || பாதி திறந்த நிலையில்."
+          },
+          {
+            "question": "● What does 'breeding' mean in the poem?",
+            "answer": "[[Creating]] or [[multiplying]] thoughts. || எண்ணங்களை உருவாக்குதல்."
+          },
+          {
+            "question": "● Who is the poet of 'My Hobby: Reading'?",
+            "answer": "[[Arunachalam Chandrashekaran]]."
+          }
+        ]
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "q": "What is the main hobby of the poet? || கவிஞரின் முதன்மையான பொழுதுபோக்கு எது?",
+      "options": [
+        "Singing",
+        "Reading (வாசிப்பு / படித்தல்)",
+        "Drawing",
+        "Running"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What does reading help to 'breed' in the mind? || வாசிப்பு மனதில் எதனை வளர்க்க (Breed) உதவுகிறது?",
+      "options": [
+        "Wealth",
+        "Thoughts (எண்ணங்கள்)",
+        "Boredom",
+        "Anger"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Reading takes the poet to distant places without ______? || எதற்குத் தேவையில்லாமலேயே வாசிப்பு கவிஞரைத் தொலைதூர இடங்களுக்கு அழைத்துச் செல்கிறது?",
+      "options": [
+        "Legs",
+        "Wings (இறக்கைகள்)",
+        "Cars",
+        "Money"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What does reading teach about success and failure? || வெற்றி தோல்விகளைப் பற்றி வாசிப்பு நமக்கு என்னக் கற்பிக்கிறது?",
+      "options": [
+        "Only celebrate success",
+        "Be rational and handle both (பகுத்தறிவுடன் இரண்டையும் கையாளுதல்)",
+        "Cry when you fail",
+        "Don't do anything"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Reading keeps the soul ______? || வாசிப்பு ஆன்மாவை எவ்வாறு வைத்திருக்கிறது?",
+      "options": [
+        "Silent",
+        "Alive and glowing (உயிருடனும் பொலிவுடனும்)",
+        "Sleepy",
+        "Lazy"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Who wrote 'My Hobby: Reading'? || 'மை ஹாபி: ரீடிங்' என்ற கவிதையை எழுதியவர் யார்?",
+      "options": [
+        "Arunachalam Chandrashekaran (அருணாச்சலம் சந்திரசேகரன்)",
+        "Robert Frost",
+        "John Milton",
+        "T.S. Eliot"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "What is the meaning of 'Ajar'? || 'Ajar' என்ற சொல்லின் பொருள்?",
+      "options": [
+        "Completely shut",
+        "Slightly open (பாதி திறந்த)",
+        "Fully open",
+        "Broken"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Rhyming word for 'wings': || 'wings' - இதற்கான இயைபுச் சொல் எது?",
+      "options": [
+        "things (திங்ஸ்)",
+        "feeding",
+        "fly",
+        "far"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Identify the alliteration: \"Reading... breeding\". || இதில் வரும் மோனை எது?",
+      "options": [
+        "'R' and 'B'",
+        "Ending 'ing' sound (ஈற்று இசை)",
+        "No alliteration",
+        "Capital letters"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What does reading do to the 'doors' of the mind? || மனதின் கதவுகளை வாசிப்பு என்ன செய்கிறது?",
+      "options": [
+        "Closes them",
+        "Keeps them ajar (பாதி திறந்த நிலையில் வைக்கும்)",
+        "Locks them",
+        "Breaks them"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Is reading a 'passive' hobby in this poem? || இக்கவிதையில் வாசிப்பு ஒரு சோம்பேறித்தனமானப் பொழுதுபோக்கா?",
+      "options": [
+        "Yes",
+        "No, it is active and breeding thoughts (இல்லை, அது புதியச் சிந்தனைகளை உருவாக்கும் உந்துசக்தி)",
+        "Maybe",
+        "Unknown"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Where can the poet go with reading? || வாசிப்புடன் கவிஞர் எங்கேச் செல்ல முடியும்?",
+      "options": [
+        "Only to library",
+        "Everywhere/Far and wide (எங்கும் / தூர இடங்களுக்கு)",
+        "Only home",
+        "No where"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "How should one handle failure according to the poet? || தோல்வியை எவ்வாறு கையாள வேண்டும்?",
+      "options": [
+        "By crying",
+        "Without a rational fly (பகுத்தறிவுடன் அல்லாமல்)",
+        "Without a rational cry (அழுகை இல்லாது பகுத்தறிவுடன்)",
+        "By giving up"
+      ],
+      "a": 2,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of 'Cackle'? || 'Cackle' என்பதன் பொருள்?",
+      "options": [
+        "Silent cry",
+        "A noisy laugh (சத்தமாக சிரிப்பது)",
+        "Sleeping sound",
+        "Writing work"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Does reading require wings to fly? || பறப்பதற்கு வாசிப்பிற்குச் சிறகுகள் தேவையா?",
+      "options": [
+        "Yes, it does",
+        "No, it flies without wings (இல்லை, சிறகின்றிப் பறக்கும்)",
+        "Only on a plane",
+        "Never"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: 'Breeding' rhymes with ______? || 'Breeding' - என்பதன் இயைபுச் சொல் எது?",
+      "options": [
+        "Feeding (ஃபீடிங்)",
+        "Leading",
+        "Reading",
+        "All of the above (இவையனைத்தும்)"
+      ],
+      "a": 3,
+      "ex": ""
+    },
+    {
+      "q": "Which part of human life is refreshed by reading? || மனித வாழ்வின் எந்தப் பகுதியை வாசிப்பு புத்துயிர் பெறச் செய்கிறது?",
+      "options": [
+        "The Soul (ஆன்மா / உள்ளம்)",
+        "Hands",
+        "Legs",
+        "Clothes"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "What is 'Rational' thinking? || 'Rational' (பகுத்தறிவு) சிந்தனை என்பது என்ன?",
+      "options": [
+        "Following others blindly",
+        "Thinking based on logic and reason (காரண காரியத்தோடுச் சிந்திப்பது)",
+        "Being angry",
+        "Being fast"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "The poet says reading 'constructs' a society. What does this mean? || வாசிப்பு ஒருச் சமூகத்தையேக் கட்டமைக்கும் என்பது எதனைக் குறிக்கும்?",
+      "options": [
+        "Building houses",
+        "Improving the knowledge of people (மக்களின் அறிவை மேம்படுத்துதல்)",
+        "Making roads",
+        "Buying land"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: Rhyming word for 'far'. || 'far' - இதற்கான இயைபுச் சொல்?",
+      "options": [
+        "Ajar (அஜார்)",
+        "Bar",
+        "Car",
+        "All of the above"
+      ],
+      "a": 3,
+      "ex": ""
+    },
+    {
+      "q": "What is the synonym of 'Construct'? || 'Construct' என்பதன் ஒத்தப்பொருள் யாது?",
+      "options": [
+        "Build/Create (உருவாக்குதல்/கட்டுதல்)",
+        "Destroy",
+        "Sleep",
+        "Eat"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Does reading make us lazy? || வாசிப்பு நம்மைச் சோம்பேறியாக்குமா?",
+      "options": [
+        "Yes",
+        "No, it makes the mind active (இல்லை, மனதை சுறுசுறுப்பாக வைத்திருக்கும்)",
+        "Sometimes",
+        "Only at night"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "The poet encourages us to read to avoid? || எதனைத் தவிர்க்க நாம் படிக்க வேண்டும் என கவிஞர் கூறுகிறார்?",
+      "options": [
+        "Success",
+        "Ignorance and irrationality (அறியாமை மற்றும் பகுத்தறிவற்றத் தன்மையைத் தவிர்க்க)",
+        "Money",
+        "Friends"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of 'Soul' in Tamil: || 'Soul' என்பதன் தமிழ்ப் பொருள்?",
+      "options": [
+        "உடல்",
+        "ஆன்மா / உள்ளம்",
+        "பள்ளி",
+        "காடு"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: S V C pattern in the poem's context. || இப்பாடத்தின் சூழலில் S V C வாக்கிய அமைப்பு எது?",
+      "options": [
+        "Reading is a hobby (வாசிப்பு ஒரு பொழுதுபோக்கு)",
+        "I read",
+        "He runs fast",
+        "Birds fly in the sky"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "What is 'Success' meant to be in the poem? || கவிதையில் வெற்றி என்பது எப்படிக் கருதப்படுகிறது?",
+      "options": [
+        "End of life",
+        "Something to be handled with reason (காரணத்தோடுக் கையாளப்பட வேண்டிய ஒன்று)",
+        "Impossible",
+        "Gift only"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "When doors are 'Ajar', what can enter? || கதவுகள் 'பாதித் திறந்திருக்கும்போது' எது உள்ளே வர முடியும்?",
+      "options": [
+        "Dirt",
+        "New ideas and sunlight (புதிய எண்ணங்கள் மற்றும் ஒளி)",
+        "Rain",
+        "Only bugs"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "The poem 'My Hobby: Reading' is based on? || இக்கவிதை எதனை அடிப்படையாகக் கொண்டது?",
+      "options": [
+        "Historical war",
+        "Personal appreciation of reading (வாசிப்பைப் போற்றுதல்)",
+        "Cooking methods",
+        "Animal behavior"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Rhyme for 'cry': || 'cry' - இதற்கான இயைபுச் சொல்?",
+      "options": [
+        "dry",
+        "fly (ஃபிளை)",
+        "sky",
+        "all of the above"
+      ],
+      "a": 3,
+      "ex": ""
+    },
+    {
+      "q": "In the line 'without wings it lets me fly', what is the figure of speech? || இப்பாடல் வரியில் அமைந்துள்ள அணி எது?",
+      "options": [
+        "Simile",
+        "Metaphor (உருவகம்)",
+        "Pun",
+        "Anaphora"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What is the synonym of 'Breed'? || 'Breed' என்பதன் ஒத்தப்பொருள் யாது?",
+      "options": [
+        "End",
+        "Produce/Develop (உருவாக்கம்/வளர்ச்சி)",
+        "Kill",
+        "Sleep"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Can we reach 'somewhere far' without traveling? || பயணம் செய்யாமலேயேத் தொலைதூரத்தை அடைய முடியுமா?",
+      "options": [
+        "Yes, through reading (ஆம், வாசிப்பு மூலம்)",
+        "No",
+        "Only by dreaming",
+        "Never"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "What does a 'Rational fly' suggest? || 'Rational fly' (பகுத்தறிவுப் பறத்தல்) என்பது எதனைக் குறிக்கும்?",
+      "options": [
+        "A flying insect",
+        "Thinking logically about life (வாழ்வைப் பகுத்தறிவோடு அணுகுதல்)",
+        "A fast plane",
+        "None"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: Rhyming word for 'feeding'. || 'feeding' - இயைபுச் சொல்?",
+      "options": [
+        "breeding (பிரீடிங்)",
+        "reading",
+        "leading",
+        "all of the above"
+      ],
+      "a": 3,
+      "ex": ""
+    },
+    {
+      "q": "Reading helps 'construct' a better ______. || வாசிப்பு ஒருச் சிறந்த ______ கட்டமைக்க உதவுகிறது.",
+      "options": [
+        "House",
+        "Society (சமூகம்)",
+        "School",
+        "Library"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What is the opposite of 'Success'? || 'வெற்றி' (Success) என்பதன் எதிர்ச்சொல்?",
+      "options": [
+        "Win",
+        "Failure (தோல்வி)",
+        "Goal",
+        "Path"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Arunachalam Chandrashekaran is the? || அருணாச்சலம் சந்திரசேகரன் ஒரு?",
+      "options": [
+        "Singer",
+        "Poet (கவிஞர்)",
+        "Dancer",
+        "Scientist"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: \"It keeps my soul a-glow\". || \"எனது ஆன்மாவைப் பொலிவாக வைத்திருக்கிறது\" - இதில் 'It' எது?",
+      "options": [
+        "Food",
+        "Reading (வாசிப்பு)",
+        "Money",
+        "Sleep"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Conclusion: Reading is a ______ hobby. || முடிவு: வாசிப்பு என்பது ஒரு ______ பொழுதுபோக்கு.",
+      "options": [
+        "Bad",
+        "Powerful and enlightening (வலிமையான மற்றும் அறிவூட்டும்)",
+        "Useless",
+        "Small"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Choose the correctly spelled word. || சரியான எழுத்துப்பிழையற்றச் சொல் எது?",
+      "options": [
+        "Rational (பகுத்தறிவு)",
+        "Rashional",
+        "Rationel",
+        "Ratioanal"
+      ],
+      "a": 0,
+      "ex": ""
+    }
+  ],
+  "credits": "தொகுப்பு: A1 ONLINE COACHING CENTER"
+}

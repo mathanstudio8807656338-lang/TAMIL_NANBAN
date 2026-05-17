@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400;500;600;700;800&family=Noto+Sans+Tamil:wght@400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Tamil Nanban - Lessons</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+/* --- BRAND HEADER --- */
+.header-standard {
+    background: #ffffff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #1e3a8a;
+    border-bottom: 1px solid #1e3a8a;
+}
+.brand-container {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.brand-main {
+    font-family: 'Baloo Thambi 2', cursive;
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: #1e3a8a;
+    line-height: 1.2;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+.brand-sub {
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #ef4444;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-top: -2px;
+}
+@media (max-width: 480px) {
+    .brand-main { font-size: 1.5rem; }
+    .brand-sub { font-size: 0.65rem; }
+    .header-standard { height: 60px; }
+}
+
+/* Bottom Nav */
+.bottom-nav {
+    position: fixed;
+    bottom: 0; left: 0; right: 0;
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.6rem 0.4rem;
+    box-shadow: 0 -4px 20px rgba(0,0,0,0.08);
+    z-index: 1000;
+    border-top: 1px solid #f1f5f9;
+}
+.nav-item {
+    text-decoration: none;
+    color: #64748b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.65rem;
+    font-weight: 700;
+    gap: 4px;
+    flex: 1;
+    transition: color 0.3s ease;
+}
+.nav-item.active { color: #1e3a8a; }
+.nav-item.logout { color: #ef4444; }
+.nav-icon { font-size: 1.2rem; margin-bottom: 2px; }
+
+/* Global fixes */
+body {
+    padding-bottom: 80px;
+}
+
+        .page-header {
+            background: var(--bg-card);
+            padding: 2rem 1.5rem;
+            border-bottom: 1px solid var(--border);
+            margin-bottom: 2rem;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .back-btn {
+            padding: 0.5rem;
+            background: var(--bg-main);
+            border-radius: 0.5rem;
+            cursor: pointer;
+            text-decoration: none;
+            color: var(--text-main);
+        }
+
+        .lesson-card {
+            padding: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .lesson-actions {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 0.75rem;
+        }
+
+        .lesson-actions .btn {
+            font-size: 0.85rem;
+            padding: 0.6rem;
+        }
+
+        .shimmer {
+            height: 150px;
+            background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+            background-size: 200% 100%;
+            animation: shimmer 1.5s infinite;
+            border-radius: 1rem;
+        }
+
+        @keyframes shimmer {
+            0% { background-position: 200% 0; }
+            100% { background-position: -200% 0; }
+        }
+    </style>
+</head>
+<body>
+
+        <header class="header-standard">
+        <a href="index.html" class="brand-container">
+            <div class="brand-main">தமிழ் நண்பன்</div>
+            <div class="brand-sub">COACHING CENTER</div>
+        </a>
+    </header>
+
+    <div class="page-header">
+        <a id="backBtn" href="#" class="back-btn">← Back</a>
+        <div>
+            <h1 id="classTitle">வகுப்பு பாடங்கள்</h1>
+            <p id="subjectSubtitle" style="color: var(--text-muted); font-size: 0.9rem;">Subject Name</p>
+        </div>
+    </div>
+
+    <main class="container">
+        <div id="syllabusContainer">
+            <!-- Shimmers for loading -->
+            <div class="shimmer"></div>
+            <div class="shimmer"></div>
+            <div class="shimmer"></div>
+        </div>
+    </main>
+
+            <nav class="bottom-nav">
+        <a href="index.html" class="nav-item">
+            <span class="nav-icon">🏠</span>
+            <span>Home</span>
+        </a>
+        <a href="subject.html" class="nav-item">
+            <span class="nav-icon">📚</span>
+            <span>Course</span>
+        </a>
+        <a href="tel:6369371452" class="nav-item">
+            <span class="nav-icon">📞</span>
+            <span>Contact</span>
+        </a>
+        <a href="#" class="nav-item">
+            <span class="nav-icon">💳</span>
+            <span>Pay</span>
+        </a>
+        <a href="#" onclick="window.logout(); return false;" class="nav-item logout">
+            <span class="nav-icon">🚪</span>
+            <span>Logout</span>
+        </a>
+    </nav>
+
+    <script type="module">
+        import { checkAuth, waitForAuth } from './js/auth.js';
+        import { syllabusData } from './js/data/syllabus.js';
+
+        checkAuth();
+
+        const params = new URLSearchParams(window.location.search);
+        const subject = params.get('subject') || 'tamil';
+        const className = params.get('class') || '6';
+
+        const syllabusContainer = document.getElementById('syllabusContainer');
+        // Hide lesson list until auth state resolves (prevents shared links from showing it).
+        syllabusContainer.style.opacity = '0';
+        syllabusContainer.style.pointerEvents = 'none';
+
+        // Set Back Button + title after auth resolves.
+        waitForAuth().then((user) => {
+            if (!user) {
+                window.location.href = "index.html";
+                return;
+            }
+
+            document.getElementById('backBtn').href = `subject.html?id=${subject}`;
+            document.getElementById('classTitle').innerText = `வகுப்பு ${className} (Class ${className})`;
+        
+            const subjectTitles = {
+                'tamil': 'தமிழ் (Tamil)', 'english': 'English', 'maths': 'கணிதம் (Maths)',
+                'science': 'அறிவியல் (Science)', 'social': 'சமூக அறிவியல் (Social)', 'psychology': 'உளவியல் (Psychology)'
+            };
+            document.getElementById('subjectSubtitle').innerText = subjectTitles[subject] || subject.charAt(0).toUpperCase() + subject.slice(1);
+
+            syllabusContainer.style.opacity = '1';
+            syllabusContainer.style.pointerEvents = '';
+
+            async function loadLessons() {
+                const container = document.getElementById('syllabusContainer');
+                const classData = syllabusData[subject]?.[className];
+
+                if (!classData || classData.length === 0) {
+                    container.innerHTML = '<p style="text-align: center; color: var(--text-muted); padding: 3rem;">பாடங்கள் எதுவும் காணப்படவில்லை. (No lessons found.)</p>';
+                    return;
+                }
+
+                let html = '';
+
+                classData.forEach((termData) => {
+                    const termTitle = termData.term === 'Annual' ? 'முழு ஆண்டு பாடத்திட்டம் (Annual Syllabus)' : `பருவம் ${termData.term} (Term ${termData.term})`;
+                    
+                    html += `
+                        <div class="term-section animate-fade">
+                            <h2 class="term-title">${termTitle}</h2>
+                            <div class="units-container">
+                    `;
+
+                    termData.units.forEach((unit) => {
+                        html += `
+                            <div class="unit-group">
+                                <h3 class="unit-title">${unit.title}</h3>
+                                <div class="topics-list">
+                        `;
+
+                        unit.topics.forEach((topic) => {
+                            const statusClass = topic.isUpdated ? 'status-updated' : 'status-pending';
+                            const statusText = topic.isUpdated ? 'Updated' : 'விரைவில் (Pending)';
+                            const cardStatus = topic.isUpdated ? '' : 'disabled-card';
+                            const btnStatus = topic.isUpdated ? '' : 'btn-disabled';
+                            
+                            html += `
+                                <div class="topic-card ${cardStatus}">
+                                    <div class="topic-header">
+                                        <h4 class="topic-title">${topic.title}</h4>
+                                        <span class="status-badge ${statusClass}">${statusText}</span>
+                                    </div>
+                                    <div class="lesson-actions">
+                                        <a href="${topic.isUpdated ? `material.html?subject=${subject}&class=${className}&lesson=${encodeURIComponent(topic.title)}` : '#'}" 
+                                           class="btn btn-outline ${btnStatus}">📖 பாடக்குறிப்புகள்</a>
+                                        <a href="${topic.isUpdated ? `qa.html?subject=${subject}&class=${className}&lesson=${encodeURIComponent(topic.title)}` : '#'}" 
+                                           class="btn btn-outline ${btnStatus}">📘 பாடநூல் வினாக்கள்</a>
+                                        <a href="${topic.isUpdated ? `quiz.html?subject=${subject}&class=${className}&lesson=${encodeURIComponent(topic.title)}` : '#'}" 
+                                           class="btn btn-primary ${btnStatus}">🧠 குவிஸ்</a>
+                                    </div>
+                                </div>
+                            `;
+                        });
+
+                        html += `
+                                </div>
+                            </div>
+                        `;
+                    });
+
+                    html += `
+                            </div>
+                        </div>
+                    `;
+                });
+
+                container.innerHTML = html;
+            }
+
+            loadLessons();
+        });
+    </script>
+</body>
+</html>

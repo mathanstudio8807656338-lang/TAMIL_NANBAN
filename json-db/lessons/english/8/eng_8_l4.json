@@ -1,0 +1,600 @@
+{
+  "subject": "English",
+  "class": "8",
+  "term": "Annual",
+  "title": "Prose: Hobby Turns into a Successful Career",
+  "summary": "",
+  "sections": [
+    {
+      "title": "1. Prose: Hobby Turns into a Successful Career (சாதனையான பொழுதுபோக்கு) - Summary",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● [[Core Theme]]",
+            "answer": "How personal interests and hobbies can lead to professional success. || பொழுதுபோக்கை எவ்வாறு வெற்றிகரமான தொழிலாக மாற்ற முடியும்."
+          },
+          {
+            "question": "● [[Mani's Story]]",
+            "answer": "Mani struggled with writing. His teacher encouraged him to write stories. Eventually, writing became his passion. || மணிக்கு எழுத வராமல் இருந்தது. ஆசிரியர் ஊக்கப்படுத்தியதால் அவர் கதை எழுதத் தொடங்கினார்; அதுவே அவரது விருப்பமாக மாறியது."
+          },
+          {
+            "question": "● [[Ajay Kumar Garg]]",
+            "answer": "A talented artist who is hearing impaired. He mastered the art of Miniature Painting under Shri Dholu Ram. || செவித்திறன் குறையுள்ள இவர், நுணுக்கமான ஓவியக் கலையில் சிறந்து விளங்கி உலகப் புகழ்பெற்றார்."
+          },
+          {
+            "question": "● [[Ilavazhagi]]",
+            "answer": "A world-renowned carrom champion from Tamil Nadu. Her father, a carrom player himself, supported her against all odds. || தமிழகத்தைச் சேர்ந்த இவர், தனது தந்தையின் உழைப்பினால் கேரம் விளையாட்டில் உலக அளவில் வாகை சூடினார்."
+          }
+        ]
+      }
+    },
+    {
+      "title": "2. Glossary: Achievement Terms (Exam Focus - Synonyms)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● [[Miniature]] / நுட்பமான / சிறிய",
+            "answer": "Very small of its kind."
+          },
+          {
+            "question": "● [[Accomplished]] / திறமையான",
+            "answer": "Highly skilled or proficient."
+          },
+          {
+            "question": "● [[Impaired]] / குறைபாடுள்ள",
+            "answer": "Weakened or damaged, especially having a disability."
+          },
+          {
+            "question": "● [[Mastered]] / தேர்ச்சி பெற்ற",
+            "answer": "Acquire complete knowledge or skill in something."
+          },
+          {
+            "question": "● [[Cuisine]] / சமையல் முறை",
+            "answer": "A style or method of cooking."
+          },
+          {
+            "question": "● [[Exhibited]] / காட்சிப்படுத்தப்பட்டது",
+            "answer": "Pubicly display a work of art or item."
+          }
+        ]
+      }
+    },
+    {
+      "title": "3. Grammar: Singular & Plural (ஒருமை மற்றும் பன்மை)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● [[Knife]] ->",
+            "answer": "[[Knives]]"
+          },
+          {
+            "question": "● [[Curriculum]] ->",
+            "answer": "[[Curricula]]"
+          },
+          {
+            "question": "● [[Criterion]] ->",
+            "answer": "[[Criteria]]"
+          },
+          {
+            "question": "● [[Child]] ->",
+            "answer": "[[Children]]"
+          },
+          {
+            "question": "● [[Ox]] ->",
+            "answer": "[[Oxen]]"
+          }
+        ]
+      }
+    },
+    {
+      "title": "4. Facts: Famous Hobbies (முக்கியத் தகவல்கள்)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● Mani's Hobby",
+            "answer": "[[Writing]] stories. || கதை எழுதுதல்."
+          },
+          {
+            "question": "● Ajay’s Specialization",
+            "answer": "[[Miniature Painting]] on rice grains/objects. || நுண் கலை ஓவியம்."
+          },
+          {
+            "question": "● Ilavazhagi's Sport",
+            "answer": "[[Carrom]]. || கேரம் விளையாட்டு."
+          },
+          {
+            "question": "● Ilavazhagi's Father",
+            "answer": "[[A. Irudayaraj]], a fish-cart driver. || மீன் வண்டி ஓட்டும் தொழிலாளி."
+          }
+        ]
+      }
+    },
+    {
+      "title": "5. Figures of Speech: Metaphor & Simile",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● [[Simile]]",
+            "answer": "Comparison using 'like' or 'as'. (e.g., Fast as a lion)."
+          },
+          {
+            "question": "● [[Metaphor]]",
+            "answer": "Direct comparison. (e.g., He is a lion in battle)."
+          }
+        ]
+      }
+    },
+    {
+      "title": "6. Previous Year Questions & Competitive Focus",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● What was Mani's problem in school?",
+            "answer": "He found it difficult to [[read]] and [[write]]. || படிக்கவும் எழுதவும் கடினமாக இருந்தது."
+          },
+          {
+            "question": "● Name the award won by Ajay Kumar Garg.",
+            "answer": "[[National Award]] (from APJ Abdul Kalam). || தேசிய விருது."
+          },
+          {
+            "question": "● Where was Ilavazhagi from?",
+            "answer": "[[Vyasarpadi]], Chennai. || சென்னை, வியாசர்பாடி."
+          },
+          {
+            "question": "● What is the plural of 'Medium'?",
+            "answer": "[[Media]]."
+          }
+        ]
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "q": "What was the initial problem Mani face in school? || மணிக்குத் தொடக்கத்தில் பள்ளியில் இருந்த சிக்கல் என்ன?",
+      "options": [
+        "Singing",
+        "Reading and Writing (படிக்கவும் எழுதவும்)",
+        "Maths",
+        "Running"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Who helped Mani to overcome his writing difficulty? || மணியின் எழுத்துக் குறைபாட்டை நீக்க உதவியது யார்?",
+      "options": [
+        "His Father",
+        "His Teacher (அவரது ஆசிரியர்)",
+        "His Brother",
+        "Satish"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Winning the carrom championship was Ilavazhagi's ______? || கேரம் சாம்பியன்ஷிப் வென்றது இளவழகியின் ______?",
+      "options": [
+        "Hobby (பொழுதுபோக்கு)",
+        "Unattainable dream",
+        "Passion/Career (லட்சியம்/தொழில்)",
+        "Mistake"
+      ],
+      "a": 2,
+      "ex": ""
+    },
+    {
+      "q": "What was Ajay Kumar Garg's disability? || அஜய் குமார் கார்க்கிற்கு இருந்த குறைபாடு என்ன?",
+      "options": [
+        "Blindness",
+        "Hearing Impairment (செவித்திறன் குறைபாடு)",
+        "Physical lameness",
+        "Muteness"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What specialization did Ajay master under Shri Dholu Ram? || ஸ்ரீ தோலு ராம் என்பவரிடம் அஜய் எதனைக் கற்றுத் தேர்ந்தார்?",
+      "options": [
+        "Music",
+        "Miniature Painting (நுண் ஓவியக் கலை)",
+        "Cooking",
+        "Dance"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Ilavazhagi was part of which carrom club? || இளவழகி எந்த கேரம் கிளப்பில் உறுப்பினராக இருந்தார்?",
+      "options": [
+        "Chennai Club",
+        "Tiruvallur District Carrom Academy (திருவள்ளூர் மாவட்டக் கழகம்)",
+        "International Club",
+        "Vyasarpadi Club"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Who presented the National Award to Ajay Kumar Garg? || அஜய் குமார் கார்க்கிற்கு தேசிய விருதினை வழங்கியது யார்?",
+      "options": [
+        "Mother Teresa",
+        "Dr. A.P.J. Abdul Kalam (அப்துல் கலாம்)",
+        "Indira Gandhi",
+        "Narendra Modi"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What is the plural of 'Radius'? || 'Radius' - என்பதன் பன்மை வடிவம்?",
+      "options": [
+        "Radiuss",
+        "Radii (ரேடியை)",
+        "Radia",
+        "Radiuses"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What is the meaning of 'Cuisine'? || 'Cuisine' என்பதன் பொருள்?",
+      "options": [
+        "Traveling",
+        "Style of cooking (சமையல் முறை)",
+        "Sport",
+        "Book reading"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify the Collective Noun: 'A ______ of wolves'. || 'A ______ of wolves' - என்ன வரும்?",
+      "options": [
+        "Pack (பேக் / கூட்டம்)",
+        "Herd",
+        "Flock",
+        "Pride"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Where did Ilavazhagi win her first world championship? || இளவழகி தனது முதல் உலக சாம்பியன்ஷிப்பை எங்கே வென்றார்?",
+      "options": [
+        "Chennai",
+        "Cannes, France (பிரான்ஸ்)",
+        "London",
+        "USA"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What was Ilavazhagi's father's profession? || இளவழகியின் தந்தை என்ன வேலை செய்து வந்தார்?",
+      "options": [
+        "Doctor",
+        "Fish-cart driver (மீன் வண்டி ஓட்டுபவர்)",
+        "Teacher",
+        "Engineer"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "The word 'Miniature' is a synonym for? || 'Miniature' என்ற சொல்லின் ஒத்தப்பொருள் எது?",
+      "options": [
+        "Massive",
+        "Small/Intricate (சிறிய / நுட்பமான)",
+        "Broken",
+        "Fast"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What did Mani call his hobby? || மணி தனது பொழுதுபோக்கை எவ்வாறு விவரித்தார்?",
+      "options": [
+        "A burden",
+        "Writing is unique (எழுத்து ஒரு தனித்துவமானது)",
+        "A waste of time",
+        "Silent art"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What is the plural of 'Focus'? || 'Focus' - பன்மை வடிவம்?",
+      "options": [
+        "Focuss",
+        "Foci (ஃபோசை)",
+        "Foca",
+        "Focies"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Assertion (A): Ajay’s paintings are in great demand. Reason (R): He paints microscopic details on grains and objects. || கூற்று (A): அஜய்யின் ஓவியங்களுக்குப் பெரும் வரவேற்பு உண்டு. காரணம் (R): அவர் சிறியப் பொருட்களில் நுட்பமான ஓவியங்களை வரைகிறார்.",
+      "options": [
+        "Both A and R are true, and R is correct explanation",
+        "Both true, but R is not explanation",
+        "A is true, R is false",
+        "A is false, R is true"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Identify: 'A pride of ______'. || 'A pride of ______' - இதில் எது வரும்?",
+      "options": [
+        "Elephants",
+        "Lions (சிங்கங்கள்)",
+        "Birds",
+        "Fish"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Ilavazhagi's father was also a? || இளவழகியின் தந்தை ஒரு ______ ஆகவும் இருந்தார்?",
+      "options": [
+        "Music teacher",
+        "Carrom player (கேரம் வீரர்)",
+        "Footballer",
+        "Poet"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What is the meaning of 'Exhibited'? || 'Exhibited' என்பதன் பொருள்?",
+      "options": [
+        "Hidden",
+        "Shown/Displayed (காட்சிப்படுத்தப்பட்டது)",
+        "Broken",
+        "Lost"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What did Ajay use to paint miniature details? || நுண் ஓவியங்களை வரைய அஜய் எதனைப் பயன்படுத்தினார்?",
+      "options": [
+        "Large brush",
+        "A brush with a single hair (ஒரே ஒரு முடியால் ஆன தூரிகை)",
+        "Pencils",
+        "Fingers"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Mani's writing became a 'successful career' because? || மணியின் எழுத்துப்பணி எதனால் ஒரு வெற்றிகரமானத் தொழிலாக மாறியது?",
+      "options": [
+        "He practiced a lot (அவர் அதிகம் பயிற்சி பெற்றார்)",
+        "He had no other work",
+        "The king paid him",
+        "It was a magic book"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of 'Vigour'? || 'Vigour' என்பதன் பொருள்?",
+      "options": [
+        "Weakness",
+        "Liveliness and Energy (எனர்ஜி / வேகம்)",
+        "Sadness",
+        "Slowness"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify the pattern: 'The cat sleeps'. || 'The cat sleeps' - இது?",
+      "options": [
+        "S V (Subject + Verb)",
+        "S V O",
+        "S V C",
+        "S V A"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Which of these is a plural form? || இதில் பன்மை வடிவம் எது?",
+      "options": [
+        "Syllabus",
+        "Lice (பேன்கள்)",
+        "Tooth",
+        "Person"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Ilavazhagi overcame ______ to achieve her dream. || தனது லட்சியத்தை எட்ட இளவழகி எதனை வென்றார்?",
+      "options": [
+        "Laziness",
+        "Poverty and hardships (வறுமை மற்றும் கஷ்டங்களை)",
+        "Fear of cars",
+        "Nothing"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Ajay's first painting was shown to a ______ who encouraged him. || அஜய்யின் முதல் ஓவியத்தை யாரிடம் காட்டி அவர் ஊக்கம் பெற்றார்?",
+      "options": [
+        "Doctor",
+        "Professional artist (தொழில்முறை ஓவியர்)",
+        "Teacher",
+        "Postman"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Plural of 'Man'? || 'Man' என்பதன் பன்மை?",
+      "options": [
+        "Mans",
+        "Men (மென்)",
+        "Mens",
+        "Manes"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of 'Accomplished'? || 'Accomplished' என்பதன் பொருள்?",
+      "options": [
+        "Unskilled",
+        "Highly skilled (மிகச் சிறந்தத் திறனுடைய)",
+        "Lazy",
+        "Poor"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What is the synonym of 'Unique'? || 'Unique' என்பதன் ஒத்தப்பொருள் யாது?",
+      "options": [
+        "Common",
+        "Distinctive/One of a kind (தனித்துவமான)",
+        "Ordinary",
+        "Same"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify the Singular: 'Data' || 'Data' என்பதன் ஒருமை எது?",
+      "options": [
+        "Datum (டேட்டம்)",
+        "Datas",
+        "Datia",
+        "Detum"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Where did Mani start his writing? || மணி தனது எழுத்துப் பணியை எங்கேத் தொடங்கினார்?",
+      "options": [
+        "In a book",
+        "In his diary (அவரது நாட்குறிப்பில்)",
+        "On a wall",
+        "In a news paper"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Ilavazhagi represented ______ in international carrom. || இளவழகி சர்வதேசப் போட்டிகளில் எதனைப் பிரதிநிதித்துவப்படுத்தினார்?",
+      "options": [
+        "England",
+        "India (இந்தியா)",
+        "Japan",
+        "China"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Collective noun for 'Ants': || எறும்புகளின் கூட்டத்தை எவ்வாறு அழைப்போம்?",
+      "options": [
+        "Army / Colony (ஆர்மி / காலனி)",
+        "Swarm",
+        "School",
+        "Pride"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of 'Intricate'? || 'Intricate' என்பதன் பொருள்?",
+      "options": [
+        "Simple",
+        "Complex and detailed (சிக்கலான மற்றும் நுட்பமான)",
+        "Big",
+        "Loud"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Ajay's paintings are now exhibited in? || அஜய்யின் ஓவியங்கள் இப்போது எங்கேக் காட்சிப்படுத்தப்பட்டுள்ளன?",
+      "options": [
+        "Only in his house",
+        "Galleries across the world (உலகெங்கிலும் உள்ள கலைக்கூடங்களில்)",
+        "Not shown",
+        "School books"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Conclusion: A hobby is beneficial if it gives us? || முடிவு: ஒரு பொழுதுபோக்கு எப்போது நன்மையளிக்கும்?",
+      "options": [
+        "Money only",
+        "Joy and relaxation (மகிழ்ச்சி மற்றும் மன அமைதி)",
+        "Boredom",
+        "Anger"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Who wrote stories in this lesson? || இப்பாடத்தில் கதைகளை எழுதியவர் யார்?",
+      "options": [
+        "Ajay",
+        "Mani (மணி)",
+        "Ilavazhagi",
+        "Dholu Ram"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What does a carrom board symbolize for Ilavazhagi? || இளவழகிக்கு கேரம் போர்டு எதைக் குறிக்கிறது?",
+      "options": [
+        "A toy",
+        "Her field of success (அவரது வெற்றி களம்)",
+        "Something to sell",
+        "Furniture"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Plural of 'Thesis'? || 'Thesis' என்பதன் பன்மை?",
+      "options": [
+        "Thesiss",
+        "Theses (தீசிஸ் - பன்மை)",
+        "Thesies",
+        "Thesa"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: 'A flight of ______'. || 'A flight of ______' - இதில் எது வரும்?",
+      "options": [
+        "Steps / Birds (படிகள் / பறவைக் கூட்டம்)",
+        "Lions",
+        "Wolves",
+        "Grapes"
+      ],
+      "a": 0,
+      "ex": ""
+    }
+  ],
+  "credits": "தொகுப்பு: A1 ONLINE COACHING CENTER"
+}

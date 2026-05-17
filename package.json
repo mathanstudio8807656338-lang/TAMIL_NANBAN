@@ -1,0 +1,17 @@
+{
+  "name": "a1lms",
+  "version": "1.0.1",
+  "description": "A1 LMS Project",
+  "main": "index.html",
+  "scripts": {
+    "build": "node build_map.js && node update_syllabus_status.js",
+    "start": "node run_local.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "multer": "^2.1.1"
+  }
+}

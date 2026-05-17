@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaderboard - Tamil Nanban</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Noto+Sans+Tamil:wght@400;700&display=swap">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: 'Outfit', 'Noto Sans Tamil', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container { max-width: 700px; margin: 0 auto; }
+        
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 30px;
+        }
+        
+        .header h1 {
+            font-size: 2rem;
+            font-weight: 800;
+            margin-bottom: 10px;
+        }
+        
+        .leaderboard-card {
+            background: white;
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+        }
+        
+        .podium {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+        
+        .podium-item {
+            text-align: center;
+            padding: 20px;
+            border-radius: 15px;
+            position: relative;
+        }
+        
+        .podium-item.first {
+            background: linear-gradient(135deg, #fbbf24, #f59e0b);
+            order: 2;
+        }
+        
+        .podium-item.second {
+            background: linear-gradient(135deg, #94a3b8, #64748b);
+            order: 1;
+        }
+        
+        .podium-item.third {
+            background: linear-gradient(135deg, #fb923c, #ea580c);
+            order: 3;
+        }
+        
+        .podium-item .medal {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        .podium-item .name {
+            font-weight: 800;
+            color: white;
+            font-size: 1.1rem;
+            margin-bottom: 5px;
+        }
+        
+        .podium-item .score {
+            font-weight: 700;
+            color: white;
+            opacity: 0.9;
+        }
+        
+        .rank-list {
+            max-height: 500px;
+            overflow-y: auto;
+        }
+        
+        .rank-item {
+            display: flex;
+            align-items: center;
+            padding: 15px;
+            border-bottom: 1px solid #e2e8f0;
+            transition: all 0.3s;
+        }
+        
+        .rank-item:hover {
+            background: #f8fafc;
+        }
+        
+        .rank-item .rank {
+            width: 40px;
+            font-size: 1.2rem;
+            font-weight: 800;
+            color: #64748b;
+        }
+        
+        .rank-item .info {
+            flex: 1;
+            margin-left: 15px;
+        }
+        
+        .rank-item .name {
+            font-weight: 700;
+            color: #1e293b;
+            margin-bottom: 3px;
+        }
+        
+        .rank-item .phone {
+            font-size: 0.85rem;
+            color: #64748b;
+        }
+        
+        .rank-item .score {
+            font-size: 1.3rem;
+            font-weight: 800;
+            color: #667eea;
+        }
+        
+        .btn {
+            width: 100%;
+            padding: 15px;
+            background: white;
+            color: #667eea;
+            border: 2px solid #667eea;
+            border-radius: 12px;
+            font-size: 1rem;
+            font-weight: 800;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        
+        .btn:active {
+            transform: scale(0.98);
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 50px;
+            color: white;
+        }
+        
+        .spinner {
+            border: 3px solid rgba(255,255,255,0.3);
+            border-top: 3px solid white;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        @media (max-width: 600px) {
+            .header h1 { font-size: 1.5rem; }
+            .podium { grid-template-columns: 1fr; }
+            .podium-item.first, .podium-item.second, .podium-item.third {
+                order: unset;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🏆 Leaderboard</h1>
+            <p id="examInfo">--</p>
+        </div>
+        
+        <div id="loadingBox" class="loading">
+            <div class="spinner"></div>
+            <p>Rankings ஏற்றப்படுகின்றன...</p>
+        </div>
+        
+        <div id="leaderboardBox" style="display:none;">
+            <div class="leaderboard-card">
+                <div id="podiumBox" class="podium"></div>
+                
+                <div class="rank-list" id="rankList"></div>
+                
+                <button class="btn" onclick="goHome()">
+                    🏠 முகப்பு பக்கம்
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script type="module">
+        import { db } from './js/firebase-init.js';
+        import { collection, query, where, getDocs, orderBy } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js';
+        
+        const urlParams = new URLSearchParams(window.location.search);
+        const examDate = urlParams.get('date');
+        const category = urlParams.get('category');
+        
+        async function loadLeaderboard() {
+            try {
+                const resultsRef = collection(db, 'free_exam_results');
+                const q = query(
+                    resultsRef,
+                    where('examDate', '==', examDate),
+                    where('category', '==', category),
+                    orderBy('score', 'desc'),
+                    orderBy('timeTaken', 'asc')
+                );
+                
+                const querySnapshot = await getDocs(q);
+                const results = querySnapshot.docs.map(doc => doc.data());
+                
+                // Display top 3 in podium
+                const podiumBox = document.getElementById('podiumBox');
+                podiumBox.innerHTML = '';
+                
+                const medals = ['🥇', '🥈', '🥉'];
+                const classes = ['first', 'second', 'third'];
+                
+                for (let i = 0; i < Math.min(3, results.length); i++) {
+                    const item = results[i];
+                    podiumBox.innerHTML += `
+                        <div class="podium-item ${classes[i]}">
+                            <div class="medal">${medals[i]}</div>
+                            <div class="name">${item.studentName}</div>
+                            <div class="score">${item.score}/${item.totalQuestions}</div>
+                        </div>
+                    `;
+                }
+                
+                // Display all ranks
+                const rankList = document.getElementById('rankList');
+                rankList.innerHTML = '';
+                
+                results.forEach((item, index) => {
+                    const maskedPhone = item.phoneNumber.substring(0, 6) + 'XXXX';
+                    rankList.innerHTML += `
+                        <div class="rank-item">
+                            <div class="rank">#${index + 1}</div>
+                            <div class="info">
+                                <div class="name">${item.studentName}</div>
+                                <div class="phone">${maskedPhone}</div>
+                            </div>
+                            <div class="score">${item.score}</div>
+                        </div>
+                    `;
+                });
+                
+                document.getElementById('examInfo').textContent = `${examDate} - மொத்தம் ${results.length} பங்கேற்பாளர்கள்`;
+                
+                // Hide loading, show leaderboard
+                document.getElementById('loadingBox').style.display = 'none';
+                document.getElementById('leaderboardBox').style.display = 'block';
+                
+            } catch (error) {
+                console.error('Error loading leaderboard:', error);
+                alert('Leaderboard ஏற்ற பிழை!');
+            }
+        }
+        
+        window.goHome = function() {
+            window.location.href = 'index.html';
+        };
+        
+        loadLeaderboard();
+    </script>
+</body>
+</html>

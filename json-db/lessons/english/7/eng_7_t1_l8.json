@@ -1,0 +1,600 @@
+{
+  "lesson_meta": {
+    "title": "Your space",
+    "unit": "l8",
+    "grade": "7",
+    "term": "t1",
+    "subject": "english",
+    "code": "eng_7_t1_l8"
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "Who is the poet of the poem 'Speak Gently'?",
+        "options": [
+          "William Wordsworth",
+          "David Bates",
+          "Robert Frost",
+          "John Keats"
+        ],
+        "answer": 1,
+        "explanation": "The poem 'Speak Gently' is written by David Bates."
+      },
+      {
+        "question": "According to the poet, it is far better to rule by ________ than ________.",
+        "options": [
+          "power, weakness",
+          "fear, love",
+          "love, fear",
+          "wealth, poverty"
+        ],
+        "answer": 2,
+        "explanation": "The opening lines state: 'It is better far / To rule by love, than fear'."
+      },
+      {
+        "question": "What do harsh words do to the 'good we might do here'?",
+        "options": [
+          "They improve it",
+          "They mar (spoil) it",
+          "They ignore it",
+          "They spread it"
+        ],
+        "answer": 1,
+        "explanation": "The poet says, 'let not harsh words mar / The good we might do here!'"
+      },
+      {
+        "question": "What whispers low in the poem?",
+        "options": [
+          "Fear",
+          "The wind",
+          "Love",
+          "Friendship"
+        ],
+        "answer": 2,
+        "explanation": "The poem says, 'Love doth whisper low / The vows that true hearts bind'."
+      },
+      {
+        "question": "Which of the following binds true hearts together?",
+        "options": [
+          "Wealth",
+          "Vows whispered by love",
+          "Harsh tones",
+          "Anxious care"
+        ],
+        "answer": 1,
+        "explanation": "Love whispers low the vows that bind true hearts."
+      },
+      {
+        "question": "How do Friendship's accents flow?",
+        "options": [
+          "Gently",
+          "Harshly",
+          "Loudly",
+          "Quickly"
+        ],
+        "answer": 0,
+        "explanation": "The poet states, 'And gently Friendship’s accents flow'."
+      },
+      {
+        "question": "Whose voice is described as 'kind' in the second stanza?",
+        "options": [
+          "Aged one's voice",
+          "Child's voice",
+          "Affection's voice",
+          "Nature's voice"
+        ],
+        "answer": 2,
+        "explanation": "The line is, 'Affection’s voice is kind.'"
+      },
+      {
+        "question": "Why should we speak gently to a little child?",
+        "options": [
+          "Because they are noisy",
+          "To gain its love",
+          "Because they cry easily",
+          "To make them sleep"
+        ],
+        "answer": 1,
+        "explanation": "The poet advises, 'Speak gently to the little child! / Its love be sure to gain'."
+      },
+      {
+        "question": "In what kind of accents should we teach a little child?",
+        "options": [
+          "Strict and firm",
+          "Soft and mild",
+          "Loud and clear",
+          "Fast and sharp"
+        ],
+        "answer": 1,
+        "explanation": "The poem suggests: 'Teach it in accents soft and mild'."
+      },
+      {
+        "question": "What is the reason given by the poet that a child may 'not long remain'?",
+        "options": [
+          "Childhood passes quickly",
+          "They will travel far",
+          "They will stop listening",
+          "They will go to school"
+        ],
+        "answer": 0,
+        "explanation": "Childhood is short-lived; hence the poet says, 'It may not long remain.'"
+      },
+      {
+        "question": "According to the poet, who has 'enough to bear'?",
+        "options": [
+          "The aged",
+          "The young",
+          "The little child",
+          "The wealthy"
+        ],
+        "answer": 1,
+        "explanation": "The poem states, 'Speak gently to the young, for they / Will have enough to bear'."
+      },
+      {
+        "question": "How does the poet describe the life of the young?",
+        "options": [
+          "Full of joy",
+          "Full of anxious care",
+          "Full of endless play",
+          "Full of peaceful moments"
+        ],
+        "answer": 1,
+        "explanation": "The poet describes their passage through life as 'full of anxious care'."
+      },
+      {
+        "question": "What should we NOT do to the aged one's heart?",
+        "options": [
+          "Love it",
+          "Grieve it",
+          "Protect it",
+          "Comfort it"
+        ],
+        "answer": 1,
+        "explanation": "The poem advises, 'Grieve not the care-worn heart'."
+      },
+      {
+        "question": "What phrase is used to indicate that the old people's lives are coming to an end?",
+        "options": [
+          "They have enough to bear",
+          "The vows that true hearts bind",
+          "The sands of life are nearly run",
+          "They have toiled in vain"
+        ],
+        "answer": 2,
+        "explanation": "The phrase 'The sands of life are nearly run' is a metaphor for approaching death."
+      },
+      {
+        "question": "How should the aged be allowed to depart from this world?",
+        "options": [
+          "In peace",
+          "In fear",
+          "In sorrow",
+          "In anger"
+        ],
+        "answer": 0,
+        "explanation": "The poet says, 'Let such in peace depart!'"
+      },
+      {
+        "question": "Who already has 'enough they must endure' without an unkind word?",
+        "options": [
+          "The rich",
+          "The poor",
+          "The child",
+          "The young"
+        ],
+        "answer": 1,
+        "explanation": "The poet says of the poor: 'They have enough they must endure, / Without an unkind word!'"
+      },
+      {
+        "question": "Who might have 'toiled in vain' according to the poem?",
+        "options": [
+          "The young",
+          "The poor",
+          "The erring",
+          "The child"
+        ],
+        "answer": 2,
+        "explanation": "The poem says, 'Speak gently to the erring – know, / They may have toiled in vain'."
+      },
+      {
+        "question": "What might have made the 'erring' people the way they are?",
+        "options": [
+          "Greed",
+          "Unkindness",
+          "Poverty",
+          "Ignorance"
+        ],
+        "answer": 1,
+        "explanation": "The poet suggests, 'Perchance unkindness made them so'."
+      },
+      {
+        "question": "What is the poet's ultimate advice regarding the 'erring'?",
+        "options": [
+          "Punish them",
+          "Ignore them",
+          "Win them back again",
+          "Send them away"
+        ],
+        "answer": 2,
+        "explanation": "The poet urges us to speak gently and 'Oh, win them back again!'"
+      },
+      {
+        "question": "Who is referred to in the lines 'He who gave his life / To bend man's stubborn will'?",
+        "options": [
+          "A brave soldier",
+          "The poet himself",
+          "God / Jesus Christ",
+          "A king"
+        ],
+        "answer": 2,
+        "explanation": "These lines refer to God/Jesus who sacrificed his life and commanded the elements."
+      },
+      {
+        "question": "What did 'He' say to the elements when they were in fierce strife?",
+        "options": [
+          "Stop at once",
+          "Peace, be still",
+          "Rule by love",
+          "Endure the pain"
+        ],
+        "answer": 1,
+        "explanation": "He said to the storms/elements, 'Peace, be still.'"
+      },
+      {
+        "question": "Where is a 'gentle word' metaphorically dropped?",
+        "options": [
+          "In the ocean of life",
+          "In the heart's deep well",
+          "In the sands of time",
+          "In the well of sorrow"
+        ],
+        "answer": 1,
+        "explanation": "The poet says, 'Speak gently! – ’tis a little thing / Dropped in the heart’s deep well'."
+      },
+      {
+        "question": "Who will tell of the good and joy that speaking gently brings?",
+        "options": [
+          "History",
+          "The poet",
+          "Eternity",
+          "The aged"
+        ],
+        "answer": 2,
+        "explanation": "The final line of the poem is: 'Eternity shall tell.'"
+      },
+      {
+        "question": "What is the meaning of the word 'harsh' as given in the glossary?",
+        "options": [
+          "Soft",
+          "Rough",
+          "Low voice",
+          "Endless"
+        ],
+        "answer": 1,
+        "explanation": "According to the glossary, 'harsh' means rough."
+      },
+      {
+        "question": "What does the archaic word 'doth' mean?",
+        "options": [
+          "Don't",
+          "Does",
+          "Death",
+          "Done"
+        ],
+        "answer": 1,
+        "explanation": "The glossary states that 'doth' means does."
+      },
+      {
+        "question": "What is the meaning of the word 'anxious'?",
+        "options": [
+          "Feeling worried or showing worry",
+          "Feeling extremely happy",
+          "Producing no results",
+          "Working very hard"
+        ],
+        "answer": 0,
+        "explanation": "According to the glossary, 'anxious' means feeling worried or showing worry."
+      },
+      {
+        "question": "Match the following: 1. Grieve, 2. Endure, 3. Vain",
+        "options": [
+          "1-Suffer patiently, 2-Be sorrowful, 3-Producing no results",
+          "1-Producing no results, 2-Be sorrowful, 3-Suffer patiently",
+          "1-Be sorrowful, 2-Suffer patiently, 3-Producing no results",
+          "1-Be sorrowful, 2-Producing no results, 3-Suffer patiently"
+        ],
+        "answer": 2,
+        "explanation": "Grieve = be sorrowful; Endure = suffer patiently; Vain = producing no results."
+      },
+      {
+        "question": "What is the exact meaning of 'toiled'?",
+        "options": [
+          "Failed miserably",
+          "Slept peacefully",
+          "Worked hard",
+          "Left early"
+        ],
+        "answer": 2,
+        "explanation": "According to the glossary, 'toiled' means worked hard."
+      },
+      {
+        "question": "A person who is refusing to change their opinion is called ________.",
+        "options": [
+          "Anxious",
+          "Stubborn",
+          "Erring",
+          "Care-worn"
+        ],
+        "answer": 1,
+        "explanation": "The glossary defines 'stubborn' as one refusing to change one's opinion."
+      },
+      {
+        "question": "What does 'strife' mean in the context of the poem?",
+        "options": [
+          "Endless time",
+          "Agreement",
+          "Disagreement / Conflict",
+          "Heavy rainfall"
+        ],
+        "answer": 2,
+        "explanation": "According to the glossary, 'strife' means disagreement."
+      },
+      {
+        "question": "What is the meaning of 'Eternity'?",
+        "options": [
+          "Endless, no end",
+          "A short period",
+          "A deep well",
+          "A sorrowful heart"
+        ],
+        "answer": 0,
+        "explanation": "The glossary defines 'eternity' as endless, no end."
+      },
+      {
+        "question": "Fill in the blanks (Book back): It is better far to rule by _______, than _______.",
+        "options": [
+          "fear, love",
+          "love, fear",
+          "joy, sorrow",
+          "good, bad"
+        ],
+        "answer": 1,
+        "explanation": "As per the text: 'It is better far to rule by love, than fear'."
+      },
+      {
+        "question": "Fill in the blanks (Book back): Teach it in accents _______ and _______.",
+        "options": [
+          "loud, harsh",
+          "soft, mild",
+          "good, joy",
+          "vain, fear"
+        ],
+        "answer": 1,
+        "explanation": "The exact line is: 'Teach it in accents soft and mild'."
+      },
+      {
+        "question": "Fill in the blanks (Book back): Let no _______ tone be _______.",
+        "options": [
+          "mild, spoken",
+          "harsh, heard",
+          "soft, understood",
+          "loud, feared"
+        ],
+        "answer": 1,
+        "explanation": "The exact line is: 'Let no harsh tone be heard'."
+      },
+      {
+        "question": "Fill in the blanks (Book back): They may have _______ in _______.",
+        "options": [
+          "toiled, vain",
+          "lived, peace",
+          "worked, joy",
+          "cried, fear"
+        ],
+        "answer": 0,
+        "explanation": "The exact line is: 'They may have toiled in vain'."
+      },
+      {
+        "question": "Fill in the blanks (Book back): The _______, the _______, which it may bring.",
+        "options": [
+          "love, life",
+          "good, joy",
+          "fear, pain",
+          "sand, life"
+        ],
+        "answer": 1,
+        "explanation": "The exact line is: 'The good, the joy, which it may bring'."
+      },
+      {
+        "question": "Fill in the blanks (Book back): The _______ of _______ are nearly run.",
+        "options": [
+          "days, youth",
+          "sands, life",
+          "joys, childhood",
+          "tears, sorrow"
+        ],
+        "answer": 1,
+        "explanation": "The exact line is: 'The sands of life are nearly run' (options given in book: sand, life)."
+      },
+      {
+        "question": "What is the rhyme scheme of the stanzas in the poem?",
+        "options": [
+          "aabb",
+          "abcb",
+          "abba",
+          "abab"
+        ],
+        "answer": 3,
+        "explanation": "The poem follows a consistent 'abab' rhyme scheme (e.g., child-a, gain-b, mild-a, remain-b)."
+      },
+      {
+        "question": "Pick the correct rhyming pair from the poem for the word 'fear'.",
+        "options": [
+          "bear",
+          "here",
+          "care",
+          "there"
+        ],
+        "answer": 1,
+        "explanation": "In the first stanza, 'fear' rhymes with 'here'."
+      },
+      {
+        "question": "Pick the correct rhyming pair from the poem for the word 'low'.",
+        "options": [
+          "so",
+          "flow",
+          "know",
+          "bow"
+        ],
+        "answer": 1,
+        "explanation": "In the second stanza, 'low' rhymes with 'flow'."
+      },
+      {
+        "question": "Pick the correct rhyming pair from the poem for the word 'remain'.",
+        "options": [
+          "gain",
+          "vain",
+          "again",
+          "pain"
+        ],
+        "answer": 0,
+        "explanation": "In the third stanza, 'gain' rhymes with 'remain'."
+      },
+      {
+        "question": "Pick the correct rhyming pair from the poem for the word 'they'.",
+        "options": [
+          "say",
+          "play",
+          "may",
+          "day"
+        ],
+        "answer": 2,
+        "explanation": "In the fourth stanza, 'they' rhymes with 'may'."
+      },
+      {
+        "question": "True or False: According to the poem, speaking harshly is a good way to bend a man's stubborn will.",
+        "options": [
+          "True",
+          "False",
+          "Cannot be determined",
+          "Sometimes true"
+        ],
+        "answer": 1,
+        "explanation": "False. The poem advocates speaking gently to bend a stubborn will, giving the example of 'He' who said 'Peace, be still'."
+      },
+      {
+        "question": "Assertion (A): We must speak gently to people who make mistakes (the erring).\nReason (R): Because they might have been made that way due to others' unkindness.",
+        "options": [
+          "Both A and R are true, and R is the correct explanation of A",
+          "Both A and R are true, but R is not the correct explanation of A",
+          "A is true, but R is false",
+          "A is false, but R is true"
+        ],
+        "answer": 0,
+        "explanation": "The poem explicitly says to speak gently to the erring because 'perchance unkindness made them so'."
+      },
+      {
+        "question": "Analogy: Little Child : Accents soft and mild :: Aged one : ?",
+        "options": [
+          "Full of anxious care",
+          "Grieve not the care-worn heart",
+          "Toiled in vain",
+          "Fierce strife"
+        ],
+        "answer": 1,
+        "explanation": "The poet associates 'accents soft and mild' with teaching a child, and 'grieve not the care-worn heart' with speaking to the aged one."
+      },
+      {
+        "question": "Life-Scenario Question (HOTS): You see your friend feeling extremely worried about an upcoming exam and carrying a lot of stress. Which stanza's theme directly applies to your friend?",
+        "options": [
+          "Speak gently to the little child",
+          "Speak gently to the young, full of anxious care",
+          "Speak gently to the poor, they have enough to endure",
+          "Speak gently to the aged one"
+        ],
+        "answer": 1,
+        "explanation": "Your friend represents 'the young', and the stress represents 'full of anxious care' and 'enough to bear'."
+      },
+      {
+        "question": "What metaphor does the poet use to describe the depth and impact of a gentle word inside a person?",
+        "options": [
+          "The sands of life",
+          "The heart's deep well",
+          "Fierce strife",
+          "A quiet whisper"
+        ],
+        "answer": 1,
+        "explanation": "The poet says that a gentle word is 'Dropped in the heart's deep well'."
+      },
+      {
+        "question": "What happens if we use 'harsh words' according to the first stanza?",
+        "options": [
+          "It makes people discipline themselves",
+          "It destroys or spoils the good deeds we could have done",
+          "It forces people to listen",
+          "It bounds true hearts"
+        ],
+        "answer": 1,
+        "explanation": "The line 'let not harsh words mar / The good we might do here' means harsh words spoil good deeds."
+      },
+      {
+        "question": "Which of the following is NOT a reason given by the poet to speak gently?",
+        "options": [
+          "To rule by fear",
+          "To gain a child's love",
+          "To not grieve an aged heart",
+          "To win back the erring"
+        ],
+        "answer": 0,
+        "explanation": "The poet explicitly states it is better to rule by love, NOT fear."
+      },
+      {
+        "question": "What does the word 'accents' mean in the context of 'Friendship's accents flow'?",
+        "options": [
+          "Foreign languages",
+          "Pronunciation styles",
+          "Tones or expressions emphasizing friendship",
+          "Musical notes"
+        ],
+        "answer": 2,
+        "explanation": "In this context, accents mean the tone of voice or expression used to emphasise feelings like friendship and affection."
+      }
+    ]
+  },
+  "material": {
+    "sections": [
+      {
+        "title": "பாடச் சுருக்கம் (Poem Summary)",
+        "content": "The poem 'Speak Gently' by David Bates emphasizes the profound impact of soft and kind words on different stages of human life and situations. The poet strongly advocates ruling people through love rather than fear, as harsh words can destroy good deeds. The poem systematically advises us to speak gently to a child (to gain its love), to the young (who already have many anxieties), to the aged (who are nearing the end of their lives and need peace), to the poor (who already endure many hardships), and to the erring (who might have been broken by past unkindness). Finally, the poet compares a gentle word to a tiny pebble dropped into the deep well of the human heart, leaving an eternal positive impact."
+      },
+      {
+        "title": "பாடக்கருத்துக்கள் - பகுதி 1 (Stanzas 1 to 3: Love & Children)",
+        "content": "• Stanza 1: It is always far better to rule others through love rather than fear. We should never use harsh words because they can easily ruin (mar) the good deeds we try to do in this world.\n\n• Stanza 2: Love expresses itself in a low, gentle whisper. The vows that bind true hearts together are always gentle. Similarly, the voice of true friendship and affection is naturally kind and flowing.\n\n• Stanza 3: We must speak gently to a little child to win its love. Since the innocent stage of childhood passes very quickly ('it may not long remain'), we must teach them using soft and mild tones."
+      },
+      {
+        "title": "பாடக்கருத்துக்கள் - பகுதி 2 (Stanzas 4 to 6: The Young, Aged & Poor)",
+        "content": "• Stanza 4: Speak gently to the youth. They already have many responsibilities and burdens to carry. Their journey through life is filled with worry and 'anxious care'.\n\n• Stanza 5: Speak gently to old people. Their hearts are already worn out by years of worries. Since their time on earth is almost over ('sands of life are nearly run'), we should let them depart from this world in peace without grieving them.\n\n• Stanza 6: Speak gently and kindly to the poor. Never use a harsh tone with them. They already suffer and endure so much poverty and hardship; they do not need the extra burden of an unkind word."
+      },
+      {
+        "title": "பாடக்கருத்துக்கள் - பகுதி 3 (Stanzas 7 to 9: The Erring, God's Example & Eternity)",
+        "content": "• Stanza 7: Speak gently to those who make mistakes (the erring). They might have worked hard but failed ('toiled in vain'). Perhaps the unkindness of others made them commit mistakes. By speaking gently, we can win them back to the right path.\n\n• Stanza 8: The poet gives a divine example. God/Jesus, who gave his life to soften the stubborn human will, spoke gently even to the violent forces of nature during a storm, saying, 'Peace, be still.'\n\n• Stanza 9: Speaking gently is a very small effort, like dropping a little thing into the deep well of a human heart. However, the joy and goodness it brings will last forever, and only Eternity can measure its true value."
+      },
+      {
+        "title": "கலைச்சொற்கள் (Glossary)",
+        "content": "• harsh - rough (கடுமையான)\n• doth - does (செய்கிறது - பழைய ஆங்கிலம்)\n• whisper - low voice (முணுமுணுப்பு / மெல்லிய குரல்)\n• accents - emphasise (தொனி / அழுத்தம்)\n• anxious - feeling worried or showing worry (கவலை நிறைந்த)\n• grieve - be sorrowful (துக்கப்படுத்துதல்)\n• depart - leave/go (பிரியும் / செல்லும்)\n• endure - suffer patiently (பொறுத்துக்கொள்ளுதல்)\n• toiled - worked hard (கடினமாக உழைத்த)\n• vain - producing no results (வீணான)\n• stubborn - one refusing to change one's opinion (பிடிவாதமான)\n• strife - disagreement (கடும் மோதல் / முரண்பாடு)\n• eternity - endless, no end (முடிவற்ற காலம்)"
+      },
+      {
+        "title": "பாட பின்புற வினாக்கள் - ஒரு மதிப்பெண் (Book Back: Fill in the blanks)",
+        "content": "• B. Read the poem and fill in the blanks with the correct option.\n• (Options given: soft, vain, fear, joy, love, heard, toiled, mild, good, sand, life, harsh)\n\n• It is better far to rule by [love], than [fear].\n• Teach it in accents [soft] and [mild].\n• Let no [harsh] tone be [heard].\n• They may have [toiled] in [vain].\n• The [good], the [joy], which it may bring.\n• The [sands] of [life] are nearly run. (Note: Plural 'sands' is used in the poem)."
+      },
+      {
+        "title": "பாட பின்புற வினாக்கள் - ரைமிங் சொற்கள் மற்றும் ரைம் ஸ்கீம் (Rhyming Words & Rhyme Scheme)",
+        "content": "• C. Pick out the words which rhyme with the given words and write similar rhyming words on your own.\n• far - mar (from poem) - car/star/jar (own words)\n• fear - here (from poem) - near/dear/tear (own words)\n• low - flow (from poem) - glow/grow/show (own words)\n• kind - bind (from poem) - mind/find/blind (own words)\n• remain - gain (from poem) - pain/rain/train (own words)\n• they - may (from poem) - day/say/play (own words)\n\n▸ Rhyme Scheme:\n• A rhyme scheme is the pattern of rhymes at the end of each line of a poem or song.\n• The rhyme scheme for this entire poem is 'abab'.\n▸ Example from the poem:\n• Speak gently to the little child! - (a)\n• Its love be sure to gain - (b)\n• Teach it in accents soft and mild - (a)\n• It may not long remain - (b)"
+      },
+      {
+        "title": "பாட பின்புற வினாக்கள் - வினா விடை குறிப்புகள் (Short Answers Reference)",
+        "content": "• Why should we speak gently?\n• Ans: We should speak gently because it is better to rule by love than fear. Harsh words spoil the good things we do.\n\n• What do you infer about speaking with others from this poem?\n• Ans: We must speak softly and kindly to everyone, regardless of their age, status, or mistakes, as everyone carries their own burden.\n\n• What are the disadvantages of speaking harshly?\n• Ans: Speaking harshly destroys the good we try to do, grieves old hearts, adds burden to the poor, and pushes away those who make mistakes.\n\n• Why does the poet tell us to speak gently to young children?\n• Ans: Childhood passes very quickly. We should speak gently to gain their love and teach them softly.\n\n• How should you speak with old people?\n• Ans: We should speak to them without causing grief, as they are nearing the end of their lives and should depart in peace."
+      }
+    ]
+  }
+}

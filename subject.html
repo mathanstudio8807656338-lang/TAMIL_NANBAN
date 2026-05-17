@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <!-- Updated: 2024-04-04 15:45 -->
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400;500;600;700;800&family=Noto+Sans+Tamil:wght@400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Syllabus - A1 Coaching</title>
+    <style>
+/* --- BRAND HEADER --- */
+.header-standard {
+    background: #ffffff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #1e3a8a;
+    border-bottom: 1px solid #1e3a8a;
+}
+.brand-container {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.brand-main {
+    font-family: 'Baloo Thambi 2', cursive;
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: #1e3a8a;
+    line-height: 1.2;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+.brand-sub {
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #ef4444;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-top: -2px;
+}
+@media (max-width: 480px) {
+    .brand-main { font-size: 1.5rem; }
+    .brand-sub { font-size: 0.65rem; }
+    .header-standard { height: 60px; }
+}
+
+/* Bottom Nav */
+.bottom-nav {
+    position: fixed;
+    bottom: 0; left: 0; right: 0;
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.6rem 0.4rem;
+    box-shadow: 0 -4px 20px rgba(0,0,0,0.08);
+    z-index: 1000;
+    border-top: 1px solid #f1f5f9;
+}
+.nav-item {
+    text-decoration: none;
+    color: #64748b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.65rem;
+    font-weight: 700;
+    gap: 4px;
+    flex: 1;
+    transition: color 0.3s ease;
+}
+.nav-item.active { color: #1e3a8a; }
+.nav-item.logout { color: #ef4444; }
+.nav-icon { font-size: 1.2rem; margin-bottom: 2px; }
+
+/* Global fixes */
+body {
+    padding-bottom: 80px;
+}
+
+        body {
+            background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+            min-height: 100vh;
+            font-family: 'Plus Jakarta Sans', 'Inter', sans-serif;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2.5rem 1.5rem;
+        }
+        #subjectTitle {
+            font-size: 2.2rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, #1e3a8a, #1a2e5a);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-align: center;
+        }
+        /* Navbar — scroll with page */
+        .navbar {
+            position: relative !important;
+        }
+
+        .class-tabs-container {
+            display: flex;
+            justify-content: center;
+            margin: 1.5rem 0 2rem;
+            padding: 0 1rem;
+        }
+        .class-tabs {
+            background: rgba(255,255,255,0.92);
+            backdrop-filter: blur(20px);
+            padding: 0.45rem;
+            border-radius: 100px;
+            display: inline-flex;
+            gap: 0.35rem;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.10);
+            border: 1px solid rgba(255,255,255,0.8);
+            overflow-x: auto;
+            max-width: 100%;
+            scrollbar-width: none;
+        }
+        .class-tabs::-webkit-scrollbar { display: none; }
+        .class-tab {
+            padding: 0.5rem 1.1rem;
+            border-radius: 100px;
+            border: none;
+            background: transparent;
+            color: #64748b;
+            font-weight: 800;
+            cursor: pointer;
+            transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            font-size: 0.82rem;
+            white-space: nowrap;
+            flex-shrink: 0;
+        }
+        /* Colorful active tabs per class */
+        .class-tab[data-class="1"].active, .class-tab[data-class="6"].active  { background: linear-gradient(135deg,#2563eb,#1e40af); color:#fff; box-shadow:0 6px 14px rgba(37,99,235,0.35); }
+        .class-tab[data-class="2"].active, .class-tab[data-class="7"].active  { background: linear-gradient(135deg,#059669,#065f46); color:#fff; box-shadow:0 6px 14px rgba(5,150,105,0.35); }
+        .class-tab[data-class="3"].active, .class-tab[data-class="8"].active  { background: linear-gradient(135deg,#d97706,#92400e); color:#fff; box-shadow:0 6px 14px rgba(217,119,6,0.35); }
+        .class-tab[data-class="4"].active, .class-tab[data-class="9"].active  { background: linear-gradient(135deg,#7c3aed,#5b21b6); color:#fff; box-shadow:0 6px 14px rgba(124,58,237,0.35); }
+        .class-tab[data-class="5"].active, .class-tab[data-class="10"].active { background: linear-gradient(135deg,#db2777,#9d174d); color:#fff; box-shadow:0 6px 14px rgba(219,39,119,0.35); }
+        .class-tab:not(.active):hover { background: #f1f5f9; color: #1e293b; }
+        .term-section {
+            margin-bottom: 4.5rem;
+            animation: slideUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        }
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .term-section h2 {
+            font-size: 1.8rem;
+            font-weight: 800;
+            color: #0f172a;
+            margin-bottom: 2rem;
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+        }
+        .term-section h2::after {
+            content: '';
+            flex: 1;
+            height: 4px;
+            background: linear-gradient(to right, #e2e8f0, transparent);
+            border-radius: 10px;
+        }
+        .topics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+            gap: 2rem;
+        }
+        .topic-card {
+            background: #ffffff;
+            padding: 1.25rem 1.5rem;
+            border-radius: 1.25rem;
+            border: 1px solid #f1f5f9;
+            border-left: 6px solid #1e3a8a;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            display: flex;
+            flex-direction: column;
+            cursor: pointer;
+            overflow: hidden;
+            position: relative;
+        }
+        .topic-card:nth-child(2n) { border-left-color: #0ea5e9; }
+        .topic-card:nth-child(3n) { border-left-color: #10b981; }
+        .topic-card:nth-child(4n) { border-left-color: #f59e0b; }
+
+        .topic-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 24px rgba(0,0,0,0.06);
+            border-color: #e2e8f0;
+        }
+        .topic-card.expanded {
+            background: #f8fbff;
+            border-color: #1e3a8a;
+            box-shadow: 0 15px 30px rgba(30, 58, 138, 0.1);
+        }
+        .topic-title-wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            gap: 1rem;
+        }
+        .topic-title {
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: #1e293b;
+            margin: 0;
+            line-height: 1.4;
+            transition: color 0.3s ease;
+            flex: 1;
+        }
+        .topic-card.expanded .topic-title {
+            color: #1e3a8a;
+        }
+        .chevron {
+            width: 24px;
+            height: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            color: #94a3b8;
+        }
+        .topic-card.expanded .chevron {
+            transform: rotate(180deg);
+            color: #1e3a8a;
+        }
+        .btn-group {
+            display: flex;
+            gap: 0.75rem;
+            max-height: 0;
+            opacity: 0;
+            overflow: hidden;
+            margin-top: 0;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .topic-card.expanded .btn-group {
+            max-height: 500px;
+            opacity: 1;
+            margin-top: 1.25rem;
+            padding-bottom: 0.25rem;
+        }
+        .btn-group {
+            display: flex;
+            gap: 0.65rem;
+            margin-top: 0.75rem;
+        }
+        .card-btn {
+            flex: 1;
+            padding: 1rem 0.5rem;
+            border-radius: 14px;
+            text-decoration: none;
+            font-size: 0.95rem;
+            font-weight: 800;
+            text-align: center;
+            transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-transform: uppercase;
+            letter-spacing: 0.01em;
+            color: white;
+            border: none;
+        }
+        .btn-notes { background: linear-gradient(135deg, #0d9488, #0f766e); box-shadow: 0 4px 12px rgba(13, 148, 136, 0.2); }
+        .btn-quiz { background: linear-gradient(135deg, #1e40af, #1e3a8a); box-shadow: 0 4px 12px rgba(30, 64, 175, 0.2); }
+        
+        .card-btn:hover { 
+            transform: translateY(-4px) scale(1.04); 
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+            filter: brightness(1.1);
+        }
+        .card-btn span:first-child {
+            font-size: 1.3rem;
+        }
+
+        @media (max-width: 640px) {
+            .topics-grid { grid-template-columns: 1fr; gap: 1rem; }
+            .class-tab { padding: 0.4rem 0.8rem; font-size: 0.75rem; }
+            .topic-card { padding: 1rem 0.8rem; }
+            .card-btn { font-size: 0.85rem; padding: 0.9rem 0.4rem; width: 100%; }
+            .btn-group { flex-direction: column; gap: 0.8rem; }
+        }
+
+        /* Revision Test Multi-Quiz Layout */
+        .revision-quiz-container {
+            display: flex;
+            flex-direction: column;
+            gap: 0.8rem;
+            width: 100%;
+            margin-top: 1.25rem;
+            max-height: 0;
+            opacity: 0;
+            overflow: hidden;
+            transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .topic-card.expanded .revision-quiz-container {
+            max-height: 1000px;
+            opacity: 1;
+        }
+        .quiz-sub-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 0.6rem;
+            margin-top: 0.5rem;
+        }
+        .quiz-btn-small {
+            padding: 0.8rem 0.4rem;
+            font-size: 0.85rem;
+            border-radius: 10px;
+        }
+        .quiz-label-mini {
+            font-size: 0.85rem;
+            font-weight: 700;
+            color: #64748b;
+            margin-top: 1rem;
+            padding-bottom: 0.4rem;
+            border-bottom: 1px dashed #e2e8f0;
+        }
+        .topic-card.faded {
+            opacity: 0.6;
+            filter: grayscale(0.8);
+            transform: scale(0.98);
+        }
+        
+        .topic-card.faded .card-btn {
+            background: #cbd5e1 !important;
+            color: #64748b !important;
+            cursor: not-allowed;
+            pointer-events: none;
+        }
+
+        .class-select-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            margin-top: 3rem;
+            animation: fadeIn 0.5s ease-out;
+        }
+
+        .class-select-card {
+            padding: 3.5rem 1.5rem;
+            border-radius: 1.5rem;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            color: white !important;
+            border: none;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+        }
+
+        .class-select-card h3 {
+            margin: 0;
+            font-size: 1.8rem;
+            color: white !important;
+            font-weight: 800;
+        }
+
+        /* Vibrant Colors for Class Cards */
+        .card-color-6 { background: linear-gradient(135deg, #2563eb, #1e40af); }
+        .card-color-7 { background: linear-gradient(135deg, #059669, #065f46); }
+        .card-color-8 { background: linear-gradient(135deg, #d97706, #92400e); }
+        .card-color-9 { background: linear-gradient(135deg, #7c3aed, #5b21b6); }
+        .card-color-10 { background: linear-gradient(135deg, #db2777, #9d174d); }
+        .card-color-1 { background: #2563eb; }
+        .card-color-2 { background: #059669; }
+        .card-color-3 { background: #d97706; }
+        .card-color-4 { background: #7c3aed; }
+        .card-color-5 { background: #db2777; }
+
+        .class-select-card:hover {
+            transform: translateY(-8px) scale(1.03);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+            filter: brightness(1.1);
+        }
+
+        .animate-fade-in { animation: fadeIn 0.5s ease; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+
+        .sticky-back {
+            position: fixed;
+            bottom: 1.5rem;
+            left: 1.2rem;
+            z-index: 1200;
+        }
+        
+        .sticky-btn {
+            width: 48px;
+            height: 48px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #ffffff;
+            color: #1e293b !important;
+            border-radius: 50%;
+            text-decoration: none;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+            border: 1px solid #e2e8f0;
+            transition: all 0.3s ease;
+        }
+        
+        .sticky-btn:hover {
+            transform: scale(1.1);
+            border-color: #1e3a8a;
+            color: #1e3a8a !important;
+        }
+
+        /* Watermark Styles */
+        .watermark {
+            position: fixed;
+            top: 30%;
+            left: 50%;
+            transform: translate(-50%, -50%) rotate(-35deg);
+            font-size: 40pt;
+            font-weight: 900;
+            color: rgba(0, 0, 0, 0.04);
+            white-space: nowrap;
+            user-select: none;
+            pointer-events: none;
+            z-index: -100;
+            display: none; /* Only for psychology for now */
+        }
+        .watermark-lower { top: 70%; }
+
+        body.psychology-view .watermark {
+            display: block;
+            z-index: 1000 !important;
+            opacity: 0.1 !important;
+        }
+    </style>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="watermark">TAMIL NANBAN</div>
+    <div class="watermark watermark-lower">TAMIL NANBAN</div>
+
+        <header class="header-standard">
+        <a href="index.html" class="brand-container">
+            <div class="brand-main">தமிழ் நண்பன்</div>
+            <div class="brand-sub">COACHING CENTER</div>
+        </a>
+    </header>
+
+    <main class="container" style="padding-top: 1rem;">
+        <div style="text-align: center; margin-bottom: 2rem;">
+            <h1 id="subjectTitle" style="color: #1e3a8a; font-size: 1.8rem; margin: 0;">பாடம் (Subject)</h1>
+        </div>
+
+        <div class="class-tabs-container">
+            <div class="class-tabs" id="classToggle">
+                <!-- Class tabs injected here -->
+            </div>
+        </div>
+
+        <div id="syllabusContainer">
+            <div style="text-align:center; padding:5rem; color:#888;">
+                பாடங்கள் லோடு ஆகின்றன...
+            </div>
+        </div>
+
+        <div style="height: 100px;"></div>
+    </main>
+
+    <div class="sticky-back">
+        <a href="index.html" class="sticky-btn">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+        </a>
+    </div>
+
+            <nav class="bottom-nav">
+        <a href="index.html" class="nav-item">
+            <span class="nav-icon">🏠</span>
+            <span>Home</span>
+        </a>
+        <a href="subject.html" class="nav-item">
+            <span class="nav-icon">📚</span>
+            <span>Course</span>
+        </a>
+        <a href="tel:6369371452" class="nav-item">
+            <span class="nav-icon">📞</span>
+            <span>Contact</span>
+        </a>
+        <a href="#" class="nav-item">
+            <span class="nav-icon">💳</span>
+            <span>Pay</span>
+        </a>
+        <a href="#" onclick="window.logout(); return false;" class="nav-item logout">
+            <span class="nav-icon">🚪</span>
+            <span>Logout</span>
+        </a>
+    </nav>
+
+    <script type="module">
+        (async () => {
+            try {
+                // Fetch version and force reload if necessary
+                const { APP_VERSION } = await import(`./js/version.js?v=${Date.now()}`);
+                const v = APP_VERSION;
+                
+                const storedVersion = localStorage.getItem('app_version');
+                if (storedVersion && storedVersion !== APP_VERSION) {
+                    localStorage.setItem('app_version', APP_VERSION);
+                    window.location.reload(true);
+                    return;
+                }
+                localStorage.setItem('app_version', APP_VERSION);
+                
+                // Fetch required data
+                const { checkAuth, waitForAuth } = await import(`./js/auth.js?v=${v}`);
+                await waitForAuth();
+                const { syllabusData } = await import(`./js/data/syllabus.js?v=${v}`);
+
+                const params = new URLSearchParams(window.location.search);
+                const subject = params.get('id') || 'tamil';
+                const paper = params.get('paper');
+                const urlClass = params.get('class');
+
+                if (subject.includes('psy')) {
+                    document.body.classList.add('psychology-view');
+                }
+
+                const titles = {
+                    'tamil': 'தமிழ் (Tamil)', 'english': 'English', 'maths': 'கணிதம் (Maths)',
+                    'science': paper === '1' ? 'சூழ்நிலையியல் (EVS)' : 'அறிவியல் (Science)',
+                    'social': paper === '1' ? 'சமூகவியல் (Social)' : 'சமூக அறிவியல் (Social)',
+                    'psychology': 'உளவியல் (Psychology)',
+                    'mocktest': 'மாதிரித்தேர்வு (Mock Test)',
+                    'revision': 'திருப்புதல் தேர்வு (Revision Test)',
+                    'standard_9_10': '9 & 10 பாடங்கள் (Standard 9 & 10)',
+                    'standard_9_10_tamil': '9 & 10 தமிழ் (TET Special)',
+                    'standard_9_10_english': '9 & 10 English (TET Special)',
+                    'standard_9_10_maths': '9 & 10 கணிதம் (TET Special)',
+                    'standard_9_10_science': '9 & 10 அறிவியல் (TET Special)',
+                    'standard_9_10_social': '9 & 10 சமூக அறிவியல் (TET Special)'
+                };
+
+                const titleEl = document.getElementById('subjectTitle');
+                const syllabusContainer = document.getElementById('syllabusContainer');
+                const classToggleEl = document.getElementById('classToggle');
+                const classToggleWrap = document.querySelector('.class-tabs-container');
+
+                let currentClass = null;
+                let allowedClasses = ['6', '7', '8'];
+
+                if (['psychology', 'mocktest', 'revision', 'standard_9_10', 'important_notes', 'standard_9_10_tamil', 'standard_9_10_english', 'standard_9_10_maths', 'standard_9_10_science', 'standard_9_10_social'].includes(subject)) allowedClasses = ['all'];
+                else if (paper === '1') {
+                    if (['tamil', 'english', 'maths'].includes(subject)) allowedClasses = ['1', '2', '3', '4', '5'];
+                    else allowedClasses = ['4', '5']; 
+                } else if (paper === 'extra') allowedClasses = ['9', '10'];
+
+                // RENDER FUNCTIONS
+                const renderLessons = () => {
+                    if (!syllabusContainer) return;
+
+                    // SPECIAL CASE: 9 & 10 Unified List (Stacking all subjects)
+                    if (subject === 'standard_9_10') {
+                        const subSubjects = [
+                            { id: 'important_notes', title: 'முக்கிய குறிப்புகள் (Important Notes)', class: 'all' }
+                        ];
+
+                        let html = '';
+                        subSubjects.forEach(sub => {
+                            const data = syllabusData[sub.id]?.[sub.class];
+                            if (data && data.length > 0) {
+                                html += `<h2 style="color:var(--primary); border-left: 6px solid var(--primary); padding-left: 1rem; margin-top: 4rem; margin-bottom: 2rem; font-size: 1.8rem; font-weight: 800;">${sub.title}</h2>`;
+                                
+                                data.forEach(term => {
+                                    html += `<div class="topics-grid" style="margin-top:1.5rem;">`;
+                                    term.units.forEach(unit => {
+                                        unit.topics.forEach(topic => {
+                                            const isReady = topic.isUpdated;
+                                            html += `
+                                            <div class="topic-card ${isReady ? '' : 'faded'}" ${isReady ? 'onclick="toggleAccordion(this)"' : ''}>
+                                                <div class="topic-title-wrapper">
+                                                    <h3 class="topic-title">
+                                                        ${topic.title}
+                                                        ${isReady ? '' : '<span style="font-size:0.7rem; color:#64748b; margin-left:8px; font-weight:400;">(விரைவில்...)</span>'}
+                                                    </h3>
+                                                    <div class="chevron">
+                                                        ${isReady ? '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>' : '🔒'}
+                                                    </div>
+                                                </div>
+                                                ${isReady ? `
+                                                <div class="btn-group">
+                                                    <a href="material.html?subject=${sub.id}&class=${sub.class}&lesson=${encodeURIComponent(topic.code || topic.title)}" class="card-btn btn-notes" onclick="event.stopPropagation()">
+                                                        பாடக்குறிப்புகள்
+                                                    </a>
+                                                    <a href="quiz.html?subject=${sub.id}&class=${sub.class}&lesson=${encodeURIComponent(topic.code || topic.title)}" class="card-btn btn-quiz" onclick="event.stopPropagation()">
+                                                        தேர்வு
+                                                    </a>
+                                                </div>` : ''}
+                                            </div>`;
+                                        });
+                                    });
+                                    html += `</div>`;
+                                });
+                            }
+                        });
+                        syllabusContainer.innerHTML = html;
+                        return;
+                    }
+
+                    const data = syllabusData[subject]?.[currentClass];
+                    
+                    if (!data || data.length === 0) {
+                        syllabusContainer.innerHTML = `
+                        <div style="text-align:center;padding:4rem;color:#64748b;">
+                            <div style="font-size:3rem;margin-bottom:1rem;">📂</div>
+                            <b style="color:var(--primary);">${currentClass === 'all' ? '' : 'வகுப்பு ' + currentClass} பாடங்கள் இன்னும் பதிவேற்றப்படவில்லை.</b><br>
+                            விரைவில் பதிவேற்றப்படும். ${currentClass === 'all' ? '' : '(Class ' + currentClass + ' data pending)'}
+                        </div>`;
+                        return;
+                    }
+
+                    let html = '';
+                    data.forEach(term => {
+                        const isSpecial = ['revision', 'mocktest'].includes(subject);
+                        if (!isSpecial) {
+                            const termHeader = term.term === 'Annual' ? 'முழு ஆண்டு (Annual)' : `பருவம் ${term.term} (Term ${term.term})`;
+                            html += `
+                            <div class="term-section">
+                                <h2 style="color:var(--primary); border-left: 6px solid var(--primary); padding-left: 1rem; margin-top: 1rem; margin-bottom: 2rem; font-size: 1.8rem; font-weight: 800;">
+                                    ${termHeader}
+                                </h2>`;
+                        }
+
+                        term.units.forEach(unit => {
+                            if (isSpecial) {
+                                html += `
+                                <div class="term-section">
+                                    <h2 style="color:var(--primary); border-left: 6px solid var(--primary); padding-left: 1rem; margin-top: 1rem; margin-bottom: 2rem; font-size: 1.8rem; font-weight: 800;">
+                                        ${unit.title}
+                                    </h2>
+                                    <div class="topics-grid">`;
+                            } else {
+                                if (unit.title) {
+                                    html += `<h3 style="color:var(--secondary); margin: 2.5rem 0 1.5rem; font-size: 1.2rem; font-weight: 700; border-bottom: 2px solid #f1f5f9; padding-bottom: 0.5rem;">${unit.title}</h3>`;
+                                }
+                                html += `<div class="topics-grid">`;
+                            }
+
+                            unit.topics.forEach(topic => {
+                                const isReady = topic.isUpdated;
+                                const quizUrl = `quiz.html?subject=${subject}&class=${currentClass}&lesson=${encodeURIComponent(topic.code || topic.title)}`;
+                                
+                                if (subject === 'mocktest') {
+                                    // Mock Test Track
+                                    const hasMultiMode = topic.quizzes && topic.quizzes.length > 0;
+                                    
+                                    if (hasMultiMode && isReady) {
+                                        // Card that expands to show Material and Test button
+                                        html += `
+                                        <div class="topic-card" onclick="toggleAccordion(this)">
+                                            <div class="topic-title-wrapper" style="padding: 0.5rem 0;">
+                                                <h3 class="topic-title" style="color:var(--primary); font-size:1.25rem;">${topic.title}</h3>
+                                                <div class="chevron">
+                                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                                                </div>
+                                            </div>
+                                            <div class="revision-quiz-container" style="margin-top: 0.5rem;">
+                                                <div class="quiz-sub-grid animate-fade-in" style="display: block; width: 100%;">
+                                                    ${topic.quizzes.map(q => `
+                                                        <div style="margin-bottom: 2rem; padding-bottom: 1rem; border-bottom: 1px solid #f1f5f9;">
+                                                            <div style="font-size: 1.1rem; font-weight: 700; color: #1e293b; margin-bottom: 0.8rem;">${q.title}</div>
+                                                            <div style="display: flex; flex-direction: column; gap: 0.8rem;">
+                                                                <a href="quiz.html?subject=${subject}&class=${currentClass}&lesson=${encodeURIComponent(q.code)}" class="card-btn btn-quiz" style="justify-content: center;" onclick="event.stopPropagation()">
+                                                                    தேர்வு
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    `).join('')}
+                                                </div>
+                                            </div>
+                                        </div>`;
+                                    } else {
+                                        // Single full-card link (for any mocktests without sub-quizzes)
+                                        html += `
+                                        <div class="topic-card ${isReady ? '' : 'faded'}" ${isReady ? `onclick="toggleAccordion(this)"` : ''}>
+                                            <div class="topic-title-wrapper" style="padding: 0.5rem 0;">
+                                                <h3 class="topic-title" style="color:var(--primary); font-size:1.25rem;">
+                                                    ${topic.title}
+                                                    ${isReady ? '' : '<span style="font-size:0.7rem; color:#64748b; margin-left:8px; font-weight:400;">(விரைவில்...)</span>'}
+                                                </h3>
+                                                <div class="chevron">
+                                                    ${isReady ? '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>' : '🔒'}
+                                                </div>
+                                            </div>
+                                            ${isReady ? `
+                                            <div class="btn-group">
+                                                <a href="${quizUrl}" class="card-btn btn-quiz" onclick="event.stopPropagation()">
+                                                    தேர்வு
+                                                </a>
+                                            </div>` : ''}
+                                        </div>`;
+                                    }
+                                } else {
+                                    // Standard / Revision: Notes and Quiz buttons
+                                    const hasMultiQuiz = topic.quizzes && topic.quizzes.length > 0;
+                                    
+                                    html += `
+                                    <div class="topic-card ${isReady ? '' : 'faded'}" ${isReady ? 'onclick="toggleAccordion(this)"' : ''}>
+                                        <div class="topic-title-wrapper">
+                                            <h3 class="topic-title">
+                                                ${topic.title}
+                                                ${isReady ? '' : '<span style="font-size:0.7rem; color:#64748b; margin-left:8px; font-weight:400;">(விரைவில்...)</span>'}
+                                            </h3>
+                                            <div class="chevron">
+                                                ${isReady ? '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>' : '🔒'}
+                                            </div>
+                                        </div>
+                                        ${isReady ? (hasMultiQuiz ? `
+                                        <div class="revision-quiz-container">
+                                            <a href="material.html?subject=${subject}&class=${currentClass}&lesson=${encodeURIComponent(topic.code || topic.title)}" class="card-btn btn-notes" style="width:100%; border-radius:12px;" onclick="event.stopPropagation()">
+                                                பாடக்குறிப்புகள் (Material)
+                                            </a>
+                                            <div class="quiz-label-mini">தேர்வுகள் (Quizzes)</div>
+                                            <div class="quiz-sub-grid">
+                                                ${topic.quizzes.map(q => `
+                                                    <a href="quiz.html?subject=${subject}&class=${currentClass}&lesson=${encodeURIComponent(q.code)}" class="card-btn btn-quiz quiz-btn-small" onclick="event.stopPropagation()">
+                                                        ${q.title}
+                                                    </a>
+                                                `).join('')}
+                                            </div>
+                                        </div>
+                                        ` : `
+                                        <div class="btn-group">
+                                            <a href="material.html?subject=${subject}&class=${currentClass}&lesson=${encodeURIComponent(topic.code || topic.title)}" class="card-btn btn-notes" onclick="event.stopPropagation()">
+                                                பாடக்குறிப்புகள்
+                                            </a>
+                                            <a href="${quizUrl}" class="card-btn btn-quiz" onclick="event.stopPropagation()">
+                                                தேர்வு
+                                            </a>
+                                        </div>`) : ''}
+                                    </div>`;
+                                }
+                            });
+                            html += `</div>`; // Close topics-grid
+                            if (isSpecial) html += `</div>`; // Close term-section
+                        });
+                        if (!isSpecial) html += `</div>`; // Close term-section
+                    });
+                    syllabusContainer.innerHTML = html;
+
+                };
+
+                const setupTabs = () => {
+                    if (!classToggleEl || ['psychology', 'mocktest', 'revision', 'standard_9_10'].includes(subject)) {
+                        if (classToggleWrap) classToggleWrap.style.display = 'none';
+                        return;
+                    }
+                    classToggleWrap.style.display = 'flex';
+                    classToggleEl.innerHTML = allowedClasses.map(c => `
+                        <button class="class-tab ${String(c) === String(currentClass) ? 'active' : ''}" data-class="${c}">வகுப்பு ${c}</button>
+                    `).join('');
+                    
+                    classToggleEl.querySelectorAll('button').forEach(btn => {
+                        btn.onclick = () => selectClass(btn.dataset.class);
+                    });
+                };
+
+                const selectClass = (c, isPop = false) => {
+                    currentClass = c;
+                    titleEl.innerText = titles[subject] || subject;
+                    setupTabs();
+                    renderLessons();
+                    
+                    if (!isPop) {
+                        const url = new URL(window.location);
+                        url.searchParams.set('class', c);
+                        window.history.pushState({ class: c }, '', url);
+                    }
+                };
+
+                window.addEventListener('popstate', (e) => {
+                    if (e.state && e.state.class) {
+                        selectClass(e.state.class, true);
+                    }
+                });
+
+                window.toggleAccordion = (card) => {
+                    const isExpanded = card.classList.contains('expanded');
+                    const isDesktop = window.innerWidth > 640;
+
+                    if (isDesktop) {
+                        const cardTop = card.offsetTop;
+                        const rowCards = Array.from(document.querySelectorAll('.topic-card')).filter(c => c.offsetTop === cardTop);
+
+                        // Close all cards from other rows
+                        document.querySelectorAll('.topic-card.expanded').forEach(c => {
+                            if (c.offsetTop !== cardTop) c.classList.remove('expanded');
+                        });
+
+                        // Toggle the whole row
+                        const shouldExpand = !isExpanded;
+                        rowCards.forEach(c => {
+                            if (shouldExpand) c.classList.add('expanded');
+                            else c.classList.remove('expanded');
+                        });
+                    } else {
+                        // Standard behavior for mobile: close others, toggle selected
+                        document.querySelectorAll('.topic-card.expanded').forEach(c => {
+                            if (c !== card) c.classList.remove('expanded');
+                        });
+                        card.classList.toggle('expanded');
+                    }
+                };
+
+                window.selectClass = selectClass; // Export to global for grid clicks
+
+                // INITIALIZATION — directly load first class, no grid screen
+                if (urlClass && allowedClasses.includes(urlClass)) {
+                    selectClass(urlClass, true); // Don't pushState for initial page load
+                } else {
+                    selectClass(allowedClasses[0], true);
+                }
+
+            } catch (err) {
+                console.error("PAGE ERROR:", err);
+                const container = document.getElementById('syllabusContainer');
+                if (container) container.innerHTML = `<div style="padding:4rem;text-align:center;color:red;">Error loading syllabus. Please refresh. <br><small>${err.message}</small></div>`;
+            }
+        })();
+    </script>
+</body>
+</html>

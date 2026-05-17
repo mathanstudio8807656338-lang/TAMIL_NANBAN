@@ -1,0 +1,125 @@
+{
+  "isBilingual": true,
+  "unit": "Unit 6",
+  "subject": "Maths",
+  "class": "6",
+  "term": 1,
+  "title": "Information Processing (தகவல் செயலாக்கம்)",
+  "summary": "தர்க்கரீதியான சிந்தனை, முறையான பட்டியலிடுதல், சுடோகு மற்றும் மாயச் சதுரங்கள் குறித்த விரிவான புரிதல்.",
+  "material": {
+    "isBilingual": true,
+    "sections": [
+      {
+        "title": "6.1 அறிமுகம் (Introduction)",
+        "type": "bilingual",
+        "en": ["Information Processing is the method of thinking logically about given information, organizing it systematically, and finding solutions. It develops students' thinking and problem-solving skills. Puzzles, games, magic squares, and Sudoku come under this."],
+        "ta": ["தகவல் செயலாக்கம் (Information Processing) என்பது கொடுக்கப்பட்ட தகவல்களை தர்க்கரீதியாகச் சிந்தித்து, முறையாக வரிசைப்படுத்தி, அவற்றிலிருந்து தீர்வுகளைக் காணும் முறையாகும். இது மாணவர்களின் சிந்தனைத் திறனையும், சிக்கல் தீர்க்கும் திறனையும் (Problem-solving skills) வளர்க்கிறது. புதிர்கள், விளையாட்டுகள், மாயச் சதுரங்கள், சுடோகு போன்றவை இதன் கீழ் வருகின்றன."]
+      },
+      {
+        "title": "6.2 முறையாகப் பட்டியலிடுதல் (Systematic Listing)",
+        "type": "bilingual",
+        "en": ["Systematic Listing is the method of finding all possibilities for performing an action without missing any and without repetition. For example, if you have 2 shirts (red, blue) and 2 pants (black, white), you can wear them in 4 different pairs (2x2 = 4). This can be easily listed using a Tree Diagram."],
+        "ta": ["ஒரு செயலைச் செய்வதற்குரிய அனைத்து சாத்தியக்கூறுகளையும் (Possibilities) எதையும் விடுபடாமல், திரும்பத் திரும்ப வராமல் முறையாகக் கண்டறியும் முறைக்கு 'முறையாகப் பட்டியலிடுதல்' என்று பெயர். எடுத்துக்காட்டாக, 2 சட்டைகள் (சிவப்பு, நீலம்) மற்றும் 2 பேன்ட்டுகள் (கருப்பு, வெள்ளை) இருந்தால், அவற்றை 4 விதமான ஜோடிகளாக அணியலாம் (2x2 = 4). மர வரைபடம் (Tree diagram) மூலம் இதனை எளிதாகப் பட்டியலிடலாம்."]
+      },
+      {
+        "title": "6.3 சுடோகு (Sudoku)",
+        "type": "bilingual",
+        "en": ["Sudoku is a logical puzzle game played with numbers. The word 'Sudoku' comes from Japanese and means 'Single number'. It usually has 9x9 grids (total 81 small boxes), divided into nine 3x3 sub-grids."],
+        "ta": ["சுடோகு என்பது எண்களைக் கொண்டு விளையாடப்படும் ஒரு தர்க்கரீதியான புதிர் விளையாட்டு ஆகும். 'சுடோகு' (Sudoku) என்ற சொல் ஜப்பானிய மொழியிலிருந்து வந்ததாகும். இதற்கு 'ஒற்றை எண்' (Single number) என்று பொருள். இது பொதுவாக 9x9 கட்டங்களைக் கொண்டிருக்கும் (மொத்தம் 81 சிறிய கட்டங்கள்). இது 3x3 அளவுள்ள 9 சிறிய உள்-சதுரங்களாகப் பிரிக்கப்பட்டிருக்கும்."]
+      },
+      {
+        "title": "6.4 சுடோகு விளையாட்டின் விதிகள் (Rules of Sudoku)",
+        "type": "bilingual",
+        "en": [
+          "1. In every horizontal row, numbers 1 to 9 must appear exactly once.",
+          "2. In every vertical column, numbers 1 to 9 must appear exactly once.",
+          "3. In every 3x3 sub-grid (Block), numbers 1 to 9 must appear exactly once.",
+          "Numbers should not repeat anywhere."
+        ],
+        "ta": [
+          "1. ஒவ்வொரு கிடைமட்ட வரிசையிலும் (Row) 1 முதல் 9 வரையிலான எண்கள் ஒரு முறை மட்டுமே வர வேண்டும்.",
+          "2. ஒவ்வொரு செங்குத்து வரிசையிலும் (Column) 1 முதல் 9 வரையிலான எண்கள் ஒரு முறை மட்டுமே வர வேண்டும்.",
+          "3. 3x3 அளவுள்ள ஒவ்வொரு சிறிய உள்-சதுரத்திலும் (Grid/Block) 1 முதல் 9 வரையிலான எண்கள் ஒரு முறை மட்டுமே வர வேண்டும். எண்கள் எங்கும் மீண்டும் வரக்கூடாது (No repetition)."
+        ]
+      },
+      {
+        "title": "6.5 மாயச் சதுரங்கள் (Magic Squares)",
+        "type": "bilingual",
+        "en": ["A Magic Square is a square grid where the sum of numbers in any direction (horizontal, vertical, or diagonal) is the same. That constant sum is called the 'Magic Constant' or 'Magic Sum'. 3x3 is the smallest magic square."],
+        "ta": ["எண்களை ஒரு சதுரக் கட்டத்தில் அமைக்கும்போது, எந்தப் பக்கம் (கிடைமட்ட வரிசை, செங்குத்து வரிசை, மூலைவிட்டம்) கூட்டினாலும் ஒரே கூடுதல் கிடைக்குமானால், அது 'மாயச் சதுரம்' எனப்படும். அந்தக் குறிப்பிட்ட கூடுதல் மதிப்பு 'மாய எண்' (Magic Constant அல்லது Magic Sum) எனப்படும். 3x3 என்பது மிகச் சிறிய மாயச் சதுரம் ஆகும்."]
+      },
+      {
+        "title": "6.6 3x3 மாயச் சதுரம் உருவாக்குதல் (Creating a 3x3 Magic Square)",
+        "type": "bilingual",
+        "en": [
+          "A 3x3 magic square can be created using numbers 1 to 9. Its magic number is 15.",
+          "Procedure to find the magic number: The average of the given 9 numbers becomes its center number.",
+          "E.g., Average of numbers 1 to 9 is 5. So, 5 goes in the center box.",
+          "Magic number = Center number x 3 (5 x 3 = 15)."
+        ],
+        "ta": [
+          "1 முதல் 9 வரையிலான எண்களைக் கொண்டு 3x3 மாயச் சதுரத்தை உருவாக்கலாம். இதன் மாய எண் 15 ஆகும்.",
+          "வழிமுறை: கொடுக்கப்பட்ட 9 எண்களின் சராசரியே அதன் மைய எண்ணாக அமையும்.",
+          "எ.கா: 1 முதல் 9 வரை உள்ள எண்களின் சராசரி 5. எனவே மையக் கட்டத்தில் 5 வரும்.",
+          "மைய எண்ணை 3-ஆல் பெருக்கினால் மாய எண் கிடைக்கும் (5 x 3 = 15)."
+        ]
+      },
+      {
+        "title": "6.7 மாயச் சதுரத்தின் பண்புகள் (Properties of Magic Squares)",
+        "type": "bilingual",
+        "en": [
+          "1. A 3x3 magic square can be created using any nine consecutive numbers (e.g., 2 to 10).",
+          "2. If every number in a magic square is added, subtracted, multiplied, or divided by the same number, the resulting square is also a magic square.",
+          "3. In a 1 to 9 magic square, even numbers (2, 4, 6, 8) always occupy the four corners."
+        ],
+        "ta": [
+          "1. தொடர்ச்சியான எந்த 9 எண்களைக் கொண்டும் ஒரு 3x3 மாயச் சதுரத்தை உருவாக்க முடியும் (எ.கா: 2 முதல் 10 வரை).",
+          "2. ஒரு மாயச் சதுரத்தின் ஒவ்வொரு எண்ணுடனும் ஒரே எண்ணைக் கூட்டினாலோ, கழித்தாலோ, பெருக்கினாலோ அல்லது வகுத்தாலோ கிடைக்கும் புதிய சதுரமும் ஒரு மாயச் சதுரமாகவே இருக்கும்.",
+          "3. 1 முதல் 9 வரையிலான மாயச் சதுரத்தில், இரட்டைப்படை எண்கள் (2,4,6,8) எப்போதும் நான்கு மூலைகளிலும் அமையும்."
+        ]
+      },
+      {
+        "title": "6.8 நினைவில் கொள்க (Key Notes)",
+        "type": "bilingual",
+        "en": [
+          "1. The center number of a 3x3 magic square is always the average of the 9 numbers.",
+          "2. Magic Number = Center Number x 3 (for 3x3 squares only).",
+          "3. Sudoku was invented by Howard Garns, an American, but became famous in Japan.",
+          "4. Systematic arrangement of numbers is called 'Combinations'."
+        ],
+        "ta": [
+          "1. 3x3 மாயச் சதுரத்தின் மைய எண் எப்போதும் கொடுக்கப்பட்ட 9 எண்களின் சராசரி ஆகும்.",
+          "2. மாய எண் = மைய எண் x 3 (3x3 சதுரத்திற்கு மட்டும்).",
+          "3. சுடோகுவை முதலில் கண்டுபிடித்தவர் அமெரிக்கரான ஹோவர்ட் கார்ன்ஸ் (Howard Garns) ஆவார். ஆனால் இது ஜப்பானில் தான் சுடோகு என்ற பெயரில் பிரபலமடைந்தது.",
+          "4. எண்களை முறைப்படுத்தி எழுதுவது 'சேர்ப்புகள்' (Combinations) எனப்படும்."
+        ]
+      },
+      {
+        "title": "6.9 மேலும் அறிந்து கொள்வோம்: சீனிவாச இராமானுஜன் (More to Know: Ramanujan)",
+        "type": "bilingual",
+        "en": ["Indian mathematician Srinivasa Ramanujan created a very famous 4x4 magic square using his birth date (22-12-1887) as the first row. Its magic number is 139. In addition to rows and columns, various combinations like four corners or four middle numbers also sum to 139."],
+        "ta": ["இந்திய கணித மேதை சீனிவாச இராமானுஜன் உருவாக்கிய மாயச் சதுரம் மிகவும் பிரசித்தி பெற்றது. அவர் தனது பிறந்த தேதியை (22-12-1887) முதல் வரிசையாகக் கொண்டு ஒரு 4x4 மாயச் சதுரத்தை உருவாக்கினார். அதன் மாய எண் 139 ஆகும். இது மூலைவிட்டங்கள் மட்டுமின்றி, நான்கு மூலை எண்கள், நடுவில் உள்ள நான்கு எண்கள் எனப் பல வகையிலும் கூட்டினால் 139 என்ற மாய எண்ணையே தரும்."]
+      },
+      {
+        "title": "6.10 புத்தக மதிப்பீடு (Book Back Highlights)",
+        "type": "bilingual",
+        "en": [
+          "1. Meaning of 'Sudoku'? Ans: Single number.",
+          "2. Magic number of 1-9 3x3 magic square? Ans: 15.",
+          "3. Ways to wear 3 shirts and 2 pants? Ans: 6 ways.",
+          "4. Magic number of Ramanujan's 4x4 magic square? Ans: 139."
+        ],
+        "ta": [
+          "1. 'சுடோகு' என்ற சொல்லின் பொருள் என்ன? விடை: ஒற்றை எண்.",
+          "2. 3x3 மாயச் சதுரத்தில் 1 முதல் 9 வரை எண்கள் பயன்படுத்தப்பட்டால் அதன் மாய எண்? விடை: 15.",
+          "3. உன்னிடம் 3 சட்டைகள் மற்றும் 2 பேன்ட்டுகள் இருந்தால் எத்தனை வழிகளில் அணியலாம்? விடை: 6 வழிகள்.",
+          "4. சீனிவாச இராமானுஜனின் 4x4 மாயச் சதுரத்தின் மாய எண்? விடை: 139."
+        ]
+      }
+    ]
+  },
+  "quiz": {
+    "questions": []
+  },
+  "credits": "A1 ONLINE COACHING CENTER"
+}

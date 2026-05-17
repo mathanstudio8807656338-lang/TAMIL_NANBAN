@@ -1,0 +1,584 @@
+{
+  "subject": "English",
+  "class": "8",
+  "term": "Annual",
+  "title": "Prose: Cyber Safety",
+  "summary": "",
+  "sections": [
+    {
+      "title": "1. Prose: Cyber Safety (இணையப் பாதுகாப்பு) - Summary",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● [[Core Theme]]",
+            "answer": "Protecting oneself from online threats and using the internet responsibly. || இணையத்தில் எப்படிப் பாதுகாப்பாகவும்ப் பொறுப்போடும்ச் செயல்படுவது என்பது பற்றியப் பாடம்."
+          },
+          {
+            "question": "● [[Naveen's Story]]",
+            "answer": "Naveen's mother Gladis teaches him about cyber safety. He learns not to share personal photos or details with strangers. She explains 'Cyber Predators' and 'Cyber Bullying'. || நவீனின் அம்மா கிளாடிஸ் அவருக்கு இணையப் பாதுகாப்பைக் கற்பிக்கிறார். முன்பின் தெரியாதவர்களிடம் ரகசியங்களைப் பகிரக் கூடாது என்று அறிவுறுத்துகிறார். 'இணைய வேட்டைக்காரர்கள்' மற்றும் 'இணைய மிரட்டல்கள்' பற்றி அவர் விவரிக்கிறார்."
+          },
+          {
+            "question": "● [[Digital Footprint]]",
+            "answer": "Everything we do online leaves a mark that is permanent. We should be careful about what we post and search. || நாம் இணையத்தில் செய்யும் ஒவ்வொருச் செயலும் நிரந்தரமானதொருத் தடம் பதிக்கும். எனவேப் பதிவிடும்போது மிகவும்க் கவனமாக இருக்க வேண்டும்."
+          }
+        ]
+      }
+    },
+    {
+      "title": "2. Glossary: Digital Safety Terms (Exam Focus - Synonyms)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● [[Cyber]] / இணையம் சார்ந்த",
+            "answer": "Relating to or characteristic of the culture of computers, information technology, and virtual reality."
+          },
+          {
+            "question": "● [[Predator]] / வேட்டைக்காரர் / சுரண்டி",
+            "answer": "A person who ruthlessly exploits others for personal gain (especially online)."
+          },
+          {
+            "question": "● [[Bullying]] / மிரட்டுதல் / ஏழ்மைப்படுத்துதல்",
+            "answer": "Seeking to harm, intimidate, or coerce (someone perceived as vulnerable)."
+          },
+          {
+            "question": "● [[Footprint]] / டிஜிட்டல் தடம்",
+            "answer": "The information about a person that exists on the internet as a result of their online activity."
+          },
+          {
+            "question": "● [[Addiction]] / அடிமையாதல்",
+            "answer": "The fact or condition of being addicted to a particular substance or activity (social media/gaming)."
+          },
+          {
+            "question": "● [[Stranger]]",
+            "answer": "A person whom one does not know or with whom one is not familiar. (அந்நியர்)."
+          }
+        ]
+      }
+    },
+    {
+      "title": "3. Grammars: Conditionals - If-clauses (நிபந்தனை வாக்கியங்கள்)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● [[Type 0]] (General Truth)",
+            "answer": "If you heat ice, it melts. || ஐஸை வெப்பப்படுத்தினால் அது உருகும்."
+          },
+          {
+            "question": "● [[Type 1]] (Possible Plan)",
+            "answer": "If you study well, you will pass. || நன்றாகப் படித்தால் வெற்றி பெறுவாய்."
+          },
+          {
+            "question": "● [[Type 2]] (Imaginary)",
+            "answer": "If I were a bird, I would fly. || நான் பறவையாக இருந்தால்ப் பறப்பேன்."
+          }
+        ]
+      }
+    },
+    {
+      "title": "4. Rules for Online Safety (பாதுகாப்பு விதிகள்)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● Passwords",
+            "answer": "Use strong passwords with numbers and symbols. || கடினமானக் கடவுச்சொற்களைப் பயன்படுத்தவும்."
+          },
+          {
+            "question": "● Strangers",
+            "answer": "Do not accept friend requests from unknown people. || முகம் தெரியாதவர்களின்த் தோழமை அழைப்பைத் தவிர்க்கவும்."
+          },
+          {
+            "question": "● Privacy Settings",
+            "answer": "Keep your personal information private. || உங்கள்த் தனிப்பட்டத் தகவல்களைத் ரகசியமாக வைக்கவும்."
+          }
+        ]
+      }
+    },
+    {
+      "title": "5. Risks of Excessive Use (அதிகப்பயன்பாட்டின் ஆபத்துகள்)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● Physical Health",
+            "answer": "Eye strain, obesity, and lack of sleep. || கண் பாதிப்பு, உடல் பருமன் மற்றும் தூக்கமின்மை."
+          },
+          {
+            "question": "● Mental Health",
+            "answer": "Anxiety and social isolation. || மன அழுத்தம் மற்றும் தனிமைப்படுத்தப்படுதல்."
+          }
+        ]
+      }
+    },
+    {
+      "title": "6. Previous Year Questions & Competitive Focus",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● What is the term for a person who harms others online?",
+            "answer": "[[Cyberbully]]. || இணைய மிரட்டற்காரர்."
+          },
+          {
+            "question": "● 'If you play fire, you ______ burn'. (Conditional 1)",
+            "answer": "[[Will]]. || 'வில்' (Will)."
+          },
+          {
+            "question": "● What is a 'Digital Footprint'?",
+            "answer": "A permanent record of [[online activity]]. || இணையச் செயல்பாடுகளின்த் தடம்."
+          },
+          {
+            "question": "● Expand ISP in cyber terms?",
+            "answer": "[[Internet Service Provider]]. || இணையச் சேவை வழங்குபவர்."
+          }
+        ]
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "q": "What is 'Cyber Safety'? || 'சைபர் சேஃப்டி' (Cyber Safety) என்பது என்ன?",
+      "options": [
+        "Buying a fast computer",
+        "Using the internet securely and responsibly (இணையத்தை பாதுகாப்போடும்ப் பொறுப்போடும்ப் பயன்படுத்துதல்)",
+        "Playing games all day",
+        "Breaking a phone"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What does Naveen's mother warn him about sharing online? || இணையத்தில் எதனைப் பகிரக் கூடாது என நவீனின் அம்மா எச்சரித்தார்?",
+      "options": [
+        "Photos and personal details (புகைப்படங்கள் மற்றும் தனிப்பட்டத் தகவல்கள்)",
+        "School homework",
+        "English songs",
+        "Weather news"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Who is a 'Cyber Predator'? || 'சைபர் பிரிடேட்டர்' (Cyber Predator) என்பவர் யார்?",
+      "options": [
+        "An online animal",
+        "A person who exploits others on the internet (இணையத்தில் மற்றவரைத் சுரண்டி ஏமாற்றுபவர்)",
+        "A fast typist",
+        "A software developer"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What happens to your information once you post it online? || இணையத்தில் ஒருத் தகவலைப் பதிவிட்டால் என்னவாகும்?",
+      "options": [
+        "It disappears in an hour",
+        "It stays permanently (அது நிரந்தரமாக அங்கேயேத் தங்கும்)",
+        "It turns into a gift",
+        "Nobody sees it"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: 'Bullying' someone through digital devices is? || இணையம் வாயிலாக ஒருவரை மிரட்டுவது என்பது?",
+      "options": [
+        "Gaming",
+        "Cyberbullying (சைபர் புல்லியிங் / இணைய மிரட்டல்)",
+        "Politeness",
+        "Coding"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What is a 'Strong Password'? || 'வலிமையானக் கடவுச்சொல்' என்பது எது?",
+      "options": [
+        "12345",
+        "Your mobile number",
+        "Combination of letters, numbers, and symbols (எழுத்து, எண் மற்றும் குறியீட்டுத் தொகுப்பு)",
+        "Your name"
+      ],
+      "a": 2,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of the word 'Addiction': || 'Addiction' என்பதன் பொருள்?",
+      "options": [
+        "Being free",
+        "Being dependent on something excessively (அளவுக்கு மிஞ்சிய ஈடுபாடு / அடிமையாதல்)",
+        "Hating games",
+        "Healthy diet"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: 'If you work hard, you ______ succeed'. || இதற்குரியச் சரியான வினைச்சொல் எது?",
+      "options": [
+        "Will (வில்)",
+        "Could",
+        "Had",
+        "None"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "What physical problem can excessive internet usage cause? || அதிக இணையப் பயன்பாட்டால் ஏற்படும் உடல் உபாதை எது?",
+      "options": [
+        "Strong muscles",
+        "Eye strain and headaches (கண் எரிச்சல் மற்றும் தலைவலி)",
+        "Better hearing",
+        "Fast running"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Gladis is the name of Naveen's ______? || கிளாடிஸ் என்பவர் நவீனின் ______?",
+      "options": [
+        "System",
+        "Mother (தாய் / அம்மா)",
+        "Friend",
+        "Teacher"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of 'Digital Footprint': || 'டிஜிட்டல் ஃபுட்பிரிண்ட்' என்பது எதனைச் சுட்டுகிறது?",
+      "options": [
+        "A photo of a feet",
+        "Record of online activities (இணையத்தில் நாம் செய்யும்ச் செயல்களின்த் தொகுப்பு)",
+        "A computer problem",
+        "Footsteps in sand"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify the Type 0 Conditional: || 'டைப் 0' - வகை நிபந்தனை வாக்கியம் எது?",
+      "options": [
+        "If it rains, the grass gets wet (மழை பெய்தால் புல் நனையும் - பொது உண்மை)",
+        "If I win, I will dance",
+        "If I were a king, I would help",
+        "none"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "What should you do if someone bullies you online? || இணையத்தில் யாராவது உங்களை மிரட்டினால் என்னச் செய்ய வேண்டும்?",
+      "options": [
+        "Bully them back",
+        "Inform parents or a teacher (பெற்றோர் அல்லது ஆசிரியரிடம்த் தெரிவிக்கவும்)",
+        "Cry alone",
+        "Delete the computer"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Why shouldn't we accept friend requests from strangers? || முன்பின் தெரியாதவர்களின்த் தோழமை அழைப்பை ஏன் ஏற்கக் கூடாது?",
+      "options": [
+        "Because they might be predators/harmful (அவர்கள் ஆபத்தானவர்களாக இருக்கலாம் என்பதால்)",
+        "They might be too rich",
+        "They are boring",
+        "They speak well"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of 'Obesity' in the context of lesson: || இப்பாடச் சூழலில் 'இருக்கை' (Obesity) என்பது எதனைக் குறிக்கும்?",
+      "options": [
+        "Being very thin",
+        "Being overweight due to lack of activity (உடல் பருமன்)",
+        "Height",
+        "Intelligence"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: 'If I won the lottery, I ______ buy a car'. || இது எவ்வகை வாக்கியம்?",
+      "options": [
+        "Will",
+        "Would (வூட் / வுட்)",
+        "Can",
+        "None"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What is the expansion of 'URL'? || URL - என்பதன் விரிவாக்கம்?",
+      "options": [
+        "Uniform Resource Locator (யுனிஃபார்ம் ரிசோர்ஸ் லோகேட்டர்)",
+        "Universal Road List",
+        "User Real Link",
+        "Under Radio Line"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "What helps in keeping social media accounts safe? || சமூக வலைதளப் பக்கங்களைப் பாதுகாப்பாக வைத்திருக்க உதவுவது எது?",
+      "options": [
+        "Open profile",
+        "Privacy Settings (தனியுரிமை அமைப்புகள்)",
+        "Sharing password",
+        "Public wifi"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of 'Intimidate': || 'Intimidate' (இன்டிமிடேட்) - என்பதன் பொருள்?",
+      "options": [
+        "Love someone",
+        "Frighten or overawe someone (அச்சுறுத்தல் / பயமுறுத்தல்)",
+        "Help someone",
+        "Play game"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: \"If she ______ faster, she would have won\". (Conditional 3 - Type 3). || விடுபட்ட இடத்தில் என்ன வரும்?",
+      "options": [
+        "run",
+        "ran",
+        "had run (ஹேடு ரன்)",
+        "would run"
+      ],
+      "a": 2,
+      "ex": ""
+    },
+    {
+      "q": "A small program that harms your computer is a ______? || கணினியைப் பாதிக்கும்ச் சிறு மென்பொருள் எது?",
+      "options": [
+        "Game",
+        "Virus (வைரஸ்)",
+        "Music",
+        "Picture"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What should Naveen do before visiting a new website? || ஒரு புதிய இணையதளம் செல்வதற்கு முன் நவீன் என்னச் செய்ய வேண்டும்?",
+      "options": [
+        "Ask permission from parents (பெற்றோரிடம் அனுமதிப் பெறுதல்)",
+        "Visit quickly",
+        "Invite friends",
+        "None"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Synonym of 'Caution': || 'Caution' (காஷன்) என்பதன் ஒத்தப்பொருள்?",
+      "options": [
+        "Danger",
+        "Alertness / Carefulness (எச்சரிக்கை / கவனம்)",
+        "Fear",
+        "Speed"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "If you are online for 5 hours, you might have 'Internet ______'. || 5 மணிநேரம் ஆன்லைனில் இருந்தால் அது ______.",
+      "options": [
+        "Power",
+        "Addiction (அடிமையாதல்)",
+        "Knowledge",
+        "Money"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Which symbol is often used to make a password strong? || கடவுச்சொல்லை வலிமையாக்கப் பயன்படும்த் குறியீடு எது?",
+      "options": [
+        ".",
+        "# or @ (ஸ்பெஷல் கேரக்டர்ஸ்)",
+        "?",
+        "None"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: 'If clause' part of: [[If you study]], [[you will pass]]. || இதில் நிபந்தனைப் பகுதி எது?",
+      "options": [
+        "If you study (நீ படித்தால்)",
+        "You will pass",
+        "Study",
+        "None"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "What is 'Anxiety'? || 'Anxiety' (ஆன்ஸைட்டி) - என்பது என்ன?",
+      "options": [
+        "Joy",
+        "Nervousness or worry (கவலை / பதற்றம்)",
+        "Strength",
+        "Peace"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What does 'Cyber' refer to? || 'சைபர்' (Cyber) என்பது எதனைக் குறிக்கும்?",
+      "options": [
+        "Nature",
+        "Computers and Internet (கணினி மற்றும் இணையம் சார்ந்த)",
+        "Cars",
+        "Cooking"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: \"If I were you, I would take a break.\" This is? || இது எவ்வகை வாக்கியம்?",
+      "options": [
+        "Type 1",
+        "Type 2 (கற்பனை / அறிவுரை)",
+        "Type 0",
+        "Type 3"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "The lessons of cyber safety apply to? || இணையப் பாதுகாப்பு விதிகள் யாருக்குப் பொருந்தும்?",
+      "options": [
+        "Only kids",
+        "Only adults",
+        "Everyone using the internet (இணையம் பயன்படுத்தும்க் ஒவ்வொருவருக்கும்)",
+        "None"
+      ],
+      "a": 2,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of 'Exasperated': || 'Exasperated' (எக்சாஸ்பரேட்டட்) - என்பதன் பொருள்?",
+      "options": [
+        "Happy",
+        "Irritated or frustrated intensely (மிகுந்த எரிச்சல் அல்லது விரக்தி)",
+        "Calm",
+        "Slow"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What light should be on for kids browsing? || குழந்தைகள் இணையம் பயன்படுத்தும்போது எத்தகையச் சூழல் இருக்க வேண்டும்?",
+      "options": [
+        "Darkness",
+        "Bright open room (வெளிச்சமுள்ள அறையில்)",
+        "Hidden corner",
+        "Locked room"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Choose the correctly spelled word. || சரியான எழுத்துப்பிழையற்றச் சொல் எது?",
+      "options": [
+        "Cyber (சைபர்)",
+        " Siber",
+        "Cybar",
+        "Ciber"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Identify the past participle (V3) of 'Run'. || 'Run' என்பதன் வினையெச்ச வடிவம் எது?",
+      "options": [
+        "Run (ரன்)",
+        "Ran",
+        "Running",
+        "Runs"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Expansion of 'VPN' for safety? || VPN - என்பதன் விரிவாக்கம்?",
+      "options": [
+        "Virtual Private Network (விர்ச்சுவல் பிரைவேட் நெட்வொர்க்)",
+        "Very Poor Name",
+        "Victory Power Night",
+        "User Virtual Link"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Conclusion: Cyber safety helps to build a ______ environment. || முடிவு: இணையப் பாதுகாப்பு ஒரு ______ சூழலை உருவாக்கும்.",
+      "options": [
+        "Dangerous",
+        "Safe and positive (பாதுகாப்பான மற்றும் நேர்மறையான)",
+        "Confusing",
+        "Broken"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Correct sentence: 'If you ______ red and blue, you get purple'. || இதில் விடுபட்டச் சொல்?",
+      "options": [
+        "mix (மிக்ஸ் / கலந்தால்)",
+        "mixed",
+        "had mixed",
+        "will mix"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Final Tip: Never share your ______ online. || இறுதித் தகவல்: எதனை ஒருபோதும் இணையத்தில்த் தராதீர்கள்?",
+      "options": [
+        "OTP / Passwords (கடவுச்சொற்கள்)",
+        "Name only",
+        "Email news",
+        "Songs"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of 'Vigilant': || 'Vigilant' (விஜிலன்ட்) என்பதன் பொருள்?",
+      "options": [
+        "Lazy",
+        "Watchful and alert (விழிப்புடன் இருத்தல்)",
+        "Sleepy",
+        "Fast"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: Type 1 conditional usually contains? || 'டைப் 1' வாக்கியத்தில் பயின்று வருவது?",
+      "options": [
+        "Would",
+        "Will / Can / May (வில் / கேன் / மே)",
+        "Had",
+        "None"
+      ],
+      "a": 1,
+      "ex": ""
+    }
+  ],
+  "credits": "தொகுப்பு: A1 ONLINE COACHING CENTER"
+}

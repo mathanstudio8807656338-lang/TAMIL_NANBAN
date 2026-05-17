@@ -1,0 +1,588 @@
+{
+  "subject": "English",
+  "class": "8",
+  "term": "Annual",
+  "title": "Prose: Sir Isaac Newton - The Ingenious Scientist",
+  "summary": "",
+  "sections": [
+    {
+      "title": "1. Prose: Sir Isaac Newton (சர் ஐசக் நியூட்டன்) - Summary",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● [[Core Theme]]",
+            "answer": "Curiosity and scientific discovery through observation and hard work. || அறிவியல் தேடல் மற்றும் அதீத உழைப்பின் மூலம் கிடைத்தக் கண்டுபிடிப்புகள்."
+          },
+          {
+            "question": "● [[Early Life]]",
+            "answer": "Born in Woolsthorpe, England (1642). Raised by his grandmother. He was talented in making mechanical models of all kinds. || இங்கிலாந்தில் பிறந்த இவர், சிறுவயதிலேயே இயந்திரங்கள் மற்றும் மாதிரிகள் தயாரிப்பதில் சிறந்து விளங்கினார்."
+          },
+          {
+            "question": "● [[Inventions]]",
+            "answer": "Made a wooden clock, a water-clock, and a windmill. He even made a model of a kite with a paper lantern to show a 'star' in the night. || மரக் கடிகாரம், நீர் கடிகாரம் மற்றும் காற்றாடி மாதிரிகளைத் தயாரித்தார். காகித விளக்குள்ளப் பட்டத்தை உருவாக்கி 'விண்மீன்' போலக் காட்டினார்."
+          },
+          {
+            "question": "● [[The Apple Incident]]",
+            "answer": "Observed an apple falling from a tree, which led to the discovery of the 'Law of Universal Gravitation'. || ஆப்பிள் விழுவதைக் கண்டு 'புவிஈர்ப்பு விசையைக்' கண்டறிந்தார்."
+          }
+        ]
+      }
+    },
+    {
+      "title": "2. Glossary: Innovation Terms (Exam Focus - Synonyms)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● [[Ingenious]] / அறிவார்ந்த / திறமையான",
+            "answer": "Clever, original, and inventive."
+          },
+          {
+            "question": "● [[Apprentice]] / பயிலுநர்",
+            "answer": "A person who is learning a trade from a skilled employer."
+          },
+          {
+            "question": "● [[Curiosity]] / ஆர்வம் / தேடல்",
+            "answer": "A strong desire to know or learn something."
+          },
+          {
+            "question": "● [[Gazing]] / உற்றுப் பார்த்தல்",
+            "answer": "Looking steadily and intently, especially in admiration."
+          },
+          {
+            "question": "● [[Reflecting]] / பிரதிபலித்தல்",
+            "answer": "Thinking deeply or carefully about something."
+          },
+          {
+            "question": "● [[Philosopher]]",
+            "answer": "A person engaged or learned in philosophy. (தத்துவஞானி)."
+          }
+        ]
+      }
+    },
+    {
+      "title": "3. Grammars: Verbs & Tenses (வினைச்சொற்கள்)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● [[Regular Verbs]]",
+            "answer": "Watch -> Watched; Invent -> Invented. || '-ed' என முடியும் வினைச்சொற்கள்."
+          },
+          {
+            "question": "● [[Irregular Verbs]]",
+            "answer": "Build -> Built; See -> Saw; Think -> Thought. || வினைச்சொற்கள் மாறும் முறை."
+          }
+        ]
+      }
+    },
+    {
+      "title": "4. Great Discoveries (முக்கியக் கண்டுபிடிப்புகள்)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● [[Gravitation]]",
+            "answer": "Force that pulls objects toward the earth. || புவிஈர்ப்பு விசை."
+          },
+          {
+            "question": "● [[Prism & Light]]",
+            "answer": "Showed that white light is made of seven colors. || முப்பட்டகம் மூலம் ஒளி நிறங்களைப் பிரித்தார்."
+          },
+          {
+            "question": "● [[Reflecting Telescope]]",
+            "answer": "A telescope that uses mirrors to look at stars. || தொலைநோக்கி."
+          }
+        ]
+      }
+    },
+    {
+      "title": "5. Newton's Mechanical Models (இயந்திர மாதிரிகள்)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● Wooden Clock",
+            "answer": "Kept time with the help of a drop of water. || ஒரு துளி நீரால் ஓடும் கடிகாரம்."
+          },
+          {
+            "question": "● Windmill",
+            "answer": "Placed a mouse inside to act as a miller. || எலியைப் பொடியாகப் பயன்படுத்தியக் காற்றாடி."
+          },
+          {
+            "question": "● Lantern Kite",
+            "answer": "Sent it up at night to surprise neighbors. || இரவு நேரப் பட்டம்."
+          }
+        ]
+      }
+    },
+    {
+      "title": "6. Previous Year Questions & Competitive Focus",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● Where was Isaac Newton born?",
+            "answer": "[[Woolsthorpe]], England. || வூல்ஸ்தார்ப், இங்கிலாந்து."
+          },
+          {
+            "question": "● Name the famous book written by Newton.",
+            "answer": "[[Principia]]. || பிரின்சிப்பியா."
+          },
+          {
+            "question": "● In which year was Isaac Newton born?",
+            "answer": "[[1642]]. || 1642-ல்."
+          },
+          {
+            "question": "● What is the past tense of 'Find'?",
+            "answer": "[[Found]]."
+          }
+        ]
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Where was Isaac Newton born? || ஐசக் நியூட்டன் எங்கேப் பிறந்தார்?",
+      "options": [
+        "London",
+        "Woolsthorpe, England (வூல்ஸ்தார்ப், இங்கிலாந்து)",
+        "Paris",
+        "New York"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Who took care of Isaac in his childhood? || நியூட்டனின் சிறுவயதில் அவரைப் பராமரித்தது யார்?",
+      "options": [
+        "His Father",
+        "His Mother",
+        "His Grandmother (அவரதுப் பாட்டி)",
+        "His Uncle"
+      ],
+      "a": 2,
+      "ex": ""
+    },
+    {
+      "q": "What did Isaac create to tell the time correctly? || நேரத்தைச் சரியாக அறிய நியூட்டன் எதனை உருவாக்கினார்?",
+      "options": [
+        "Digital watch",
+        "Wooden water-clock (மரத்திலான நீர் கடிகாரம்)",
+        "Hourglass",
+        "Sun dial only"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What animal did Newton put inside his model windmill? || நியூட்டன் தனதுக் காற்றாடி மாதிரியில் எந்த விலங்கை வைத்தார்?",
+      "options": [
+        "A cat",
+        "A mouse (ஒரு எலி)",
+        "A bird",
+        "A frog"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What discovery did Newton make by watching an apple fall? || ஆப்பிள் விழுவதைப் பார்த்து நியூட்டன் எதனைக் கண்டறிந்தார்?",
+      "options": [
+        "Law of Motion",
+        "Law of Gravitation (புவிஈர்ப்பு விசை)",
+        "Electricity",
+        "Light"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Sir Isaac Newton was also a famous ______? || சர் ஐசக் நியூட்டன் ஒருப் புகழ்பெற்ற ______ ஆகவும் இருந்தார்?",
+      "options": [
+        "Singer",
+        "Philosopher and Scientist (தத்துவஞானி மற்றும் அறிவியல் அறிஞர்)",
+        "Cook",
+        "Captain"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of the word 'Ingenious'? || 'Ingenious' என்பதன் பொருள்?",
+      "options": [
+        "Lazy",
+        "Clever and inventive (புத்திசாலித்தனமான மற்றும் ஆக்கப்பூர்வமான)",
+        "Fearful",
+        "Old"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What is the name of Newton's book published in 1687? || 1687-ல் வெளியான நியூட்டனின் புத்தகத்தின் பெயர் என்ன?",
+      "options": [
+        "Principia (பிரின்சிப்பியா)",
+        "Jungle Book",
+        "Optics",
+        "Dialogues"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "What did Newton find out about light using a prism? || முப்பட்டகத்தைப் பயன்படுத்தி ஒளி பற்றி நியூட்டன் என்னத் தெரிவித்தார்?",
+      "options": [
+        "Light is black",
+        "White light has seven colors (வெள்ளொளியில் ஏழு நிறங்கள் உள்ளன)",
+        "Light only has one color",
+        "Light doesn't travel"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Newton's neighbors thought that he was? || நியூட்டனின் அண்டை வீட்டார்கள் அவரைப் பற்றி என்ன நினைத்தார்கள்?",
+      "options": [
+        "A lazy boy",
+        "A child prodigy / extremely clever (மிகவும் அறிவாளிச் சிறுவன்)",
+        "A bad boy",
+        "Not normal"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: An 'Apprentice' is someone who? || 'பயிலுநர்' (Apprentice) என்பது யாரைக் குறிக்கும்?",
+      "options": [
+        "Teaches others",
+        "Learns a trade from a master (ஒரு குருவிடம் தொழில் கற்பவர்)",
+        "Runs away",
+        "Is old"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What did Isaac's neighbors think of his lantern kite? || இரவு நேரப் பட்டத்தைப் பார்த்து மக்கள் என்ன நினைத்தனர்?",
+      "options": [
+        "It was a bird",
+        "It was a shooting star/Comet (அது ஒரு விண்மீன் அல்லது வால்மீன்)",
+        "It was a ghost",
+        "It was a plane"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "In which university did Newton study? || நியூட்டன் எந்தப் பல்கலைக்கழகத்தில் பயின்றார்?",
+      "options": [
+        "Oxford",
+        "Cambridge University (கேம்பிரிட்ஜ் பல்கலைக்கழகம்)",
+        "Harvard",
+        "Delhi"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What helped Isaac to understand the power of wind? || காற்றின் வேகத்தைப் புரிந்துகொள்ள ஐசக் எதனைப் பயன்படுத்தினார்?",
+      "options": [
+        "His hands",
+        "A model windmill (ஒரு காற்றாடி மாதிரி)",
+        "Running",
+        "Flying kite"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What is the past tense of 'Think'? || 'Think' என்பதன் கடந்தக் காலம்?",
+      "options": [
+        "Thinked",
+        "Thought (தாட் / நினைத்தேன்)",
+        "Thinking",
+        "Thinks"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What did Newton find out about 'Falling' objects? || விழும்ப் பொருட்களைப் பற்றி நியூட்டன் கண்டது என்ன?",
+      "options": [
+        "They fall because of magic",
+        "They are pulled to earth by gravity (ஈர்ப்பு விசையால் அவை ஈர்க்கப்படுகின்றன)",
+        "They fall by chance",
+        "They only fall at night"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of 'Curiosity'? || 'Curiosity' என்பதன் பொருள் யாது?",
+      "options": [
+        "Fear",
+        "Desire to know (அறிய ஆர்வம்)",
+        "Boredom",
+        "Sadness"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Which telescope did Newton invent? || நியூட்டன் எந்தத் தொலைநோக்கியைக் கண்டறிந்தார்?",
+      "options": [
+        "Refracting",
+        "Reflecting Telescope (பிரதிபலிக்கும் தொலைநோக்கி)",
+        "Digital",
+        "Hubble"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Whom did Newton consider as his best teacher? || யாருடையப் பாடங்களை நியூட்டன் சிறந்ததாகக் கருதினார்?",
+      "options": [
+        "Grandmother",
+        "Nature and Book of Universe (இயற்கை மற்றும் பேரண்டம்)",
+        "School teachers",
+        "Friends"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Synonym of 'Gazing': || 'Gazing' என்பதன் ஒத்தப்பொருள்?",
+      "options": [
+        "Running",
+        "Staring intently (உற்றுப் பார்த்தல்)",
+        "Closing eyes",
+        "Crying"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: Irregular Verb of 'Build'. || 'Build' என்பதன் கடந்தக் காலம்?",
+      "options": [
+        "Builded",
+        "Built (பில்ட் / கட்டப்பட்டது)",
+        "Builds",
+        "Building"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What was the shape of Newton's sundial? || நியூட்டனின் சூரியக் கடிகாரம் எத்தகையது?",
+      "options": [
+        "Circle",
+        "Fixed on the walls of the farm house (பண்ணை வீட்டின்ச் சுவரில் அமைத்தது)",
+        "Square",
+        "In a pocket"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Newton was knighted and called 'Sir' in which year? || நியூட்டன் எப்போது சர் (Sir) பட்டம் பெற்றார்?",
+      "options": [
+        "1642",
+        "1705 (1705-ல்)",
+        "2000",
+        "1905"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What was the 'Miller' in Newton's windmill? || நியூட்டனின் காற்றாடியில் 'மில்லர்' ஆகச் செயல்பட்டது எது?",
+      "options": [
+        "A motor",
+        "A mouse (எலி)",
+        "Water",
+        "A cat"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: 'Regular Verb' from the list. || இதில் சாதாரண வினைச்சொல் எது?",
+      "options": [
+        "Thought",
+        "Watched (வாட்ச்டு / பார்த்தேன்)",
+        "Found",
+        "Built"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "As an elderly man, Newton spent his time? || முதிய வயதில் நியூட்டன் நேரத்தை எவ்வாறுக் கழித்தார்?",
+      "options": [
+        "Making toys",
+        "Solving deep mysteries of universe (பேரண்டத்தின் மர்மங்களை ஆராய்தல்)",
+        "Only sleeping",
+        "In war"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of 'Reflecting'? || 'Reflecting' என்பதன் பொருள்?",
+      "options": [
+        "Throwing back light / Thinking deeply (ஒளியைப் பிரதிபலித்தல் / ஆழமாகச் சிந்தித்தல்)",
+        "Breaking",
+        "Shouting",
+        "None"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "True or False: Newton was average in his childhood studies initially. || நியூட்டன் சிறுவயதில் கல்வியில்ச் சாமானியராகவே இருந்தார்?",
+      "options": [
+        "True",
+        "False",
+        "Maybe",
+        "Unknown"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Newton and the apple incident happened in? || ஆப்பிள் விழுந்தத் தற்செயல் நிகழ்வு நடந்த இடம்?",
+      "options": [
+        "Laboratory",
+        "Grandmother's garden (பாட்டியின்த் தோட்டம்)",
+        "Classroom",
+        "Sea shore"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What pulls the Moon around the Earth? || நிலவை பூமியைச் சுற்றி வரச் செய்யும் விசை எது?",
+      "options": [
+        "Electricity",
+        "Magnet",
+        "Earth's Gravitational force (பூமியின் ஈர்ப்பு விசை)",
+        "Wind"
+      ],
+      "a": 2,
+      "ex": ""
+    },
+    {
+      "q": "Collective Noun for 'Stars': || விண்மீன்களின்க் கூட்டம்?",
+      "options": [
+        "Galaxy / Constellation (கேலக்ஸி / கான்ஸ்டலேஷன்)",
+        "Herd",
+        "Pack",
+        "Pride"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of 'Hoarding': || 'Hoarding' என்பதன் பொருள்?",
+      "options": [
+        "Deleting",
+        "Storing / Accumulating (சேமித்தல்)",
+        "Selling",
+        "Running"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "How did Isaac find the strength of a gale? || புயல் காற்றின் வலிமையை ஐசக் எப்படிக் கண்டறிந்தார்?",
+      "options": [
+        "By measuring distance he could jump with wind (காற்றின் போக்கில் குதித்துப் பார்த்தார்)",
+        "Using a machine",
+        "Calling a friend",
+        "Using a thermometer"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Newton is buried in which famous cathedral? || நியூட்டன் எந்தப் புகழ்பெற்ற தேவாலயத்தில் அடக்கம் செய்யப்பட்டார்?",
+      "options": [
+        "St. Paul's",
+        "Westminster Abbey (வெஸ்ட்மின்ஸ்டர் அபே)",
+        "Notre Dame",
+        "Kashi"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "The expansion of 'MP' related to Physics? || பௌதிகத் துறையில் 'MP' - என்பதன் பொருள்?",
+      "options": [
+        "Massive Power",
+        "Moving Particle",
+        "Maximum Point",
+        "None especific to story context but implies scientific focus"
+      ],
+      "a": 3,
+      "ex": ""
+    },
+    {
+      "q": "Identify: Past tense of 'Invent'. || 'Invent' என்பதன் கடந்தக் காலம்?",
+      "options": [
+        "Invented (இன்வென்டட் / கண்டுபிடித்தார்)",
+        "Inventing",
+        "Invents",
+        "Inventory"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "What did Newton find in a prism? || முப்பட்டகத்தில் நியூட்டன் எதனைக் கண்டார்?",
+      "options": [
+        "Ghost",
+        "Rainbow colors (வானவில் நிறங்கள்)",
+        "Darkness",
+        "Fire"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Conclusion: What was Newton's attitude toward his own knowledge? || முடிவு: தனது அறிவைப் பற்றி நியூட்டன் என்னக் கருதினார்?",
+      "options": [
+        "He thought he knew everything",
+        "He felt like a child picking shells in front of a vast ocean (பெரிய கடல் முன்னேச் சிறுவன் சிப்பி எடுப்பதைப் போன்ற நிலை)",
+        "He was very proud",
+        "He was bored"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Correct spelling of the village Newton was born? || நியூட்டன் பிறந்த ஊரின் சரியான எழுத்து வடிவம் எது?",
+      "options": [
+        "Woolsthorpe (வூல்ஸ்தார்ப்)",
+        "Woolstorp",
+        "Wolsthorp",
+        "Woolsthop"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Which year did Isaac Newton die? || ஐசக் நியூட்டன் எந்த ஆண்டு காலமானார்?",
+      "options": [
+        "1727 (1727-ல்)",
+        "1642",
+        "1800",
+        "1700"
+      ],
+      "a": 0,
+      "ex": ""
+    }
+  ],
+  "credits": "தொகுப்பு: A1 ONLINE COACHING CENTER"
+}

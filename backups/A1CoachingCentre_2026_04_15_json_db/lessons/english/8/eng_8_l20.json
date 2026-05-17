@@ -1,0 +1,580 @@
+{
+  "subject": "English",
+  "class": "8",
+  "term": "Annual",
+  "title": "Poem: My Computer Needs a Break",
+  "summary": "",
+  "sections": [
+    {
+      "title": "1. Poem: My Computer Needs a Break (எனதுக் கணினிக்கு ஓய்வுத் தேவை) - Summary",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● [[Core Theme]]",
+            "answer": "Humanizing technology and the humorous side of computer errors. || கணினியில் ஏற்படும் தவறுகளை வேடிக்கையாக விவரித்தல்."
+          },
+          {
+            "question": "● [[The Plot]]",
+            "answer": "The poet's computer starts behaving strangely. It 'forgets' to save files, 'gulps' a mouse, and behaves as if it has caught a virus. The poet jokes that the computer needs a doctor (technician) because it is exhausted from being used all day. || கவிஞரின் கணினி விசித்திரமாகச் செயல்படுகிறது. கோப்புகளைச் சேமிக்க மறக்கிறது; மவுஸை விழுங்குகிறது. அதற்கு வைரஸ் வந்துவிட்டதாகக் கவிஞர் கூறுகிறார். கணினிக்கு ஒரு 'டாக்டர்' (டெக்னீசியன்) தேவை என்கிறார்."
+          },
+          {
+            "question": "● [[Symbolism]]",
+            "answer": "The poem reflects our heavy dependence on computers and the need to rest both ourselves and our machines. || மனிதர்கள் கணினியைச் சார்ந்து இருப்பதை இது நகைச்சுவையுடன் சுட்டுகிறது."
+          }
+        ]
+      }
+    },
+    {
+      "title": "2. Glossary: Tech Humour Terms (Exam Focus - Synonyms)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● [[Virus]] / வைரஸ் / நச்சுயிரி",
+            "answer": "A piece of code which is capable of copying itself and destroying data."
+          },
+          {
+            "question": "● [[Gulp]] / விழுங்குதல் / உண்பது",
+            "answer": "To swallow (food or drink) quickly or greedily."
+          },
+          {
+            "question": "● [[Absent-minded]] / மறதி உடைய",
+            "answer": "Having or showing a forgetful or inattentive mind."
+          },
+          {
+            "question": "● [[Erratic]] / நிலையற்ற / விசித்திரமான",
+            "answer": "Not even or regular in pattern or movement; unpredictable."
+          },
+          {
+            "question": "● [[Technician]]",
+            "answer": "A person employed use or look after technical equipment. (தொழில்நுட்ப வல்லுநர்)."
+          }
+        ]
+      }
+    },
+    {
+      "title": "3. Poetic Devices: Personification & Pun",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● [[Personification]]",
+            "answer": "The computer is described as if it has a brain and can 'forget' or be 'sick'. || கணினிக்கு மனிதப் பண்புகளை வழங்குதல்."
+          },
+          {
+            "question": "● [[Pun]]",
+            "answer": "A play on words (e.g., computer catching a 'virus' or eating a 'mouse'). || இருப் பொருள் தரும்ச் சொற்களைப் பயன்படுத்துதல்."
+          },
+          {
+            "question": "● [[Alliteration]]",
+            "answer": "Repeating sounds like \"[[C]]omputer [[C]]atches\". || ஒரே ஒலித் தொடக்கச் சொற்கள்."
+          }
+        ]
+      }
+    },
+    {
+      "title": "4. Grammars: Figures of Speech Recap",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● [[Onomatopoeia]]",
+            "answer": "Sounds like 'Click', 'Bleep'. || ஒலிக்குறிப்புச் சொற்கள்."
+          },
+          {
+            "question": "● [[Anaphora]]",
+            "answer": "Repeating a word at the beginning of lines. || வாக்கியத்தின்த் தொடக்கத்தில் வரும்ச் சொல்."
+          }
+        ]
+      }
+    },
+    {
+      "title": "5. Parts of a Computer (கணினியின் பாகங்கள்)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● Screen / Monitor",
+            "answer": "Visual output. || திரையகம்."
+          },
+          {
+            "question": "● Keyboard",
+            "answer": "Input device for typing. || விசைப்பலகை."
+          },
+          {
+            "question": "● Mouse",
+            "answer": "Pointing device. || சுட்டி."
+          }
+        ]
+      }
+    },
+    {
+      "title": "6. Previous Year Questions & Competitive Focus",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● Why does the computer need a break?",
+            "answer": "Because it is [[sick]] and [[erratic]]. || அதற்கு உடல்நிலை சரியில்லை (கணினிப் பழுது)."
+          },
+          {
+            "question": "● What is the rhyming word for 'Break'?",
+            "answer": "[[Take]] / [[Shake]]. || டேக்."
+          },
+          {
+            "question": "● 'The computer gulped a ______'.",
+            "answer": "[[Mouse]]. || மவுஸ் / சுட்டி."
+          },
+          {
+            "question": "● Meaning of 'Absent-minded'?",
+            "answer": "[[Forgetful]]. || மறதி உடைய."
+          }
+        ]
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "q": "What is the main problem with the computer in the poem? || கவிதையில் கணினிக்கு ஏற்பட்டப் பிரச்சனை என்ன?",
+      "options": [
+        "It has no power",
+        "It is behaves strangely and needs a break (விசித்திரமாகச் செயல்படுகிறது; அதற்கு ஓய்வுத் தேவை)",
+        "It is too small",
+        "It is stolen"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What did the computer 'forget' to do? || கணினி எதனைக் செய்ய மறந்தது?",
+      "options": [
+        "To turn off",
+        "To save the files (கோப்புகளைச் சேமிக்க)",
+        "To show the time",
+        "To play music"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What did the computer 'gulp' down? || கணினி எதனை 'விழுங்கியது'?",
+      "options": [
+        "A bug",
+        "A mouse (மவுஸ் / கணினிச் சுட்டி)",
+        "A cookie",
+        "A bird"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "According to the poet, why is the computer erratic? || கவிஞரின் கூற்றுப்படி கணினி ஏன் தாறுமாறாகச் செயல்படுகிறது?",
+      "options": [
+        "It is old",
+        "It has caught a virus (வைரஸ் பாதித்துள்ளது)",
+        "It has no internet",
+        "It likes to dance"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Who is called to fix the computer? || கணினியைச் சரிசெய்ய யாருக்காகக் கவிஞர் காத்திருக்கிறார்?",
+      "options": [
+        "A policeman",
+        "A technician / Doctor (தொழில்நுட்ப வல்லுநர் / டாக்டர்)",
+        "A teacher",
+        "A chef"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What is the meaning of 'Gulp'? || 'Gulp' (கல்ப்) என்பதன் பொருள்?",
+      "options": [
+        "To shout",
+        "To swallow quickly (வேகமாக விழுங்குதல்)",
+        "To run",
+        "To hide"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "The computer being 'absent-minded' means it is? || கணினி 'மறதி' கொண்டது என்றால் அதன் பொருள்?",
+      "options": [
+        "Very clever",
+        "Forgetful / distracted (மறதி மற்றும் கவனமின்மை)",
+        "Fast",
+        "Broken"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Which figure of speech is used: \"My computer caught a virus\"? || இதில் பயின்று வரும் அணி எது?",
+      "options": [
+        "Simile",
+        "Personification (நபருருவக அணி)",
+        "Oxymoron",
+        "Exclamation"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What is the synonym of 'Erratic'? || 'Erratic' என்பதன் ஒத்தப்பொருள் யாது?",
+      "options": [
+        "Normal",
+        "Unpredictable/Regular patterns broken (நிலைத்தன்மையற்ற / விசித்திரமான)",
+        "Fast",
+        "Green"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: Rhyming word for 'files'. || 'files' - இதற்கான இயைபுச் சொல்?",
+      "options": [
+        "miles (மைல்ஸ் / தொலைவு)",
+        "tiles",
+        "smiles",
+        "all of the above (இவையனைத்தும்)"
+      ],
+      "a": 3,
+      "ex": ""
+    },
+    {
+      "q": "In the poem, the computer is compared to? || கவிதையில் கணினி எதனுடன் ஒப்பிடப்படுகிறது?",
+      "options": [
+        "A tired person/child (களைப்படைந்த மனிதன் அல்லதுச் சிறுவன்)",
+        "A car",
+        "A mountain",
+        "The sun"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "What is a 'Virus' in computing? || கணினியில் 'வைரஸ்' என்பது என்ன?",
+      "options": [
+        "A small insect",
+        "A harmful software program (தீங்கு விளைவிக்கும் மென்பொருள்)",
+        "Food for computer",
+        "Internet"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Explain: \"It forgot to save...\". Why is this funny? || இது ஏன் வேடிக்கையாக உள்ளது?",
+      "options": [
+        "Because computers don't have brains (ஏனெனில் கணினிக்கு மூளை இல்லை)",
+        "Because computers are very good",
+        "Because it is new",
+        "none"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of 'Break' in poem context: || பாடச் சூழலில் 'Break' (பிரேக்) என்பது?",
+      "options": [
+        "To smash something",
+        "A rest or pause (களைப்பிலிருந்து ஒரு ஓய்வு)",
+        "To run",
+        "To jump"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What sound does a mouse click make? || மவுஸை அழுத்தும்போது வரும் ஒலி?",
+      "options": [
+        "Boom",
+        "Click (கிளிக்)",
+        "Thud",
+        "Bang"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: \"Computer... Caught\". || இதில் பயின்று வரும் மோனை (Alliteration) எது?",
+      "options": [
+        "'C' sound ('C' ஒலியின்த் திரும்புதல்)",
+        "Ending 'r'",
+        "No alliteration",
+        "Middle 'o'"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "When does the computer need a technician? || கணினிக்கு எப்போதுத் தொழில்நுட்ப வல்லுநர் தேவைப்படுவார்?",
+      "options": [
+        "When it is working fast",
+        "When it is broken or has a virus (கணினிப் பழுதடைந்தால் அல்லது வைரஸ் தாக்கினால்)",
+        "When it is new",
+        "At night always"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Is the poet happy with the computer's behavior? || கவிஞருக்குக் கணினியின்ச் செயல்பாட்டில் மகிழ்ச்சியா?",
+      "options": [
+        "Yes",
+        "No, he is annoyed/humorous (இல்லை, விரக்தி மற்றும் நகைச்சுவையுடன் இருக்கிறார்)",
+        "Maybe",
+        "Unknown"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Rhyme for 'Take': || 'Take' - இதற்கான இயைபுச் சொல்?",
+      "options": [
+        "Make",
+        "Lake",
+        "Shake",
+        "All of the above (இவையனைத்தும்)"
+      ],
+      "a": 3,
+      "ex": ""
+    },
+    {
+      "q": "What happens when a computer 'crashes'? || கணினி 'கிராஷ்' (Crash) ஆனால் என்னவாகும்?",
+      "options": [
+        "It starts singing",
+        "It stops working suddenly (ஏதோ ஒருத் தவறினால் திடீரென நின்றுவிடும்)",
+        "It runs fast",
+        "It becomes a phone"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of 'Fiddle' regarding computer? || இப்பாடச் சூழலில் 'Fiddle' என்பது?",
+      "options": [
+        "To play music",
+        "To touch or move things aimlessly (தேவையில்லாமல் எதையாவதுத் தொடுதல்)",
+        "To run",
+        "To eat"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: 'Monitor' relates to which sense? || 'மானிட்டர்' என்பது எந்தப் புலனைச் சார்ந்தது?",
+      "options": [
+        "Hearing",
+        "Sight (பார்வை)",
+        "Touch",
+        "Smell"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "The expansion of 'CPU'? || CPU - விரிவாக்கம் என்ன?",
+      "options": [
+        "Central Processing Unit (மத்தியச் செயலகம்)",
+        "Computer Power Unit",
+        "Central Print Unit",
+        "Cooling Power Uni"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Which part of computer helps to type? || டைப் செய்ய உதவும் கணினியின் பாகம் எது?",
+      "options": [
+        "Mouse",
+        "Keyboard (விசைப்பலகை)",
+        "Monitor",
+        "Speaker"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: \"I save the data\". Change to Passive Voice. || 'I save the data' - செயப்பாட்டு வினை?",
+      "options": [
+        "The data is saved by me (என்னால் தரவுகள்ச் சேமிக்கப்படுகின்றன)",
+        "Data saves me",
+        "I saving data",
+        "none"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of 'Erratic' in Tamil context: || இப்பாடல்ச் சூழலில் 'Erratic' என்பது?",
+      "options": [
+        "சீரான",
+        "நிலையாக இல்லாத / விசித்திரமாக மாறும்",
+        "வேகமாக",
+        "உயர்ந்த"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Does the computer really need food? || கணினிக்கு உண்மையிலேயே உணவுத் தேவையா?",
+      "options": [
+        "Yes",
+        "No, it needs electricity (இல்லை, அதற்கு மின்சாரம்த் தேவை)",
+        "Maybe",
+        "Only if hungry"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What to do if a computer has a 'Virus'? || வைரஸ் இருந்தால் என்னச் செய்ய வேண்டும்?",
+      "options": [
+        "Give it a tea",
+        "Use an anti-virus software or call technician (ஆன்டி-வைரஸ் மென்பொருள் அல்லது டெக்னீசியன்)",
+        "Beat it",
+        "Sleep"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of 'Absent-minded' in a student: || ஒரு மாணவரிடமக் 'மறதி' (Absent-minded) என்பது?",
+      "options": [
+        "Thinking about lessons",
+        "Being forgetful in class (வகுப்பில் கவனமில்லாமல் இருப்பது)",
+        "Being fast",
+        "Being loud"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify the homophone for 'Hear'. || 'Hear' - என்பதற்கான 'ஹோமோபோன்' எது?",
+      "options": [
+        "Here (ஹியர் - இங்கே)",
+        "Hair",
+        "Heir",
+        "None"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Why is the technician called a 'Doctor' for the computer? || டெக்னீசியனை ஏன் கணினி டாக்டர் என்கிறோம்?",
+      "options": [
+        "Because he cures the 'virus' (கணினியில் இருந்த வைரஸை நீக்குவதால்)",
+        "Because he wears a white coat",
+        "Because he gives medicines",
+        "none"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Identify the clipped word: 'Television'. || 'Television' - என்பதன்ச் சுருக்கப்பட்ட வடிவம்?",
+      "options": [
+        "TV (டிவி)",
+        "Tele",
+        "Vision",
+        "None"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of 'Bleep': || 'Bleep' (பிளீப்) - என்பதன் பொருள்?",
+      "options": [
+        "Silent",
+        "High-pitched sound from electronic device (மின்னணுச் சாதனத்தின்ச் சத்தம்)",
+        "Fast",
+        "Green"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Should we always use the computer? || எப்போதும் கணினியையேப் பயன்படுத்தலாமா?",
+      "options": [
+        "Yes",
+        "No, we should also take a break and sleep (ஓய்வும் தூக்கமும் நமக்கும்த் தேவை)",
+        "10 hours a day",
+        "Never"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: \"A virus took my files\". Is this Active or Passive? || இது எவ்வகை வாக்கியம்?",
+      "options": [
+        "Active Voice (செய்வினை)",
+        "Passive",
+        "Both",
+        "None"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "What is the expansion of 'IT'? || IT - என்பதன் விரிவாக்கம்?",
+      "options": [
+        "Information Technology (தகவல் தொழில்நுட்பம்)",
+        "Inside Town",
+        "Indian Time",
+        "None"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Conclusion: What is the poet's wish for the computer? || முடிவு: கணினிக்குக் கவிஞர் என்னக் கோருகிறார்?",
+      "options": [
+        "To buy a new one",
+        "To have a well-deserved break (அதற்குத் தேவையான ஒரு ஓய்வைத் தர விரும்புகிறார்)",
+        "To sell it",
+        "To paint it"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Choose the correctly spelled word. || சரியான எழுத்துப்பிழையற்றச் சொல் எது?",
+      "options": [
+        "Technician (தொழில்நுட்ப வல்லுநர்)",
+        "Teknician",
+        "Technition",
+        "None"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Correct spelling of our poet's name? || நமதுக் கவிஞரின்ப் பெயரின் சரியான எழுத்து வடிவம்?",
+      "options": [
+        "Unknown (பல பாடங்களில் கவிஞரின்ப் பெயர் மட்டும் தந்துப் பாடம் அமையும்)",
+        "Author Name usually follows in textbook",
+        "None",
+        "None"
+      ],
+      "a": 2,
+      "ex": ""
+    },
+    {
+      "q": "Final thought: Using technology ______ is helpful. || இறுதிச் சிந்தனை: தொழில்நுட்பத்தை ______ பயன்படுத்துவதேச் சிறந்தது.",
+      "options": [
+        "Always",
+        "Wisely and within limits (அறிவுப்பூர்வமாகவும் எல்லையோடும்)",
+        "Never",
+        "Fast"
+      ],
+      "a": 1,
+      "ex": ""
+    }
+  ],
+  "credits": "தொகுப்பு: A1 ONLINE COACHING CENTER"
+}

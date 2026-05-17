@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>தேர்வு முடிவுகள் - Tamil Nanban</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Noto+Sans+Tamil:wght@400;700&display=swap">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: 'Outfit', 'Noto Sans Tamil', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container { max-width: 600px; margin: 0 auto; }
+        
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 30px;
+        }
+        
+        .header h1 {
+            font-size: 2rem;
+            font-weight: 800;
+            margin-bottom: 10px;
+        }
+        
+        .result-card {
+            background: white;
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            margin-bottom: 20px;
+        }
+        
+        .score-display {
+            text-align: center;
+            padding: 30px;
+            background: linear-gradient(135deg, #10b981, #059669);
+            border-radius: 15px;
+            color: white;
+            margin-bottom: 25px;
+        }
+        
+        .score-display h2 {
+            font-size: 3rem;
+            font-weight: 800;
+            margin-bottom: 10px;
+        }
+        
+        .score-display p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        
+        .rank-display {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin-bottom: 25px;
+        }
+        
+        .rank-item {
+            text-align: center;
+            padding: 20px;
+            background: #f8fafc;
+            border-radius: 12px;
+        }
+        
+        .rank-item .icon {
+            font-size: 2rem;
+            margin-bottom: 8px;
+        }
+        
+        .rank-item .value {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: #1e3a8a;
+            margin-bottom: 5px;
+        }
+        
+        .rank-item .label {
+            font-size: 0.85rem;
+            color: #64748b;
+        }
+        
+        .details {
+            background: #f8fafc;
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+        }
+        
+        .detail-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 12px 0;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        
+        .detail-row:last-child {
+            border-bottom: none;
+        }
+        
+        .detail-row .label {
+            color: #64748b;
+            font-weight: 600;
+        }
+        
+        .detail-row .value {
+            color: #1e293b;
+            font-weight: 700;
+        }
+        
+        .btn {
+            width: 100%;
+            padding: 15px;
+            border: none;
+            border-radius: 12px;
+            font-size: 1rem;
+            font-weight: 800;
+            cursor: pointer;
+            transition: all 0.3s;
+            margin-bottom: 10px;
+        }
+        
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+        }
+        
+        .btn-secondary {
+            background: white;
+            color: #667eea;
+            border: 2px solid #667eea;
+        }
+        
+        .btn:active {
+            transform: scale(0.98);
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 50px;
+            color: white;
+        }
+        
+        .spinner {
+            border: 3px solid rgba(255,255,255,0.3);
+            border-top: 3px solid white;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        @media (max-width: 600px) {
+            .header h1 { font-size: 1.5rem; }
+            .score-display h2 { font-size: 2rem; }
+            .rank-display { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎯 தேர்வு முடிவுகள்</h1>
+            <p id="examTitle">--</p>
+        </div>
+        
+        <div id="loadingBox" class="loading">
+            <div class="spinner"></div>
+            <p>முடிவுகள் ஏற்றப்படுகின்றன...</p>
+        </div>
+        
+        <div id="resultsBox" style="display:none;">
+            <div class="result-card">
+                <div class="score-display">
+                    <h2 id="scoreValue">0/50</h2>
+                    <p>மொத்த மதிப்பெண்</p>
+                </div>
+                
+                <div class="rank-display">
+                    <div class="rank-item">
+                        <div class="icon">🏆</div>
+                        <div class="value" id="rankValue">-</div>
+                        <div class="label">உங்கள் Rank</div>
+                    </div>
+                    
+                    <div class="rank-item">
+                        <div class="icon">✅</div>
+                        <div class="value" id="correctValue">0</div>
+                        <div class="label">சரியான பதில்கள்</div>
+                    </div>
+                    
+                    <div class="rank-item">
+                        <div class="icon">⏱️</div>
+                        <div class="value" id="timeValue">0</div>
+                        <div class="label">நேரம் (நிமிடம்)</div>
+                    </div>
+                </div>
+                
+                <div class="details">
+                    <div class="detail-row">
+                        <span class="label">மாணவர் பெயர்:</span>
+                        <span class="value" id="studentNameValue">--</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="label">தேர்வு தேதி:</span>
+                        <span class="value" id="examDateValue">--</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="label">தேர்வு முடித்த நேரம்:</span>
+                        <span class="value" id="completedTimeValue">--</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="label">மொத்த பங்கேற்பாளர்கள்:</span>
+                        <span class="value" id="totalStudentsValue">--</span>
+                    </div>
+                </div>
+                
+                <button class="btn btn-primary" onclick="viewLeaderboard()">
+                    🏆 Leaderboard பார்க்க
+                </button>
+                <button class="btn btn-secondary" onclick="goHome()">
+                    🏠 முகப்பு பக்கம்
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script type="module">
+        import { db } from './js/firebase-init.js';
+        import { collection, query, where, getDocs, orderBy } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js';
+        
+        // Get URL parameters
+        const urlParams = new URLSearchParams(window.location.search);
+        const phoneNumber = urlParams.get('phone');
+        const examDate = urlParams.get('date');
+        const category = urlParams.get('category');
+        
+        async function loadResults() {
+            try {
+                // Get student's result
+                const resultsRef = collection(db, 'free_exam_results');
+                const q = query(
+                    resultsRef,
+                    where('phoneNumber', '==', phoneNumber),
+                    where('examDate', '==', examDate)
+                );
+                
+                const querySnapshot = await getDocs(q);
+                
+                if (querySnapshot.empty) {
+                    alert('முடிவுகள் கிடைக்கவில்லை!');
+                    return;
+                }
+                
+                const resultData = querySnapshot.docs[0].data();
+                
+                // Get all results for ranking
+                const allResultsQuery = query(
+                    resultsRef,
+                    where('examDate', '==', examDate),
+                    where('category', '==', category),
+                    orderBy('score', 'desc'),
+                    orderBy('timeTaken', 'asc')
+                );
+                
+                const allResultsSnapshot = await getDocs(allResultsQuery);
+                const allResults = allResultsSnapshot.docs.map(doc => doc.data());
+                
+                // Calculate rank
+                let rank = 1;
+                for (let i = 0; i < allResults.length; i++) {
+                    if (allResults[i].phoneNumber === phoneNumber) {
+                        rank = i + 1;
+                        break;
+                    }
+                }
+                
+                // Display results
+                document.getElementById('scoreValue').textContent = `${resultData.score}/${resultData.totalQuestions}`;
+                document.getElementById('rankValue').textContent = rank;
+                document.getElementById('correctValue').textContent = resultData.correctAnswers;
+                document.getElementById('timeValue').textContent = Math.round(resultData.timeTaken / 60);
+                document.getElementById('studentNameValue').textContent = resultData.studentName;
+                document.getElementById('examDateValue').textContent = examDate;
+                document.getElementById('completedTimeValue').textContent = new Date(resultData.completedAt).toLocaleTimeString('ta-IN');
+                document.getElementById('totalStudentsValue').textContent = allResults.length;
+                
+                // Hide loading, show results
+                document.getElementById('loadingBox').style.display = 'none';
+                document.getElementById('resultsBox').style.display = 'block';
+                
+            } catch (error) {
+                console.error('Error loading results:', error);
+                alert('முடிவுகள் ஏற்ற பிழை!');
+            }
+        }
+        
+        window.viewLeaderboard = function() {
+            window.location.href = `leaderboard.html?date=${examDate}&category=${category}`;
+        };
+        
+        window.goHome = function() {
+            window.location.href = 'index.html';
+        };
+        
+        // Load results on page load
+        loadResults();
+    </script>
+</body>
+</html>

@@ -1,0 +1,114 @@
+{
+  "isBilingual": true,
+  "unit": "Unit 5",
+  "subject": "Maths",
+  "class": "6",
+  "term": 1,
+  "title": "Statistics (புள்ளியியல்)",
+  "summary": "தரவுகளைச் சேகரித்தல், வகைப்படுத்துதல், நேர்க்கோட்டுக் குறிகள் மற்றும் விளக்கப்படங்கள் குறித்த விரிவான விளக்கம்.",
+  "material": {
+    "isBilingual": true,
+    "sections": [
+      {
+        "title": "5.1 அறிமுகம் (Introduction)",
+        "type": "bilingual",
+        "en": ["In everyday life, we see news through newspapers, television, the internet, etc., in the form of numbers, tables, pictures, or graphs. Statistics is the branch of mathematics that collects, organizes, analyzes, and gives correct conclusions from information. Data is a collection of information we gather."],
+        "ta": ["அன்றாட வாழ்வில் செய்தித்தாள்கள், தொலைக்காட்சி, இணையம் போன்றவற்றில் பல செய்திகளை எண்கள், அட்டவணைகள், படங்கள் அல்லது வரைபடங்கள் மூலம் காண்கிறோம். தகவல்களைச் சேகரித்து, ஒழுங்கமைத்து, பகுப்பாய்வு செய்து அதிலிருந்து சரியான முடிவுகளைத் தரும் கணிதப் பிரிவே 'புள்ளியியல்' (Statistics) ஆகும். தரவுகள் (Data) என்பவை நாம் திரட்டும் தகவல்களின் தொகுப்பாகும்."]
+      },
+      {
+        "title": "5.2 தரவுகள் மற்றும் அதன் வகைகள் (Data and its Types)",
+        "type": "bilingual",
+        "en": [
+          "The word 'Data' is the plural form of the Latin word 'Datum'.",
+          "Based on the method of collection, data is divided into two types:",
+          "1. Primary Data",
+          "2. Secondary Data.",
+          "These ensure the reliability of information."
+        ],
+        "ta": [
+          "தரவு (Data) என்ற சொல் 'டேட்டம்' (Datum) என்ற லத்தீன் சொல்லின் பன்மை வடிவமாகும்.",
+          "சேகரிக்கும் முறையைப் பொறுத்து தரவுகள் இரு வகைப்படும்: 1. முதல் நிலைத் தரவுகள் (Primary Data) 2. இரண்டாம் நிலைத் தரவுகள் (Secondary Data).",
+          "இவை தகவல்களின் நம்பகத்தன்மையை உறுதி செய்கின்றன."
+        ]
+      },
+      {
+        "title": "5.3 முதல் நிலைத் தரவுகள் (Primary Data)",
+        "type": "bilingual",
+        "en": ["Data collected for the first time directly from the field by the researcher (or collector) is called 'Primary Data'. These are highly reliable because they are collected directly. (e.g., A teacher directly taking student attendance in a class, you measuring your friends' heights yourself)."],
+        "ta": ["ஆய்வாளர் (அல்லது தகவல் சேகரிப்பவர்) தானே நேரடியாகச் சென்று களத்தில் இருந்து முதன்முதலாகச் சேகரிக்கும் தரவுகள் 'முதல் நிலைத் தரவுகள்' எனப்படும். இவை நேரடியாகச் சேகரிக்கப்படுவதால் அதிக நம்பகத்தன்மை வாய்ந்தவை. (எ.கா: ஒரு வகுப்பில் உள்ள மாணவர்களின் வருகைப் பதிவேட்டை ஆசிரியர் நேரடியாக எடுப்பது, உன் நண்பர்களின் உயரங்களை நீயே அளந்து எழுதுவது)."]
+      },
+      {
+        "title": "5.4 இரண்டாம் நிலைத் தரவுகள் (Secondary Data)",
+        "type": "bilingual",
+        "en": ["Using information that has already been collected and recorded by another person or organization for our own needs is called 'Secondary Data'. (e.g., Population details of a country taken from the internet, cricket match run details appearing in newspapers). These are slightly less reliable than primary data."],
+        "ta": ["ஏற்கனவே வேறொருவரால் அல்லது ஒரு நிறுவனத்தால் சேகரிக்கப்பட்டு பதிவு செய்யப்பட்ட தகவல்களை, நமது தேவைக்காகப் பயன்படுத்துவது 'இரண்டாம் நிலைத் தரவுகள்' எனப்படும். (எ.கா: இணையதளத்தில் இருந்து எடுக்கப்படும் ஒரு நாட்டின் மக்கள் தொகை விவரம், செய்தித்தாள்களில் வெளிவரும் கிரிக்கெட் போட்டிகளின் ரன் விவரங்கள்). இவை முதல் நிலைத் தரவுகளை விட நம்பகத்தன்மை சற்று குறைந்தவை."]
+      },
+      {
+        "title": "5.5 நேர்க்கோட்டுக் குறிகள் (Tally Marks)",
+        "type": "bilingual",
+        "en": ["Tally Marks is a simple mathematical method used for counting and error-free tabulation of collected data. A vertical line ('|') is used to mark data one by one. To represent 5, draw four vertical lines and draw a diagonal line (~~||||~~) across them. This makes counting data in sets of 5 very easy."],
+        "ta": ["சேகரிக்கப்பட்ட தரவுகளை எண்ணுவதற்கும், பிழையின்றி அட்டவணைப்படுத்துவதற்கும் பயன்படும் எளிய கணித முறை 'நேர்க்கோட்டுக் குறிகள்' ஆகும். தரவுகளை ஒவ்வொன்றாக குறிக்க செங்குத்துக் கோடு ('|') பயன்படும். 5ஐக் குறிக்க நான்கு நேர்க்கோடுகளை வரைந்து, அவற்றின் குறுக்கே ஒரு சாய்வுக் கோடு (~~||||~~) வரைய வேண்டும். இது தரவுகளை 5-இன் தொகுப்புகளாக எண்ணுவதை மிகவும் எளிதாக்குகிறது."]
+      },
+      {
+        "title": "5.6 நிகழ்வெண் (Frequency)",
+        "type": "bilingual",
+        "en": ["Frequency is the count of how many times a particular value occurs in a data set. Counting tally marks and writing that count in numbers is frequency. A table created using this is called a 'Frequency Distribution Table'."],
+        "ta": ["ஒரு தரவுத் தொகுப்பில், ஒரு குறிப்பிட்ட மதிப்பு எத்தனை முறை திரும்பத் திரும்ப வந்துள்ளது என்பதைக் குறிக்கும் எண்ணிக்கை 'நிகழ்வெண்' எனப்படும். நேர்க்கோட்டுக் குறிகளை எண்ணி, அந்த எண்ணிக்கையை எண்களில் எழுதுவது நிகழ்வெண் ஆகும். இதனை அமைத்து உருவாக்கப்படும் அட்டவணை 'நிகழ்வெண் பரவல் அட்டவணை' (Frequency Table) எனப்படும்."]
+      },
+      {
+        "title": "5.7 பட விளக்கப்படம் (Pictograph)",
+        "type": "bilingual",
+        "en": ["The method of representing numerical data through pictures or symbols is called a 'Pictograph'. It is also called a 'Pictogram'. Seeing pictures helps in understanding and comparing data more easily than reading numbers."],
+        "ta": ["எண்களாக உள்ள தரவுகளைப் படங்களாகவோ அல்லது குறியீடுகளாகவோ குறிக்கும் முறை 'பட விளக்கப்படம்' எனப்படும். இதனை 'பிக்டோகிராம்' (Pictogram) எனவும் அழைப்பர். எண்களைப் படிப்பதை விட படங்களைப் பார்ப்பது தரவுகளை எளிதில் புரிந்துகொள்ளவும், ஒப்பிட்டுப் பார்க்கவும் உதவுகிறது."]
+      },
+      {
+        "title": "5.8 பட விளக்கப்படத்தின் அளவுத்திட்டம் (Scaling in Pictograph)",
+        "type": "bilingual",
+        "en": ["'Scaling' explains how many objects or values a single picture represents in a pictograph. Scaling is essential to represent large amounts of data. E.g., If one whole apple picture = 10 apples, then a half (1/2) apple picture represents 5 apples."],
+        "ta": ["பட விளக்கப்படத்தில் ஒரு படம் எத்தனைப் பொருட்களை அல்லது மதிப்புகளைக் குறிக்கிறது என்பதை விளக்குவது 'அளவுத்திட்டம்' (Scale) ஆகும். அதிக எண்ணிக்கையிலான தரவுகளைக் குறிக்க அளவுத்திட்டம் அவசியம். எ.கா: ஒரு முழு ஆப்பிள் படம் = 10 ஆப்பிள்கள் என அளவுத்திட்டம் இருந்தால், அரை (1/2) ஆப்பிள் படம் 5 ஆப்பிள்களைக் குறிக்கும்."]
+      },
+      {
+        "title": "5.9 பட்டை விளக்கப்படம் (Bar Graph)",
+        "type": "bilingual",
+        "en": [
+          "Representing data through rectangular bars of equal width drawn vertically or horizontally is called a 'Bar Graph'.",
+          "Properties:",
+          "1. Space between all bars must be equal.",
+          "2. Width of bars must be equal; it has no value.",
+          "3. Length or height of the bar represents the value (frequency) of the data.",
+          "It is drawn using X and Y axes."
+        ],
+        "ta": [
+          "தரவுகளைச் செங்குத்தாகவோ அல்லது கிடைமட்டமாகவோ வரையப்படும் சம அகலமுள்ள செவ்வகப் பட்டைகள் மூலம் குறிப்பது 'பட்டை விளக்கப்படம்' ஆகும்.",
+          "பண்புகள்:",
+          "1. அனைத்துப் பட்டைகளுக்கும் இடையே உள்ள இடைவெளி சமமாக இருக்க வேண்டும்.",
+          "2. பட்டைகளின் அகலம் சமமாக இருக்க வேண்டும், அதற்கு எந்த மதிப்பும் இல்லை.",
+          "3. பட்டைகளின் நீளம் அல்லது உயரமே தரவின் மதிப்பைக் (நிகழ்வெண்ணைக்) குறிக்கும்.",
+          "இது X மற்றும் Y அச்சுகளைக் கொண்டு வரையப்படும்."
+        ]
+      },
+      {
+        "title": "5.10 புத்தக மதிப்பீடு (Book Back Highlights)",
+        "type": "bilingual",
+        "en": [
+          "1. Widths of bars in a bar graph are equal.",
+          "2. Space between bars in a bar graph is equal.",
+          "3. Information collected directly is called primary data.",
+          "4. The method to represent 5 in tally marks is four lines with a cross line.",
+          "5. 'Datum' is the singular of data."
+        ],
+        "ta": [
+          "1. பட்டை விளக்கப்படத்தில் உள்ள பட்டைகளின் அகலங்கள் சமமாக இருக்கும்.",
+          "2. பட்டை விளக்கப்படத்தில் பட்டைகளுக்கு இடையே உள்ள இடைவெளி சமமாக இருக்கும்.",
+          "3. நேரடியாகச் சேகரிக்கப்படும் தகவல்கள் முதல் நிலைத் தரவுகள் எனப்படும்.",
+          "4. நேர்க்கோட்டுக் குறிகளில் 5 ஐக் குறிக்கும் முறை நான்கு கோடுகளை ஒரு குறுக்குக் கோட்டால் அடிப்பதாகும்.",
+          "5. 'டேட்டம்' என்பது தரவு என்பதன் ஒருமை ஆகும்."
+        ]
+      }
+    ]
+  },
+  "quiz": {
+    "questions": []
+  },
+  "credits": "A1 ONLINE COACHING CENTER"
+}

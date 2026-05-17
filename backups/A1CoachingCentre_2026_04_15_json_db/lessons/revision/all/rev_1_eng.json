@@ -1,0 +1,44 @@
+{
+  "code": "rev_1_eng",
+  "title": "திருப்புதல் தேர்வு 1 - ஆங்கிலம் (English)",
+  "sections": [
+    {
+      "title": "ஆங்கிலம் (English) - Grammar Focus",
+      "content": "Parts of Speech, Tenses, and Vocabulary are key areas. Focus on Synonyms and Antonyms from 6th-8th standards."
+    }
+  ],
+  "quiz": {
+    "questions": [
+      { "section": "ஆங்கிலம்", "question": "Choose the correct synonym for the word \"Splendid\":", "options": ["Ordinary", "Excellent", "Boring", "Ugly"], "answer": 1, "ex": "Splendid means 'Excellent' or 'Great'." },
+      { "section": "ஆங்கிலம்", "question": "Choose the correct antonym for the word \"Ancient\":", "options": ["Old", "Historical", "Modern", "Past"], "answer": 2, "ex": "Ancient means 'Old', so the antonym is 'Modern'." },
+      { "section": "ஆங்கிலம்", "question": "What is the plural form of \"Syllabus\"?", "options": ["Syllabuses", "Syllabi", "Syllabus", "Syllaba"], "answer": 1, "ex": "Syllabus becomes Syllabi (Latin plural)." },
+      { "section": "ஆங்கிலம்", "question": "Add a suitable prefix to the word \"Polite\":", "options": ["in-", "un-", "im-", "dis-"], "answer": 2, "ex": "The negative form is 'impolite'." },
+      { "section": "ஆங்கிலம்", "question": "Identify the appropriate Question Tag: \"Let us go for a walk, ______?\"", "options": ["do we?", "don't we?", "shall we?", "will you?"], "answer": 2, "ex": "'Let us' always takes 'shall we?'." },
+      { "section": "ஆங்கிலம்", "question": "Fill in the blank: \"He has been living here ______ 2010.\"", "options": ["for", "from", "since", "at"], "answer": 2, "ex": "Use 'since' for a point in time." },
+      { "section": "ஆங்கிலம்", "question": "Choose the correct article: \"He is ______ honest man.\"", "options": ["a", "an", "the", "no article"], "answer": 1, "ex": "Honest starts with a vowel sound (o), so use 'an'." },
+      { "section": "ஆங்கிலம்", "question": "Identify the tense: \"I have completed my homework.\"", "options": ["Simple Past", "Present Perfect", "Past Perfect", "Present Continuous"], "answer": 1, "ex": "'have + V3' is Present Perfect." },
+      { "section": "ஆங்கிலம்", "question": "Change into Passive Voice: \"They are building a house.\"", "options": ["A house is built by them.", "A house was being built by them.", "A house is being built by them.", "A house has been built by them."], "answer": 2, "ex": "Continuous uses 'being + V3'." },
+      { "section": "ஆங்கிலம்", "question": "Identify the pattern: \"The teacher gave the students a test.\"", "options": ["S V O", "S V IO DO", "S V DO IO", "S V C A"], "answer": 1, "ex": "Subject + Verb + Indirect Object + Direct Object." },
+      { "section": "ஆங்கிலம்", "question": "Choose the comparative degree: \"Gold is ______ than silver.\"", "options": ["precious", "more precious", "most precious", "as precious as"], "answer": 1, "ex": "Use 'more' for comparison of long adjectives." },
+      { "section": "ஆங்கிலம்", "question": "Meaning of Idiom: \"Once in a blue moon\":", "options": ["Very often", "Rarely", "Always", "Never"], "answer": 1, "ex": "Means something happens very rarely." },
+      { "section": "ஆங்கிலம்", "question": "Choose the correct homophone: \"I want a ______ of cake.\"", "options": ["peace", "peas", "piece", "pease"], "answer": 2, "ex": "Piece means a part/slice." },
+      { "section": "ஆங்கிலம்", "question": "Join using relative pronoun: \"This is the boy. He won the race.\"", "options": ["This is the boy which...", "This is the boy who won the race.", "whom...", "whose..."], "answer": 1, "ex": "Use 'who' for people." },
+      { "section": "ஆங்கிலம்", "question": "Identify the figure of speech: \"She is as brave as a lion.\"", "options": ["Metaphor", "Simile", "Personification", "Alliteration"], "answer": 1, "ex": "Comparing with 'as' or 'like' is Simile." },
+      { "section": "ஆங்கிலம்", "question": "Phrasal Verb for \"tolerate\":", "options": ["put off", "put on", "put up with", "put out"], "answer": 2, "ex": "Put up with means to tolerate." },
+      { "section": "ஆங்கிலம்", "question": "Identify the plural of \"Child\":", "options": ["Childs", "Childrens", "Children", "Childes"], "answer": 2, "ex": "Plural of child is children." },
+      { "section": "ஆங்கிலம்", "question": "suitable modal verb: \"You ______ wear a helmet while riding.\"", "options": ["can", "might", "must", "would"], "answer": 2, "ex": "Must is used for obligation." },
+      { "section": "ஆங்கிலம்", "question": "Pick out the correct spelling:", "options": ["Accomodation", "Accommodation", "Acommodation", "Accomadation"], "answer": 1, "ex": "Correct spelling has double c and double m." },
+      { "section": "ஆங்கிலம்", "question": "Syllabification of \"Beautiful\":", "options": ["Beau-ti-ful", "Be-au-ti-ful", "Beaut-i-ful", "Beau-tif-ul"], "answer": 0, "ex": "It's Beau-ti-ful." },
+      { "section": "ஆங்கிலம்", "question": "Appropriate Conjunction: \"______ he was sick, he attended the meeting.\"", "options": ["Because", "Although", "But", "So"], "answer": 1, "ex": "Although means despite being sick." },
+      { "section": "ஆங்கிலம்", "question": "Figure of speech: \"The wind whispered through the trees.\"", "options": ["Simile", "Metaphor", "Personification", "Oxymoron"], "answer": 2, "ex": "Giving human traits to non-human things." },
+      { "section": "ஆங்கிலம்", "question": "Fill in the blank: \"If I were a bird, I ______ fly.\"", "options": ["will", "shall", "would", "can"], "answer": 2, "ex": "Type 2 conditional uses 'would'." },
+      { "section": "ஆங்கிலம்", "question": "suitable collective noun: \"A ______ of bees.\"", "options": ["herd", "flock", "swarm", "pack"], "answer": 2, "ex": "A group of bees is called a swarm." },
+      { "section": "ஆங்கிலம்", "question": "Find the error: \"One of the boys are missing.\"", "options": ["One of", "the boys", "are", "missing"], "answer": 2, "ex": "Should be 'is' because the subject is 'One'." },
+      { "section": "ஆங்கிலம்", "question": "Part of speech of *beautifully*: \"She sings *beautifully*.\"", "options": ["Adjective", "Adverb", "Noun", "Verb"], "answer": 1, "ex": "Adverb describes the verb (sings)." },
+      { "section": "ஆங்கிலம்", "question": "Which is a Compound Word?", "options": ["Quickly", "Happiness", "Sunlight", "Unhappy"], "answer": 2, "ex": "Sun + Light = Sunlight." },
+      { "section": "ஆங்கிலம்", "question": "Statement into exclamatory: \"It is a very beautiful flower.\"", "options": ["How beautiful...", "What a beautiful flower it is!", "A beautiful...", "It is what..."], "answer": 1, "ex": "Exclamatory sentences use 'What a...'." },
+      { "section": "ஆங்கிலம்", "question": "reflexive pronoun: \"She cut ______ while chopping.\"", "options": ["himself", "myself", "herself", "themselves"], "answer": 2, "ex": "Reflexive for 'She' is 'herself'." },
+      { "section": "ஆங்கிலம்", "question": "Rhyming scheme of the lines (deep, keep, sleep, sleep):", "options": ["abab", "aabb", "aaaa", "abba"], "answer": 2, "ex": "All end sounds match." }
+    ]
+  }
+}

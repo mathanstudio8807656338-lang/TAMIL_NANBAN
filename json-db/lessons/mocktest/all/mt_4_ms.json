@@ -1,0 +1,1964 @@
+{
+  "code": "mt_4_ms",
+  "title": "TET மாதிரித் தேர்வு 4 (கணிதம் & அறிவியல்)",
+  "sections": [
+    {
+      "title": "தேர்வு விவரம்",
+      "content": "150 வினாக்கள்: உளவியல்-30, தமிழ்-30, ஆங்கிலம்-30, கணிதம்-30, அறிவியல்-30."
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "question": "கற்றலில் உடல் மற்றும் மன முதிர்ச்சி (Maturation) எவ்வாறு அமைகிறது?",
+        "options": [
+          "தடையாக",
+          "மாற்றமாக",
+          "அடித்தளமாக",
+          "தேவையாக"
+        ],
+        "answer": 2,
+        "explanation": "முறையான கற்றல் நிகழ்வதற்கு உடல் மற்றும் மன ரீதியான முதிர்ச்சி ஒரு அடிப்படைத் தேவையாக அல்லது அடித்தளமாக அமைகிறது.",
+        "originalFile": "psy_l3.json",
+        "section": "உளவியல்"
+      },
+      {
+        "question": "குழந்தை மொழி மற்றும் பண்பாட்டு விழுமியங்களை முதன்முதலில் யாரிடமிருந்து கற்றுக்கொள்கிறது?",
+        "options": [
+          "ஆசிரியர்களிடம் இருந்து",
+          "நண்பர்களிடம் இருந்து",
+          "குடும்ப உறுப்பினர்களிடம் இருந்து",
+          "தொலைக்காட்சியில் இருந்து"
+        ],
+        "answer": 2,
+        "explanation": "குழந்தை தனது குடும்ப உறுப்பினர்களுடனான தொடர்பு மூலமே மொழி மற்றும் பண்பாட்டு விழுமியங்களைக் கற்கிறது.",
+        "originalFile": "psy_l8.json",
+        "section": "உளவியல்"
+      },
+      {
+        "question": "கார்ல் யுங்கின் வகைப்பாட்டில், அதிக நண்பர்களைக் கொண்டு சமூகத்தோடு எளிதில் பழகுபவர்கள் யார்?",
+        "options": [
+          "புறமுகி (Extrovert)",
+          "அகமுகி (Introvert)",
+          "எண்டோமார்பிக்",
+          "உளப்பகுப்பாய்வாளர்"
+        ],
+        "answer": 0,
+        "explanation": "சமூகத்துடன் எளிதில் பழகும் தன்மை கொண்டவர்கள் புறமுகிகள் ஆவர்.",
+        "originalFile": "psy_l5.json",
+        "section": "உளவியல்"
+      },
+      {
+        "question": "நடத்தையியலாளர்கள் எதனை ஆராய்வதில்லை?",
+        "options": [
+          "வெளிப்படையான செயல்",
+          "உள்மன எண்ணங்கள் (Internal Feelings)",
+          "தண்டனை",
+          "பரிசு"
+        ],
+        "answer": 1,
+        "explanation": "நடத்தையியலாளர்கள் கண்களால் பார்க்கக்கூடிய மாற்றங்களை மட்டுமே ஆராய்வர்.",
+        "originalFile": "rev_3_psy.json",
+        "section": "உளவியல்"
+      },
+      {
+        "question": "ரோர்சாக் மைத்தடச் சோதனை (Rorschach Inkblot Test) எத்தனை அட்டைகளைப் பயன்படுத்துகிறது?",
+        "options": [
+          "5",
+          "15",
+          "10",
+          "20"
+        ],
+        "answer": 2,
+        "explanation": "ரோர்சாக் மைத்தடச் சோதனையில் 10 மைத்தட அட்டைகள் பயன்படுத்தப்படுகின்றன.",
+        "originalFile": "rev_6_psy.json",
+        "section": "உளவியல்"
+      },
+      {
+        "question": "குழந்தையின் ஆளுமையை முதலில் பாதிக்கும் சூழல் எது?",
+        "options": [
+          "பள்ளி",
+          "குடும்பம்",
+          "சமூகம்",
+          "சினிமா"
+        ],
+        "answer": 1,
+        "explanation": "குடும்பத்தில் இருந்தே ஆளுமைப் பண்புகள் வளரத் தொடங்குகின்றன.",
+        "originalFile": "rev_5_psy.json",
+        "section": "உளவியல்"
+      },
+      {
+        "question": "மாணவர்களின் அடைவுத் திறனை (Achievement) அளவிட உதவும் மதிப்பீடு எது?",
+        "options": [
+          "கற்றலுக்கான மதிப்பீடு",
+          "வளர்நிலை மதிப்பீடு",
+          "கற்றலை மதிப்பீடு செய்தல்",
+          "சுய மதிப்பீடு"
+        ],
+        "answer": 2,
+        "explanation": "கற்றலை மதிப்பீடு செய்தல் (Assessment of Learning) என்பது முழுமையான அடைவுத் திறனை அளவிட உதவுகிறது.",
+        "originalFile": "psy_l8.json",
+        "section": "உளவியல்"
+      },
+      {
+        "question": "தர்ஸ்டன் எத்தனை முதன்மை மனத்திறன்களை வலியுறுத்துகிறார்?",
+        "options": [
+          "5",
+          "7",
+          "8",
+          "120"
+        ],
+        "answer": 1,
+        "explanation": "தர்ஸ்டனின் குழு காரணி கோட்பாடு ஏழு (7) முதன்மை மனத்திறன்களை வலியுறுத்துகிறது.",
+        "originalFile": "psy_l4.json",
+        "section": "உளவியல்"
+      },
+      {
+        "question": "MOOC என்பதன் சரியான விரிவாக்கம் என்ன?",
+        "options": [
+          "Modern Open Online Classes",
+          "Massive Open Online Courses",
+          "Main Open Online Centers",
+          "Multiple Open Online Courses"
+        ],
+        "answer": 1,
+        "explanation": "MOOC என்பதன் விரிவாக்கம் Massive Open Online Courses என்பதாகும்.",
+        "originalFile": "psy_l9.json",
+        "section": "உளவியல்"
+      },
+      {
+        "question": "ஆல்பர்ட் பாண்டுராவின் (Bandura) 'கவனித்து கற்றல்' கோட்பாடு எதனுடன் தொடர்புடையது?",
+        "options": [
+          "உடல் ஒருங்கிணைப்பு",
+          "பள்ளியின் பன்முகத்தன்மை",
+          "ஊடகங்களில் வன்முறையைப் பார்த்து பின்பற்றுதல்",
+          "விளையாட்டில் குழுவாகச் செயல்படுதல்"
+        ],
+        "answer": 2,
+        "explanation": "குழந்தைகள் ஊடகங்களில் தாங்கள் காணும் வன்முறை மற்றும் தவறான நடத்தைகளை அப்படியே பின்பற்றுவதையே இது விளக்குகிறது.",
+        "originalFile": "rev_6_psy.json",
+        "section": "உளவியல்"
+      },
+      {
+        "question": "இந்தியக் கல்வியின் தரத்தை மேம்படுத்த உருவாக்கப்பட்ட வழிகாட்டி ஆவணம் எது?",
+        "options": [
+          "RTE Act 2009",
+          "NCF 2005",
+          "NEP 2020",
+          "CCE"
+        ],
+        "answer": 1,
+        "explanation": "தேசியக் கலைத்திட்டக் கட்டமைப்பு - 2005 (NCF, 2005) என்பது இந்தியக் கல்வியின் தரத்தை மேம்படுத்த உருவாக்கப்பட்ட ஆவணம்.",
+        "originalFile": "psy_l9.json",
+        "section": "உளவியல்"
+      },
+      {
+        "question": "குழந்தைகள் மற்றவர்களைப் பார்த்து அப்படியே செய்தல் எவ்வகை கற்றல்?",
+        "options": [
+          "உட்காட்சி வழிக்கற்றல்",
+          "செய்து கற்றல்",
+          "பாவனை வழிக்கற்றல் (Imitation)",
+          "நிலைநிறுத்தல்"
+        ],
+        "answer": 2,
+        "explanation": "பெரியவர்கள் செய்வதைப் பின்பற்றி நடப்பது பாவனை அல்லது போலச் செய்தல்.",
+        "originalFile": "rev_3_psy.json",
+        "section": "உளவியல்"
+      },
+      {
+        "question": "உளப்பகுப்பாய்வு (Psychoanalysis) முறையின் தந்தை யார்?",
+        "options": [
+          "வாட்சன்",
+          "சிக்மண்ட் பிராய்டு",
+          "கோலர்",
+          "தார்ண்டைக்"
+        ],
+        "answer": 1,
+        "explanation": "மனதின் ஆழமான ஆளுமைகளை ஆராய இம்முறை உதவுகிறது.",
+        "originalFile": "rev_3_psy.json",
+        "section": "உளவியல்"
+      },
+      {
+        "question": "மெய்நிகர் (Virtual) உலகில் அதிக நேரம் செலவிடுவதால் என்ன நிகழ வாய்ப்புள்ளது?",
+        "options": [
+          "நேரடிச் சமூகத் தொடர்புகள் குறையும்",
+          "உடல் உழைப்பு அதிகரிக்கும்",
+          "பள்ளியில் மதிப்பெண்கள் அதிகரிக்கும்",
+          "புதிய நண்பர்களை நேரில் சந்திக்கலாம்"
+        ],
+        "answer": 0,
+        "explanation": "இணையத்திலேயே மூழ்கியிருப்பதால், உண்மையான சமூக மற்றும் நேரடி மனிதத் தொடர்புகள் குறையத் தொடங்குகின்றன.",
+        "originalFile": "rev_6_psy.json",
+        "section": "உளவியல்"
+      },
+      {
+        "question": "கற்றல் என்பது முதிர்ச்சியால் (Maturation) மட்டும் ஏற்படும் மாற்றம் அல்ல - இது சரியா?",
+        "options": [
+          "சரி",
+          "தவறு",
+          "பகுதியளவு சரி",
+          "கூற முடியாது"
+        ],
+        "answer": 0,
+        "explanation": "கற்றல் என்பது பயிற்சி மற்றும் அனுபவத்தால் ஏற்படுவது, வெறும் உடல் வளர்ச்சியால் (முதிர்ச்சி) மட்டும் ஏற்படுவதல்ல.",
+        "originalFile": "psy_l3.json",
+        "section": "உளவியல்"
+      },
+      {
+        "question": "16 ஆளுமைக் காரணிகளை (16PF) உருவாக்கிய உளவியலாளர் யார்?",
+        "options": [
+          "காட்டெல்",
+          "ஆல்போர்ட்",
+          "ஷெல்டன்",
+          "ஹிப்போகிரேட்ஸ்"
+        ],
+        "answer": 0,
+        "explanation": "காட்டெல் (Cattell) 16 ஆளுமைக் காரணிகளை (16PF) உருவாக்கினார்.",
+        "originalFile": "rev_6_psy.json",
+        "section": "உளவியல்"
+      },
+      {
+        "question": "எண்டோமார்ஃபிக், மீசோமார்ஃபிக், எக்டோமார்ஃபிக் என உடல் அமைப்பின் அடிப்படையில் ஆளுமையைப் பிரித்தவர்?",
+        "options": [
+          "ஷெல்டன்",
+          "ஆல்போர்ட்",
+          "காட்டெல்",
+          "ஹிப்போகிரேட்ஸ்"
+        ],
+        "answer": 0,
+        "explanation": "உடல் அமைப்பின் அடிப்படையில் இந்த வகைப்பாட்டை அளித்தவர் ஷெல்டன் (Sheldon) ஆவார்.",
+        "originalFile": "rev_6_psy.json",
+        "section": "உளவியல்"
+      },
+      {
+        "question": "16 ஆளுமைக் காரணிகளை (16PF) உருவாக்கிய உளவியலாளர் யார்?",
+        "options": [
+          "காட்டெல்",
+          "ஆல்போர்ட்",
+          "ஷெல்டன்",
+          "ஹிப்போகிரேட்ஸ்"
+        ],
+        "answer": 0,
+        "explanation": "காட்டெல் (Cattell) 16 ஆளுமைக் காரணிகளை (16PF) உருவாக்கினார்.",
+        "originalFile": "psy_l5.json",
+        "section": "உளவியல்"
+      },
+      {
+        "question": "ஒரு குழந்தை எந்த முகமையிலிருந்து சமூகப் பொறுப்புணர்வைக் (Social Responsibility) கட்டாயமாகக் கற்கிறது?",
+        "options": [
+          "விளையாட்டு மைதானம்",
+          "பள்ளி",
+          "திரையரங்கம்",
+          "தனியறை"
+        ],
+        "answer": 1,
+        "explanation": "பள்ளிக்கூடமே மாணவர்களுக்கு ஒழுக்கத்தையும், சமூகப் பொறுப்புணர்வையும் முறைப்படி கற்பிக்கும் தலமாகும்.",
+        "originalFile": "psy_l6.json",
+        "section": "உளவியல்"
+      },
+      {
+        "question": "புதிய கற்பித்தல் முறைகளைக் கற்றுத் தரும் ICT தளங்களுக்கு ஓர் எடுத்துக்காட்டு தருக.",
+        "options": [
+          "Wikipedia",
+          "SWAYAM",
+          "Google Forms",
+          "E-Portfolio"
+        ],
+        "answer": 1,
+        "explanation": "SWAYAM, DIKSHA மற்றும் NPTEL போன்றவை புதிய கற்பித்தல் முறைகளைக் கற்றுத் தரும் ICT தளங்களாகும்.",
+        "originalFile": "psy_l9.json",
+        "section": "உளவியல்"
+      },
+      {
+        "question": "கல்வி உளவியலின் தந்தை எனப்படும் தார்ண்டைக் எந்த நாட்டு உளவியலாளர்?",
+        "options": [
+          "ஜெர்மனி",
+          "அமெரிக்கா",
+          "இலண்டன்",
+          "ரஷ்யா"
+        ],
+        "answer": 1,
+        "explanation": "எட்வர்டு லீ தார்ண்டைக் அமெரிக்காவைச் சேர்ந்தவர்.",
+        "originalFile": "rev_3_psy.json",
+        "section": "உளவியல்"
+      },
+      {
+        "question": "ஒரு குழு விளையாட்டின் போது ரவி தோல்வியடைந்து மிகவும் கோபப்படுகிறான். விளையாட்டின் மூலம் அவன் இன்னும் எந்த வளர்ச்சியைப் பெறவில்லை?",
+        "options": [
+          "உடல் வளர்ச்சி",
+          "அறிவு வளர்ச்சி",
+          "உணர்ச்சி வளர்ச்சி",
+          "மொழி வளர்ச்சி"
+        ],
+        "answer": 2,
+        "explanation": "தோல்விகளைத் தாங்கும் மனப்பக்குவமும், உணர்ச்சிகளைக் கட்டுப்படுத்துதலும் உணர்ச்சி வளர்ச்சியின் (Emotional Development) முக்கிய பகுதியாகும்.",
+        "originalFile": "psy_l6.json",
+        "section": "உளவியல்"
+      },
+      {
+        "question": "விதிகளைப் பின்பற்றுதல் மற்றும் குழுவாகச் செயல்படுதல் (Teamwork) எதனை உணர்த்துகிறது?",
+        "options": [
+          "சமூக வளர்ச்சி",
+          "உடல் வளர்ச்சி",
+          "அறிவு வளர்ச்சி",
+          "உணர்ச்சி வளர்ச்சி"
+        ],
+        "answer": 0,
+        "explanation": "மற்றவர்களுடன் இணைந்து செயல்படுதல் மற்றும் விதிகளுக்குக் கட்டுப்படுதல் ஆகியவை சமூக வளர்ச்சியின் (Social Development) வெளிப்பாடாகும்.",
+        "originalFile": "rev_6_psy.json",
+        "section": "உளவியல்"
+      },
+      {
+        "question": "ஒரு மாணவன் ஆசிரியரின் பாராட்டிற்காகப் பாடம் படிக்கிறான் எனில், இது எவ்வகை ஊக்கம்?",
+        "options": [
+          "அக ஊக்கம்",
+          "புற ஊக்கம்",
+          "அடைவூக்கம்",
+          "தன்மதிப்பு ஊக்கம்"
+        ],
+        "answer": 1,
+        "explanation": "வெளிக்காரணிகளான பாராட்டு, பரிசு போன்றவற்றிற்காகச் செயல்படுவது புற ஊக்கம்.",
+        "originalFile": "psy_l3.json",
+        "section": "உளவியல்"
+      },
+      {
+        "question": "சொற்கள், எண்கள் மற்றும் குறியீடுகளைக் கையாளும் திறன் எவ்வாறு அழைக்கப்படுகிறது?",
+        "options": [
+          "சமூக நுண்ணறிவு",
+          "கருத்தியல் நுண்ணறிவு",
+          "செயல்முறை நுண்ணறிவு",
+          "படைப்பாற்றல் நுண்ணறிவு"
+        ],
+        "answer": 1,
+        "explanation": "கருத்தியல் நுண்ணறிவு (Abstract Intelligence) என்பது குறியீடுகள், எண்கள் மற்றும் சொற்களைக் கையாளும் திறனைக் குறிக்கிறது.",
+        "originalFile": "psy_l4.json",
+        "section": "உளவியல்"
+      },
+      {
+        "question": "ஒரு ஆசிரியை நாளைய வகுப்பிற்கான கற்பித்தல் துணைக்கருவிகளைத் (TLM) தயார் செய்கிறார். ஜாக்சனின் கற்பித்தல் நிலைகளில் இது எந்த நிலையைக் குறிக்கிறது?",
+        "options": [
+          "இடைவினை நிலை",
+          "பின்-செயல்பாட்டு நிலை",
+          "முன்-செயல்பாட்டு நிலை",
+          "இவை எதுவுமில்லை"
+        ],
+        "answer": 2,
+        "explanation": "வகுப்பறைக்குச் செல்லும் முன் செய்யப்படும் தயாரிப்புகள் மற்றும் திட்டமிடல்கள் முன்-செயல்பாட்டு நிலை ஆகும்.",
+        "originalFile": "psy_l7.json",
+        "section": "உளவியல்"
+      },
+      {
+        "question": "ஒரு வகுப்பில் ஒரு மாணவன் பார்வைக்குறைபாடு உடையவனாக இருக்கிறான். அவனுக்காகப் பெரிய எழுத்துக்களில் அச்சிடப்பட்ட புத்தகங்கள் வழங்கப்பட்டு மற்ற சாதாரண மாணவர்களுடன் இணைந்து பயில்கிறான். இது எதன் உதாரணம்?",
+        "options": [
+          "தனிமைப்படுத்தப்பட்ட கல்வி",
+          "முறைசாராக் கல்வி",
+          "உள்ளடக்கிய கல்வி",
+          "சிறப்புப் பள்ளி"
+        ],
+        "answer": 2,
+        "explanation": "மாற்றுத்திறனாளி மாணவர்களைச் சாதாரண மாணவர்களுடன் இணைத்து சிறப்பு வசதி தருவது உள்ளடக்கிய கல்வியாகும்.",
+        "originalFile": "psy_l7.json",
+        "section": "உளவியல்"
+      },
+      {
+        "question": "முயற்சி செய்தும் கற்றலில் முன்னேற்றம் ஏதும் இல்லாத இடைகால நிலை?",
+        "options": [
+          "ஆரம்ப வேகம்",
+          "கற்றல் தேக்க நிலை (Plateau Phase)",
+          "இறுதி வேகம்",
+          "வெற்றி"
+        ],
+        "answer": 1,
+        "explanation": "முன்னேற்றம் தேங்கி நிற்கும் சமதள நிலை.",
+        "originalFile": "rev_3_psy.json",
+        "section": "உளவியல்"
+      },
+      {
+        "question": "எரிக்சனின் கோட்பாட்டின்படி 6 - 12 வயது என்பது எந்த நிலையைச் சார்ந்தது?",
+        "options": [
+          "பள்ளிப் பருவம்",
+          "குமரப் பருவம்",
+          "குழவிப் பருவம்",
+          "முதுமைப் பருவம்"
+        ],
+        "answer": 0,
+        "explanation": "பள்ளிப் பருவம்",
+        "originalFile": "psy_l1.json",
+        "section": "உளவியல்"
+      },
+      {
+        "question": "குறிப்பிட்ட துறைகளில் (எ.கா: இசை, ஓவியம்) தனித்து விளங்கும் திறன் ஸ்பியர்மனின் கோட்பாட்டின்படி எது?",
+        "options": [
+          "g-காரணி",
+          "s-காரணி",
+          "முதன்மைக் காரணி",
+          "பொருளடக்கம்"
+        ],
+        "answer": 1,
+        "explanation": "தனித்துவமான அல்லது குறிப்பிட்ட சிறப்பான திறன்கள் 's' காரணி (Specific factor) எனப்படும்.",
+        "originalFile": "psy_l4.json",
+        "section": "உளவியல்"
+      },
+      {
+        "question": "'ஒளி பிறந்தது' என்னும் பாடப்பகுதி யாருடனான நேர்காணலாக அமைந்துள்ளது?",
+        "options": [
+          "சி.வி. இராமன்",
+          "ஏ.பி.ஜே. அப்துல் கலாம்",
+          "மயில்சாமி அண்ணாதுரை",
+          "க. சிவன்"
+        ],
+        "answer": 1,
+        "explanation": "இப்பாடம் மாணவர்களுக்கும் ஏ.பி.ஜே. அப்துல் கலாம் அவர்களுக்கும் இடையிலான நேர்காணலாக அமைந்துள்ளது.",
+        "originalFile": "tam_6_t1_l4.json",
+        "section": "தமிழ்"
+      },
+      {
+        "question": "24. 'உழவர்' : ஏர் :: 'நெசவாளர்' : _________",
+        "options": [
+          "கத்தி",
+          "சுத்தியல்",
+          "தறி",
+          "ஊசி"
+        ],
+        "answer": 2,
+        "explanation": "உழவரின் முதன்மைக் கருவி ஏர், நெசவாளரின் முதன்மைக் கருவி தறி.",
+        "originalFile": "rev_4_tam.json",
+        "section": "தமிழ்"
+      },
+      {
+        "question": "பிறிதின்நோய் தந்நோய்போல் போற்றாக் கடை... இக்குறள் வலியுறுத்துவது எது?",
+        "options": [
+          "சுயநலம்",
+          "இரக்கம் / பிற உயிரை நேசித்தல்",
+          "செல்வம் சேர்த்தல்",
+          "கல்வி கற்றல்"
+        ],
+        "answer": 1,
+        "explanation": "பிற உயிர்களின் துன்பத்தை தன் துன்பமாகக் கருதும் பண்பு அறிவின் பயன் என வலியுறுத்தப்படுகிறது.",
+        "originalFile": "tam_6_t2_l17.json",
+        "section": "தமிழ்"
+      },
+      {
+        "question": "37. 'மக்கள் கவிஞர்' என அழைக்கப்படும் பட்டுக்கோட்டை கல்யாணசுந்தரம் எந்தத் துறையின் மூலமாகத் தன் சீர்திருத்தக் கருத்துகளை மக்களிடம் எளிதாகக் கொண்டு சேர்த்தார்?",
+        "options": [
+          "நாடகம்",
+          "திரையிசைப் பாடல்கள்",
+          "சிறுகதைகள்",
+          "மேடைப் பேச்சுகள்"
+        ],
+        "answer": "திரையிசைப் பாடல்கள்",
+        "explanation": "திரையிசைப் பாடல்கள் மூலமாகவே அவர் உழைப்பாளிகளின் உணர்வுகளையும் சீர்திருத்தங்களையும் பரப்பினார்.",
+        "originalFile": "tam_6_t2_l1.json",
+        "section": "தமிழ்"
+      },
+      {
+        "question": "சொல்லின் இடையில் வரும் எழுத்துகள் எவை?",
+        "options": [
+          "அ) மெய்யெழுத்துகள் மட்டும்",
+          "ஆ) உயிர்மெய் எழுத்துகள் மட்டும்",
+          "இ) மெய், உயிர்மெய், ஆய்தம் மற்றும் அளபெடையில் உயிரெழுத்து",
+          "ஈ) ஆய்த எழுத்து மட்டும்"
+        ],
+        "answer": "இ) மெய், உயிர்மெய், ஆய்தம் மற்றும் அளபெடையில் உயிரெழுத்து",
+        "explanation": "உயிர் எழுத்துகள் அளபெடையில் மட்டுமே இடையில் வரும்.",
+        "originalFile": "tam_6_t1_l16.json",
+        "section": "தமிழ்"
+      },
+      {
+        "question": "14. விவசாயம் செய்த எழிலன் எவற்றைப் பயிரிட்டான்?",
+        "options": [
+          "காய்கறிகள்",
+          "மலர்ச்செடிகள்",
+          "பழ மரங்கள்",
+          "மூலிகைகள்"
+        ],
+        "answer": 0,
+        "explanation": "அவன் நிலத்தில் காய்கறிகளைப் பயிரிட்டு, அவற்றை விற்றுப் லாபம் ஈட்டினான்.",
+        "originalFile": "tam_6_t2_l15.json",
+        "section": "தமிழ்"
+      },
+      {
+        "question": "1. 'ஏதிலிக்குருவிகள்' கவிதையை இயற்றியவர் யார்?",
+        "options": [
+          "பாரதியார்",
+          "அழகிய பெரியவன்",
+          "சுரதா",
+          "கண்ணதாசன்"
+        ],
+        "answer": 1,
+        "explanation": "ஏதிலிக்குருவிகள் என்னும் கவிதையை எழுதியவர் அழகிய பெரியவன் ஆவார்.",
+        "originalFile": "tam_6_t1_l8.json",
+        "section": "தமிழ்"
+      },
+      {
+        "question": "நாவின் நுனி அண்ணத்தின் நுனியைப் பொருந்துவது எதற்கு?",
+        "options": [
+          "அ) க், ங்",
+          "ஆ) ச், ஞ்",
+          "இ) ட், ண்",
+          "ஈ) த், ந்"
+        ],
+        "answer": "இ) ட், ண்",
+        "explanation": "டகரமும் ணகரமும் நுனி நாவால் பிறக்கின்றன.",
+        "originalFile": "tam_8_l5.json",
+        "section": "தமிழ்"
+      },
+      {
+        "question": "15. α««α«░α»üα«ñα»ìα«ñα»üα«╡α««α»ì, α«àα«▒α«┐α«╡α«┐α«»α«▓α»ì α««α«▒α»ìα«▒α»üα««α»ì α«òα«úα«┐α«ñ α«¿α»éα«▓α»ìα«òα«│α»ì α«Äα«¿α»ìα«ñα«ñα»ì α«ñα«│α«ñα»ìα«ñα«┐α«▓α»ì α«ëα«│α»ìα«│α«⌐?",
+        "options": [
+          "α«¿α«╛α«⌐α»ìα«òα«╛α««α»ì α«ñα«│α««α»ì",
+          "α«Éα«¿α»ìα«ñα«╛α««α»ì α«ñα«│α««α»ì",
+          "α«åα«▒α«╛α««α»ì α«ñα«│α««α»ì",
+          "α«Åα«┤α«╛α««α»ì α«ñα«│α««α»ì"
+        ],
+        "answer": 1,
+        "explanation": "α«Éα«¿α»ìα«ñα«╛α««α»ì α«ñα«│α««α»ì α««α«░α»üα«ñα»ìα«ñα»üα«╡α««α»ì, α«àα«▒α«┐α«╡α«┐α«»α«▓α»ì, α«òα«úα«┐α«ñ α«¿α»éα«▓α»ìα«òα«│α»üα«òα»ìα«òα«╛α«ò α«Æα«ñα»üα«òα»ìα«òα«¬α»ìα«¬α«ƒα»ìα«ƒα»üα«│α»ìα«│α«ñα»ü.",
+        "originalFile": "backup_l4_utf8.json",
+        "section": "தமிழ்"
+      },
+      {
+        "question": "வாழ்க்கையில் வெற்றி பெற கலாம் கூறும் வழிகள் எத்தனை?",
+        "options": [
+          "ஒன்று",
+          "இரண்டு",
+          "மூன்று",
+          "நான்கு"
+        ],
+        "answer": "இரண்டு",
+        "explanation": "அறிவை வளர்க்கும் பேச்சைக் கேட்பது மற்றும் கடின உழைப்பு என இரண்டு வழிகளைக் கூறுகிறார்.",
+        "originalFile": "tam_6_t1_l15.json",
+        "section": "தமிழ்"
+      },
+      {
+        "question": "தந்நோய்போல் போற்றாக் கடை - இதில் 'கடை' என்பதன் பொருள் யாது?",
+        "options": [
+          "கடைசி",
+          "இல்லாவிட்டால்",
+          "அங்காடி",
+          "வாசல்படி"
+        ],
+        "answer": 1,
+        "explanation": "போற்றாக் கடை என்றால் போற்றாவிட்டால் அல்லது பேணாவிட்டால் என்று பொருள்.",
+        "originalFile": "tam_6_t2_l17.json",
+        "section": "தமிழ்"
+      },
+      {
+        "question": "நாவின் நுனி மேல்வாய்ப் பல்லின் அடியைப் பொருந்துவதால் பிறக்கும் எழுத்துக்கள்?",
+        "options": [
+          "அ) க், ங்",
+          "ஆ) ச், ஞ்",
+          "இ) ட், ண்",
+          "ஈ) த், ந்"
+        ],
+        "answer": "ஈ) த், ந்",
+        "explanation": "நாக்கின் நுனி மேல்வாய்ப் பல்லின் அடிப்பகுதியைத் தொடும்போது இவை பிறக்கின்றன.",
+        "originalFile": "tam_8_l5.json",
+        "section": "தமிழ்"
+      },
+      {
+        "question": "22. ஆய்த எழுத்து தனக்கு பின் எவ்வகை எழுத்தைப் பெற்று வரும்?",
+        "options": [
+          "மெல்லின உயிர்மெய்",
+          "இடையின உயிர்மெய்",
+          "வல்லின உயிர்மெய்",
+          "வல்லின மெய்"
+        ],
+        "answer": 2,
+        "explanation": "ஆய்த எழுத்து தனக்கு பின் எப்போதும் ஒரு வல்லின உயிர்மெய் எழுத்தைப் பெற்று வரும்.",
+        "originalFile": "tam_6_t1_l10.json",
+        "section": "தமிழ்"
+      },
+      {
+        "question": "'சந்தனம்' என்ற சொல்லில் வந்துள்ள இன எழுத்துகள் எவை?",
+        "options": [
+          "ண் - ட்",
+          "ந் - த்",
+          "ம் - ப்",
+          "ன் - ற்"
+        ],
+        "answer": 1,
+        "explanation": "சந்தனம் என்ற சொல்லில் 'ந்' என்னும் மெல்லினத்திற்குப் பின் 'த்' (த) வந்துள்ளது.",
+        "originalFile": "tam_6_t2_l5.json",
+        "section": "தமிழ்"
+      },
+      {
+        "question": "முதலெழுத்துகள் எனப்படுபவை யாவை?",
+        "options": [
+          "உயிர் மட்டும்",
+          "மெய் மட்டும்",
+          "உயிரும் மெய்யும்",
+          "ஆய்தம்"
+        ],
+        "answer": "உயிரும் மெய்யும்",
+        "explanation": "",
+        "originalFile": "tam_6_t1_l10.json",
+        "section": "தமிழ்"
+      },
+      {
+        "question": "அப்துல் கலாம் வெற்றி பெறுவதற்கு எத்தனை வழிகள் உள்ளன என்று மாணவர்களுக்குக் கூறினார்?",
+        "options": [
+          "ஒன்று",
+          "இரண்டு",
+          "மூன்று",
+          "நான்கு"
+        ],
+        "answer": 1,
+        "explanation": "வெற்றி பெற இரண்டு வழிகள் உள்ளதாகக் கலாம் குறிப்பிட்டார்.",
+        "originalFile": "tam_6_t1_l15.json",
+        "section": "தமிழ்"
+      },
+      {
+        "question": "இரா. இளங்குமரனார் எங்கு நூலகம் ஒன்றை அமைத்துள்ளார்?",
+        "options": [
+          "அ) திருச்சியில் (அல்லூர்)",
+          "ஆ) மதுரையில்",
+          "இ) சென்னையில்",
+          "ஈ) கோவையில்"
+        ],
+        "answer": "அ) திருச்சியில் (அல்லூர்)",
+        "explanation": "திருச்சி அருகே அல்லூரில் 'திருவள்ளுவர் தவச்சாலை' மற்றும் 'பாவாணர் நூலகம்' அமைத்துள்ளார்.",
+        "originalFile": "tam_8_l4.json",
+        "section": "தமிழ்"
+      },
+      {
+        "question": "நூறு ஆண்டுகளுக்குப் பிறகு இந்தியாவில் எந்தப் பல்கலைக்கழகத்தைப் போல வலுவான கல்வி முறை இருக்கும் என கலாம் நம்புகிறார்?",
+        "options": [
+          "தட்சசீலம்",
+          "நாளந்தா",
+          "காஞ்சி",
+          "மதுரை"
+        ],
+        "answer": 1,
+        "explanation": "பண்டைய இந்தியாவின் மிகச்சிறந்த கல்வி நிறுவனமான நாளந்தாவைப் போல் கல்வி முறை மாறும் என்றார் கலாம்.",
+        "originalFile": "tam_6_t1_l15.json",
+        "section": "தமிழ்"
+      },
+      {
+        "question": "'மாத்திரை' என்பது இலக்கணத்தில் எதனைக் குறிக்கிறது?",
+        "options": [
+          "மருந்து",
+          "எடை",
+          "கால அளவு",
+          "நீளம்"
+        ],
+        "answer": 2,
+        "explanation": "மாத்திரை என்பது இங்கு எழுத்துகளை ஒலிக்கும் கால அளவைக் குறிக்கிறது.",
+        "originalFile": "tam_6_t1_l5.json",
+        "section": "தமிழ்"
+      },
+      {
+        "question": "32. 'மரம்' என்ற சொல்லின் பொருள் வீரம். 'அறம்' என்பதன் பொருள் என்னவாக இருக்கும்?",
+        "options": [
+          "தீமை",
+          "நற்செயல் / தருமம்",
+          "மரம்",
+          "போர்"
+        ],
+        "answer": 1,
+        "explanation": "அறம் என்பது நல்லொழுக்கம் அல்லது நற்செயலைக் குறிக்கும் சொல்லாகும்.",
+        "originalFile": "tam_6_t2_l12.json",
+        "section": "தமிழ்"
+      },
+      {
+        "question": "பொருத்துக: முத்துச்சுடர் போல - _________",
+        "options": [
+          "தென்றல்",
+          "மாடங்கள்",
+          "நிலாவொளி",
+          "உள்ளம்"
+        ],
+        "answer": 2,
+        "explanation": "",
+        "originalFile": "tam_6_t1_l7.json",
+        "section": "தமிழ்"
+      },
+      {
+        "question": "28. 'பத்து' என்ற சொல்லில் உள்ள சார்பெழுத்து எது?",
+        "options": [
+          "ப",
+          "த்",
+          "து",
+          "இதில் சார்பெழுத்து இல்லை"
+        ],
+        "answer": 2,
+        "explanation": "ப (உயிர்மெய் - சார்பெழுத்து), த் (மெய் - முதலெழுத்து), து (உயிர்மெய் - சார்பெழுத்து). எனினும் 'து' என்பது குற்றியலுகரம் என்ற சார்பெழுத்து வகையிலும் வரும்.",
+        "originalFile": "tam_6_t1_l10.json",
+        "section": "தமிழ்"
+      },
+      {
+        "question": "செய்யுளில் ஓசை குறையும்போது அதனை நிறைவு செய்ய உயிர் எழுத்து அளபெடுப்பது?",
+        "options": [
+          "ஒற்றளபெடை",
+          "உயிரளபெடை",
+          "குற்றியலிகரம்",
+          "குற்றியலுகரம்"
+        ],
+        "answer": 1,
+        "explanation": "உயிரெழுத்துக்கள் நீண்டு ஒலிப்பது உயிரளபெடை எனப்படும்.",
+        "originalFile": "rev_1_tam.json",
+        "section": "தமிழ்"
+      },
+      {
+        "question": "26. காமராசரின் இல்லங்கள் அமைந்துள்ள இடங்கள் யாவை?",
+        "options": [
+          "சென்னை மற்றும் மதுரை",
+          "சென்னை மற்றும் விருதுநகர்",
+          "கன்னியாகுமரி மற்றும் விருதுநகர்",
+          "மதுரை மற்றும் விருதுநகர்"
+        ],
+        "answer": "சென்னை மற்றும் விருதுநகர்",
+        "explanation": "சென்னை மற்றும் விருதுநகரில் உள்ள அவரது இல்லங்கள் அரசுடைமையாக்கப்பட்டு நினைவு இல்லங்களாக உள்ளன.",
+        "originalFile": "tam_6_t2_l2.json",
+        "section": "தமிழ்"
+      },
+      {
+        "question": "தக்க வழிகளை ஆராய்ந்து கூறும் அறிஞர்கள் மன்னனுக்கு எவ்வாறு அமைகிறார்கள்?",
+        "options": [
+          "அமைச்சராக",
+          "கண்ணாக",
+          "ஆயுதமாக",
+          "நிழலாக"
+        ],
+        "answer": 1,
+        "explanation": "சூழ்வார் கண்ணாக ஒழுகலான் மன்னவன் - அறிஞர்களே மன்னனுக்குக் கண்கள் போன்றவர்கள்.",
+        "originalFile": "tam_6_t2_l17.json",
+        "section": "தமிழ்"
+      },
+      {
+        "question": "6. மாமல்லபுரத்தை இன்று எவ்வாறு அழைக்கிறோம்?",
+        "options": [
+          "மகாபலிபுரம்",
+          "சென்னை",
+          "பூம்புகார்",
+          "உறையூர்"
+        ],
+        "answer": 0,
+        "explanation": "மாமல்லன் பெயரால் அமைந்த இந்நகரம் காலப்போக்கில் மகாபலிபுரம் என வழங்கப்படலாயிற்று.",
+        "originalFile": "tam_6_t2_l16.json",
+        "section": "தமிழ்"
+      },
+      {
+        "question": "35. 'மீள்கோணம்' - நூலின் ஆசிரியர் யார்?",
+        "options": [
+          "சுப்புரத்தினம்",
+          "அரவிந்தன் (அழகிய பெரியவன்)",
+          "இராதாகிருஷ்ணன்",
+          "மு.வரதராசனார்"
+        ],
+        "answer": 1,
+        "explanation": "மீள்கோணம் என்ற கட்டுரைத் தொகுப்பை எழுதியவர் அழகிய பெரியவன்.",
+        "originalFile": "tam_6_t1_l8.json",
+        "section": "தமிழ்"
+      },
+      {
+        "question": "மரபு நிலைத் திரியின் _________?",
+        "options": [
+          "அ) நன்மை தரும்",
+          "ஆ) பிறிது பிறிதாகும்",
+          "இ) இன்பம் தரும்",
+          "ஈ) எதுவும் மாறாது"
+        ],
+        "answer": "ஆ) பிறிது பிறிதாகும்",
+        "explanation": "பொருள் மாறிவிடும் என்று தொல்காப்பியம் எச்சரிக்கிறது.",
+        "originalFile": "tam_8_l2.json",
+        "section": "தமிழ்"
+      },
+      {
+        "question": "26. ஔவையார் கையாண்ட தூது முறை எத்தகையது?",
+        "options": [
+          "மிரட்டல் முறை",
+          "கெஞ்சும் முறை",
+          "உளவியல் சார்ந்த மதிநுட்ப முறை",
+          "பரிசளிக்கும் முறை"
+        ],
+        "answer": 2,
+        "explanation": "எதிரியைப் புகழ்வது போலப் பேசி அவனது உளவியலை மாற்றி, அறியாமையை அகற்றிய மதிநுட்பம் அது.",
+        "originalFile": "tam_6_t2_l9.json",
+        "section": "தமிழ்"
+      },
+      {
+        "question": "'தள்ளினுந் தள்ளாமை நீர்த்து' - இதில் 'நீர்த்து' என்பதன் பொருள் என்ன?",
+        "options": [
+          "தண்ணீர் போன்றது",
+          "தன்மை உடையது",
+          "கரைந்து போகும்",
+          "பயனற்றது"
+        ],
+        "answer": 1,
+        "explanation": "நீர்த்து என்பது 'தன்மை உடையது' அல்லது 'இயல்புடையது' என்ற பொருளைத் தரும்.",
+        "originalFile": "tam_6_t2_l11.json",
+        "section": "தமிழ்"
+      },
+      {
+        "question": "Meaning of 'Conservation'? || 'Conservation' என்பதன் பொருள்?",
+        "options": [
+          "Killing animals",
+          "Preservation/Protection",
+          "Waste",
+          "Building city"
+        ],
+        "answer": 1,
+        "explanation": "",
+        "originalFile": "eng_8_l6.json",
+        "section": "ஆங்கிலம்"
+      },
+      {
+        "question": "How should we handle misunderstanding in friendship? || தோழமையில் வரும்த் தப்பபிப்பிராயத்தை எவ்வாறுப் போக்கலாம்?",
+        "options": [
+          "Stop talking forever",
+          "Talk and solve it",
+          "Tell bad things to others",
+          "Start a big fight"
+        ],
+        "answer": 1,
+        "explanation": "",
+        "originalFile": "eng_8_l16.json",
+        "section": "ஆங்கிலம்"
+      },
+      {
+        "question": "Identify the verb: 'She sings beautifully.'",
+        "options": [
+          "She",
+          "Sings",
+          "Beautifully",
+          "Is"
+        ],
+        "answer": 1,
+        "explanation": "'Sings' is the action being performed.",
+        "originalFile": "rev_2_eng.json",
+        "section": "ஆங்கிலம்"
+      },
+      {
+        "question": "Identify: \"A soul you serve\". Who is the person being served? || இது யாரைக் குறிக்கும்?",
+        "options": [
+          "Every person we meet",
+          "Only the rich",
+          "The poet himself",
+          "God"
+        ],
+        "answer": 0,
+        "explanation": "",
+        "originalFile": "eng_8_l8.json",
+        "section": "ஆங்கிலம்"
+      },
+      {
+        "question": "In the poem, the computer is compared to? || கவிதையில் கணினி எதனுடன் ஒப்பிடப்படுகிறது?",
+        "options": [
+          "A tired person/child",
+          "A car",
+          "A mountain",
+          "The sun"
+        ],
+        "answer": 0,
+        "explanation": "",
+        "originalFile": "eng_8_l20.json",
+        "section": "ஆங்கிலம்"
+      },
+      {
+        "question": "Safety on the internet is also called? || இணையப் பாதுகாப்பு எவ்வாறு அழைக்கப்படுகிறது?",
+        "options": [
+          "Food safety",
+          "Cyber Safety",
+          "Water safety",
+          "Road safety"
+        ],
+        "answer": 1,
+        "explanation": "",
+        "originalFile": "eng_8_l13.json",
+        "section": "ஆங்கிலம்"
+      },
+      {
+        "question": "Who is the 'I' in the poem 'Fire Work Night'? || 'பயர்வொர்க் நைட்' கவிதையில் 'நான்' (I) என்பது யாரைக் குறிக்கும்?",
+        "options": [
+          "The Master",
+          "The Dog",
+          "A firework",
+          "A child"
+        ],
+        "answer": 1,
+        "explanation": "",
+        "originalFile": "eng_8_l14.json",
+        "section": "ஆங்கிலம்"
+      },
+      {
+        "question": "Identify: Prefix of 'Disappear'. || 'Disappear' எனும் சொல்லின் முன்னொட்டு?",
+        "options": [
+          "Appear",
+          "Dis",
+          "Ear",
+          "Pear"
+        ],
+        "answer": 1,
+        "explanation": "",
+        "originalFile": "eng_8_l3.json",
+        "section": "ஆங்கிலம்"
+      },
+      {
+        "question": "What is the meaning of 'Everlasting'? || 'Everlasting' என்ற சொல்லின் பொருள் என்ன?",
+        "options": [
+          "Short-lived",
+          "Lasting forever / Eternal",
+          "Small",
+          "Weak"
+        ],
+        "answer": 1,
+        "explanation": "",
+        "originalFile": "eng_8_l2.json",
+        "section": "ஆங்கிலம்"
+      },
+      {
+        "question": "Expansion of PIN? || PIN என்பதன் விரிவாக்கம்?",
+        "options": [
+          "Personal Identification Number",
+          "Post Information Network",
+          "Public Info Node",
+          "None"
+        ],
+        "answer": 0,
+        "explanation": "",
+        "originalFile": "eng_8_l1.json",
+        "section": "ஆங்கிலம்"
+      },
+      {
+        "question": "What is the meaning of 'Cuisine'? || 'Cuisine' என்பதன் பொருள்?",
+        "options": [
+          "Traveling",
+          "Style of cooking",
+          "Sport",
+          "Book reading"
+        ],
+        "answer": 1,
+        "explanation": "",
+        "originalFile": "eng_8_l4.json",
+        "section": "ஆங்கிலம்"
+      },
+      {
+        "question": "Mani's writing became a 'successful career' because? || மணியின் எழுத்துப்பணி எதனால் ஒரு வெற்றிகரமானத் தொழிலாக மாறியது?",
+        "options": [
+          "He practiced a lot",
+          "He had no other work",
+          "The king paid him",
+          "It was a magic book"
+        ],
+        "answer": 0,
+        "explanation": "",
+        "originalFile": "eng_8_l4.json",
+        "section": "ஆங்கிலம்"
+      },
+      {
+        "question": "43. How does the poet describe his father's love in \"Special Hero\"?",
+        "options": [
+          "Temporary",
+          "Everlasting",
+          "Strict",
+          "Conditional"
+        ],
+        "answer": 1,
+        "explanation": "The poet says, \"Your love is everlasting,\" highlighting a permanent, unconditional bond.",
+        "originalFile": "rev_4_eng.json",
+        "section": "ஆங்கிலம்"
+      },
+      {
+        "question": "What did Newton find out about light using a prism? || முப்பட்டகத்தைப் பயன்படுத்தி ஒளி பற்றி நியூட்டன் என்னத் தெரிவித்தார்?",
+        "options": [
+          "Light is black",
+          "White light has seven colors",
+          "Light only has one color",
+          "Light doesn't travel"
+        ],
+        "answer": 1,
+        "explanation": "",
+        "originalFile": "eng_8_l7.json",
+        "section": "ஆங்கிலம்"
+      },
+      {
+        "question": "The island was a small green _____. / அந்த தீவு ஒரு சிறிய பச்சை ____.",
+        "options": [
+          "a) Desert",
+          "b) Paradise",
+          "c) Forest",
+          "d) Park"
+        ],
+        "answer": "b) Paradise",
+        "explanation": "The rocky island transformed into a green paradise with trees.",
+        "originalFile": "eng_6_t1_l5.json",
+        "section": "ஆங்கிலம்"
+      },
+      {
+        "question": "Rucha was afraid of ________.",
+        "options": [
+          "Running",
+          "Failing",
+          "Cycling",
+          "Losing"
+        ],
+        "answer": 2,
+        "explanation": "She had a fall while cycling and lost her confidence.",
+        "originalFile": "rev_5_eng.json",
+        "section": "ஆங்கிலம்"
+      },
+      {
+        "question": "Why is the father called a 'Hero'? || தந்தை ஏன் ஒரு நாயகனாக அழைக்கப்படுகிறார்?",
+        "options": [
+          "He fought in war",
+          "For his noble love and protection",
+          "He is famous",
+          "He won a medal"
+        ],
+        "answer": 1,
+        "explanation": "",
+        "originalFile": "eng_8_l2.json",
+        "section": "ஆங்கிலம்"
+      },
+      {
+        "question": "Meaning of 'Vigour'? || 'Vigour' என்பதன் பொருள்?",
+        "options": [
+          "Weakness",
+          "Liveliness and Energy",
+          "Sadness",
+          "Slowness"
+        ],
+        "answer": 1,
+        "explanation": "",
+        "originalFile": "eng_8_l4.json",
+        "section": "ஆங்கிலம்"
+      },
+      {
+        "question": "If the king had not helped the hermit, what would have happened? || அரசர் ஞானிக்கு உதவாமல் திரும்பியிருந்தால் என்னவாயிருக்கும்?",
+        "options": [
+          "He would have been safe",
+          "The enemy would have attacked him on the way",
+          "He would have found gold",
+          "Nothing would have changed"
+        ],
+        "answer": 1,
+        "explanation": "",
+        "originalFile": "eng_8_l9.json",
+        "section": "ஆங்கிலம்"
+      },
+      {
+        "question": "What was the name of the school the girls belonged to? / சிறுமிகள் படிக்கும் பள்ளியின் பெயர் என்ன?",
+        "options": [
+          "a) New Era",
+          "b) Springfields",
+          "c) Global School",
+          "d) Victory High"
+        ],
+        "answer": "b) Springfields",
+        "explanation": "Springfields is the name of their school.",
+        "originalFile": "eng_6_t2_l3.json",
+        "section": "ஆங்கிலம்"
+      },
+      {
+        "question": "Meaning of 'Special' in Tamil: || 'Special' என்பதன் தமிழ்ப் பொருள்?",
+        "options": [
+          "சாதாரண",
+          "/",
+          "பழைய",
+          "வேகமான"
+        ],
+        "answer": 1,
+        "explanation": "",
+        "originalFile": "eng_8_l17.json",
+        "section": "ஆங்கிலம்"
+      },
+      {
+        "question": "The expansion of 'A' in the friend context? || ஏ (A) என்பது நட்பின்ச் சூழலில்?",
+        "options": [
+          "Affection",
+          "Angry",
+          "Above",
+          "Away"
+        ],
+        "answer": 0,
+        "explanation": "",
+        "originalFile": "eng_8_l16.json",
+        "section": "ஆங்கிலம்"
+      },
+      {
+        "question": "What is the synonym of 'Gloom'? || 'Gloom' என்பதன் ஒத்தப்பொருள் யாது?",
+        "options": [
+          "Brightness",
+          "Darkness/Sadness",
+          "Happiness",
+          "Speed"
+        ],
+        "answer": 1,
+        "explanation": "",
+        "originalFile": "eng_8_l11.json",
+        "section": "ஆங்கிலம்"
+      },
+      {
+        "question": "Identify: 'Blackboard' || 'பிளாக்போர்டு' என்பது?",
+        "options": [
+          "Adjective",
+          "Compound word",
+          "Verb",
+          "Pronoun"
+        ],
+        "answer": 1,
+        "explanation": "",
+        "originalFile": "eng_8_l2.json",
+        "section": "ஆங்கிலம்"
+      },
+      {
+        "question": "Which word is a synonym for 'spectacular'?",
+        "options": [
+          "A) Boring",
+          "B) Eye-catching",
+          "C) Frightened",
+          "D) Delicious"
+        ],
+        "answer": "B",
+        "explanation": "'Spectacular' means beautiful in a dramatic and eye-catching way.",
+        "originalFile": "eng_6_t2_l4.json",
+        "section": "ஆங்கிலம்"
+      },
+      {
+        "question": "Why are the sights 'gone forever'?",
+        "options": [
+          "A) The train crashes",
+          "B) The train moves so fast that the specific fleeting moment can never be seen exactly the same way again",
+          "C) The poet goes blind",
+          "D) The sights are destroyed after the train passes"
+        ],
+        "answer": "B",
+        "explanation": "The journey is continuous, and the rapid forward motion leaves the momentary sights permanently behind.",
+        "originalFile": "eng_6_t2_l5.json",
+        "section": "ஆங்கிலம்"
+      },
+      {
+        "question": "In the poem 'I Dream of Spices', what did the boy actually buy instead of spices?",
+        "options": [
+          "Sugar and Salt",
+          "Onion and Garlic",
+          "Sesame Seeds and Onions",
+          "Chillies and Mustard"
+        ],
+        "answer": 2,
+        "explanation": "He forgets the list and buys sesame seeds and onions.",
+        "originalFile": "rev_2_eng.json",
+        "section": "ஆங்கிலம்"
+      },
+      {
+        "question": "Identify the homophone for 'Hear'. || 'Hear' - என்பதற்கான 'ஹோமோபோன்' எது?",
+        "options": [
+          "Here",
+          "Hair",
+          "Heir",
+          "None"
+        ],
+        "answer": 0,
+        "explanation": "",
+        "originalFile": "eng_8_l20.json",
+        "section": "ஆங்கிலம்"
+      },
+      {
+        "question": "Identify: 'Shravya' is an expansion of? || சிராவியா என்பது எதைக் குறிக்கும்?",
+        "options": [
+          "A real person",
+          "A fake name/identity",
+          "A school",
+          "None"
+        ],
+        "answer": 1,
+        "explanation": "",
+        "originalFile": "eng_8_l21.json",
+        "section": "ஆங்கிலம்"
+      },
+      {
+        "question": "What does a 'Rational fly' suggest? || 'Rational fly' (பகுத்தறிவுப் பறத்தல்) என்பது எதனைக் குறிக்கும்?",
+        "options": [
+          "A flying insect",
+          "Thinking logically about life",
+          "A fast plane",
+          "None"
+        ],
+        "answer": 1,
+        "explanation": "",
+        "originalFile": "eng_8_l5.json",
+        "section": "ஆங்கிலம்"
+      },
+      {
+        "question": "நிகழ்வெண் அட்டவணையில் (Frequency Table) உள்ள மூன்று முக்கியப் பகுதிகள் யாவை?",
+        "options": [
+          "தரவு, நேர்க்கோட்டுக் குறி, நிகழ்வெண்",
+          "அளவுத்திட்டம், தரவு, படங்கள்",
+          "X-அச்சு, Y-அச்சு, பட்டை",
+          "படம், அளவு, கோடு"
+        ],
+        "answer": 0,
+        "explanation": "ஒரு நிலையான அட்டவணை இந்த மூன்று நிரல்களைக் (Columns) கொண்டிருக்கும்.",
+        "originalFile": "mat_6_t1_l5.json",
+        "section": "கணிதம்"
+      },
+      {
+        "question": "ஒரு பிக்டோகிராமில் ஒரு பூவின் படம் 15 பூக்களைக் குறிக்கிறது. 45 பூக்களைக் குறிக்க எத்தனை பூக்களின் படங்கள் வரையப்பட வேண்டும்?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": 1,
+        "explanation": "45 / 15 = 3. எனவே 3 முழுப் படங்கள் தேவை.",
+        "originalFile": "mat_6_t1_l5.json",
+        "section": "கணிதம்"
+      },
+      {
+        "question": "ஒரு கிலோ தக்காளி ரூ.30. நீங்கள் 3 கிலோ தக்காளி வாங்குகிறீர்கள். பட்டியலில் அதன் தொகை என்னவாக இருக்கும்?",
+        "options": [
+          "ரூ.30",
+          "ரூ.60",
+          "ரூ.90",
+          "ரூ.120"
+        ],
+        "answer": 2,
+        "explanation": "அளவு (3) × வீதம் (30) = தொகை (ரூ.90).",
+        "originalFile": "mat_6_t2_l3.json",
+        "section": "கணிதம்"
+      },
+      {
+        "question": "73. சுருக்குக: $\\frac{-3}{4} \\times \\left(\\frac{8}{-9}\\right)$",
+        "options": [
+          "$\\frac{2}{3}$",
+          "$\\frac{-2}{3}$",
+          "$\\frac{3}{2}$",
+          "$\\frac{-3}{2}$"
+        ],
+        "answer": 0,
+        "explanation": "$\\frac{-3 \\times 8}{4 \\times -9} = \\frac{-24}{-36} = \\frac{2}{3}$.",
+        "originalFile": "rev_4_mat.json",
+        "section": "கணிதம்"
+      },
+      {
+        "question": "ஒரு பொருளை ₹50-க்கு வாங்கி அதன் மீது ₹10 போக்குவரத்துச் செலவு செய்து ₹70-க்கு விற்றால் இலாபம்?",
+        "options": [
+          "₹10",
+          "₹20",
+          "₹60",
+          "₹5"
+        ],
+        "answer": 0,
+        "explanation": "மொத்த அடக்க விலை = 50 + 10 = 60. இலாபம் = 70 - 60 = ₹10.",
+        "originalFile": "rev_6_mat.json",
+        "section": "கணிதம்"
+      },
+      {
+        "question": "x இன் தொடரி y எனில், (y - x) இன் மதிப்பு என்ன?",
+        "options": [
+          "-1",
+          "0",
+          "1",
+          "2"
+        ],
+        "answer": 2,
+        "explanation": "தொடரி என்பது ஓர் எண்ணைவிட 1 அதிகம். y = x + 1. எனவே y - x = 1.",
+        "originalFile": "mat_6_t3_l2.json",
+        "section": "கணிதம்"
+      },
+      {
+        "question": "ஒரு நெட்டாண்டு (Leap Year) எத்தனை நாட்களைக் கொண்டது?",
+        "options": [
+          "364",
+          "365",
+          "366",
+          "360"
+        ],
+        "answer": 2,
+        "explanation": "பிப்ரவரி மாதத்தில் 29 நாட்கள் வருவதால் ஒரு நாள் கூடுகிறது.",
+        "originalFile": "rev_5_mat.json",
+        "section": "கணிதம்"
+      },
+      {
+        "question": "சதுரத்தின் மூலைவிட்டம் 10cm எனில், அதன் பரப்பளவு காண்க.",
+        "options": [
+          "100 cm2",
+          "50 cm2",
+          "25 cm2",
+          "20 cm2"
+        ],
+        "answer": 1,
+        "explanation": "$(1/2) \\times d^2 = (1/2) \\times 100 = 50$.",
+        "originalFile": "rev_1_mat.json",
+        "section": "கணிதம்"
+      },
+      {
+        "question": "உயர்தர சிந்தனை (HOT): 2/3 இன் சரிபாதியுடன் 1/3-ஐக் கூட்டினால் கிடைப்பது என்ன?",
+        "options": [
+          "2/3",
+          "1",
+          "1/3",
+          "5/6"
+        ],
+        "answer": 0,
+        "explanation": "2/3 இன் சரிபாதி (1/2) = 1/3. அதனுடன் 1/3 ஐக் கூட்டினால்: 1/3 + 1/3 = 2/3.",
+        "originalFile": "mat_6_t3_l1.json",
+        "section": "கணிதம்"
+      },
+      {
+        "question": "உயர்தர சிந்தனை (HOT): ஒரு கம்பத்தின் 1/3 பகுதி சேற்றிலும், 1/4 பகுதி நீரிலும், மீதமுள்ள 5 மீட்டர் நீளம் நீருக்கு மேலேயும் உள்ளது எனில் கம்பத்தின் மொத்த நீளம் என்ன?",
+        "options": [
+          "12 மீ",
+          "10 மீ",
+          "15 மீ",
+          "20 மீ"
+        ],
+        "answer": 0,
+        "explanation": "நீருக்குக் கீழே உள்ள பகுதி = 1/3 + 1/4 = 7/12. மீதமுள்ள பகுதி = 1 - 7/12 = 5/12. 5/12 பங்கு = 5 மீட்டர் எனில் மொத்தப் பங்கு 12 மீட்டர்.",
+        "originalFile": "mat_6_t3_l1.json",
+        "section": "கணிதம்"
+      },
+      {
+        "question": "68. $(a+b)^2$ இன் விரிவாக்கம் என்ன?",
+        "options": [
+          "$a^2 + b^2$",
+          "$a^2 - 2ab + b^2$",
+          "$a^2 + 2ab + b^2$",
+          "$a^2 - b^2$"
+        ],
+        "answer": 2,
+        "explanation": "இது அடிப்படை இயற்கணித முற்றுரிமை (Algebraic Identity).",
+        "originalFile": "rev_4_mat.json",
+        "section": "கணிதம்"
+      },
+      {
+        "question": "2011 ஆம் ஆண்டில் `2000 நட்டமும், 2012 ஆம் ஆண்டில் `3000 இலாபமும் கிடைக்கிறது. இவற்றை முழுக்களாகக் குறிப்பாய்:",
+        "options": [
+          "+2000, -3000",
+          "-2000, +3000",
+          "-2000, -3000",
+          "+2000, +3000"
+        ],
+        "answer": 1,
+        "explanation": "நட்டம் குறை எண் (-), இலாபம் மிகை எண் (+).",
+        "originalFile": "mat_6_t3_l2.json",
+        "section": "கணிதம்"
+      },
+      {
+        "question": "மோனா லிசா ஓவியத்தின் மேம்பட்ட அழகுக்குக் காரணமான கணித அமைப்பு எது?",
+        "options": [
+          "தங்க விகிதம்",
+          "பிபனோசி சுருள் அமைப்பு",
+          "யூக்ளிடின் வடிவியல்",
+          "பகாமூலங்கள்"
+        ],
+        "answer": 1,
+        "explanation": "மோனா லிசா உருவமானது பிபனோசி சுருள் அமைப்பில் வரையப்பட்டுள்ளதால் மிகவும் அழகாக உள்ளது.",
+        "originalFile": "mat_6_t3_l5.json",
+        "section": "கணிதம்"
+      },
+      {
+        "question": "எப்பொழுதும் ஒரே ஒரு நிலையான எண்ணளவைக் குறிக்கும் குறியீடு எவ்வாறு அழைக்கப்படும்?",
+        "options": [
+          "மாறி",
+          "மாறிலி",
+          "இயற்கணிதம்",
+          "சமன்பாடு"
+        ],
+        "answer": 1,
+        "explanation": "மாறிலி (Constant) என்பது நிலையானது. எந்தச் சூழ்நிலையிலும் அதன் மதிப்பு மாறாது (எ.கா: 10, 5).",
+        "originalFile": "mat_6_t1_l2.json",
+        "section": "கணிதம்"
+      },
+      {
+        "question": "பொருத்துக: A. சுடோகு  B. மாயச் சதுரம்  C. மர வரைபடம்  D. 15 (1. சாத்தியக்கூறுகள் 2. 1 முதல் 9ன் மாய எண் 3. ஒற்றை எண் 4. மாய எண்)",
+        "options": [
+          "A-3, B-4, C-1, D-2",
+          "A-1, B-2, C-3, D-4",
+          "A-4, B-3, C-2, D-1",
+          "A-2, B-4, C-1, D-3"
+        ],
+        "answer": 0,
+        "explanation": "சுடோகு=ஒற்றை எண், மாயச்சதுரம்=மாய எண், மர வரைபடம்=சாத்தியக்கூறுகள், 15=1-9ன் மாய எண்.",
+        "originalFile": "mat_6_t1_l6.json",
+        "section": "கணிதம்"
+      },
+      {
+        "question": "50-ன் தொடரியின் முன்னி என்ன?",
+        "options": [
+          "49",
+          "50",
+          "51",
+          "52"
+        ],
+        "answer": 1,
+        "explanation": "50-ன் தொடரி 51. 51-ன் முன்னி மீண்டும் 50-ஏ ஆகும்.",
+        "originalFile": "mat_6_t1_l1.json",
+        "section": "கணிதம்"
+      },
+      {
+        "question": "(-5 முதல் +5 வரை உள்ள முழுக்களின் எண்ணிக்கை, இரு எண்களையும் உள்ளடக்கி)",
+        "options": [
+          "10",
+          "11",
+          "9",
+          "5"
+        ],
+        "answer": 1,
+        "explanation": "-5 முதல் -1 வரை 5 எண்கள், 0 ஒரு எண், 1 முதல் 5 வரை 5 எண்கள். மொத்தம் 5+1+5 = 11 எண்கள்.",
+        "originalFile": "mat_6_t3_l2.json",
+        "section": "கணிதம்"
+      },
+      {
+        "question": "நிரப்பு கோணங்கள் ஜோடியைக் கண்டறிக.",
+        "options": [
+          "100°, 80°",
+          "45°, 45°",
+          "50°, 50°",
+          "30°, 70°"
+        ],
+        "answer": 1,
+        "explanation": "45° + 45° = 90°. கூடுதல் 90° வருவதால் இது நிரப்பு கோணம்.",
+        "originalFile": "mat_6_t1_l4.json",
+        "section": "கணிதம்"
+      },
+      {
+        "question": "கிலோமீட்டர் என்பது எதை அளக்கப் பயன்படுகிறது?",
+        "options": [
+          "குறைந்த நீளம்",
+          "பொருளின் எடை",
+          "அதிக தூரம் (நீளம்)",
+          "நீரின் அளவு"
+        ],
+        "answer": 2,
+        "explanation": "ஊர்களுக்கு இடையேயான தூரம் போன்ற பெரிய நீளங்களை அளக்க கிலோமீட்டர் பயன்படுகிறது.",
+        "originalFile": "mat_6_t2_l2.json",
+        "section": "கணிதம்"
+      },
+      {
+        "question": "தரவுகளை எண்கள் மூலம் கூறுவதைத் தவிர்த்து, படங்களாகவோ குறியீடுகளாகவோ குறிக்கும் முறை?",
+        "options": [
+          "பட்டை விளக்கப்படம்",
+          "பட விளக்கப்படம்",
+          "நிகழ்வெண் அட்டவணை",
+          "நேர்க்கோட்டுக் குறி"
+        ],
+        "answer": 1,
+        "explanation": "படங்கள் மூலம் தரவுகளை விளக்குவது பட விளக்கப்படம் (Pictograph) ஆகும்.",
+        "originalFile": "mat_6_t1_l5.json",
+        "section": "கணிதம்"
+      },
+      {
+        "question": "கண்ணாடியில் தோன்றும் பிம்பத்திற்கும் உண்மையான பொருளுக்கும் உள்ள வேறுபாடு என்ன?",
+        "options": [
+          "அளவில் சிறியதாக இருக்கும்",
+          "இட வல மாற்றம்",
+          "நிற மாற்றம்",
+          "எவ்வித மாற்றமும் இல்லை"
+        ],
+        "answer": 1,
+        "explanation": "பொருளுக்கும் அதன் ஆடிப் பிம்பத்திற்கும் இடையே உள்ள ஒரே வேறுபாடு அதன் இட வல மாற்றம் ஆகும்.",
+        "originalFile": "mat_6_t3_l4.json",
+        "section": "கணிதம்"
+      },
+      {
+        "question": "2.5 செ.மீ என்பதை மில்லிமீட்டரில் கூறுக.",
+        "options": [
+          "25 மி.மீ",
+          "205 மி.மீ",
+          "2.05 மி.மீ",
+          "250 மி.மீ"
+        ],
+        "answer": 0,
+        "explanation": "1 செ.மீ = 10 மி.மீ. எனவே 2.5 × 10 = 25 மி.மீ.",
+        "originalFile": "mat_6_t2_l2.json",
+        "section": "கணிதம்"
+      },
+      {
+        "question": "-46 ஆனது -35 இக்கு எண்கோட்டில் எந்தப் புறமாக அமையும்?",
+        "options": [
+          "வலதுபுறம்",
+          "மேலே",
+          "இடதுபுறம்",
+          "கீழே"
+        ],
+        "answer": 2,
+        "explanation": "-46 என்பது -35 ஐ விடச் சிறியது. சிறிய எண்கள் எப்பொழுதும் இடதுபுறமே அமையும்.",
+        "originalFile": "mat_6_t3_l2.json",
+        "section": "கணிதம்"
+      },
+      {
+        "question": "ஒரு முக்கோணத்தில் அதிகபட்சமாக எத்தனை விரிகோணங்கள் இருக்க முடியும்?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "0"
+        ],
+        "answer": 0,
+        "explanation": "ஒரு விரிகோணமே 90°-ஐ விட அதிகம் என்பதால், இரண்டாவதாக ஒரு விரிகோணம் இருந்தால் மொத்தக் கூடுதல் 180°-ஐ தாண்டிவிடும். எனவே ஒரு விரிகோணம் மட்டுமே இருக்க முடியும்.",
+        "originalFile": "mat_6_t2_l4.json",
+        "section": "கணிதம்"
+      },
+      {
+        "question": "0 என்பது இயல் எண்ணா?",
+        "options": [
+          "ஆம்",
+          "இல்லை",
+          "சில நேரங்களில்",
+          "கணிக்க முடியாது"
+        ],
+        "answer": 1,
+        "explanation": "இயல் எண்கள் 1-லிருந்து மட்டுமே தொடங்கும். 0 என்பது முழு எண்களில் மட்டுமே வரும்.",
+        "originalFile": "mat_6_t1_l1.json",
+        "section": "கணிதம்"
+      },
+      {
+        "question": "₹10,000 அசலுக்கு 5% வட்டியில் 2 ஆண்டுகளுக்கு தனிவட்டி என்ன?",
+        "options": [
+          "₹1000",
+          "₹500",
+          "₹1500",
+          "₹2000"
+        ],
+        "answer": 0,
+        "explanation": "$SI = PNR/100 = (10000 \\times 2 \\times 5)/100 = 1000$.",
+        "originalFile": "rev_1_mat.json",
+        "section": "கணிதம்"
+      },
+      {
+        "question": "உயர்தர சிந்தனை (HOT): பட்டை விளக்கப்படத்தில் இரு பட்டைகளின் உயரங்கள் முறையே 12 செ.மீ மற்றும் 8 செ.மீ. அளவுத்திட்டம் 1 செ.மீ = 50 பொருட்கள் எனில், இரு பொருட்களின் எண்ணிக்கை வித்தியாசம் என்ன?",
+        "options": [
+          "400",
+          "200",
+          "100",
+          "600"
+        ],
+        "answer": 1,
+        "explanation": "உயர வித்தியாசம் = 12 - 8 = 4 செ.மீ. எண்ணிக்கை வித்தியாசம் = 4 x 50 = 200 பொருட்கள்.",
+        "originalFile": "mat_6_t1_l5.json",
+        "section": "கணிதம்"
+      },
+      {
+        "question": "ஒரு பட விளக்கப்படத்தில் 1 மகிழுந்துப் படம் 100 மகிழுந்துகளைக் குறிக்கிறது எனில், 3 படங்கள் எத்தனை மகிழுந்துகளைக் குறிக்கும்?",
+        "options": [
+          "103",
+          "30",
+          "300",
+          "3000"
+        ],
+        "answer": 2,
+        "explanation": "3 x 100 = 300 மகிழுந்துகள்.",
+        "originalFile": "mat_6_t1_l5.json",
+        "section": "கணிதம்"
+      },
+      {
+        "question": "ஒரு இயந்திரம் 5 நிமிடங்களில் 100 பிரதிகளை அச்சிடுகிறது. 1500 பிரதிகளை அச்சிட எவ்வளவு நேரம் ஆகும்?",
+        "options": [
+          "45 நிமிடம்",
+          "60 நிமிடம்",
+          "75 நிமிடம்",
+          "90 நிமிடம்"
+        ],
+        "answer": 2,
+        "explanation": "1 நிமிடத்தில் = 100/5 = 20 பிரதிகள். 1500 பிரதிகள் எடுக்க = 1500/20 = 75 நிமிடம்.",
+        "originalFile": "mat_6_t1_l3.json",
+        "section": "கணிதம்"
+      },
+      {
+        "question": "தரவுகளை படங்களாகக் குறிப்பது எவ்வாறு பலனளிக்கிறது?",
+        "options": [
+          "இடத்தை மிச்சப்படுத்துகிறது",
+          "எண்ணுவதை கடினமாக்குகிறது",
+          "பார்வைக்கு எளிமையாகவும், எளிதில் புரிந்துகொள்ளவும் முடிகிறது",
+          "நம்பகத்தன்மையை குறைக்கிறது"
+        ],
+        "answer": 2,
+        "explanation": "பிக்டோகிராம் மற்றும் பட்டை விளக்கப்படங்கள் தரவுகளை விரைவாகவும் எளிதாகவும் ஒப்பிட்டுப் பார்க்க உதவுகின்றன.",
+        "originalFile": "mat_6_t1_l5.json",
+        "section": "கணிதம்"
+      },
+      {
+        "question": "நமது பூமிக்குக் கிடைக்கும் முதன்மையான மற்றும் இயற்கையான வெப்ப ஆற்றல் மூலம் எது?",
+        "options": [
+          "நிலக்கரி",
+          "எரிமலைகள்",
+          "சூரியன்",
+          "மின்சாரம்"
+        ],
+        "answer": 2,
+        "explanation": "சூரியன் தான் நமது பூமியின் முதன்மையான மற்றும் இயற்கையான வெப்ப ஆற்றல் மூலமாகும்.",
+        "originalFile": "sci_6_t2_l1.json",
+        "section": "அறிவியல்"
+      },
+      {
+        "question": "நிலக்காற்று மற்றும் கடல்காற்று (Land breeze & Sea breeze) உருவாவதற்குக் காரணமான வெப்பப் பரவல் முறை எது?",
+        "options": [
+          "வெப்பக் கடத்தல்",
+          "வெப்பச் சலனம்",
+          "வெப்பக் கதிர்வீச்சு",
+          "பதங்கமாதல்"
+        ],
+        "answer": 1,
+        "explanation": "வளிமண்டலத்தில் காற்று உருவாவதற்கு வெப்பச் சலனமே காரணம். திரவங்கள் மற்றும் வாயுக்களில் மூலக்கூறுகளின் உண்மையான இடப்பெயர்ச்சியால் வெப்பம் பரவும் முறை வெப்பச் சலனம் எனப்படும்.",
+        "originalFile": "sci_8_l4.json",
+        "section": "அறிவியல்"
+      },
+      {
+        "question": "ஒரு குறுவட்டை (CD) விட டி.வி.டி (DVD)-யில் எத்தனை மடங்கு அதிக தகவல்களைச் சேமிக்க முடியும்?",
+        "options": [
+          "2 மடங்கு",
+          "4 மடங்கு",
+          "6 மடங்கு",
+          "8 மடங்கு"
+        ],
+        "answer": 2,
+        "explanation": "குறுவட்டை விட 6 மடங்கு அதிக தகவல்களை DVD-யில் சேமிக்கலாம்.",
+        "originalFile": "sci_6_t2_l7.json",
+        "section": "அறிவியல்"
+      },
+      {
+        "question": "பொருத்துக: 1. ஆவியாதல் - b | 2. நீராவிப்போக்கு - c | 3. மழைப்பொழிவு - d | 4. பனிப்பாறைகள் - a",
+        "options": [
+          "1-b, 2-c, 3-d, 4-a",
+          "1-a, 2-b, 3-c, 4-d",
+          "1-c, 2-d, 3-a, 4-b",
+          "1-d, 2-a, 3-b, 4-c"
+        ],
+        "answer": 0,
+        "explanation": "ஆவியாதல் சூரிய வெப்பத்தால் நிகழ்கிறது, நீராவிப்போக்கு இலைகளில் நிகழும், மழைப்பொழிவு ஆவி சுருங்குதலின் அடுத்த நிலை.",
+        "originalFile": "sci_6_t3_l2.json",
+        "section": "அறிவியல்"
+      },
+      {
+        "question": "மின்னியல் சாதனமான நிலைமின்காட்டியில் (Electroscope) தங்க இலைகள் பயன்படுத்தப்பட முக்கியக் காரணம் என்ன?",
+        "options": [
+          "தங்கம் மிகவும் விலை உயர்ந்தது",
+          "தங்கம் மிகச்சிறந்த மின்கடத்தி மற்றும் மிக மெல்லியதாக அடிக்கக்கூடியது",
+          "தங்கம் காந்தத்தன்மை கொண்டது",
+          "தங்கம் எளிதில் உருகாது"
+        ],
+        "answer": 1,
+        "explanation": "தங்கம் மற்றும் வெள்ளி மிகச்சிறந்த மின்கடத்திகள். மேலும் தங்கத்தை மிக மெல்லிய இலையாக எளிதில் மாற்ற முடியும் என்பதால் இது பயன்படுகிறது.",
+        "originalFile": "sci_8_l5.json",
+        "section": "அறிவியல்"
+      },
+      {
+        "question": "நீரிலிருந்து வெப்பம் வெளியேறும் போது, நீர் என்னவாக மாறும்?",
+        "options": [
+          "நீராவி",
+          "பனிக்கட்டி",
+          "மழைநீர்",
+          "கொதிநீர்"
+        ],
+        "answer": 1,
+        "explanation": "நீரிலிருந்து வெப்பம் வெளியேற்றப்படும் போது அது குளிர்ந்து உறைந்து பனிக்கட்டியாக (0°C) மாறும்.",
+        "originalFile": "sci_6_t2_l1.json",
+        "section": "அறிவியல்"
+      },
+      {
+        "question": "நீர்மின் நிலையங்களில் உள்ள அணைகளின் அடிப்பகுதி மிகவும் தடிமனாகக் கட்டப்படுவதன் காரணம் என்ன?",
+        "options": [
+          "நீரின் நிலை உராய்வைத் தடுக்க",
+          "ஆழம் அதிகரிக்கும் போது திரவத்தின் அழுத்தம் அதிகரிக்கும் என்பதால்",
+          "பாகுநிலையைக் குறைப்பதற்காக",
+          "ஆழம் அதிகரிக்கும் போது அழுத்தம் குறையும் என்பதால்"
+        ],
+        "answer": 1,
+        "explanation": "ஆழம் அதிகரிக்க, அதிகரிக்க திரவத்தின் அழுத்தம் அதிகரிக்கும். அதிக அழுத்தத்தைத் தாங்கவே அடிப்பகுதி தடிமனாக உள்ளது.",
+        "originalFile": "sci_8_l2.json",
+        "section": "அறிவியல்"
+      },
+      {
+        "question": "நல்லெண்ணெய், தேங்காய் எண்ணெய் போன்றவற்றில் அதிகப்படியாக உள்ளது எது?",
+        "options": [
+          "புரதம்",
+          "கொழுப்பு",
+          "விட்டமின்",
+          "நீர்"
+        ],
+        "answer": 1,
+        "explanation": "எண்ணெய் வித்துகளில் அதிகப்படியான கொழுப்புச் சத்துக்கள் உள்ளன.",
+        "originalFile": "sci_6_t1_l6.json",
+        "section": "அறிவியல்"
+      },
+      {
+        "question": "பாரிஸ் சாந்தின் வேதியியல் வாய்ப்பாடு என்ன?",
+        "options": [
+          "CaSO4·2H2O",
+          "CaSO4·½H2O",
+          "MgSO4·7H2O",
+          "CaCO3"
+        ],
+        "answer": 1,
+        "explanation": "பாரிஸ் சாந்து என்பது கால்சியம் சல்பேட் ஹெமிஹைட்ரேட் (CaSO4·½H2O) ஆகும்.",
+        "originalFile": "sci_6_t3_l3.json",
+        "section": "அறிவியல்"
+      },
+      {
+        "question": "சூரிய ஒளியில் உள்ள ஏழு நிறங்களை பிரித்துக் காட்டுவது எது?",
+        "options": [
+          "ஆடி",
+          "முப்பட்டகம்",
+          "லென்ஸ்",
+          "தொலைநோக்கி"
+        ],
+        "answer": 1,
+        "explanation": "முப்பட்டகம் (Prism) நிறப்பிரிகையை ஏற்படுத்தும்.",
+        "originalFile": "rev_1_sci.json",
+        "section": "அறிவியல்"
+      },
+      {
+        "question": "நாம் தட்டச்சு செய்யும் எழுத்துக்களைக் கணினித் திரையில் காண உதவும் உள்ளீட்டுக் கருவி எது?",
+        "options": [
+          "விசைப்பலகை (Keyboard)",
+          "சுட்டி (Mouse)",
+          "ஒலிவாங்கி (Microphone)",
+          "வருடி (Scanner)"
+        ],
+        "answer": 0,
+        "explanation": "எழுத்துக்கள், எண்கள் மற்றும் சிறப்பு குறியீடுகளை உள்ளீடு செய்ய விசைப்பலகை பயன்படுகிறது.",
+        "originalFile": "sci_6_t3_l6.json",
+        "section": "அறிவியல்"
+      },
+      {
+        "question": "தாவரங்களில் நீரை கடத்தும் திசு எது?",
+        "options": [
+          "புளோயம்",
+          "சைலம்",
+          "பாரன்கைமா",
+          "கோலன்கைமா"
+        ],
+        "answer": 1,
+        "explanation": "சைலம் நீரை கடத்துகிறது, புளோயம் உணவை கடத்துகிறது.",
+        "originalFile": "rev_1_sci.json",
+        "section": "அறிவியல்"
+      },
+      {
+        "question": "பூங்கா (Park) மற்றும் நிலவாழிடம் (Terrarium) ஆகியவை எவ்வகை சூழல்மண்டலம்?",
+        "options": [
+          "செயற்கை சூழல்மண்டலம்",
+          "இயற்கை நிலவாழ் சூழல்மண்டலம்",
+          "இயற்கை நீர்வாழ் சூழல்மண்டலம்",
+          "பாலைவன சூழல்மண்டலம்"
+        ],
+        "answer": 0,
+        "explanation": "மனிதர்கள் தமது தேவைக்காகவோ அல்லது பொழுதுபோக்கிற்காகவோ உருவாக்கும் சூழல்மண்டலங்கள் செயற்கை சூழல்மண்டலங்கள் எனப்படும்.",
+        "originalFile": "sci_6_t3_l4.json",
+        "section": "அறிவியல்"
+      },
+      {
+        "question": "1824 ஆம் ஆண்டில் போர்ட்லேண்ட் சிமெண்டைக் கண்டுபிடித்தவர் யார்?",
+        "options": [
+          "ஜான் டால்டன்",
+          "ஜோசப் ஆஸ்ப்டின்",
+          "அலெக்ஸாண்டர் பிளெமிங்",
+          "மேரி கியூரி"
+        ],
+        "answer": 1,
+        "explanation": "இங்கிலாந்து நாட்டைச் சேர்ந்த ஜோசப் ஆஸ்ப்டின் (Joseph Aspdin) என்ற கொத்தனார் 1824-ல் சிமெண்டைக் கண்டுபிடித்தார்.",
+        "originalFile": "sci_6_t3_l3.json",
+        "section": "அறிவியல்"
+      },
+      {
+        "question": "பரப்பு இழுவிசையின் பன்னாட்டு (SI) அலகு என்ன?",
+        "options": [
+          "நியூட்டன்",
+          "பாஸ்கல்",
+          "நியூட்டன் / மீட்டர் (N / m)",
+          "பாய்ஸ்"
+        ],
+        "answer": 2,
+        "explanation": "பரப்பு இழுவிசையின் SI அலகு நியூட்டன் / மீட்டர் (N m^-1 அல்லது N/m) ஆகும்.",
+        "originalFile": "sci_8_l2.json",
+        "section": "அறிவியல்"
+      },
+      {
+        "question": "நன்னீரில் உள்ள உப்பின் சதவீதம் தோராயமாக எவ்வளவு இருக்கும்?",
+        "options": [
+          "0.05% முதல் 1% வரை",
+          "3% க்கும் மேல்",
+          "10% க்கும் மேல்",
+          "50%"
+        ],
+        "answer": 0,
+        "explanation": "ஆறுகள், ஏரிகளில் உள்ள நன்னீரில் உப்பின் அளவு மிகக் குறைவு. இது தோராயமாக 0.05% முதல் 1% வரை மட்டுமே இருக்கும்.",
+        "originalFile": "sci_6_t3_l2.json",
+        "section": "அறிவியல்"
+      },
+      {
+        "question": "வெப்பத்தை அளக்கப் பயன்படும் மற்றொரு அலகு எது?",
+        "options": [
+          "கலோரி",
+          "மோல்",
+          "ஆம்பியர்",
+          "கெல்வின்"
+        ],
+        "answer": 0,
+        "explanation": "வெப்பத்தின் SI அலகு ஜூல் என்றாலும், அது கலோரி (Calorie) என்ற அலகாலும் அளவிடப்படுகிறது.",
+        "originalFile": "sci_6_t2_l1.json",
+        "section": "அறிவியல்"
+      },
+      {
+        "question": "மூட்டு முடக்கு வாதத்தை (Osteoarthritis) குணப்படுத்தும் தன்மை கொண்ட தாவரம் எது?",
+        "options": [
+          "பாலக் கீரை",
+          "முருங்கை இலை",
+          "கறிவேப்பிலை",
+          "புதினா"
+        ],
+        "answer": 0,
+        "explanation": "பாலக் கீரையில் உள்ள வேதிப்பொருட்கள் மூட்டுகளில் ஏற்படும் முடக்கு வாதத்தைக் குணப்படுத்தும் தன்மை கொண்டது என ஆராய்ச்சிகள் கூறுகின்றன.",
+        "originalFile": "sci_6_t3_l5.json",
+        "section": "அறிவியல்"
+      },
+      {
+        "question": "ஒரு பொருள் நடுநிலைத்தன்மை (Neutral) கொண்டது என எப்போது அழைக்கப்படுகிறது?",
+        "options": [
+          "எலக்ட்ரான்கள் இல்லாத போது",
+          "நியூட்ரான்கள் மற்றும் புரோட்டான்கள் சமமாக இருக்கும் போது",
+          "எலக்ட்ரான்களின் எண்ணிக்கையும், புரோட்டான்களின் எண்ணிக்கையும் சமமாக இருக்கும் போது",
+          "புரோட்டான்கள் இல்லாத போது"
+        ],
+        "answer": 2,
+        "explanation": "ஒரு பொருளில் உள்ள எதிர்மின்சுமை கொண்ட எலக்ட்ரான்களின் எண்ணிக்கையும், நேர்மின்சுமை கொண்ட புரோட்டான்களின் எண்ணிக்கையும் சமமாக இருந்தால் அது நடுநிலைத்தன்மை எனப்படும்.",
+        "originalFile": "sci_8_l5.json",
+        "section": "அறிவியல்"
+      },
+      {
+        "question": "விலங்கு செல்களில் எது இருப்பதில்லை?",
+        "options": [
+          "உட்கரு",
+          "செல் சுவர்",
+          "சைட்டோபிளாசம்",
+          "மைட்டோகாண்ட்ரியா"
+        ],
+        "answer": 1,
+        "explanation": "செல் சுவர் தாவர செல்களின் பாதுகாப்பு கவசம்.",
+        "originalFile": "rev_5_sci.json",
+        "section": "அறிவியல்"
+      },
+      {
+        "question": "ஒளிச்சேர்க்கையின் போது தாவரங்கள் வெளியிடும் வாயு எது?",
+        "options": [
+          "நைட்ரஜன்",
+          "கார்பன்-டை-ஆக்ஸைடு",
+          "ஆக்ஸிஜன்",
+          "ஹைட்ரஜன்"
+        ],
+        "answer": 2,
+        "explanation": "தாவரங்கள் நமக்குத் தேவையான ஆக்ஸிஜனை வெளியிடுகின்றன.",
+        "originalFile": "rev_6_sci.json",
+        "section": "அறிவியல்"
+      },
+      {
+        "question": "உயர்தர சிந்தனை வினா: உங்களிடம் ஒரு திறந்தமூல மென்பொருள் உள்ளது. அதில் உங்களுக்குத் தேவையான ஒரு புதிய வசதியைச் சேர்க்க முடியுமா?",
+        "options": [
+          "முடியாது, அது சட்டவிரோதம்.",
+          "முடியாது, ஏனெனில் அதன் மூலக்குறியீடு மறைக்கப்பட்டிருக்கும்.",
+          "முடியும், ஏனெனில் அதன் மூலக்குறியீடு திறந்திருக்கும்.",
+          "அதற்குக் கூடுதல் பணம் செலுத்த வேண்டும்."
+        ],
+        "answer": 2,
+        "explanation": "திறந்தமூல மென்பொருளின் (FOSS) முக்கிய அம்சமே, பயனர்கள் அதன் மூலக்குறியீட்டைப் பெற்றுத் தங்களுக்கு ஏற்றவாறு மாற்றி அமைத்துக்கொள்ள முடியும் என்பதே.",
+        "originalFile": "sci_6_t3_l6.json",
+        "section": "அறிவியல்"
+      },
+      {
+        "question": "டெரா பைட் (TB) அளவீட்டிற்கு முந்தைய அளவு எது?",
+        "options": [
+          "கிலோ பைட்",
+          "மெகா பைட்",
+          "ஜிகா பைட் (GB)",
+          "பைட்"
+        ],
+        "answer": 2,
+        "explanation": "வரிசைப்படி ஜிகா பைட்டிற்கு (GB) அடுத்ததாக டெரா பைட் (TB) வருகிறது.",
+        "originalFile": "sci_6_t2_l7.json",
+        "section": "அறிவியல்"
+      },
+      {
+        "question": "தாவரங்களின் உணவைத் தயாரிக்கும் தொழிற்சாலை எது?",
+        "options": [
+          "வேர்",
+          "தண்டு",
+          "இலை (Leaf)",
+          "மலர்"
+        ],
+        "answer": 2,
+        "explanation": "இலைகளில் உள்ள பசுங்கணிகம் ஒளிச்சேர்க்கை மூலம் உணவு தயாரிக்கிறது.",
+        "originalFile": "rev_2_sci.json",
+        "section": "அறிவியல்"
+      },
+      {
+        "question": "வெற்றிடத்தில் ஒளியின் திசைவேகம் என்ன?",
+        "options": [
+          "3 × 10^8 செ.மீ/வி",
+          "3 × 10^8 கி.மீ/வி",
+          "3 × 10^8 மீ/வி",
+          "3 × 10^5 மீ/வி"
+        ],
+        "answer": 2,
+        "explanation": "வெற்றிடத்தில் ஒளியின் திசைவேகம் (c) = 3 × 10^8 மீ/வி ஆகும்.",
+        "originalFile": "sci_8_l3.json",
+        "section": "அறிவியல்"
+      },
+      {
+        "question": "1000 கிலோகிராமுக்கு இணையான அலகு எது?",
+        "options": [
+          "1 குவிண்டால்",
+          "1 டன்",
+          "1 மில்லிகிராம்",
+          "1 சென்டிகிராம்"
+        ],
+        "answer": 1,
+        "explanation": "1000 கிலோகிராம் கொண்டது ஒரு மெட்ரிக் டன் ஆகும்.",
+        "originalFile": "sci_6_t1_l1.json",
+        "section": "அறிவியல்"
+      },
+      {
+        "question": "கணினியின் மூளை என்று அழைக்கப்படும் பாகம் எது?",
+        "options": [
+          "கட்டுப்பாட்டகம் (CU)",
+          "மையச் செயலகம் (CPU)",
+          "நினைவகம் (Memory)",
+          "இயக்க மென்பொருள்"
+        ],
+        "answer": 1,
+        "explanation": "மனிதனுக்கு மூளை எப்படிச் செயல்படுகிறதோ அதேபோல கணினிக்கு மையச் செயலகம் (CPU) செயல்பட்டு முடிவுகளைத் தருகிறது.",
+        "originalFile": "sci_6_t3_l6.json",
+        "section": "அறிவியல்"
+      },
+      {
+        "question": "உணவு தயாரிக்கத் தாவரங்கள் எந்த வாயுவைப் பயன்படுத்திக் கொள்கின்றன?",
+        "options": [
+          "ஆக்சிஜன்",
+          "நைட்ரஜன்",
+          "கார்பன் டை ஆக்சைடு",
+          "ஹைட்ரஜன்"
+        ],
+        "answer": 2,
+        "explanation": "ஒளிச்சேர்க்கைக்காகத் தாவரங்கள் கார்பன் டை ஆக்சைடை எடுத்துக் கொள்கின்றன.",
+        "originalFile": "sci_6_t1_l4.json",
+        "section": "அறிவியல்"
+      },
+      {
+        "question": "ஒரு பள்ளி வளாகத்தில் எந்த வகையான குப்பைகளை 'நீல நிறக் குப்பைத் தொட்டியில்' போட வேண்டும்?",
+        "options": [
+          "மீதமான உணவு",
+          "உதிர்ந்த இலைகள்",
+          "பிளாஸ்டிக் கவர்கள் மற்றும் சாக்லேட் ரேப்பர்கள்",
+          "காய்கறித் தோல்கள்"
+        ],
+        "answer": 2,
+        "explanation": "நீல நிறத் தொட்டி மட்காத மற்றும் மறுசுழற்சி செய்யக்கூடிய குப்பைகளுக்காக (Non-biodegradable / Recyclable) ஒதுக்கப்பட்டுள்ளது.",
+        "originalFile": "sci_6_t3_l4.json",
+        "section": "அறிவியல்"
+      },
+      {
+        "question": "ஒளியை மிகச்சிறந்த முறையில் எதிரொளிக்கும் உலோகம் எது?",
+        "options": [
+          "தங்கம்",
+          "இரும்பு",
+          "வெள்ளி",
+          "தாமிரம்"
+        ],
+        "answer": 2,
+        "explanation": "வெள்ளி (Silver) மிகச்சிறந்த ஒளி எதிரொளிப்புப் பொருளாகும். எனவேதான், கண்ணாடிகளின் பின்புறம் மெல்லிய வெள்ளிப் படலம் பூசப்படுகிறது.",
+        "originalFile": "sci_8_l3.json",
+        "section": "அறிவியல்"
+      }
+    ]
+  }
+}

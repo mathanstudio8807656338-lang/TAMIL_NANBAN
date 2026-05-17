@@ -1,0 +1,89 @@
+{
+  "unit": "Lesson 5",
+  "subject": "English",
+  "class": "6",
+  "term": 1,
+  "title": "Poem: Trees",
+  "summary": "This short and simple poem describes the unique characteristics and benefits of various common trees like the Banyan, Peepul, Coconut, Tamarind, Date, Teak, and Mango.",
+  "sections": [
+    {
+      "title": "Prose: When the Trees Walked (Ruskin Bond)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          { "question": "Who is the author of 'When the Trees Walked'?", "answer": "The author is [[Ruskin Bond]]." },
+          { "question": "Where did Grandfather serve for many years?", "answer": "He served in the [[Indian Forest Service]]." },
+          { "question": "Where did he build a bungalow after retirement?", "answer": "In the outskirts of [[Dehradun]]." },
+          { "question": "Which tree is called a 'show-off'?", "answer": "The [[peepul tree]]." },
+          { "question": "Why do peepul tree leaves spin like tops?", "answer": "To [[attract attention]] and invite you into the shade." },
+          { "question": "Why did Grandfather help with the flower garden?", "answer": "To attract [[butterflies]]." },
+          { "question": "Why did Grandfather plant trees in the jungle?", "answer": "For [[animals and birds]] who need food and shelter." },
+          { "question": "What happens if we don't replace cut-down trees?", "answer": "The world will become [[one great desert]]." },
+          { "question": "Which tree manages to move using aerial roots?", "answer": "The [[banyan tree]]." },
+          { "question": "Where did they find a rocky island for planting?", "answer": "In a [[dry river-bed]]." },
+          { "question": "What spectacular color were the blossoms on the island?", "answer": "They were [[spectacular red]]." },
+          { "question": "When did the author return to Dehradun?", "answer": "Several years after the [[Second World War]]." },
+          { "question": "What had happened to the island when he returned?", "answer": "It was a [[green paradise]]." },
+          { "question": "What award did Ruskin Bond receive in 2014?", "answer": "The [[Padma Bhushan]]." },
+          { "question": "What award did he receive in 1999?", "answer": "The [[Padma Shri]]." }
+        ]
+      }
+    },
+    {
+      "title": "Poem: Trees",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          { "question": "Which is described as the largest tree?", "answer": "The [[Banyan]] is the largest tree." },
+          { "question": "Which tree quivers in the breeze?", "answer": "The [[Peepul]] quivers in the breeze." },
+          { "question": "Which tree grows up straight and tall?", "answer": "The [[Coconut]] tree grows up straight and tall." },
+          { "question": "What does the tamarind tree give us?", "answer": "It gives us [[pleasant shade]]." },
+          { "question": "Which tree's leaf is as sharp as a blade?", "answer": "The [[Date's]] leaf is sharp as a blade." },
+          { "question": "What does the teak tree give us?", "answer": "It gives us [[useful wood]]." },
+          { "question": "Which tree gives us good fruit?", "answer": "The [[Mango]] tree gives us fruit that is good." },
+          { "question": "What is the meaning of 'Quivers'?", "answer": "It means [[shakes quickly]]." },
+          { "question": "What is the meaning of 'Pleasant'?", "answer": "It means [[enjoyable]]." },
+          { "question": "What are rhyming words?", "answer": "Words that have the [[same sound]] at the end (e.g., tower – power)." }
+        ]
+      }
+    },
+    {
+      "title": "Vocabulary and Grammar",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          { "question": "What are describing words in the poem?", "answer": "Words like [[tall, large, sharp, useful, pleasant]]." },
+          { "question": "When is 'Who' used in a sentence?", "answer": "It is used for the [[subject]] (e.g., He/She)." },
+          { "question": "When is 'Whom' used in a sentence?", "answer": "It is used for the [[object]] (e.g., Him/Her)." },
+          { "question": "When do we use 'How many'?", "answer": "For [[countable nouns]] like trees or books." },
+          { "question": "When do we use 'How much'?", "answer": "For [[uncountable nouns]] like luggage or water." },
+          { "question": "When do we use 'Which'?", "answer": "For a [[limited number]] of choices." },
+          { "question": "When do we use 'What'?", "answer": "For an [[unlimited number]] of choices." },
+          { "question": "What marks the end of a question?", "answer": "A [[question mark]]." },
+          { "question": "What marks strong emotion?", "answer": "An [[exclamation mark]]." },
+          { "question": "What marks a statement or command?", "answer": "A [[full stop]]." },
+          { "question": "Give the antonym for 'Fast'.", "answer": "The antonym is [[slow]]." },
+          { "question": "Give the antonym for 'Weak'.", "answer": "The antonym is [[strong]]." },
+          { "question": "Give the antonym for 'Rough'.", "answer": "The antonym is [[smooth]]." },
+          { "question": "Give the antonym for 'Dull'.", "answer": "The antonym is [[bright]]." },
+          { "question": "What is a suffix?", "answer": "Letters added at the [[end of a word]] (e.g., lone+ly)." }
+        ]
+      }
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "question": "Which tree is the largest of all in the poem?",
+        "options": ["Mango", "Banyan", "Peepul", "Teak"],
+        "answer": 1
+      },
+      {
+        "question": "Which tree's leaf is sharp as a blade?",
+        "options": ["Mango", "Coconut", "Date", "Teak"],
+        "answer": 2
+      }
+    ]
+  },
+  "credits": "A1 ONLINE COACHING CENTER"
+}

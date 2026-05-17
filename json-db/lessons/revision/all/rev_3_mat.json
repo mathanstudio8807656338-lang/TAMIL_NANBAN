@@ -1,0 +1,1611 @@
+{
+  "code": "rev_3_mat",
+  "title": "திருப்புதல் தேர்வு 3 - கணிதம் & அறிவியல் (Maths & Science)",
+  "summary": "2012-ஆம் ஆண்டு நடைபெற்ற TNTET தாள் 2-ன் (Maths & Science) 150 வினாக்கள் மற்றும் விளக்கங்களுடன் கூடிய மாதிரித் தேர்வு.",
+  "sections": [
+    {
+      "title": "பகுதி 1: உளவியல் (Psychology) - 30 வினாக்கள்",
+      "content": "குழந்தை மேம்பாடு மற்றும் கற்பித்தல் முறைகள், நுண்ணறிவுச் சோதனைகள், ஆளுமைக் கோளாறுகள் மற்றும் கற்றல் கோட்பாடுகள் குறித்த 30 வினாக்கள்."
+    },
+    {
+      "title": "பகுதி 2: தமிழ் (Tamil) - 30 வினாக்கள்",
+      "content": "திருமுறைகள், இலக்கணம், இலக்கியங்கள் மற்றும் தமிழ் அறிஞர்கள் குறித்த 30 வினாக்கள்."
+    },
+    {
+      "title": "பகுதி 3: ஆங்கிலம் (English) - 30 வினாக்கள்",
+      "content": "Grammar, Vocabulary, Articles, Prepositions and Comprehension passages (30 Questions)."
+    },
+    {
+      "title": "பகுதி 4: கணிதம் மற்றும் அறிவியல் (Maths & Science) - 60 வினாக்கள்",
+      "content": "கணித சூத்திரங்கள், இயற்பியல் அலகுகள், வேதியியல் வினைகள் மற்றும் உயிரியல் கோட்பாடுகள் குறித்த 60 வினாக்கள்."
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "question": "இராணுவ ஆல்பா சோதனை ஒரு",
+        "options": [
+          "சொற்சோதனை",
+          "செயல் சோதனை",
+          "மொழிசாரா சோதனை",
+          "பண்பாட்டுச் சோதனை"
+        ],
+        "answer": 0,
+        "explanation": "இராணுவ ஆல்பா சோதனை என்பது முதலாம் உலகப்போரின் போது உருவாக்கப்பட்ட ஒரு மொழி சார்ந்த (சொற்சோதனை) நுண்ணறிவுச் சோதனையாகும்."
+      },
+      {
+        "question": "டாரன்ஸ் ஆக்கத்திறன் சோதனையில் உள்ள மொழிச் சோதனை, படச் சோதனைகளின் எண்ணிக்கை முறையே",
+        "options": [
+          "5, 3",
+          "6, 2",
+          "7, 2",
+          "7, 3"
+        ],
+        "answer": 3,
+        "explanation": "டாரன்ஸ் ஆக்கத்திறன் சோதனையில் 7 மொழிச் சோதனைகளும், 3 படச் சோதனைகளும் இடம்பெற்றுள்ளன."
+      },
+      {
+        "question": "தற்கால கல்வி முறையில் தேவைப்படும் மாற்றங்களாக நீங்கள் கருதுவன யாவை? இவ்வினா தூண்டும் சிந்தனை",
+        "options": [
+          "குவி சிந்தனை",
+          "விரி சிந்தனை",
+          "தர்க்க சிந்தனை",
+          "எதிர்மறை சிந்தனை"
+        ],
+        "answer": 1,
+        "explanation": "பல கோணங்களில் சிந்தித்து பல தீர்வுகளைக் காண உதவும் திறந்த முடிவுடைய வினாக்கள் விரி சிந்தனையைத் (Divergent thinking) தூண்டுகின்றன."
+      },
+      {
+        "question": "ஒருவரது முகத்தில் மகிழ்ச்சி, சினம் போன்ற உணர்ச்சியைக் காணும்போது நம்மையறியாமலேயே அனுபவிப்பது",
+        "options": [
+          "செயலற்ற பிரிவு",
+          "உணர்வு மிகுதி",
+          "பின்பற்றுதல்",
+          "செயலுற்ற பிரிவு"
+        ],
+        "answer": 1,
+        "explanation": "மற்றவர்களின் உணர்ச்சிகளைப் பார்த்து நாமும் அதே உணர்ச்சியைப் பெறுவது உணர்வு மிகுதி (Sympathy/Empathy) எனப்படும்."
+      },
+      {
+        "question": "'சமுதாய மக்களிடம் அடைவூக்கி உயர்ந்த நிலையில் காணப்பட்டால் பல துறைகளில் சாதனைகள் பெருகி, பொருளாதார வளர்ச்சி பெற்று அச்சமுதாயம் நவீனமடையும்' என குறிப்பிடப்பட்டுள்ள நூல்",
+        "options": [
+          "தி அச்சீவிங் சொசைட்டி",
+          "அச்சீவ்மென்ட் ஆஃப் சொசைட்டி",
+          "சொசைட்டி அண்ட் அச்சீவ்மென்ட்",
+          "சொசைட்டி அண்ட் இட்ஸ் டெவலப்மென்ட்"
+        ],
+        "answer": 0,
+        "explanation": "டேவிட் மெக்லிலேண்ட் என்பவர் எழுதிய 'The Achieving Society' என்ற நூலில் அடைவூக்கி பற்றிய இக்கருத்து குறிப்பிடப்பட்டுள்ளது."
+      },
+      {
+        "question": "ஆல்ப்ரட் ஆட்லர் _______ என்னும் கருத்தைத் தோற்றுவித்தார்",
+        "options": [
+          "ஓடிப்பஸ் சிக்கல்",
+          "தாழ்வுச் சிக்கல்",
+          "மன நலம்",
+          "பண்பாடின்மை"
+        ],
+        "answer": 1,
+        "explanation": "ஆல்ப்ரட் ஆட்லர் 'தாழ்வு மனப்பான்மை' அல்லது 'தாழ்வுச் சிக்கல்' (Inferiority Complex) என்ற உளவியல் கருத்தை உருவாக்கினார்."
+      },
+      {
+        "question": "பலிகடா ஆக்கப்படுதல் என்பது ______ தற்காப்பு நடத்தை",
+        "options": [
+          "காரணம் கற்பித்தல்",
+          "அகநோக்குடைமை",
+          "ஈடு செய்தல்",
+          "இடமாற்றம்"
+        ],
+        "answer": 3,
+        "explanation": "தன்னுடைய கோபத்தையோ விரக்தியையோ காரணமானவர் மீது காட்டாமல், தொடர்பில்லாத பலவீனமானவர் மீது மாற்றித் தணிப்பது 'இடமாற்றம்' (Displacement) எனப்படும்."
+      },
+      {
+        "question": "நோயாளியின் பிரச்சினைக்கு முக்கியத்துவம் அளிக்கும் அறிவுரை பகர்தலின் வகை",
+        "options": [
+          "நெறிசார்ந்த அறிவுரை பகர்தல்",
+          "நெறிசாரா அறிவுரை பகர்தல்",
+          "சமரச முறை",
+          "தொழில்சார் அறிவுரை பகர்தல்"
+        ],
+        "answer": 0,
+        "explanation": "நெறிசார்ந்த அறிவுரை பகர்தல் (Directive Counseling) முறையில் வழிகாட்டுபவர் (அல்லது பிரச்சினை) மையப்படுத்தப்படுகிறார்."
+      },
+      {
+        "question": "அறிவுரை பகர்தல் என்பது",
+        "options": [
+          "விசாரணை செய்தல்",
+          "உபதேசம் செய்தல்",
+          "தன்னை முழுமையாகப் புரிந்து கொள்ள உதவுதல்",
+          "உளப்பகுப்பாய்வு முறை"
+        ],
+        "answer": 2,
+        "explanation": "அறிவுரை பகர்தல் என்பது ஒரு நபர் தன்னைப்பற்றியும் தன் திறன்களைப் பற்றியும் முழுமையாகப் புரிந்துகொண்டு சுயமாக முடிவெடுக்க உதவுவதாகும்."
+      },
+      {
+        "question": "ஈடுபாட்டுச் சோதனை (Aptitude test) பெரும்பங்கு வகிப்பது",
+        "options": [
+          "தனிநபர் பிரச்சினைக்கான வழிகாட்டுதல்",
+          "குழு வழிகாட்டுதல்",
+          "கல்வியில் வழிகாட்டுதல்",
+          "தொழில் தேர்வில் வழிகாட்டுதல்"
+        ],
+        "answer": 3,
+        "explanation": "நாட்டச் சோதனைகள் அல்லது ஈடுபாட்டுச் சோதனைகள் ஒருவருக்கு எந்தத் துறையில்/தொழிலில் இயல்பான திறமை உள்ளது என்பதைக் கண்டறியப் பயன்படுகின்றன."
+      },
+      {
+        "question": "முழுமையான எதிர்மறை செல்வாக்கு கொண்ட குழு",
+        "options": [
+          "ஆதாரக் குழு",
+          "நடுநிலைக் குழு",
+          "துணைநிலைக் குழு",
+          "மூன்றாம் நிலைக் குழு"
+        ],
+        "answer": 0,
+        "explanation": "சமூகவியலில் சில ஆதாரக் குழுக்கள் (Primary groups) தனிநபரின் மீது அதிகப்படியான ஆதிக்கமும் முழுமையான கட்டுப்பாடும் செலுத்தலாம்."
+      },
+      {
+        "question": "வல்சண்டைக்கு போதல், தவறு ஏற்படின் அடுத்தவர் மீது பழி சுமத்துதல் போன்ற பண்புகளை உடையவர்",
+        "options": [
+          "அகமுகர்",
+          "முன் கோபி",
+          "புறமுகர்",
+          "புற அகமுகர்"
+        ],
+        "answer": 2,
+        "explanation": "புறமுகர்கள் (Extroverts) தங்களின் உணர்ச்சிகளை உடனடியாக வெளிப்படுத்துபவர்களாகவும், சில நேரங்களில் ஆக்ரோஷமானவர்களாகவும் இருப்பர்."
+      },
+      {
+        "question": "கீழ்க்காண்பவற்றுள் எது புறத்தேற்று நுண்முறை அல்ல?",
+        "options": [
+          "ரோஷாக் மைத்தட சோதனை",
+          "வாக்கியம் நிரப்பல் சோதனை",
+          "சொற்கள் தொடர்பு சோதனை",
+          "கவர்ச்சி அளவை முறை"
+        ],
+        "answer": 3,
+        "explanation": "கவர்ச்சி அளவை முறை (Interest Inventory) என்பது நேரடி மதிப்பீட்டுக் கருவியாகும், இது புறத்தேற்று (Projective) நுண்முறை அல்ல."
+      },
+      {
+        "question": "ஸ்ட்ராங்கின் பிரபல மதிப்பீட்டுக் கருவி",
+        "options": [
+          "சுய கவர்ச்சிப் பட்டியல்",
+          "தொழிற் கவர்ச்சிப் பட்டியல்",
+          "இசைக் கவர்ச்சிப் பட்டியல்",
+          "மொழிக் கவர்ச்சிப் பட்டியல்"
+        ],
+        "answer": 1,
+        "explanation": "E.K. ஸ்ட்ராங் (Strong) உருவாக்கிய தொழில் கவர்ச்சிப் பட்டியல் (Strong Vocational Interest Blank) மிகவும் பிரபலமானது."
+      },
+      {
+        "question": "உணர்ச்சி விண்ட நிலை என்பது",
+        "options": [
+          "நரம்புத் தளர்ச்சி",
+          "ஆளுமைக் கோளாறு நோய்",
+          "தீவிர உளத்தடுமாற்ற நோய்",
+          "உள-உடல் நோய்"
+        ],
+        "answer": 2,
+        "explanation": "உணர்ச்சி விண்ட நிலை (Schizophrenia) என்பது யதார்த்தத்திலிருந்து விலகி நிற்கும் ஒரு தீவிர உளத்தடுமாற்ற நோயாகும் (Psychosis)."
+      },
+      {
+        "question": "எர்கோகிராப் என்னும் கருவியின் மூலம் ஆராயப்படுவது",
+        "options": [
+          "மனக்களைப்பு",
+          "உடற்களைப்பு",
+          "அலுப்பு",
+          "ஆர்வமின்மை"
+        ],
+        "answer": 1,
+        "explanation": "எர்கோகிராப் (Ergograph) என்பது தசைகளின் வேலை மற்றும் உடற்களைப்பை (Physical fatigue) அளவிடப் பயன்படும் கருவியாகும்."
+      },
+      {
+        "question": "பார்வை கவனத்தில் ஏற்படும் மாறுதல்களைச் சோதனை மூலம் கண்டறிய உதவும் கருவி",
+        "options": [
+          "மேசன்ஸ் தட்டு",
+          "மார்க்விஸ் வட்டு",
+          "டாசிஸ்டாஸ்கோப்",
+          "தருணத்தகடு"
+        ],
+        "answer": 0,
+        "explanation": "பார்வை கவனத்தின் வீச்சு மற்றும் அதில் ஏற்படும் மாறுதல்களை அறிய மேசன்ஸ் தட்டு (Mason's Disc) பயன்படுகிறது."
+      },
+      {
+        "question": "மீத்தெளிச் சாயல் (Eidetic imagery) பெற்றவராகக் கூறப்படும் கல்வியாளர்",
+        "options": [
+          "காந்தியடிகள்",
+          "அரவிந்தர்",
+          "டாக்டர் இராதாகிருஷ்ணன்",
+          "தாகூர்"
+        ],
+        "answer": 2,
+        "explanation": "டாக்டர் எஸ். இராதாகிருஷ்ணன் அவர்கள் பார்த்ததை அப்படியே துல்லியமாக நினைவில் நிறுத்தும் மீத்தெளிச் சாயல் திறன் பெற்றவராக அறியப்படுகிறார்."
+      },
+      {
+        "question": "LAD என்பதன் விரிவாக்கம்",
+        "options": [
+          "மொழிச் சுருக்க அகராதி",
+          "மொழியியல் மதிப்பீட்டுத் துறை",
+          "கற்பவர் அடைவுக் கருவி",
+          "மொழி கையகப்படுத்தும் கருவி"
+        ],
+        "answer": 3,
+        "explanation": "LAD என்பது நோம் சாம்ஸ்கி கூறிய 'Language Acquisition Device' (மொழி கையகப்படுத்தும் கருவி / சாதனம்) என்பதன் சுருக்கமாகும்."
+      },
+      {
+        "question": "மனவெழுச்சித் தூண்டல்கள் தாக்கும் மூளையின் ஒரு பகுதி",
+        "options": [
+          "ஹைப்போதலாமஸ்",
+          "பான்ஸ்",
+          "முகுளம்",
+          "சிறுமூளை"
+        ],
+        "answer": 0,
+        "explanation": "மூளையில் உள்ள ஹைப்போதலாமஸ் பகுதியே மனவெழுச்சிகள், பசி, தாகம் போன்றவற்றை கட்டுப்படுத்தும் முக்கிய மையமாகும்."
+      },
+      {
+        "question": "நனவிலி மனத்தைப் பற்றிய ஆராய்ச்சிகளை வெளியிட்டவர்களில் ஒருவர்",
+        "options": [
+          "வாட்சன்",
+          "ரிவர்ஸ்",
+          "வில்லியம் மக்டூகல்",
+          "ஹல்"
+        ],
+        "answer": 2,
+        "explanation": "வில்லியம் மக்டூகல் மனிதனின் இயல்பூக்கங்கள் மற்றும் நனவிலி மனம் தொடர்பான உளவியல் கருத்துக்களை ஆராய்ந்து வெளியிட்டுள்ளார்."
+      },
+      {
+        "question": "பிளாண்டரின் இடைவினைப் பகுப்பாய்வில் ______ பகுதிகள் ஆசிரியரின் செயல்பாட்டைப் பொறுத்து அமைகிறது",
+        "options": [
+          "1- 8",
+          "3 – 6",
+          "1 – 7",
+          "3 – 8"
+        ],
+        "answer": 2,
+        "explanation": "பிளாண்டரின் பகுப்பாய்வில் 1 முதல் 7 வரையிலான படிநிலைகள் ஆசிரியரின் பேச்சையும் செயல்பாட்டையும் (Teacher Talk) குறிக்கின்றன."
+      },
+      {
+        "question": "'Spiere' என்ற லத்தீன் வார்த்தையின் பொருள்",
+        "options": [
+          "பார்த்தல்",
+          "கேட்டல்",
+          "செய்தல்",
+          "தொடுதல்"
+        ],
+        "answer": 0,
+        "explanation": "Spiere அல்லது Specere என்ற லத்தீன் சொல்லுக்கு 'பார்த்தல்' (To see / To look) என்று பொருள். இது உற்றுநோக்கல் முறையோடு தொடர்புடையது."
+      },
+      {
+        "question": "கீழ்க்காண்பவற்றுள் எது புறத்தேற்று நுண்முறை அல்ல?",
+        "options": [
+          "உயிரியல் காரணி",
+          "நுண்ணறிவு",
+          "மனவெழுச்சி காரணி",
+          "தாயின் கருவறைச் சூழல்"
+        ],
+        "answer": 3,
+        "explanation": "தாயின் கருவறைச் சூழல் என்பது புறக்காரணியாகும் (Environmental factor). மற்றவை குழந்தைக்கு உள்ளே இருக்கும் அகக்காரணிகள்."
+      },
+      {
+        "question": "விளையாட்டு பற்றிய காதர்டிக் (Cathartic) கொள்கையானது ______ கோட்பாட்டின் கருத்துகளுடன் நெருங்கிய தொடர்பு கொண்டது",
+        "options": [
+          "இயற்கை",
+          "நடத்தை",
+          "உளப்பகுப்பு",
+          "நோக்கம்"
+        ],
+        "answer": 2,
+        "explanation": "காத்தார்டிக் கொள்கை (Cathartic theory) என்பது மன அழுத்தங்களை விளையாட்டின் மூலம் வெளிப்படுத்துவது. இது சிக்மண்ட் பிராய்டின் உளப்பகுப்புக் கோட்பாடுடன் (Psychoanalytic) தொடர்புடையது."
+      },
+      {
+        "question": "மாஸ்லோ மனிதனது தேவைகளுள் இரண்டாம் நிலையாகக் குறிப்பிடுவது",
+        "options": [
+          "அன்பு, ஏற்பு சார்ந்த தேவைகள்",
+          "பாதுகாப்பு சார்ந்த தேவைகள்",
+          "மதிப்பு நிலைத் தேவைகள்",
+          "உயிர் வாழ்வதற்கான அடிப்படைத் தேவைகள்"
+        ],
+        "answer": 1,
+        "explanation": "மாஸ்லோவின் தேவைப் படிநிலைகளில் முதல் நிலை அடிப்படைத் தேவைகள், இரண்டாம் நிலை பாதுகாப்பு சார்ந்த தேவைகள் (Safety Needs) ஆகும்."
+      },
+      {
+        "question": "ஒழுக்க வளர்ச்சியில் நடைமுறை வழக்கிற்கு முற்பட்ட நிலை காணப்படும் வயது வரம்பு",
+        "options": [
+          "2 – 7 ஆண்டுகள்",
+          "3 – 7 ஆண்டுகள்",
+          "5 – 10 ஆண்டுகள்",
+          "4 – 10 ஆண்டுகள்"
+        ],
+        "answer": 3,
+        "explanation": "கோல்பர்க்கின் ஒழுக்க வளர்ச்சிக் கோட்பாட்டில் முற்பட்ட நிலை (Pre-conventional level) பொதுவாக 4 முதல் 10 வயது வரை உள்ள குழந்தைகளிடம் காணப்படும்."
+      },
+      {
+        "question": "எதிர்மறை வலுவூட்டல் துலங்கலை ______ ; தண்டனை துலங்கலை _______",
+        "options": [
+          "அதிகரிக்கும் ; அதிகரிக்கும்",
+          "குறைக்கும் ; குறைக்கும்",
+          "அதிகரிக்கும் ; குறைக்கும்",
+          "குறைக்கும் ; அதிகரிக்கும்"
+        ],
+        "answer": 2,
+        "explanation": "எதிர்மறை வலுவூட்டல் விரும்பத்தகாத தூண்டலை நீக்குவதன் மூலம் சரியான துலங்கலை அதிகரிக்கும். ஆனால் தண்டனை ஒரு துலங்கலைக் குறைக்கும்."
+      },
+      {
+        "question": "கற்றல் என்பது",
+        "options": [
+          "நடத்தை மாற்றம்",
+          "முந்தைய அனுபவத்தைச் சார்ந்த நிரந்தர நடத்தை மாற்றம்",
+          "உடல் வளர்ச்சி சார்ந்த நிரந்தர நடத்தை மாற்றம்",
+          "தண்டனையின் காரணமாக விளையும் நடத்தை மாற்றம்"
+        ],
+        "answer": 1,
+        "explanation": "கற்றல் என்பது பயிற்சி and அனுபவத்தின் வாயிலாக நடத்தையில் ஏற்படும் ஓரளவிற்கு நிலையான மாற்றமாகும்."
+      },
+      {
+        "question": "நினைவு பற்றிய சோதனைகளை முதன்முதலில் நடத்தியவர்",
+        "options": [
+          "எப்பிங்ஹாஸ்",
+          "ஸ்டீபன்",
+          "ஹார்லோ",
+          "ஒயிட்"
+        ],
+        "answer": 0,
+        "explanation": "ஹெர்மன் எப்பிங்ஹாஸ் (Ebbinghaus) என்பவர் நினைவு மற்றும் மறதி வளைவு பற்றிய சோதனைகளை முதன்முதலில் மேற்கொண்டார்."
+      },
+      {
+        "question": "பொருத்தமானதைத் தெரிவு செய்:",
+        "options": [
+          "வரகு - சாமை - சுறா - மயில் - ஞாழல் - தொண்டகம் - பாடி - பாதிரி",
+          "தினை - குதிரைவாலி - மயில் - கோடல் - தொண்டகம் - பாடி - முல்லை",
+          "தினை - குதிரைவாலி - சுறா - தாழை - பறை - பாக்கம் - நெய்தல்",
+          "குறவம் - மான் - அன்னம் - பொய்கை - குறிஞ்சி"
+        ],
+        "answer": 2,
+        "explanation": "நெய்தல் திணைக்குரிய கருப்பொருட்கள்: சுறா (மீன்), தாழை (மலர்), பறை (மீன்கோட்பறை), பாக்கம் (ஊர்). இது சரியாகப் பொருந்தியுள்ளது."
+      },
+      {
+        "question": "பொருத்தமானவற்றைத் தேர்ந்தெடு:",
+        "options": [
+          "காப்பு - செங்கீரை - தால் - சப்பணி - முத்தம் - வருகை - அம்புலி - சிற்றில் - சிறுபறை - சிறுதேர்",
+          "காப்பு - செங்கீரை - தால் - சப்பணி - முத்தம் - வருகை - அம்புலி - கழங்கு - அம்மானை - ஊசல்",
+          "காப்பு - செங்கீரை - தால் - சப்பணி - முத்தம் - வருகை - அம்புலி - சிற்றில் - கழங்கு - ஊசல்",
+          "காப்பு - செங்கீரை - தால் - சப்பணி - முத்தம் - வருகை - அம்புலி - சிற்றில் - சிறுபறை - ஊசல்"
+        ],
+        "answer": 0,
+        "explanation": "ஆண்பால் பிள்ளைத்தமிழின் இறுதி மூன்று பருவங்கள்: சிற்றில், சிறுபறை, சிறுதேர். இது சரியான வரிசையாகும்."
+      },
+      {
+        "question": "‘சக்தி முத்தப் புலவர்’ – நாடகத்தின் ஆசிரியர்",
+        "options": [
+          "மனோன்மணீயம் சுந்தரம் பிள்ளை",
+          "அவ்வை சண்முகம்",
+          "பாரதிதாசன்",
+          "கலைவாணர் என்.எஸ்.கே"
+        ],
+        "answer": 1,
+        "explanation": "டி.கே. சண்முகம் (அவ்வை சண்முகம்) அவர்கள் 'சக்தி முத்தப் புலவர்' என்ற நாடகத்தை எழுதி அரங்கேற்றியுள்ளார்."
+      },
+      {
+        "question": "‘அறிவன்’ என்னும் சொல் இதனைப் குறிக்கும்",
+        "options": [
+          "தலைவன்",
+          "இந்திரன்",
+          "சனி",
+          "புதன்"
+        ],
+        "answer": 3,
+        "explanation": "நவகிரகங்களில் அறிவும் விவேகமும் நிறைந்தவராகக் கருதப்படும் புதன் கிரகத்தை 'அறிவன்' என்று அழைப்பர்."
+      },
+      {
+        "question": "சரியாகப் பொருந்தியுள்ளதைத் தேர்க.",
+        "options": [
+          "அப்பர் - 1, 3, 4 திருமுறைகள்; சம்பந்தர் - 2, 5 திருமுறைகள்; சுந்தரர் - 6, 7 திருமுறைகள்",
+          "அப்பர் - 1, 2, 4 திருமுறைகள்; சம்பந்தர் - 2, 5, 7 திருமுறைகள்; சுந்தரர் 3, 6 திருமுறைகள்",
+          "அப்பர் - 1, 4, 7 திருமுறைகள்; சம்பந்தர் - 2, 5 திருமுறைகள்; சுந்தரர் - 4, 6 திருமுறைகள்",
+          "அப்பர் - 4, 5, 6 திருமுறைகள்; சம்பந்தர் - 1, 2, 3 திருமுறைகள்; சுந்தரர் - 7 திருமுறை"
+        ],
+        "answer": 3,
+        "explanation": "திருஞானசம்பந்தர் 1, 2, 3 திருமுறைகளையும்; திருநாவுக்கரசர் (அப்பர்) 4, 5, 6 திருமுறைகளையும்; சுந்தரர் 7ஆம் திருமுறையையும் பாடியுள்ளனர்."
+      },
+      {
+        "question": "“வளையல்” என்னும் பெயர்",
+        "options": [
+          "காரணப் பெயர்",
+          "இடுகுறி சிறப்புப் பெயர்",
+          "காரணப் பொதுப் பெயர்",
+          "காரண சிறப்புப் பெயர்"
+        ],
+        "answer": 3,
+        "explanation": "வளைந்து இருப்பதனால் இது காரணப்பெயர். வளைவாக உள்ள அனைத்தையும் குறிக்காமல் கையில் அணியும் அணிகலனை மட்டும் குறிப்பதால் இது காரணச் சிறப்புப் பெயர்."
+      },
+      {
+        "question": "‘என்பணிந்த தென்கமழ் கமலை’ – அடிக்கோடிட்ட சொல்லின் பொருள்",
+        "options": [
+          "திருவையாறு",
+          "திருநெல்வேலி",
+          "திருவாரூர்",
+          "திருவூட்டாலம்"
+        ],
+        "answer": 2,
+        "explanation": "'கமலை' என்பது திருவாரூர் தலத்தைக் குறிக்கும் மற்றொரு பெயராகும்."
+      },
+      {
+        "question": "‘திரைக்கவித் திலகம்’ என்ற சிறப்பைப் பெற்றவர்",
+        "options": [
+          "மருதகாசி",
+          "வாலி",
+          "புலமைப்பித்தன்",
+          "குருவிக்கரம்பை சண்முகம்"
+        ],
+        "answer": 0,
+        "explanation": "தமிழ் திரைப்படப் பாடலாசிரியர் அ. மருதகாசி அவர்கள் 'திரைக்கவித் திலகம்' என்று போற்றப்படுகிறார்."
+      },
+      {
+        "question": "‘பூவின் விவரம் பல கோடி’ - இப்பாடல் இடம் பெற்ற நாடகம்",
+        "options": [
+          "சதி அனுசூயா",
+          "சதி லீலாவதி",
+          "சதி சுலோசனா",
+          "சதி சம்யுக்தா"
+        ],
+        "answer": 1,
+        "explanation": "இந்த புகழ்பெற்ற பாடல் 'சதி லீலாவதி' என்ற பழமையான நாடகத்தில்/திரைப்படத்தில் இடம்பெற்றதாகும்."
+      },
+      {
+        "question": "இளமைப் பெயர்களைச் சரியாகத் தெரிவு செய்க.",
+        "options": [
+          "புலி – பறழ்; குதிரை – குட்டி; சிங்கம் - குருளை; மான் - கன்று",
+          "புலி – குட்டி; குதிரை – கன்று; சிங்கம் - பறழ்; மான் - குருளை",
+          "புலி – பறழ்; குதிரை – கன்று; சிங்கம் - குட்டி; மான் - குருளை",
+          "புலி – குட்டி; குதிரை – பறழ்; சிங்கம் - குருளை; மான் - கன்று"
+        ],
+        "answer": 0,
+        "explanation": "புலிப்பறழ், சிங்கம் குருளை, மான் கன்று, குதிரைக்குட்டி என்பது சரியான இளமைப் பெயர்களாகும்."
+      },
+      {
+        "question": "‘மலைக்கள்ளன்’ எனும் நூலின் ஆசிரியர்",
+        "options": [
+          "பாரதிதாசன்",
+          "நாமக்கல் கவிஞர்",
+          "அண்ணா",
+          "சாண்டில்யன்"
+        ],
+        "answer": 1,
+        "explanation": "'மலைக்கள்ளன்' என்ற புகழ்பெற்ற புதினத்தை எழுதியவர் நாமக்கல் கவிஞர் வெ. இராமலிங்கனார்."
+      },
+      {
+        "question": "அகநானூற்றுப் பாக்களின் அடிவரையறை",
+        "options": [
+          "4 அடி முதல் 8 அடி வரை",
+          "9 அடி முதல் 12 அடி வரை",
+          "13 அடி முதல் 31 அடி வரை",
+          "7 அடி முதல் 14 அடி வரை"
+        ],
+        "answer": 2,
+        "explanation": "அகநானூறு 13 அடிச் சிறுமையும் 31 அடிப் பெருமையும் கொண்ட நீண்ட அகவற்பாக்களால் ஆனது."
+      },
+      {
+        "question": "வீரமாமுனிவர் திருக்குறளை ________ மொழியில் மொழிபெயர்த்தார்.",
+        "options": [
+          "லத்தீன்",
+          "கிரேக்கம்",
+          "எபிரேயம்",
+          "ஆங்கிலம்"
+        ],
+        "answer": 0,
+        "explanation": "வீரமாமுனிவர் திருக்குறளின் அறத்துப்பால் மற்றும் பொருட்பால் பகுதிகளை லத்தீன் மொழியில் மொழிபெயர்த்தார்."
+      },
+      {
+        "question": "பிரெஞ்சு குடியரசுத் தலைவரால் ‘செவாலியே’ விருதினைப் பெற்றவர்",
+        "options": [
+          "சுரதா",
+          "முடியரசன்",
+          "வாணிதாசன்",
+          "இறையரசன்"
+        ],
+        "answer": 2,
+        "explanation": "தமிழகத்தின் வேர்ட்ஸ்வொர்த் என்று அழைக்கப்படும் கவிஞர் வாணிதாசன் பிரெஞ்சு அரசின் உயர்ந்த விருதான 'செவாலியே' விருதைப் பெற்றுள்ளார்."
+      },
+      {
+        "question": "கம்ப நாடகத்தின் யாப்பு வண்ணங்களுக்குக் கூறப்படும் கணக்கீடு.",
+        "options": [
+          "96",
+          "108",
+          "100",
+          "106"
+        ],
+        "answer": 0,
+        "explanation": "கம்பராமாயணத்தில் கம்பர் 96 வகையான யாப்பு வண்ணங்களை கையாண்டுள்ளார் என்று கூறப்படுகிறது."
+      },
+      {
+        "question": "பொருத்தமானதைத் தெரிவு செய்க",
+        "options": [
+          "பத்து ரதன் - தசரதன்; புத்திரன் - இராமன்; மித்திரன் - சுக்கிரீவன்; சத்துரு – வாலி",
+          "பத்து ரதன் - இராவணன்; புத்திரன் - இராமன்; மித்திரன் - சுக்கிரீவன்; சத்துரு – வாலி",
+          "பத்து ரதன் - சூரியன்; புத்திரன் - அனுமன்; மித்திரன் - சுக்கிரீவன்; சத்துரு – வாலி",
+          "பத்து ரதன் - பாண்டு; புத்திரன் - தருமன்; மத்திரன் - துரியோதனன்; சந்துரு – சத்துருக்கனன்"
+        ],
+        "answer": 0,
+        "explanation": "ராமாயண கதாபாத்திரங்களில் பத்து ரதங்களை உடையவன் தசரதன், புத்திரன் ராமன், நண்பன் (மித்திரன்) சுக்ரீவன், பகைவன் (சத்துரு) வாலி என்பது சரியான பொருத்தம்."
+      },
+      {
+        "question": "‘கலீலியோ’ பதுவா பல்கலைக்கழகத்தில் பணியாற்றிய ஆண்டு",
+        "options": [
+          "1592",
+          "1590",
+          "1593",
+          "1591"
+        ],
+        "answer": 0,
+        "explanation": "கலீலியோ இத்தாலியில் உள்ள பதுவா (Padua) பல்கலைக்கழகத்தில் கணிதப் பேராசிரியராக 1592-ஆம் ஆண்டு பணியில் சேர்ந்தார்."
+      },
+      {
+        "question": "‘மன்னிப்பு’ என்பது _______ சொல்.",
+        "options": [
+          "அரபு",
+          "உருது",
+          "தமிழ்",
+          "கன்னடம்"
+        ],
+        "answer": 1,
+        "explanation": "'மன்னிப்பு' என்பது தூய தமிழ்ச்சொல் அல்ல, அது உருது மொழியிலிருந்து தமிழில் கலந்த சொல்லாகும்."
+      },
+      {
+        "question": "‘டம்பாச்சாரி விலாசம்’ என்ற நூலின் ஆசிரியர்",
+        "options": [
+          "பம்மல் சம்பந்த முதலியார்",
+          "சங்கரதாஸ் சுவாமிகள்",
+          "காசி விஸ்வநாதர்",
+          "தி.க. சண்முகனார்"
+        ],
+        "answer": 2,
+        "explanation": "'டம்பாச்சாரி விலாசம்' என்ற பழமையான தமிழ் நாடக நூலை எழுதியவர் காசி விசுவநாத முதலியார் ஆவார்."
+      },
+      {
+        "question": "‘பூமியைத் திறக்கும் பொன் சாவி’ எனும் நூலின் ஆசிரியர்",
+        "options": [
+          "வாணிதாசன்",
+          "தாராபாரதி",
+          "சுரதா",
+          "சுஜாதா"
+        ],
+        "answer": 1,
+        "explanation": "'புதிய விடியல்கள்', 'இது எங்கள் கிழக்கு', 'பூமியைத் திறக்கும் பொன் சாவி' ஆகிய நூல்களின் ஆசிரியர் கவிஞர் தாராபாரதி."
+      },
+      {
+        "question": "தமிழெண்களின் ஒழுங்கு ஏறு வரிசையைத் தேர்ந்தெடு",
+        "options": [
+          "க, உ, ங, ச, எ, அ",
+          "ச, அ, எ, அ",
+          "ச, உ, அ, எ",
+          "க, உ, ச, அ, ங"
+        ],
+        "answer": 0,
+        "explanation": "தமிழ் எண்கள் 1 முதல் 8 வரை: க (1), உ (2), ங (3), ச (4), ரு (5), கா (6), எ (7), அ (8). கொடுக்கப்பட்ட விருப்பங்களில் முதல் விருப்பம் ஏறுவரிசையைக் குறிக்கிறது."
+      },
+      {
+        "question": "கீழ்க்காணும் தொடர்களில் பொருந்தாதத் தொடரைக் கண்டுபிடி.",
+        "options": [
+          "குழலி டிசம்பர் சூடி வந்தாள்",
+          "நீலா பாட்டுப் பாடினாள்",
+          "இரண்டு மீட்டர் போதுமா?",
+          "கோவிலுக்கு வெள்ளை அடித்தான்"
+        ],
+        "answer": 1,
+        "explanation": "மற்ற மூன்று தொடர்களும் ஆகுபெயர் தொடர்கள் (டிசம்பர்-காலவாகுபெயர், மீட்டர்-அளவையாகுபெயர், வெள்ளை-பண்பாகுபெயர்). 'நீலா பாட்டுப் பாடினாள்' என்பது இயல்பான தொடர்."
+      },
+      {
+        "question": "‘நேர்மையைக் காட்டிலும் உயர்ந்த தெய்வம் இல்லை’ என்ற கொள்கை உடையவர்",
+        "options": [
+          "சல்பீர்கான்",
+          "முத்து வீரப்பன்",
+          "சொக்கநாதர்",
+          "மகமூத்கான்"
+        ],
+        "answer": 3,
+        "explanation": "மருதநாயகம் என்றழைக்கப்பட்ட கான்சாகிப் (மகமூத்கான்/முகமது யூசுப் கான்) நேர்மையை உயிரென மதித்தவர்."
+      },
+      {
+        "question": "‘பொழிப்பு எதுகை’ பயின்று வரும் சீர்கள்",
+        "options": [
+          "1, 3",
+          "2, 3",
+          "1, 4",
+          "2, 4"
+        ],
+        "answer": 0,
+        "explanation": "முதலாவது மற்றும் மூன்றாவது சீர்களில் எதுகை அமைந்து வருவது 'பொழிப்பு எதுகை' எனப்படும்."
+      },
+      {
+        "question": "சரியான இணையைத் தேர்வு செய்க.",
+        "options": [
+          "குறிஞ்சி – அகில்; முல்லை – புன்னை; மருதம் - காயா; நெய்தல் - காஞ்சி",
+          "குறிஞ்சி – புன்னை; முல்லை – காஞ்சி; மருதம் - அகில்; நெய்தல் - காயா",
+          "குறிஞ்சி – அகில்; முல்லை – காயா; மருதம் - காஞ்சி; நெய்தல் - புன்னை",
+          "குறிஞ்சி – காஞ்சி; முல்லை – புன்னை; மருதம் - காயா; நெய்தல் - அகில்"
+        ],
+        "answer": 2,
+        "explanation": "குறிஞ்சி நில மரம் அகில், முல்லைக்கு காயா, மருதத்திற்கு காஞ்சி, நெய்தலுக்கு புன்னை என்பது சரியான திணை மரங்களின் பொருத்தமாகும்."
+      },
+      {
+        "question": "“உலகம், உயிர், கடவுள் ஆகிய மூன்றையும் ஒருங்கே காட்டும் காவியம் பெரிய புராணம்” - இவ்வாறு கூறியவர்",
+        "options": [
+          "கவிஞர் வெ. இராமலிங்கனார்",
+          "தெ.பொ.மீ",
+          "மு. வரதராசனார்",
+          "திரு.வி.க."
+        ],
+        "answer": 3,
+        "explanation": "பெரியபுராணத்தின் சிறப்பைப் போற்றி தமிழ்த்தென்றல் திரு.வி. கல்யாணசுந்தரனார் (திரு.வி.க) இவ்வாறு கூறியுள்ளார்."
+      },
+      {
+        "question": "தமிழ்ச் சங்கம் பற்றி விளக்கும் வரிகளில் சரியாகப் பொருந்தியுள்ளதைத் தேர்க.",
+        "options": [
+          "புறநானூறு – தமிழ்கெழு கூடல்; பரிபாடல் - தமிழ் வேலி; மணிவாசகம் - கூடலில் ஆய்ந்த",
+          "புறநானூறு – தமிழ் கெழு கூடல்; பரிபாடல் - கூடலில் ஆய்ந்த; மணிவாசகம் - தமிழ் வேலி",
+          "புறநானூறு – தமிழ் வேலி; பரிபாடல் - கூடலில் ஆய்ந்த; மணிவாசகம் - தமிழ்கெழு கூடல்",
+          "புறநானூறு - கூடலில் வேலி; பரிபாடல் - தமிழ் வேலி; மணிவாசகம் - தமிழ்கெழு கூடல்"
+        ],
+        "answer": 1,
+        "explanation": "புறநானூற்றில் 'தமிழ் கெழு கூடல்' எனவும், பரிபாடலில் 'கூடலில் ஆய்ந்த' எனவும், திருவாசகத்தில் (மணிவாசகம்) 'தமிழ் வேலி' எனவும் தமிழ்ச்சங்கம் சிறப்பிக்கப்பட்டுள்ளது."
+      },
+      {
+        "question": "‘செங்கப்படுத்தான் காடு’ எனும் ஊரில் பிறந்த கவிஞர்",
+        "options": [
+          "பட்டுக்கோட்டை கல்யாணசுந்தரம்",
+          "உளுந்தூர்பேட்டை சண்முகம்",
+          "நாமக்கல் இராமலிங்கனார்",
+          "உடுமலை நாராயண கவி"
+        ],
+        "answer": 0,
+        "explanation": "மக்கள் கவிஞர் பட்டுக்கோட்டை கல்யாணசுந்தரம் தஞ்சை மாவட்டத்தில் உள்ள செங்கப்படுத்தான்காடு என்ற சிற்றூரில் பிறந்தவர்."
+      },
+      {
+        "question": "‘மன்னன் உயிர்த்தே மலர்தலை உலகம்’ எனும் பாடல் வரியை எழுதியவர்",
+        "options": [
+          "கபிலர்",
+          "பரணர்",
+          "மோசி கீரனார்",
+          "ஔவையார்"
+        ],
+        "answer": 2,
+        "explanation": "'நெல்லும் உயிரன்றே நீரும் உயிரன்றே, மன்னன் உயிர்த்தே மலர்தலை உலகம்' என்று பாடியவர் புறநானூற்றுப் புலவர் மோசிகீரனார்."
+      },
+      {
+        "question": "‘நோய்க்கு மருந்து இலக்கியம்’ எனக் கூறியவர்",
+        "options": [
+          "கா.சு. பிள்ளை",
+          "மகாவித்துவான் மீனாட்சி சுந்தரனார்",
+          "அ.ச. ஞானசம்பந்தன்",
+          "உ.வே. சாமிநாத ஐயர்"
+        ],
+        "answer": 1,
+        "explanation": "உடல் நோய்க்கு மருந்து தேவைப்படுவது போல், மன நோய்க்கு மருந்து இலக்கியமே என்று மகாவித்துவான் மீனாட்சி சுந்தரனார் கூறியுள்ளார்."
+      },
+      {
+        "question": "Pick out the adjective which can best fill in the blank given in the sentence below: The _____ chapters are lacking in interest.",
+        "options": [
+          "later",
+          "latest",
+          "latter",
+          "letter"
+        ],
+        "answer": 2,
+        "explanation": "'Latter' refers to the second of two things or the final part of something, fitting the context of concluding chapters in a book."
+      },
+      {
+        "question": "Which is the most appropriate passive form for the sentence? “One should keep one’s promises”",
+        "options": [
+          "we should keep our promises",
+          "Promises should be kept",
+          "Promises need not be kept",
+          "Promises may be kept"
+        ],
+        "answer": 1,
+        "explanation": "In passive voice, 'One' and 'one's' are omitted. Thus, 'Promises should be kept' is the correct generalized passive structure."
+      },
+      {
+        "question": "The most appropriate conversion to simple sentence from the compound sentence “We must eat, or we cannot live”, is",
+        "options": [
+          "We must live to eat",
+          "We must not live to eat",
+          "We must eat and live",
+          "We must eat to live"
+        ],
+        "answer": 3,
+        "explanation": "A simple sentence contains only one independent clause. 'We must eat to live' succinctly conveys the same meaning."
+      },
+      {
+        "question": "In which classification of work can we categorise teaching?",
+        "options": [
+          "Clerical",
+          "Managerial",
+          "Skilled",
+          "Professional"
+        ],
+        "answer": 3,
+        "explanation": "Teaching requires specialized training, qualification, and adherence to academic standards, classifying it as a Professional work."
+      },
+      {
+        "question": "Choose the most appropriate complementary closing for a letter addressed to Sub-Inspector of Police:",
+        "options": [
+          "Yours lovingly",
+          "Lovingly yours",
+          "Yours truly",
+          "Yours affectionately"
+        ],
+        "answer": 2,
+        "explanation": "For formal and official letters, such as those addressed to a police officer, 'Yours truly' or 'Yours faithfully' is the appropriate closing."
+      },
+      {
+        "question": "In the following question, the passage consists of six sentences. The first and last sentences are given in the beginning. The middle four sentences are jumbled up as P, Q, R and S. Sequence the sentences properly choosing the right option:\nS1- There was no limit to insanitation\nS6- So I asked for a broom to clean them myself.\nP- There were only a few latrines\nQ- They refused point-blank to clean them\nR- Pools of water were everywhere\nS- I pointed it out to the volunteers\nThe proper sequence will be:",
+        "options": [
+          "RSPQ",
+          "QPSR",
+          "RPSQ",
+          "QSPR"
+        ],
+        "answer": 2,
+        "explanation": "Order: R (Pools of water...), P (few latrines), S (pointed it out to volunteers), Q (They refused). This logically leads to S6."
+      },
+      {
+        "question": "Identify the one italicized expression that must be changed in order to correct the sentences: Things will be (A) better if I will get (B) a job and earn (C) some money. Then I won’t have (D) to live with my parents.",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": 1,
+        "explanation": "In conditional clauses (if-clause), we use the simple present tense. So it should be 'if I get a job' instead of 'if I will get'."
+      },
+      {
+        "question": "The company claimed (A) to bring the best (B) products and services on (C) the doorstep of their consumers (D).",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": 2,
+        "explanation": "The correct preposition is 'to' the doorstep, not 'on' the doorstep. Hence part C has the error."
+      },
+      {
+        "question": "Identify the errors in the sentences given below: It is raining. Mohan and Sumesh were walking on the park. The path is wet. Mohan slips and fell.",
+        "options": [
+          "raining, were, on",
+          "were, on, fell",
+          "were, on, slips",
+          "were, slips, fell"
+        ],
+        "answer": 2,
+        "explanation": "The tense consistency is broken. It should be 'are walking' (not were), 'in the park' (not on), and 'slips and falls' (or slipped and fell)."
+      },
+      {
+        "question": "Choose the most appropriate clause that can replace the adjective phrase in the sentence: ‘Madhu met a girl with blue eyes’",
+        "options": [
+          "Whose eyes are blue",
+          "Whose eyes were blue",
+          "Those eyes were blue",
+          "Those eyes are blue"
+        ],
+        "answer": 1,
+        "explanation": "Since the main verb 'met' is in the past tense, the adjective clause should also match the tense: 'whose eyes were blue'."
+      },
+      {
+        "question": "In the sentence “The train came rushing down the hill”, the word ‘down’ functions as:",
+        "options": [
+          "Noun",
+          "Preposition",
+          "Verb",
+          "Adverb"
+        ],
+        "answer": 1,
+        "explanation": "Here, 'down' shows the relationship between the movement and 'the hill'. It acts as a preposition indicating direction."
+      },
+      {
+        "question": "Fill in the blank with the most appropriate article from the options given below: Smt. Sheela became _______ Principal of the College in 2005.",
+        "options": [
+          "a",
+          "the",
+          "an",
+          "no article"
+        ],
+        "answer": 1,
+        "explanation": "When referring to a specific, unique title or position in a particular institution, the definite article 'the' is used."
+      },
+      {
+        "question": "Pick the odd one from among the words given below: Pretty, attractive, beautiful, smart, lively",
+        "options": [
+          "attractive",
+          "lively",
+          "beautiful",
+          "pretty"
+        ],
+        "answer": 1,
+        "explanation": "Pretty, attractive, and beautiful describe physical appearance, while 'lively' describes energy or personality, making it the odd one out."
+      },
+      {
+        "question": "Which of the following is not an instruction?",
+        "options": [
+          "What an idea",
+          "Sit down",
+          "Be silent",
+          "Queue up"
+        ],
+        "answer": 0,
+        "explanation": "'What an idea' is an exclamatory sentence expressing surprise or admiration. The others are military or regular commands."
+      },
+      {
+        "question": "According to the passage, which statement is correct?",
+        "options": [
+          "An engine driver cannot be compared to Plato or Socrates.",
+          "Plato or Socrates is in no way inferior to the engine driver.",
+          "Plato or Socrates surpassed the engine driver in every respect.",
+          "An engine driver is cleverer than Plato or Socrates."
+        ],
+        "answer": 1,
+        "explanation": "(பத்தி வினா - பொதுவான புரிதல்) பண்டைய தத்துவஞானிகளின் அறிவுத்திறன் எந்திரங்களை இயக்குபவர்களை விடக் குறைந்ததல்ல என்பதையே பத்தி வலியுறுத்துகிறது."
+      },
+      {
+        "question": "People today are very proud because they:",
+        "options": [
+          "live in a philosophically advanced age",
+          "live in a spiritually advanced age",
+          "enjoy digital communications",
+          "live in a scientifically advanced age"
+        ],
+        "answer": 3,
+        "explanation": "The modern pride generally stems from technological and scientific advancements that define the present era."
+      },
+      {
+        "question": "Many of us make use of machines:",
+        "options": [
+          "with full knowledge of their genesis",
+          "without knowing how they were invented",
+          "with very little knowledge of their mechanism",
+          "without any knowledge of their historical significance"
+        ],
+        "answer": 2,
+        "explanation": "Most people use modern devices like phones and cars daily but lack deep understanding of their internal mechanics."
+      },
+      {
+        "question": "In this passage, Plato and Socrates are mentioned to emphasize that:",
+        "options": [
+          "they had a great respect for learning",
+          "they were men of great scholarship",
+          "people as individuals in the modern age are not more advanced than their predecessors",
+          "the engine is a better mode of locomotion than Plato’s chariot."
+        ],
+        "answer": 2,
+        "explanation": "The passage uses these figures to show that human intellectual capacity hasn't necessarily grown, even if our tools have."
+      },
+      {
+        "question": "The phrase ’height of absurdity’ implies:",
+        "options": [
+          "the possible extent of rationality",
+          "the impossible extent of rationality",
+          "the possible extent of irrationality",
+          "the impossible extent of rationality"
+        ],
+        "answer": 2,
+        "explanation": "'Height of absurdity' means something is extremely foolish or illogical, which aligns with 'the possible extent of irrationality'."
+      },
+      {
+        "question": "If a medal is an award made of gold, silver or bronze, choose the homophone for the word:",
+        "options": [
+          "meddle",
+          "muddle",
+          "middle",
+          "medel"
+        ],
+        "answer": 0,
+        "explanation": "'Medal' (award) and 'meddle' (interfere) are homophones; they sound the same but have different meanings and spellings."
+      },
+      {
+        "question": "Verbal guidance is least effective in the learning of:",
+        "options": [
+          "attitudes",
+          "Relationships",
+          "Skills",
+          "Facts"
+        ],
+        "answer": 2,
+        "explanation": "Skills (especially motor skills like cycling or swimming) require physical practice. Mere verbal instructions are least effective here."
+      },
+      {
+        "question": "My landlady was very _____ when I met with an accident.",
+        "options": [
+          "merciful",
+          "pitiful",
+          "sympathetic",
+          "hearty"
+        ],
+        "answer": 2,
+        "explanation": "When someone is in pain or trouble, people show compassion or understanding, which is best described as being 'sympathetic'."
+      },
+      {
+        "question": "The receptionist _____ to ring another hotel to see if they had a room.",
+        "options": [
+          "offered",
+          "suggested",
+          "recommended",
+          "invited"
+        ],
+        "answer": 0,
+        "explanation": "When volunteering to do a helpful action for someone, the verb 'offer' followed by an infinitive (to ring) is used."
+      },
+      {
+        "question": "I assure you I have no wish to _______ my responsibility.",
+        "options": [
+          "shirk",
+          "refuse",
+          "abandon",
+          "disobey"
+        ],
+        "answer": 0,
+        "explanation": "'Shirk' means to avoid or neglect a duty or responsibility. It is the most contextually appropriate word here."
+      },
+      {
+        "question": "Has there been any _______ on the strike from the Government?",
+        "options": [
+          "reaction",
+          "response",
+          "comment",
+          "criticism"
+        ],
+        "answer": 1,
+        "explanation": "A formal reply or action taken by an authority regarding an event like a strike is best termed as a 'response'."
+      },
+      {
+        "question": "Identify the most suitable explanation for the idiom: The boy backed up his friend’s claim.",
+        "options": [
+          "accepted",
+          "supported",
+          "explained",
+          "denied"
+        ],
+        "answer": 1,
+        "explanation": "The phrasal verb 'to back up' someone means to give them support or verify their statement."
+      },
+      {
+        "question": "Choose the appropriate tag for the sentence: Wait a minute, _______?",
+        "options": [
+          "will you",
+          "shall you",
+          "may you",
+          "won’t you"
+        ],
+        "answer": 0,
+        "explanation": "For positive imperative sentences (commands or requests), 'will you' or 'won't you' can be used. 'will you' is a polite request tag."
+      },
+      {
+        "question": "Choose the following sentences by supplying appropriate connecting words: I met a boy _____ told me _____ I could find you.",
+        "options": [
+          "who, were",
+          "that, were",
+          "that, where",
+          "who, where"
+        ],
+        "answer": 3,
+        "explanation": "'who' is the relative pronoun for 'a boy', and 'where' connects the clause indicating the place."
+      },
+      {
+        "question": "Dr. A.P.J. Abdul Kalam has consented to address students. Which discourse is best for informing parents?",
+        "options": [
+          "letter",
+          "diary",
+          "notice",
+          "slogan"
+        ],
+        "answer": 2,
+        "explanation": "A 'notice' is a formal written format used to broadcast information, announcements, or events to a large target group like parents."
+      },
+      {
+        "question": "How many syllables are there in the word ‘examination’?",
+        "options": [
+          "4",
+          "3",
+          "5",
+          "6"
+        ],
+        "answer": 2,
+        "explanation": "ex-am-i-na-tion. The word has 5 distinct vowel sounds, hence it has 5 syllables."
+      },
+      {
+        "question": "$\\Delta ABC \\sim \\Delta PQR$; AB = 3.6, PQ = 2.4 மற்றும் PR = 5.4 எனில் AC =",
+        "options": [
+          "3.6",
+          "8.1",
+          "5.4",
+          "7.8"
+        ],
+        "answer": 1,
+        "explanation": "வடிவொத்த முக்கோணங்களின் பக்கங்கள் விகித சமமாக இருக்கும். AB/PQ = AC/PR => 3.6 / 2.4 = AC / 5.4 => 1.5 * 5.4 = 8.1"
+      },
+      {
+        "question": "கற்பவரின் திறமை அதன் அதிகபட்ச திறமை நிலையை இயற்கையாகவும், தன்னிச்சையாகவும் அடைகிறது. இதனால் அடையப்படும் குறிக்கோள்",
+        "options": [
+          "இயற்கைமயமாதல்",
+          "குணச்சித்திரப்படுத்துதல்",
+          "திறமையாகக் கையாளுதல்",
+          "ஒழுங்குபடுத்துதல்"
+        ],
+        "answer": 0,
+        "explanation": "ஒரு செயல் இயற்கையாகவும் தன்னிச்சையாகவும் (without conscious effort) நடைபெறும் நிலை 'இயற்கைமயமாதல்' (Naturalization) எனப்படும்."
+      },
+      {
+        "question": "கலைத்திட்ட வடிவமைப்பில் பின்வருவனவற்றில் ஒன்று ஒரு குறிக்கோள் அல்ல. அது எது?",
+        "options": [
+          "குழந்தையை மையமாகக் கொள்ளும் குறிக்கோள்",
+          "கலைத்திட்டம் நிலையானதாக இருத்தல்",
+          "கலைத்திட்டம் அன்றாட வாழ்க்கைக்குத் தொடர்புடையதாக இருத்தல்",
+          "கலைத்திட்டத்தினை நன்கு ஒருங்கிணைத்து அமைத்தல்"
+        ],
+        "answer": 1,
+        "explanation": "கலைத்திட்டம் (Curriculum) நெகிழ்வுத்தன்மையுடையதாகவும் காலத்திற்கேற்ப மாறக்கூடியதாகவும் இருக்க வேண்டும். அது நிரந்தரமானதாக அல்லது நிலையானதாக இருக்கக் கூடாது."
+      },
+      {
+        "question": "10 எண்களின் கூட்டுச்சராசரி -7. ஒவ்வொரு எண்ணுடன் 5-ஐக் கூட்டினால் கிடைக்கும் புதிய கூட்டுச்சராசரி",
+        "options": [
+          "-2",
+          "12",
+          "-7",
+          "-12"
+        ],
+        "answer": 0,
+        "explanation": "கொடுக்கப்பட்ட தரவில் உள்ள ஒவ்வொரு எண்ணுடனும் ஒரு மாறிலியைக் கூட்டினால், சராசரியுடனும் அதே மாறிலியைக் கூட்ட வேண்டும். (-7) + 5 = -2."
+      },
+      {
+        "question": "a = 3, b = 7 எனில், $a^b - b^a$-ன் மதிப்பு",
+        "options": [
+          "1944",
+          "2187",
+          "343",
+          "1844"
+        ],
+        "answer": 3,
+        "explanation": "$3^7 - 7^3 = 2187 - 343 = 1844$"
+      },
+      {
+        "question": "3/4, 1/2, 2/3, 1/6, 7/12-ன் இடைநிலை",
+        "options": [
+          "3/4",
+          "7/12",
+          "2/3",
+          "1/6"
+        ],
+        "answer": 1,
+        "explanation": "அனைத்தையும் 12 பகுதியாக மாற்றினால்: 9/12, 6/12, 8/12, 2/12, 7/12. ஏறுவரிசை: 2/12, 6/12, 7/12, 8/12, 9/12. மைய எண் 7/12."
+      },
+      {
+        "question": "ஒரு தொலைக்காட்சியின் தற்போதைய மதிப்பு ரூ. 14,580. ஒவ்வொரு ஆண்டும் தொலைக்காட்சியின் மதிப்பு 10% தேய்மானத்திற்காகக் குறைத்து மதிப்பிடப்படுகிறது எனில் 3 ஆண்டுகளுக்கு முன்னர் அத்தொலைக்காட்சியின் மதிப்பு",
+        "options": [
+          "ரூ. 18,950",
+          "ரூ. 16,200",
+          "ரூ. 20,000",
+          "ரூ. 18,000"
+        ],
+        "answer": 2,
+        "explanation": "$A = P(1 - r/100)^n$ சூத்திரப்படி: $14580 = P(1 - 10/100)^3$. $14580 = P(0.9)^3 = P * 0.729$. ஆக P = 20,000."
+      },
+      {
+        "question": "இரு வடிவொத்த முக்கோணங்களின் பக்கங்களின் விகிதம் 3 : 2 எனில், அவற்றின் பரப்பளவுகளின் விகிதம்",
+        "options": [
+          "3 : 4",
+          "9 : 4",
+          "3 : 2",
+          "4 : 3"
+        ],
+        "answer": 1,
+        "explanation": "வடிவொத்த முக்கோணங்களின் பரப்பளவுகளின் விகிதம் அவற்றின் பக்கங்களின் விகிதத்தின் வர்க்கத்திற்குச் சமம். $3^2 : 2^2 = 9 : 4$."
+      },
+      {
+        "question": "பாடத்திட்ட வடிவமைப்பில் ஹெர்பார்டியன் அணுகுமுறையானது பின்வரும் படிகளை உள்ளடக்கியது: I. பயன்பாடு, II. தொடர்புபடுத்துதல், III. பொதுமைமாக்குதல், IV. தயார்படுத்துதல், V. விளக்குதல், VI. மீள்பார்வை. மேற்கண்ட படிகளின் சரியான வரிசை:",
+        "options": [
+          "III, II, I, VI, V, IV",
+          "II, IV, V, I, III, VI",
+          "IV, V, II, III, I, VI",
+          "V, I, IV, II, III, VI"
+        ],
+        "answer": 2,
+        "explanation": "ஹெர்பார்ட் படிகள்: 1. தயார்படுத்துதல் (IV), 2. அளித்தல்/விளக்குதல் (V), 3. தொடர்புபடுத்துதல் (II), 4. பொதுமைப்படுத்துதல் (III), 5. பயன்பாடு (I), 6. மீள்பார்வை (VI)."
+      },
+      {
+        "question": "“எதை அளவிடும் நோக்கத்திற்காக ஒரு தேர்வு மேற்கொள்ளப்படுகிறதோ அதை மிகத் துல்லியமாக அளவிடுதல்” என்ற கூற்று ஒரு நல்ல அடைவுச் சோதனையின் எந்தத் தன்மையைக் குறிக்கிறது?",
+        "options": [
+          "சாத்தியத்தன்மை",
+          "குறிக்கோளடையும் தன்மை",
+          "உண்மைத்தன்மை",
+          "ஏற்புடைமை"
+        ],
+        "answer": 3,
+        "explanation": "சோதனை எதற்காக உருவாக்கப்பட்டதோ, அதை சரியாக அளவிடும் தன்மை 'ஏற்புடைமை' (Validity) என அழைக்கப்படுகிறது."
+      },
+      {
+        "question": "kg $\\cdot sec^{-2}$-ன் சமமான அலகு",
+        "options": [
+          "கலோரி",
+          "நியூட்டன்",
+          "ஜூல்",
+          "பாஸ்கல்"
+        ],
+        "answer": 1,
+        "explanation": "விசையின் அலகு நியூட்டன். $F = ma$. நிறை (kg) $\\times$ முடுக்கம் ($m \\cdot s^{-2}$). ஆக $kg \\cdot m \\cdot s^{-2}$ நியூட்டன். வினாவில் $kg \\cdot s^{-2}$ என உள்ளது, இது பரப்பு இழுவிசையின் அலகாகும்."
+      },
+      {
+        "question": "மனிதனின் செவியால் தாங்கிக்கொள்ள முடியாத செவியைப் பழுதாக்கும் ஒலிச்செறிவின் மதிப்பு",
+        "options": [
+          "170 dB",
+          "70 Wm^{-2}",
+          "110 Wm^{-2}",
+          "120 dB"
+        ],
+        "answer": 3,
+        "explanation": "சாதாரண மனிதச் செவியால் தாங்கிக்கொள்ளக்கூடிய ஒலியின் அதிகபட்ச அளவு 120 டெசிபல் (dB) ஆகும். இதற்கு மேல் செவிப்பறை பாதிப்படையும்."
+      },
+      {
+        "question": "தொடரிணைப்பில் இணைக்கப்பட்டுள்ள 10 பல்புகள், 2 V மின்னழுத்த வேறுபாடுடைய 3 மின்கலன்களுடன் இணைக்கப்பட்டால்:",
+        "options": [
+          "வகை II-ஐ விட வகை I-ல் பல்புகள் நீண்ட நேரம் ஒளிர்கிறது",
+          "வகை I-ஐ விட வகை II-ல் பல்புகள் நீண்ட நேரம் ஒளிர்கிறது",
+          "பல்புகள் ஒளிரும் நேரம் இரண்டு வகையிலும் சமமாக, சீரானதாக இருக்கும்",
+          "வகை I-ஐ ஒப்பிடும் பொழுது வகை II-ல் ஒளிர்தல் நேரம் இரண்டு மடங்காகிறது"
+        ],
+        "answer": 2,
+        "explanation": "தொடரிணைப்பில் மின்கலன்களின் ஆற்றல் ஒரே சீராக அனைத்து பல்புகளுக்கும் பகிரப்படுவதால் ஒளிரும் நேரம் சீராக இருக்கும்."
+      },
+      {
+        "question": "39-வது ஜவஹர்லால் நேரு குழந்தைகளின் தேசிய அறிவியல் மற்றும் சுற்றுச்சூழல் கல்வி கண்காட்சி 2012-ன் நோக்கம்",
+        "options": [
+          "அறிவியல், சமுதாயம் மற்றும் சுற்றுச்சூழல்",
+          "அறிவியல் மற்றும் மனித நலனுக்கான தொழில்நுட்பம்",
+          "அறிவியல், விவசாயம் மற்றும் தொழில்துறை",
+          "அறிவியல் மற்றும் உலகளாவிய ஆதாரத்திற்கான தொழில்நுட்பம்"
+        ],
+        "answer": 0,
+        "explanation": "2012 ஆம் ஆண்டின் கண்காட்சியின் மையக்கருப்பொருள் அறிவியல் மற்றும் சுற்றுச்சூழல் பாதுகாப்பிற்கான சமுதாய விழிப்புணர்வாகும்."
+      },
+      {
+        "question": "பாடத்திட்டக் குறிப்பிற்கக்கான முக்கிய நோக்கம்",
+        "options": [
+          "மாணவர்களின் சாதனைகளை மதிப்பீடு செய்தல்",
+          "கற்றல்-கற்பித்தல் முறைகளை முன் கணித்தல்",
+          "கற்பித்தலுக்கான உள்ளடக்கங்களைத் தயார் செய்வது",
+          "கற்றல் - கற்பித்தல் பொருட்களைத் தயார் செய்வது"
+        ],
+        "answer": 1,
+        "explanation": "ஒரு பாடத்திட்டக் குறிப்பு (Lesson plan) வகுப்பறையில் ஆசிரியர் எதை, எப்படி கற்பிக்கப் போகிறார் என்பதை முன்கூட்டியே திட்டமிடுதலாகும்."
+      },
+      {
+        "question": "$x^2 - px + q = 0$-ன் மூலங்கள் $\\alpha, \\beta$ எனில், $\\alpha^2/\\beta + \\beta^2/\\alpha$-ன் மதிப்பு",
+        "options": [
+          "(3q - pq)/q",
+          "(3p - p^3q)/q",
+          "(3p - pq)/q",
+          "(p^3 - 3pq)/q"
+        ],
+        "answer": 3,
+        "explanation": "மூலங்களின் கூடுதல் $\\alpha+\\beta = p$, பெருக்கற்பலன் $\\alpha\\beta = q$. $\\frac{\\alpha^3+\\beta^3}{\\alpha\\beta} = \\frac{(\\alpha+\\beta)^3 - 3\\alpha\\beta(\\alpha+\\beta)}{\\alpha\\beta} = \\frac{p^3 - 3qp}{q}$."
+      },
+      {
+        "question": "20 எண்களின் கூட்டுச்சராசரி 12.15 என கணக்கிடப்பட்டது. பின்னர் அந்த எண்களில் ஒன்று 15 என்பதற்குப் பதிலாக -15 எனத் தவறுதலாக எடுத்துக்கொள்ளப்பட்டுள்ளது கண்டறியப்பட்டுள்ளது எனில், சரியான சராசரி",
+        "options": [
+          "13",
+          "14",
+          "12",
+          "14.5"
+        ],
+        "answer": 0,
+        "explanation": "தவறான கூடுதல் = $20 \\times 12.15 = 243$. பிழையை சரிசெய்ய (-(-15) + 15) அதாவது 30 ஐ கூட்ட வேண்டும். சரியான கூடுதல் = 273. சரியான சராசரி = $273 / 20 = 13.65$."
+      },
+      {
+        "question": "$x = 2\\sqrt{6} + 5$ எனில் $x + 1/x$-ன் மதிப்பு",
+        "options": [
+          "10",
+          "10\\sqrt{6}",
+          "12",
+          "12\\sqrt{6}"
+        ],
+        "answer": 0,
+        "explanation": "$1/x = \\frac{1}{5+2\\sqrt{6}}$. விகிதமுறுக்கினால், $5-2\\sqrt{6}$. எனவே, $x + 1/x = 5 + 2\\sqrt{6} + 5 - 2\\sqrt{6} = 10$."
+      },
+      {
+        "question": "வகுத்தல் கணக்கு ஒன்றில், வகுபடும் எண் 1261 மற்றும் வகுக்கும் எண்ணானது ஈவில் பாதியாக உள்ளது. மீதி 11 எனில், வகுக்கும் எண்",
+        "options": [
+          "20",
+          "25",
+          "35",
+          "45"
+        ],
+        "answer": 1,
+        "explanation": "வகுபடும் எண் = (வகுக்கும் எண் $\\times$ ஈவு) + மீதி. $1261 = x \\times (2x) + 11$. $2x^2 = 1250$, $x^2 = 625$, $x = 25$."
+      },
+      {
+        "question": "$ax^4 + bx^3 + cx^2 + dx + e$-ன் ஒரு காரணி $x+1$ எனில், பின்வருவனவற்றுள் எது மெய்?",
+        "options": [
+          "a + c + e = b + d",
+          "a + b = c - d",
+          "a + b + c + d + e = 0",
+          "a + c + b = d + e"
+        ],
+        "answer": 0,
+        "explanation": "$x+1$ காரணி எனில், $x = -1$ எனப் பிரதியிட மதிப்பு சுழியாகும். $a(-1)^4 + b(-1)^3 + c(-1)^2 + d(-1) + e = 0$. $a - b + c - d + e = 0$, எனவே $a + c + e = b + d$."
+      },
+      {
+        "question": "$(px + q)^3 - (px - q)^3$ =",
+        "options": [
+          "2px(p^2x^2 + 3q^2)",
+          "2q(3p^2x^2 + q^2)",
+          "2px(px + q^2)",
+          "2p^2x^2(px + q^2)"
+        ],
+        "answer": 1,
+        "explanation": "$(A+B)^3 - (A-B)^3 = 2B(3A^2 + B^2)$. இங்கு $A=px, B=q$. எனவே, $2q(3p^2x^2 + q^2)$."
+      },
+      {
+        "question": "மூன்று உலோக கன சதுரங்களின் பக்கங்கள் முறையே 3 செ.மீ, 4 செ.மீ மற்றும் 5 செ.மீ இவையனைத்தும் உருக்கப்பட்டு ஒரே கனசதுரமாக மாற்றப்படுகிறது எனில் அதன் புறப்பரப்பு (ச.செ.மீ.யில்)",
+        "options": [
+          "216",
+          "256",
+          "72",
+          "144"
+        ],
+        "answer": 0,
+        "explanation": "புதிய கனசதுரத்தின் கனஅளவு = $3^3 + 4^3 + 5^3 = 27 + 64 + 125 = 216$. எனவே பக்க அளவு $a=6$. புறப்பரப்பு = $6a^2 = 6 \\times 36 = 216$."
+      },
+      {
+        "question": "தரையிலிருந்து 20 மீட்டர் உயரத்தில் ஒரு கட்டிடத்தின் ஜன்னல் அமைந்துள்ளது. அதன் மீது 25 மீட்டர் நீளமுள்ள ஏணி சார்த்தப்பட்டுள்ளது எனில், ஏணியின் அடிப்பாகத்தில் இருந்து கட்டிடத்திற்கு உள்ள தூரம்",
+        "options": [
+          "35 மீ",
+          "45 மீ",
+          "30 மீ",
+          "15 மீ"
+        ],
+        "answer": 3,
+        "explanation": "பிதாகரஸ் தேற்றப்படி: $x^2 + 20^2 = 25^2 \\Rightarrow x^2 + 400 = 625 \\Rightarrow x^2 = 225 \\Rightarrow x = 15$ மீ."
+      },
+      {
+        "question": "$(64)^x = 2\\sqrt{2}$ எனில், x-ன் மதிப்பு",
+        "options": [
+          "4",
+          "6",
+          "1/4",
+          "1/6"
+        ],
+        "answer": 2,
+        "explanation": "$64 = 2^6$. எனவே $2^{6x} = 2^{1.5}$. ஆக $6x = 1.5 \\Rightarrow x = 1.5 / 6 = 1/4$."
+      },
+      {
+        "question": "7 மீட்டர் விட்டமுள்ள ஒரு உள்ளீடற்ற கோளம் ஒன்றில் ஒரு சர்க்கஸ் இரு சக்கர வாகன ஓட்டி தன் சாகசங்களை நிகழ்த்திறான். அவருக்கு அந்த வாகனத்தை ஓட்டுவதற்கான உள்ள பரப்பு (ச.மீ.யில்)",
+        "options": [
+          "77",
+          "154",
+          "44",
+          "144"
+        ],
+        "answer": 1,
+        "explanation": "கோளத்தின் வளைபரப்பு = $4\\pi r^2$. ஆரம் $r = 7/2$. பரப்பு = $4 \\times (22/7) \\times (7/2) \\times (7/2) = 154$ ச.மீ."
+      },
+      {
+        "question": "வடிகட்டுதல் என்ற நிகழ்வில்",
+        "options": [
+          "ஆவியாதல் நடைபெறுகிறது",
+          "குளிரூறுதல் நடைபெறுகிறது",
+          "ஆவியாதலும் மற்றும் குளிரூறுதலும் ஒரே நேரத்தில் நிகழ்தல் ஏற்படுகிறது",
+          "திண் மற்றும் திரவ பருப்பொருள் வாயுநிலைக்கு மாறுதல் ஏற்படுகிறது"
+        ],
+        "answer": 2,
+        "explanation": "வடிகட்டுதல் (Distillation) என்பது ஒரு திரவத்தை ஆவியாக்கி, அந்த ஆவியை மீண்டும் குளிரூட்டி (condensation) சுத்தமான திரவமாகப் பெறும் முறையாகும்."
+      },
+      {
+        "question": "1 சதுர டெசிமீட்டர் என்பது",
+        "options": [
+          "10^{-2} ஏர்",
+          "10^{-4} சதுர டெக்காமீட்டர்",
+          "10^{-4} ஹெக்டேர்",
+          "10^{-2} சதுர டெக்காமீட்டர்"
+        ],
+        "answer": 1,
+        "explanation": "1 டெசிமீட்டர் = $10^{-2}$ டெக்காமீட்டர். ஆக 1 சதுர டெசிமீட்டர் = $(10^{-2})^2 = 10^{-4}$ சதுர டெக்காமீட்டர்."
+      },
+      {
+        "question": "எரிபொருளின் சரியான கலோரி மதிப்புகள் கீழ்க்காணும் ஏதேனும் ஒன்றின் ஏறுவரிசையில் உள்ளது",
+        "options": [
+          "நீர் வாயு – கரி – இயற்கை வாயு – மீத்தேன் – ஹைட்ரஜன்",
+          "மீத்தேன் – கரி – ஹைட்ரஜன் – நீர் வாயு – இயற்கை வாயு",
+          "கரி – இயற்கை வாயு – நீர் வாயு – மீத்தேன் – ஹைட்ரஜன்",
+          "இயற்கை வாயு – நீர் வாயு – கரி – மீத்தேன் – ஹைட்ரஜன்"
+        ],
+        "answer": 0,
+        "explanation": "ஹைட்ரஜன் மிக அதிக கலோரி மதிப்பைக் கொண்டது (150 kJ/g). மீத்தேன் (55), இயற்கை வாயு, கரி, நீர் வாயு ஆகியன அதற்குக் குறைவானவை."
+      },
+      {
+        "question": "Y என்ற ஒளிபுகு பொருளோடி சேர்த்து வைக்கப்பட்டது X என்ற மற்றொரு ஒளிபுகு பொருள் மீது ஒரு ஒளிக்கதிர் படுகிறது. அக்கதிர் Y-ன் வழியாக வெளிவராததற்கான காரணம்",
+        "options": [
+          "X என்பது அடர்குறை ஊடகம் மற்றும் i < C",
+          "X என்பது அடர்மிகு ஊடகம் மற்றும் i > C",
+          "Y என்பது அடர்மிகு ஊடகம் மற்றும் i > C",
+          "Y என்பது அடர்குறை ஊடகம் 및 i < C"
+        ],
+        "answer": 1,
+        "explanation": "முழு அக எதிரொளிப்பு (Total Internal Reflection) ஏற்பட, கதிர் அடர்மிகு ஊடகத்திலிருந்து (X) அடர்குறை ஊடகத்திற்கு (Y) செல்ல வேண்டும், மேலும் படுகோணம் (i) மாறுநிலைக் கோணத்தை (C) விட அதிகமாக இருக்க வேண்டும்."
+      },
+      {
+        "question": "வெப்பச்சலனம் ஏற்படும்போது அதன் இயற்பியல் பண்பில் ஏற்படும் மாற்றம்",
+        "options": [
+          "மூலக்கூறுகளுக்கு இடையேயுள்ள ஈர்ப்பு விசை",
+          "அயனியாக்கம்",
+          "அடர்த்தி",
+          "கரைதிறன்"
+        ],
+        "answer": 2,
+        "explanation": "திரவங்கள் அல்லது வாயுக்கள் வெப்பமடையும் போது, அவற்றின் அடர்த்தி குறைந்து அவை மேல்நோக்கி எழுகின்றன. இதுவே வெப்பச்சலனத்திற்கு (Convection) காரணம்."
+      },
+      {
+        "question": "இந்த இனப்பெருக்க முறையில் எட்டு தலைமுறைகளில் புரோட்டோசோவாவின் இனத்தொகை பெருக்கம் 256 ஆக உள்ளது. இந்த இனப்பெருக்கத்தின் பெயர்",
+        "options": [
+          "இருசமப்பிளவு",
+          "பலமுறை பிளவு",
+          "முதல் நிலை பிளவு",
+          "இரண்டாம் நிலை பிளவு"
+        ],
+        "answer": 0,
+        "explanation": "இருசமப்பிளவு (Binary fission) முறையில் $2^n$ என்ற வீதத்தில் பெருகும். 8 தலைமுறைகளில் $2^8 = 256$ உருவாகும்."
+      },
+      {
+        "question": "பொதுவாகவும் பரவலாகவும் காணப்படும் எந்தச் சிற்றினத்தின் மூலம் 48 மணி நேரத்தில் விட்டு விட்டு மலேரியா காய்ச்சல் ஏற்படும்?",
+        "options": [
+          "பி. ஓவல்",
+          "பி. பால்சிபாரம்",
+          "பி. வைவாக்ஸ்",
+          "பி. மலேரியா"
+        ],
+        "answer": 2,
+        "explanation": "பிளாஸ்மோடியம் வைவாக்ஸ் (P. vivax) எனப்படும் மலேரியா ஒட்டுண்ணி 48 மணி நேரத்திற்கு ஒருமுறை காய்ச்சலை ஏற்படுத்துகிறது (Benign tertian malaria)."
+      },
+      {
+        "question": "கீழே கொடுக்கப்பட்டுள்ள சிம்பன்சியின் பல்வேறு செல்களின் பெயர்களும் அவற்றிலுள்ள குரோமோசோம்களின் எண்ணிக்கையும் தரப்பட்டுள்ளன. சரியாகப் பொருந்தியுள்ளவைத் தேர்க: I. கருமுட்டை : 48, II. தாய் விந்து செல் : 24, III. விந்தணு : 24, IV. அண்டச்செல்: 48",
+        "options": [
+          "I, IV",
+          "I, III",
+          "I, II",
+          "II, IV"
+        ],
+        "answer": 1,
+        "explanation": "சிம்பன்சியின் குரோமோசோம் எண்ணிக்கை 48 (2n). விந்தணு மற்றும் அண்டச்செல் போன்ற இனச்செல்களில் பாதியளவு (n=24) மட்டுமே இருக்கும். கருமுட்டையில் 48 இருக்கும். I, III சரி."
+      },
+      {
+        "question": "செயற்கை மழையை ஏற்படுத்த மேகத்தின் மீது தூவப்படுவது",
+        "options": [
+          "திரவ O_2",
+          "திண் H_2",
+          "திரவ CO",
+          "திண் CO_2"
+        ],
+        "answer": 3,
+        "explanation": "உலர் பனிக்கட்டி எனப்படும் திட கார்பன் டை ஆக்சைடு ($திண் CO_2$) அல்லது சில்வர் அயோடைடு செயற்கை மழையை (Cloud seeding) உருவாக்கப் பயன்படுகிறது."
+      },
+      {
+        "question": "25 வயதுள்ள ஒரு நபர், விபத்தில் வலது காலை இழந்தார். ஆகஸ்ட் வீஸ்மென் கூற்றுப்படி, திருமணத்திற்குப் பிறகு பிறக்கும் அவரின் குழந்தைகள்",
+        "options": [
+          "உடல் ஊனமுற்றதாக இருக்கும்",
+          "இயல்பானவையாக இருக்கும்",
+          "மனவளர்ச்சி குன்றியதாக இருக்கும்",
+          "50% இயல்பானவையாக இருக்கும்"
+        ],
+        "answer": 1,
+        "explanation": "ஆகஸ்ட் வீஸ்மெனின் ஜெர்ம்பிளாசம் கோட்பாட்டின்படி, உடற்செல்களில் ஏற்படும் மாற்றங்கள் (அறுவை சிகிச்சை, விபத்து) மரபணு வழியே அடுத்த சந்ததிக்குக் கடத்தப்படாது."
+      },
+      {
+        "question": "ஒளிச்சார்பசைவு மற்றும் புவிச்சார்பசைவு காணப்படும் தாவரப்பகுதிகள் முறையே",
+        "options": [
+          "வேர்கள், தண்டு",
+          "தண்டு, வேர்",
+          "பழங்கள், இலைகள்",
+          "வேர்கள், பழங்கள்"
+        ],
+        "answer": 1,
+        "explanation": "தாவரத்தின் தண்டு ஒளியை நோக்கியும் (நேர் ஒளிச்சார்பசைவு), வேர் புவியீர்ப்பை நோக்கியும் (நேர் புவிச்சார்பசைவு) வளரும்."
+      },
+      {
+        "question": "அல்லோகேமி மூலம் நல்ல பயிர் பெருக்கத்திற்கு விவசாயி தாவரத்தின் எந்தப் பகுதியை நீக்கம் செய்வார்?",
+        "options": [
+          "ஒரு பால் மலரிலுள்ள மகரந்தத்தாள்",
+          "இருபால் மலரிலுள்ள சூலகம்",
+          "இருபால் மலரிலுள்ள மகரந்தத்தாள் அல்லது சூலகம்",
+          "இருபால் மலரிலுள்ள மகரந்தத்தாள் மற்றும் சூலகம்"
+        ],
+        "answer": 2,
+        "explanation": "அயல் மகரந்தச்சேர்க்கையை (அல்லோகேமி) உறுதி செய்ய, இருபால் மலர்களில் உள்ள மகரந்தத் தாள்களை (Emasculation) வெட்டி நீக்குவர்."
+      },
+      {
+        "question": "ஒற்றைமய குரோமோசோம்கள் எண்ணிக்கையின் அடிப்படையில் இறங்கு வரிசையின்படி கீழ்க்கண்ட தாவரங்களை (தோட்டப் பட்டாணி, நெல், கரும்பு மற்றும் கோதுமை) வரிசைப்படுத்து:",
+        "options": [
+          "கோதுமை, நெல், தோட்டப் பட்டாணி, கரும்பு",
+          "கரும்பு, கோதுமை, நெல், தோட்டப் பட்டாணி",
+          "தோட்டப் பட்டாணி, நெல், கோதுமை, கரும்பு",
+          "நெல், கோதுமை, தோட்டப் பட்டாணி, கரும்பு"
+        ],
+        "answer": 1,
+        "explanation": "கரும்பு (n=40), கோதுமை (n=21), நெல் (n=12), பட்டாணி (n=7). ஆக இறங்கு வரிசை: கரும்பு, கோதுமை, நெல், பட்டாணி."
+      },
+      {
+        "question": "எத்தனாலிக் நொதித்தலின் பொழுது வெளிப்படும் ஆற்றல் நாணயம், $FADH_2$ மற்றும் $NADH_2$ ஆகியவற்றின் மூலக்கூறு எண்ணிக்கை முறையே",
+        "options": [
+          "0, 2, 1",
+          "2, 2, 2",
+          "2, 2, 6",
+          "2, 0, 2"
+        ],
+        "answer": 3,
+        "explanation": "எத்தனாலிக் நொதித்தலில் (காற்றில்லா சுவாசம்) 2 ATP மற்றும் 2 $NADH_2$ மூலக்கூறுகள் கிடைக்கின்றன. $FADH_2$ உருவாகாது."
+      },
+      {
+        "question": "கீழ்க்கண்ட இணையில் விதையைப் பொறுத்த தவறான இணையைக் கண்டுபிடி: I. ஆட்டோகோரி – காற்றின் மூலம், II. அனிமோகோரி – சுயமாக, III. ஹைட்ரோகோரி – நீரின் மூலம், IV. ஜூகோரி – விலங்கின் மூலம்.",
+        "options": [
+          "I, III",
+          "II, I",
+          "II, III",
+          "IV, I"
+        ],
+        "answer": 1,
+        "explanation": "ஆட்டோகோரி என்பது சுயமாக வெடித்துச் சிதறுதல். அனிமோகோரி என்பது காற்றின் மூலம் பரவுதல். இவை மாற்றி கொடுக்கப்பட்டுள்ளன."
+      },
+      {
+        "question": "குளோரோபில்லில் அடங்கியுள்ள தனிமம்",
+        "options": [
+          "As",
+          "Be",
+          "Cs",
+          "Mg"
+        ],
+        "answer": 3,
+        "explanation": "பச்சையத்தில் (குளோரோபில்) உள்ள மைய உலோக அயனி மெக்னீசியம் (Mg) ஆகும்."
+      },
+      {
+        "question": "பழங்கள் மற்றும் காய்கறிகளின் திட்ட நிறம், வாசனை மற்றும் ருசிக்குக் காரணம்",
+        "options": [
+          "பீனாலிக் சேர்மம்",
+          "மெலனின்",
+          "அமினோ அமிலங்கள்",
+          "கொழுப்பு அமிலங்கள்"
+        ],
+        "answer": 0,
+        "explanation": "தாவரங்களில் உள்ள பீனாலிக் சேர்மங்கள் மற்றும் பிளேவனாய்டுகளே அவற்றின் சிறப்பான நிறம், வாசனை மற்றும் ருசிக்கு முக்கியக் காரணமாகும்."
+      },
+      {
+        "question": "MPS போன்ற அமில நீக்கி மருந்துகளில் உள்ளது",
+        "options": [
+          "Ca(OH)_2",
+          "NaOH",
+          "Mg(OH)_2",
+          "KOH மற்றும் NaOH"
+        ],
+        "answer": 2,
+        "explanation": "வயிற்றில் ஏற்படும் அதிகப்படியான அமிலத்தன்மையை நடுநிலையாக்க மெக்னீசியம் ஹைட்ராக்சைடு ($Mg(OH)_2$ - Milk of Magnesia) பயன்படுத்தப்படுகிறது."
+      },
+      {
+        "question": "சில்வர் புரோமைடு சிதைவடைந்து Ag மற்றும் $Br_2$ தரும் வினை வழி",
+        "options": [
+          "காந்தமாக்கல்",
+          "சூரிய ஒளி முன்னிலையில்",
+          "இருட்டில் குளிர வைத்தல்",
+          "ஈரப்பதக் காற்றின் முன்னிலையில்"
+        ],
+        "answer": 1,
+        "explanation": "சில்வர் புரோமைடு (AgBr) ஒளி உணர்திறன் கொண்டது, சூரிய ஒளியில் படும்போது இது சிதைவடைந்து சில்வர் மற்றும் புரோமீன் வாயுவாக மாறுகிறது."
+      },
+      {
+        "question": "நாஃப்தலீன் உருண்டைகள் தயாரித்தலில் பயன்படும் நிலக்கரி விளைபொருள்",
+        "options": [
+          "நிலக்கரி வாயு",
+          "வாயு கார்பன்",
+          "நிலக்கரித் தார்",
+          "திரவ அம்மோனியா"
+        ],
+        "answer": 2,
+        "explanation": "நிலக்கரியைச் சிதைத்து வடிக்கும்போது கிடைக்கும் நிலக்கரித் தாரிலிருந்து (Coal tar) நாஃப்தலீன் போன்ற பல பயнуள்ள வேதிப்பொருட்கள் பிரித்தெடுக்கப்படுகின்றன."
+      },
+      {
+        "question": "நமது முதுகெலும்புத் தொடரில் 26/33 எண்ணிக்கை உள்ளபோது, எண்ணிக்கையில் அதிகமாகவும் குறைவாகவும் உள்ள முள்ளெலும்புகள் முறையே",
+        "options": [
+          "மார்பு, லம்பார் (வயிறு)",
+          "மார்பு, வால்",
+          "கழுத்து, இடுப்பு",
+          "இடுப்பு, வால்"
+        ],
+        "answer": 1,
+        "explanation": "மனித முதுகெலும்பில் மார்புப் பகுதியில் (Thoracic) 12 முள்ளெலும்புகளும் (அதிகம்), வால் பகுதியில் (Coccyx) 1 அல்லது 4 இணைந்து ஒன்றாகவும் உள்ளன (குறைவு)."
+      },
+      {
+        "question": "கீழ்கண்டவற்றுள் எது குளோனிங்கிற்குத் தொடர்பில்லாதது?",
+        "options": [
+          "பாலிலா இனப்பெருக்கம் மூலம் உயிரி உருவாக்கப்படுதல்",
+          "ஒரே பெற்றோரிடமிருந்து பெறப்படும் உயிரி",
+          "ஓர் இயற்கையான குளோன், டாக்டர் ஐயான் வில்முட் அவர்களால் உருவாக்கப்பட்டது",
+          "குளோன் என்பது வாழும் பெற்றோர்களின் நகலாகும்"
+        ],
+        "answer": 2,
+        "explanation": "குளோனிங் என்பது செயற்கையானது. டாக்டர் அயான் வில்முட் உருவாக்கியது 'டாலி' என்ற செயற்கை குளோன் ஆடு, இது இயற்கையானதல்ல."
+      },
+      {
+        "question": "கீழ்க்கண்ட எதன் அடிப்படையில் எதிர் சவ்வூடு பரவல், சவ்வூடு பரவலிலிருந்து வேறுபடுகிறது? I. அழுத்தம் பயன்படுத்தப்படுகிறது, II. ஆற்றல் தேவை, III. அதிக அடர்த்தியிலிருந்து குறைவான அடர்த்திக்கு நீர் பரவுதல், IV. அரை கடத்திச் சவ்வு அவசியத் தேவை.",
+        "options": [
+          "I, II",
+          "I, IV",
+          "III, IV",
+          "I, III"
+        ],
+        "answer": 3,
+        "explanation": "எதிர் சவ்வூடு பரவலில் (RO) அதிக அழுத்தம் பயன்படுத்தப்பட்டு, சாதாரண சவ்வூடு பரவலுக்கு நேர்மாறாக செறிவான பகுதியிலிருந்து குறைந்த செறிவுப் பகுதிக்கு நீர் தள்ளப்படுகிறது."
+      },
+      {
+        "question": "ஒன்பதாம் வகுப்பு பயிலும் ஒரு மாணவருக்குக் கீழ்க்காணும் கருவிகளும், பொருட்களும் வழங்கப்பட்டுள்ளது. ரப்பர் குழாய், கிளிப்புகள், ஒரு துளையுள்ள ரப்பர் அடைப்பான், Y-வடிவக் கண்ணாடி குழல், பலூன்கள், ரப்பர் விரிப்பு, அகல வாயுடைய கண்ணாடி பாட்டில் மற்றும் நூல். இவற்றைப் பயன்படுத்தி, செயல்படும் எந்த வகை மாதிரியை உருவாக்க முடியும்?",
+        "options": [
+          "ஸ்டெதாஸ்கோப்",
+          "சிறுநீரகங்கள்",
+          "நுரையீரல்",
+          "குருதிச் சுழற்சி"
+        ],
+        "answer": 2,
+        "explanation": "பலூன்கள் (நுரையீரல்) and Y குழாய் (மூச்சுக்குழல்) ஆகியவற்றைக் கொண்டு மனித சுவாச அமைப்பின் (நுரையீரல்) மாதிரியை உருவாக்கலாம்."
+      },
+      {
+        "question": "“அன்றாட வாழ்வின் ஒரு பகுதியைத்தான் செயல்திட்டமாக பள்ளிகளில் கற்பிக்கப்படுகிறது” - இந்த வரையறையை வகுத்தவர்",
+        "options": [
+          "பேராசிரியர் பெலார்டு",
+          "டாக்டர் கில்பாட்ரிக்",
+          "ஸ்டீவன்சன்",
+          "H.E. ஆம்ஸ்ட்ராங்"
+        ],
+        "answer": 2,
+        "explanation": "செயல்திட்ட முறையை (Project Method) உருவாக்கியவர் கில்பாட்ரிக் என்றாலும், 'அன்றாட வாழ்வின் ஒரு பகுதி' என்று அதை வரையறுத்தது ஸ்டீவன்சன் (Stevenson) ஆவார்."
+      },
+      {
+        "question": "கீழ்க்கண்டவற்றுள் ஆக்குத்திசுவைப் பற்றிய கூற்றுப்படி எது தவறானது என்பதை கண்டுபிடி",
+        "options": [
+          "இது எல்லா உயிரிகளிலும் காணப்படுகிறது",
+          "தாவரத்தின் வளர்ச்சிக்கு காரணமாக உள்ளது",
+          "குறிப்பிட்ட தாவரப் பகுதியில் மட்டுமே காணப்படுகிறது",
+          "செல்கள் தொடர்ந்து பகுப்படைதல் மூலம் உருவான ஒரே மாதிரியான முதிர்ச்சியடையாத செல்கள்"
+        ],
+        "answer": 0,
+        "explanation": "ஆக்குத்திசு (Meristematic tissue) தாவரங்களில் மட்டுமே காணப்படுகிறது, விலங்குகள் போன்ற எல்லா உயிரிகளிலும் காணப்படுவதில்லை."
+      },
+      {
+        "question": "தாவர நுண்பெருக்கத்தின்பொழுது (மைக்ரோ புரோபகேஷன்) ஆய்வக வல்லுநர் வளர்ப்பு ஊடகத்தில் சைட்டோகைனினை சேர்க்க மறந்து சில நாட்கள் கழித்து உற்று நோக்கும் பொழுது",
+        "options": [
+          "திசுத்திரளில் தண்டுத் தொகுப்பு காணப்படுதல்",
+          "திசுத்திரளில் வேர்த்தொகுப்பு காணப்படுதல்",
+          "திசுத்திரளில் உறுப்புகளாக்கம் காணப்படுதல்",
+          "திசுத்திரளில் புறவளர்ச்சி காணப்படுதல்"
+        ],
+        "answer": 1,
+        "explanation": "சைட்டோகைனின் தண்டு உருவாக்கத்தைத் தூண்டக்கூடியது, ஆக்சின் வேர் உருவாக்கத்தைத் தூண்டும். சைட்டோகைனின் இல்லையெனில், வேர்த்தொகுப்பு மட்டுமே உருவாகும்."
+      },
+      {
+        "question": "அல்பினோ என்பது",
+        "options": [
+          "கருப்பு இனத்தவர்",
+          "வெள்ளை இனத்தவர்",
+          "முற்றிலுமாக மெலனின் நிறமி காணப்படாதவர்",
+          "அதிகப்படியான மெலனின் நிறமி உள்ளவர்கள்"
+        ],
+        "answer": 2,
+        "explanation": "மரபணு குறைபாட்டால் தோல் மற்றும் முடிகளில் மெலனின் நிறமி முற்றிலும் உருவாகாத நிலையைக் கொண்டவர்களை அல்பினோ (Albino) என்பர்."
+      },
+      {
+        "question": "தாவர வகைப்பாட்டியல் பற்றித் தெரிந்து கொண்டபின் புறத்தோற்றத்தின் அடிப்படையில் தாவரங்களை ஒரு மாணவரால் வகைப்பாடு செய்ய முடிகிறது. இது _______ குறிக்கோள் நிறைவேறுவதை உணர்த்துகிறது",
+        "options": [
+          "அறிவு",
+          "புரிதல்",
+          "செயல்படுத்துதல்",
+          "திறன்"
+        ],
+        "answer": 3,
+        "explanation": "கற்ற கல்வியை நடைமுறையில் பயன்படுத்தி வகைப்படுத்துவது 'திறன்' (Skill) சார்ந்த குறிக்கோளாகும்."
+      }
+    ]
+  }
+}

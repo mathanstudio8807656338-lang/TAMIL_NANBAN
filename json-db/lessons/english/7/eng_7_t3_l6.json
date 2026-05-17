@@ -1,0 +1,619 @@
+{
+  "lesson_meta": {
+    "subject": "english",
+    "class": 7,
+    "term": 3,
+    "lesson": 6,
+    "title": "Man Overboard",
+    "title_en": "Man Overboard",
+    "description": ""
+  },
+  "material": {
+    "sections": [
+      {
+        "title": "Summary",
+        "content": "The story 'Man Overboard' by Vasantha Murthi revolves around a young girl named Vasantha travelling on a ship. When a storm warning is announced, the adult passengers panic, but Vasantha finds the idea of a storm at sea thrilling and adventurous. Her imagination runs wild, thinking about tables and chairs moving like a merry-go-round, based on a story her English teacher had once told her. Although the storm doesn't break, strong winds make the sea rough. While running on the slippery deck, Vasantha notices an elderly gentleman ('Uncle') violently seasick and retching over the railings. Suddenly, a huge wave lashes the ship, and the man tumbles into the wild sea. Showing immense presence of mind, Vasantha immediately shouts, 'Man overboard!' and runs into the ship's Captain. The Captain quickly takes charge, stopping the ship, dropping the anchor, and launching lifeboats. Two brave sailors swim with a strong rope and rescue the drowning man, despite a sudden current. The ship's doctor then takes over to provide medical care, including artificial respiration. For her alertness and brave action, Captain Lindsay rewards Vasantha with a beautiful model of the ship 'S.S. RAJULA'. Vasantha becomes the happiest person on board that day."
+      },
+      {
+        "title": "Additional Sections and Notes",
+        "content": [
+          "Vasantha's English Teacher's Story: The teacher narrated an experience of crossing the English Channel where a big storm near Gibraltar caused heavy pianos in the lounge to crash against the walls.",
+          "The Rescue Operation: The Captain ordered to stop the ship, drop the anchor, and lower the lifeboats towards the helm. Two sailors swam towards the man, threw a strong rope, tied it around his waist, and pulled him to safety.",
+          "Medical Care for Drowning: The doctor instructed that all the water must be pumped out of the man by placing him on his stomach and massaging him until he brings it up. He was also to be given artificial respiration and kept warm.",
+          "The Gift: Vasantha was gifted a beautiful model of the ship lying snugly on a velvet backing. The box had 'WITH THE BEST COMPLIMENTS OF CAPT. LINDSAY' written on it, and the model was inscribed with 'B.I.S.N. & Co. S.S. RAJULA'."
+        ]
+      },
+      {
+        "title": "Points to Remember and Key Notes",
+        "content": [
+          "Author: Vasantha Murthi",
+          "Main Character: Vasantha (a young, adventurous, and observant girl)",
+          "Ship Name: S.S. RAJULA (B.I.S.N. & Co.)",
+          "Captain's Name: Captain Lindsay",
+          "Key Phrase: 'Man overboard!' is a nautical cry used when a passenger or crew member falls off the ship into the water.",
+          "Real-life Brave Hearts (From Text): Zen Sadavarte (a 10-year-old class 3 student who saved 16 lives during a fire in Mumbai) and V.N.C. Revin (who averted a major fire accident by spotting a short circuit in Puducherry and dialing 101)."
+        ]
+      },
+      {
+        "title": "Let Us Know More",
+        "content": [
+          "Jumbled Sentences Answers (Step to Success):",
+          "1. When he heard the hue and cry at midnight (R), he was nervous and (Q) did not know (P) what to do (S). -> RQPS",
+          "2. They felt safer as they settled down (R) to watch the mountain (P) from a distance (S) of more than five miles (Q). -> RPSQ",
+          "3. If you need help ask for attendants (Q) who have instructions (S) to help our customers (R) promptly and politely (P). -> QSRP",
+          "4. He knew that the duty of a captain (S) was to save all the lives (Q) entrusted to his care (R) and then to save himself (P). -> SQRP",
+          "5. With her body doubled with age (R), weak and infirm (Q), dragging her unwilling feet (P), she persisted in her mission (S). -> RQPS"
+        ]
+      },
+      {
+        "title": "Book Back Evaluation Questions",
+        "content": [
+          "A. Complete the following statements:",
+          "1. Everyone in the ship started to pray because there was a warning about rough weather and a possible storm.",
+          "2. Vasantha's imagination ran wild because her English teacher had told her a story about how heavy pianos rolled and crashed during a storm.",
+          "3. Vasantha made a lot of noise because she saw the elderly gentleman tumble over the railings into the sea.",
+          "4. Vasantha could not see the rescue operation because the boat was too far away for her to see clearly.",
+          "5. The captain presented a gift to Vasantha because her timely alert helped save the life of the drowning passenger.",
+          "B. Identify the speaker / character:",
+          "1. 'Don't worry, Madam, it's only a warning.' - Answer: A gentleman",
+          "2. 'A man fell into the sea. Please save him.' - Answer: Vasantha",
+          "3. 'Stop ship. Drop anchor. Quick!' - Answer: The Captain",
+          "4. 'He'll have to be given artificial respiration and kept warm.' - Answer: The Doctor",
+          "5. 'Wake up, child.' - Answer: A sailor"
+        ]
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "question": "Who is the author of the story 'Man Overboard'?",
+      "options": [
+        "Ruskin Bond",
+        "Vasantha Murthi",
+        "R.K. Narayan",
+        "Jules Verne"
+      ],
+      "answer": 1,
+      "explanation": "The story 'Man Overboard' is written by Vasantha Murthi, who also serves as the narrator in the story."
+    },
+    {
+      "question": "Why did an old lady on the ship start praying aloud?",
+      "options": [
+        "Because she lost her money",
+        "Because there was a warning of rough weather and a possible storm",
+        "Because the ship's engine stopped",
+        "Because she missed her son"
+      ],
+      "answer": 1,
+      "explanation": "There was panic everywhere due to a storm warning, prompting the old lady to pray for mercy."
+    },
+    {
+      "question": "Where was the old lady's only son waiting for her?",
+      "options": [
+        "In London",
+        "In Mumbai",
+        "In Singapore",
+        "In Tokyo"
+      ],
+      "answer": 2,
+      "explanation": "She prayed aloud saying, 'My only son is waiting for me in Singapore.'"
+    },
+    {
+      "question": "How did Vasantha feel about the prospect of facing a storm on the steamer?",
+      "options": [
+        "She was terrified",
+        "She was feeling seasick",
+        "She found it thrilling and exciting",
+        "She was indifferent"
+      ],
+      "answer": 2,
+      "explanation": "Unlike the adults who were panicking, Vasantha excitedly thought it would be thrilling to face a storm on board a steamer."
+    },
+    {
+      "question": "What did Vasantha's English teacher tell her class about a storm near Gibraltar?",
+      "options": [
+        "The ship sank completely",
+        "Heavy pianos in the lounge went crashing against the walls",
+        "Pirates attacked the ship",
+        "The passengers were thrown into the sea"
+      ],
+      "answer": 1,
+      "explanation": "The teacher shared that during a storm near Gibraltar, the ship rocked so much that even heavy pianos crashed against the walls."
+    },
+    {
+      "question": "Based on the teacher's story, what did Vasantha imagine would happen during lunch?",
+      "options": [
+        "The food would taste better",
+        "The tables would run away and chairs would be like a merry-go-round",
+        "The plates would fly out of the window",
+        "The captain would join them"
+      ],
+      "answer": 1,
+      "explanation": "Her imagination ran wild, thinking the tables would run away and the chairs would become a merry-go-round."
+    },
+    {
+      "question": "Did the storm break as predicted?",
+      "options": [
+        "Yes, it broke heavily in the afternoon",
+        "No, it didn't break, but a strong wind started blowing in the evening",
+        "Yes, and it destroyed the ship",
+        "No, the sea remained completely calm"
+      ],
+      "answer": 1,
+      "explanation": "The text explicitly states: 'The storm didn't break, but in the evening a strong wind started blowing.'"
+    },
+    {
+      "question": "What was the elderly gentleman ('Uncle') doing when Vasantha ran up to him on the slippery deck?",
+      "options": [
+        "He was enjoying the wind",
+        "He was reading a book",
+        "He was leaning over the railings, extremely seasick and retching",
+        "He was talking to the captain"
+      ],
+      "answer": 2,
+      "explanation": "Uncle wasn't well at all; he was retching over the rails and looked rather blue about the mouth."
+    },
+    {
+      "question": "What caused the elderly gentleman to tumble over the railings into the sea?",
+      "options": [
+        "Someone pushed him",
+        "He tried to jump for fun",
+        "A huge wave lashed the ship while he was leaning over",
+        "He slipped on a banana peel"
+      ],
+      "answer": 2,
+      "explanation": "As another bout of retching shook him, he leaned over, and at the same time, a huge wave lashed the ship, making it lurch violently."
+    },
+    {
+      "question": "What did Vasantha shout when the man fell into the sea?",
+      "options": [
+        "Help! Pirate attack!",
+        "Help! Help! Man overboard! Save him!",
+        "Fire! Fire!",
+        "Stop the ship immediately!"
+      ],
+      "answer": 1,
+      "explanation": "She ran like someone possessed, shouting these exact words."
+    },
+    {
+      "question": "Who did Vasantha bump into ('ran full pelt into') while shouting for help?",
+      "options": [
+        "The Doctor",
+        "A sailor",
+        "The Captain",
+        "Another passenger"
+      ],
+      "answer": 2,
+      "explanation": "She ran full pelt into an officer and was surprised to see it was the Captain."
+    },
+    {
+      "question": "What were the immediate orders given by the captain after hearing Vasantha's alert?",
+      "options": [
+        "Call the coast guard",
+        "Stop ship. Drop anchor. Quick!",
+        "Ask everyone to put on life jackets",
+        "Ignore her and continue sailing"
+      ],
+      "answer": 1,
+      "explanation": "The captain ran to a room full of officers and ordered, 'Stop ship. Drop anchor. Quick!'"
+    },
+    {
+      "question": "How many life-boats were moved towards the drowning man?",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "Four"
+      ],
+      "answer": 1,
+      "explanation": "The text states, 'Meanwhile two life-boats moved towards the man.'"
+    },
+    {
+      "question": "Why did Vasantha wince when she was standing close to the captain?",
+      "options": [
+        "Because she was hit by a wave",
+        "Because the captain gripped her shoulder tightly in his anxiety",
+        "Because she slipped on the deck",
+        "Because a sailor stepped on her foot"
+      ],
+      "answer": 1,
+      "explanation": "In his anxiety about the rescue, the captain gripped her shoulder so tightly that she winced and protested."
+    },
+    {
+      "question": "Through what instrument was the Captain watching the rescue operation?",
+      "options": [
+        "A telescope",
+        "A pair of binoculars",
+        "A camera",
+        "His bare eyes"
+      ],
+      "answer": 1,
+      "explanation": "He was watching the rescue operations through a pair of binoculars that hung round his neck."
+    },
+    {
+      "question": "What bad luck occurred during the rescue operation that made the captain nervous?",
+      "options": [
+        "The life-boat engine failed",
+        "A sudden current swept the man away dragging two of the sailors with him",
+        "It started raining heavily",
+        "The rope broke"
+      ],
+      "answer": 1,
+      "explanation": "The captain gave a running commentary, stating a sudden current swept the man dragging the sailors."
+    },
+    {
+      "question": "How did Vasantha manage to see the rescue operation clearly?",
+      "options": [
+        "She climbed a mast",
+        "She borrowed the captain's binoculars",
+        "The boat came very close to the ship",
+        "She leaned over the railings"
+      ],
+      "answer": 1,
+      "explanation": "Vasantha borrowed the captain's binoculars, and then she could see the operation clearly."
+    },
+    {
+      "question": "How did the crew in the rescue boats secure the drowning man?",
+      "options": [
+        "They used a giant net",
+        "They threw a strong rope to the two sailors who tied it around the man's waist",
+        "They threw a life jacket to him",
+        "They lifted him with a crane"
+      ],
+      "answer": 1,
+      "explanation": "The sailors caught hold of the rope, and one tied it around the uncle's waist."
+    },
+    {
+      "question": "What did the Captain say he had never lost before?",
+      "options": [
+        "His binoculars",
+        "A passenger",
+        "A life-boat",
+        "His temper"
+      ],
+      "answer": 1,
+      "explanation": "The Captain said, 'My ship has never lost a passenger before,' while crossing himself."
+    },
+    {
+      "question": "Who was standing with a couple of nurses near the railings as the patient was brought up?",
+      "options": [
+        "The ship's doctor",
+        "The old lady",
+        "The cook",
+        "Another captain"
+      ],
+      "answer": 0,
+      "explanation": "The captain saw the ship's doctor standing with a couple of nurses and a stretcher."
+    },
+    {
+      "question": "According to the doctor, how do they pump the water out of a drowning victim?",
+      "options": [
+        "Using a mechanical vacuum",
+        "By putting him on his stomach and massaging him until he brings it all up",
+        "By making him drink hot water",
+        "By shaking him upside down"
+      ],
+      "answer": 1,
+      "explanation": "The doctor explained this procedure to Vasantha when she asked how to pump the water out."
+    },
+    {
+      "question": "Besides pumping water out, what else did the doctor say had to be done?",
+      "options": [
+        "Give him food",
+        "Give him artificial respiration and keep him warm",
+        "Make him walk around",
+        "Give him cold water"
+      ],
+      "answer": 1,
+      "explanation": "The doctor said, 'He'll have to be given artificial respiration and kept warm.'"
+    },
+    {
+      "question": "What did the captain tell Vasantha to do while he was busy?",
+      "options": [
+        "Help the nurses",
+        "Run along and play, promising to send for her later with a surprise",
+        "Go to her cabin and sleep",
+        "Watch the waves"
+      ],
+      "answer": 1,
+      "explanation": "He said, 'Run along now and play... I'm busy, but will send for you when I'm through. I might even have a surprise for you.'"
+    },
+    {
+      "question": "Where did Vasantha sneak into to see the patient?",
+      "options": [
+        "The Captain's cabin",
+        "The kitchen",
+        "The hospital room",
+        "The engine room"
+      ],
+      "answer": 2,
+      "explanation": "She quietly sneaked into the hospital room to see what they were doing to the patient."
+    },
+    {
+      "question": "What was Vasantha doing in the lounge when she dozed off?",
+      "options": [
+        "Watching TV",
+        "Talking to the old lady",
+        "Reading a story book in a cosy chair",
+        "Eating her lunch"
+      ],
+      "answer": 2,
+      "explanation": "She went and sat in a cosy chair in the lounge and started reading a story book before feeling drowsy."
+    },
+    {
+      "question": "Who woke Vasantha up in the lounge?",
+      "options": [
+        "The Captain",
+        "A sailor",
+        "The Doctor",
+        "Uncle"
+      ],
+      "answer": 1,
+      "explanation": "A sailor stood before her and said, 'Wake up, child. You're Vasantha, aren't you? The Captain wants to see you.'"
+    },
+    {
+      "question": "What did the Captain do when Vasantha entered his room?",
+      "options": [
+        "He scolded her",
+        "He ignored her",
+        "He came forward and literally swept her off her feet",
+        "He asked her to sit quietly"
+      ],
+      "answer": 2,
+      "explanation": "When he saw her, he came forward and literally swept her off her feet while smiling."
+    },
+    {
+      "question": "What was written on the big brown box given to Vasantha?",
+      "options": [
+        "HAPPY BIRTHDAY VASANTHA",
+        "WITH THE BEST COMPLIMENTS OF CAPT. LINDSAY",
+        "FROM S.S. RAJULA",
+        "FOR THE BRAVEST GIRL"
+      ],
+      "answer": 1,
+      "explanation": "On it was written: 'WITH THE BEST COMPLIMENTS OF CAPT. LINDSAY.'"
+    },
+    {
+      "question": "What was inside the box?",
+      "options": [
+        "A teddy bear",
+        "A gold coin",
+        "A beautiful model of the ship S.S. RAJULA",
+        "A pair of binoculars"
+      ],
+      "answer": 2,
+      "explanation": "Lying snugly on a velvet backing was a most beautiful model of the ship."
+    },
+    {
+      "question": "What inscription was on the model ship?",
+      "options": [
+        "B.I.S.N. & Co. S.S. RAJULA",
+        "THE TITANIC",
+        "ROYAL NAVY",
+        "S.S. LINDSAY"
+      ],
+      "answer": 0,
+      "explanation": "On it was inscribed 'B.I.S.N. & Co. S.S. RAJULA.'"
+    },
+    {
+      "question": "How did Vasantha express her gratitude to the Captain?",
+      "options": [
+        "She wrote him a letter",
+        "She threw her hands round him, hugged and kissed him",
+        "She bought him a gift",
+        "She simply said thank you and left"
+      ],
+      "answer": 1,
+      "explanation": "She placed the box carefully, then threw her hands round the captain and hugged and kissed him."
+    },
+    {
+      "question": "Identify the speaker: 'Don't worry, Madam, it's only a warning.'",
+      "options": [
+        "The Captain",
+        "A gentleman consoling an old lady",
+        "The Doctor",
+        "Vasantha"
+      ],
+      "answer": 1,
+      "explanation": "A gentleman consoled the panicked old lady with these words."
+    },
+    {
+      "question": "Identify the speaker: 'Stop ship. Drop anchor. Quick!'",
+      "options": [
+        "Vasantha",
+        "The Captain",
+        "A sailor",
+        "The Doctor"
+      ],
+      "answer": 1,
+      "explanation": "The Captain gave these immediate orders upon hearing about the man overboard."
+    },
+    {
+      "question": "Identify the speaker: 'Aye, aye, Captain.'",
+      "options": [
+        "Vasantha",
+        "The Sailors",
+        "The Doctor",
+        "The old lady"
+      ],
+      "answer": 2,
+      "explanation": "When asked if everything was ready for the patient, the doctor nodded, 'Aye, aye, Captain.'"
+    },
+    {
+      "question": "What is the meaning of the phrase 'man overboard'?",
+      "options": [
+        "A man is steering the ship",
+        "A passenger has fallen off the ship into the water",
+        "A man is sleeping on board",
+        "A man is climbing the mast"
+      ],
+      "answer": 1,
+      "explanation": "'Man overboard' is a universally recognized nautical emergency cry indicating someone fell into the sea."
+    },
+    {
+      "question": "Connecting to Self: Who is Zen Sadavarte?",
+      "options": [
+        "A sailor on S.S. Rajula",
+        "A 10-year-old class 3 student who saved 16 lives during a fire in Mumbai",
+        "The ship's nurse",
+        "A teacher in Puducherry"
+      ],
+      "answer": 1,
+      "explanation": "As mentioned in the 'Connecting to Self' section, Zen Sadavarte applied school lessons to save 16 lives during a fire at Crystal Towers."
+    },
+    {
+      "question": "Connecting to Self: How did Zen Sadavarte help the asthmatic girl breathe during the fire?",
+      "options": [
+        "She gave her an inhaler",
+        "She took wet pieces of cloth and urged her to cover her nose and breathe through it",
+        "She gave her artificial respiration",
+        "She fanned her with a newspaper"
+      ],
+      "answer": 1,
+      "explanation": "Zen quickly took pieces of cloth, wet them, and urged people to breathe through them."
+    },
+    {
+      "question": "Connecting to Self: How did V.N.C. Revin from Puducherry avert a major fire accident?",
+      "options": [
+        "He poured water on the fire",
+        "He spotted an electrical short circuit and immediately dialled 101 to alert the fire brigade",
+        "He rescued 10 people from a building",
+        "He blew out a candle"
+      ],
+      "answer": 1,
+      "explanation": "Revin spotted sparking due to a short circuit and used his father's phone to dial 101."
+    },
+    {
+      "question": "Jumbled Sentences: Rearrange P: did not know, Q: he was nervous and, R: heard the hue and cry at midnight, S: what to do. Starting with 'When he...'",
+      "options": [
+        "R P Q S",
+        "R Q P S",
+        "P Q R S",
+        "S Q P R"
+      ],
+      "answer": 1,
+      "explanation": "When he heard the hue and cry at midnight (R), he was nervous and (Q) did not know (P) what to do (S)."
+    },
+    {
+      "question": "Jumbled Sentences: Rearrange P: to watch the mountain, Q: of more than five miles, R: as they settled down, S: from a distance. Starting with 'They felt safer...'",
+      "options": [
+        "R P S Q",
+        "R S Q P",
+        "P Q S R",
+        "S R P Q"
+      ],
+      "answer": 0,
+      "explanation": "They felt safer as they settled down (R) to watch the mountain (P) from a distance (S) of more than five miles (Q)."
+    },
+    {
+      "question": "Jumbled Sentences: Rearrange P: promptly and politely, Q: ask for attendants, R: to help our customers, S: who have instructions. Starting with 'If you need help...'",
+      "options": [
+        "Q S R P",
+        "Q P S R",
+        "S Q R P",
+        "S R Q P"
+      ],
+      "answer": 0,
+      "explanation": "If you need help ask for attendants (Q) who have instructions (S) to help our customers (R) promptly and politely (P)."
+    },
+    {
+      "question": "Jumbled Sentences: Rearrange P: and then to save himself, Q: was to save all the lives, R: entrusted to his care, S: the duty of a captain. Starting with 'He knew that...'",
+      "options": [
+        "S Q R P",
+        "P Q R S",
+        "S R Q P",
+        "Q S R P"
+      ],
+      "answer": 0,
+      "explanation": "He knew that the duty of a captain (S) was to save all the lives (Q) entrusted to his care (R) and then to save himself (P)."
+    },
+    {
+      "question": "Jumbled Sentences: Rearrange P: dragging her unwilling feet, Q: weak and infirm, R: doubled with age, S: she persisted in her mission. Starting with 'With her body...'",
+      "options": [
+        "R Q P S",
+        "Q R P S",
+        "P Q R S",
+        "S R Q P"
+      ],
+      "answer": 0,
+      "explanation": "With her body doubled with age (R), weak and infirm (Q), dragging her unwilling feet (P), she persisted in her mission (S)."
+    },
+    {
+      "question": "Assertion (A): Vasantha thought the adults on the ship had no sense of adventure. Reason (R): The adults stared at her in horror when she excitedly talked about tables and chairs running around during a storm.",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A.",
+        "Both A and R are true, but R is not the correct explanation of A.",
+        "A is true, R is false.",
+        "A is false, R is true."
+      ],
+      "answer": 0,
+      "explanation": "Vasantha felt the adults were dull and lacked adventure precisely because they reacted with horror to her playful imagination about the storm."
+    },
+    {
+      "question": "Assertion (A): The elderly gentleman fell overboard because Vasantha accidentally pushed him. Reason (R): He was seasick and leaning over the railing when a huge wave lashed the ship.",
+      "options": [
+        "Both A and R are true.",
+        "A is true, R is false.",
+        "A is false, R is true.",
+        "Both A and R are false."
+      ],
+      "answer": 2,
+      "explanation": "Vasantha did not push him. He fell because he was leaning over while retching, and the ship was violently hit by a wave."
+    },
+    {
+      "question": "Life-skill context: When Vasantha saw the man fall into the sea, she immediately raised an alarm by shouting 'Man overboard!' and ran to the captain. What crucial quality did she exhibit?",
+      "options": [
+        "Cowardice",
+        "Presence of mind and promptness",
+        "Indifference",
+        "Panic and confusion"
+      ],
+      "answer": 1,
+      "explanation": "Instead of freezing indefinitely, she quickly alerted the highest authority (the captain) with the exact, necessary information."
+    },
+    {
+      "question": "Analogy: Doctor : Artificial Respiration :: Captain : ?",
+      "options": [
+        "Cooking food",
+        "Reading a story book",
+        "Dropping anchor and commanding the ship",
+        "Sleeping in the lounge"
+      ],
+      "answer": 2,
+      "explanation": "Just as the doctor's duty in the story is providing medical care (artificial respiration), the captain's duty is commanding the ship (dropping anchor)."
+    },
+    {
+      "question": "HOTS: Why did Captain Lindsay cross himself and say 'My ship has never lost a passenger before'?",
+      "options": [
+        "He was proud and arrogant",
+        "He was deeply concerned for the passenger's life and felt a personal responsibility for everyone's safety",
+        "He wanted to impress Vasantha",
+        "He was talking about his lost luggage"
+      ],
+      "answer": 1,
+      "explanation": "His words reflect the heavy burden of command and his deep commitment to ensuring every passenger's survival."
+    },
+    {
+      "question": "HOTS: What does the contrast between Vasantha's reaction to the storm and the adults' reaction symbolize?",
+      "options": [
+        "Vasantha is foolish while adults are brave",
+        "The innocent, fearless curiosity of childhood versus the practical, experience-driven anxiety of adulthood",
+        "That storms are completely harmless",
+        "That ships should never carry adults"
+      ],
+      "answer": 1,
+      "explanation": "Vasantha views the storm as a thrilling adventure, showing a child's innocent curiosity, while adults understand the real dangers, causing them anxiety."
+    },
+    {
+      "question": "What did Vasantha conclude after showing her present to everyone she met?",
+      "options": [
+        "That the gift was too small",
+        "That she wanted to go home",
+        "That she was the happiest person on board that day",
+        "That the captain was angry with her"
+      ],
+      "answer": 2,
+      "explanation": "After receiving the unanimous verdict that the gift was lovely, she declared, 'I was the happiest person on board that day.'"
+    }
+  ]
+}

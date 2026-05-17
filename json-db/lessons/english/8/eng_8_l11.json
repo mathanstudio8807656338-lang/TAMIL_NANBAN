@@ -1,0 +1,580 @@
+{
+  "subject": "English",
+  "class": "8",
+  "term": "Annual",
+  "title": "Poem: A Thing of Beauty (Memoriter)",
+  "summary": "",
+  "sections": [
+    {
+      "title": "1. Poem: A Thing of Beauty (அழகே என்றும் அழியாதது) - Summary",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● [[Core Theme]]",
+            "answer": "Nature's beauty is eternal and provides relief from life's sufferings. || இயற்கையின் அழகு காலத்தைக் கடந்து நமக்கு மகிழ்ச்சியைத் தரும்."
+          },
+          {
+            "question": "● [[About Author]]",
+            "answer": "Written by [[John Keats]] (1795–1821), a British Romantic poet. This poem is an excerpt from his work [[Endymion]]. || புகழ்பெற்ற கவிஞர் ஜான் கீட்ஸ் (1795-1821) அவர்களால் எழுதப்பட்டது."
+          },
+          {
+            "question": "● [[Central Message]]",
+            "answer": "A thing of beauty is a joy forever. Its loveliness increases and never fades into nothingness. It provides a peaceful place (bower) for quiet breathing, sweet dreams, and health. Nature is an 'endless fountain of immortal drink' poured from heaven. || ஒரு அழகானப் பொருள் எப்போதும் மகிழ்ச்சியைத் தரும். அதன்த் தன்மை ஒருபோதும்க் குறையாது. அது நமக்கு அமைதியான நிழலையும், நல்லக் கனவுகளையும் அளிக்கும். இயற்கை ஒரு தெய்வீக பானம் போன்றது."
+          }
+        ]
+      }
+    },
+    {
+      "title": "2. Glossary: Eternal Beauty (Exam Focus - Synonyms)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● [[Nothingness]] / ஒன்றுமில்லாத நிலை",
+            "answer": "The state of being non-existent; nullity."
+          },
+          {
+            "question": "● [[Bower]] / பூம்பொழில் / நிழலிடம்",
+            "answer": "A pleasant shady place under trees or climbing plants."
+          },
+          {
+            "question": "● [[Pall]] / கறுப்புத் துணி / இருள்",
+            "answer": "A dark cloud or covering of smoke, dust, or gloom."
+          },
+          {
+            "question": "● [[Rills]] / சிறிய நீரோடை",
+            "answer": "A small stream."
+          },
+          {
+            "question": "● [[Brink]] / ஓரம் / விளிம்பு",
+            "answer": "An extreme edge of land before a steep or vertical slope."
+          },
+          {
+            "question": "● [[Morrow]]",
+            "answer": "The following day. (நாளை)."
+          }
+        ]
+      }
+    },
+    {
+      "title": "3. Poetic Devices (கவிதை நயங்கள்)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● [[Rhyme Scheme]]",
+            "answer": "The poem follows an [[aabb]] rhyme scheme (Heroic Couplets). || இயைபுத் தொடை."
+          },
+          {
+            "question": "● [[Rhyming Words]]",
+            "answer": "forever – never, keep – sleep, breathing – wreathing, earth – dearth."
+          },
+          {
+            "question": "● [[Metaphor]]",
+            "answer": "Endless fountain of immortal drink. || இயற்கையை ஒரு தெய்வீக நீரூற்றோடு ஒப்பிடுதல்."
+          }
+        ]
+      }
+    },
+    {
+      "title": "4. Nature's Components in the Poem (இயற்கை அம்சங்கள்)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● The Sun & Moon",
+            "answer": "Givers of life and light. || சூரியன் மற்றும் சந்திரன்."
+          },
+          {
+            "question": "● Trees",
+            "answer": "Offering a shady boon (blessing) for simple sheep. || மரங்கள் - நிழல் தரும் வரங்கள்."
+          },
+          {
+            "question": "● Clear Rills",
+            "answer": "Cool streams that protect from the hot season. || குளிர்ந்த நீரோடைகள்."
+          }
+        ]
+      }
+    },
+    {
+      "title": "5. Imagery: Visual Beauty (காட்சி நயங்கள்)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● [[Visual Imagery]]",
+            "answer": "Daffodils with the green world they live in. Clear rills. || மலர்கள் மற்றும் நீரோடைகளைக் கண் முன்னேத் தோற்றுவித்தல்."
+          }
+        ]
+      }
+    },
+    {
+      "title": "6. Previous Year Questions & Competitive Focus",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● Who is the author of 'A Thing of Beauty'?",
+            "answer": "[[John Keats]]. || ஜான் கீட்ஸ்."
+          },
+          {
+            "question": "● 'A thing of beauty is a ______ forever'.",
+            "answer": "[[Joy]]. || ஜாய் / மகிழ்ச்சி."
+          },
+          {
+            "question": "● What is the meaning of 'Bower'?",
+            "answer": "[[Shady place]]. || நிழல் தரும் இடம்."
+          },
+          {
+            "question": "● What does 'Immortal Drink' refer to?",
+            "answer": "The [[endless fountain]] of nature's beauty. || இயற்கையின் அழியாத அழகு."
+          }
+        ]
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "q": "What is 'a joy forever' according to John Keats? || ஜான் கீட்ஸின் கூற்றுப்படி 'வாழ்நாள் மகிழ்ச்சி' எது?",
+      "options": [
+        "Money",
+        "A thing of beauty (ஒரு அழகானப் பொருள்)",
+        "Traveling",
+        "Eating"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "A thing of beauty never passes into ______? || ஒரு அழகானப் பொருள் எதனை நோக்கி ஒருபோதும்ச் செல்வதில்லை?",
+      "options": [
+        "Brightness",
+        "Nothingness (ஒன்றுமில்லாத நிலை / மறைந்துப் போதல்)",
+        "Happines",
+        "Colors"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What is a 'Bower' in the poem? || இக்கவிதையில் 'Bower' என்பது எதனைக் குறிக்கும்?",
+      "options": [
+        "A storm",
+        "A pleasant shady place (இதமான நிழலிடம் / பூம்பொழில்)",
+        "A mountain",
+        "A road"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What does beauty provide for our souls? || அழகு நமது ஆன்மாவிற்கு எதனை அளிக்கிறது?",
+      "options": [
+        "Health, quiet breathing, and sweet dreams (உடல்நலம், அமைதியான சுவாசம் மற்றும் நல்லக் கனவுகள்)",
+        "Money and gold",
+        "Food and clothes",
+        "Fear and worry"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Nature removes the ______ from our dark spirits. || நமது இருண்ட மனதுக்களில் இருந்து இயற்கை எதனை அகற்றும்?",
+      "options": [
+        "Light",
+        "Pall / Gloom / Darkness (இருள் / கவலை)",
+        "Smile",
+        "Happiness"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Who wrote 'A Thing of Beauty'? || 'ஏ திங் ஆப் பியூட்டி' கவிதையை எழுதியவர் யார்?",
+      "options": [
+        "William Wordsworth",
+        "John Keats (ஜான் கீட்ஸ்)",
+        "William Blake",
+        "Lord Byron"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "The poem is taken from which famous work of John Keats? || இந்தக் கவிதை ஜான் கீட்ஸின் எந்தப் படைப்பில் இருந்து எடுக்கப்பட்டது?",
+      "options": [
+        "Ode to a Nightingale",
+        "Endymion (எண்டிமியான்)",
+        "Hyperion",
+        "Lamia"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What is meant by 'immortal drink'? || 'immortal drink' என்பதன் பொருள்?",
+      "options": [
+        "Wine",
+        "Endless fountain of joy/Nature (அழியாத மகிழ்ச்சி / இயற்கை)",
+        "Water",
+        "Fruit juice"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify the rhyming word for 'forever'. || 'forever' - இதற்கான இயைபுச் சொல்?",
+      "options": [
+        "never (நெவர்)",
+        "ever",
+        "weather",
+        "river"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "What are 'Rills'? || 'Rills' என்பது எதனைக் குறிக்கும்?",
+      "options": [
+        "Mountains",
+        "Small streams (சிறிய நீரோடைகள்)",
+        "Large oceans",
+        "Dry lands"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Nature's beauty acts as a ______ against the hot season. || வெயில் காலத்திலிருந்து காக்கும் ______ ஆக இயற்கை அமைகிறது.",
+      "options": [
+        "Cooling covert (குளிர்ச்சியானப் பாதுகாப்பு)",
+        "Burner",
+        "Heater",
+        "Dry air"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Identify the alliteration in: \"Simple sheep\". || \"Simple sheep\" - இதில் பயின்று வரும் மோனை ஒலி எது?",
+      "options": [
+        "'S' sound ('S' ஒலியின்த் திரும்புதல்)",
+        "Ending 'm' sound",
+        "Middle vowel",
+        "None"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "What does 'Loveliness increases' mean? || 'அழகு கூடிக்கொண்டேச் செல்கிறது' என்பது எதனைக் குறிக்கும்?",
+      "options": [
+        "It gets boring",
+        "It becomes more beautiful with time (காலப்போக்கில் இன்னும் அழகாகும்)",
+        "It dies soon",
+        "It loses color"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "How does the poet describe nature's fountain? || இயற்கையின் நீரூற்றை கவிஞர் எவ்வாறு விவரிக்கிறார்?",
+      "options": [
+        "Temporary",
+        "Endless and pouring from heaven (முடிவற்றது மற்றும் சொர்க்கத்திலிருந்துப் பாய்வது)",
+        "Small",
+        "Dirty"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of 'Morrow'? || 'Morrow' என்பதன் பொருள்?",
+      "options": [
+        "Yesterday",
+        "The following day (மறுநாள் / நாளை)",
+        "Night",
+        "Evening"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What is the rhyme scheme of 'A Thing of Beauty'? || இக்கவிதையின் இயைபுத் தொடை (Rhyme Scheme)?",
+      "options": [
+        "aabb (Heroic Couplets)",
+        "abab",
+        "abc",
+        "None"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Identify: \"A thing of beauty is a joy for ever\". This line is a? || இது எத்தகைய வாக்கியம்?",
+      "options": [
+        "Statement (நிதர்சனமானக் கூற்று)",
+        "Question",
+        "Order",
+        "Joke"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "What does a 'flowery band' symbolize? || 'மலர்ப் பட்டை' (Flowery band) எதனைச் அடையாளப்படுத்துகிறது?",
+      "options": [
+        "Our connection to the earth (உலகத்துடனான நமதுப் பிணைப்பு)",
+        "A weapon",
+        "A fence",
+        "A chain"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "What is the synonym of 'Gloom'? || 'Gloom' என்பதன் ஒத்தப்பொருள் யாது?",
+      "options": [
+        "Brightness",
+        "Darkness/Sadness (இருள் / சோகம்)",
+        "Happiness",
+        "Speed"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Which flower is specifically named in the poem? || இக்கவிதையில் குறிப்பிடப்படும் மலர் எது?",
+      "options": [
+        "Rose",
+        "Daffodils (டாஃபோடில்ஸ்)",
+        "Lotus",
+        "Mogappu"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What is the 'immortal drink' poured from? || 'அழியாத பானம்' எங்கிருந்துப் பொழிகிறது?",
+      "options": [
+        "A bottle",
+        "The heaven's brink (வானின் விளிம்பிலிருந்து)",
+        "A glass",
+        "A lake"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: 'Breathing' rhymes with ______? || 'Breathing' - இதற்கான இயைபுச் சொல்?",
+      "options": [
+        "wreathing (ரீதிங் / பின்னுதல்)",
+        "thinking",
+        "killing",
+        "walking"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of 'Dearth'? || 'Dearth' என்பதன் பொருள்?",
+      "options": [
+        "Plentiful",
+        "Lack or scarcity (குறைபாடு / பற்றாக்குறை)",
+        "Earth",
+        "Wealth"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Is the sun mentioned as a thing of beauty? || சூரியன் அழகானப் பொருளாக இக்கவிதையில் கூறப்பட்டுள்ளதா?",
+      "options": [
+        "Yes (ஆம்)",
+        "No",
+        "Maybe",
+        "Not in text"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "What does beauty provide against 'unhealthy and over-darkened ways'? || தீய மற்றும் இருண்ட வழிகளிலிருந்து நம்மைப் பாதுகாக்க அழகு என்னச் செய்கிறது?",
+      "options": [
+        "It makes it worse",
+        "It searches for ways to give us joy (மகிழ்ச்சிக்கானப் பாதையைத் தேடித் தரும்)",
+        "It disappears",
+        "It cries"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Who is Endymion? || எண்டிமியான் என்பவன் யார்?",
+      "options": [
+        "A poet",
+        "A beautiful young shepherd (அழகான ஆடு மேய்க்கும்ச் சிறுவன்)",
+        "A king",
+        "A god"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of 'Grandeur'? || 'Grandeur' என்பதன் பொருள்?",
+      "options": [
+        "Small",
+        "Glory and power (சிறப்பு / பிரம்மாண்டம்)",
+        "Poverty",
+        "Sorrow"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What is the synonym of 'Increase'? || 'Increase' என்பதன் ஒத்தப்பொருள் யாது?",
+      "options": [
+        "Decrease",
+        "Multiply/Grow (பெருகும் / வளரும்)",
+        "Stay",
+        "Fall"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "The 'Endless fountain' is filled with ______? || 'முடிவற்ற நீரூற்று' எதனால் நிரப்பப்பட்டுள்ளது?",
+      "options": [
+        "Water",
+        "Immortal drink (அழியாப் பானம்)",
+        "Oil",
+        "Dirt"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Where does the fountain pour unto us? || அந்த நீரூற்று எங்கிருந்து நம் மீதுப் பாய்கிறது?",
+      "options": [
+        "From a mountain",
+        "From the heaven's brink (சொர்க்கத்தின் விளிம்பிலிருந்து)",
+        "From a tap",
+        "From the sea"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Correct spelling of our author's last name? || நமதுக் கவிஞரின் பெயரின் சரியான எழுத்து வடிவம் எது?",
+      "options": [
+        "Keats (கீட்ஸ்)",
+        "Keets",
+        "Keates",
+        "Kitts"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "What is 'Over-darkened ways'? || 'இருண்ட வழிகள்' என்பது எதனைக் குறிக்கும்?",
+      "options": [
+        "Night roads",
+        "Days of sadness/trials (சோகமான மற்றும் கடினமானக் காலம்)",
+        "Sunny days",
+        "Dreams"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: 'Loveliness' - Part of speech. || 'Loveliness' என்பது எவ்வகைச் சொல்?",
+      "options": [
+        "Adjective",
+        "Noun (Abstract Noun - பெயர்ச்சொல்)",
+        "Verb",
+        "Pronoun"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What do clear rills do for themselves? || தெளிவான நீரோடைகள் தங்களுக்குத் தாங்களே என்னச் செய்கின்றன?",
+      "options": [
+        "Dry up",
+        "Make a cooling covert/shelter (குளிர்ச்சியானப் புகலிடத்தை உருவாக்கும்)",
+        "Drown things",
+        "Freeze"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "True or False: Keats thinks that beauty is temporary. || கீட்ஸ் அழகு என்பதுத் தற்காலிகமானது என நினைக்கிறாரா?",
+      "options": [
+        "True",
+        "False (தவறு)",
+        "Maybe",
+        "Not in text"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "The poem 'A Thing of Beauty' is an example of ______ poetry. || இது எந்த வகை கவிதை?",
+      "options": [
+        "Romantic (ரோமாண்டிக் கவிதை)",
+        "War",
+        "Science",
+        "Satire"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Which of these is 'not nothingness'? || எது காலப்போக்கில் 'மறைந்துப் போகாது'?",
+      "options": [
+        "Ice",
+        "Beauty (அழகு)",
+        "Old house",
+        "Broken toy"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: Rhyming word for 'face' (if used in context). || 'face' - இதற்கான இயைபுச் சொல்?",
+      "options": [
+        "grace (கிரேஸ்)",
+        "case",
+        "lace",
+        "all"
+      ],
+      "a": 3,
+      "ex": ""
+    },
+    {
+      "q": "Conclusion: A thing of beauty provides ______ in dark times. || முடிவு: இருண்டக் காலங்களில் அழகு நமக்கு ______ அளிக்கிறது.",
+      "options": [
+        "Fear",
+        "Resilience and Joy (மகிழ்ச்சியும் விடாமுயற்சியும்)",
+        "Sadness",
+        "Angry"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Which line is the opening line of the poem? || இக்கவிதையின் முதல் வரி எது?",
+      "options": [
+        "A thing of beauty is a joy for ever (அழகான ஒருப் பொருள் என்றும் மகிழ்ச்சித் தரும்)",
+        "Its loveliness increases",
+        "It will never pass",
+        "A bower quiet for us"
+      ],
+      "a": 0,
+      "ex": ""
+    }
+  ],
+  "credits": "தொகுப்பு: A1 ONLINE COACHING CENTER"
+}

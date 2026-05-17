@@ -1,0 +1,1663 @@
+{
+  "unit": "Model Test 1",
+  "subject": "TET Model Test",
+  "class": "8",
+  "term": "Annual",
+  "title": "TET மாதிரித் தேர்வு - 1",
+  "summary": "அனைத்துப் பாடங்களையும் உள்ளடக்கிய 150 வினாக்கள் கொண்ட மாதிரித் தேர்வு.",
+  "sections": [],
+  "quiz": {
+    "questions": [
+      {
+        "question": "குழந்தை வளர்ச்சியில் 'முன்னேற்றம்' (Progress) என்பது எதனைக் குறிக்கிறது?",
+        "options": [
+          "உடல் எடையில் ஏற்படும் மாற்றம்",
+          "தரமான மற்றும் செயல்முறை மாற்றங்கள்",
+          "உயரத்தில் ஏற்படும் மாற்றம்",
+          "தசைகளின் வளர்ச்சி மட்டும்"
+        ],
+        "answer": 1,
+        "explanation": "வளர்ச்சி (Growth) என்பது அளவு சார்ந்தது, ஆனால் முன்னேற்றம் (Development) என்பது தரம் மற்றும் செயல்பாட்டுத் திறன் சார்ந்தது."
+      },
+      {
+        "question": "பியாஜேயின் அறிதிறன் வளர்ச்சிக் கொள்கையில் 'அகவயப்படுத்துதல்' (Assimilation) என்பது யாது?",
+        "options": [
+          "புதிய தகவல்களை ஏற்கனவே உள்ள அறிவோடு சேர்த்தல்",
+          "புதிய தகவலுக்காக ஏற்கனவே உள்ள அறிவை மாற்றுதல்",
+          "பொருட்களைப் வகைப்படுத்துதல்",
+          "தர்க்க ரீதியாகச் சிந்தித்தல்"
+        ],
+        "answer": 0,
+        "explanation": "புதிய அனுபவங்களை ஏற்கனவே உள்ள மனக்கட்டமைப்பில் (Schema) இணைப்பதே அகவயப்படுத்துதல் ஆகும்."
+      },
+      {
+        "question": "வாழ்க்கைச் சூழல்: ஒரு மாணவன் வகுப்பறையில் மற்ற மாணவர்களுடன் ஒத்துப்போகாமல் தனிமையாக இருக்கிறான். ஆசிரியராக நீங்கள் முதலில் செய்ய வேண்டியது என்ன?",
+        "options": [
+          "அவனைத் தண்டிக்க வேண்டும்",
+          "அவனது தனிமைக்கான காரணத்தைக் கண்டறிய வேண்டும்",
+          "அவனை வகுப்பிலிருந்து வெளியேற்ற வேண்டும்",
+          "பெற்றோரை அழைத்து புகார் செய்ய வேண்டும்"
+        ],
+        "answer": 1,
+        "explanation": "மாணவனின் நடத்தை மாற்றத்திற்கான அடிப்படை உளவியல் காரணத்தை அறிவதே சரியான அணுகுமுறை."
+      },
+      {
+        "question": "ஒப்புமை தருக: பாவலோவ் : நாய் :: தார்ண்டைக் : ________",
+        "options": [
+          "எலி",
+          "குரங்கு",
+          "பூனை",
+          "புறா"
+        ],
+        "answer": 2,
+        "explanation": "தார்ண்டைக் தனது 'முயன்று தவறி கற்றல்' கொள்கையை விளக்க பூனையைப் பயன்படுத்தினார்."
+      },
+      {
+        "question": "கூற்று (A): குமரப்பருவம் 'மன அழுத்தமும் புயலும் நிறைந்த பருவம்' எனப்படுகிறது. \nகாரணம் (R): இப்பருவத்தில் ஹார்மோன் மாற்றங்களால் உடல் மற்றும் மன ரீதியான விரைவான மாற்றங்கள் ஏற்படுகின்றன.",
+        "options": [
+          "A மற்றும் R சரி, R சரியான விளக்கம்",
+          "A மற்றும் R சரி, ஆனால் R சரியான விளக்கமல்ல",
+          "A சரி, R தவறு",
+          "A தவறு, R சரி"
+        ],
+        "answer": 0,
+        "explanation": "ஸ்டான்லி ஹால் குமரப்பருவத்தை இவ்வாறே வரையறுத்துள்ளார்."
+      },
+      {
+        "question": "கீழ்க்கண்டவற்றுள் எது 'ஆக்கநிலைுறுத்தல்' (Conditioning) மூலம் கற்றலில் வராது?",
+        "options": [
+          "பழக்கங்களை உருவாக்குதல்",
+          "பயத்தைப் போக்குதல்",
+          "தர்க்க ரீதியான கணக்குகளைத் தீர்த்தல்",
+          "விலங்குகளுக்குப் பயிற்சி அளித்தல்"
+        ],
+        "answer": 2,
+        "explanation": "தர்க்க ரீதியான கற்றல் என்பது அறிதிறன் (Cognitive) சார்ந்தது, இது வெறும் தூண்டல்-துலங்கல் மூலம் மட்டும் நிகழ்வதில்லை."
+      },
+      {
+        "question": "எரிக்சனின் கொள்கைப்படி, பள்ளி செல்லும் பருவத்தில் (6-12 வயது) ஏற்படும் உளச் சமூகப் போராட்டம் எது?",
+        "options": [
+          "தன்னாட்சி VS சந்தேகம்",
+          "முயற்சி VS தாழ்வு மனப்பான்மை",
+          "அடையாளம் VS குழப்பம்",
+          "நம்பிக்கை VS நம்பிக்கை இன்மை"
+        ],
+        "answer": 1,
+        "explanation": "Industry vs Inferiority என்பது பள்ளிப் பருவத்தில் குழந்தையின் சாதனைகளை மற்றவர்களுடன் ஒப்பிடும்போது ஏற்படும் உணர்வு."
+      },
+      {
+        "question": "கோல்பர்க்கின் (Kohlberg) அறநெறி வளர்ச்சிக் கொள்கையில் 'சமூக ஒப்பந்த நிலை' என்பது எந்த மட்டத்தில் வருகிறது?",
+        "options": [
+          "மரபுக்கு முந்தைய மட்டம்",
+          "மரபு மட்டம்",
+          "மரபுக்குப் பிந்தைய மட்டம்",
+          "புலன் இயக்க மட்டம்"
+        ],
+        "answer": 2,
+        "explanation": "இதில் தனிமனிதன் சமூக விதிகளையும் தாண்டி உலகளாவிய நீதியைப் பற்றிச் சிந்திக்கிறான்."
+      },
+      {
+        "question": "ஒரு குழந்தை தான் பார்த்த ஒரு விஷயத்தை அப்படியே பிரதிபலிப்பது எந்த வகையான கற்றல்?",
+        "options": [
+          "உட்காட்சிக் கற்றல்",
+          "செயல்படு நிபந்தனைக் கற்றல்",
+          "சமூகக் கற்றல் (Social Learning)",
+          "முயன்று தவறி கற்றல்"
+        ],
+        "answer": 2,
+        "explanation": "ஆல்பர்ட் பாண்டுராவின் கொள்கைப்படி கவனித்தல் மற்றும் பின்பற்றுதல் மூலம் கற்றல் நிகழ்கிறது."
+      },
+      {
+        "question": "நுண்ணறிவு ஈவு (I.Q) காணும் சூத்திரம் என்ன?",
+        "options": [
+          "(MA / CA) x 100",
+          "(CA / MA) x 100",
+          "MA + CA",
+          "MA x CA"
+        ],
+        "answer": 0,
+        "explanation": "மன வயது (MA) மற்றும் கால வயது (CA) ஆகியவற்றின் விகிதமே நுண்ணறிவு ஈவு."
+      },
+      {
+        "question": "கற்றல் வளைகோட்டில் 'தேக்க நிலை' (Plateau) ஏற்படக் காரணம் என்ன?",
+        "options": [
+          "அதிக ஆர்வம்",
+          "சலிப்பு அல்லது ஆர்வம் குறைதல்",
+          "புதிய நுட்பம் கையாளுதல்",
+          "தொடர்ச்சியான பயிற்சி"
+        ],
+        "answer": 1,
+        "explanation": "கற்றலில் முன்னேற்றம் தெரியாத ஒரு காலக்கட்டமே தேக்க நிலை எனப்படும்."
+      },
+      {
+        "question": "முன் அறிவுக்கும் புதிய அறிவுக்கும் இடையே உள்ள இடைவெளியைக் குறைக்கும் கருவி எது?",
+        "options": [
+          "ஸ்கீமா",
+          "முன்னேற்பாடு ஒருங்கமைப்பிகள் (Advance Organizers)",
+          "பரிசுகள்",
+          "தண்டனை"
+        ],
+        "answer": 1,
+        "explanation": "டேவிட் ஆசுபெல் என்பவரால் இது முன்மொழியப்பட்டது."
+      },
+      {
+        "question": "குழந்தை மையக் கல்வியின் (Child Centered Education) முக்கிய நோக்கம் என்ன?",
+        "options": [
+          "ஆசிரியரின் அதிகாரத்தை நிலைநாட்ட",
+          "குழந்தையின் தேவைகள் மற்றும் திறன்களுக்கு முன்னுரிமை அளிக்க",
+          "தேர்வுகளில் அதிக மதிப்பெண் பெற",
+          "பாடப்புத்தகங்களை மட்டும் கற்பிக்க"
+        ],
+        "answer": 1,
+        "explanation": "கல்வி என்பது குழந்தையின் ஆர்வத்திற்கு ஏற்ப அமைய வேண்டும்."
+      },
+      {
+        "question": "வாழ்க்கைச் சூழல்: தேர்வின் போது ஒரு மாணவன் பதற்றமடைந்து தெரிந்த விடைகளை மறக்கிறான். அவனுக்கு நீங்கள் வழங்கும் ஆலோசனை என்ன?",
+        "options": [
+          "படிப்பதைக் குறைக்கச் சொல்லுதல்",
+          "மூச்சுப்பயிற்சி மற்றும் நேர்மறைச் சிந்தனை",
+          "தேர்வை எழுத வேண்டாம் எனக் கூறல்",
+          "அவனைத் திட்டுதல்"
+        ],
+        "answer": 1,
+        "explanation": "தேர்வுப் பதற்றத்தைக் குறைக்க உளவியல் ரீதியான பயிற்சிகள் அவசியம்."
+      },
+      {
+        "question": "மாஸ்லோவின் தேவைக் படிநிலைக் கோட்பாட்டில் உச்சகட்டத் தேவை எது?",
+        "options": [
+          "உயிரியல் தேவைகள்",
+          "பாதுகாப்புத் தேவைகள்",
+          "தன்னை உணர்தல் (Self-Actualization)",
+          "அன்புத் தேவைகள்"
+        ],
+        "answer": 2,
+        "explanation": "தனிமனிதன் தனது முழுத் திறமையையும் வெளிப்படுத்தும் நிலையே இது."
+      },
+      {
+        "question": "ஒரு குறிப்பிட்ட பணியைச் செய்யத் தூண்டும் உள் மன ஆற்றல் எது?",
+        "options": [
+          "கவனிப்பு",
+          "ஊக்கம் (Motivation)",
+          "மறதி",
+          "நுண்ணறிவு"
+        ],
+        "answer": 1,
+        "explanation": "ஊக்கம் என்பது ஒரு செயலைத் தொடங்கவும், தொடரவும் மற்றும் முடிக்கவும் உதவும் ஆற்றல்."
+      },
+      {
+        "question": "படைப்பாற்றல் (Creativity) என்பது எதனுடன் தொடர்புடையது?",
+        "options": [
+          "குவியச் சிந்தனை",
+          "விரி சிந்தனை (Divergent Thinking)",
+          "மனப்பாடம் செய்தல்",
+          "தேர்வு பயம்"
+        ],
+        "answer": 1,
+        "explanation": "ஒரே பிரச்சனைக்குப் பல தீர்வுகளை யோசிப்பதே படைப்பாற்றல்."
+      },
+      {
+        "question": "குழு காரணி நுண்ணறிவுத் தத்துவத்தை உருவாக்கியவர் யார்?",
+        "options": [
+          "ஸ்பியர்மேன்",
+          "தார்ண்டைக்",
+          "தஸ்டன் (Thurstone)",
+          "கார்டனர்"
+        ],
+        "answer": 2,
+        "explanation": "இவர் ஏழு வகையான அடிப்படைத் திறன்களைப் பற்றிக் குறிப்பிட்டார்."
+      },
+      {
+        "question": "ஸ்கின்னரின் கொள்கையில் 'தண்டனை' (Punishment) என்பது எதனைக் குறிக்கும்?",
+        "options": [
+          "விரும்பத்தக்க நடத்தையை அதிகரித்தல்",
+          "விரும்பத்தகாத நடத்தையைக் குறைத்தல்",
+          "புதிய சொற்களைக் கற்பித்தல்",
+          "பரிசுகளை வழங்குதல்"
+        ],
+        "answer": 1,
+        "explanation": "தவறான செயலை மீண்டும் செய்யாமல் இருக்க வழங்கப்படும் எதிர்மறைத் தூண்டல்."
+      },
+      {
+        "question": "குழந்தையின் ஆளுமை வளர்ச்சியில் 'Id' என்பது எதனை அடிப்படையாகக் கொண்டது?",
+        "options": [
+          "சமூக விதிகள்",
+          "உடனடி இன்பம் (Pleasure Principle)",
+          "தார்மீக உணர்வு",
+          "நிஜ உலகம்"
+        ],
+        "answer": 1,
+        "explanation": "பிராய்டின் கொள்கைப்படி 'Id' என்பது அடிப்படைத் தேவைகளை உடனடியாக நிறைவேற்றத் துடிக்கும்."
+      },
+      {
+        "question": "கீழ்க்கண்டவற்றுள் கற்றல் குறைபாடு (Learning Disability) எது?",
+        "options": [
+          "காய்ச்சல்",
+          "டிஸ்லெக்ஸியா (Dyslexia)",
+          "பார்வைக்குறைபாடு",
+          "உடல் ஊனம்"
+        ],
+        "answer": 1,
+        "explanation": "இது வாசிப்பதில் ஏற்படும் சிரமம் தொடர்பான கற்றல் குறைபாடு."
+      },
+      {
+        "question": "ஒரு ஆசிரியர் ஒரு பாடத்தை நடத்துவதற்கு முன் மாணவர்களிடம் கேட்கும் வினாக்கள் எதற்குப் பயன்படுகின்றன?",
+        "options": [
+          "மாணவர்களின் ஒழுக்கத்தை சோதிக்க",
+          "முன் அறிவை சோதிக்க (Testing Previous Knowledge)",
+          "மாணவர்களை அமைதிப்படுத்த",
+          "நேரத்தை வீணாக்க"
+        ],
+        "answer": 0,
+        "explanation": "புதிய பாடத்தைத் தொடங்குவதற்கு முன் மாணவர்கள் ஏற்கனவே அறிந்தவற்றைப் புரிந்துகொள்வது அவசியம்."
+      },
+      {
+        "question": "புரூனரின் கற்றல் கொள்கையில் மிக முக்கியமான அம்சம் எது?",
+        "options": [
+          "கண்டுபிடிப்புக் கற்றல் (Discovery Learning)",
+          "மனப்பாடக் கற்றல்",
+          "தண்டனை மூலம் கற்றல்",
+          "இயந்திரக் கற்றல்"
+        ],
+        "answer": 0,
+        "explanation": "மாணவர்கள் தாங்களாகவே உண்மைகளைக் கண்டறிய ஊக்குவிப்பதையே புரூனர் வலியுறுத்தினார்."
+      },
+      {
+        "question": "மறதி வளைகோட்டை (Forgetting Curve) முதன்முதலில் விளக்கியவர் யார்?",
+        "options": [
+          "எபிங்காஸ் (Ebbinghaus)",
+          "வாட்சன்",
+          "பாவலோவ்",
+          "ஸ்கின்னர்"
+        ],
+        "answer": 0,
+        "explanation": "காலம் செல்லச் செல்ல நாம் கற்றவற்றை எவ்வளவு விரைவாக மறக்கிறோம் என்பதை இவர் விளக்கினார்."
+      },
+      {
+        "question": "மனநலம் (Mental Health) என்பது எதனைக் குறிக்கும்?",
+        "options": [
+          "நோய் இல்லாமல் இருத்தல்",
+          "சமூகத்தோடு இணங்கி வாழும் திறன்",
+          "அதிகமாகப் பேசுதல்",
+          "எப்போதும் தூங்குதல்"
+        ],
+        "answer": 1,
+        "explanation": "தனக்குள்ளும் சூழலோடும் சமநிலை பேணுவதே மனநலம்."
+      },
+      {
+        "question": "குறைதீர்க்கும் கற்றல் (Remedial Teaching) யாருக்கு வழங்கப்படுகிறது?",
+        "options": [
+          "அதிக மதிப்பெண் பெற்ற மாணவர்களுக்கு",
+          "பின்தங்கிய மாணவர்களுக்கு",
+          "விளையாட்டு வீரர்களுக்கு",
+          "ஆசிரியர்களுக்கு"
+        ],
+        "answer": 1,
+        "explanation": "கற்றலில் பின்தங்கியுள்ள மாணவர்களின் குறைகளைக் கண்டறிந்து நிவர்த்தி செய்வதே இதன் நோக்கம்."
+      },
+      {
+        "question": "குழந்தையின் மொழியின் வளர்ச்சியில் (Language Development) முக்கிய பங்கு வகிப்பது எது?",
+        "options": [
+          "பரம்பரை மட்டும்",
+          "சூழல் மற்றும் சமூகத் தொடர்பு",
+          "உணவு முறை",
+          "உடல் எடை"
+        ],
+        "answer": 1,
+        "explanation": "சுற்றியுள்ளவர்கள் பேசும் மொழியைக் கேட்டே குழந்தை மொழியைக் கற்கிறது."
+      },
+      {
+        "question": "உட்காட்சிக் கற்றல் (Insightful Learning) என்பது எதனை வலியுறுத்துகிறது?",
+        "options": [
+          "முழுமைத் தன்மை (Wholeness)",
+          "பகுதி பகுதியாகக் கற்றல்",
+          "துண்டு துண்டான தகவல்",
+          "இயந்திரத்தனமான பயிற்சி"
+        ],
+        "answer": 0,
+        "explanation": "கெஸ்டால்ட் உளவியலாளர்கள் ஒரு பிரச்சனையை முழுமையாகப் பார்க்கும்போது தீர்வு கிடைக்கும் என்பர்."
+      },
+      {
+        "question": "சுய மதிப்பீடு (Self-Assessment) மாணவர்களுக்கு எவ்வாறு உதவுகிறது?",
+        "options": [
+          "மற்றவர்களைக் குறை சொல்ல",
+          "தமது கற்றல் நிலையைத் தாமே உணர",
+          "ஆசிரியரை ஏமாற்ற",
+          "மதிப்பெண்ணை அதிகமாக்கிக் காட்ட"
+        ],
+        "answer": 1,
+        "explanation": "தாம் எங்கு வலுவாக இருக்கிறோம், எங்கு முன்னேற வேண்டும் என்பதை மாணவர்கள் உணர உதவுகிறது."
+      },
+      {
+        "question": "கீழ்க்கண்டவற்றுள் எது 'குமரப்பருவ'த் தேவைகளில் வராது?",
+        "options": [
+          "சுதந்திரம்",
+          "அங்கீகாரம்",
+          "பெற்றோரை முழுமையாகச் சார்ந்திருத்தல்",
+          "நட்பு"
+        ],
+        "answer": 2,
+        "explanation": "குமரப்பருவத்தில் மாணவர்கள் தற்சார்பு (Independence) உணர்வை விரும்புகிறார்கள்."
+      },
+      {
+        "question": "தமிழ் எழுத்துக்களில் 'உயிர்மெய்' எழுத்துக்கள் எத்தனை?",
+        "options": [
+          "12",
+          "18",
+          "216",
+          "247"
+        ],
+        "answer": 2,
+        "explanation": "உயிர் எழுத்துக்கள் 12 மற்றும் மெய் எழுத்துக்கள் 18 இணைந்து 216 உயிர்மெய் எழுத்துக்கள் உருவாகின்றன."
+      },
+      {
+        "question": "கூற்று: சிலப்பதிகாரம் 'முத்தமிழ்க் காப்பியம்' என்று அழைக்கப்படுகிறது. \nகாரணம்: இது இயல், இசை, நாடகம் ஆகிய மூன்றையும் உள்ளடக்கியது.",
+        "options": [
+          "கூற்று, காரணம் சரி; சரியான விளக்கம்",
+          "கூற்று சரி, காரணம் தவறு",
+          "கூற்று தவறு, காரணம் சரி",
+          "இரண்டும் தவறு"
+        ],
+        "answer": 0,
+        "explanation": "தமிழுக்கே உரிய முத்தமிழ்ச் சிறப்புகளையும் கொண்டதால் இது முத்தமிழ்க் காப்பியம் எனப்படுகிறது."
+      },
+      {
+        "question": "பொருத்துக: \n1. மெய்யெழுத்து - அ. அரை மாத்திரை \n2. உயிரெழுத்து (குறில்) - ஆ. ஒரு மாத்திரை \n3. உயிரெழுத்து (நெடில்) - இ. இரண்டு மாத்திரை",
+        "options": [
+          "1-அ, 2-ஆ, 3-இ",
+          "1-ஆ, 2-அ, 3-இ",
+          "1-இ, 2-ஆ, 3-அ",
+          "1-அ, 2-இ, 3-ஆ"
+        ],
+        "answer": 0,
+        "explanation": "தமிழ் இலக்கணத்தில் ஒலிக்கப்படும் கால அளவே மாத்திரை எனப்படும்."
+      },
+      {
+        "question": "'சிறகின் ஓசை' பாடத்தில் குறிப்பிடப்படும் 'வலசை போதல்' என்பது எதனைக் குறிக்கும்?",
+        "options": [
+          "பறவைகள் கூடு கட்டுதல்",
+          "பறவைகள் இடம் பெயர்தல்",
+          "பறவைகள் இரை தேடுதல்",
+          "பறவைகள் உறங்குதல்"
+        ],
+        "answer": 1,
+        "explanation": "தட்பவெப்பநிலை மாற்றம் மற்றும் உணவுக்காகப் பறவைகள் ஒரு கண்டத்திலிருந்து மற்றொன்றுக்குச் செல்வது வலசை போதல்."
+      },
+      {
+        "question": "ஆயுத எழுத்து ஒலிக்கும் கால அளவு யாது?",
+        "options": [
+          "1 மாத்திரை",
+          "2 மாத்திரை",
+          "அரை மாத்திரை",
+          "மாத்திரை இல்லை"
+        ],
+        "answer": 2,
+        "explanation": "மெய்யெழுத்தைப் போலவே ஆயுத எழுத்தும் அரை மாத்திரை அளவு ஒலிக்கும்."
+      },
+      {
+        "question": "பாரதியார் இயற்றிய 'காணி நிலம்' பாடலில் அவர் எதனை 'பக்கத்திலே' இருக்க வேண்டும் என்கிறார்?",
+        "options": [
+          "மாந்தோப்பு",
+          "தென்னஞ்சீலை",
+          "கிணறு",
+          "ஆறு"
+        ],
+        "answer": 1,
+        "explanation": "பாடலில் 'தென்னஞ்சீலை கீற்று' பக்கத்திலே இருக்க வேண்டும் எனப் பாடியுள்ளார்."
+      },
+      {
+        "question": "'கிழவனும் கடலும்' கதையில் வரும் நாயகனின் பெயர் என்ன?",
+        "options": [
+          "மனோலின்",
+          "சாண்டியாகோ",
+          "எர்னஸ்ட்",
+          "பீட்டர்"
+        ],
+        "answer": 1,
+        "explanation": "இந்தக் கதையின் முதன்மைக் கதாபாத்திரம் முதியவர் சாண்டியாகோ."
+      },
+      {
+        "question": "திருக்குறள் பற்றிய கீழ்க்கண்ட கூற்றுகளில் எது சரியானது?",
+        "options": [
+          "இதில் 10 அதிகாரம் உள்ளது",
+          "இது பதினெண்மேல்கணக்கு நூல்",
+          "இதனை உலகப் பொதுமறை என்பர்",
+          "இது காப்பிய நூல்"
+        ],
+        "answer": 2,
+        "explanation": "திருக்குறள் உலக மக்கள் அனைவருக்கும் பொதுவான கருத்துக்களைக் கூறுவதால் உலகப் பொதுமறை எனப்படுகிறது."
+      },
+      {
+        "question": "முதல் எழுத்துக்கள் மொத்தம் எத்தனை?",
+        "options": [
+          "12",
+          "18",
+          "30",
+          "10"
+        ],
+        "answer": 2,
+        "explanation": "உயிர் 12 + மெய் 18 = 30 எழுத்துக்கள் முதல் எழுத்துக்கள் எனப்படும்."
+      },
+      {
+        "question": "சார்பெழுத்துக்களின் வகைகள் எத்தனை?",
+        "options": [
+          "5",
+          "8",
+          "10",
+          "12"
+        ],
+        "answer": 2,
+        "explanation": "உயிர்மெய், ஆயுதம் முதல் ஆயுதக்குறுக்கம் வரை மொத்தம் பத்து வகைகள்."
+      },
+      {
+        "question": "ஒப்புமை தருக: சிலப்பதிகாரம் : இளங்கோவடிகள் :: திருக்குறள் : ________",
+        "options": [
+          "கம்பர்",
+          "பாரதியார்",
+          "திருவள்ளுவர்",
+          "கணிமேதாவியார்"
+        ],
+        "answer": 2,
+        "explanation": "திருக்குறளை இயற்றியவர் திருவள்ளுவர்."
+      },
+      {
+        "question": "பறவைகள் வலசை போவதற்கு முதன்மையான காரணம் எது?",
+        "options": [
+          "விளையாடுவதற்கு",
+          "உணவு மற்றும் தட்பவெப்பநிலை",
+          "மற்ற பறவைகளைப் பார்க்க",
+          "அழகுக்காக"
+        ],
+        "answer": 1,
+        "explanation": "வாழச் சாதகமான சூழலைத் தேடியே பறவைகள் இடம் பெயர்கின்றன."
+      },
+      {
+        "question": "சிலப்பதிகாரம் எதனைப் போற்றித் தொடங்குகிறது?",
+        "options": [
+          "அரசனை",
+          "மக்களை",
+          "இயற்கையை",
+          "கடவுளை"
+        ],
+        "answer": 2,
+        "explanation": "ஞாயிறு, திங்கள், மழை என இயற்கையை வாழ்த்தியே காப்பியம் தொடங்குகிறது."
+      },
+      {
+        "question": "வாழ்க்கைச் சூழல்: உங்கள் நண்பன் ஒரு பறவையைத் துன்புறுத்துகிறான். நீங்கள் அவனுக்குச் சொல்ல வேண்டிய அறிவுரை யாது?",
+        "options": [
+          "பறவைகள் இயற்கையின் வரம், அவற்றைக் காக்க வேண்டும்",
+          "துன்புறுத்திக் கொண்டே இரு",
+          "நானும் வருகிறேன்",
+          "வேடிக்கை பார்ப்பேன்"
+        ],
+        "answer": 0,
+        "explanation": "இயற்கை மற்றும் உயிரினங்களின் முக்கியத்துவத்தை வலியுறுத்த வேண்டும்."
+      },
+      {
+        "question": "குற்றியலுகரம் எத்தனை வகைப்படும்?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "answer": 2,
+        "explanation": "நெடில்தொடர், ஆயுதத்தொடர், உயிர்த்தொடர், வன்தொடர், மென்தொடர், இடைத்தொடர் என ஆறு வகைப்படும்."
+      },
+      {
+        "question": "'ஆயுதம்' என்பதன் பொருள் யாது?",
+        "options": [
+          "கருவி",
+          "ஒலி",
+          "துணை",
+          "சின்னம்"
+        ],
+        "answer": 0,
+        "explanation": "பழங்காலப் போர்க்கருவியின் வடிவம் போல இருப்பதால் இது ஆயுதம் எனப்பட்டது."
+      },
+      {
+        "question": "'எட்டுத் திக்கும் செந்தமிழ் புகழ் பரவ வேண்டும்' - எனப் பாடியவர்?",
+        "options": [
+          "பாரதியார்",
+          "பெருஞ்சித்திரனார்",
+          "பாரதிதாசன்",
+          "வாணிதாசன்"
+        ],
+        "answer": 1,
+        "explanation": "கணிச்சாறு நூலில் தமிழ் கும்மி பாடலில் இவர் இதைக் குறிப்பிட்டுள்ளார்."
+      },
+      {
+        "question": "ஆய்வு: கப்பல் பறவை (Frigate Bird) தரை இறங்காமல் எவ்வளவு தூரம் பறக்கும்?",
+        "options": [
+          "100 கி.மீ",
+          "200 கி.மீ",
+          "400 கி.மீ",
+          "1000 கி.மீ"
+        ],
+        "answer": 2,
+        "explanation": "இது தரையிறங்காமல் 400 கி.மீ வரை பறக்கும் திறன் கொண்டது."
+      },
+      {
+        "question": "'தென்முனைப் பாண்டிநாட்டிலிருந்து வடமுனைக்கு வலசை வரும் பறவை' எது எனச் சத்திமுத்தப் புலவர் பாடினார்?",
+        "options": [
+          "சிட்டுக்குருவி",
+          "செங்கால் நாரை",
+          "மயில்",
+          "புறா"
+        ],
+        "answer": 1,
+        "explanation": "'நாராய் நாராய் செங்கால் நாராய்' என இவர் பாடியுள்ளார்."
+      },
+      {
+        "question": "கீழ்க்கண்டவற்றுள் எது 'இடைத்தொடர்க் குற்றியலுகரம்'?",
+        "options": [
+          "பத்து",
+          "எய்து",
+          "பஞ்சு",
+          "ஆடு"
+        ],
+        "answer": 1,
+        "explanation": "'ய்' என்பது இடையின மெய், அதனைத் தொடர்ந்து உகரம் வருவதால் இடைத்தொடர்."
+      },
+      {
+        "question": "தமிழ் எழுத்துக்களில் எதற்குத் தனிநிலை என்ற பெயரும் உண்டு?",
+        "options": [
+          "அ",
+          "க்",
+          "ஃ",
+          "இ"
+        ],
+        "answer": 2,
+        "explanation": "ஆயுத எழுத்திற்கு முப்புள்ளி, முப்பாற்புள்ளி, தனிநிலை என்ற பெயர்கள் உண்டு."
+      },
+      {
+        "question": "'கிளவனும் கடலும்' புதினத்தின் ஆசிரியர் யார்?",
+        "options": [
+          "பாரதியார்",
+          "ஹெமிங்வே",
+          "ஷேக்ஸ்பியர்",
+          "வள்ளுவர்"
+        ],
+        "answer": 1,
+        "explanation": "எர்னஸ்ட் ஹெமிங்வே இப்புதினத்தை எழுதினார்."
+      },
+      {
+        "question": "திருக்குறளில் உள்ள அதிகாரங்களின் மொத்த எண்ணிக்கை?",
+        "options": [
+          "100",
+          "133",
+          "1330",
+          "38"
+        ],
+        "answer": 1,
+        "explanation": "ஒவ்வொரு அதிகாரத்திற்கும் 10 குறள்கள் வீதம் 133 அதிகாரங்கள் உள்ளன."
+      },
+      {
+        "question": "எழுத்துக்களின் பிறப்பிற்கு அடிப்படை எது?",
+        "options": [
+          "மூச்சுக்காற்று",
+          "உணவு",
+          "தண்ணீர்",
+          "பேச்சு"
+        ],
+        "answer": 0,
+        "explanation": "உள்ளிருந்து வரும் காற்று உறுப்புகளால் தடுக்கப்பட்டு ஒலியாக மாறுகிறது."
+      },
+      {
+        "question": "'உயிர்' எழுத்துக்கள் என அழைக்கக் காரணம் என்ன?",
+        "options": [
+          "அவை உயிர் தருவதால்",
+          "உடலுக்கு உயிர் போன்றது என்பதால்",
+          "அவை உயிருள்ளவை",
+          "பெயருக்காக"
+        ],
+        "answer": 1,
+        "explanation": "மெய்யெழுத்தாகிய உடலுக்கு உயிர் எழுத்துக்கள் இயக்கம் தருகின்றன."
+      },
+      {
+        "question": "ஒப்புமை: ஆயுதம் : ஃ :: மெய் : ________",
+        "options": [
+          "அ",
+          "க்",
+          "க",
+          "கி"
+        ],
+        "answer": 1,
+        "explanation": "க் என்பது மெய்யெழுத்து."
+      },
+      {
+        "question": "சிட்டுக்குருவிகள் அழியக் காரணம் என்ன?",
+        "options": [
+          "பூச்சிக்கொல்லி மருந்துகள்",
+          "செல்போன் கதிர்வீச்சு",
+          "கூடு கட்ட மரங்கள் இல்லாமை",
+          "மேற்கண்ட அனைத்தும்"
+        ],
+        "answer": 3,
+        "explanation": "நவீன வாழ்க்கை முறையால் சிட்டுக்குருவிகள் இனம் அழிந்து வருகிறது."
+      },
+      {
+        "question": "தவறான இணையைக் கண்டறிக:",
+        "options": [
+          "திங்கள் - நிலவு",
+          "ஞாயிறு - கதிரவன்",
+          "அலி - அச்சுறுத்தல்",
+          "கொங்கு - மகரந்தம்"
+        ],
+        "answer": 2,
+        "explanation": "அலி என்பது கருணை (Mercy) அல்லது அருளைக் குறிக்கும்."
+      },
+      {
+        "question": "திருக்குறளில் 'பொருட்பால்' எத்தனை அதிகாரங்களைக் கொண்டது?",
+        "options": [
+          "38",
+          "70",
+          "25",
+          "133"
+        ],
+        "answer": 1,
+        "explanation": "அறம் 38, பொருள் 70, இன்பம் 25."
+      },
+      {
+        "question": "இயற்கையை வணங்குவது தமிழர்களின் ________.",
+        "options": [
+          "கடமை",
+          "மரபு",
+          "சட்டம்",
+          "ஆசை"
+        ],
+        "answer": 1,
+        "explanation": "பண்டைய காலம் முதலே தமிழர்கள் இயற்கையைப் போற்றி வந்துள்ளனர்."
+      },
+      {
+        "question": "In the story 'When the Trees Walked', where did the trees walk according to Grandfather?",
+        "options": [
+          "In the forest",
+          "Towards the river",
+          "On the road",
+          "In the garden"
+        ],
+        "answer": 1,
+        "explanation": "Grandfather observed that the trees moved towards the water source for survival."
+      },
+      {
+        "question": "Identify the author of 'When the Trees Walked'.",
+        "options": [
+          "Ruskin Bond",
+          "Sara Coleridge",
+          "Leo Tolstoy",
+          "Oscar Wilde"
+        ],
+        "answer": 0,
+        "explanation": "Ruskin Bond is known for his stories about nature and the Himalayas."
+      },
+      {
+        "question": "What did the farmer in 'The Apple Tree and the Farmer' want to do with the tree?",
+        "options": [
+          "Water it",
+          "Plant more trees",
+          "Cut it down",
+          "Climb it"
+        ],
+        "answer": 2,
+        "explanation": "The farmer thought the old apple tree was useless as it didn't bear fruit anymore."
+      },
+      {
+        "question": "Who stopped the farmer from cutting the tree?",
+        "options": [
+          "His wife",
+          "His neighbors",
+          "The birds and insects",
+          "The village head"
+        ],
+        "answer": 2,
+        "explanation": "The tiny creatures living on the tree begged the farmer to spare their home."
+      },
+      {
+        "question": "Assertion (A): Trees provide us with fresh air. \nReason (R): They release oxygen during photosynthesis.",
+        "options": [
+          "Both A and R are true; R is correct explanation",
+          "A is true; R is false",
+          "A is false; R is true",
+          "Both are false"
+        ],
+        "answer": 0,
+        "explanation": "Trees are essential for oxygen supply through biological processes."
+      },
+      {
+        "question": "In the poem 'Trees', which tree is compared to a giant standing tall?",
+        "options": [
+          "The Oak",
+          "The Banyan",
+          "The Pine",
+          "The Teak"
+        ],
+        "answer": 1,
+        "explanation": "The Banyan tree is known for its wide spread and majestic appearance."
+      },
+      {
+        "question": "What is the rhyme scheme of a simple four-line stanza in the poem?",
+        "options": [
+          "AABB",
+          "ABAB",
+          "ABCA",
+          "ABCD"
+        ],
+        "answer": 0,
+        "explanation": "Most nature poems for kids use simple AABB or ABAB rhyming patterns."
+      },
+      {
+        "question": "Scenario: If you were the farmer, why would you spare the tree?",
+        "options": [
+          "To get wood",
+          "To protect the ecosystem",
+          "To sell the land",
+          "Because I am lazy"
+        ],
+        "answer": 1,
+        "explanation": "Even if a tree doesn't give fruit, it provides shade and habitat for animals."
+      },
+      {
+        "question": "Choose the synonym for 'Spectacular'.",
+        "options": [
+          "Boring",
+          "Magnificent",
+          "Small",
+          "Ugly"
+        ],
+        "answer": 1,
+        "explanation": "Spectacular means something very impressive or grand."
+      },
+      {
+        "question": "In 'The Friendship', what is the core value highlighted?",
+        "options": [
+          "Greed",
+          "Loyalty",
+          "Cheating",
+          "Fear"
+        ],
+        "answer": 1,
+        "explanation": "Friendship is built on trust and staying loyal to each other."
+      },
+      {
+        "question": "What does a 'Sapling' mean?",
+        "options": [
+          "A dry wood",
+          "A young tree",
+          "A dead leaf",
+          "A large forest"
+        ],
+        "answer": 1,
+        "explanation": "A baby tree that has just started growing."
+      },
+      {
+        "question": "Analogy: Grandfather : Forest Officer :: Author : ________",
+        "options": [
+          "Farmer",
+          "Writer",
+          "Doctor",
+          "Pilot"
+        ],
+        "answer": 1,
+        "explanation": "The author (Ruskin Bond) is a writer by profession."
+      },
+      {
+        "question": "In the story 'When the Trees Walked', why was the grandmother upset?",
+        "options": [
+          "She hated trees",
+          "Grandfather was planting too many trees in the house",
+          "The garden was dirty",
+          "The rain was heavy"
+        ],
+        "answer": 1,
+        "explanation": "She complained that the house was turning into a jungle."
+      },
+      {
+        "question": "What is a 'Memoriter' poem?",
+        "options": [
+          "A poem to be sung",
+          "A poem to be memorized",
+          "A long story",
+          "A funny joke"
+        ],
+        "answer": 1,
+        "explanation": "Poems marked as 'Memoriter' are intended for students to learn by heart."
+      },
+      {
+        "question": "Which tree is 'The Monarch of the Forest'?",
+        "options": [
+          "Mango",
+          "Oak",
+          "Coconut",
+          "Papaya"
+        ],
+        "answer": 1,
+        "explanation": "The Oak tree is often called the monarch due to its strength and age."
+      },
+      {
+        "question": "Identify the figure of speech: 'The wind whispered through the leaves.'",
+        "options": [
+          "Simile",
+          "Metaphor",
+          "Personification",
+          "Alliteration"
+        ],
+        "answer": 2,
+        "explanation": "Giving human qualities (whispering) to non-human things (wind)."
+      },
+      {
+        "question": "In 'The Apple Tree and the Farmer', what happened when the farmer tasted the fruit from the bush?",
+        "options": [
+          "He spat it out",
+          "He realized the sweetness of nature",
+          "He got sick",
+          "He fell asleep"
+        ],
+        "answer": 1,
+        "explanation": "The taste reminded him of his childhood and the value of the tree."
+      },
+      {
+        "question": "What is the meaning of 'Endangered'?",
+        "options": [
+          "Very safe",
+          "In danger of extinction",
+          "Very common",
+          "Colorfully painted"
+        ],
+        "answer": 1,
+        "explanation": "Species that might disappear soon from the earth."
+      },
+      {
+        "question": "Which part of the tree carries water to the leaves?",
+        "options": [
+          "Root",
+          "Stem/Trunk",
+          "Flower",
+          "Fruit"
+        ],
+        "answer": 1,
+        "explanation": "The trunk acts as a conduit for nutrients and water."
+      },
+      {
+        "question": "In 'The Friendship', how did the friends help each other?",
+        "options": [
+          "By fighting",
+          "By sharing resources and support",
+          "By ignoring",
+          "By complaining"
+        ],
+        "answer": 1,
+        "explanation": "True friends stand by each other in difficult times."
+      },
+      {
+        "question": "What is the antonym for 'Ancient'?",
+        "options": [
+          "Old",
+          "Modern",
+          "Historic",
+          "Antique"
+        ],
+        "answer": 1,
+        "explanation": "Ancient means very old; Modern means current."
+      },
+      {
+        "question": "What did the author find when he returned to the island after many years in Bond's story?",
+        "options": [
+          "A desert",
+          "A thriving forest",
+          "A big factory",
+          "A shopping mall"
+        ],
+        "answer": 1,
+        "explanation": "The seeds planted by them had grown into a dense forest."
+      },
+      {
+        "question": "Which bird builds its nest in the apple tree in the story?",
+        "options": [
+          "Eagle",
+          "Sparrow/Small birds",
+          "Ostrich",
+          "Penguin"
+        ],
+        "answer": 1,
+        "explanation": "The small birds made their home in the branches."
+      },
+      {
+        "question": "Fill in the blank: Trees are the ________ of the earth.",
+        "options": [
+          "Lungs",
+          "Feet",
+          "Eyes",
+          "Hair"
+        ],
+        "answer": 0,
+        "explanation": "Because they purify the air we breathe."
+      },
+      {
+        "question": "Match the following: \n1. Willow - a. Tall and slender \n2. Pine - b. Drooping branches \n3. Banyan - c. Wide spread",
+        "options": [
+          "1-b, 2-a, 3-c",
+          "1-a, 2-b, 3-c",
+          "1-c, 2-a, 3-b",
+          "1-b, 2-c, 3-a"
+        ],
+        "answer": 0,
+        "explanation": "Willows have drooping branches; Pines are tall; Banyans are huge."
+      },
+      {
+        "question": "Why did the author think trees were 'moving'?",
+        "options": [
+          "They had legs",
+          "The light shifted",
+          "They grew and spread their canopy",
+          "Wind blew them"
+        ],
+        "answer": 2,
+        "explanation": "Grandfather's metaphor meant they occupy new space as they grow."
+      },
+      {
+        "question": "What is the moral of the story 'The Apple Tree and the Farmer'?",
+        "options": [
+          "Don't cut trees",
+          "Money is everything",
+          "Work hard",
+          "Eat apples"
+        ],
+        "answer": 0,
+        "explanation": "We should value nature even when it doesn't serve our immediate greed."
+      },
+      {
+        "question": "Identify the verb in: 'Grandfather planted a sapling.'",
+        "options": [
+          "Grandfather",
+          "Planted",
+          "A",
+          "Sapling"
+        ],
+        "answer": 1,
+        "explanation": "The action word is 'planted'."
+      },
+      {
+        "question": "What is the collective noun for a group of trees?",
+        "options": [
+          "Flock",
+          "Forest/Grove",
+          "Herd",
+          "School"
+        ],
+        "answer": 1,
+        "explanation": "A grove or forest is a collection of trees."
+      },
+      {
+        "question": "What is the best way to celebrate a birthday according to nature lovers?",
+        "options": [
+          "Eating cake",
+          "Planting a tree",
+          "Watching TV",
+          "Sleeping"
+        ],
+        "answer": 1,
+        "explanation": "It's a sustainable way to contribute to the environment."
+      },
+      {
+        "question": "இயற்கணிதத்தில் 'மாறி' (Variable) என்பது எதனைக் குறிக்கும்?",
+        "options": [
+          "நிலையான மதிப்புள்ள எண்",
+          "வெவ்வேறு மதிப்புகளை ஏற்கக்கூடிய ஒரு குறியீடு",
+          "பூஜ்யம் மட்டும்",
+          "எதிர்மறை எண்கள் மட்டும்"
+        ],
+        "answer": 1,
+        "explanation": "$x, y, z$ போன்ற எழுத்துக்கள் மாறும் மதிப்புகளைக் கொண்டவை."
+      },
+      {
+        "question": "$n + 10 = 25$ எனில் $n$-ன் மதிப்பு என்ன?",
+        "options": [
+          "10",
+          "15",
+          "35",
+          "25"
+        ],
+        "answer": 1,
+        "explanation": "$25 - 10 = 15$."
+      },
+      {
+        "question": "ஒரு அமைப்பில் அடுத்த எண்ணைக் காண்க: 5, 10, 15, 20, ____",
+        "options": [
+          "21",
+          "25",
+          "30",
+          "15"
+        ],
+        "answer": 1,
+        "explanation": "ஐந்தின் மடங்குகளாக எண்கள் அமைந்துள்ளன."
+      },
+      {
+        "question": "'$k$-யை 7-ஆல் பெருக்குக' என்பதன் இயற்கணிதக் கூற்று எது?",
+        "options": [
+          "$k + 7$",
+          "$k - 7$",
+          "$7k$",
+          "$\\frac{k}{7}$"
+        ],
+        "answer": 2,
+        "explanation": "பெருக்குதல் என்பது எண்ணையும் மாறியையும் பக்கத்தில் எழுதுவதைக் குறிக்கும்."
+      },
+      {
+        "question": "ஒரு சமன்பாட்டில் சமக்குறிக்கு (=) இடது பக்கம் உள்ள பகுதி எவ்வாறு அழைக்கப்படும்?",
+        "options": [
+          "LHS",
+          "RHS",
+          "Middle",
+          "Variable"
+        ],
+        "answer": 0,
+        "explanation": "Left Hand Side (இடது கை பக்கம்)."
+      },
+      {
+        "question": "வாழ்க்கைச் சூழல்: ராதாவிடம் $x$ மிட்டாய்கள் உள்ளன. அவளது தம்பி அவளுக்கு மேலும் 5 மிட்டாய்கள் கொடுத்தால் மொத்த மிட்டாய்கள் எத்தனை?",
+        "options": [
+          "$5x$",
+          "$x - 5$",
+          "$x + 5$",
+          "$\\frac{x}{5}$"
+        ],
+        "answer": 2,
+        "explanation": "கூடுதல் என்பது கூட்டல் குறியீட்டைக் குறிக்கும்."
+      },
+      {
+        "question": "$3x - 4 = 11$ எனில் $x$-ன் மதிப்பு யாது?",
+        "options": [
+          "5",
+          "3",
+          "4",
+          "15"
+        ],
+        "answer": 0,
+        "explanation": "$3x = 11 + 4 = 15$; $x = 15/3 = 5$."
+      },
+      {
+        "question": "கீழ்க்கண்டவற்றுள் எது 'கோவை' (Expression)?",
+        "options": [
+          "$x + 5 = 10$",
+          "$2y - 3$",
+          "$5 = 5$",
+          "$x = 0$"
+        ],
+        "answer": 1,
+        "explanation": "கோவை என்பது சமக்குறி இல்லாத உறுப்புகளின் தொகுப்பு."
+      },
+      {
+        "question": "$y$ என்பது ஓர் இரட்டை எண் எனில், அதற்கு அடுத்த இரட்டை எண் எது?",
+        "options": [
+          "$y + 1$",
+          "$y + 2$",
+          "$2y$",
+          "$y - 2$"
+        ],
+        "answer": 1,
+        "explanation": "இரட்டை எண்களுக்கு இடையே உள்ள வித்தியாசம் 2."
+      },
+      {
+        "question": "ஒப்புமை: $x + 2$ : கூடுதல் :: $x - 2$ : ________",
+        "options": [
+          "பெருக்கல்",
+          "வகுத்தல்",
+          "வித்தியாசம் / கழித்தல்",
+          "வர்க்கம்"
+        ],
+        "answer": 2,
+        "explanation": "கழித்தல் குறியீடு வித்தியாசத்தைக் குறிக்கும்."
+      },
+      {
+        "question": "கூற்று: ஒரு மாறியின் கெழு (Coefficient) எப்போதும் ஒரு எண்ணாக இருக்கும். \nகாரணம்: கெழு என்பது மாறியுடன் பெருக்கப்படும் நிலையான எண்.",
+        "options": [
+          "கூற்று, காரணம் சரி",
+          "கூற்று சரி, காரணம் தவறு",
+          "கூற்று தவறு, காரணம் சரி",
+          "இரண்டும் தவறு"
+        ],
+        "answer": 0,
+        "explanation": "$5x$-ல் 5 என்பது கெழு."
+      },
+      {
+        "question": "$a = 2, b = 3$ எனில் $a + b$ -ன் மதிப்பு என்ன?",
+        "options": [
+          "5",
+          "6",
+          "1",
+          "23"
+        ],
+        "answer": 0,
+        "explanation": "$2 + 3 = 5$."
+      },
+      {
+        "question": "ஒரு பேனாவின் விலை $x$ ரூபாய். ஒரு பென்சிலின் விலை பேனாவின் விலையை விட 2 ரூபாய் குறைவு எனில் பென்சிலின் விலை என்ன?",
+        "options": [
+          "$x + 2$",
+          "$x - 2$",
+          "$2x$",
+          "$\\frac{x}{2}$"
+        ],
+        "answer": 1,
+        "explanation": "குறைவு என்பது கழித்தலைக் குறிக்கும்."
+      },
+      {
+        "question": "எந்த எண்ணுடன் 0-வை கூட்டினாலும் அதே எண் கிடைக்கும். இதை மாறியைப் பயன்படுத்தி எவ்வாறு எழுதுவாய்?",
+        "options": [
+          "$a + 0 = a$",
+          "$a - 0 = 0$",
+          "$a \\times 0 = a$",
+          "$0 + 0 = a$"
+        ],
+        "answer": 0,
+        "explanation": "இது கூட்டல் சமனிப் பண்பு."
+      },
+      {
+        "question": "6, 12, 18, 24... இந்த அமைப்பின் $n$-வது உறுப்பு எது?",
+        "options": [
+          "$n + 6$",
+          "$6n$",
+          "$n - 6$",
+          "$6 + n$"
+        ],
+        "answer": 1,
+        "explanation": "இவை ஆறின் மடங்குகள்."
+      },
+      {
+        "question": "தவறான கூற்றைக் கண்டறிக:",
+        "options": [
+          "மாறிலியின் மதிப்பு மாறாது",
+          "மாறியின் மதிப்பு மாறும்",
+          "$x + 0 = x$",
+          "$x + y$ என்பது ஒரு சமன்பாடு"
+        ],
+        "answer": 3,
+        "explanation": "$x + y$ என்பது ஒரு கோவை, சமன்பாடு அல்ல (சமக்குறி இல்லை)."
+      },
+      {
+        "question": "ஒரு சதுரத்தின் பக்கம் $s$ எனில் அதன் சுற்றளவு (Perimeter) என்ன?",
+        "options": [
+          "$s^2$",
+          "$2s$",
+          "$4s$",
+          "$s + 4$"
+        ],
+        "answer": 2,
+        "explanation": "நான்கு பக்கங்களின் கூடுதல் $s+s+s+s = 4s$."
+      },
+      {
+        "question": "$\\\\frac{z}{5} = 10$ எனில் $z$-ன் மதிப்பு யாது?",
+        "options": [
+          "2",
+          "5",
+          "50",
+          "15"
+        ],
+        "answer": 2,
+        "explanation": "$10 \\times 5 = 50$."
+      },
+      {
+        "question": "$100 - x$ என்ற கோவையில் $x = 100$ எனில் விடை என்ன?",
+        "options": [
+          "100",
+          "0",
+          "200",
+          "1"
+        ],
+        "answer": 1,
+        "explanation": "$100 - 100 = 0$."
+      },
+      {
+        "question": "$2n + 3$ என்பதில் $n = 5$ எனில் கோவையின் மதிப்பு யாது?",
+        "options": [
+          "10",
+          "13",
+          "15",
+          "8"
+        ],
+        "answer": 1,
+        "explanation": "$(2 \\times 5) + 3 = 10 + 3 = 13$."
+      },
+      {
+        "question": "வாழ்க்கைச் சூழல்: ஒரு பேருந்தில் $x$ பயணிகள் உள்ளனர். அடுத்த நிறுத்தத்தில் 10 பேர் இறங்கி 5 பேர் ஏறினால் இப்போதுள்ள பயணிகள் எத்தனை?",
+        "options": [
+          "$x - 10 + 5$",
+          "$x + 10 - 5$",
+          "$x - 5$",
+          "$x + 5$"
+        ],
+        "answer": 0,
+        "explanation": "இறங்குவது கழித்தல், ஏறுவது கூட்டல்."
+      },
+      {
+        "question": "$a, b, c$ என்பன எண்களைக் குறிக்கின்றன எனில் $a + b = b + a$ என்பது எந்தப் பண்பு?",
+        "options": [
+          "பரிமாற்றுப் பண்பு (Commutative)",
+          "சேர்ப்புப் பண்பு",
+          "பங்கீட்டுப் பண்பு",
+          "தலைகீழ் பண்பு"
+        ],
+        "answer": 0,
+        "explanation": "வரிசையை மாற்றினாலும் கூடுதல் மாறாது."
+      },
+      {
+        "question": "ஒரு எண்கோட்டில் $x$-க்கு வலதுபுறம் 3 அலகுகள் தள்ளி உள்ள எண் எது?",
+        "options": [
+          "$x - 3$",
+          "$3x$",
+          "$x + 3$",
+          "$x/3$"
+        ],
+        "answer": 2,
+        "explanation": "வலதுபுறம் என்பது மதிப்பை அதிகரிப்பதைக் குறிக்கும்."
+      },
+      {
+        "question": "7-ஐ விட ' $m$ ' மடங்கு பெரியது என்பதன் பொருள் என்ன?",
+        "options": [
+          "$7 + m$",
+          "$7m$",
+          "$7 - m$",
+          "$7/m$"
+        ],
+        "answer": 1,
+        "explanation": "மடங்கு என்பது பெருக்கலைக் குறிக்கும்."
+      },
+      {
+        "question": "பொருத்துக: \n1. $x + x$ - அ. $x^2$ \n2. $x \\times x$ - ஆ. 0 \n3. $x - x$ - இ. $2x$",
+        "options": [
+          "1-இ, 2-அ, 3-ஆ",
+          "1-அ, 2-இ, 3-ஆ",
+          "1-ஆ, 2-அ, 3-இ",
+          "1-இ, 2-ஆ, 3-அ"
+        ],
+        "answer": 0,
+        "explanation": "இயற்கணித அடிப்படைச் செயல்பாடுகள்."
+      },
+      {
+        "question": "$p - 5 = 0$ எனில் $p$ என்பது ________.",
+        "options": [
+          "-5",
+          "5",
+          "0",
+          "1"
+        ],
+        "answer": 1,
+        "explanation": "$5 - 5 = 0$."
+      },
+      {
+        "question": "ஒரு செவ்வகத்தின் நீளம் $l$ மற்றும் அகலம் $b$ எனில் அதன் பரப்பளவு என்ன?",
+        "options": [
+          "$2(l + b)$",
+          "$l \\times b$",
+          "$l + b$",
+          "$l^2$"
+        ],
+        "answer": 1,
+        "explanation": "நீளம் x அகலம் = பரப்பளவு."
+      },
+      {
+        "question": "$\\\\frac{x}{2} + 1 = 5$ எனில் $x$-ன் மதிப்பு யாது?",
+        "options": [
+          "8",
+          "4",
+          "10",
+          "12"
+        ],
+        "answer": 0,
+        "explanation": "$x/2 = 4$; $x = 8$."
+      },
+      {
+        "question": "' தெரியாத எண்களை ' குறிக்க நாம் பயன்படுத்துவது எது?",
+        "options": [
+          "மாறிலி",
+          "மாறி",
+          "பூஜ்யம்",
+          "அனைத்தும்"
+        ],
+        "answer": 1,
+        "explanation": "மதிப்பு தெரியாத இடத்தில்தான் நாம் மாறிகளைப் பயன்படுத்துகிறோம்."
+      },
+      {
+        "question": "அமைப்பு: 1, 4, 9, 16... அடுத்த எண் யாது?",
+        "options": [
+          "20",
+          "25",
+          "30",
+          "36"
+        ],
+        "answer": 1,
+        "explanation": "இவை வர்க்க எண்கள் ($1^2, 2^2, 3^2, 4^2, 5^2$)."
+      },
+      {
+        "question": "தாவரங்கள் தமக்குத் தேவையான உணவைத் தாமே தயாரித்துக் கொள்வதால் அவை எவ்வாறு அழைக்கப்படுகின்றன?",
+        "options": [
+          "சார்பூட்ட உயிரிகள்",
+          "தற்சார்பு ஊட்ட உயிரிகள்",
+          "ஒட்டுண்ணிகள்",
+          "மட்குண்ணிகள்"
+        ],
+        "answer": 1,
+        "explanation": "சூரிய ஒளியைப் பயன்படுத்தி உணவு தயாரிக்கும் உயிரினங்கள் இவை."
+      },
+      {
+        "question": "உலகிலேயே மிக நீளமான நதி எது?",
+        "options": [
+          "கங்கை",
+          "அமேசான்",
+          "நைல்",
+          "மிசிசிபி"
+        ],
+        "answer": 2,
+        "explanation": "நைல் நதி உலகின் மிக நீளமான ஆறாகும் (6650 கி.மீ)."
+      },
+      {
+        "question": "விலங்குலகத்தில் 'முதுகெலும்பு அற்றவை' குழுவில் இடம்பெறுவது எது?",
+        "options": [
+          "பாம்பு",
+          "மீன்",
+          "மண்புழு",
+          "தவளை"
+        ],
+        "answer": 2,
+        "explanation": "மண்புழுவிற்கு முதுகெலும்பு கிடையாது."
+      },
+      {
+        "question": "வைட்டமின் 'C' குறைபாட்டால் ஏற்படும் நோய் எது?",
+        "options": [
+          "மாலைக்கண் நோய்",
+          "பெரிபெரி",
+          "ஸ்கர்வி",
+          "ரிக்கெட்ஸ்"
+        ],
+        "answer": 2,
+        "explanation": "வைட்டமின் C குறைபாட்டால் ஈறுகளில் இரத்தம் வடிதல் (ஸ்கர்வி) ஏற்படும்."
+      },
+      {
+        "question": "கணினியின் 'மூளை' என அழைக்கப்படும் பகுதி எது?",
+        "options": [
+          "Monitor",
+          "CPU",
+          "Keyboard",
+          "Mouse"
+        ],
+        "answer": 1,
+        "explanation": "Central Processing Unit அனைத்துக் கணக்கீடுகளையும் செய்கிறது."
+      },
+      {
+        "question": "தாவரத்தின் எந்தப் பகுதி நீராவிப் போக்கினை (Transpiration) மேற்கொள்கிறது?",
+        "options": [
+          "வேர்",
+          "தண்டு",
+          "இலை",
+          "பூ"
+        ],
+        "answer": 2,
+        "explanation": "இலைகளில் உள்ள இலைத்துளைகள் வழியாக உபரி நீர் வெளியேறுகிறது."
+      },
+      {
+        "question": "கூற்று: ஒட்டகம் 'பாலைவனக் கப்பல்' என அழைக்கப்படுகிறது. \nகாரணம்: அதன் கால்களில் உள்ள தட்டையான பாதங்கள் மணலில் நடக்க உதவுகின்றன.",
+        "options": [
+          "கூற்று, காரணம் சரி",
+          "கூற்று சரி, காரணம் தவறு",
+          "கூற்று தவறு, காரணம் சரி",
+          "இரண்டும் தவறு"
+        ],
+        "answer": 0,
+        "explanation": "பாலைவனச் சூழலுக்கு ஏற்ப ஒட்டகம் தகவமைப்பைப் பெற்றுள்ளது."
+      },
+      {
+        "question": "புரதக் குறைபாட்டால் குழந்தைகளுக்கு ஏற்படும் நோய் எது?",
+        "options": [
+          " anaemia",
+          "குவாஷியார்க்கர்",
+          "மாராஸ்மஸ்",
+          "ஆ மற்றும் இ"
+        ],
+        "answer": 3,
+        "explanation": "குவாஷியார்க்கர் மற்றும் மாராஸ்மஸ் ஆகிய இரண்டும் புரதக் குறைபாட்டு நோய்கள்."
+      },
+      {
+        "question": "முதல் தலைமுறைக் கணினிகளில் பயன்படுத்தப்பட்ட சாதனம் எது?",
+        "options": [
+          "Transistors",
+          "Vacuum Tubes (வெற்றிடக் குழாய்கள்)",
+          "Integrated Circuits",
+          "Microprocessors"
+        ],
+        "answer": 1,
+        "explanation": "ஆரம்பகால கணினிகள் அளவில் பெரியதாக இருக்க இதுவே காரணம்."
+      },
+      {
+        "question": "மீன்களின் சுவாச உறுப்பு எது?",
+        "options": [
+          "நுரையீரல்",
+          "செவுள்கள் (Gills)",
+          "தோல்",
+          "மூச்சுக்குழல்"
+        ],
+        "answer": 1,
+        "explanation": "நீரில் கரைந்துள்ள ஆக்சிஜனைப் பெற செவுள்கள் உதவுகின்றன."
+      },
+      {
+        "question": "கீழ்க்கண்டவற்றுள் எது 'உள்ளீட்டுக் கருவி' (Input Device) அல்ல?",
+        "options": [
+          "Keyboard",
+          "Mouse",
+          "Printer",
+          "Scanner"
+        ],
+        "answer": 2,
+        "explanation": "Printer ஒரு வெளியீட்டுக் கருவி (Output Device)."
+      },
+      {
+        "question": "தாவரங்களில் நீரை உறிஞ்சி கடத்தும் திசு எது?",
+        "options": [
+          "புளோயம்",
+          "சைலம்",
+          "பாரன்கைமா",
+          "கோலன்கைமா"
+        ],
+        "answer": 1,
+        "explanation": "சைலம் நீரை வேரிலிருந்து இலைகளுக்குக் கடத்துகிறது."
+      },
+      {
+        "question": "விலங்குலகில் பாலூட்டிகளுக்கு (Mammals) உரிய முக்கியப் பண்பு எது?",
+        "options": [
+          "முட்டையிடுதல்",
+          "குட்டி போட்டு பால் கொடுத்தல்",
+          "செவுள்கள் இருத்தல்",
+          "பறக்கும் திறன்"
+        ],
+        "answer": 1,
+        "explanation": "பாலூட்டிகள் தங்களின் குட்டிகளுக்குப் பால் ஊட்டும் சுரப்பிகளைக் கொண்டுள்ளன."
+      },
+      {
+        "question": "வாழ்க்கைச் சூழல்: உங்கள் நண்பனுக்கு இரவில் கண் சரியாகத் தெரியவில்லை. அவன் உணவில் எதனைச் சேர்க்க அறிவுறுத்துவீர்கள்?",
+        "options": [
+          "சர்க்கரை",
+          "கேரட் மற்றும் கீரைகள்",
+          "உப்பு",
+          "எண்ணெய் பொருட்கள்"
+        ],
+        "answer": 1,
+        "explanation": "இவற்றில் வைட்டமின் A அதிகம் உள்ளது, இது மாலைக்கண் நோயைத் தடுக்கும்."
+      },
+      {
+        "question": "கணினியில் தற்காலிகமாகத் தகவல்களைச் சேமிக்கும் நினைவகம் எது?",
+        "options": [
+          "ROM",
+          "RAM",
+          "Hard Disk",
+          "Pen Drive"
+        ],
+        "answer": 1,
+        "explanation": "Random Access Memory என்பது ஒரு தற்காலிக நினைவகம்."
+      },
+      {
+        "question": "ஒப்புமை: ஒளிச்சேர்க்கை : சூரிய ஒளி :: சுவாசம் : ________",
+        "options": [
+          "நீர்",
+          "ஆக்சிஜன்",
+          "மண்",
+          "இருட்டு"
+        ],
+        "answer": 1,
+        "explanation": "சுவாசத்திற்கு ஆக்சிஜன் இன்றியமையாதது."
+      },
+      {
+        "question": "கீழ்க்கண்டவற்றுள் எது 'ஒரு செல் உயிரி'?",
+        "options": [
+          "மீன்",
+          "அமீபா",
+          "மனிதன்",
+          "தவளை"
+        ],
+        "answer": 1,
+        "explanation": "அமீபா ஒரு நுண்ணிய ஒரு செல் உயிரி."
+      },
+      {
+        "question": "கால்சியம் குறைபாட்டால் எலும்புகள் பலவீனமடைவது எதனால்?",
+        "options": [
+          "இரத்த சோகை",
+          "ரிக்கெட்ஸ் / எலும்புருக்கி நோய்",
+          "ஸ்கர்வி",
+          "பெரிபெரி"
+        ],
+        "answer": 1,
+        "explanation": "எலும்பு வளர்ச்சிக்குக் கால்சியம் மற்றும் வைட்டமின் D அவசியம்."
+      },
+      {
+        "question": "கணினித் திரையில் தோன்றும் சிறு புள்ளி (Pixel) எதனைக் குறிக்கும்?",
+        "options": [
+          "சத்தம்",
+          "படம் / ஒளிப்படம்",
+          "எழுத்து",
+          "மின்னோட்டம்"
+        ],
+        "answer": 1,
+        "explanation": "பிக்சல்கள் இணைந்தே ஒரு முழுப் படத்தை உருவாக்குகின்றன."
+      },
+      {
+        "question": "பூச்சிகளின் உடலில் காணப்படும் சுவாசத் துளைகள் எவ்வாறு அழைக்கப்படுகின்றன?",
+        "options": [
+          "இலைத்துளை",
+          "ஸ்பைரக்கிள்கள் (Spiracles)",
+          "தோல்",
+          "நுரையீரல்"
+        ],
+        "answer": 1,
+        "explanation": "கரப்பான் பூச்சி போன்ற பூச்சிகள் இதன் மூலமே சுவாசிக்கின்றன."
+      },
+      {
+        "question": "பொருத்துக: \n1. தண்டு - அ. நீர் உறிஞ்சுதல் \n2. வேர் - ஆ. தாங்குதல் \n3. பூ - இ. இனப்பெருக்கம்",
+        "options": [
+          "1-ஆ, 2-அ, 3-இ",
+          "1-அ, 2-ஆ, 3-இ",
+          "1-இ, 2-ஆ, 3-அ",
+          "1-ஆ, 2-இ, 3-அ"
+        ],
+        "answer": 0,
+        "explanation": "தாவர உறுப்புகளின் பணிகள்."
+      },
+      {
+        "question": "உலக சுகாதார தினம் (World Health Day) எப்போது கொண்டாடப்படுகிறது?",
+        "options": [
+          "ஜனவரி 1",
+          "ஏப்ரல் 7",
+          "ஜூன் 5",
+          "ஆகஸ்ட் 15"
+        ],
+        "answer": 1,
+        "explanation": "சுகாதாரம் குறித்த விழிப்புணர்விற்காக இது கடைபிடிக்கப்படுகிறது."
+      },
+      {
+        "question": "மின்னஞ்சல் (E-mail) அனுப்பப் பயன்படும் மென்பொருள் எது?",
+        "options": [
+          "MS Paint",
+          "Gmail / Outlook",
+          "Calculator",
+          "Notepad"
+        ],
+        "answer": 1,
+        "explanation": "தகவல் பரிமாற்றத்திற்கு இவை பயன்படுகின்றன."
+      },
+      {
+        "question": "வேரின் நுனியில் காணப்படும் மூடி போன்ற அமைப்பு எது?",
+        "options": [
+          "வேர் முடிச்சு",
+          "வேர் மூடி (Root Cap)",
+          "தூவிகள்",
+          "தண்டு"
+        ],
+        "answer": 1,
+        "explanation": "இது வளரும் வேர் முனையைப் பாதுகாக்கிறது."
+      },
+      {
+        "question": "மீன்களின் வால் துடுப்பு எதற்கு உதவுகிறது?",
+        "options": [
+          "சுவாசிக்க",
+          "உணவு தேட",
+          "திசை மாற",
+          "தூங்க"
+        ],
+        "answer": 2,
+        "explanation": "நீந்தும்போது திசையை மாற்ற வால் துடுப்பு சுக்கான் போலப் பயன்படுகிறது."
+      },
+      {
+        "question": "இரத்த சோகை (Anaemia) எதன் குறைபாட்டால் ஏற்படுகிறது?",
+        "options": [
+          "அயோடின்",
+          "இரும்புச் சத்து",
+          "கால்சியம்",
+          "மெக்னீசியம்"
+        ],
+        "answer": 1,
+        "explanation": "இரத்தத்தில் ஹீமோகுளோபின் அளவு குறைய இரும்புச் சத்துக் குறைபாடே காரணம்."
+      },
+      {
+        "question": "கணினியில் தரவுகளைச் சேமிக்கப் பயன்படும் மிகச்சிறிய அளவு எது?",
+        "options": [
+          "Kilobyte",
+          "Bit",
+          "Byte",
+          "Megabyte"
+        ],
+        "answer": 1,
+        "explanation": "Binary Digit (Bit) என்பது மிகச்சிறிய அலகு (0 அல்லது 1)."
+      },
+      {
+        "question": "தாவரங்கள் வளிமண்டலத்திலிருந்து எந்த வாயுவை ஒளிச்சேர்க்கைக்கு எடுத்துக் கொள்கின்றன?",
+        "options": [
+          "ஆக்சிஜன்",
+          "நைட்ரஜன்",
+          "கார்பன் டை ஆக்சைடு",
+          "ஹீலியம்"
+        ],
+        "answer": 2,
+        "explanation": "உணவு தயாரிக்கும்போது கார்பன் டை ஆக்சைடை உறிஞ்சுகின்றன."
+      },
+      {
+        "question": "தவளை ஒரு 'இருவாழ்வி' (Amphibian) என அழைக்கப்படக் காரணம் என்ன?",
+        "options": [
+          "அது இரு கால்களைக் கொண்டது",
+          "நீர் மற்றும் நிலம் இரண்டிலும் வாழும்",
+          "இரு முறை முட்டையிடும்",
+          "இரு நிறங்களில் இருக்கும்"
+        ],
+        "answer": 1,
+        "explanation": "தவளைகள் தங்கள் வாழ்க்கைச் சுழற்சியை நீரிலும் நிலத்திலும் கழிக்கின்றன."
+      },
+      {
+        "question": "கீழ்க்கண்டவற்றுள் எது சரிவிகித உணவு (Balanced Diet)?",
+        "options": [
+          "நூடுல்ஸ் மற்றும் பீட்சா",
+          "அனைத்துச் சத்துக்களும் சரியான அளவில் உள்ள உணவு",
+          "அரிசி சாதம் மட்டும்",
+          "பழங்கள் மட்டும்"
+        ],
+        "answer": 1,
+        "explanation": "உடல் வளர்ச்சிக்குத் தேவையான அனைத்து ஊட்டச்சத்துக்களும் கலந்த உணவே சரிவிகித உணவு."
+      }
+    ]
+  }
+}

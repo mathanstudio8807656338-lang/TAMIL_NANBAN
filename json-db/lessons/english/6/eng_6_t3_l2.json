@@ -1,0 +1,774 @@
+{
+  "lesson_meta": {
+    "title": "Indian Seasons",
+    "unit": 2,
+    "std": 6,
+    "term": "3",
+    "subject": "English",
+    "grade": "6",
+    "code": "eng_6_t3_l2"
+  },
+  "sections": [
+    {
+      "title": "1. பாடச் சுருக்கம் (Full Summary of the Poem)",
+      "type": "infobox",
+      "content": [
+        {
+          "text": "The poem 'Indian Seasons' by Nisha Dygrine beautifully describes the changing seasons in India."
+        },
+        {
+          "text": "Summer: Summer begins with intense, bright heat ('blaze of heat'). It brings cheerfulness represented by 'sunny smiles', but the dry weather results in 'dusty feet' due to the lack of rain."
+        },
+        {
+          "text": "Monsoon: The seasons then shift to the rainy season (Monsoons). This season is characterized by muddy roads. It brings delicious mangoes and is a time when leapfrogs and toads are seen everywhere."
+        },
+        {
+          "text": "Spring: Spring is described as 'pretty' but it is very 'short and sweet'. During this time, one can enjoy the fresh, sweet smell of green grass while sitting on a garden seat."
+        },
+        {
+          "text": "Autumn: The poet contrasts English Autumn with Indian Autumn. In England, autumn is colorful with leaves turning red, yellow, and brown. In India, autumn is simply identified as the time when leaves dry and fall down from the trees."
+        }
+      ]
+    },
+    {
+      "title": "2. கவிதையின் வரிகள் மற்றும் கூடுதல் குறிப்புகள் (Poem Lines & Additional Notes)",
+      "type": "infobox",
+      "content": [
+        {
+          "text": "Stanza 1: Summer comes / in a blaze of heat with / sunny smiles / and dusty feet."
+        },
+        {
+          "text": "Stanza 2: Then seasons change / to muddy roads / monsoons and mangoes / leapfrogs and toads."
+        },
+        {
+          "text": "Stanza 3: Spring is pretty / but short and sweet / when you can smell the grass / from your garden seat."
+        },
+        {
+          "text": "Stanza 4: Autumn is English / in red, yellow and brown / Autumn is Indian / Whenever leaves fell down."
+        },
+        {
+          "text": "Author: The poem is written by Nisha Dygrine."
+        },
+        {
+          "text": "The poem highlights how Indian seasons differ slightly from western seasons, particularly Autumn."
+        }
+      ]
+    },
+    {
+      "title": "3. நயங்கள் மற்றும் இலக்கணக் குறிப்புகள் (Figures of Speech & Poetic Devices)",
+      "type": "infobox",
+      "content": [
+        {
+          "text": "Rhyming Words: heat - feet (Stanza 1), roads - toads (Stanza 2), sweet - seat (Stanza 3), brown - down (Stanza 4)."
+        },
+        {
+          "text": "Rhyme Scheme: The rhyme scheme for each stanza is a b c b."
+        },
+        {
+          "text": "Alliteration (மோனை): Words starting with the same consonant sound in a line. Examples: 'Sunny Smiles' (s, s), 'Monsoons and Mangoes' (m, m), 'Short and Sweet' (s, s)."
+        },
+        {
+          "text": "Imagery (உருவகம்): The poet uses strong visual and sensory imagery like 'blaze of heat', 'smell the grass', and 'red, yellow and brown'."
+        }
+      ]
+    },
+    {
+      "title": "4. அருஞ்சொற்பொருள் (Glossary & Vocabulary)",
+      "type": "infobox",
+      "content": [
+        {
+          "text": "Blaze - Bright flame or fire / intense heat (கடும் வெப்பம்)"
+        },
+        {
+          "text": "Sunny - Bright with sunlight (சூரிய ஒளி நிரம்பிய)"
+        },
+        {
+          "text": "Dusty - Covered with dust (புழுதி படிந்த)"
+        },
+        {
+          "text": "Monsoons - The rainy season (பருவமழை)"
+        },
+        {
+          "text": "Leapfrogs - Frogs that jump (குதிக்கும் தவளைகள்)"
+        },
+        {
+          "text": "Toads - Tailless amphibians similar to frogs but with drier, warty skin (தேரைகள்)"
+        },
+        {
+          "text": "Pretty - Beautiful (அழகான)"
+        },
+        {
+          "text": "Autumn - The season after summer and before winter, when leaves fall (இலையுதிர் காலம்)"
+        }
+      ]
+    },
+    {
+      "title": "5. நினைவில் கொள்க (Points to Remember for Exams)",
+      "type": "infobox",
+      "content": [
+        {
+          "text": "There are four seasons mentioned in the poem: Summer, Monsoon, Spring, and Autumn."
+        },
+        {
+          "text": "Summer is associated with 'sunny smiles' and 'dusty feet'."
+        },
+        {
+          "text": "Monsoon is associated with 'muddy roads', 'mangoes', 'leapfrogs', and 'toads'."
+        },
+        {
+          "text": "Spring is described as 'short and sweet'."
+        },
+        {
+          "text": "English Autumn features leaves in colors of red, yellow, and brown."
+        },
+        {
+          "text": "Indian Autumn is simply recognized when the leaves fall down."
+        }
+      ]
+    },
+    {
+      "title": "C. Read the lines and answer the questions given below.",
+      "type": "infobox",
+      "content": [
+        {
+          "text": "1. Summer comes in a blaze of heat with sunny smiles and dusty feet."
+        },
+        {
+          "text": "a) Does the poet welcome the summer? How do you know? - Answer: Yes, the poet welcomes the summer because she describes it with 'sunny smiles', which gives a positive and cheerful feeling."
+        },
+        {
+          "text": "b) Which line tells you that there is no rain in summer? - Answer: The line 'and dusty feet' tells us that the ground is dry and there is no rain."
+        },
+        {
+          "text": "2. Spring is pretty but short and sweet when you can smell the grass from your garden seat."
+        },
+        {
+          "text": "a) How does the poet describe the spring season? - Answer: The poet describes the spring season as pretty, short, and sweet."
+        },
+        {
+          "text": "b) Which line tells you that the garden is fresh? - Answer: The line 'when you can smell the grass' tells us that the garden is fresh."
+        },
+        {
+          "text": "c) Who does 'you' refer to? - Answer: 'You' refers to the reader."
+        },
+        {
+          "text": "3. Autumn is English in red, yellow and brown Autumn is Indian Whenever leaves fell down."
+        },
+        {
+          "text": "a) How is autumn in India? - Answer: In India, autumn is the season when leaves dry and fall down from the trees."
+        },
+        {
+          "text": "b) Compare the English autumn with the Indian autumn. - Answer: In English autumn, the leaves change into vibrant colors like red, yellow, and brown before falling. In Indian autumn, leaves simply wither and fall down."
+        }
+      ]
+    },
+    {
+      "title": "D. Pick out the rhyming words from the poem.",
+      "type": "infobox",
+      "content": [
+        {
+          "text": "Stanza 1: heat - feet"
+        },
+        {
+          "text": "Stanza 2: roads - toads"
+        },
+        {
+          "text": "Stanza 3: sweet - seat"
+        },
+        {
+          "text": "Stanza 4: brown - down"
+        }
+      ]
+    },
+    {
+      "title": "E. Find examples of alliteration and write them.",
+      "type": "infobox",
+      "content": [
+        {
+          "text": "1. in a blaze of heat with sunny smiles -> Answer: sunny, smiles (s, s)"
+        },
+        {
+          "text": "2. to muddy roads monsoons and mangoes -> Answer: monsoons, mangoes (m, m)"
+        },
+        {
+          "text": "3. Spring is pretty but short and sweet -> Answer: short, sweet (s, s)"
+        }
+      ]
+    },
+    {
+      "title": "F. Work in pairs, find answers for the questions.",
+      "type": "infobox",
+      "content": [
+        {
+          "text": "1. Name the seasons mentioned in the poem? - Answer: Summer, Monsoon (Rainy), Spring, and Autumn."
+        },
+        {
+          "text": "2. What does the summer bring? - Answer: Summer brings a blaze of heat, sunny smiles, and dusty feet."
+        },
+        {
+          "text": "3. Which word refers to 'rain'? - Answer: The word 'monsoons' refers to rain."
+        },
+        {
+          "text": "4. Why does the poet say the 'Spring is pretty'? - Answer: Because during spring, one can sit in the garden and smell the fresh, sweet grass."
+        },
+        {
+          "text": "5. When is it autumn in India? Why does the poet say this? Is there an autumn season in India? - Answer: It is autumn in India when the leaves fall down. The poet says this because Indian trees simply shed their leaves without changing into vibrant colors like western countries. Yes, there is a brief autumn season in India before winter."
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "Who is the poet of the poem 'Indian Seasons'? || Who is the poet of the poem 'Indian Seasons'?",
+        "options": [
+          "Nisha Dygrine || Nisha Dygrine",
+          "William Wordsworth || William Wordsworth",
+          "Ruskin Bond || Ruskin Bond",
+          "Robert Frost || Robert Frost"
+        ],
+        "a": 0,
+        "ex": "The poem 'Indian Seasons' which beautifully describes the 4 seasons is written by Nisha Dygrine. || The poem 'Indian Seasons' which beautifully describes the 4 seasons is written by Nisha Dygrine."
+      },
+      {
+        "q": "How many seasons are mainly discussed in the poem 'Indian Seasons'? || How many seasons are mainly discussed in the poem 'Indian Seasons'?",
+        "options": [
+          "Two || Two",
+          "Three || Three",
+          "Four || Four",
+          "Five || Five"
+        ],
+        "a": 2,
+        "ex": "The poet discusses four seasons: Summer, Monsoon, Spring, and Autumn. || The poet discusses four seasons: Summer, Monsoon, Spring, and Autumn."
+      },
+      {
+        "q": "Which season comes in a 'blaze of heat'? || Which season comes in a 'blaze of heat'?",
+        "options": [
+          "Spring || Spring",
+          "Autumn || Autumn",
+          "Monsoon || Monsoon",
+          "Summer || Summer"
+        ],
+        "a": 3,
+        "ex": "According to the first stanza, 'Summer comes in a blaze of heat'. || According to the first stanza, 'Summer comes in a blaze of heat'."
+      },
+      {
+        "q": "What kind of 'smiles' does summer bring according to the poem? || What kind of 'smiles' does summer bring according to the poem?",
+        "options": [
+          "Rainy smiles || Rainy smiles",
+          "Sunny smiles || Sunny smiles",
+          "Bright smiles || Bright smiles",
+          "Happy smiles || Happy smiles"
+        ],
+        "a": 1,
+        "ex": "The poem states that summer comes with 'sunny smiles'. || The poem states that summer comes with 'sunny smiles'."
+      },
+      {
+        "q": "The phrase 'dusty feet' in the poem indicates the lack of ________. || The phrase 'dusty feet' in the poem indicates the lack of ________.",
+        "options": [
+          "Sunlight || Sunlight",
+          "Wind || Wind",
+          "Rain || Rain",
+          "Snow || Snow"
+        ],
+        "a": 2,
+        "ex": "Dusty feet implies that the ground is completely dry because there is no rain during the summer. || Dusty feet implies that the ground is completely dry because there is no rain during the summer."
+      },
+      {
+        "q": "What does the word 'blaze' mean in the context of summer? || What does the word 'blaze' mean in the context of summer?",
+        "options": [
+          "A cool breeze || A cool breeze",
+          "Intense and bright heat || Intense and bright heat",
+          "Heavy rain || Heavy rain",
+          "Falling leaves || Falling leaves"
+        ],
+        "a": 1,
+        "ex": "'Blaze' refers to a very bright fire or intense heat associated with the summer sun. || 'Blaze' refers to a very bright fire or intense heat associated with the summer sun."
+      },
+      {
+        "q": "Find the word that rhymes with 'heat' from the first stanza. || Find the word that rhymes with 'heat' from the first stanza.",
+        "options": [
+          "Smiles || Smiles",
+          "Sweet || Sweet",
+          "Feet || Feet",
+          "Seat || Seat"
+        ],
+        "a": 2,
+        "ex": "In the first stanza, 'heat' rhymes with 'feet'. || In the first stanza, 'heat' rhymes with 'feet'."
+      },
+      {
+        "q": "Identify the figure of speech in 'sunny smiles'. || Identify the figure of speech in 'sunny smiles'.",
+        "options": [
+          "Simile || உவமை அணி",
+          "Metaphor || Metaphor",
+          "Personification || Personification",
+          "Alliteration || Alliteration"
+        ],
+        "a": 3,
+        "ex": "The repetition of the starting consonant sound 's' in 'sunny smiles' makes it an Alliteration. || The repetition of the starting consonant sound 's' in 'sunny smiles' makes it an Alliteration."
+      },
+      {
+        "q": "Which season causes the roads to become muddy? || Which season causes the roads to become muddy?",
+        "options": [
+          "Summer || Summer",
+          "Spring || Spring",
+          "Monsoons || Monsoons",
+          "Autumn || Autumn"
+        ],
+        "a": 2,
+        "ex": "The poem says, 'Then seasons change to muddy roads' referring to the Monsoons. || The poem says, 'Then seasons change to muddy roads' referring to the Monsoons."
+      },
+      {
+        "q": "Which fruit is specifically mentioned along with the monsoons? || Which fruit is specifically mentioned along with the monsoons?",
+        "options": [
+          "Apples || Apples",
+          "Mangoes || Mangoes",
+          "Grapes || Grapes",
+          "Bananas || Bananas"
+        ],
+        "a": 1,
+        "ex": "The poet pairs the rainy season with its famous fruit: 'monsoons and mangoes'. || The poet pairs the rainy season with its famous fruit: 'monsoons and mangoes'."
+      },
+      {
+        "q": "What creatures are seen during the monsoons according to the poem? || What creatures are seen during the monsoons according to the poem?",
+        "options": [
+          "Birds and bees || Birds and bees",
+          "Leapfrogs and toads || Leapfrogs and toads",
+          "Snakes and snails || Snakes and snails",
+          "Dogs and cats || Dogs and cats"
+        ],
+        "a": 1,
+        "ex": "The second stanza mentions 'leapfrogs and toads' appearing during the rainy season. || The second stanza mentions 'leapfrogs and toads' appearing during the rainy season."
+      },
+      {
+        "q": "What is a 'toad'? || What is a 'toad'?",
+        "options": [
+          "A type of fish || A type of fish",
+          "A bird with colorful wings || A bird with colorful wings",
+          "A tailless amphibian similar to a frog || A tailless amphibian similar to a frog",
+          "A wild animal || A wild animal"
+        ],
+        "a": 2,
+        "ex": "A toad is an amphibian closely related to frogs, known for coming out during the rains. || A toad is an amphibian closely related to frogs, known for coming out during the rains."
+      },
+      {
+        "q": "Find the rhyming pair in the second stanza. || Find the rhyming pair in the second stanza.",
+        "options": [
+          "change - mangoes || change - mangoes",
+          "roads - toads || roads - toads",
+          "roads - mangoes || roads - mangoes",
+          "change - toads || change - toads"
+        ],
+        "a": 1,
+        "ex": "The word 'roads' rhymes with 'toads' in stanza 2. || The word 'roads' rhymes with 'toads' in stanza 2."
+      },
+      {
+        "q": "Pick out the alliterated words from the line: 'monsoons and mangoes'. || Pick out the alliterated words from the line: 'monsoons and mangoes'.",
+        "options": [
+          "and, mangoes || and, mangoes",
+          "monsoons, and || monsoons, and",
+          "monsoons, mangoes || monsoons, mangoes",
+          "None of the above || None of the above"
+        ],
+        "a": 2,
+        "ex": "Both 'monsoons' and 'mangoes' start with the 'm' sound, making them an alliterated pair. || Both 'monsoons' and 'mangoes' start with the 'm' sound, making them an alliterated pair."
+      },
+      {
+        "q": "How does the poet describe the Spring season? || How does the poet describe the Spring season?",
+        "options": [
+          "Long and hot || Long and hot",
+          "Short and sweet || Short and sweet",
+          "Dark and gloomy || Dark and gloomy",
+          "Wet and cold || Wet and cold"
+        ],
+        "a": 1,
+        "ex": "The poem states, 'Spring is pretty but short and sweet'. || The poem states, 'Spring is pretty but short and sweet'."
+      },
+      {
+        "q": "What can you smell during the spring season? || What can you smell during the spring season?",
+        "options": [
+          "Dust || Dust",
+          "Rain || Rain",
+          "Mud || Mud",
+          "Grass || Grass"
+        ],
+        "a": 3,
+        "ex": "The poet says 'when you can smell the grass' in the third stanza. || The poet says 'when you can smell the grass' in the third stanza."
+      },
+      {
+        "q": "From where can you smell the grass during spring? || From where can you smell the grass during spring?",
+        "options": [
+          "From the muddy road || From the muddy road",
+          "From the garden seat || From the garden seat",
+          "From the balcony || From the balcony",
+          "From the rooftop || From the rooftop"
+        ],
+        "a": 1,
+        "ex": "The poem says 'when you can smell the grass from your garden seat'. || The poem says 'when you can smell the grass from your garden seat'."
+      },
+      {
+        "q": "What does the word 'pretty' mean in the context of spring? || What does the word 'pretty' mean in the context of spring?",
+        "options": [
+          "Ugly || Ugly",
+          "Beautiful || Beautiful",
+          "Scary || Scary",
+          "Harsh || Harsh"
+        ],
+        "a": 1,
+        "ex": "'Pretty' means attractive and beautiful. || 'Pretty' means attractive and beautiful."
+      },
+      {
+        "q": "Which two words rhyme in the third stanza? || Which two words rhyme in the third stanza?",
+        "options": [
+          "pretty - smell || pretty - smell",
+          "sweet - seat || sweet - seat",
+          "grass - glass || grass - glass",
+          "short - seat || short - seat"
+        ],
+        "a": 1,
+        "ex": "The word 'sweet' rhymes perfectly with 'seat'. || The word 'sweet' rhymes perfectly with 'seat'."
+      },
+      {
+        "q": "Identify the alliteration in the line: 'but short and sweet'. || Identify the alliteration in the line: 'but short and sweet'.",
+        "options": [
+          "but, and || but, and",
+          "short, sweet || short, sweet",
+          "but, short || but, short",
+          "and, sweet || and, sweet"
+        ],
+        "a": 1,
+        "ex": "The words 'short' and 'sweet' both begin with the 's' sound. || The words 'short' and 'sweet' both begin with the 's' sound."
+      },
+      {
+        "q": "Which country's autumn is described using colors? || Which country's autumn is described using colors?",
+        "options": [
+          "Indian || Indian",
+          "English || English",
+          "American || American",
+          "Australian || Australian"
+        ],
+        "a": 1,
+        "ex": "The poem says 'Autumn is English in red, yellow and brown'. || The poem says 'Autumn is English in red, yellow and brown'."
+      },
+      {
+        "q": "What are the colors of an English autumn mentioned in the poem? || What are the colors of an English autumn mentioned in the poem?",
+        "options": [
+          "Green, blue, and white || Green, blue, and white",
+          "Black, grey, and silver || Black, grey, and silver",
+          "Red, yellow, and brown || Red, yellow, and brown",
+          "Pink, purple, and orange || Pink, purple, and orange"
+        ],
+        "a": 2,
+        "ex": "The leaves turn 'red, yellow and brown' during the English autumn. || The leaves turn 'red, yellow and brown' during the English autumn."
+      },
+      {
+        "q": "How does the poet identify the Indian autumn? || How does the poet identify the Indian autumn?",
+        "options": [
+          "When snow falls || When snow falls",
+          "When it rains heavily || When it rains heavily",
+          "Whenever leaves fell down || Whenever leaves fell down",
+          "When flowers bloom || When flowers bloom"
+        ],
+        "a": 2,
+        "ex": "The poet writes, 'Autumn is Indian Whenever leaves fell down'. || The poet writes, 'Autumn is Indian Whenever leaves fell down'."
+      },
+      {
+        "q": "What is the main difference highlighted between English and Indian autumn? || What is the main difference highlighted between English and Indian autumn?",
+        "options": [
+          "English autumn is hot; Indian is cold. || English autumn is hot; Indian is cold.",
+          "English autumn has colorful leaves; Indian autumn just has falling leaves. || English autumn has colorful leaves; Indian autumn just has falling leaves.",
+          "English autumn has rain; Indian autumn has snow. || English autumn has rain; Indian autumn has snow.",
+          "There is no difference. || There is no difference."
+        ],
+        "a": 1,
+        "ex": "The poem contrasts the vibrant colors (red, yellow, brown) of English autumn with the simple shedding of leaves in Indian autumn. || The poem contrasts the vibrant colors (red, yellow, brown) of English autumn with the simple shedding of leaves in Indian autumn."
+      },
+      {
+        "q": "Which words rhyme in the last stanza? || Which words rhyme in the last stanza?",
+        "options": [
+          "English - Indian || English - Indian",
+          "brown - down || brown - down",
+          "red - fell || red - fell",
+          "yellow - leaves || yellow - leaves"
+        ],
+        "a": 1,
+        "ex": "The word 'brown' rhymes with 'down'. || The word 'brown' rhymes with 'down'."
+      },
+      {
+        "q": "Analogy: Summer : Blaze of heat :: Spring : ? || Analogy: Summer : Blaze of heat :: Spring : ?",
+        "options": [
+          "Muddy roads || Muddy roads",
+          "Red, yellow and brown || Red, yellow and brown",
+          "Short and sweet || Short and sweet",
+          "Dusty feet || Dusty feet"
+        ],
+        "a": 2,
+        "ex": "Summer is characterized by a blaze of heat, whereas Spring is characterized as short and sweet. || Summer is characterized by a blaze of heat, whereas Spring is characterized as short and sweet."
+      },
+      {
+        "q": "Analogy: Mangoes : Monsoon :: Falling leaves : ? || Analogy: Mangoes : Monsoon :: Falling leaves : ?",
+        "options": [
+          "Summer || Summer",
+          "Spring || Spring",
+          "Indian Autumn || Indian Autumn",
+          "English Autumn || English Autumn"
+        ],
+        "a": 2,
+        "ex": "Mangoes are associated with the monsoon, and falling leaves indicate Indian autumn. || Mangoes are associated with the monsoon, and falling leaves indicate Indian autumn."
+      },
+      {
+        "q": "Match the following seasons with their features:\n1. Summer - a. Red, yellow, brown leaves\n2. Monsoon - b. Smell of grass\n3. Spring - c. Dusty feet\n4. English Autumn - d. Muddy roads || Match the following seasons with their features:\n1. Summer - a. Red, yellow, brown leaves\n2. Monsoon - b. Smell of grass\n3. Spring - c. Dusty feet\n4. English Autumn - d. Muddy roads",
+        "options": [
+          "1-c, 2-d, 3-b, 4-a || 1-c, 2-d, 3-b, 4-a",
+          "1-d, 2-c, 3-a, 4-b || 1-d, 2-c, 3-a, 4-b",
+          "1-b, 2-a, 3-d, 4-c || 1-b, 2-a, 3-d, 4-c",
+          "1-a, 2-b, 3-c, 4-d || 1-a, 2-b, 3-c, 4-d"
+        ],
+        "a": 0,
+        "ex": "Summer has dusty feet, Monsoon has muddy roads, Spring has the smell of grass, and English Autumn has red/yellow/brown leaves. || Summer has dusty feet, Monsoon has muddy roads, Spring has the smell of grass, and English Autumn has red/yellow/brown leaves."
+      },
+      {
+        "q": "Assertion (A): The poet says there is no proper autumn in India like in England.\nReason (R): In India, leaves just fall down without turning into bright red, yellow, and brown. || Assertion (A): The poet says there is no proper autumn in India like in England.\nReason (R): In India, leaves just fall down without turning into bright red, yellow, and brown.",
+        "options": [
+          "Both A and R are true, and R explains A. || Both A and R are true, and R explains A.",
+          "Both A and R are true, but R does not explain A. || Both A and R are true, but R does not explain A.",
+          "A is true, but R is false. || A is true, but R is false.",
+          "A is false, but R is true. || A is false, but R is true."
+        ],
+        "a": 0,
+        "ex": "The assertion is true because Indian autumn lacks the colorful transition seen in English autumn, which is accurately explained by the reason. || The assertion is true because Indian autumn lacks the colorful transition seen in English autumn, which is accurately explained by the reason."
+      },
+      {
+        "q": "Assertion (A): Spring is the longest season in India according to the poem.\nReason (R): The poet calls it 'short and sweet'. || Assertion (A): Spring is the longest season in India according to the poem.\nReason (R): The poet calls it 'short and sweet'.",
+        "options": [
+          "Both A and R are true. || Both A and R are true.",
+          "Both A and R are false. || Both A and R are false.",
+          "A is true, but R is false. || A is true, but R is false.",
+          "A is false, but R is true. || A is false, but R is true."
+        ],
+        "a": 3,
+        "ex": "The poem explicitly states that Spring is 'short and sweet', so it is not the longest season. || The poem explicitly states that Spring is 'short and sweet', so it is not the longest season."
+      },
+      {
+        "q": "Situation Question: If you are walking outside and your feet are getting covered in dry dust, which season is it according to the poem? || Situation Question: If you are walking outside and your feet are getting covered in dry dust, which season is it according to the poem?",
+        "options": [
+          "Monsoon || Monsoon",
+          "Autumn || Autumn",
+          "Summer || Summer",
+          "Spring || Spring"
+        ],
+        "a": 2,
+        "ex": "The poem associates 'dusty feet' with the dry, hot Summer season. || The poem associates 'dusty feet' with the dry, hot Summer season."
+      },
+      {
+        "q": "Situation Question: If you see toads hopping on a muddy road while eating a mango, what season are you experiencing? || Situation Question: If you see toads hopping on a muddy road while eating a mango, what season are you experiencing?",
+        "options": [
+          "Summer || Summer",
+          "Monsoon || Monsoon",
+          "Spring || Spring",
+          "Autumn || Autumn"
+        ],
+        "a": 1,
+        "ex": "Muddy roads, mangoes, and toads are all features of the Monsoon season in the poem. || Muddy roads, mangoes, and toads are all features of the Monsoon season in the poem."
+      },
+      {
+        "q": "What does the phrase 'Whenever leaves fell down' suggest about the Indian climate? || What does the phrase 'Whenever leaves fell down' suggest about the Indian climate?",
+        "options": [
+          "India has a very cold winter. || India has a very cold winter.",
+          "India lacks a vibrant, colorful autumn. || India lacks a vibrant, colorful autumn.",
+          "Indian trees never lose their leaves. || Indian trees never lose their leaves.",
+          "It rains during autumn in India. || It rains during autumn in India."
+        ],
+        "a": 1,
+        "ex": "It suggests that Indian autumn is subtle; it is marked merely by shedding leaves rather than a spectacular change in leaf colors. || It suggests that Indian autumn is subtle; it is marked merely by shedding leaves rather than a spectacular change in leaf colors."
+      },
+      {
+        "q": "Which poetic device is used in 'blaze of heat' to create a strong picture of summer? || Which poetic device is used in 'blaze of heat' to create a strong picture of summer?",
+        "options": [
+          "Alliteration || Alliteration",
+          "Imagery || Imagery",
+          "Personification || Personification",
+          "Simile || உவமை அணி"
+        ],
+        "a": 1,
+        "ex": "'Blaze of heat' invokes a strong visual and sensory feeling of extreme temperature, which is Imagery. || 'Blaze of heat' invokes a strong visual and sensory feeling of extreme temperature, which is Imagery."
+      },
+      {
+        "q": "Which of the following is NOT a feature of summer as per the poem? || Which of the following is NOT a feature of summer as per the poem?",
+        "options": [
+          "Blaze of heat || Blaze of heat",
+          "Sunny smiles || Sunny smiles",
+          "Muddy roads || Muddy roads",
+          "Dusty feet || Dusty feet"
+        ],
+        "a": 2,
+        "ex": "Muddy roads are a feature of the Monsoons, not Summer. || Muddy roads are a feature of the Monsoons, not Summer."
+      },
+      {
+        "q": "What follows the summer season in the poem? || What follows the summer season in the poem?",
+        "options": [
+          "Spring || Spring",
+          "Monsoon || Monsoon",
+          "Autumn || Autumn",
+          "Winter || Winter"
+        ],
+        "a": 1,
+        "ex": "The poem says, 'Then seasons change to muddy roads, monsoons...' || The poem says, 'Then seasons change to muddy roads, monsoons...'"
+      },
+      {
+        "q": "How many lines are there in the poem 'Indian Seasons'? || How many lines are there in the poem 'Indian Seasons'?",
+        "options": [
+          "12 lines || 12 lines",
+          "14 lines || 14 lines",
+          "16 lines || 16 lines",
+          "20 lines || 20 lines"
+        ],
+        "a": 2,
+        "ex": "The poem consists of 4 stanzas, with 4 lines in each, making it 16 lines. || The poem consists of 4 stanzas, with 4 lines in each, making it 16 lines."
+      },
+      {
+        "q": "What is the rhyme scheme of the first stanza (comes/with/smiles/feet - wait, heat/feet)? || What is the rhyme scheme of the first stanza (comes/with/smiles/feet - wait, heat/feet)?",
+        "options": [
+          "a a b b || a a b b",
+          "a b c b || a b c b",
+          "a b a b || a b a b",
+          "a b c d || a b c d"
+        ],
+        "a": 1,
+        "ex": "Line 2 (heat) and Line 4 (feet) rhyme. Line 1 (comes) and Line 3 (smiles) do not. So the scheme is a b c b. || Line 2 (heat) and Line 4 (feet) rhyme. Line 1 (comes) and Line 3 (smiles) do not. So the scheme is a b c b."
+      },
+      {
+        "q": "Which word in the poem indicates a sudden jump or hop made by a frog? || Which word in the poem indicates a sudden jump or hop made by a frog?",
+        "options": [
+          "Blaze || Blaze",
+          "Leapfrogs || Leapfrogs",
+          "Fell || Fell",
+          "Change || Change"
+        ],
+        "a": 1,
+        "ex": "'Leapfrogs' refers to frogs that leap or jump around during the rain. || 'Leapfrogs' refers to frogs that leap or jump around during the rain."
+      },
+      {
+        "q": "Why is 'smell the grass' associated with spring? || Why is 'smell the grass' associated with spring?",
+        "options": [
+          "Because grass dies in spring. || Because grass dies in spring.",
+          "Because spring brings fresh, green, and fragrant new growth. || Because spring brings fresh, green, and fragrant new growth.",
+          "Because grass is burnt in spring. || Because grass is burnt in spring.",
+          "Because people cut grass only in spring. || Because people cut grass only in spring."
+        ],
+        "a": 1,
+        "ex": "Spring is a season of new life and blooming, making the grass fresh and fragrant. || Spring is a season of new life and blooming, making the grass fresh and fragrant."
+      },
+      {
+        "q": "Which line shows the poet comparing two different countries' seasons? || Which line shows the poet comparing two different countries' seasons?",
+        "options": [
+          "Summer comes in a blaze of heat || Summer comes in a blaze of heat",
+          "Then seasons change to muddy roads || Then seasons change to muddy roads",
+          "Autumn is English... Autumn is Indian... || Autumn is English... Autumn is Indian...",
+          "Spring is pretty but short and sweet || Spring is pretty but short and sweet"
+        ],
+        "a": 2,
+        "ex": "In the final stanza, the poet directly contrasts English autumn with Indian autumn. || In the final stanza, the poet directly contrasts English autumn with Indian autumn."
+      },
+      {
+        "q": "Statement 1: 'Monsoons and mangoes' is an example of alliteration.\nStatement 2: 'Sunny smiles' is an example of a simile. || Statement 1: 'Monsoons and mangoes' is an example of alliteration.\nStatement 2: 'Sunny smiles' is an example of a simile.",
+        "options": [
+          "Both statements are true || Both statements are true",
+          "Statement 1 is true, Statement 2 is false || Statement 1 is true, Statement 2 is false",
+          "Statement 1 is false, Statement 2 is true || கூற்று 1 தவறு, கூற்று 2 சரி",
+          "Both statements are false || Both statements are false"
+        ],
+        "a": 1,
+        "ex": "'Monsoons and mangoes' is alliteration (m, m). 'Sunny smiles' is also alliteration (s, s), not a simile. || 'Monsoons and mangoes' is alliteration (m, m). 'Sunny smiles' is also alliteration (s, s), not a simile."
+      },
+      {
+        "q": "Which of these pairs represents the correct season and its characteristic? || Which of these pairs represents the correct season and its characteristic?",
+        "options": [
+          "Spring - Muddy roads || Spring - Muddy roads",
+          "Summer - Smell the grass || Summer - Smell the grass",
+          "Monsoon - Leapfrogs and toads || Monsoon - Leapfrogs and toads",
+          "Autumn - Dusty feet || Autumn - Dusty feet"
+        ],
+        "a": 2,
+        "ex": "Leapfrogs and toads are correctly matched with the Monsoon season. || Leapfrogs and toads are correctly matched with the Monsoon season."
+      },
+      {
+        "q": "If the English autumn is 'red, yellow and brown', what word best describes the Indian autumn based on the poem? || If the English autumn is 'red, yellow and brown', what word best describes the Indian autumn based on the poem?",
+        "options": [
+          "Colorful || Colorful",
+          "Leafless / Shedding || Leafless / Shedding",
+          "Snowy || Snowy",
+          "Rainy || Rainy"
+        ],
+        "a": 1,
+        "ex": "Indian autumn is simply identified by leaves falling down (shedding), without the bright colors. || Indian autumn is simply identified by leaves falling down (shedding), without the bright colors."
+      },
+      {
+        "q": "Choose the correct sequence of seasons as they appear in the poem. || Choose the correct sequence of seasons as they appear in the poem.",
+        "options": [
+          "Monsoon, Summer, Spring, Autumn || Monsoon, Summer, Spring, Autumn",
+          "Summer, Monsoon, Spring, Autumn || Summer, Monsoon, Spring, Autumn",
+          "Spring, Summer, Autumn, Monsoon || Spring, Summer, Autumn, Monsoon",
+          "Summer, Spring, Monsoon, Autumn || Summer, Spring, Monsoon, Autumn"
+        ],
+        "a": 1,
+        "ex": "The stanzas are ordered: Summer (1), Monsoon (2), Spring (3), and Autumn (4). || The stanzas are ordered: Summer (1), Monsoon (2), Spring (3), and Autumn (4)."
+      },
+      {
+        "q": "What emotion does the phrase 'sunny smiles' evoke? || What emotion does the phrase 'sunny smiles' evoke?",
+        "options": [
+          "Sadness || Sadness",
+          "Anger || Anger",
+          "Cheerfulness and warmth || Cheerfulness and warmth",
+          "Fear || Fear"
+        ],
+        "a": 2,
+        "ex": "The word 'sunny' combined with 'smiles' evokes a feeling of brightness, happiness, and warmth. || The word 'sunny' combined with 'smiles' evokes a feeling of brightness, happiness, and warmth."
+      },
+      {
+        "q": "Which season is the most visually colorful according to the poem? || Which season is the most visually colorful according to the poem?",
+        "options": [
+          "Indian Summer || Indian Summer",
+          "Indian Monsoon || Indian Monsoon",
+          "English Autumn || English Autumn",
+          "Indian Spring || Indian Spring"
+        ],
+        "a": 2,
+        "ex": "English Autumn is explicitly described with three distinct colors: red, yellow, and brown. || English Autumn is explicitly described with three distinct colors: red, yellow, and brown."
+      },
+      {
+        "q": "What happens to the 'dusty feet' of summer when the seasons change? || What happens to the 'dusty feet' of summer when the seasons change?",
+        "options": [
+          "They get burnt by the blaze. || They get burnt by the blaze.",
+          "They step onto muddy roads. || They step onto muddy roads.",
+          "They walk on green grass. || They walk on green grass.",
+          "They step on yellow leaves. || They step on yellow leaves."
+        ],
+        "a": 1,
+        "ex": "When summer ends, the monsoons arrive and turn the dusty paths into 'muddy roads'. || When summer ends, the monsoons arrive and turn the dusty paths into 'muddy roads'."
+      },
+      {
+        "q": "Why is the word 'Indian' used in the title 'Indian Seasons'? || Why is the word 'Indian' used in the title 'Indian Seasons'?",
+        "options": [
+          "Because the poet hates England. || Because the poet hates England.",
+          "Because it specifically highlights how seasons manifest in India, like the monsoons and simple autumn. || Because it specifically highlights how seasons manifest in India, like the monsoons and simple autumn.",
+          "Because the poem is written in Hindi. || Because the poem is written in Hindi.",
+          "Because it only talks about the summer season. || Because it only talks about the summer season."
+        ],
+        "a": 1,
+        "ex": "The poem focuses on characteristics unique to India, such as the monsoons, mangoes, and the lack of a colorful autumn. || The poem focuses on characteristics unique to India, such as the monsoons, mangoes, and the lack of a colorful autumn."
+      },
+      {
+        "q": "HOTS Question: The poet says Spring is 'pretty but short and sweet'. What does this imply about human nature's appreciation of beauty? || HOTS Question: The poet says Spring is 'pretty but short and sweet'. What does this imply about human nature's appreciation of beauty?",
+        "options": [
+          "Humans do not like long seasons. || Humans do not like long seasons.",
+          "Beautiful moments in life are often fleeting and end quickly. || Beautiful moments in life are often fleeting and end quickly.",
+          "Grass only smells good for one day. || Grass only smells good for one day.",
+          "Spring is a bad season. || Spring is a bad season."
+        ],
+        "a": 1,
+        "ex": "Saying it is 'short and sweet' implies a deeper meaning that beautiful things or good times often don't last very long, making us appreciate them more. || Saying it is 'short and sweet' implies a deeper meaning that beautiful things or good times often don't last very long, making us appreciate them more."
+      }
+    ]
+  }
+}

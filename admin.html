@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400;500;600;700;800&family=Noto+Sans+Tamil:wght@400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>A1 Coaching Admin - Data Entry</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+/* --- BRAND HEADER --- */
+.header-standard {
+    background: #ffffff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #1e3a8a;
+    border-bottom: 1px solid #1e3a8a;
+}
+.brand-container {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.brand-main {
+    font-family: 'Baloo Thambi 2', cursive;
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: #1e3a8a;
+    line-height: 1.2;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+.brand-sub {
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #ef4444;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-top: -2px;
+}
+@media (max-width: 480px) {
+    .brand-main { font-size: 1.5rem; }
+    .brand-sub { font-size: 0.65rem; }
+    .header-standard { height: 60px; }
+}
+
+/* Bottom Nav */
+.bottom-nav {
+    position: fixed;
+    bottom: 0; left: 0; right: 0;
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.6rem 0.4rem;
+    box-shadow: 0 -4px 20px rgba(0,0,0,0.08);
+    z-index: 1000;
+    border-top: 1px solid #f1f5f9;
+}
+.nav-item {
+    text-decoration: none;
+    color: #64748b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.65rem;
+    font-weight: 700;
+    gap: 4px;
+    flex: 1;
+    transition: color 0.3s ease;
+}
+.nav-item.active { color: #1e3a8a; }
+.nav-item.logout { color: #ef4444; }
+.nav-icon { font-size: 1.2rem; margin-bottom: 2px; }
+
+/* Global fixes */
+body {
+    padding-bottom: 80px;
+}
+
+        .admin-page {
+            max-width: 900px;
+            margin: 2rem auto;
+            background: white;
+            padding: 2.5rem;
+            border-radius: 1.5rem;
+            box-shadow: var(--shadow-lg);
+        }
+
+        .header-box {
+            background: var(--primary-light);
+            color: white;
+            padding: 1.5rem;
+            border-radius: 1rem;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr 2fr;
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .form-group label {
+            font-weight: 600;
+            color: var(--text-main);
+        }
+
+        .form-control {
+            padding: 0.75rem;
+            border: 1px solid var(--border);
+            border-radius: 0.5rem;
+            font-family: inherit;
+            font-size: 1rem;
+        }
+
+        .tabs {
+            display: flex;
+            gap: 0.5rem;
+            border-bottom: 2px solid var(--border);
+            padding-bottom: 1rem;
+            margin-bottom: 2rem;
+            overflow-x: auto;
+        }
+
+        .tab-btn {
+            background: var(--bg-main);
+            border: 1px solid var(--border);
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            font-weight: 600;
+            white-space: nowrap;
+            transition: all 0.2s;
+        }
+
+        .tab-btn.active {
+            background: var(--primary);
+            color: white;
+            border-color: var(--primary);
+        }
+
+        .tab-panel {
+            display: none;
+        }
+
+        .tab-panel.active {
+            display: block;
+            animation: fadeIn 0.3s;
+        }
+
+        .dynamic-item {
+            background: var(--bg-main);
+            border: 1px solid var(--border);
+            padding: 1.5rem;
+            border-radius: 1rem;
+            margin-bottom: 1rem;
+            position: relative;
+        }
+
+        .dynamic-item .remove-btn {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            background: var(--danger);
+            color: white;
+            border: none;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.25rem;
+            cursor: pointer;
+        }
+
+        .add-btn {
+            background: var(--bg-card);
+            border: 2px dashed var(--border);
+            color: var(--text-main);
+            width: 100%;
+            padding: 1rem;
+            border-radius: 1rem;
+            cursor: pointer;
+            font-weight: 600;
+            margin-bottom: 2rem;
+        }
+
+        .add-btn:hover {
+            background: var(--bg-main);
+            border-color: var(--primary);
+            color: var(--primary);
+        }
+
+        textarea.form-control {
+            min-height: 100px;
+            resize: vertical;
+        }
+
+        .submit-btn {
+            width: 100%;
+            padding: 1rem;
+            font-size: 1.1rem;
+            border-radius: 1rem;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+
+        <header class="header-standard">
+        <a href="index.html" class="brand-container">
+            <div class="brand-main">தமிழ் நண்பன்</div>
+            <div class="brand-sub">COACHING CENTER</div>
+        </a>
+    </header>
+
+    <main class="container">
+        <div class="admin-page animate-fade">
+            <div class="header-box">
+                <h1 style="margin-bottom: 0.5rem;">பாடப்பதிவுப் பக்கம் (Data Entry)</h1>
+                <p>Fill in the details to upload Lesson Notes, Q&A, or Quiz to the database instantly.</p>
+            </div>
+
+            <!-- Target Selection -->
+            <div class="form-row">
+                <div class="form-group">
+                    <label>பாடம் (Subject)</label>
+                    <select id="selSubject" class="form-control">
+                        <option value="tamil">தமிழ்</option>
+                        <option value="english">English</option>
+                        <option value="maths">கணிதம்</option>
+                        <option value="science">அறிவியல்</option>
+                        <option value="social">சமூக அறிவியல்</option>
+                        <option value="psychology">உளவியல்</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>வகுப்பு (Class)</label>
+                    <select id="selClass" class="form-control">
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>தலைப்பு (Exact Topic Title)</label>
+                    <input type="text" id="selTopic" class="form-control" placeholder="எ.கா: இன்பத்தமிழ், வளங்கள், வரலாறு என்றால் என்ன...">
+                </div>
+            </div>
+
+            <!-- Tabs -->
+            <div class="tabs">
+                <button class="tab-btn active" data-target="tabMaterial">📖 பாடக்குறிப்புகள் (Material)</button>
+                <button class="tab-btn" data-target="tabQA">📘 வினா-விடை (Q&A)</button>
+                <button class="tab-btn" data-target="tabQuiz">🧠 குவிஸ் (Quiz)</button>
+                <button class="tab-btn" data-target="tabMigration" style="background: #fff7ed; border-color: #fdba74; color: #9a3412;">👥 பயனர் பட்டியல் (Migrate Users)</button>
+            </div>
+
+            <!-- Tab: Material -->
+            <div id="tabMaterial" class="tab-panel active">
+                <h3 style="margin-bottom: 1rem;">பாடக்குறிப்பு பகுதிகள் (Sections)</h3>
+                <div id="materialList"></div>
+                <button class="add-btn" onclick="addMaterialSection()">+ புதிய பகுதியைச் சேர் (Add Section Target)</button>
+                <button class="btn btn-primary submit-btn" onclick="saveData('material')">🚀 Save Material to Database</button>
+            </div>
+
+            <!-- Tab: Q&A -->
+            <div id="tabQA" class="tab-panel">
+                <h3 style="margin-bottom: 1rem;">வினா விடை (Q&A Pairs)</h3>
+                <div id="qaList"></div>
+                <button class="add-btn" onclick="addQA()">+ புதிய வினாவைச் சேர் (Add Question)</button>
+                <button class="btn btn-primary submit-btn" onclick="saveData('qa')">🚀 Save Q&A to Database</button>
+            </div>
+
+            <!-- Tab: Quiz -->
+            <div id="tabQuiz" class="tab-panel">
+                <h3 style="margin-bottom: 1rem;">குவிஸ் கேள்விகள் (Quiz Questions)</h3>
+                <div id="quizList"></div>
+                <button class="add-btn" onclick="addQuiz()">+ புதிய குவிஸ் கேள்வியைச் சேர் (Add Quiz Question)</button>
+                <button class="btn btn-primary submit-btn" onclick="saveData('quiz')">🚀 Save Quiz to Database</button>
+            </div>
+
+            <!-- Tab: User Migration -->
+            <div id="tabMigration" class="tab-panel">
+                <div style="background: rgba(251, 191, 36, 0.1); border-left: 4px solid #fbbf24; padding: 1.5rem; margin-bottom: 2rem; border-radius: 0.5rem;">
+                    <h3 style="color: #92400e; margin-bottom: 0.5rem;">பயனர் தரவு மாற்றும் கருவி? (User Migration Tool)</h3>
+                    <p style="font-size: 0.9rem; color: #92400e; line-height:1.5;">This will read <b>subjects/Tamil/auth/users.json</b> and upload all users to your Firestore database. These users can then log in using their 10-digit phone number as Username and their Pincode as PIN.</p>
+                </div>
+                
+                <div style="text-align: center; padding: 3rem; background: var(--bg-main); border: 2px dashed var(--border); border-radius: 1rem;">
+                    <div id="migrationStatus" style="margin-bottom: 1.5rem; font-weight: 600;">தயார் நிலையில் உள்ளது (Ready)</div>
+                    <button class="btn btn-primary" id="btnMigrate" onclick="migrateAllUsers()">🚀 பயனர் பட்டியலை ஏற்ரு (Upload 100+ Users)</button>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- UI Logic and Firebase Integrations -->
+            <nav class="bottom-nav">
+        <a href="index.html" class="nav-item">
+            <span class="nav-icon">🏠</span>
+            <span>Home</span>
+        </a>
+        <a href="subject.html" class="nav-item">
+            <span class="nav-icon">📚</span>
+            <span>Course</span>
+        </a>
+        <a href="tel:6369371452" class="nav-item">
+            <span class="nav-icon">📞</span>
+            <span>Contact</span>
+        </a>
+        <a href="#" class="nav-item">
+            <span class="nav-icon">💳</span>
+            <span>Pay</span>
+        </a>
+        <a href="#" onclick="window.logout(); return false;" class="nav-item logout">
+            <span class="nav-icon">🚪</span>
+            <span>Logout</span>
+        </a>
+    </nav>
+
+    <script type="module">
+        import { checkAuth } from './js/auth.js';
+        import { saveLessonData, saveUsersBulk } from './js/firestore.js';
+
+        // Temporarily disabled checkAuth() so you can perform the first-time User Migration.
+        // checkAuth();
+
+        window.migrateAllUsers = async function() {
+            const btn = document.getElementById('btnMigrate');
+            const status = document.getElementById('migrationStatus');
+            
+            if (!confirm("Are you sure you want to upload the user list to Firestore? This will overwrite existing users with same phone numbers.")) return;
+
+            btn.disabled = true;
+            btn.innerText = "⏳ Reading file...";
+            status.innerText = "Processing...";
+
+            try {
+                // Fetch the JSON file from local server
+                const response = await fetch('subjects/Tamil/auth/users.json');
+                if (!response.ok) throw new Error("Failed to load users.json. Ensure file exists and server is running.");
+                
+                const users = await response.json();
+                btn.innerText = `⏳ Uploading ${users.length} users...`;
+                
+                const success = await saveUsersBulk(users);
+                
+                if (success) {
+                    btn.innerText = "✅ Migration Complete!";
+                    status.innerText = `வெற்றிகரமாக ${users.length} பயனர்கள் ஏற்றப்பட்டனர்! (Success!)`;
+                    alert(`வெற்றிகரமாக ${users.length} பயனர்கள் ஏற்றப்பட்டனர்!`);
+                } else {
+                    btn.disabled = false;
+                    btn.innerText = "🚀 Retry Migration";
+                    status.innerText = "Error uploading to Firestore.";
+                }
+            } catch (err) {
+                console.error(err);
+                btn.disabled = false;
+                btn.innerText = "🚀 Retry Migration";
+                status.innerText = "Error: " + err.message;
+            }
+        };
+
+        // Tab Switching Logic
+        document.querySelectorAll('.tab-btn').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+                document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+                
+                e.target.classList.add('active');
+                document.getElementById(e.target.getAttribute('data-target')).classList.add('active');
+            });
+        });
+
+        // Add Initial Empty Items
+        window.addEventListener('load', () => {
+            addMaterialSection();
+            addQA();
+            addQuiz();
+        });
+
+        // -------------------------
+        // Material Builder
+        // -------------------------
+        window.addMaterialSection = function() {
+            const div = document.createElement('div');
+            div.className = 'dynamic-item mat-item';
+            div.innerHTML = `
+                <button class="remove-btn" onclick="this.parentElement.remove()">X</button>
+                <div class="form-group" style="margin-bottom:1rem;">
+                    <label>பகுதி தலைப்பு (Section Title)</label>
+                    <input type="text" class="form-control mat-title" placeholder="எ.கா: அறிமுகம், முக்கிய குறிப்புகள்...">
+                </div>
+                <div class="form-group">
+                    <label>உள்ளடக்கம் (HTML Content or Plain Text)</label>
+                    <textarea class="form-control mat-content" placeholder="Type notes here... You can use <b>bold</b> or <ul><li>...</li></ul>..."></textarea>
+                </div>
+            `;
+            document.getElementById('materialList').appendChild(div);
+        }
+
+        // -------------------------
+        // Q&A Builder
+        // -------------------------
+        window.addQA = function() {
+            const div = document.createElement('div');
+            div.className = 'dynamic-item qa-item';
+            div.innerHTML = `
+                <button class="remove-btn" onclick="this.parentElement.remove()">X</button>
+                <div class="form-group" style="margin-bottom:1rem;">
+                    <label>கேள்வி (Question)</label>
+                    <textarea class="form-control qa-q" style="min-height:60px;"></textarea>
+                </div>
+                <div class="form-group">
+                    <label>பதில் (Answer)</label>
+                    <textarea class="form-control qa-a" style="min-height:80px;"></textarea>
+                </div>
+            `;
+            document.getElementById('qaList').appendChild(div);
+        }
+
+        // -------------------------
+        // Quiz Builder
+        // -------------------------
+        window.addQuiz = function() {
+            const div = document.createElement('div');
+            div.className = 'dynamic-item quiz-item';
+            div.innerHTML = `
+                <button class="remove-btn" onclick="this.parentElement.remove()">X</button>
+                <div class="form-group" style="margin-bottom:1rem;">
+                    <label>கேள்வி (Question)</label>
+                    <input type="text" class="form-control qz-q">
+                </div>
+                <div style="display:grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem;">
+                    <div class="form-group">
+                        <label>Option A (0)</label>
+                        <input type="text" class="form-control qz-o0">
+                    </div>
+                    <div class="form-group">
+                        <label>Option B (1)</label>
+                        <input type="text" class="form-control qz-o1">
+                    </div>
+                    <div class="form-group">
+                        <label>Option C (2)</label>
+                        <input type="text" class="form-control qz-o2">
+                    </div>
+                    <div class="form-group">
+                        <label>Option D (3)</label>
+                        <input type="text" class="form-control qz-o3">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>சரியான விடை (Correct Option Index 0-3)</label>
+                    <select class="form-control qz-ans" style="width: 100px;">
+                        <option value="0">A (0)</option>
+                        <option value="1">B (1)</option>
+                        <option value="2">C (2)</option>
+                        <option value="3">D (3)</option>
+                    </select>
+                </div>
+            `;
+            document.getElementById('quizList').appendChild(div);
+        }
+
+        // -------------------------
+        // Core Save Function
+        // -------------------------
+        window.saveData = async function(type) {
+            const subject = document.getElementById('selSubject').value;
+            const cls = document.getElementById('selClass').value;
+            const topic = document.getElementById('selTopic').value.trim();
+
+            if (!topic) {
+                alert("தயவுசெய்து தலைப்பை (Topic Title) சரியாக உள்ளிடவும்!");
+                return;
+            }
+
+            let payload = {
+                title: topic,
+                lessonId: topic
+            };
+
+            if (type === 'material') {
+                const sections = [];
+                document.querySelectorAll('.mat-item').forEach(el => {
+                    sections.push({
+                        title: el.querySelector('.mat-title').value,
+                        content: el.querySelector('.mat-content').value.replace(/\n/g, '<br>')
+                    });
+                });
+                payload.material = { sections };
+            } 
+            else if (type === 'qa') {
+                const qa = [];
+                document.querySelectorAll('.qa-item').forEach(el => {
+                    qa.push({
+                        q: el.querySelector('.qa-q').value,
+                        a: el.querySelector('.qa-a').value
+                    });
+                });
+                payload.qa = qa;
+            } 
+            else if (type === 'quiz') {
+                const questions = [];
+                document.querySelectorAll('.quiz-item').forEach(el => {
+                    questions.push({
+                        question: el.querySelector('.qz-q').value,
+                        options: [
+                            el.querySelector('.qz-o0').value,
+                            el.querySelector('.qz-o1').value,
+                            el.querySelector('.qz-o2').value,
+                            el.querySelector('.qz-o3').value
+                        ],
+                        answer: parseInt(el.querySelector('.qz-ans').value)
+                    });
+                });
+                payload.quiz = { questions };
+            }
+
+            try {
+                // Save to Firestore
+                const btn = event.target;
+                const originalText = btn.innerText;
+                btn.innerText = "⏳ Saving...";
+                btn.disabled = true;
+
+                const success = await saveLessonData(subject, cls, payload);
+
+                btn.innerText = originalText;
+                btn.disabled = false;
+
+                if (success) {
+                    alert('✅ வெற்றிகரமாகச் சேமிக்கப்பட்டது! (Saved Successfully)');
+                    // Clear the current form if wished, but keeping it is useful for corrections.
+                } else {
+                    alert('❌ சேமிப்பதில் பிழை! (Error saving data)');
+                }
+
+            } catch (error) {
+                console.error(error);
+                alert("Error: check console");
+            }
+        }
+    </script>
+</body>
+</html>

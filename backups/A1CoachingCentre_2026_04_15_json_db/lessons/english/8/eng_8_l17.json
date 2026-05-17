@@ -1,0 +1,580 @@
+{
+  "subject": "English",
+  "class": "8",
+  "term": "Annual",
+  "title": "Poem: Lessons in Life (Memoriter)",
+  "summary": "",
+  "sections": [
+    {
+      "title": "1. Poem: Lessons in Life (வாழ்க்கைப் பாடங்கள்) - Summary",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● [[Core Theme]]",
+            "answer": "Equality, kindness, and learning to appreciate everyone, regardless of their size or status. || சமநிலை, கனிவு மற்றும் அனைவரையும் மதிப்பதன் அவசியம்."
+          },
+          {
+            "question": "● [[Key Message]]",
+            "answer": "Having a friend is like planting a flower; it needs time and care to grow. Show others you care and treat everyone as important. No one is too small or big in life's garden. Kindness makes life beautiful. || ஒரு நண்பனைப் பெறுவது செடி நடுவதற்குச் சமம். அனைவரையும் சமமாக மதிக்க வேண்டும். எவரும் பெரியவர் அல்லதுச் சிறியவர் என்று இல்லை. அன்பே வாழ்வை அழகாக்கும்."
+          },
+          {
+            "question": "● [[Author]]",
+            "answer": "Written by [[Bridgette Bryant]] and [[Daniel Ho]]. || பிரிட்ஜெட் பிரையன்ட் மற்றும் டேனியல் ஹோ எழுதியது."
+          }
+        ]
+      }
+    },
+    {
+      "title": "2. Glossary: Moral & Growth Terms (Exam Focus - Synonyms)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● [[Planting]] / நடுதல் / உருவாக்குதல்",
+            "answer": "Set a plant in the ground so that it can grow."
+          },
+          {
+            "question": "● [[Special]] / சிறப்பான / தனித்துவமான",
+            "answer": "Better, greater, or otherwise different from what is usual."
+          },
+          {
+            "question": "● [[Kindness]] / கனிவு / தயவு",
+            "answer": "The quality of being friendly, generous, and considerate."
+          },
+          {
+            "question": "● [[Sharing]] / பகிர்தல்",
+            "answer": "Give a portion of something to another or others."
+          },
+          {
+            "question": "● [[Worth]]",
+            "answer": "The value or importance of something. (மதிப்பு)."
+          }
+        ]
+      }
+    },
+    {
+      "title": "3. Poetic Devices (கவிதை நயங்கள்)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● [[Simile]]",
+            "answer": "Friendship is compared to planting a flower. || நட்பு செடி நடுவதற்கு ஒப்பாகச் சொல்லப்பட்டுள்ளது."
+          },
+          {
+            "question": "● [[Alliteration]]",
+            "answer": "Repetition of consonant sounds (e.g., \"[[S]]how [[s]]omeone\"). || சொற்களில் ஒரேத் தொடக்க ஒலி."
+          },
+          {
+            "question": "● [[Rhyme Scheme]]",
+            "answer": "A simple ABCB or AABB rhythm. || இயைபு முறை."
+          }
+        ]
+      }
+    },
+    {
+      "title": "4. Life's Lessons (வாழ்க்கைக் கற்றுத்தருபவை)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● Equality",
+            "answer": "Mistake no one for being too small. || எவரையும் சாதாரணமாக எண்ணக் கூடாது."
+          },
+          {
+            "question": "● Importance",
+            "answer": "Everyone you meet is important in their own way. || ஒவ்வொருவரும் ஒவ்வொரு விதத்தில் முக்கியமானவர்கள்."
+          }
+        ]
+      }
+    },
+    {
+      "title": "5. Grammars: Homophones & Homonyms (ஒரே ஒலிச் சொற்கள்)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● [[Flower]] / [[Flour]]",
+            "answer": "Flower (Blooms) / Flour (Powdered grain). || மலர் / மாவு."
+          },
+          {
+            "question": "● [[Sun]] / [[Son]]",
+            "answer": "Sun (Star) / Son (Male child). || சூரியன் / மகன்."
+          },
+          {
+            "question": "● [[Know]] / [[No]]",
+            "answer": "Know (Knowledge) / No (Refusal). || அறிதல் / இல்லை."
+          }
+        ]
+      }
+    },
+    {
+      "title": "6. Previous Year Questions & Competitive Focus",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● To what is 'having a friend' compared?",
+            "answer": "To [[planting a flower]]. || ஒருச் செடி நடுவதற்கு."
+          },
+          {
+            "question": "● Who are the authors of this poem?",
+            "answer": "[[Bridgette Bryant]] and [[Daniel Ho]]. || டேனியல் ஹோ மற்றும் பிரிட்ஜெட்."
+          },
+          {
+            "question": "● What should we show to every person we meet?",
+            "answer": "That they are [[important]]. || அவர்கள் முக்கியமானவர்கள் என்று."
+          },
+          {
+            "question": "● Find the homophone for 'Hear'.",
+            "answer": "[[Here]]."
+          }
+        ]
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Having a friend is like ______? || நண்பனைப் பெறுவது எதற்கு ஒப்பாகும்?",
+      "options": [
+        "Buying a car",
+        "Planting a flower (ஒருச் செடி நடுவது)",
+        "Eating a cake",
+        "Running a race"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What do we learn about people in this poem? || மனிதர்களைப் பற்றி இக்கவிதையில் நாம் அறிவது?",
+      "options": [
+        "Only rich are important",
+        "Everyone is important (ஒவ்வொருவரும் முக்கியமானவர்கள்)",
+        "Only big people matter",
+        "No one is important"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Who wrote 'Lessons in Life'? || 'லெசன்ஸ் இன் லைப்' கவிதையை எழுதியவர் யார்?",
+      "options": [
+        "Daniel Ho and Bridgette Bryant (டேனியல் ஹோ மற்றும் பிரிட்ஜெட்)",
+        "Robert Frost",
+        "Shakespeare",
+        "John Keats"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "What should we do for a friend to grow? || நட்பு வளர நாம் என்னச் செய்ய வேண்டும்?",
+      "options": [
+        "Leave them alone",
+        "Show them you care (அக்கறைக் காட்ட வேண்டும்)",
+        "Ignore them",
+        "Shout at them"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What lesson does the poem teach about social status? || சமூக நிலையைப் பற்றி இக்கவிதை யாதுப் போதிக்கிறது?",
+      "options": [
+        "Mistake no one for being too small (யாரையும்ச் சிறியவர் எனத் தவறாகக் கருதாதே)",
+        "Big is better",
+        "Wealth is everything",
+        "Poor are useless"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Life is compared to what in the poem's context? || பாடச் சூழலில் வாழ்க்கை எதனுடன் ஒப்பிடப்படுகிறது?",
+      "options": [
+        "A battle",
+        "A garden (ஒருத் தோட்டம்)",
+        "A sea",
+        "A road"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of 'Special' in Tamil: || 'Special' என்பதன் தமிழ்ப் பொருள்?",
+      "options": [
+        "சாதாரண",
+        "சிறப்பான / தனித்துவமான",
+        "பழைய",
+        "வேகமான"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify the homophone for 'Sea'. || 'Sea' - என்பதற்கான 'ஹோமோபோன்' எது?",
+      "options": [
+        "See (சி - பார்த்தல்)",
+        "Tea",
+        "Saw",
+        "Sun"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Identify the alliteration: \"Show someone\". || இதில் வரும் மோனை எது?",
+      "options": [
+        "'S' sound ('S' ஒலியின்த் திரும்புதல்)",
+        "Ending 'w'",
+        "Middle vowel",
+        "None"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "What is the result of 'Sharing'? || 'பகிர்ந்துகொள்தல்' (Sharing) எதனைத் தரும்?",
+      "options": [
+        "Loss of money",
+        "Spreading joy and kindness (மகிழ்ச்சி மற்றும் கனிவைப் பரப்புதல்)",
+        "Sadness",
+        "Angry"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Words that sound the same but have different meanings are called? || ஒரே உச்சரிப்பு ஆனால் வேறுப் பொருள் தரும்ச் சொற்கள்?",
+      "options": [
+        "Similes",
+        "Homophones (ஹோமோபோன்ஸ்)",
+        "Synonyms",
+        "Antonyms"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Every person you meet is ______? || நீங்கள் சந்திக்கும் ஒவ்வொரு நபரும் ______?",
+      "options": [
+        "Useless",
+        "Important (முக்கியமானவர்)",
+        "Angry",
+        "Enemy"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: \"A thing of beauty is like a...\" No, according to this poem: \"Having a friend is like...\"? || பாடத்தின்படி நட்பு என்பது?",
+      "options": [
+        "Planting a tree",
+        "Planting a flower (செடி நடுவது)",
+        "Painting a wall",
+        "Running away"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of 'Planting': || 'Planting' - என்பதன் பொருள்?",
+      "options": [
+        "Uprooting",
+        "Setting a plant in ground (ஒன்றை நடுவது / வேரூன்ற வைப்பது)",
+        "Cutting a tree",
+        "Drawing"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify the homophone for 'Blue'. || 'Blue' (நீல நிறம்) - இதற்கான ஒலிச் சொல்?",
+      "options": [
+        "Blew (புளு / வீசியது - ஊதியது)",
+        "Below",
+        "Book",
+        "Bell"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "How many authors wrote this poem? || இக்கவிதையை எத்தனைப் பேர் எழுதினர்?",
+      "options": [
+        "One",
+        "Two (இருவர்)",
+        "Ten",
+        "None"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Which of these is most important in life? || வாழ்வில் மிகவும் அவசியமானது எது?",
+      "options": [
+        "Fighting",
+        "Kindness (கனிவு / அன்பு)",
+        "Hating",
+        "Lying"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What should happen to kindness in life's garden? || வாழ்வெனும்த் தோட்டத்தில் கனிவு எவ்வாறாக வேண்டும்?",
+      "options": [
+        "Dry up",
+        "Grow and spread (வளர்ந்துப் பரவ வேண்டும்)",
+        "Die",
+        "Be hidden"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of 'Worth' in 'Life is worth living': || இத்தொடரில் 'Worth' என்பதன் பொருள்?",
+      "options": [
+        "Useless",
+        "Valuable (பெறுமதிப்புமிக்க / பயனுடைய)",
+        "Broken",
+        "Cheap"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: Homophone for 'Knot'. || 'Knot' (முடிச்சு) - ஒலிச் சொல் எது?",
+      "options": [
+        "Not (நாட் / இல்லை)",
+        "New",
+        "Near",
+        "Note"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Does size define a person's importance? || ஒருவரின்த் தோற்றம் அவரது முக்கியத்துவத்தை முடிவு செய்கிறதா?",
+      "options": [
+        "Yes",
+        "No (இல்லை)",
+        "Sometimes",
+        "Only for giants"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What is the synonym of 'Grow'? || 'Grow' என்பதன் ஒத்தப்பொருள் யாது?",
+      "options": [
+        "Die",
+        "Develop / Flourish (வளர்ச்சி / செழித்தல்)",
+        "End",
+        "Cut"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Life's lesson is to appreciate ______? || வாழ்வின் பாடம் எதனைப் போற்றச் சொல்கிறது?",
+      "options": [
+        "Money only",
+        "Every little thing and person (ஒவ்வொருச் சிறு விடயத்தையும் மனிதனையும்)",
+        "Only gold",
+        "War"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: Homophone for 'Plane'. || 'Plane' (விமானம்) - இதற்கானச் சொல்?",
+      "options": [
+        "Plain (பிளைன் / சமதளமான)",
+        "Plan",
+        "Play",
+        "Place"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Should we show someone we care? || நாம் அக்கறைக் கொண்டிருப்பதை வெளிப்படுத்த வேண்டுமா?",
+      "options": [
+        "Yes (ஆம்)",
+        "No",
+        "Hide it",
+        "Don't bother"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of 'Lesson' in the poem: || இக்கவிதையில் 'Lesson' என்பது எதனைக் குறிக்கும்?",
+      "options": [
+        "Classroom study",
+        "Moral learning for life (வாழ்விற்கான நீதிப் போதனை)",
+        "Homework",
+        "Exam paper"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Rhyming word for 'flower'. || 'flower' - இதற்கான இயைபுச் சொல்?",
+      "options": [
+        "power (பவர் / சக்தி)",
+        "tower",
+        "shower",
+        "all of the above"
+      ],
+      "a": 3,
+      "ex": ""
+    },
+    {
+      "q": "Identify the homophone for 'Sun'. || 'Sun' - ஒலிச் சொல் எது?",
+      "options": [
+        "Son (சன் / மகன்)",
+        "Soon",
+        "Sent",
+        "Send"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "What is the atmosphere of the poem? || கவிதையின்ச் சூழல் (Atmosphere) எவ்வாறுள்ளது?",
+      "options": [
+        "Scary",
+        "Positive and Gentle (நேர்மறையான மற்றும் கனிவானது)",
+        "Sad",
+        "Loud"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of 'Appreciate': || 'Appreciate' - எனபதன் பொருள்?",
+      "options": [
+        "Ignoring",
+        "Recognize the worth of (மதிப்பிடல் / போற்றுதல்)",
+        "Breaking",
+        "Hating"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Choose the correctly spelled word. || சரியான எழுத்துப்பிழையற்றச் சொல் எது?",
+      "options": [
+        "Friendship (நட்பு)",
+        "Frindship",
+        "Freindship",
+        "Frandship"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Success in life is linked to? || வாழ்வின் வெற்றி எதனோடுத் தொடர்புடையது?",
+      "options": [
+        "How much we fight",
+        "How much we love and care (நாம் எவ்வளவு நேசிக்கிறோம் என்பதில்)",
+        "How much money we have",
+        "None"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What to do when someone is 'too small'? || ஒருவர் 'மிகச் சிறியவராகச்' தெரிந்தால் என்னச் செய்ய வேண்டும்?",
+      "options": [
+        "Ignore them",
+        "Remind yourself they are important too (அவர்களும் முக்கியமானவர்களே என நினையுங்கள்)",
+        "Laugh at them",
+        "Push them"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: Homophone for 'Wait'. || 'Wait' (காத்திரு) - ஒலிச் சொல்?",
+      "options": [
+        "Weight (வெயிட் / எடை)",
+        "Went",
+        "White",
+        "Wheat"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Expansion of 'L' in life lessons? || வாழ்வின்ப் பாடங்களில் 'L' என்பது?",
+      "options": [
+        "Love and Learn (அன்பு மற்றும் கற்றல்)",
+        "Little",
+        "Lazy",
+        "Lose"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "The poet says 'everyone is ______'. || 'ஒவ்வொருவரும் ______' என கவிஞர் கூறுகிறார்.",
+      "options": [
+        "Good",
+        "Special (தனித்துவமானவர்கள்)",
+        "Bad",
+        "Same"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: \"A thing of beauty is...\" vs \"Lessons in life are...\"? || பாடத்தின் முடிவானக் கருத்து?",
+      "options": [
+        "Hard to pick",
+        "Free for everyone (அனைவருக்கும் சமமானவை)",
+        "Only for kids",
+        "Useless"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Conclusion: How to make life worth living? || முடிவு: வாழ்வை அர்த்தமுள்ளதாக மாற்றுவது எப்படி?",
+      "options": [
+        "By being selfish",
+        "By sharing kindness and valuing others (அன்பைப் பகிர்ந்தும் பிறரை மதித்தும்)",
+        "By traveling alone",
+        "By fighting for power"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: Homophone for 'New'. || 'New' (புதிய) - இதற்கான ஒலிச் சொல்?",
+      "options": [
+        "Knew (நியூ / தெரியும்)",
+        "Now",
+        "No",
+        "Nest"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Final thought: Treating others with kindness is a? || இறுதி எண்ணம்: பிறரைத் கனிவாக நடத்துதல் ஒரு ______?",
+      "options": [
+        "Mistake",
+        "Moral duty / Lesson (சிறந்த பண்பு / பாடம்)",
+        "Waste of time",
+        "Old idea"
+      ],
+      "a": 1,
+      "ex": ""
+    }
+  ],
+  "credits": "தொகுப்பு: A1 ONLINE COACHING CENTER"
+}

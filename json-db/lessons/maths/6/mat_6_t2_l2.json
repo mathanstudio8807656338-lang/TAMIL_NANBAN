@@ -1,0 +1,88 @@
+{
+  "isBilingual": true,
+  "unit": "Unit 2",
+  "subject": "Maths",
+  "class": "6",
+  "term": 2,
+  "title": "Measurements (அளவைகள்)",
+  "summary": "இந்த மெட்ரிக் அளவை முறை, அலகுகளின் மாற்றம் மற்றும் அன்றாட வாழ்வியல் கணக்குகளைப் பற்றிய புரிதலை வழங்குகிறது.",
+  "material": {
+    "isBilingual": true,
+    "sections": [
+      {
+        "title": "2.1 அறிமுகம் (Introduction)",
+        "type": "bilingual",
+        "en": [
+          "Measuring length, weight (mass), and capacity (volume) is essential in daily life.",
+          "Standard Units: Ancient methods like cubit or span varied per person. Hence, standard units were created globally.",
+          "Base Units: Meter (m) for length, Gram (g) for weight, and Liter (l) for capacity.",
+          "Origin: The metric system was created by the French in 1790."
+        ],
+        "ta": [
+          "நமது அன்றாட வாழ்வில் நீளம் (Length), எடை (Weight/Mass) மற்றும் கொள்ளளவு (Capacity) ஆகியவற்றை அளப்பது மிகவும் அவசியமாகும்.",
+          "திட்ட அலகுகள்: முற்காலத்தில் முழம், சாண் போன்ற திட்டமற்ற அளவைகளைப் பயன்படுத்தினர். இதனால் அளவுகள் மாறுபட்டன. எனவே, 'திட்ட அலகுகள்' (Standard Units) உருவாக்கப்பட்டன.",
+          "அடிப்படை அலகுகள்: நீளத்தின் அடிப்படை அலகு 'மீட்டர்' (m), எடையின் அடிப்படை அலகு 'கிராம்' (g), மற்றும் கொள்ளளவின் அடிப்படை அலகு 'லிட்டர்' (l) ஆகும்.",
+          "வரலாறு: இந்த மெட்ரிக் அளவை முறை 1790 ஆம் ஆண்டு பிரெஞ்சுக்காரர்களால் உருவாக்கப்பட்டது."
+        ]
+      },
+      {
+        "title": "2.2 மெட்ரிக் அளவைகள் (Metric Measures)",
+        "type": "bilingual",
+        "en": [
+          "Prefixes: Kilo (1000x), Hecto (100x), Deca (10x), [Base], Deci (1/10), Centi (1/100), Milli (1/1000).",
+          "Conversion Rules: 1. Multiply to convert from a larger to a smaller unit. 2. Divide to convert from a smaller to a larger unit.",
+          "Key Conversions: 1 km = 1000 m; 1 m = 100 cm; 1 cm = 10 mm. 1 kg = 1000 g; 1 g = 1000 mg. 1 kl = 1000 l; 1 l = 1000 ml."
+        ],
+        "ta": [
+          "முன்னொட்டுகள் (Prefixes): கிலோ (1000 மடங்கு), ஹெக்டோ (100 மடங்கு), டெகா (10 மடங்கு), [அடிப்படை அலகு], டெசி (1/10), சென்டி (1/100), மில்லி (1/1000).",
+          "மாற்றுவதற்கான விதிகள்: 1. பெரிய அலகிலிருந்து சிறிய அலகிற்கு மாற்றப் 'பெருக்க' வேண்டும். 2. சிறிய அலகிலிருந்து பெரிய அலகிற்கு மாற்ற 'வகுக்க' வேண்டும்.",
+          "முக்கிய அளவுகள்: 1 கிலோமீட்டர் (கி.மீ) = 1000 மீட்டர் (மீ); 1 மீட்டர் (மீ) = 100 சென்டிமீட்டர் (செ.மீ); 1 சென்டிமீட்டர் = 10 மி.மீ. 1 கிலோகிராம் (கி.கி) = 1000 கிராம் (கி). 1 கிலோலிட்டர் (கி.லி) = 1000 லிட்டர் (லி)."
+        ]
+      },
+      {
+        "title": "2.3 அளவைகளை வாசித்தல் (Reading and Writing Measures)",
+        "type": "bilingual",
+        "en": [
+          "Measures can be written as whole numbers with units or as decimals.",
+          "Decimal notation: 5 meters 40 cm can be written as 5.40 m. The number to the left of the decimal represents the larger unit, and the right represents the smaller unit.",
+          "Examples: 12.5 kg means 12 kg and 500 g. 3.250 liters means 3 l 250 ml."
+        ],
+        "ta": [
+          "அளவைகளை இரண்டு வகைகளில் எழுதலாம்: அலகுகளைச் சேர்த்து எழுதுதல் அல்லது தசம எண்களாக எழுதுதல்.",
+          "தசம வடிவம்: 5 மீட்டர் 40 சென்டிமீட்டர் என்பதை 5.40 மீட்டர் என எழுதலாம். தசமப் புள்ளிக்கு இடப்பக்கம் உள்ள எண் பெரிய அலகையும், வலப்பக்கம் உள்ள எண் சிறிய அலகையும் குறிக்கும்.",
+          "எ.கா: 12.5 கி.கி என்பது 12 கிலோகிராம் மற்றும் 500 கிராம் என்பதைக் குறிக்கும். இதேபோல், 3.250 லிட்டர் என்பது 3 லி 250 மி.லி ஆகும்."
+        ]
+      },
+      {
+        "title": "2.4 அடிப்படைச் செயல்பாடுகள் (Basic Operations)",
+        "type": "bilingual",
+        "en": [
+          "Addition and Subtraction: Add or subtract only the same type of units. If units are different, convert them to the same unit first.",
+          "Multiplication and Division: Perform the operation like normal numbers and then assign the correct units.",
+          "Example: 2 m 50 cm × 2 = 5 m."
+        ],
+        "ta": [
+          "கூட்டல் மற்றும் கழித்தல்: ஒரே வகையான அலகுகளை மட்டுமே நேரடியாகக் கூட்டவோ கழிக்கவோ முடியும். வெவ்வேறு அலகுகள் இருந்தால், அவற்றை ஒரே அலகாக மாற்றிய பிறகே செய்ய வேண்டும்.",
+          "பெருக்கல் மற்றும் வகுத்தல்: சாதாரண எண்களைப் போலவே செய்துவிட்டு, இறுதியில் உரிய அலகினைப் பதிவிட வேண்டும்.",
+          "எ.கா: 2 மீ 50 செ.மீ × 2 = 5 மீ."
+        ]
+      },
+      {
+        "title": "2.5 அன்றாட வாழ்வியல் பயன்பாடுகள் (Daily Life Applications)",
+        "type": "bilingual",
+        "en": [
+          "Measurements are used in buying vegetables (weight), traveling distances (length), and measuring milk or water (capacity).",
+          "Problem solving: Understand the data and decide whether to add, subtract, multiply, or divide based on the context."
+        ],
+        "ta": [
+          "வாழ்வியல் பயன்பாடுகள்: காய்கறிகள் வாங்குதல் (எடை), பயணம் செய்யும் தூரம் (நீளம்), பால் அல்லது தண்ணீர் அளவிடுதல் (கொள்ளளவு) போன்றவை.",
+          "கணக்குகளைத் தீர்த்தல்: தரவுகளைச் சரியாகப் புரிந்துகொண்டு என்ன செயல்பாடு (கூட்டல் / கழித்தல் / பெருக்கல் / வகுத்தல்) செய்ய வேண்டும் என்பதைத் தீர்மானிக்க வேண்டும்."
+        ]
+      }
+    ]
+  },
+  "quiz": {
+    "questions": []
+  },
+  "credits": "A1 ONLINE COACHING CENTER"
+}

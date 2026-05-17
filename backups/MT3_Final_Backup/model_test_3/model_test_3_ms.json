@@ -1,0 +1,1663 @@
+{
+  "unit": "Model Test 3",
+  "subject": "TET Model Test",
+  "class": "8",
+  "term": "Annual",
+  "title": "TET மாதிரித் தேர்வு - 3 (M/S)",
+  "summary": "அனைத்துப் பாடங்களையும் உள்ளடக்கிய 150 வினாக்கள் கொண்ட மாதிரித் தேர்வு.",
+  "sections": [],
+  "quiz": {
+    "questions": [
+      {
+        "question": "வைகாட்ஸ்கி (Vygotsky) கூறும் 'அண்மை வளர்ச்சி மண்டலம்' (ZPD) என்றால் என்ன?",
+        "options": [
+          "குழந்தை தனியாக செய்யும் திறன் மட்டம்",
+          "குழந்தை உதவியுடன் செய்யக்கூடிய திறன் மட்டம் மற்றும் தனியாக செய்யும் திறன் மட்டத்திற்கு இடையே உள்ள இடைவெளி",
+          "பள்ளியில் கற்பிக்கப்படும் திறன்",
+          "குழந்தையின் IQ அளவீடு"
+        ],
+        "answer": 1,
+        "explanation": "குழந்தை உதவியுடன் செய்யக்கூடிய திறன் மட்டம் மற்றும் தனியாக செய்யும் திறன் மட்டத்திற்கு இடையே உள்ள இடைவெளி"
+      },
+      {
+        "question": "பியாஜேவின் (Piaget) நான்காம் நிலை 'முறைசார் செயல்பாட்டு நிலை' எந்த வயதில் தொடங்குகிறது?",
+        "options": [
+          "7–11 வயது",
+          "11–15 வயது",
+          "2–7 வயது",
+          "0–2 வயது"
+        ],
+        "answer": 1,
+        "explanation": "11–15 வயது"
+      },
+      {
+        "question": "'தொடர்ச்சியான மற்றும் விரிவான மதிப்பீடு' (CCE) எதை அளவிடுகிறது?",
+        "options": [
+          "மட்டுமே கணிதத் திறன்",
+          "மட்டுமே மொழித் திறன்",
+          "கல்வி மற்றும் கல்வி அல்லாத திறன்கள் இரண்டையும்",
+          "மட்டுமே நினைவாற்றல்"
+        ],
+        "answer": 2,
+        "explanation": "கல்வி மற்றும் கல்வி அல்லாத திறன்கள் இரண்டையும்"
+      },
+      {
+        "question": "கோல்பர்கின் (Kohlberg) தார்மீக வளர்ச்சியில் 'சட்டம் மற்றும் ஒழுங்கு' என்பது எந்த நிலை?",
+        "options": [
+          "முன்-வழக்கமான நிலை",
+          "வழக்கமான நிலை",
+          "பின்-வழக்கமான நிலை",
+          "நான்காம் நிலை"
+        ],
+        "answer": 1,
+        "explanation": "வழக்கமான நிலை"
+      },
+      {
+        "question": "'சிந்தனை வகை' (Thinking Type) பற்றிய கேள்வியில் 'ஒருமுக சிந்தனை' (Convergent Thinking) என்றால்?",
+        "options": [
+          "பல விடைகளை நோக்கி சிந்தித்தல்",
+          "ஒரு சரியான விடையை நோக்கி சிந்தித்தல்",
+          "படைப்பு சிந்தனை",
+          "விரிவான சிந்தனை"
+        ],
+        "answer": 1,
+        "explanation": "ஒரு சரியான விடையை நோக்கி சிந்தித்தல்"
+      },
+      {
+        "question": "'கற்றல் முடமாக்கல்' (Learning Disability) இல் டிஸ்லெக்ஸியா (Dyslexia) என்பது எதை பாதிக்கிறது?",
+        "options": [
+          "கணக்கு திறன்",
+          "எழுதும் திறன்",
+          "வாசிக்கும் திறன்",
+          "பேசும் திறன்"
+        ],
+        "answer": 2,
+        "explanation": "வாசிக்கும் திறன்"
+      },
+      {
+        "question": "எரிக்சனின் (Erikson) 8 நிலைகளில் பள்ளி வயது (6–12) குழந்தைகளுக்கான நிலை எது?",
+        "options": [
+          "நம்பகத்தன்மை vs சந்தேகம்",
+          "முயற்சி vs குற்ற உணர்வு",
+          "உழைப்பு vs தாழ்வு மனப்பான்மை",
+          "அடையாளம் vs குழப்பம்"
+        ],
+        "answer": 2,
+        "explanation": "உழைப்பு vs தாழ்வு மனப்பான்மை"
+      },
+      {
+        "question": "'உள்ளார்ந்த உந்துதல்' (Intrinsic Motivation) என்பது எதனால் உந்தப்படுகிறது?",
+        "options": [
+          "வெளிப்பரிசு",
+          "தண்டனை பயம்",
+          "தனிப்பட்ட திருப்தி மற்றும் ஆர்வம்",
+          "ஆசிரியர் பாராட்டு"
+        ],
+        "answer": 2,
+        "explanation": "தனிப்பட்ட திருப்தி மற்றும் ஆர்வம்"
+      },
+      {
+        "question": "ஆசிரியர் மையக் கற்பித்தல் முறையில் முக்கிய பங்கு யாருக்கு?",
+        "options": [
+          "மாணவர்",
+          "பெற்றோர்",
+          "ஆசிரியர்",
+          "பாடப்புத்தகம்"
+        ],
+        "answer": 2,
+        "explanation": "ஆசிரியர்"
+      },
+      {
+        "question": "NCF 2005 படி கற்பித்தல் முறை எப்படி இருக்க வேண்டும்?",
+        "options": [
+          "மனனம் செய்தல் அடிப்படையிலான",
+          "குழந்தை மையமான, கட்டமைப்பு அடிப்படையிலான",
+          "ஆசிரியர் மட்டுமே பேசும்",
+          "தேர்வு அடிப்படையிலான"
+        ],
+        "answer": 1,
+        "explanation": "குழந்தை மையமான, கட்டமைப்பு அடிப்படையிலான"
+      },
+      {
+        "question": "RTE Act 2009 படி 6–14 வயது குழந்தைகளுக்கு எந்த கல்வி உரிமை?",
+        "options": [
+          "விரும்பினால் பள்ளி செல்லலாம்",
+          "கட்டாய இலவச கல்வி",
+          "கட்டண கல்வி",
+          "தனியார் கல்வி மட்டுமே"
+        ],
+        "answer": 1,
+        "explanation": "கட்டாய இலவச கல்வி"
+      },
+      {
+        "question": "'கண்டறியும் மதிப்பீடு' (Diagnostic Evaluation) எதற்காக பயன்படுத்தப்படுகிறது?",
+        "options": [
+          "இறுதி தேர்வுக்கு",
+          "கற்றல் குறைபாடுகளை கண்டறிய",
+          "பாராட்டுக்கு",
+          "சான்றிதழுக்கு"
+        ],
+        "answer": 1,
+        "explanation": "கற்றல் குறைபாடுகளை கண்டறிய"
+      },
+      {
+        "question": "ஒரு குழந்தை 'ஒத்திசைவு' (Assimilation) செய்யும்போது என்ன நடக்கிறது?",
+        "options": [
+          "புதிய அனுபவத்திற்கு ஏற்ப சிந்தனையை மாற்றுகிறது",
+          "புதிய அனுபவத்தை ஏற்கனவே உள்ள திட்டத்தில் சேர்க்கிறது",
+          "புதியதை முற்றிலும் மறுக்கிறது",
+          "புதிய திட்டம் உருவாக்குகிறது"
+        ],
+        "answer": 1,
+        "explanation": "புதிய அனுபவத்தை ஏற்கனவே உள்ள திட்டத்தில் சேர்க்கிறது"
+      },
+      {
+        "question": "'படிப்படியான கற்பித்தல்' (Scaffolding) கோட்பாட்டை முன்வைத்தவர் யார்?",
+        "options": [
+          "பியாஜே",
+          "வைகாட்ஸ்கி",
+          "ஸ்கின்னர்",
+          "பாவ்லோவ்"
+        ],
+        "answer": 1,
+        "explanation": "வைகாட்ஸ்கி"
+      },
+      {
+        "question": "'பன்முக நுண்ணறிவு' (Multiple Intelligence) கோட்பாட்டை வகுத்தவர் யார்?",
+        "options": [
+          "ஹோவார்ட் கார்ட்னர்",
+          "ஸ்பியர்மேன்",
+          "தர்ஸ்டன்",
+          "கெல்லி"
+        ],
+        "answer": 0,
+        "explanation": "ஹோவார்ட் கார்ட்னர்"
+      },
+      {
+        "question": "'சமூகமயமாக்கல்' (Socialization) என்பது கல்வியில் எந்த பங்கை செய்கிறது?",
+        "options": [
+          "மட்டுமே அறிவாற்றல் வளர்க்கிறது",
+          "சமூக நடத்தை மற்றும் மதிப்புகளை கற்பிக்கிறது",
+          "மட்டுமே தேர்வு தேர்ச்சி அளிக்கிறது",
+          "மட்டுமே வேலை கொடுக்கிறது"
+        ],
+        "answer": 1,
+        "explanation": "சமூக நடத்தை மற்றும் மதிப்புகளை கற்பிக்கிறது"
+      },
+      {
+        "question": "'திரும்பப்பெறும் நினைவாற்றல்' (Recall) மற்றும் 'அடையாளம் காணும் நினைவாற்றல்' (Recognition) ல் எது எளிதானது?",
+        "options": [
+          "Recall",
+          "Recognition",
+          "இரண்டும் சமம்",
+          "சூழ்நிலையை பொறுத்தது"
+        ],
+        "answer": 1,
+        "explanation": "Recognition"
+      },
+      {
+        "question": "'கட்டமைப்பு அணுகுமுறை' (Constructivist Approach) படி மாணவர் எவ்வாறு கற்கிறார்?",
+        "options": [
+          "செயந்து பார்த்து தொடர்பு கொண்டு",
+          "மனப்பாடம் செய்து",
+          "ஆசிரியர் சொல்வதை கேட்டு",
+          "புத்தகம் படித்து"
+        ],
+        "answer": 0,
+        "explanation": "செய்து பார்த்து தொடர்பு கொண்டு"
+      },
+      {
+        "question": "'கல்வி உளவியல்' (Educational Psychology) எந்த இரண்டு துறைகளை இணைக்கிறது?",
+        "options": [
+          "சமூகவியல் மற்றும் கணிதம்",
+          "மனவியல் மற்றும் கல்வியியல்",
+          "இயற்பியல் மற்றும் வேதியியல்",
+          "வரலாறு மற்றும் புவியியல்"
+        ],
+        "answer": 1,
+        "explanation": "மனவியல் மற்றும் கல்வியியல்"
+      },
+      {
+        "question": "'நேர்மறை வலுவூட்டல்' (Positive Reinforcement) என்பது?",
+        "options": [
+          "தண்டனை கொடுத்தல்",
+          "நல்ல நடத்தைக்கு பரிசு கொடுத்தல்",
+          "கவனிக்காமல் விடுதல்",
+          "சொல்லி கேட்காவிட்டால் மறுக்கல்"
+        ],
+        "answer": 1,
+        "explanation": "நல்ல நடத்தைக்கு பரிசு கொடுத்தல்"
+      },
+      {
+        "question": "ஒரு மாணவன் கணக்கு தவறாக செய்கிறான். ஆசிரியர் என்ன செய்வது சரி?",
+        "options": [
+          "கண்டிக்க வேண்டும்",
+          "வகுப்பில் அவமானப்படுத்த வேண்டும்",
+          "தவறை கண்டறிந்து திருத்த உதவ வேண்டும்",
+          "பெற்றோரிடம் புகார் சொல்ல வேண்டும்"
+        ],
+        "answer": 2,
+        "explanation": "தவறை கண்டறிந்து திருத்த உதவ வேண்டும்"
+      },
+      {
+        "question": "'சிறப்பு தேவையுள்ள குழந்தைகளை' (CWSN) சேர்த்து கற்பிக்கும் முறை எது?",
+        "options": [
+          "தனிப்பட்ட கல்வி",
+          "சேர்த்தியல் கல்வி (Inclusive Education)",
+          "சிறப்பு பள்ளி மட்டுமே",
+          "தனி வகுப்பு"
+        ],
+        "answer": 1,
+        "explanation": "சேர்த்தியல் கல்வி (Inclusive Education)"
+      },
+      {
+        "question": "'வடிவமைக்கும் மதிப்பீடு' (Formative Assessment) எப்போது நடைபெறுகிறது?",
+        "options": [
+          "ஆண்டு இறுதியில்",
+          "கற்பித்தல் செயல்முறையின் போது தொடர்ந்து",
+          "இடைத்தேர்வில் மட்டுமே",
+          "சேர்க்கை நேரத்தில்"
+        ],
+        "answer": 1,
+        "explanation": "கற்பித்தல் செயல்முறையின் போது தொடர்ந்து"
+      },
+      {
+        "question": "'கல்வி நிலை' உடன் 'மன நிலை' ஒத்திருக்கும் குழந்தையை என்று அழைப்போம்?",
+        "options": [
+          "திறமையான குழந்தை",
+          "சாதாரண குழந்தை",
+          "குறைந்த திறன் குழந்தை",
+          "ஆற்றல் மிகு குழந்தை"
+        ],
+        "answer": 1,
+        "explanation": "சாதாரண குழந்தை"
+      },
+      {
+        "question": "'தனி வேறுபாடுகள்' (Individual Differences) ஐ கவனத்தில் கொண்டு கற்பிக்கும் முறை எது?",
+        "options": [
+          "ஒரே முறையில் அனைவருக்கும் கற்பிக்கல்",
+          "வேறுபட்ட கற்பித்தல் (Differentiated Instruction)",
+          "மட்டுமே பாடப்புத்தகம் பின்பற்றுதல்",
+          "தேர்வு மட்டுமே"
+        ],
+        "answer": 1,
+        "explanation": "வேறுபட்ட கற்பித்தல் (Differentiated Instruction)"
+      },
+      {
+        "question": "'கோட்பாட்டு கற்றல்' என்பதை விட 'செயல்முறை கற்றல்' (Learning by Doing) எதில் சிறந்தது?",
+        "options": [
+          "நினைவில் நிலைத்திருக்கும்",
+          "வேகமாக முடியும்",
+          "செலவு குறையும்",
+          "ஆசிரியர் உழைப்பு குறையும்"
+        ],
+        "answer": 0,
+        "explanation": "நினைவில் நிலைத்திருக்கும்"
+      },
+      {
+        "question": "'அகிம்சை' தொடர்பான தார்மீக கல்வியை பள்ளியில் கற்பிக்க சிறந்த முறை எது?",
+        "options": [
+          "மனப்பாடம் செய்வித்தல்",
+          "கதைகள் மற்றும் உதாரணங்கள் மூலம்",
+          "மட்டுமே தேர்வு வினா",
+          "விளக்கப்படம் மட்டும்"
+        ],
+        "answer": 1,
+        "explanation": "கதைகள் மற்றும் உதாரணங்கள் மூலம்"
+      },
+      {
+        "question": "'பள்ளி சூழல்' (School Environment) மாணவர்களின் எதை பாதிக்கிறது?",
+        "options": [
+          "மட்டுமே தேர்வு மதிப்பெண்",
+          "ஒட்டுமொத்த ஆளுமை வளர்ச்சி",
+          "மட்டுமே கணிதத் திறன்",
+          "மட்டுமே மொழிப்புலம்"
+        ],
+        "answer": 1,
+        "explanation": "ஒட்டுமொத்த ஆளுமை வளர்ச்சி"
+      },
+      {
+        "question": "ஒரு குழந்தை வகுப்பில் கவனம் செலுத்தவில்லை. இதற்கு காரணம் என்னாக இருக்கலாம்?",
+        "options": [
+          "மட்டுமே சோம்பேறித்தனம்",
+          "உளவியல், குடும்பம், கல்வி சுமை போன்ற பல காரணங்கள்",
+          "மட்டுமே ஆசிரியர் தவறு",
+          "மட்டுமே மாணவர் தவறு"
+        ],
+        "answer": 1,
+        "explanation": "உளவியல், குடும்பம், கல்வி சுமை போன்ற பல காரணங்கள்"
+      },
+      {
+        "question": "'கற்றல் வளைவு' (Learning Curve) என்பது எதை காட்டுகிறது?",
+        "options": [
+          "மாணவரின் உயரம்",
+          "கற்றல் வேகம் மற்றும் முன்னேற்றம்",
+          "பள்ளியின் தரம்",
+          "ஆசிரியரின் திறன்"
+        ],
+        "answer": 1,
+        "explanation": "கற்றல் வேகம் மற்றும் முன்னேற்றம்"
+      },
+      {
+        "question": "'குறுந்தொகை' எந்த சங்க நூல் வகையைச் சேர்ந்தது?",
+        "options": [
+          "பத்துப்பாட்டு",
+          "எட்டுத்தொகை",
+          "பதினெண்மேல்கணக்கு",
+          "பதினெண்கீழ்கணக்கு"
+        ],
+        "answer": 1,
+        "explanation": "எட்டுத்தொகை"
+      },
+      {
+        "question": "திருக்குறளில் மொத்தம் எத்தனை குறள்கள்?",
+        "options": [
+          "1000",
+          "1300",
+          "1330",
+          "1320"
+        ],
+        "answer": 2,
+        "explanation": "1330"
+      },
+      {
+        "question": "'யாதும் ஊரே யாவரும் கேளிர்' என்ற வரிகளை எழுதியவர் யார்?",
+        "options": [
+          "வள்ளுவர்",
+          "கணியன் பூங்குன்றனார்",
+          "கம்பர்",
+          "இளங்கோவடிகள்"
+        ],
+        "answer": 1,
+        "explanation": "கணியன் பூங்குன்றனார்"
+      },
+      {
+        "question": "தமிழ் எழுத்துக்கள் மொத்தம் எத்தனை?",
+        "options": [
+          "216",
+          "247",
+          "247",
+          "312"
+        ],
+        "answer": 1,
+        "explanation": "247"
+      },
+      {
+        "question": "'சிலப்பதிகாரம்' எழுதியவர் யார்?",
+        "options": [
+          "சீத்தலைச் சாத்தனார்",
+          "இளங்கோவடிகள்",
+          "கம்பர்",
+          "வள்ளுவர்"
+        ],
+        "answer": 1,
+        "explanation": "இளங்கோவடிகள்"
+      },
+      {
+        "question": "தமிழின் முதல் இலக்கண நூல் எது?",
+        "options": [
+          "தொல்காப்பியம்",
+          "நன்னூல்",
+          "வீரசோழியம்",
+          "கொல்லிமலை"
+        ],
+        "answer": 0,
+        "explanation": "தொல்காப்பியம்"
+      },
+      {
+        "question": "'உவமை அணி' என்பது?",
+        "options": [
+          "இரண்டு பொருள்களை நேர்மையாக ஒப்பிடுவது",
+          "ஒன்றை மற்றொன்றாக உருவகிப்பது",
+          "ஓசை நயம்",
+          "மறைமுக கருத்து"
+        ],
+        "answer": 0,
+        "explanation": "இரண்டு பொருள்களை நேர்மையாக ஒப்பிடுவது"
+      },
+      {
+        "question": "கம்பராமாயணத்தில் எத்தனை காண்டங்கள்?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": 1,
+        "explanation": "6"
+      },
+      {
+        "question": "'மனோன்மணியம்' என்ற நூலை எழுதியவர்?",
+        "options": [
+          "சுந்தரம் பிள்ளை",
+          "உ.வே.சாமிநாதையர்",
+          "திருவள்ளுவர்",
+          "கபிலர்"
+        ],
+        "answer": 0,
+        "explanation": "சுந்தரம் பிள்ளை"
+      },
+      {
+        "question": "தமிழில் 'வல்லினம்' என்பது எந்த எழுத்துக்கள்?",
+        "options": [
+          "க ச ட த ப ற",
+          "ங ஞ ண ந ம ன",
+          "ய ர ல வ ழ ள",
+          "அ இ உ"
+        ],
+        "answer": 0,
+        "explanation": "க ச ட த ப ற"
+      },
+      {
+        "question": "'அகப்பொருள்' சங்க இலக்கியத்தில் எதை குறிக்கிறது?",
+        "options": [
+          "புறத்திணை",
+          "அகத்திணை (காதல் நிலை)",
+          "போர் வீரம்",
+          "கடவுள் வாழ்த்து"
+        ],
+        "answer": 1,
+        "explanation": "அகத்திணை (காதல் நிலை)"
+      },
+      {
+        "question": "'ஐம்பெரும் காப்பியங்கள்' ல் சிலப்பதிகாரம் தவிர மற்றொன்று?",
+        "options": [
+          "மணிமேகலை",
+          "குறுந்தொகை",
+          "நற்றிணை",
+          "அகநானூறு"
+        ],
+        "answer": 0,
+        "explanation": "மணிமேகலை"
+      },
+      {
+        "question": "தமிழ் உரைநடையை தொடக்கிய கால கட்டம்?",
+        "options": [
+          "சங்க காலம்",
+          "தொல்காப்பிய காலம்",
+          "நவீன காலம் (19ஆம் நூற்றாண்டு)",
+          "மத்திய காலம்"
+        ],
+        "answer": 2,
+        "explanation": "நவீன காலம் (19ஆம் நூற்றாண்டு)"
+      },
+      {
+        "question": "'வேற்றுமை' என்பது இலக்கணத்தில் எதை குறிக்கிறது?",
+        "options": [
+          "சொற்களுக்கு இடையே உள்ள உறவு",
+          "ஓசை",
+          "கவிதை வகை",
+          "அணி வகை"
+        ],
+        "answer": 0,
+        "explanation": "சொற்களுக்கு இடையே உள்ள உறவு"
+      },
+      {
+        "question": "'திருமுருகாற்றுப்படை' எழுதியவர்?",
+        "options": [
+          "நக்கீரர்",
+          "கம்பர்",
+          "இளங்கோ",
+          "வள்ளுவர்"
+        ],
+        "answer": 0,
+        "explanation": "நக்கீரர்"
+      },
+      {
+        "question": "'புறநானூறு' எந்த வகை இலக்கியம்?",
+        "options": [
+          "அகப்பொருள்",
+          "புறப்பொருள்",
+          "சமய இலக்கியம்",
+          "நீதி இலக்கியம்"
+        ],
+        "answer": 1,
+        "explanation": "புறப்பொருள்"
+      },
+      {
+        "question": "தமிழ் எழுத்துக்களில் 'மெய்யெழுத்துக்கள்' எத்தனை?",
+        "options": [
+          "12",
+          "18",
+          "216",
+          "247"
+        ],
+        "answer": 1,
+        "explanation": "18"
+      },
+      {
+        "question": "'மூன்றாம் தமிழ்ச்சங்கம்' எங்கே நடைபெற்றது?",
+        "options": [
+          "மதுரை",
+          "காஞ்சி",
+          "பூம்புகார்",
+          "கபாடபுரம்"
+        ],
+        "answer": 0,
+        "explanation": "மதுரை"
+      },
+      {
+        "question": "'ஔவையார்' எழுதிய நீதி நூல்?",
+        "options": [
+          "ஆத்திசூடி",
+          "நான்மணிக்கடிகை",
+          "இன்னா நாற்பது",
+          "இனியவை நாற்பது"
+        ],
+        "answer": 0,
+        "explanation": "ஆத்திசூடி"
+      },
+      {
+        "question": "'நன்னூல்' இலக்கண நூலை எழுதியவர்?",
+        "options": [
+          "தொல்காப்பியர்",
+          "பவணந்தி முனிவர்",
+          "நக்கீரர்",
+          "கம்பர்"
+        ],
+        "answer": 1,
+        "explanation": "பவணந்தி முனிவர்"
+      },
+      {
+        "question": "சங்க இலக்கியத்தில் 'முல்லை திணை' எதை குறிக்கிறது?",
+        "options": [
+          "காடும் காட்டுசார்ந்த நிலமும்",
+          "குறிஞ்சி நிலம்",
+          "மருத நிலம்",
+          "பாலை நிலம்"
+        ],
+        "answer": 0,
+        "explanation": "காடும் காட்டுசார்ந்த நிலமும்"
+      },
+      {
+        "question": "'கலித்தொகை' பாட்டு வகை எது?",
+        "options": [
+          "அகவல்",
+          "கலி",
+          "வஞ்சி",
+          "துறை"
+        ],
+        "answer": 1,
+        "explanation": "கலி"
+      },
+      {
+        "question": "திருக்குறளில் முதல் அதிகாரம் எது?",
+        "options": [
+          "இல்வாழ்க்கை",
+          "கடவுள் வாழ்த்து",
+          "வாழ்க்கைத்துணை நலம்",
+          "அறன் வலியுறுத்தல்"
+        ],
+        "answer": 1,
+        "explanation": "கடவுள் வாழ்த்து"
+      },
+      {
+        "question": "'மொழிபெயர்ப்பு' என்பது?",
+        "options": [
+          "புதிய நூல் எழுதுதல்",
+          "ஒரு மொழியிலிருந்து மற்றொரு மொழியில் பொருள் கூறுதல்",
+          "கவிதை வகை",
+          "இலக்கணம்"
+        ],
+        "answer": 1,
+        "explanation": "ஒரு மொழியிலிருந்து மற்றொரு மொழியில் பொருள் கூறுதல்"
+      },
+      {
+        "question": "'எழுத்துக்கள் புணரும் விதிகளை' விளக்கும் இலக்கணம்?",
+        "options": [
+          "புணரியல்",
+          "சொல்லியல்",
+          "பொருளியல்",
+          "யாப்பியல்"
+        ],
+        "answer": 0,
+        "explanation": "புணரியல்"
+      },
+      {
+        "question": "'பழமொழி' என்பது?",
+        "options": [
+          "நீண்ட கவிதை",
+          "பழங்காலத்திலிருந்து வரும் சுருக்கமான அனுபவ வாக்கியம்",
+          "கடவுள் வாழ்த்து",
+          "போர்ப்பாட்டு"
+        ],
+        "answer": 1,
+        "explanation": "பழங்காலத்திலிருந்து வரும் சுருக்கமான அனுபவ வாக்கியம்"
+      },
+      {
+        "question": "'சந்தி விதி' என்பது?",
+        "options": [
+          "கவிதை எழுதும் விதி",
+          "இரண்டு சொற்கள் சேரும்போது நடக்கும் மாற்றங்களின் விதி",
+          "நடை விதி",
+          "அணி விதி"
+        ],
+        "answer": 1,
+        "explanation": "இரண்டு சொற்கள் சேரும்போது நடக்கும் மாற்றங்களின் விதி"
+      },
+      {
+        "question": "'பதிற்றுப்பத்து' எந்த மன்னர்களை பாடுகிறது?",
+        "options": [
+          "சோழர்",
+          "சேர மன்னர்கள்",
+          "பாண்டியர்",
+          "பல்லவர்"
+        ],
+        "answer": 1,
+        "explanation": "சேர மன்னர்கள்"
+      },
+      {
+        "question": "'அந்தாதி' என்பது எந்த வகை கவிதை?",
+        "options": [
+          "ஒரு பாடலின் கடைசி சொல் அடுத்த பாடலின் தொடக்கமாக வருவது",
+          "குறுகிய கவிதை",
+          "நீண்ட கவிதை",
+          "புராண கவிதை"
+        ],
+        "answer": 0,
+        "explanation": "ஒரு பாடலின் கடைசி சொல் அடுத்த பாடலின் தொடக்கமாக வருவது"
+      },
+      {
+        "question": "'சங்க காலம்' தமிழ் வரலாற்றில் எந்த காலத்தை குறிக்கிறது?",
+        "options": [
+          "கி.மு. 300 – கி.பி. 300",
+          "கி.பி. 600 – கி.பி. 900",
+          "கி.பி. 1000 – கி.பி. 1300",
+          "கி.பி. 1600 – கி.பி. 1900"
+        ],
+        "answer": 0,
+        "explanation": "கி.மு. 300 – கி.பி. 300"
+      },
+      {
+        "question": "Choose the correct form: She _______ to school every day.",
+        "options": [
+          "go",
+          "goes",
+          "went",
+          "going"
+        ],
+        "answer": 1,
+        "explanation": "goes"
+      },
+      {
+        "question": "'Antonym' of 'Ancient' is?",
+        "options": [
+          "Old",
+          "Modern",
+          "Historic",
+          "Primitive"
+        ],
+        "answer": 1,
+        "explanation": "Modern"
+      },
+      {
+        "question": "Identify the noun in: 'The beautiful garden bloomed in spring.'",
+        "options": [
+          "beautiful",
+          "bloomed",
+          "garden",
+          "spring"
+        ],
+        "answer": 2,
+        "explanation": "garden"
+      },
+      {
+        "question": "'Passive voice' of 'Ram writes a letter'?",
+        "options": [
+          "A letter writes Ram",
+          "A letter is written by Ram",
+          "A letter was written by Ram",
+          "Ram is written a letter"
+        ],
+        "answer": 1,
+        "explanation": "A letter is written by Ram"
+      },
+      {
+        "question": "Which sentence is in 'Simple Future Tense'?",
+        "options": [
+          "She is going to market",
+          "She went to market",
+          "She will go to market",
+          "She has gone to market"
+        ],
+        "answer": 2,
+        "explanation": "She will go to market"
+      },
+      {
+        "question": "'Synonym' of 'Courageous' is?",
+        "options": [
+          "Fearful",
+          "Brave",
+          "Timid",
+          "Cowardly"
+        ],
+        "answer": 1,
+        "explanation": "Brave"
+      },
+      {
+        "question": "Identify the adjective: 'The tall boy ran fast.'",
+        "options": [
+          "boy",
+          "ran",
+          "tall",
+          "fast"
+        ],
+        "answer": 2,
+        "explanation": "tall"
+      },
+      {
+        "question": "Which is the correct spelling?",
+        "options": [
+          "Accomodate",
+          "Accommodate",
+          "Acommodate",
+          "Accommoddate"
+        ],
+        "answer": 1,
+        "explanation": "Accommodate"
+      },
+      {
+        "question": "'I _______ my homework before dinner.' (Past Perfect)",
+        "options": [
+          "finish",
+          "finished",
+          "had finished",
+          "have finished"
+        ],
+        "answer": 2,
+        "explanation": "had finished"
+      },
+      {
+        "question": "What is a 'Compound Sentence'?",
+        "options": [
+          "Two independent clauses joined by a conjunction",
+          "A sentence with one clause",
+          "A complex sentence",
+          "A question sentence"
+        ],
+        "answer": 0,
+        "explanation": "Two independent clauses joined by a conjunction"
+      },
+      {
+        "question": "'Neither... nor' is used to connect?",
+        "options": [
+          "Positive ideas",
+          "Two negative alternatives",
+          "Questions",
+          "Commands"
+        ],
+        "answer": 1,
+        "explanation": "Two negative alternatives"
+      },
+      {
+        "question": "Identify the preposition: 'The book is on the table.'",
+        "options": [
+          "book",
+          "is",
+          "on",
+          "table"
+        ],
+        "answer": 2,
+        "explanation": "on"
+      },
+      {
+        "question": "'Reported speech' of: He said, 'I am happy.'",
+        "options": [
+          "He said that he is happy",
+          "He said that he was happy",
+          "He told I am happy",
+          "He says he is happy"
+        ],
+        "answer": 1,
+        "explanation": "He said that he was happy"
+      },
+      {
+        "question": "'Comprehension' means?",
+        "options": [
+          "Writing a letter",
+          "Understanding a passage",
+          "Composing a poem",
+          "Speaking skill"
+        ],
+        "answer": 1,
+        "explanation": "Understanding a passage"
+      },
+      {
+        "question": "Which word is a 'collective noun'?",
+        "options": [
+          "run",
+          "flock",
+          "beautiful",
+          "quickly"
+        ],
+        "answer": 1,
+        "explanation": "flock"
+      },
+      {
+        "question": "'Question tag' for: 'She can sing well, _______?'",
+        "options": [
+          "can she",
+          "can't she",
+          "isn't she",
+          "doesn't she"
+        ],
+        "answer": 1,
+        "explanation": "can't she"
+      },
+      {
+        "question": "'Simile' in: 'He is as brave as a lion.'",
+        "options": [
+          "He is brave",
+          "brave as a lion",
+          "as brave",
+          "brave"
+        ],
+        "answer": 1,
+        "explanation": "brave as a lion"
+      },
+      {
+        "question": "Which is NOT a 'linking verb'?",
+        "options": [
+          "is",
+          "seem",
+          "run",
+          "become"
+        ],
+        "answer": 2,
+        "explanation": "run"
+      },
+      {
+        "question": "'Inter' as a prefix means?",
+        "options": [
+          "within",
+          "between",
+          "against",
+          "before"
+        ],
+        "answer": 1,
+        "explanation": "between"
+      },
+      {
+        "question": "Identify the adverb: 'She sings beautifully.'",
+        "options": [
+          "She",
+          "sings",
+          "beautifully",
+          "song"
+        ],
+        "answer": 2,
+        "explanation": "beautifully"
+      },
+      {
+        "question": "'Who' is used for?",
+        "options": [
+          "things",
+          "animals",
+          "persons",
+          "places"
+        ],
+        "answer": 2,
+        "explanation": "persons"
+      },
+      {
+        "question": "'Homophone' of 'write' is?",
+        "options": [
+          "right",
+          "rate",
+          "road",
+          "rote"
+        ],
+        "answer": 0,
+        "explanation": "right"
+      },
+      {
+        "question": "'Exclamatory sentence' expresses?",
+        "options": [
+          "Command",
+          "Strong emotion",
+          "Question",
+          "Statement"
+        ],
+        "answer": 1,
+        "explanation": "Strong emotion"
+      },
+      {
+        "question": "'dis-' prefix in 'disagree' means?",
+        "options": [
+          "again",
+          "not/opposite",
+          "before",
+          "after"
+        ],
+        "answer": 1,
+        "explanation": "not/opposite"
+      },
+      {
+        "question": "Which is an 'abstract noun'?",
+        "options": [
+          "table",
+          "beauty",
+          "teacher",
+          "city"
+        ],
+        "answer": 1,
+        "explanation": "beauty"
+      },
+      {
+        "question": "'If I were a bird, I _______ fly.' (Conditional)",
+        "options": [
+          "will",
+          "would",
+          "shall",
+          "can"
+        ],
+        "answer": 1,
+        "explanation": "would"
+      },
+      {
+        "question": "'Alliteration' is?",
+        "options": [
+          "Same vowel sounds",
+          "Repetition of initial consonant sounds",
+          "Rhyme at end",
+          "Comparison"
+        ],
+        "answer": 1,
+        "explanation": "Repetition of initial consonant sounds"
+      },
+      {
+        "question": "Choose the correct article: 'She is ______ honest person.'",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "no article"
+        ],
+        "answer": 1,
+        "explanation": "an"
+      },
+      {
+        "question": "'Plural' of 'child' is?",
+        "options": [
+          "childs",
+          "childes",
+          "children",
+          "child"
+        ],
+        "answer": 2,
+        "explanation": "children"
+      },
+      {
+        "question": "'Reading comprehension skill' for class 6-8 SCERT focuses on?",
+        "options": [
+          "Only grammar",
+          "Understanding, inference and critical thinking",
+          "Only vocabulary",
+          "Only writing"
+        ],
+        "answer": 1,
+        "explanation": "Understanding, inference and critical thinking"
+      },
+      {
+        "question": "6ஆம் வகுப்பு: 2/3 + 3/4 = ?",
+        "options": [
+          "5/7",
+          "17/12",
+          "11/12",
+          "5/12"
+        ],
+        "answer": 1,
+        "explanation": "17/12"
+      },
+      {
+        "question": "ஒரு எண்ணின் 35% = 84 எனில் அந்த எண் என்ன?",
+        "options": [
+          "240",
+          "280",
+          "260",
+          "300"
+        ],
+        "answer": 0,
+        "explanation": "240"
+      },
+      {
+        "question": "7ஆம் வகுப்பு: (−3) × (−5) + (−2) = ?",
+        "options": [
+          "17",
+          "13",
+          "−17",
+          "−13"
+        ],
+        "answer": 1,
+        "explanation": "13"
+      },
+      {
+        "question": "ஒரு செவ்வகத்தின் நீளம் 15 செ.மீ., அகலம் 9 செ.மீ. எனில் சுற்றளவு?",
+        "options": [
+          "48 செ.மீ",
+          "45 செ.மீ",
+          "54 செ.மீ",
+          "135 செ.மீ"
+        ],
+        "answer": 0,
+        "explanation": "48 செ.மீ"
+      },
+      {
+        "question": "8ஆம் வகுப்பு: 2x + 5 = 17 எனில் x = ?",
+        "options": [
+          "6",
+          "7",
+          "5",
+          "11"
+        ],
+        "answer": 0,
+        "explanation": "6"
+      },
+      {
+        "question": "ஒரு கோளத்தின் ஆரம் 7 செ.மீ. எனில் கன அளவு (π = 22/7)?",
+        "options": [
+          "1437.33 கன செ.மீ",
+          "1337.33 கன செ.மீ",
+          "1234.56 கன செ.மீ",
+          "1500 கன செ.மீ"
+        ],
+        "answer": 0,
+        "explanation": "1437.33 கன செ.மீ"
+      },
+      {
+        "question": "1 முதல் 20 வரையிலான இயல் எண்களின் கூடுதல்?",
+        "options": [
+          "200",
+          "210",
+          "190",
+          "220"
+        ],
+        "answer": 1,
+        "explanation": "210"
+      },
+      {
+        "question": "0.25 × 0.4 = ?",
+        "options": [
+          "0.1",
+          "0.01",
+          "1.0",
+          "0.001"
+        ],
+        "answer": 0,
+        "explanation": "0.1"
+      },
+      {
+        "question": "ஒரு முக்கோணத்தின் மூன்று கோணங்கள் 2:3:4 விகிதத்தில் உள்ளன. சிறிய கோணம்?",
+        "options": [
+          "40°",
+          "30°",
+          "60°",
+          "45°"
+        ],
+        "answer": 0,
+        "explanation": "40°"
+      },
+      {
+        "question": "√144 = ?",
+        "options": [
+          "11",
+          "12",
+          "13",
+          "14"
+        ],
+        "answer": 1,
+        "explanation": "12"
+      },
+      {
+        "question": "LCM(12, 18, 24) = ?",
+        "options": [
+          "72",
+          "36",
+          "48",
+          "144"
+        ],
+        "answer": 0,
+        "explanation": "72"
+      },
+      {
+        "question": "HCF(36, 48) = ?",
+        "options": [
+          "12",
+          "6",
+          "24",
+          "18"
+        ],
+        "answer": 0,
+        "explanation": "12"
+      },
+      {
+        "question": "3³ × 3² = ?",
+        "options": [
+          "3⁶",
+          "3⁵",
+          "3⁷",
+          "9⁵"
+        ],
+        "answer": 1,
+        "explanation": "3⁵"
+      },
+      {
+        "question": "ஒரு வட்டத்தின் விட்டம் 14 செ.மீ. எனில் பரப்பளவு (π = 22/7)?",
+        "options": [
+          "154 ச.செ.மீ",
+          "308 ச.செ.மீ",
+          "44 ச.செ.மீ",
+          "616 ச.செ.மீ"
+        ],
+        "answer": 0,
+        "explanation": "154 ச.செ.மீ"
+      },
+      {
+        "question": "ஒரு எண்ணிற்கும் அதன் மூன்று மடங்கிற்கும் இடையிலான வித்தியாசம் 36 எனில் எண்?",
+        "options": [
+          "18",
+          "12",
+          "24",
+          "9"
+        ],
+        "answer": 0,
+        "explanation": "18"
+      },
+      {
+        "question": "5! (5 factorial) = ?",
+        "options": [
+          "100",
+          "120",
+          "60",
+          "150"
+        ],
+        "answer": 1,
+        "explanation": "120"
+      },
+      {
+        "question": "x² − 9 = 0 ல் x இன் மதிப்புகள்?",
+        "options": [
+          "±3",
+          "±9",
+          "3 மட்டும்",
+          "−3 மட்டும்"
+        ],
+        "answer": 0,
+        "explanation": "±3"
+      },
+      {
+        "question": "ஒரு இணைகரத்தின் அடி 10 செ.மீ., உயரம் 6 செ.மீ. எனில் பரப்பளவு?",
+        "options": [
+          "60 ச.செ.மீ",
+          "32 ச.செ.மீ",
+          "80 ச.செ.மீ",
+          "100 ச.செ.மீ"
+        ],
+        "answer": 0,
+        "explanation": "60 ச.செ.மீ"
+      },
+      {
+        "question": "கணிதத்தில் 'மாறி' (Variable) என்பது?",
+        "options": [
+          "ஒரு நிலையான எண்",
+          "மாறக்கூடிய ஒரு அளவை குறிக்கும் குறி",
+          "கணக்கு வகை",
+          "எண் முறை"
+        ],
+        "answer": 1,
+        "explanation": "மாறக்கூடிய ஒரு அளவை குறிக்கும் குறி"
+      },
+      {
+        "question": "ஒரு கனசதுரத்தின் பக்கம் 5 செ.மீ. எனில் கன அளவு?",
+        "options": [
+          "125 கன செ.மீ",
+          "25 கன செ.மீ",
+          "75 கன செ.மீ",
+          "250 கன செ.மீ"
+        ],
+        "answer": 0,
+        "explanation": "125 கன செ.மீ"
+      },
+      {
+        "question": "2.5 கி.மீ = _________ மீட்டர்",
+        "options": [
+          "250",
+          "2500",
+          "25",
+          "25000"
+        ],
+        "answer": 1,
+        "explanation": "2500"
+      },
+      {
+        "question": "ஒரு எண்ணை 8 ஆல் வகுக்க மீதி 5. அந்த எண்ணை 4 ஆல் வகுக்க மீதி?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "5"
+        ],
+        "answer": 0,
+        "explanation": "1"
+      },
+      {
+        "question": "30% of 200 + 20% of 300 = ?",
+        "options": [
+          "120",
+          "150",
+          "110",
+          "130"
+        ],
+        "answer": 0,
+        "explanation": "120"
+      },
+      {
+        "question": "ஒரு வகுப்பில் 60% மாணவர்கள் தேர்ச்சி பெற்றனர். 48 பேர் தேர்ச்சி பெற்றால் மொத்த மாணவர்கள்?",
+        "options": [
+          "80",
+          "100",
+          "120",
+          "60"
+        ],
+        "answer": 0,
+        "explanation": "80"
+      },
+      {
+        "question": "(-2)⁴ = ?",
+        "options": [
+          "-16",
+          "16",
+          "8",
+          "-8"
+        ],
+        "answer": 1,
+        "explanation": "16"
+      },
+      {
+        "question": "ஒரு தொகுப்பில் 5, 8, 12, 6, 9 உள்ளன. சராசரி?",
+        "options": [
+          "8",
+          "7",
+          "9",
+          "10"
+        ],
+        "answer": 0,
+        "explanation": "8"
+      },
+      {
+        "question": "ஒரு வாளி 3/4 நிரம்பியுள்ளது. 6 லிட்டர் சேர்க்க வழிந்தது. வாளி கொள்ளளவு?",
+        "options": [
+          "24 L",
+          "16 L",
+          "18 L",
+          "20 L"
+        ],
+        "answer": 0,
+        "explanation": "24 L"
+      },
+      {
+        "question": "விகிதம் 4:5 எனில் விகித சமம் எது?",
+        "options": [
+          "4:5 = 8:10",
+          "4:5 = 5:4",
+          "4:5 = 8:9",
+          "4:5 = 4:6"
+        ],
+        "answer": 0,
+        "explanation": "4:5 = 8:10"
+      },
+      {
+        "question": "ஒரு பெட்டியின் நீளம் 60 செ.மீ., அகலம் 40 செ.மீ., உயரம் 30 செ.மீ. கன அளவு?",
+        "options": [
+          "72000 கன செ.மீ",
+          "60000 கன செ.மீ",
+          "80000 கன செ.மீ",
+          "50000 கன செ.மீ"
+        ],
+        "answer": 0,
+        "explanation": "72000 கன செ.மீ"
+      },
+      {
+        "question": "'பகா எண்' (Prime Number) அல்லாதது எது?",
+        "options": [
+          "17",
+          "19",
+          "21",
+          "23"
+        ],
+        "answer": 2,
+        "explanation": "21"
+      },
+      {
+        "question": "6ஆம் வகுப்பு: ஒளிச்சேர்க்கையில் தேவையான முக்கிய இரண்டு பொருட்கள்?",
+        "options": [
+          "O₂ மற்றும் CO₂",
+          "CO₂ மற்றும் H₂O",
+          "H₂O மற்றும் O₂",
+          "N₂ மற்றும் CO₂"
+        ],
+        "answer": 1,
+        "explanation": "CO₂ மற்றும் H₂O"
+      },
+      {
+        "question": "மனிதர்களின் இரத்தத்தில் சிவப்பு நிறம் எதனால்?",
+        "options": [
+          "கிளோரோபில்",
+          "ஹீமோகுளோபின்",
+          "மெலனின்",
+          "கெரட்டின்"
+        ],
+        "answer": 1,
+        "explanation": "ஹீமோகுளோபின்"
+      },
+      {
+        "question": "நியூட்டனின் முதல் விதி என்ன?",
+        "options": [
+          "F = ma",
+          "ஒவ்வொரு செயலுக்கும் சம எதிர் செயல் உண்டு",
+          "ஓய்வில் உள்ள பொருள் ஓய்விலேயே இருக்கும்",
+          "E = mc²"
+        ],
+        "answer": 2,
+        "explanation": "ஓய்வில் உள்ள பொருள் ஓய்விலேயே இருக்கும்"
+      },
+      {
+        "question": "7ஆம் வகுப்பு: 'இன்சுலின்' எந்த சுரப்பியில் உற்பத்தியாகிறது?",
+        "options": [
+          "கல்லீரல்",
+          "கணையம் (Pancreas)",
+          "சிறுநீரகம்",
+          "தைராய்டு"
+        ],
+        "answer": 1,
+        "explanation": "கணையம் (Pancreas)"
+      },
+      {
+        "question": "தாவரங்களில் நீர் மற்றும் தாதுக்கள் எந்த திசுவால் கடத்தப்படுகிறது?",
+        "options": [
+          "ஃபுளோயம்",
+          "கைலம் (Xylem)",
+          "எபிடெர்மிஸ்",
+          "கோர்டெக்ஸ்"
+        ],
+        "answer": 1,
+        "explanation": "கைலம் (Xylem)"
+      },
+      {
+        "question": "8ஆம் வகுப்பு: அணுவில் நியூட்ரான் எங்கே இருக்கிறது?",
+        "options": [
+          "வெளிப்புற சுற்றுப்பாதையில்",
+          "கருவில் (Nucleus)",
+          "எலக்ட்ரான் மேகத்தில்",
+          "வேலன்சி கவசத்தில்"
+        ],
+        "answer": 1,
+        "explanation": "கருவில் (Nucleus)"
+      },
+      {
+        "question": "'வேதி மாற்றம்' (Chemical Change) ஐ காட்டும் உதாரணம்?",
+        "options": [
+          "நீரை சூடாக்குதல்",
+          "இரும்பு துரு பிடித்தல்",
+          "கண்ணாடி உடைத்தல்",
+          "தாள் மடித்தல்"
+        ],
+        "answer": 1,
+        "explanation": "இரும்பு துரு பிடித்தல்"
+      },
+      {
+        "question": "ஒலி எந்த வகை அலை?",
+        "options": [
+          "குறுக்கலை (Transverse Wave)",
+          "நெடுக்கலை (Longitudinal Wave)",
+          "மின்காந்த அலை",
+          "ஒளி அலை"
+        ],
+        "answer": 1,
+        "explanation": "நெடுக்கலை (Longitudinal Wave)"
+      },
+      {
+        "question": "'ஒளி ஆண்டு' (Light Year) என்பது எதை அளவிடுகிறது?",
+        "options": [
+          "நேரம்",
+          "வேகம்",
+          "தூரம்",
+          "அழுத்தம்"
+        ],
+        "answer": 2,
+        "explanation": "தூரம்"
+      },
+      {
+        "question": "மனித உடலின் மிகப்பெரிய உறுப்பு எது?",
+        "options": [
+          "இதயம்",
+          "கல்லீரல்",
+          "தோல்",
+          "மூளை"
+        ],
+        "answer": 2,
+        "explanation": "தோல்"
+      },
+      {
+        "question": "6ஆம் வகுப்பு: மகரந்த துகள் மகரந்த தாள் மேல் படுவது?",
+        "options": [
+          "விதை முளைத்தல்",
+          "மகரந்தச் சேர்க்கை",
+          "பூக்கள் உதிர்தல்",
+          "கனி உருவாதல்"
+        ],
+        "answer": 1,
+        "explanation": "மகரந்தச் சேர்க்கை"
+      },
+      {
+        "question": "8ஆம் வகுப்பு: கார்பன் (C) அணுவின் அணு எண் (Atomic Number)?",
+        "options": [
+          "8",
+          "6",
+          "12",
+          "14"
+        ],
+        "answer": 1,
+        "explanation": "6"
+      },
+      {
+        "question": "'பசுமை இல்ல வாயு' (Greenhouse Gas) முக்கிய உதாரணம்?",
+        "options": [
+          "N₂",
+          "CO₂",
+          "O₂",
+          "H₂"
+        ],
+        "answer": 1,
+        "explanation": "CO₂"
+      },
+      {
+        "question": "திரவங்களில் வெப்பம் கடத்தலில் நடைபெறும் முறை?",
+        "options": [
+          "கடத்தல் (Conduction)",
+          "கதிர்வீச்சு (Radiation)",
+          "வெப்பச்சலனம் (Convection)",
+          "இவை அனைத்தும்"
+        ],
+        "answer": 2,
+        "explanation": "வெப்பச்சலனம் (Convection)"
+      },
+      {
+        "question": "'ஓஜோன் படலம்' எந்த கதிர்வீச்சை தடுக்கிறது?",
+        "options": [
+          "இன்ஃப்ரா ரெட்",
+          "அதிர்வு",
+          "புற ஊதாக்கதிர் (UV)",
+          "காமா கதிர்"
+        ],
+        "answer": 2,
+        "explanation": "புற ஊதாக்கதிர் (UV)"
+      },
+      {
+        "question": "7ஆம் வகுப்பு: 'வடிகட்டுதல்' (Filtration) எதை பிரிக்கிறது?",
+        "options": [
+          "கரைந்த பொருள்கள்",
+          "கரையாத திட பொருள்கள்",
+          "வாயுக்கள்",
+          "அனைத்தையும்"
+        ],
+        "answer": 1,
+        "explanation": "கரையாத திட பொருள்கள்"
+      },
+      {
+        "question": "மனித மூளையில் 'சிறுமூளை' (Cerebellum) என்ன செய்கிறது?",
+        "options": [
+          "சிந்தனை",
+          "சமன் (Balance) மற்றும் இயக்க ஒருங்கமைப்பு",
+          "கேட்கும் திறன்",
+          "தொடு உணர்வு"
+        ],
+        "answer": 1,
+        "explanation": "சமன் (Balance) மற்றும் இயக்க ஒருங்கமைப்பு"
+      },
+      {
+        "question": "'மின்னோட்டம்' (Electric Current) அளவிடும் அலகு?",
+        "options": [
+          "வோல்ட்",
+          "அம்பியர்",
+          "வாட்",
+          "ஓம்"
+        ],
+        "answer": 1,
+        "explanation": "அம்பியர்"
+      },
+      {
+        "question": "8ஆம் வகுப்பு: NaCl (சோடியம் குளோரைடு) எந்த வகை பிணைப்பு?",
+        "options": [
+          "சகப்பிணைப்பு",
+          "அயனி பிணைப்பு",
+          "உலோக பிணைப்பு",
+          "ஹைட்ரஜன் பிணைப்பு"
+        ],
+        "answer": 1,
+        "explanation": "அயனி பிணைப்பு"
+      },
+      {
+        "question": "காற்றை பயன்படுத்தி விதைகள் பரவும் தாவரம்?",
+        "options": [
+          "மாமரம்",
+          "பருத்தி",
+          "தக்காளி",
+          "வாழை"
+        ],
+        "answer": 1,
+        "explanation": "பருத்தி"
+      },
+      {
+        "question": "'எகோசிஸ்டம்' (Ecosystem) என்பது?",
+        "options": [
+          "வெறும் உயிரினங்கள்",
+          "உயிரினங்கள் மற்றும் அவற்றின் சூழல் சேர்ந்தது",
+          "மட்டுமே மண்",
+          "மட்டுமே காற்று"
+        ],
+        "answer": 1,
+        "explanation": "உயிரினங்கள் மற்றும் அவற்றின் சூழல் சேர்ந்தது"
+      },
+      {
+        "question": "6ஆம் வகுப்பு: முதல் வகை லீவர் உதாரணம்?",
+        "options": [
+          "சக்கரம்",
+          "திண்டுமணி (Seesaw)",
+          "தண்ணீர் பம்ப்",
+          "சாய்தளம்"
+        ],
+        "answer": 1,
+        "explanation": "திண்டுமணி (Seesaw)"
+      },
+      {
+        "question": "மனித இதயத்தில் எத்தனை அறைகள் உள்ளன?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "6"
+        ],
+        "answer": 2,
+        "explanation": "4"
+      },
+      {
+        "question": "DNA ஐ வெட்ட பயன்படும் நொதி (Enzyme)?",
+        "options": [
+          "DNAse",
+          "Restriction Enzyme",
+          "Ligase",
+          "Polymerase"
+        ],
+        "answer": 1,
+        "explanation": "Restriction Enzyme"
+      },
+      {
+        "question": "7ஆம் வகுப்பு: ஒளியின் வேகம் வெற்றிடத்தில்?",
+        "options": [
+          "3×10⁶ m/s",
+          "3×10⁸ m/s",
+          "3×10¹⁰ m/s",
+          "3×10⁴ m/s"
+        ],
+        "answer": 1,
+        "explanation": "3×10⁸ m/s"
+      },
+      {
+        "question": "'ஆவியாதல்' (Evaporation) எந்த நிலையில் நடைபெறுகிறது?",
+        "options": [
+          "கொதிநிலையில் மட்டும்",
+          "எந்த வெப்பநிலையிலும் பரப்பு தளத்தில்",
+          "உறைநிலையில்",
+          "அழுத்தம் அதிகமாக இருக்கும்போது"
+        ],
+        "answer": 1,
+        "explanation": "எந்த வெப்பநிலையிலும் பரப்பு தளத்தில்"
+      },
+      {
+        "question": "'உராய்வு விசை' (Friction) இல்லாத உலகில் என்ன ஆகும்?",
+        "options": [
+          "அனைத்தும் சுலபமாகும்",
+          "நாம் நடக்கவே முடியாது",
+          "விரைவாக ஓட முடியும்",
+          "சுலபமாக எழுத முடியும்"
+        ],
+        "answer": 1,
+        "explanation": "நாம் நடக்கவே முடியாது"
+      },
+      {
+        "question": "'கேடுயிரி' (Parasite) என்பது?",
+        "options": [
+          "புரவலனுக்கு பயனளிக்கும் உயிரி",
+          "புரவலனிடம் இருந்து மட்டுமே பலன் பெற்று தீங்கு செய்யும் உயிரி",
+          "இரண்டிற்கும் பயன்தரும் உயிரி",
+          "சுயமாக வாழும் உயிரி"
+        ],
+        "answer": 1,
+        "explanation": "புரவலனிடம் இருந்து மட்டுமே பலன் பெற்று தீங்கு செய்யும் உயிரி"
+      },
+      {
+        "question": "8ஆம் வகுப்பு: 'கிரகணம்' (Eclipse) எப்போது ஏற்படுகிறது?",
+        "options": [
+          "சூரியன் பூமிக்கு மிக அருகில் வரும்போது",
+          "நிலவு அல்லது பூமி சூரிய ஒளியை தடுக்கும்போது",
+          "மழைக்காலத்தில்",
+          "இரவு நேரத்தில்"
+        ],
+        "answer": 1,
+        "explanation": "நிலவு அல்லது பூமி சூரிய ஒளியை தடுக்கும்போது"
+      },
+      {
+        "question": "'ஆக்ஸிஜன்' இல்லாமல் நடைபெறும் சுவாசம்?",
+        "options": [
+          "வாயுசுவாசம் (Aerobic)",
+          "காற்றிலா சுவாசம் (Anaerobic)",
+          "ஒளிச்சேர்க்கை",
+          "இரசாயன சுவாசம்"
+        ],
+        "answer": 1,
+        "explanation": "காற்றிலா சுவாசம் (Anaerobic)"
+      }
+    ]
+  }
+}

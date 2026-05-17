@@ -1,0 +1,139 @@
+{
+  "isBilingual": true,
+  "unit": "Unit 3",
+  "subject": "Maths",
+  "class": "6",
+  "term": 1,
+  "title": "Ratio and Proportion (விகிதம் மற்றும் விகித சமம்)",
+  "summary": "விகிதம், விகித சமம், அவற்றின் பண்புகள் மற்றும் அன்றாட வாழ்வில் அவற்றின் பயன்பாடுகள் குறித்த விரிவான விளக்கம்.",
+  "material": {
+    "isBilingual": true,
+    "sections": [
+      {
+        "title": "3.1 அறிமுகம் (Introduction)",
+        "type": "bilingual",
+        "en": ["In daily life, we compare quantities in many situations. 'Ratio' is used to compare two quantities. A ratio is a mathematical way of indicating how many times one quantity is as large as another. It is considered a form of a fraction. A very important rule when comparing quantities is that their units must be the same."],
+        "ta": ["அன்றாட வாழ்வில் நாம் பல சூழ்நிலைகளில் அளவுகளை ஒப்பிடுகிறோம். இரண்டு அளவுகளை ஒப்பிடுவதற்கு 'விகிதம்' (Ratio) பயன்படுகிறது. விகிதம் என்பது ஒரு பொருளின் அளவு மற்றொரு பொருளின் அளவைப் போல எத்தனை மடங்கு உள்ளது என்பதை குறிக்கும் ஒரு கணித முறையாகும். இது பின்னத்தின் ஒரு வடிவமாகவே கருதப்படுகிறது. அளவுகளை ஒப்பிடும் போது அவற்றின் அலகுகள் ஒரே மாதிரியாக இருக்க வேண்டும் என்பது மிக முக்கிய விதியாகும்."]
+      },
+      {
+        "title": "3.2 விகிதம் (Ratio)",
+        "type": "bilingual",
+        "en": ["Comparing two quantities by division is called a ratio. The ratio of two numbers 'a' and 'b' can be written as 'a:b'. This is read as 'a is to b'. A ratio can also be written as a fraction (a/b). A ratio is a comparison of two quantities with similar units. For example, the ratio of 5 m and 3 m is 5:3."],
+        "ta": ["இரண்டு அளவுகளை வகுத்தல் மூலம் ஒப்பிடுவது விகிதம் எனப்படும். 'a' மற்றும் 'b' என்ற இரண்டு எண்களின் விகிதத்தை 'a:b' என எழுதலாம். இதனை 'a இஸ்டு b' (a is to b) எனப் படிக்க வேண்டும். விகிதத்தை பின்னமாகவும் (a/b) எழுதலாம். விகிதம் என்பது ஒத்த அலகுகளுடைய இரண்டு அளவுகளின் ஒப்பீடு ஆகும். எடுத்துக்காட்டாக, 5 மீ மற்றும் 3 மீ என்பவற்றின் விகிதம் 5:3 ஆகும்."]
+      },
+      {
+        "title": "3.3 விகிதத்தின் பண்புகள் (Properties of Ratio)",
+        "type": "bilingual",
+        "en": [
+          "1. A ratio has no unit. It is a numerical value only. (e.g., the ratio of 3 km and 2 km is 3:2. The unit 'km' will not appear).",
+          "2. Both quantities in a ratio must be in the same unit. If the units are different, they must first be converted to the same unit before finding the ratio.",
+          "3. The order of terms in a ratio cannot be changed (a:b is not equal to b:a).",
+          "4. A ratio should always be expressed in its simplest form."
+        ],
+        "ta": [
+          "1. விகிதத்திற்கு அலகு இல்லை. இது ஒரு எண் மதிப்பு மட்டுமே. (எ.கா: 3 கி.மீ மற்றும் 2 கி.மீ விகிதம் 3:2. இதில் கி.மீ என்ற அலகு வராது).",
+          "2. விகிதத்தில் உள்ள இரு அளவுகளும் ஒரே அலகில் இருக்க வேண்டும். அலகுகள் வெவ்வேறாக இருந்தால், முதலில் அவற்றை ஒரே அலகிற்கு மாற்றி பின் விகிதம் காண வேண்டும்.",
+          "3. விகிதத்தில் உள்ள உறுப்புகளின் வரிசையை மாற்றக் கூடாது (a:b என்பது b:a என்பதற்கு சமமல்ல).",
+          "4. விகிதத்தை எப்போதும் அதன் எளிய வடிவத்திலேயே (Simplest form) கூற வேண்டும்."
+        ]
+      },
+      {
+        "title": "3.4 சமான விகிதங்கள் (Equivalent Ratios)",
+        "type": "bilingual",
+        "en": [
+          "If the numerator and denominator (the first term and the second term) of a ratio are multiplied or divided by the same non-zero number, the value of that ratio does not change. These are called equivalent ratios.",
+          "For example, 1:2, 2:4, 3:6, 4:8 are equivalent ratios. This can be done just like converting fractions into equivalent fractions."
+        ],
+        "ta": [
+          "ஒரு விகிதத்தின் தொகுதி மற்றும் பகுதியை (முன் உறுப்பு மற்றும் பின் உறுப்பை) ஒரே பூஜ்யமற்ற எண்ணால் பெருக்கினாலோ அல்லது வகுத்தாலோ, அந்த விகிதத்தின் மதிப்பு மாறாது. இவையே சமான விகிதங்கள் எனப்படும்.",
+          "எடுத்துக்காட்டாக, 1:2, 2:4, 3:6, 4:8 ஆகியவை சமான விகிதங்கள் ஆகும். பின்னங்களை சமான பின்னங்களாக மாற்றுவது போலவே இதையும் செய்யலாம்."
+        ]
+      },
+      {
+        "title": "3.5 விகித சமம் (Proportion)",
+        "type": "bilingual",
+        "en": ["If two ratios are equal, they are said to be 'in proportion'. If two ratios a:b and c:d are equal, it can be written as a:b :: c:d or a:b = c:d. This is read as 'a is to b as c is to d'. In this, a, b, c, d are called the terms of the proportion."],
+        "ta": ["இரண்டு விகிதங்கள் சமமாக இருந்தால் அவை 'விகித சமத்தில்' உள்ளன எனப்படும். a:b மற்றும் c:d ஆகிய இரு விகிதங்கள் சமம் எனில், அதனை a:b :: c:d அல்லது a:b = c:d என எழுதலாம். இதனை 'a இஸ்டு b ஆஸ் c இஸ்டு d' எனப் படிக்கலாம். இதில் a, b, c, d என்பன விகித சமத்தின் உறுப்புகள் எனப்படும்."]
+      },
+      {
+        "title": "3.6 விகித சம விதி (Law of Proportion)",
+        "type": "bilingual",
+        "en": [
+          "If four numbers a, b, c, d are in proportion, the product of their extremes is equal to the product of their means. That is, if a:b :: c:d, then a x d = b x c (ad = bc).",
+          "In this, a and d are called extremes, and b and c are called means. This rule is very useful for finding a missing number in a proportion."
+        ],
+        "ta": [
+          "a, b, c, d ஆகிய நான்கு எண்கள் விகித சமத்தில் இருந்தால், அவற்றின் கோடி உறுப்புகளின் பெருக்கற்பலனும், நடு உறுப்புகளின் பெருக்கற்பலனும் சமமாக இருக்கும். அதாவது a:b :: c:d எனில், a x d = b x c (ad = bc).",
+          "இதில் a மற்றும் d கோடி உறுப்புகள் (Extremes) எனவும், b மற்றும் c நடு உறுப்புகள் (Means) எனவும் அழைக்கப்படும். ஒரு விகித சமத்தில் விடுபட்ட எண்ணை காண இவ்விதி பெரிதும் பயன்படுகிறது."
+        ]
+      },
+      {
+        "title": "3.7 ஓரலகு முறை (Unitary Method)",
+        "type": "bilingual",
+        "en": [
+          "The method of finding the value of one unit from given quantities first, and then calculating the value of the required number of units from it, is called the 'Unitary Method'.",
+          "Steps:",
+          "1. Find the value of one unit by division.",
+          "2. Find the answer by multiplying that value by the required number of units.",
+          "Example: If the cost of 5 pens is 50, then the cost of 1 pen = 50/5 = 10. Therefore, the cost of 3 pens = 3 x 10 = 30."
+        ],
+        "ta": [
+          "கொடுக்கப்பட்டுள்ள அளவுகளில் இருந்து முதலில் ஒரு அலகின் (1 unit) மதிப்பைக் கண்டுபிடித்து, பின்னர் அதிலிருந்து தேவைப்படும் அளவுகளின் மதிப்பைக் கணக்கிடும் முறைக்கு 'ஓரலகு முறை' என்று பெயர்.",
+          "படிநிலைகள்:",
+          "1. வகுத்தல் மூலம் ஒரு அலகின் மதிப்பைக் காணுதல்.",
+          "2. அந்த மதிப்பை தேவையான அளவால் பெருக்கி விடையைக் காணுதல்.",
+          "எ.கா: 5 பேனாக்களின் விலை 50 எனில், 1 பேனாவின் விலை = 50/5 = 10. எனவே 3 பேனாக்களின் விலை = 3 x 10 = 30."
+        ]
+      },
+      {
+        "title": "3.8 நினைவில் கொள்க (Key Points)",
+        "type": "bilingual",
+        "en": [
+          "1. A ratio can be simplified just like a fraction in its simplest form.",
+          "2. Equivalent ratios can be easily found by converting the ratio into a fraction.",
+          "3. Before comparing measures with different units, converting the larger unit into the smaller unit makes the calculation easier (e.g., converting meters to centimeters).",
+          "4. The law of proportion ad = bc is very important in mathematical competitions."
+        ],
+        "ta": [
+          "1. ஒரு பின்னத்தை எளிய வடிவில் சுருக்குவது போன்றே விகிதத்தையும் சுருக்கலாம்.",
+          "2. விகிதத்தை பின்னமாக மாற்றி சமான விகிதங்களை எளிதாகக் காணலாம்.",
+          "3. வெவ்வேறு அலகுகளைக் கொண்ட அளவுகளை ஒப்பிடும் முன், பெரிய அலகை சிறிய அலகாக மாற்றுவது கணக்கீட்டை எளிதாக்கும் (எ.கா: மீட்டரை சென்டிமீட்டராக மாற்றுதல்).",
+          "4. ad = bc என்ற விகித சம விதி கணிதப் போட்டிகளில் மிக முக்கியமானது."
+        ]
+      },
+      {
+        "title": "3.9 மேலும் அறிந்து கொள்வோம் (More to Know)",
+        "type": "bilingual",
+        "en": [
+          "Proportions exist even in our body structure. Ratios are inherently present in nature, such as the ratio of face length to width, and the ratio of arm length. Ratio and proportion play a major role in art, architecture (Golden Ratio), and maps (Map scaling).",
+          "On a map, 1 cm can represent an actual 100 km (1:10,000,000)."
+        ],
+        "ta": [
+          "நம் உடலின் அமைப்பில்கூட விகிதம் உள்ளது. முகத்தின் நீள அகல விகிதம், கைகளின் நீள விகிதம் என இயற்கையிலேயே பல விகிதங்கள் பொதிந்துள்ளன. கலை, கட்டடக் கலை (Golden Ratio - தங்க விகிதம்), வரைபடங்கள் (Map scaling) போன்றவற்றில் விகிதம் மற்றும் விகித சமம் முக்கியப் பங்கு வகிக்கிறது. வரைபடத்தில் 1 செ.மீ என்பது உண்மையான 100 கி.மீ ஐ குறிக்கலாம் (1:10000000)."
+        ]
+      },
+      {
+        "title": "3.10 புத்தக மதிப்பீடு (Book Back Evaluation)",
+        "type": "bilingual",
+        "en": [
+          "1. Ratio of 3 rupees to 5 rupees = 3:5.",
+          "2. Ratio of 3 meters to 200 centimeters = 300:200 = 3:2.",
+          "3. Ratio of 5 kilometers to 400 meters = 5000:400 = 50:4 = 25:2.",
+          "4. Ratio of 75 paise to 2 rupees = 75:200 = 3:8.",
+          "5. If there are 50 boys and 30 girls in a class, the ratio of boys to girls = 50:30 = 5:3."
+        ],
+        "ta": [
+          "1. 3 ரூபாய்க்கும் 5 ரூபாய்க்கும் உள்ள விகிதம் = 3:5.",
+          "2. 3 மீட்டருக்கும் 200 சென்டிமீட்டருக்கும் உள்ள விகிதம் = 300:200 = 3:2.",
+          "3. 5 கிலோமீட்டருக்கும் 400 மீட்டருக்கும் உள்ள விகிதம் = 5000:400 = 50:4 = 25:2.",
+          "4. 75 பைசாவுக்கும் 2 ரூபாய்க்கும் உள்ள விகிதம் = 75:200 = 3:8.",
+          "5. ஒரு வகுப்பில் 50 மாணவர்களும் 30 மாணவிகளும் உள்ளனர் எனில், மாணவர்களுக்கும் மாணவிகளுக்கும் உள்ள விகிதம் = 50:30 = 5:3."
+        ]
+      }
+    ]
+  },
+  "quiz": {
+    "questions": []
+  },
+  "credits": "A1 ONLINE COACHING CENTER"
+}

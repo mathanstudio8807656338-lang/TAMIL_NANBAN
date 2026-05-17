@@ -1,0 +1,1175 @@
+<!DOCTYPE html>
+<html lang="ta">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400;500;600;700;800&family=Noto+Sans+Tamil:wght@400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>A1 Coaching Center</title>
+    <script src="js/auth.js" type="module"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <!-- html2pdf for robust mobile downloads -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <!-- MathJax loaded conditionally via JS -->
+    <style>
+/* --- BRAND HEADER --- */
+.header-standard {
+    background: #ffffff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #1e3a8a;
+    border-bottom: 1px solid #1e3a8a;
+}
+.brand-container {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.brand-main {
+    font-family: 'Baloo Thambi 2', cursive;
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: #1e3a8a;
+    line-height: 1.2;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+.brand-sub {
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #ef4444;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-top: -2px;
+}
+@media (max-width: 480px) {
+    .brand-main { font-size: 1.5rem; }
+    .brand-sub { font-size: 0.65rem; }
+    .header-standard { height: 60px; }
+}
+
+/* Bottom Nav */
+.bottom-nav {
+    position: fixed;
+    bottom: 0; left: 0; right: 0;
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.6rem 0.4rem;
+    box-shadow: 0 -4px 20px rgba(0,0,0,0.08);
+    z-index: 1000;
+    border-top: 1px solid #f1f5f9;
+}
+.nav-item {
+    text-decoration: none;
+    color: #64748b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.65rem;
+    font-weight: 700;
+    gap: 4px;
+    flex: 1;
+    transition: color 0.3s ease;
+}
+.nav-item.active { color: #1e3a8a; }
+.nav-item.logout { color: #ef4444; }
+.nav-icon { font-size: 1.2rem; margin-bottom: 2px; }
+
+/* Global fixes */
+body {
+    padding-bottom: 80px;
+}
+
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Tamil:wght@400;700;800&family=Outfit:wght@300;400;600;800&display=swap');
+
+        :root {
+            --primary: #1e3a8a;
+            --secondary: #10b981;
+            --bg: #f0f9ff;
+            --card-bg: #ffffff;
+            --text-main: #0f172a;
+        }
+
+        body {
+            font-family: 'Outfit', 'Noto Sans Tamil', sans-serif;
+            background-color: var(--bg);
+            color: var(--text-main);
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            transition: background-color 0.4s ease;
+        }
+
+        .header-bar {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            padding: 4rem 1rem 6rem;
+            text-align: center;
+            transition: all 0.5s ease;
+            position: relative;
+        }
+
+        .header-card {
+            background: white;
+            color: var(--text-main);
+            max-width: 750px;
+            margin: 0 auto;
+            padding: 2.5rem;
+            border-radius: 2rem;
+            box-shadow: 0 15px 50px rgba(0, 0, 0, 0.15);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+            position: relative;
+            z-index: 20;
+            border: 1px solid rgba(255, 255, 255, 0.8);
+        }
+
+        .header-logo {
+            height: 85px;
+            filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.1));
+            margin-bottom: 0.5rem;
+        }
+
+        .header-card h1 {
+            margin: 0;
+            font-size: 2.2rem;
+            font-weight: 900;
+            color: var(--primary);
+            text-transform: uppercase;
+            letter-spacing: -0.5px;
+            line-height: 1.1;
+        }
+
+        .header-subtitle {
+            font-size: 1.15rem;
+            font-weight: 800;
+            color: #64748b;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: -4rem auto 4rem;
+            padding: 0 1.5rem;
+            position: relative;
+            z-index: 10;
+        }
+
+        .material-card {
+            background: var(--card-bg);
+            border-radius: 1.5rem;
+            padding: 2.5rem;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.06);
+            border: 1px solid rgba(0, 0, 0, 0.05);
+            animation: slideUp 0.5s ease-out;
+        }
+
+        @keyframes slideUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .watermark {
+            position: fixed;
+            top: 30%;
+            left: 50%;
+            transform: translate(-50%, -50%) rotate(-35deg);
+            font-size: 40pt;
+            font-weight: 900;
+            color: rgba(0, 0, 0, 0.06);
+            white-space: nowrap;
+            user-select: none;
+            pointer-events: none;
+            z-index: -100;
+        }
+
+        .watermark-lower {
+            top: 70%;
+        }
+
+        .section-header {
+            color: var(--primary);
+            font-size: 1.6rem;
+            font-weight: 800;
+            border-bottom: 4px solid var(--secondary);
+            width: fit-content;
+            padding-bottom: 0.3rem;
+            margin: 3.5rem 0 1.5rem;
+            transition: all 0.4s ease;
+            position: relative;
+        }
+
+        .section-header::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 50%;
+            height: 4px;
+            background: var(--primary);
+            border-radius: 2px;
+        }
+
+        .section-body {
+            font-size: 1.25rem;
+            line-height: 1.9;
+            color: var(--text-main);
+            text-align: justify;
+            margin-bottom: 1.25rem;
+        }
+
+        .keyword {
+            color: #db2777;
+            font-weight: 800;
+            background: rgba(219, 39, 119, 0.05);
+            padding: 2px 6px;
+            border-radius: 6px;
+            display: inline-block;
+        }
+
+        .info-box {
+            background: #fdfcf6;
+            border: 1px solid #fef3c7;
+            border-left: 6px solid #f59e0b;
+            padding: 1.8rem;
+            border-radius: 1.2rem;
+            margin: 2rem 0;
+            box-shadow: 0 4px 15px rgba(245, 158, 11, 0.05);
+            transition: transform 0.3s ease;
+        }
+
+        .info-box:hover {
+            transform: scale(1.01);
+        }
+
+        .qa-item {
+            background: #ffffff;
+            padding: 1.5rem;
+            border-radius: 1.2rem;
+            margin-bottom: 1.2rem;
+            border: 1px solid #f1f5f9;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+            transition: 0.3s;
+        }
+
+        .qa-item:hover {
+            transform: translateX(5px);
+            border-color: var(--primary);
+        }
+
+        .qa-q {
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 0.8rem;
+            font-size: 1.25rem;
+        }
+
+        .lesson-banner {
+            width: 100%;
+            height: 200px;
+            background-size: cover;
+            background-position: center;
+            border-radius: 1.2rem;
+            margin-bottom: 2rem;
+            display: flex;
+            align-items: flex-end;
+            padding: 2rem;
+            color: white;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .lesson-banner::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+        }
+
+        .lesson-banner h2 {
+            position: relative;
+            z-index: 2;
+            margin: 0;
+            font-size: 1.8rem;
+            text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .sticky-back {
+            position: fixed;
+            bottom: 2rem;
+            left: 1.5rem;
+            z-index: 100;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .back-btn {
+            width: 50px;
+            height: 50px;
+            background: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            text-decoration: none;
+            color: var(--text-main);
+            transition: 0.3s;
+        }
+
+        .back-btn:hover {
+            transform: scale(1.1);
+            color: var(--primary);
+        }
+
+        .print-btn {
+            background: var(--primary);
+            color: white;
+            border: none;
+            cursor: pointer;
+            transition: background 0.4s ease;
+        }
+
+        .print-btn:hover {
+            color: white;
+            filter: brightness(1.2);
+        }
+
+        .loading-screen {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: var(--bg);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+        }
+
+        .spinner {
+            width: 50px;
+            height: 50px;
+            border: 5px solid #e2e8f0;
+            border-top-color: var(--primary);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        .en-text {
+            font-weight: bold;
+        }
+
+        .tm-text {
+            font-weight: normal;
+        }
+
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        @media (max-width: 640px) {
+            .header-bar h1 {
+                font-size: 1.3rem;
+            }
+
+            .material-card {
+                padding: 1.5rem;
+                border-radius: 1rem;
+            }
+
+            .section-header {
+                font-size: 1.3rem;
+            }
+        }
+
+        /* --- PREMIUM UI STYLES --- */
+        body.premium-ui .material-card {
+            background: #ffffff;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.06);
+            border-top: 8px solid #2563eb;
+        }
+
+        body.premium-ui .section-header {
+            background: linear-gradient(90deg, #1d4ed8, #2563eb);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            border-bottom: none;
+            padding-bottom: 0.8rem;
+            font-size: 1.8rem;
+            font-weight: 900;
+        }
+
+        body.premium-ui .pm-q-box {
+            background: #ffffff;
+            border-radius: 1.5rem;
+            padding: 2rem;
+            margin-bottom: 2.5rem;
+            border: 1px solid #f1f5f9;
+            border-left: 8px solid #2563eb;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);
+            position: relative;
+        }
+
+        body.premium-ui .pm-q-box .pm-question {
+            color: #1e3a8a;
+            font-weight: 800;
+            margin-bottom: 1.5rem;
+            font-size: 1.45rem;
+            line-height: 1.5;
+        }
+
+        body.premium-ui .pm-q-box .pm-answer {
+            background: #fff1f2;
+            color: #db2777;
+            font-weight: 800;
+            margin-top: 1.2rem;
+            padding: 0.8rem 1.5rem;
+            border-radius: 12px;
+            display: inline-block;
+            border: 1px solid #fbcfe8;
+            font-size: 1.15rem;
+            box-shadow: 0 4px 10px rgba(219, 39, 119, 0.05);
+        }
+
+        body.premium-ui .pm-q-box .pm-explanation {
+            color: #92400e;
+            margin-top: 1.2rem;
+            background: #fffbeb;
+            padding: 1.2rem;
+            border-radius: 12px;
+            border: 1px solid #fef3c7;
+            border-left: 5px solid #f59e0b;
+            font-size: 1.25rem;
+            line-height: 1.7;
+        }
+
+        /* --- BILINGUAL TOGGLE STYLES --- */
+        .lang-toggle {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 2rem;
+            position: sticky;
+            top: 10px;
+            z-index: 50;
+        }
+
+        .lang-btn {
+            padding: 0.8rem 2rem;
+            border-radius: 50px;
+            border: 2px solid var(--primary);
+            background: white;
+            color: var(--primary);
+            font-weight: 800;
+            cursor: pointer;
+            transition: all 0.3s;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+        }
+
+        .lang-btn.active {
+            background: var(--primary);
+            color: white;
+            box-shadow: 0 4px 15px rgba(30, 58, 138, 0.3);
+        }
+
+        .lang-btn:hover:not(.active) {
+            background: rgba(30, 58, 138, 0.05);
+            transform: translateY(-2px);
+        }
+
+        @media print {
+            .lang-toggle { display: none; }
+        }
+        /* --- END BILINGUAL TOGGLE STYLES --- */
+        
+        /* Psychology Specific Overrides */
+        body.psychology-view .watermark {
+            z-index: 1000 !important;
+            opacity: 0.1 !important; /* Slightly more visible but still readable */
+            color: rgba(0, 0, 0, 0.12);
+        }
+
+        @media (max-width: 640px) {
+            body.psychology-view .container {
+                padding: 0;
+                margin-top: -3rem;
+                width: 100%;
+                max-width: 100%;
+            }
+            body.psychology-view .material-card {
+                padding: 1.5rem 0.75rem;
+                border-radius: 0;
+                box-shadow: none;
+                border: none;
+            }
+            body.psychology-view .section-header {
+                font-size: 1.4rem;
+                margin-top: 2rem;
+            }
+        }
+
+        /* --- END PREMIUM UI STYLES --- */
+
+        /* TTS Button Styles */
+        .tts-btn {
+            background: #eff6ff;
+            border: 1px solid #bfdbfe;
+            border-radius: 50%;
+            width: 36px;
+            height: 36px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.2s;
+            font-size: 1.2rem;
+            color: #2563eb;
+            margin-left: 15px;
+            vertical-align: middle;
+        }
+        .tts-btn:hover {
+            background: #dbeafe;
+            transform: scale(1.1);
+        }
+
+        /* Audio Player Styles */
+        .audio-player-container {
+            display: none;
+            background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+            border-radius: 20px;
+            padding: 1.2rem;
+            margin: 1rem auto 2.5rem;
+            max-width: 600px;
+            box-shadow: 0 15px 35px rgba(30, 58, 138, 0.25);
+            color: white;
+            animation: slideDown 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+        @keyframes slideDown {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .audio-controls {
+            display: flex;
+            align-items: center;
+            gap: 1.2rem;
+        }
+        .play-btn {
+            background: white;
+            border: none;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: transform 0.2s;
+            flex-shrink: 0;
+            color: #1e3a8a;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        .play-btn:hover { transform: scale(1.1); }
+        .play-btn svg { width: 24px; height: 24px; }
+        .audio-info { flex: 1; }
+        .audio-title { font-weight: 800; font-size: 0.95rem; margin-bottom: 0.4rem; letter-spacing: 0.5px; }
+        .progress-bar-container {
+            height: 6px;
+            background: rgba(255,255,255,0.2);
+            border-radius: 10px;
+            cursor: pointer;
+            position: relative;
+        }
+        .progress-bar {
+            height: 100%;
+            background: white;
+            border-radius: 10px;
+            width: 0%;
+            transition: width 0.1s linear;
+        }
+        .time-labels {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.7rem;
+            margin-top: 0.4rem;
+            font-weight: 600;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+
+<body class="loading-state">
+    <div id="loading" class="loading-screen">
+        <div class="spinner"></div>
+        <p style="margin-top: 1rem; font-weight: 600; opacity: 0.7;">பாடம் லோடு ஆகிறது...</p>
+    </div>
+
+    <div class="watermark">TAMIL NANBAN</div>
+    <div class="watermark watermark-lower">TAMIL NANBAN</div>
+
+        <header class="header-standard">
+        <a href="index.html" class="brand-container">
+            <div class="brand-main">தமிழ் நண்பன்</div>
+            <div class="brand-sub">COACHING CENTER</div>
+        </a>
+    </header>
+    </div>
+
+    <div class="container">
+        <div id="lessonTitle" style="text-align: center; margin: 2rem auto; font-size: 1.5rem; font-weight: 800; color: #fff; background: var(--primary); padding: 0.6rem 2rem; border-radius: 100px; box-shadow: 0 4px 15px rgba(30, 58, 138, 0.25); width: fit-content; max-width: 90%;">
+            பாடம்
+        </div>
+        <!-- Dynamic Audio Player -->
+        <div id="audioPlayer" class="audio-player-container">
+            <div class="audio-controls">
+                <button id="playPauseBtn" class="play-btn">
+                    <svg id="playIcon" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+                    <svg id="pauseIcon" viewBox="0 0 24 24" fill="currentColor" style="display:none;"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
+                </button>
+                <div class="audio-info">
+                    <div class="audio-title">🎧 பாடக்குறிப்புகளைக் கேட்க (Click to Listen)</div>
+                    <div id="progressBarContainer" class="progress-bar-container">
+                        <div id="progressBar" class="progress-bar"></div>
+                    </div>
+                    <div class="time-labels">
+                        <span id="currentTime">0:00</span>
+                        <span id="totalDuration">0:00</span>
+                    </div>
+                </div>
+            </div>
+            <audio id="mainAudio" style="display:none;"></audio>
+        </div>
+        <div id="contentArea" class="material-card">
+            <!-- Content will load here -->
+        </div>
+    </div>
+
+    <div class="sticky-back">
+        <a href="javascript:history.back()" class="back-btn">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"
+                stroke-linecap="round" stroke-linejoin="round">
+                <line x1="19" y1="12" x2="5" y2="12"></line>
+                <polyline points="12 19 5 12 12 5"></polyline>
+            </svg>
+        </a>
+        <button onclick="printMaterial()" class="back-btn print-btn">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+        </button>
+    </div>
+
+            <nav class="bottom-nav">
+        <a href="index.html" class="nav-item">
+            <span class="nav-icon">🏠</span>
+            <span>Home</span>
+        </a>
+        <a href="subject.html" class="nav-item">
+            <span class="nav-icon">📚</span>
+            <span>Course</span>
+        </a>
+        <a href="#" class="nav-item">
+            <span class="nav-icon">💳</span>
+            <span>Pay</span>
+        </a>
+        <a href="#" onclick="window.logout(); return false;" class="nav-item logout">
+            <span class="nav-icon">🚪</span>
+            <span>Logout</span>
+        </a>
+    </nav>
+
+    <script type="module">
+        (async () => {
+            const { APP_VERSION } = await import(`./js/version.js?v=${Date.now()}`);
+            const v = APP_VERSION;
+            const { getLocalLessonData, formatText } = await import(`./js/fetchData.js?v=${v}`);
+
+            const themes = {
+                "science": { header: "SCIENCE | அறிவியல்", primary: "#1e3a8a", secondary: "#10b981", bg: "#f0f9ff", requiresMath: true },
+                "maths": { header: "MATHEMATICS | கணிதம்", primary: "#0284c7", secondary: "#4f46e5", bg: "#f0f9ff", requiresMath: true },
+                "social": { header: "SOCIAL SCIENCE | சமூக அறிவியல்", primary: "#e11d48", secondary: "#be123c", bg: "#fff1f2", requiresMath: false },
+                "tamil": { header: "TAMIL | தமிழ்", primary: "#9f1239", secondary: "#fda4af", bg: "#fff1f2", requiresMath: false },
+                "english": { header: "ENGLISH | ஆங்கிலம்", primary: "#6d28d9", secondary: "#8b5cf6", bg: "#f5f3ff", requiresMath: false },
+                "psychology": { header: "PSYCHOLOGY | உளவியல்", primary: "#b45309", secondary: "#f59e0b", bg: "#fffbeb", requiresMath: false },
+                "default": { header: "ONLINE COACHING", primary: "#1e3a8a", secondary: "#0c4a6e", bg: "#f0f9ff", requiresMath: false }
+            };
+
+            let currentTheme = themes["default"];
+
+            function applyTheme(subjectRaw) {
+                let subjectKey = (subjectRaw || "").toLowerCase();
+
+                if (subjectKey.includes('math')) subjectKey = 'maths';
+                else if (subjectKey.includes('social')) subjectKey = 'social';
+                else if (subjectKey.includes('science')) subjectKey = 'science';
+                else if (subjectKey.includes('tamil')) subjectKey = 'tamil';
+                else if (subjectKey.includes('english')) subjectKey = 'english';
+                else if (subjectKey.includes('psy')) subjectKey = 'psychology';
+                else subjectKey = 'default';
+
+                if (!themes[subjectKey]) subjectKey = 'default';
+
+                currentTheme = themes[subjectKey];
+
+                // Apply CSS Variables
+                document.documentElement.style.setProperty('--primary', currentTheme.primary);
+                document.documentElement.style.setProperty('--secondary', currentTheme.secondary);
+                document.documentElement.style.setProperty('--bg', currentTheme.bg);
+
+                // Set Header
+                document.title = currentTheme.header + " - A1 Coaching Center";
+
+                // Load MathJax if required
+                if (currentTheme.requiresMath) {
+                    const script = document.createElement('script');
+                    script.id = "MathJax-script";
+                    script.async = true;
+                    script.src = "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js";
+                    window.MathJax = { tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] } };
+                    document.head.appendChild(script);
+                }
+            }
+
+            window.printMaterial = function () {
+                const title = document.getElementById('lessonTitle').innerText;
+                const content = document.getElementById('contentArea').innerHTML;
+                const params = new URLSearchParams(window.location.search);
+                const subject = params.get('subject') || 'default';
+
+                // Robust PDF download for Psychology (especially for mobile)
+                if (subject.includes('psy')) {
+                    const element = document.createElement('div');
+                    element.innerHTML = `
+                        <div style="padding: 40px; font-family: system-ui, -apple-system, sans-serif;">
+                            <div style="text-align: center; border-bottom: 4px solid ${currentTheme.primary}; padding-bottom: 25px; margin-bottom: 40px;">
+                                <img src="images/logo.png" style="height: 70px; margin-bottom: 15px;">
+                                <h1 style="margin:0; color:${currentTheme.primary}; font-size: 24pt;">TAMIL NANBAN COACHING CENTER</h1>
+                                <div style="font-weight:bold; font-size: 14pt; color:#444;">TNPSC / TET - COACHING | 📞 6369371452</div>
+                                <h2 style="margin-top:20px; font-size: 18pt; background: #f1f5f9; padding: 10px 20px; border-radius: 50px; display: inline-block;">${title}</h2>
+                            </div>
+                            <div class="${document.body.classList.contains('premium-ui') ? 'premium-ui' : ''}">${content}</div>
+                            <div style="position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(-35deg); opacity: 0.1; font-size: 60pt; font-weight: 900; color: #000; z-index: 9999; pointer-events: none; white-space: nowrap;">TAMIL NANBAN</div>
+                        </div>
+                    `;
+
+                    // Style injection for PDF
+                    const styles = Array.from(document.querySelectorAll('style')).map(s => s.innerHTML).join('\n');
+                    const styleTag = document.createElement('style');
+                    styleTag.innerHTML = styles + `
+                        .lang-toggle { display: none !important; }
+                        .pm-q-box { page-break-inside: avoid; border-left: 8px solid #2563eb !important; }
+                        .info-box { page-break-inside: avoid; }
+                    `;
+                    element.appendChild(styleTag);
+
+                    const opt = {
+                        margin: [10, 10],
+                        filename: `${title.replace(/\s+/g, '_')}.pdf`,
+                        image: { type: 'jpeg', quality: 0.98 },
+                        html2canvas: { scale: 2, useCORS: true, letterRendering: true },
+                        jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
+                    };
+
+                    // Loading indicator for download
+                    const btn = document.querySelector('.print-btn');
+                    const originalHTML = btn.innerHTML;
+                    btn.innerHTML = `<span style="font-size: 0.8rem;">PDF...</span>`;
+                    
+                    html2pdf().set(opt).from(element).save().then(() => {
+                        btn.innerHTML = originalHTML;
+                    }).catch(err => {
+                        console.error('PDF Error:', err);
+                        btn.innerHTML = originalHTML;
+                        alert('PDF பதிவிறக்கம் செய்வதில் பிழை ஏற்பட்டது. தயவுசெய்து மீண்டும் முயற்சிக்கவும்.');
+                    });
+                    
+                    return;
+                }
+
+                // Default print window for other subjects
+                const pw = window.open('', '_blank');
+
+                const mathJaxScript = currentTheme.requiresMath ? `
+                    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"><\/script>
+                    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"><\/script>
+                    <script>
+                        window.MathJax = { tex: { inlineMath: [['$', '$'], ['\\\\(', '\\\\)']] } };
+                    <\/script>
+                ` : '';
+
+                const isPremiumLayout = document.body.classList.contains('premium-ui');
+
+                pw.document.write(`<html><head><title>${title}</title>
+                    ${mathJaxScript}
+                    <style>
+                    body { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; padding: 40px; line-height: 1.6; background: #fff; }
+                    .p-header { text-align: center; border-bottom: 4px solid ${currentTheme.primary}; padding-bottom: 25px; margin-bottom: 40px; display: flex; flex-direction: column; align-items: center; gap: 10px; }
+                    .p-logo { height: 70px; margin-bottom: 5px; }
+                    .p-header h1 { margin:0; color:${currentTheme.primary}; font-size: 26pt; font-weight: 900; }
+                    .p-header .subtitle { font-weight:bold; font-size: 15pt; color:#444; }
+                    .p-header h2 { margin-top:20px; font-size: 20pt; color:#222; background: #f1f5f9; padding: 10px 20px; border-radius: 50px; display: inline-block; }
+                    
+                    /* Watermark */
+                    .pdf-watermark { position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(-35deg); opacity: 0.05; pointer-events: none; width: 80%; z-index: -1000; }
+                    
+                    .section-header { color: ${currentTheme.primary}; border-bottom: 2px solid #eee; margin-top: 40px; font-size: 18pt; font-weight: 800; padding-bottom: 5px; }
+                    .section-body { font-size: 14pt; line-height: 1.8; color: #111; text-align: justify; }
+                    .info-box { background: #fdfcf6; border-left: 6px solid #f59e0b; padding: 20px; margin: 25px 0; border-radius: 12px; }
+                    .qa-item { background: #f8fafc; border: 1px solid #e2e8f0; padding: 20px; margin-bottom: 15px; border-radius: 12px; page-break-inside: avoid; }
+                    .qa-q { font-weight: bold; color: ${currentTheme.primary}; margin-bottom: 8px; font-size: 13pt; }
+                    
+                    /* Premium UI Support in PDF */
+                    .pm-q-box { 
+                        background: #ffffff; 
+                        border: 1px solid #e2e8f0; 
+                        border-left: 8px solid #2563eb; 
+                        padding: 25px; 
+                        margin: 30px 0; 
+                        border-radius: 15px; 
+                        page-break-inside: avoid;
+                    }
+                    .pm-question { color: #1e3a8a; font-weight: 800; font-size: 15pt; margin-bottom: 15px; }
+                    .pm-answer { 
+                        background: #fff1f2; 
+                        color: #db2777; 
+                        font-weight: 800; 
+                        padding: 10px 20px; 
+                        border-radius: 10px; 
+                        border: 1px solid #fbcfe8; 
+                        display: inline-block; 
+                        margin-top: 15px; 
+                    }
+                    .pm-explanation { 
+                        background: #fffbeb; 
+                        color: #92400e; 
+                        border-left: 5px solid #f59e0b; 
+                        padding: 15px; 
+                        margin-top: 15px; 
+                        border-radius: 8px; 
+                        font-size: 12pt; 
+                        border: 1px solid #fef3c7;
+                    }
+                    
+                    .keyword { color: #db2777; font-weight: 800; }
+                    .en-text { font-weight: bold; }
+                </style></head><body>
+                    <img src="images/logo.png" class="pdf-watermark">
+                    <div class="p-header">
+                        <img src="images/logo.png" class="p-logo">
+                        <h1>TAMIL NANBAN COACHING CENTER</h1>
+                        <div class="subtitle">TNPSC / TET - COACHING | 📞 6369371452</div>
+                        <h2>${title}</h2>
+                    </div>
+                    <div class="${isPremiumLayout ? 'premium-ui' : ''}">${content}</div>
+                    <script>
+                        window.onload = () => { 
+                            Promise.all([
+                                document.fonts.ready,
+                                window.MathJax ? window.MathJax.typesetPromise() : Promise.resolve()
+                            ]).then(() => {
+                                setTimeout(() => {
+                                    window.print();
+                                    const isMobile = /Android|iPhone/i.test(navigator.userAgent);
+                                    if (!isMobile) { setTimeout(() => { window.close(); }, 1500); }
+                                }, 500);
+                            }).catch(() => {
+                                window.print();
+                            });
+                        };
+                    <\/script>
+                </body></html>`);
+                pw.document.close();
+            };
+
+            let currentLang = 'en'; // Default language
+
+            async function init() {
+                const params = new URLSearchParams(window.location.search);
+                const subject = params.get('subject') || 'default';
+                const className = params.get('class');
+                const lessonId = params.get('lesson');
+
+                // Apply Premium UI for Mock Tests, Revision, specific prefixes, and 9/10 classes
+                const isPremium = (lessonId && (lessonId.startsWith('rev_') || lessonId.startsWith('model_') || lessonId.startsWith('psy_') || lessonId.startsWith('mt_'))) ||
+                    className === '9' || className === '10' ||
+                    subject === 'mocktest' || subject === 'revision';
+
+                if (isPremium) {
+                    document.body.classList.add('premium-ui');
+                }
+
+                if (subject.includes('psy') || subject.includes('social')) {
+                    document.body.classList.add('psychology-view');
+                }
+
+                applyTheme(subject);
+
+                if (!lessonId) {
+                    document.getElementById('contentArea').innerHTML = "பாடம் குறிப்பிடப்படவில்லை.";
+                    document.getElementById('loading').style.display = 'none';
+                    return;
+                }
+
+                try {
+                    const result = await getLocalLessonData(subject, className, lessonId);
+
+                    if (!result || !result.data) {
+                        document.getElementById('contentArea').innerHTML = `
+                            <div style="color:#64748b; text-align:center; padding:3rem 1rem; background:#f8fafc; border-radius:1rem; border:1px solid #e2e8f0; margin-top:2rem;">
+                                <h3 style="margin-top:0;">பாடம் இன்னும் தயாராகவில்லை</h3>
+                                <p style="font-weight:600;">தற்போது இந்த பாடத்திற்கான குறிப்புகள் பதிவேற்றம் செய்யப்படவில்லை.</p>
+                                <p style="margin-bottom:0; opacity:0.8; font-size:0.9rem;">${lessonId} / ${className} / ${subject}</p>
+                            </div>
+                        `;
+                        return;
+                    }
+
+                    const data = result.data;
+                    const lessonContent = data.data || data;
+                    const material = lessonContent.material || lessonContent;
+                    const sections = material.sections || [];
+                    const summary = material.summary || "";
+                    
+                    // Direct check in lessonContent
+                    const isBilingual = lessonContent.isBilingual === true || material.isBilingual === true;
+
+                    const displayTitle = (lessonContent.lesson_meta && lessonContent.lesson_meta.title) || lessonContent.title || lessonId;
+                    const fullHeader = `${currentTheme.header} - ${displayTitle}`;
+                    document.getElementById('lessonTitle').innerText = fullHeader;
+
+                    function renderContent() {
+                        let html = '';
+
+                        // Add Toggle Buttons if Bilingual
+                        if (isBilingual) {
+                            html += `
+                                <div class="lang-toggle">
+                                    <button class="lang-btn ${currentLang === 'en' ? 'active' : ''}" onclick="window.switchLang('en')">ENGLISH</button>
+                                    <button class="lang-btn ${currentLang === 'ta' ? 'active' : ''}" onclick="window.switchLang('ta')">தமிழ்</button>
+                                </div>
+                            `;
+                        }
+
+                        if (summary) {
+                            html += `<div class="info-box">${formatText(summary)}</div>`;
+                        }
+
+                        html += sections.map(section => {
+                            let contentHTML = '';
+                            const title = section.title || "";
+                            let content = section.content || [];
+
+                            // Handle Bilingual Content
+                            if (section.type === 'bilingual') {
+                                content = section[currentLang] || section.en || [];
+                            }
+
+                            if (section.type === 'infobox' || section.type === 'exercise') {
+                                const boxClass = section.type === 'exercise' ? 'qa-item' : 'info-box';
+                                const contentArray = Array.isArray(content) ? content : [content];
+                                contentHTML = `<div class="${boxClass}">${contentArray.map(c => `<p>${formatText(typeof c === 'object' ? (c.text || JSON.stringify(c)) : c)}</p>`).join('')}</div>`;
+                            } else if (section.type === 'evaluation') {
+                                const ed = section.evaluationData || {};
+                                contentHTML = `<div style="background:#f8fafc; border:1px solid #e2e8f0; padding:1.5rem; border-radius:1rem;">
+                                    ${ed.mcqs ? ed.mcqs.map((m, i) => `<div class="qa-item"><div class="qa-q">${i + 1}. ${formatText(m.question)}</div><div style="font-weight:700; color:#1e293b;">விடை: ${formatText(m.answer)}</div></div>`).join('') : ''}
+                                    ${ed.fillBlanks ? ed.fillBlanks.map((m, i) => `<div class="qa-item"><div class="qa-q">${i + 1}. ${formatText(m.question)}</div><div style="font-weight:700; color:#1e293b;">விடை: ${formatText(m.answer)}</div></div>`).join('') : ''}
+                                    ${ed.trueFalse ? ed.trueFalse.map((m, i) => `<div class="qa-item"><div class="qa-q">${i + 1}. ${formatText(m.question)}</div><div style="font-weight:700; color:#1e293b;">விடை: ${formatText(m.answer)}</div></div>`).join('') : ''}
+                                </div>`;
+                            } else {
+                                const contentArray = Array.isArray(content) ? content : [content];
+                                contentHTML = contentArray.map(item => {
+                                    let textStr = typeof item === 'object' ? (item.text || JSON.stringify(item)) : item;
+                                    
+                                    if (document.body.classList.contains('premium-ui') && textStr.includes('**விடை:**')) {
+                                        let modified = textStr
+                                            .replace(/^\*\*(.*?)\*\*/m, '<div class="pm-question">**$1**</div>')
+                                            .replace(/\n?\*\*விடை:\*\*(.*)/m, '<div class="pm-answer">**விடை:**$1</div>')
+                                            .replace(/\n?\*\*விளக்கம்:\*\*(.*)/m, '<div class="pm-explanation">**விளக்கம்:**$1</div>');
+                                        return `<div class="pm-q-box">${formatText(modified)}</div>`;
+                                    }
+                                    return `<p class="section-body">${formatText(textStr)}</p>`;
+                                }).join('');
+                            }
+
+                            // Prepare text for TTS
+                            const sectionTextData = Array.isArray(content) ? content : [content];
+                            let rawTextForTTS = sectionTextData.map(c => typeof c === 'object' ? (c.text || JSON.stringify(c)) : c).join('. ');
+                            rawTextForTTS = rawTextForTTS.replace(/<[^>]*>?/gm, ''); // basic html strip
+                            
+                            // Prevent quotes from breaking the inline onclick handler
+                            const escapedTTS = rawTextForTTS.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+
+                            return `<div><h2 class="section-header" style="display:flex; align-items:center;">
+                                <span>${formatText(title)}</span>
+                                <button onclick="playMaterialAudio('${escapedTTS}', this)" class="tts-btn" title="பாடக்குறிப்பைக் கேட்கவும்">🔊</button>
+                            </h2>${contentHTML}</div>`;
+                        }).join('');
+
+
+                        document.getElementById('contentArea').innerHTML = html;
+                        if (window.MathJax) window.MathJax.typesetPromise();
+                    }
+
+                    // Expose switchLang to global scope
+                    window.switchLang = (lang) => {
+                        currentLang = lang;
+                        renderContent();
+                        window.scrollTo({ top: 0, behavior: 'smooth' });
+                    };
+
+                    // Audio Player Initialization
+                    if (lessonContent.audio || material.audio) {
+                        const audioSrc = lessonContent.audio || material.audio;
+                        const playerContainer = document.getElementById('audioPlayer');
+                        const audioEl = document.getElementById('mainAudio');
+                        const playPauseBtn = document.getElementById('playPauseBtn');
+                        const playIcon = document.getElementById('playIcon');
+                        const pauseIcon = document.getElementById('pauseIcon');
+                        const progressBar = document.getElementById('progressBar');
+                        const progressContainer = document.getElementById('progressBarContainer');
+                        const currentTimeEl = document.getElementById('currentTime');
+                        const totalDurationEl = document.getElementById('totalDuration');
+
+                        playerContainer.style.display = 'block';
+                        audioEl.src = audioSrc;
+
+                        const formatTime = (time) => {
+                            const min = Math.floor(time / 60);
+                            const sec = Math.floor(time % 60);
+                            return `${min}:${sec < 10 ? '0' : ''}${sec}`;
+                        };
+
+                        playPauseBtn.onclick = () => {
+                            if (audioEl.paused) {
+                                audioEl.play();
+                                playIcon.style.display = 'none';
+                                pauseIcon.style.display = 'block';
+                            } else {
+                                audioEl.pause();
+                                playIcon.style.display = 'block';
+                                pauseIcon.style.display = 'none';
+                            }
+                        };
+
+                        audioEl.ontimeupdate = () => {
+                            const progress = (audioEl.currentTime / audioEl.duration) * 100;
+                            progressBar.style.width = `${progress}%`;
+                            currentTimeEl.innerText = formatTime(audioEl.currentTime);
+                        };
+
+                        audioEl.onloadedmetadata = () => {
+                            totalDurationEl.innerText = formatTime(audioEl.duration);
+                        };
+
+                        progressContainer.onclick = (e) => {
+                            const rect = progressContainer.getBoundingClientRect();
+                            const pos = (e.clientX - rect.left) / rect.width;
+                            audioEl.currentTime = pos * audioEl.duration;
+                        };
+
+                        audioEl.onended = () => {
+                            playIcon.style.display = 'block';
+                            pauseIcon.style.display = 'none';
+                            progressBar.style.width = '0%';
+                        };
+                    }
+
+                    renderContent();
+
+                } catch (error) {
+                    document.getElementById('contentArea').innerHTML = `
+                    <div style="color:#e11d48; text-align:center; padding:3rem 1rem; background:#fff1f2; border-radius:1rem; border:1px solid #fecaca; margin-top:2rem;">
+                        <h3 style="margin-top:0;">பாடம் லோடு ஆகவில்லை!</h3>
+                        <p style="font-weight:700; color:#991b1b;">${error.message}</p>
+                        <p style="margin-bottom:0; opacity:0.7; font-size:0.9rem;">தயவுசெய்து அட்மினைத் தொடர்பு கொள்ளவும்.</p>
+                    </div>`;
+                } finally {
+                    document.getElementById('loading').style.display = 'none';
+                }
+            }
+
+            // TTS Logic for Material
+            let synth = window.speechSynthesis;
+            let currentUtterance = null;
+            let currentBtn = null;
+
+            window.playMaterialAudio = (text, btnElement) => {
+                if (synth.speaking) {
+                    synth.cancel();
+                    if (currentBtn === btnElement) {
+                        currentBtn = null;
+                        return; // Toggle off
+                    }
+                }
+
+                currentBtn = btnElement;
+                let processedText = text.replace(/_{2,}/g, ' Dash ');
+                let currentUtterance = new SpeechSynthesisUtterance(processedText);
+                currentUtterance.lang = 'ta-IN';
+                currentUtterance.rate = 0.9;
+                currentUtterance.pitch = 1.2;
+
+                const setVoice = () => {
+                    const voices = synth.getVoices();
+                    const tamilVoice = voices.find(v => v.lang.includes('ta') && v.name.toLowerCase().includes('female'));
+                    if (tamilVoice) {
+                        currentUtterance.voice = tamilVoice;
+                    } else {
+                        const anyTamilVoice = voices.find(v => v.lang.includes('ta'));
+                        if (anyTamilVoice) currentUtterance.voice = anyTamilVoice;
+                    }
+                };
+                
+                setVoice();
+                if (speechSynthesis.onvoiceschanged !== undefined) {
+                    speechSynthesis.onvoiceschanged = setVoice;
+                }
+
+                currentUtterance.onend = () => {
+                    currentBtn = null;
+                };
+
+                synth.speak(currentUtterance);
+            };
+
+            init();
+
+        })();
+    </script>
+</body>
+
+</html>

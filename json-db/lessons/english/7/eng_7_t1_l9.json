@@ -1,0 +1,604 @@
+{
+  "lesson_meta": {
+    "title": "Taking the Bully by the Horns",
+    "unit": "l9",
+    "grade": "7",
+    "term": "t1",
+    "subject": "english",
+    "code": "eng_7_t1_l9"
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "What is bullying? (Book Back)",
+        "options": [
+          "When you and a friend get into a fight.",
+          "When someone accidently bumps into you on the playground.",
+          "Rolling a ball to knock over pins.",
+          "When someone is hurt by others either by words or actions, feels bad because of it, and finds it hard to stop what’s happening to them."
+        ],
+        "answer": 3,
+        "explanation": "Bullying is a repeated behavior intended to hurt someone either through words or actions, leaving the victim feeling helpless."
+      },
+      {
+        "question": "What should you do if you are being bullied? (Book Back)",
+        "options": [
+          "Know that you have the right to be safe.",
+          "Tell an adult.",
+          "Speak up.",
+          "All of the above."
+        ],
+        "answer": 3,
+        "explanation": "If you are being bullied, you must speak up, inform an adult, and understand that it is your basic right to be safe."
+      },
+      {
+        "question": "How do you recognise someone who bullies? (Book Back)",
+        "options": [
+          "Age – It is always the older kids picking on the younger ones.",
+          "Behaviour – They do something that hurts or harms another person.",
+          "Gender – Girls don’t bully, only boys do.",
+          "Size – The person bullying is bigger than the person being bullied."
+        ],
+        "answer": 1,
+        "explanation": "Bullying is recognized strictly by behavior—doing something intentionally to hurt or harm another person, regardless of age, size, or gender."
+      },
+      {
+        "question": "What should you do if you see bullying? (Book Back)",
+        "options": [
+          "Tell an adult.",
+          "All of the above.",
+          "Help them get away from the situation.",
+          "Let them know that no one deserves to be bullied."
+        ],
+        "answer": 1,
+        "explanation": "As an observer, you should tell an adult, help the victim escape the situation, and reassure them that nobody deserves to be bullied."
+      },
+      {
+        "question": "According to the glossary, what is the meaning of the word 'humiliate'?",
+        "options": [
+          "To make others feel ashamed",
+          "To understand other's feelings",
+          "To physically injure someone",
+          "To encourage a peer"
+        ],
+        "answer": 0,
+        "explanation": "The glossary defines 'humiliate' as making others feel ashamed."
+      },
+      {
+        "question": "What does the term 'peer pressure' mean?",
+        "options": [
+          "Frightening dreams during sleep",
+          "Influence from members of the same group",
+          "A medical condition causing stress",
+          "Pressure from parents to score high marks"
+        ],
+        "answer": 1,
+        "explanation": "Peer pressure is the influence from members of the same group, such as classmates or friends."
+      },
+      {
+        "question": "Identify the meaning of the word 'dejected'.",
+        "options": [
+          "Sad and depressed",
+          "Happy and excited",
+          "Angry and violent",
+          "Strong and confident"
+        ],
+        "answer": 0,
+        "explanation": "According to the glossary, 'dejected' means feeling sad and depressed."
+      },
+      {
+        "question": "What does 'empathy' mean in the context of stopping bullying?",
+        "options": [
+          "Making fun of someone’s flaws",
+          "Ignoring the problems of others",
+          "Strong support or being loyal to a bully",
+          "Understanding and sharing another person's feelings"
+        ],
+        "answer": 3,
+        "explanation": "Empathy means the ability to experience the feelings of a person in a situation, not as an onlooker, but as someone who is also experiencing it."
+      },
+      {
+        "question": "Which of the following describes a 'nightmare'?",
+        "options": [
+          "A beautiful thought",
+          "A frightening dream",
+          "A sudden physical injury",
+          "A deep sleep"
+        ],
+        "answer": 1,
+        "explanation": "The glossary defines nightmares as frightening dreams."
+      },
+      {
+        "question": "What does 'consequences' mean?",
+        "options": [
+          "Result or effect",
+          "Starting point",
+          "Meaningless actions",
+          "Loyalty"
+        ],
+        "answer": 0,
+        "explanation": "Consequences refer to the result or effect of an action."
+      },
+      {
+        "question": "True or False: Children who bully others usually have a very high opinion about themselves and feel perfect.",
+        "options": [
+          "Cannot be determined",
+          "True",
+          "False",
+          "Sometimes true"
+        ],
+        "answer": 2,
+        "explanation": "False. The text states that children who bully others actually tend to have a low opinion about themselves and feel ashamed of their own flaws."
+      },
+      {
+        "question": "Why do bullies usually want to humiliate or put another person down?",
+        "options": [
+          "To test their physical strength",
+          "To feel better about who they are and fit in with the crowd",
+          "To help the other person improve",
+          "To impress their teachers"
+        ],
+        "answer": 1,
+        "explanation": "They put another person down to hide their own flaws and to feel better about who they are by showing up another's difference."
+      },
+      {
+        "question": "In the lesson's example, what was a possible reason for Ajay being unhappy with himself?",
+        "options": [
+          "His bad performance in the exams",
+          "His big ears",
+          "His lack of friends",
+          "His physical weakness"
+        ],
+        "answer": 0,
+        "explanation": "The text suggests that 'Maybe Ajay is unhappy with his performance in the exams'."
+      },
+      {
+        "question": "In the lesson's example, why did Meena potentially feel insecure?",
+        "options": [
+          "She didn't like her big ears and didn't want anyone to notice them",
+          "She had a bad relationship with her parents",
+          "She failed her exams",
+          "She couldn't throw a ball"
+        ],
+        "answer": 0,
+        "explanation": "The text states: 'maybe Meena doesn’t like her big ears and doesn’t want anyone to notice them.'"
+      },
+      {
+        "question": "Why did Ajay and Meena turn their attention to bully Anu?",
+        "options": [
+          "Because Anu was quiet and didn't respond",
+          "Because Anu was the strongest in class",
+          "Because Anu teased them first",
+          "Because Anu was very talkative"
+        ],
+        "answer": 0,
+        "explanation": "They targeted Anu because she was quiet and didn't respond, making it easy for them to bully her and feel better about their own problems."
+      },
+      {
+        "question": "Is bullying always violent or physical?",
+        "options": [
+          "Yes, unless someone is hit, it is not bullying",
+          "Yes, it only happens in sports",
+          "No, it can also be non-violent like exclusion or verbal abuse",
+          "It depends on the age of the children"
+        ],
+        "answer": 2,
+        "explanation": "Bullying needn't always be violent. Refusing to include someone in games or spreading stories is also bullying."
+      },
+      {
+        "question": "What is another word for bullying mentioned in the text?",
+        "options": [
+          "Ragging",
+          "Debating",
+          "Counseling",
+          "Empathy"
+        ],
+        "answer": 0,
+        "explanation": "The text explicitly states: 'Ragging is another word for bullying.'"
+      },
+      {
+        "question": "Why do some classmates silently support bullies instead of stopping them?",
+        "options": [
+          "Because they believe the victim deserves it",
+          "Because they are paid by the bully",
+          "Because they hate the teachers",
+          "Because they want to be part of the group or out of fear"
+        ],
+        "answer": 3,
+        "explanation": "Classmates either avoid bullies out of fear or silently support them because they want to fit in and be part of the group."
+      },
+      {
+        "question": "Who exactly are your 'peers'?",
+        "options": [
+          "Younger children only",
+          "Your parents and teachers",
+          "People like yourself, usually by age or common interest (classmates/friends)",
+          "Strangers on the street"
+        ],
+        "answer": 2,
+        "explanation": "Peers are defined as people like ourselves, usually by age or common interest, such as classmates and friends."
+      },
+      {
+        "question": "Which of the following is an example of 'silly' peer pressure given in the lesson?",
+        "options": [
+          "Praising a movie everyone's excited about, even if you are not",
+          "Stealing from a shop",
+          "Hitting a classmate",
+          "Skipping school"
+        ],
+        "answer": 0,
+        "explanation": "The text gives the example of praising a movie just because everyone else is doing it so you don't become the 'odd one out'."
+      },
+      {
+        "question": "How do children who are bullied generally feel?",
+        "options": [
+          "Dejected, lonely, and isolated",
+          "Happy and popular",
+          "Proud and courageous",
+          "Indifferent and calm"
+        ],
+        "answer": 0,
+        "explanation": "Children who are bullied feel dejected, lose their confidence, and feel lonely and isolated."
+      },
+      {
+        "question": "Which of the following is NOT typically a focus of a bully's insults as per the text?",
+        "options": [
+          "Their family or social circle",
+          "Their target's appearance and clothes",
+          "Their abilities",
+          "Their healthy eating habits"
+        ],
+        "answer": 3,
+        "explanation": "Bullies focus on appearance, clothes, abilities (like 'You can't throw a ball!'), and family/social circles."
+      },
+      {
+        "question": "How can bullying affect a person's routine and health?",
+        "options": [
+          "It makes them extremely talkative",
+          "It improves their concentration",
+          "They may not feel like eating, fall sick more often, and get nightmares",
+          "It helps them sleep better"
+        ],
+        "answer": 2,
+        "explanation": "The stress of being bullied can cause victims to lose their appetite, fall sick, have nightmares, and find it difficult to fall asleep."
+      },
+      {
+        "question": "What extreme behavioral changes can happen to a bullied child?",
+        "options": [
+          "They might become very withdrawn or display extreme anger suddenly",
+          "They might become class leaders",
+          "They will always remain silent and peaceful",
+          "They will forget the incident entirely"
+        ],
+        "answer": 0,
+        "explanation": "Being bullied can make a child withdrawn (stop talking) or cause them to display sudden extreme anger."
+      },
+      {
+        "question": "What is a tragic cycle that sometimes happens to a bullied child?",
+        "options": [
+          "They end up becoming teachers",
+          "They run away to another country",
+          "They end up bullying someone else just to feel better",
+          "They become best friends with the bully"
+        ],
+        "answer": 2,
+        "explanation": "The text notes that sometimes, a child who is bullied can end up bullying someone else just to feel better about themselves."
+      },
+      {
+        "question": "What is the best way to stop bullying if you see it happening?",
+        "options": [
+          "Join the bullies",
+          "Fight the bully physically",
+          "Ignore it and walk away",
+          "Inform a responsible adult like a parent or a teacher"
+        ],
+        "answer": 3,
+        "explanation": "The best way to stop bullying is to inform a responsible adult who can intervene and help."
+      },
+      {
+        "question": "What is the role of the responsible adult when bullying is reported?",
+        "options": [
+          "To punish the victim",
+          "To intervene and help the bully reflect on their unacceptable behavior",
+          "To ignore the situation",
+          "To complain to the police immediately"
+        ],
+        "answer": 1,
+        "explanation": "The adult can intervene and help the child who is bullying to reflect and understand his or her inappropriate behavior."
+      },
+      {
+        "question": "How can you show support for a targeted person in small ways?",
+        "options": [
+          "By avoiding them",
+          "By keeping their secrets hidden from adults",
+          "By including them in your games and sharing things with them",
+          "By fighting on their behalf"
+        ],
+        "answer": 2,
+        "explanation": "You can show support by including them in games, sharing things, and speaking to them more to make them feel included."
+      },
+      {
+        "question": "What is considered the 'keyword' to stopping bullying?",
+        "options": [
+          "Empathy",
+          "Revenge",
+          "Sympathy",
+          "Violence"
+        ],
+        "answer": 0,
+        "explanation": "The text states: 'The keyword to stopping bullying is empathy.'"
+      },
+      {
+        "question": "According to the text, what is the difference between empathy and just being an onlooker?",
+        "options": [
+          "An onlooker shares the feelings",
+          "Empathy means ignoring the problem",
+          "Empathy means experiencing the feelings of a person as if you are also experiencing the situation",
+          "There is no difference"
+        ],
+        "answer": 2,
+        "explanation": "Empathy is not just watching (being an onlooker) but actually experiencing the feelings of the person in that situation."
+      },
+      {
+        "question": "Why do some children hesitate to speak up against a friend who is a bully?",
+        "options": [
+          "Because they want money",
+          "Because of a sense of loyalty and fear of losing friendship",
+          "Because they don't know the teacher",
+          "Because they are busy playing"
+        ],
+        "answer": 1,
+        "explanation": "Children hesitate to speak up because of a sense of loyalty. For example, Meena might fear losing Ajay's friendship if she reports him."
+      },
+      {
+        "question": "Does reporting a bully friend (like Ajay) actually help them?",
+        "options": [
+          "No, it ruins their life",
+          "It makes them more popular",
+          "Yes, because it is not healthy growing up being a bully, and they need help",
+          "No, it only helps the victim"
+        ],
+        "answer": 2,
+        "explanation": "The text explains that standing up and reporting a bully actually helps the bully too, as it is unhealthy to grow up as a bully."
+      },
+      {
+        "question": "What is the ultimate benefit of reporting bullying when you see it?",
+        "options": [
+          "You will get an award",
+          "You contribute to a safer and more peaceful world",
+          "You become a teacher",
+          "You will get good marks in exams"
+        ],
+        "answer": 1,
+        "explanation": "By making sure it is stopped, you contribute to a safer and more peaceful world."
+      },
+      {
+        "question": "In the Listening Story 'The Tale of The Pencil', why was Raj upset?",
+        "options": [
+          "He had lost his new pencil",
+          "He had a fight with his grandmother",
+          "His friends bullied him",
+          "He had done poorly in his English test"
+        ],
+        "answer": 3,
+        "explanation": "Raj was upset because he had performed poorly in his English test."
+      },
+      {
+        "question": "In the Listening Story, what object did Raj's grandmother use to teach him a lesson?",
+        "options": [
+          "An eraser",
+          "A book",
+          "A pencil",
+          "A sharpener"
+        ],
+        "answer": 2,
+        "explanation": "His grandmother sat with him and gave him a pencil to teach him a life lesson."
+      },
+      {
+        "question": "What does the 'painful sharpening' of the pencil represent in Raj's life?",
+        "options": [
+          "The process of writing an exam",
+          "The pain of not doing well and facing difficulties to become better",
+          "Getting punished by the teacher",
+          "Losing a game"
+        ],
+        "answer": 1,
+        "explanation": "The grandmother compares the painful sharpening of the pencil to the pain Raj experienced from failing, which ultimately makes him a better student."
+      },
+      {
+        "question": "What is the moral of the story 'The Tale of The Pencil'?",
+        "options": [
+          "Always use pencils instead of pens",
+          "Grandmothers give good gifts",
+          "Never write exams",
+          "We all have the strength to be who we wish to be"
+        ],
+        "answer": 3,
+        "explanation": "The stated moral is: 'We all have the strength to be who we wish to be', drawing from the inner strength of the pencil to leave a mark."
+      },
+      {
+        "question": "Which of the following is listed under 'Classroom rules' in the project section?",
+        "options": [
+          "We must always win.",
+          "We work as a team.",
+          "We fight for our rights.",
+          "We should hide our mistakes."
+        ],
+        "answer": 1,
+        "explanation": "The project section explicitly lists 'We work as a team' as one of the classroom rules."
+      },
+      {
+        "question": "Fill in the blank from the Classroom rules: We say '_______' to request.",
+        "options": [
+          "Sorry",
+          "Hello",
+          "Please",
+          "Thank you"
+        ],
+        "answer": 2,
+        "explanation": "The rule is: 'We say \"please\" to request.'"
+      },
+      {
+        "question": "Fill in the blank from the Classroom rules: We say '_______' for help.",
+        "options": [
+          "Thank you",
+          "Please",
+          "Sorry",
+          "Welcome"
+        ],
+        "answer": 0,
+        "explanation": "The rule is: 'We say \"thank you\" for help.'"
+      },
+      {
+        "question": "What is the pledge mentioned in the lesson?",
+        "options": [
+          "I am a kid against studying!",
+          "I am a kid against sports!",
+          "I am a kid against bullying!",
+          "I am a kid against homework!"
+        ],
+        "answer": 2,
+        "explanation": "The pledge starts with: 'I am a kid against bullying!'"
+      },
+      {
+        "question": "Analogy (HOTS): Physical abuse : Hitting :: Social/Verbal abuse : ________",
+        "options": [
+          "Playing games",
+          "Doing homework",
+          "Spreading false stories to cause sadness",
+          "Sleeping in class"
+        ],
+        "answer": 2,
+        "explanation": "Hitting is a form of physical abuse. Spreading false stories is a form of social or verbal bullying."
+      },
+      {
+        "question": "Assertion (A): Children who bully are internally very confident and have a high opinion of themselves.\nReason (R): They humiliate others because they know they are flawless.",
+        "options": [
+          "Both A and R are true",
+          "Both A and R are false",
+          "A is true, R is false",
+          "A is false, R is true"
+        ],
+        "answer": 1,
+        "explanation": "Both statements are completely false. Bullies usually have a low opinion of themselves, feel ashamed of their own flaws, and humiliate others to feel better about their own insecurities."
+      },
+      {
+        "question": "Assertion (A): Sometimes, a child who is bullied can end up bullying someone else.\nReason (R): They do this just to feel better about themselves after being humiliated.",
+        "options": [
+          "A is true, R is false",
+          "A is false, R is true",
+          "Both A and R are false",
+          "Both A and R are true, and R explains A"
+        ],
+        "answer": 3,
+        "explanation": "This is a psychological cycle mentioned in the text. Bullied victims sometimes become bullies themselves to regain a sense of power and feel better."
+      },
+      {
+        "question": "Life-Scenario (HOTS): Your classmates are refusing to let a new student join your lunch table because he dresses differently. What is this action called, and what should you do?",
+        "options": [
+          "It is called teamwork; you should support your classmates.",
+          "It is called discipline; you should ignore the new student.",
+          "It is called bullying (exclusion); you should show empathy and invite him to sit with you.",
+          "It is called peer pressure; you should laugh at him."
+        ],
+        "answer": 2,
+        "explanation": "Refusing to include someone intentionally is a form of bullying. The correct empathetic response is to include the targeted person."
+      },
+      {
+        "question": "What is the key difference between just watching bullying happen and having 'empathy'?",
+        "options": [
+          "An onlooker feels the pain, empathy means running away.",
+          "An onlooker just watches, while empathy involves mentally putting yourself in the victim's shoes and sharing their feelings.",
+          "There is no difference.",
+          "Empathy means recording a video of the incident."
+        ],
+        "answer": 1,
+        "explanation": "Empathy is experiencing the feelings of a person in a situation as if you are in their place, not merely watching as a bystander."
+      },
+      {
+        "question": "Life-Scenario (HOTS): You really don't want to tease a junior student, but all your close friends are doing it. You join them so they won't make fun of you. What psychological concept is forcing you to act this way?",
+        "options": [
+          "Empathy",
+          "Loyalty",
+          "Peer Pressure",
+          "Confidence"
+        ],
+        "answer": 2,
+        "explanation": "This is a classic example of peer pressure, where you engage in an activity you disagree with just to avoid being the 'odd one out' in your group."
+      },
+      {
+        "question": "Which of the following describes 'taking a stand' against a bully?",
+        "options": [
+          "Speaking to your peers about not supporting the bully and reporting the incident.",
+          "Running away and hiding in the restroom.",
+          "Joining the bully to stay safe.",
+          "Crying silently."
+        ],
+        "answer": 0,
+        "explanation": "Taking a stand involves active steps like not participating in the wrong act, speaking to peers, supporting the victim, and informing an adult."
+      },
+      {
+        "question": "What does the phrase 'taking the bully by the horns' (from the title) metaphorically imply?",
+        "options": [
+          "Riding a bull in a village festival.",
+          "Running away from dangerous animals.",
+          "Confronting the problem of bullying directly and courageously.",
+          "Accepting defeat and letting the bully win."
+        ],
+        "answer": 2,
+        "explanation": "The idiom 'taking the bull by the horns' means to face a difficult or dangerous situation directly and with courage. Here, it applies to dealing with bullying."
+      },
+      {
+        "question": "If you witness bullying, why is 'not participating' considered an important action?",
+        "options": [
+          "Because it saves your energy.",
+          "Because standing by silently supports the bully; not participating in the wrong act matters.",
+          "Because the teacher will only punish those who speak.",
+          "Because it is illegal to watch."
+        ],
+        "answer": 1,
+        "explanation": "The text highlights that not participating in doing something wrong also matters. Silent participation acts as support for the bully, so withdrawing that support takes away their power."
+      }
+    ]
+  },
+  "material": {
+    "sections": [
+      {
+        "title": "பாடச் சுருக்கம் (Lesson Summary)",
+        "content": "The lesson 'Taking the Bully by the Horns' discusses the serious issue of bullying among school children. It explains that bullying is not just physical violence, but also includes verbal abuse, spreading rumors, and purposely excluding someone. The text highlights that bullies often suffer from low self-esteem and pick on others to hide their own flaws (like Ajay's poor exam marks or Meena's insecurity about her ears). Peer pressure often makes other children silently support the bullies. The lesson details the severe negative effects bullying has on victims, including depression, physical illness, and loss of academic focus. Finally, it provides practical solutions: showing empathy, standing up for victims, informing responsible adults, and overcoming the fear of losing a bully's friendship."
+      },
+      {
+        "title": "பாடக்கருத்துக்கள் - 1. Bullying and its Causes (துன்புறுத்தலும் அதன் காரணங்களும்)",
+        "content": "• Bullying Definition: If someone is repeatedly targeted and hurt through words or actions, and they find it hard to stop what is happening, it is bullying. Another word for it is 'Ragging'.\n\n• Why do kids bully?: Bullying is not a sign of strength. Bullies actually have a low opinion of themselves. They might feel ashamed of their own flaws (like poor performance or physical appearance). To feel better and fit in, they humiliate others and put them down.\n\n• Example: Ajay might be unhappy with his exam results, and Meena might be insecure about her big ears. Instead of dealing with their problems, they target Anu because she is quiet and doesn't fight back. Making her feel bad makes them momentarily feel better."
+      },
+      {
+        "title": "பாடக்கருத்துக்கள் - 2. Types of Bullying & Peer Pressure (துன்புறுத்தலின் வகைகள் மற்றும் சக மாணவர் அழுத்தம்)",
+        "content": "• Types of Bullying: It isn't always physical (like hitting). It can be verbal (insulting appearance, clothes, family, or abilities), social (excluding someone intentionally from games), or emotional (spreading false stories to cause sadness).\n\n• Peer Pressure: Peers are people of your own age or common interest (classmates/friends). Sometimes, there is huge pressure to act like everyone else because you don't want to be the 'odd one out'. This is Peer Pressure. It can make you do silly things (like praising a movie you disliked) or serious wrong things (like participating in ragging a child even if you don't want to)."
+      },
+      {
+        "title": "பாடக்கருத்துக்கள் - 3. Effects of Bullying (துன்புறுத்தலின் விளைவுகள்)",
+        "content": "• When children are bullied, they feel dejected, lose their confidence, and feel lonely and isolated.\n\n• Health and Routine Effects: They might lose their appetite, fall sick often, suffer from nightmares, and face difficulties sleeping. It drastically reduces their ability to concentrate on studies. Physical bullying can lead to direct injuries.\n\n• Behavioral Changes: A victim may become severely withdrawn (stop talking to anyone) or display sudden extreme anger. Tragically, sometimes a bullied child might end up bullying someone else just to regain a feeling of power."
+      },
+      {
+        "title": "பாடக்கருத்துக்கள் - 4. How to Stop Bullying (எவ்வாறு தடுத்து நிறுத்துவது)",
+        "content": "• Inform Adults: The best way to stop bullying is to inform a responsible adult (parent/teacher). The adult can intervene and help the bully reflect on their unacceptable behavior.\n\n• Take a Stand & Show Empathy: Empathy is the keyword. Empathy means fully experiencing the feelings of the victim, not just watching as an onlooker. You can show support by including targeted peers in games and speaking to them.\n\n• Overcome Misplaced Loyalty: Children often hesitate to report a bully because the bully is a friend. But reporting them is the right thing to do. Growing up as a bully is unhealthy, so reporting them actually helps the bully get the intervention they need."
+      },
+      {
+        "title": "கலைச்சொற்கள் (Glossary)",
+        "content": "• bullying - teasing others (மற்றவர்களை கேலி செய்தல் / துன்புறுத்துதல்)\n• humiliate - make others feel ashamed (மற்றவர்களை அவமானப்படுத்துதல்)\n• consequences - result or effect (விளைவுகள்)\n• peer pressure - influence from members of the same group (சக நண்பர்களின் அழுத்தம்)\n• dejected - sad and depressed (சோர்வடைந்த / மனச்சோர்வுற்ற)\n• nightmares - frightening dreams (கெட்ட கனவுகள்)\n• empathy - understand and share other's feelings (மற்றவர்களின் உணர்வுகளைப் புரிந்துகொண்டு பகிர்ந்துகொள்ளுதல்)\n• loyalty - strong support or being loyal (விசுவாசம் / தீவிர ஆதரவு)"
+      },
+      {
+        "title": "தகவல் பேழை - Classroom Rules & Pledge (வகுப்பறை விதிகள் மற்றும் உறுதிமொழி)",
+        "content": "▸ Classroom Rules:\n• - We all belong to the same world.\n• - We don't give up.\n• - We try our best.\n• - We encourage others.\n• - We take turns.\n• - We work as a team.\n• - We learn together.\n• - We smile always.\n• - We love each and every creature.\n• - We forgive others.\n• - We say 'please' to request.\n• - We say 'thank you' for help.\n• - We listen to each other.\n• - We listen to our teacher.\n• - We respect each other.\n• - We respect our school.\n\n▸ The Pledge:\n• 'I am a kid against bullying! And I will: Speak up when I see bullying, Reach out to others who are bullied, Be a friend whenever I see bullying.'"
+      },
+      {
+        "title": "தகவல் பேழை - Listening Passage (The Tale of the Pencil)",
+        "content": "• Story Summary: Raj was very upset because he did poorly in his English test. His grandmother sat with him to console him and gave him a simple pencil. Raj felt he didn't deserve any gift.\n\n• His grandma explained a beautiful lesson: A pencil experiences a 'painful sharpening', just like Raj experienced the pain of failure. But this sharpening makes the pencil write better. All the good comes from 'within' the pencil, and finally, the pencil leaves its 'mark' on any surface.\n\n• Moral: Just like the pencil, Raj (and all of us) has the inner strength to overcome hurdles, become better, and leave our mark on the world. We all have the strength to be who we wish to be."
+      },
+      {
+        "title": "பாட பின்புற வினாக்கள் - 1 மதிப்பெண் (Book Back Evaluation - Choose the correct answer)",
+        "content": "• A. Choose the correct answer.\n• What is bullying?\n• Ans: c) When someone is hurt by others either by words or actions, feels bad because of it, and finds it hard to stop what's happening to them.\n\n• What should you do if you are being bullied?\n• Ans: d) All of the above (Speak up, Tell an adult, Know that you have the right to be safe).\n\n• How do you recognise someone who bullies?\n• Ans: c) Behaviour - They do something that hurts or harms another person.\n\n• What should you do if you see bullying?\n• Ans: d) All of the above (Help them get away, Tell an adult, Let them know no one deserves to be bullied)."
+      }
+    ]
+  }
+}

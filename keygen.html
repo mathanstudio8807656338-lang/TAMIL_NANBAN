@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400;500;600;700;800&family=Noto+Sans+Tamil:wght@400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Key Generator – A1 Coaching</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Noto+Sans+Tamil:wght@400;700&display=swap" rel="stylesheet">
+<style>
+/* --- BRAND HEADER --- */
+.header-standard {
+    background: #ffffff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #1e3a8a;
+    border-bottom: 1px solid #1e3a8a;
+}
+.brand-container {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.brand-main {
+    font-family: 'Baloo Thambi 2', cursive;
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: #1e3a8a;
+    line-height: 1.2;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+.brand-sub {
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #ef4444;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-top: -2px;
+}
+@media (max-width: 480px) {
+    .brand-main { font-size: 1.5rem; }
+    .brand-sub { font-size: 0.65rem; }
+    .header-standard { height: 60px; }
+}
+
+/* Bottom Nav */
+.bottom-nav {
+    position: fixed;
+    bottom: 0; left: 0; right: 0;
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.6rem 0.4rem;
+    box-shadow: 0 -4px 20px rgba(0,0,0,0.08);
+    z-index: 1000;
+    border-top: 1px solid #f1f5f9;
+}
+.nav-item {
+    text-decoration: none;
+    color: #64748b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.65rem;
+    font-weight: 700;
+    gap: 4px;
+    flex: 1;
+    transition: color 0.3s ease;
+}
+.nav-item.active { color: #1e3a8a; }
+.nav-item.logout { color: #ef4444; }
+.nav-icon { font-size: 1.2rem; margin-bottom: 2px; }
+
+/* Global fixes */
+body {
+    padding-bottom: 80px;
+}
+
+  :root {
+    --bg: #0d0d0d;
+    --surface: #161616;
+    --border: #2a2a2a;
+    --accent: #e8ff47;
+    --accent2: #ff6b35;
+    --text: #f0f0f0;
+    --muted: #666;
+    --green: #4ade80;
+    --font-mono: 'Space Mono', monospace;
+    --font-tamil: 'Noto Sans Tamil', sans-serif;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--font-mono);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    overflow: hidden;
+  }
+
+  /* Grid background */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(232,255,71,0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(232,255,71,0.03) 1px, transparent 1px);
+    background-size: 40px 40px;
+    pointer-events: none;
+  }
+
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    width: 100%;
+    max-width: 480px;
+    padding: 40px;
+    position: relative;
+    animation: slideIn 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  @keyframes slideIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  /* Corner accent */
+  .card::before {
+    content: '';
+    position: absolute;
+    top: -1px; right: -1px;
+    width: 60px; height: 60px;
+    background: var(--accent);
+    clip-path: polygon(100% 0, 0 0, 100% 100%);
+    border-radius: 0 4px 0 0;
+  }
+
+  .badge {
+    font-size: 10px;
+    letter-spacing: 3px;
+    color: var(--muted);
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+
+  h1 {
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    line-height: 1.2;
+    margin-bottom: 4px;
+    color: var(--text);
+  }
+
+  .subtitle {
+    font-family: var(--font-tamil);
+    font-size: 13px;
+    color: var(--muted);
+    margin-bottom: 36px;
+  }
+
+  label {
+    display: block;
+    font-size: 11px;
+    letter-spacing: 2px;
+    color: var(--muted);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+
+  .input-wrap {
+    position: relative;
+    margin-bottom: 24px;
+  }
+
+  input[type="tel"] {
+    width: 100%;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    color: var(--text);
+    font-family: var(--font-mono);
+    font-size: 24px;
+    letter-spacing: 4px;
+    padding: 16px 20px;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    -moz-appearance: textfield;
+  }
+
+  input[type="tel"]::-webkit-inner-spin-button,
+  input[type="tel"]::-webkit-outer-spin-button { -webkit-appearance: none; appearance: none; }
+
+
+  input[type="tel"]:focus {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px rgba(232,255,71,0.08);
+  }
+
+  .char-count {
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 11px;
+    color: var(--muted);
+    pointer-events: none;
+    transition: color 0.2s;
+  }
+
+  .char-count.full { color: var(--accent); }
+
+  .btn-generate {
+    width: 100%;
+    background: var(--accent);
+    color: #0d0d0d;
+    border: none;
+    border-radius: 3px;
+    font-family: var(--font-mono);
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 16px;
+    cursor: pointer;
+    transition: background 0.15s, transform 0.1s;
+    margin-bottom: 28px;
+  }
+
+  .btn-generate:hover { background: #d4eb3c; }
+  .btn-generate:active { transform: scale(0.98); }
+  .btn-generate:disabled { background: var(--border); color: var(--muted); cursor: not-allowed; }
+
+  /* Result box */
+  .result-box {
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    padding: 24px 20px 20px;
+    position: relative;
+    background: var(--bg);
+    display: none;
+    animation: fadeIn 0.3s ease;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; transform: scale(0.98); }
+    to   { opacity: 1; transform: scale(1); }
+  }
+
+  .result-box.visible { display: block; }
+
+  .result-label {
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: var(--muted);
+    text-transform: uppercase;
+    margin-bottom: 14px;
+  }
+
+  .password-display {
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: 8px;
+    color: var(--accent);
+    margin-bottom: 16px;
+    word-break: break-all;
+    text-shadow: 0 0 30px rgba(232,255,71,0.3);
+  }
+
+  .meta-row {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+
+  .meta-chip {
+    font-size: 10px;
+    letter-spacing: 1px;
+    color: var(--muted);
+    border: 1px solid var(--border);
+    border-radius: 2px;
+    padding: 4px 10px;
+  }
+
+  .meta-chip span { color: var(--green); }
+
+  .btn-copy {
+    width: 100%;
+    background: transparent;
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    color: var(--text);
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 12px;
+    cursor: pointer;
+    transition: border-color 0.2s, color 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  .btn-copy:hover { border-color: var(--accent); color: var(--accent); }
+  .btn-copy.copied { border-color: var(--green); color: var(--green); }
+
+  .divider {
+    height: 1px;
+    background: var(--border);
+    margin: 28px 0;
+  }
+
+  .info-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 11px;
+    color: var(--muted);
+    font-family: var(--font-tamil);
+    line-height: 1.6;
+  }
+
+  .dot {
+    width: 5px; height: 5px;
+    border-radius: 50%;
+    background: var(--accent2);
+    flex-shrink: 0;
+  }
+
+  .error-msg {
+    font-size: 12px;
+    color: var(--accent2);
+    margin-top: 8px;
+    display: none;
+    font-family: var(--font-tamil);
+  }
+  .error-msg.visible { display: block; }
+  
+  .back-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: var(--accent);
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+</style>
+</head>
+<body>
+
+<div class="card">
+  <div class="badge">A1 Coaching · Tool</div>
+  <h1>Key Generator</h1>
+  <p class="subtitle">போன் நம்பரில் இருந்து Password உருவாக்கு</p>
+
+  <label for="phone">கைபேசி எண் (10 இலக்கம்)</label>
+  <div class="input-wrap">
+    <input type="tel" id="phone" maxlength="10" placeholder="9876543210" autocomplete="off" inputmode="numeric">
+    <span class="char-count" id="charCount">0/10</span>
+  </div>
+  <div class="error-msg" id="errorMsg">சரியான 10 இலக்க கைபேசி எண் கொடுக்கவும்</div>
+
+  <button class="btn-generate" id="generateBtn" disabled>Generate Key</button>
+
+  <div class="result-box" id="resultBox">
+    <div class="result-label">உங்கள் Key</div>
+    <div class="password-display" id="passwordDisplay">——————</div>
+    <div class="meta-row">
+      <div class="meta-chip">வகை: <span>Alphanumeric</span></div>
+      <div class="meta-chip">இலக்கம்: <span>6</span></div>
+      <div class="meta-chip">முறை: <span>Deterministic</span></div>
+    </div>
+    <button class="btn-copy" id="copyBtn">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
+      </svg>
+      Copy Password
+    </button>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="info-row">
+    <div class="dot"></div>
+    <span>ஒரே போன் நம்பருக்கு எப்போதும் ஒரே password கிடைக்கும்.</span>
+  </div>
+  
+  <a href="login.html" class="back-link">← லாகின் பக்கத்திற்குச் செல்ல (Back to Login)</a>
+</div>
+
+<script>
+  const phoneInput   = document.getElementById('phone');
+  const charCount    = document.getElementById('charCount');
+  const generateBtn  = document.getElementById('generateBtn');
+  const resultBox    = document.getElementById('resultBox');
+  const passwordDisp = document.getElementById('passwordDisplay');
+  const copyBtn      = document.getElementById('copyBtn');
+  const errorMsg     = document.getElementById('errorMsg');
+
+  const CHARSET = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
+
+  // Deterministic hash: SHA-256
+  async function deterministicPassword(phone) {
+    const encoder = new TextEncoder();
+    const data = encoder.encode('cpd_salt_' + phone + '_keygen');
+    const hashBuffer = await crypto.subtle.digest('SHA-256', data);
+    const hashArray  = new Uint8Array(hashBuffer);
+
+    let password = '';
+    for (let i = 0; i < 6; i++) {
+      password += CHARSET[hashArray[i] % CHARSET.length];
+    }
+    return password;
+  }
+
+  phoneInput.addEventListener('input', () => {
+    // Allow digits only
+    phoneInput.value = phoneInput.value.replace(/\D/g, '').slice(0, 10);
+    const len = phoneInput.value.length;
+    charCount.textContent = `${len}/10`;
+    charCount.classList.toggle('full', len === 10);
+    generateBtn.disabled = len !== 10;
+    errorMsg.classList.remove('visible');
+    if (len < 10 && len > 0) resultBox.classList.remove('visible');
+  });
+
+  generateBtn.addEventListener('click', async () => {
+    const phone = phoneInput.value.trim();
+    if (!/^\d{10}$/.test(phone)) {
+      errorMsg.classList.add('visible');
+      return;
+    }
+
+    generateBtn.textContent = 'Generating...';
+    generateBtn.disabled = true;
+
+    const pwd = await deterministicPassword(phone);
+
+    passwordDisp.textContent = pwd;
+    resultBox.classList.add('visible');
+    copyBtn.textContent = ' Copy Password';
+    copyBtn.classList.remove('copied');
+
+    generateBtn.textContent = 'Generate Key';
+    generateBtn.disabled = false;
+  });
+
+  copyBtn.addEventListener('click', () => {
+    const pwd = passwordDisp.textContent;
+    navigator.clipboard.writeText(pwd).then(() => {
+      copyBtn.innerHTML = `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Copied!`;
+      copyBtn.classList.add('copied');
+      setTimeout(() => {
+        copyBtn.innerHTML = `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg> Copy Password`;
+        copyBtn.classList.remove('copied');
+      }, 2000);
+    });
+  });
+
+  phoneInput.addEventListener('keydown', e => {
+    if (e.key === 'Enter' && !generateBtn.disabled) generateBtn.click();
+  });
+</script>
+        <nav class="bottom-nav">
+        <a href="index.html" class="nav-item">
+            <span class="nav-icon">🏠</span>
+            <span>Home</span>
+        </a>
+        <a href="subject.html" class="nav-item">
+            <span class="nav-icon">📚</span>
+            <span>Course</span>
+        </a>
+        <a href="tel:6369371452" class="nav-item">
+            <span class="nav-icon">📞</span>
+            <span>Contact</span>
+        </a>
+        <a href="#" class="nav-item">
+            <span class="nav-icon">💳</span>
+            <span>Pay</span>
+        </a>
+        <a href="#" onclick="window.logout(); return false;" class="nav-item logout">
+            <span class="nav-icon">🚪</span>
+            <span>Logout</span>
+        </a>
+    </nav>
+</body>
+</html>

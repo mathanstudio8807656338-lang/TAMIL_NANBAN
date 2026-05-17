@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400;500;600;700;800&family=Noto+Sans+Tamil:wght@400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Q&A - A1 Coaching</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+/* --- BRAND HEADER --- */
+.header-standard {
+    background: #ffffff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #1e3a8a;
+    border-bottom: 1px solid #1e3a8a;
+}
+.brand-container {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.brand-main {
+    font-family: 'Baloo Thambi 2', cursive;
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: #1e3a8a;
+    line-height: 1.2;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+.brand-sub {
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #ef4444;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-top: -2px;
+}
+@media (max-width: 480px) {
+    .brand-main { font-size: 1.5rem; }
+    .brand-sub { font-size: 0.65rem; }
+    .header-standard { height: 60px; }
+}
+
+/* Bottom Nav */
+.bottom-nav {
+    position: fixed;
+    bottom: 0; left: 0; right: 0;
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.6rem 0.4rem;
+    box-shadow: 0 -4px 20px rgba(0,0,0,0.08);
+    z-index: 1000;
+    border-top: 1px solid #f1f5f9;
+}
+.nav-item {
+    text-decoration: none;
+    color: #64748b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.65rem;
+    font-weight: 700;
+    gap: 4px;
+    flex: 1;
+    transition: color 0.3s ease;
+}
+.nav-item.active { color: #1e3a8a; }
+.nav-item.logout { color: #ef4444; }
+.nav-icon { font-size: 1.2rem; margin-bottom: 2px; }
+
+/* Global fixes */
+body {
+    padding-bottom: 80px;
+}
+
+        .qa-container {
+            max-width: 800px;
+            margin: 2rem auto;
+        }
+
+        .qa-item {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 1rem;
+            margin-bottom: 1.5rem;
+            box-shadow: var(--shadow);
+            border-left: 6px solid var(--secondary);
+        }
+
+        .question {
+            font-weight: 700;
+            font-size: 1.1rem;
+            margin-bottom: 0.75rem;
+            color: var(--text-main);
+        }
+
+        .answer {
+            color: var(--text-muted);
+            font-size: 1rem;
+            padding-top: 0.5rem;
+            border-top: 1px dashed var(--border);
+        }
+
+        .answer strong {
+            color: var(--secondary);
+        }
+
+        .sticky-back {
+            position: fixed;
+            bottom: 1.5rem;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 1000;
+        }
+        
+        .sticky-btn {
+            display: inline-block;
+            background: var(--primary);
+            color: white !important;
+            text-align: center;
+            padding: 0.4rem 1.2rem;
+            border-radius: 2rem;
+            font-weight: 700;
+            font-size: 0.85rem;
+            text-decoration: none;
+            box-shadow: 0 10px 25px rgba(26, 115, 232, 0.3);
+            transition: all 0.3s ease;
+            min-width: 80px;
+        }
+        
+        .sticky-btn:hover {
+            transform: translateY(-5px);
+        }
+
+        /* Watermark Styles */
+        .watermark {
+            position: fixed;
+            top: 30%;
+            left: 50%;
+            transform: translate(-50%, -50%) rotate(-35deg);
+            font-size: 40pt;
+            font-weight: 900;
+            color: rgba(0, 0, 0, 0.04);
+            white-space: nowrap;
+            user-select: none;
+            pointer-events: none;
+            z-index: -100;
+            display: none;
+        }
+        .watermark-lower { top: 70%; }
+        body.psychology-view .watermark {
+            display: block;
+            z-index: 1000 !important;
+            opacity: 0.1 !important;
+        }
+    </style>
+</head>
+<body>
+    <div class="watermark">TAMIL NANBAN</div>
+    <div class="watermark watermark-lower">TAMIL NANBAN</div>
+
+        <header class="header-standard">
+        <a href="index.html" class="brand-container">
+            <div class="brand-main">தமிழ் நண்பன்</div>
+            <div class="brand-sub">COACHING CENTER</div>
+        </a>
+    </header>
+
+    <main class="container">
+        <div class="qa-container animate-fade">
+            <h1 id="lessonTitle" style="margin-bottom: 0.5rem;">வினா - விடை (Q&A)</h1>
+            <p id="lessonSub" style="color: var(--text-muted); margin-bottom: 2rem;">Loading details...</p>
+
+            <div id="qaList">
+                <!-- Data from Firestore -->
+            </div>
+            
+            <div style="height: 100px;"></div>
+        </div>
+    </main>
+
+    <div class="sticky-back">
+        <a id="stickyBackLink" href="#" class="sticky-btn">BACK</a>
+    </div>
+
+            <nav class="bottom-nav">
+        <a href="index.html" class="nav-item">
+            <span class="nav-icon">🏠</span>
+            <span>Home</span>
+        </a>
+        <a href="subject.html" class="nav-item">
+            <span class="nav-icon">📚</span>
+            <span>Course</span>
+        </a>
+        <a href="tel:6369371452" class="nav-item">
+            <span class="nav-icon">📞</span>
+            <span>Contact</span>
+        </a>
+        <a href="#" class="nav-item">
+            <span class="nav-icon">💳</span>
+            <span>Pay</span>
+        </a>
+        <a href="#" onclick="window.logout(); return false;" class="nav-item logout">
+            <span class="nav-icon">🚪</span>
+            <span>Logout</span>
+        </a>
+    </nav>
+
+    <script type="module">
+        import { checkAuth, waitForAuth } from './js/auth.js';
+        import { getLocalLessonData } from './js/fetchData.js';
+
+        checkAuth();
+
+        const params = new URLSearchParams(window.location.search);
+        const subject = params.get('subject');
+        const className = params.get('class');
+        const lessonId = params.get('lesson');
+
+        if (subject && subject.includes('psy')) {
+            document.body.classList.add('psychology-view');
+        }
+
+        const backUrl = `subject.html?id=${subject}`;
+        document.getElementById('stickyBackLink').href = backUrl;
+
+        async function loadQA() {
+            const data = await getLocalLessonData(subject, className, lessonId);
+            if (data) {
+                document.getElementById('lessonSub').innerText = data.title;
+                const container = document.getElementById('qaList');
+                
+                if (data.qa && data.qa.length > 0) {
+                    container.innerHTML = data.qa.map((item, index) => `
+                        <div class="qa-item animate-fade" style="animation-delay: ${index * 0.1}s">
+                            <div class="question">கேள்வி ${index + 1}: ${item.q}</div>
+                            <div class="answer"><strong>விடை:</strong> ${item.a}</div>
+                        </div>
+                    `).join('');
+                } else {
+                    container.innerHTML = '<p>பாடப்புத்தக வினாக்கள் விரைவில் பதிவேற்றப்படும்.</p>';
+                }
+            }
+        }
+
+        // Prevent shared links from loading content before auth state resolves.
+        waitForAuth().then((user) => {
+            if (!user) {
+                window.location.href = "login.html";
+                return;
+            }
+            loadQA();
+        });
+    </script>
+</body>
+</html>

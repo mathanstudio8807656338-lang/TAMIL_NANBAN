@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400;500;600;700;800&family=Noto+Sans+Tamil:wght@400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Tamil Nanban - Login</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+/* --- BRAND HEADER --- */
+.header-standard {
+    background: #ffffff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #1e3a8a;
+    border-bottom: 1px solid #1e3a8a;
+}
+.brand-container {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.brand-main {
+    font-family: 'Baloo Thambi 2', cursive;
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: #1e3a8a;
+    line-height: 1.2;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+.brand-sub {
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #ef4444;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-top: -2px;
+}
+@media (max-width: 480px) {
+    .brand-main { font-size: 1.5rem; }
+    .brand-sub { font-size: 0.65rem; }
+    .header-standard { height: 60px; }
+}
+
+/* Bottom Nav */
+.bottom-nav {
+    position: fixed;
+    bottom: 0; left: 0; right: 0;
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.6rem 0.4rem;
+    box-shadow: 0 -4px 20px rgba(0,0,0,0.08);
+    z-index: 1000;
+    border-top: 1px solid #f1f5f9;
+}
+.nav-item {
+    text-decoration: none;
+    color: #64748b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.65rem;
+    font-weight: 700;
+    gap: 4px;
+    flex: 1;
+    transition: color 0.3s ease;
+}
+.nav-item.active { color: #1e3a8a; }
+.nav-item.logout { color: #ef4444; }
+.nav-icon { font-size: 1.2rem; margin-bottom: 2px; }
+
+/* Global fixes */
+body {
+    padding-bottom: 80px;
+}
+
+        .login-page {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: radial-gradient(circle at top right, #eef2ff, #f8fafc);
+            padding: 1.5rem;
+        }
+
+        .login-card {
+            width: 100%;
+            max-width: 420px;
+            animation: fadeIn 0.8s ease-out;
+        }
+
+        .login-header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .login-header img {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 1rem;
+            border-radius: 20px;
+            box-shadow: var(--shadow);
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-size: 0.9rem;
+            font-weight: 500;
+            color: var(--text-muted);
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 0.75rem 1rem;
+            border-radius: 0.75rem;
+            border: 1px solid var(--border);
+            background: #fff;
+            transition: var(--transition);
+        }
+
+        .form-control:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.1);
+        }
+
+        .error-message {
+            color: var(--danger);
+            font-size: 0.85rem;
+            margin-top: 0.5rem;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="login-page">
+        <div class="card login-card animate-fade">
+            <div class="login-header">
+                <div class="brand-container" style="margin-bottom: 0.5rem; pointer-events: none;">
+                    <div class="brand-main">தமிழ் நண்பன்</div>
+                    <div class="brand-sub">COACHING CENTER</div>
+                </div>
+                <p style="color: var(--text-muted); font-size: 0.9rem;">மாணவர் லாகின் (Student Login)</p>
+            </div>
+
+            <div id="step1">
+                <form id="phoneForm">
+                    <div class="form-group">
+                        <label for="phoneNumber">மொபைல் எண் (10 Digits)</label>
+                        <div style="display: flex; gap: 0.5rem; background: #ffffff; border-radius: 0.75rem; box-shadow: inset 0 0 0 2px #fdba74, inset 2px 4px 12px rgba(251, 146, 60, 0.2), 0 4px 10px rgba(0,0,0,0.03); padding: 0.25rem;">
+                            <span style="padding: 0.75rem 1rem; background: #ffedd5; border: none; border-radius: 0.5rem; font-weight: 800; color: #ea580c; box-shadow: 0 2px 4px rgba(0,0,0,0.05); display: flex; align-items: center;">+91</span>
+                            <input type="tel" id="phoneNumber" class="form-control" placeholder="எ.கா: 9876543210" required pattern="[0-9]{10}" maxlength="10" style="border: none; background: transparent; box-shadow: none; font-weight: 700; font-size: 1.1rem; color: #0f172a; padding: 0.5rem;">
+                        </div>
+                    </div>
+                    
+                    <div id="recaptcha-container"></div>
+                    
+                    <button type="submit" id="nextBtn" class="btn btn-primary" style="width: 100%; font-size: 1rem; margin-top: 1rem;">
+                        தொடரவும் (Continue)
+                    </button>
+                    
+                    <div id="phoneError" class="error-message">சரியான மொபைல் எண்ணை உள்ளிடவும்!</div>
+                </form>
+            </div>
+
+            <div id="step2" style="display: none;">
+                <form id="pinForm">
+                    <div class="form-group">
+                        <label for="pinCode">பாஸ்வேர்டு (Enter 6-Digit Password)</label>
+                        <input type="text" id="pinCode" class="form-control" placeholder="ABC123" required pattern="[a-zA-Z0-9]{6}" maxlength="6" style="letter-spacing: 0.5em; text-align: center; font-weight: 800; font-size: 1.25rem; text-transform: uppercase;">
+                        <p style="font-size: 0.75rem; color: var(--text-muted); margin-top: 0.5rem; text-align: center;">(உங்கள் போன் நம்பருக்கான பாஸ்வேர்டு - Password)</p>
+                    </div>
+
+                    <button type="submit" id="loginBtn" class="btn btn-primary" style="width: 100%; font-size: 1rem; margin-top: 0.5rem;">
+                        உள்நுழைய (Login)
+                    </button>
+                    
+                    <button type="button" id="backBtn" class="btn btn-outline" style="width: 100%; font-size: 1rem; margin-top: 1rem; background: white;">
+                        நம்பரை மாற்ற (Change Number)
+                    </button>
+
+                    <div id="pinError" class="error-message">தவறான பாஸ்வேர்டு! மீண்டும் முயற்சிக்கவும்.</div>
+                </form>
+            </div>
+
+            <div style="margin-top: 2rem; text-align: center;">
+                <p style="font-size: 0.85rem; color: var(--text-muted);">
+                    சந்தேகம் இருப்பின் நிர்வாகியைத் தொடர்பு கொள்ளவும்.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Auth Module -->
+    <script type="module" src="js/auth.js"></script>
+    <script>
+        // Check if modules are loaded
+        window.addEventListener('load', () => {
+            setTimeout(() => {
+                if (window.location.protocol === 'file:') {
+                    alert("கவனிக்கவும்: பிரவுசர் பாதுகாப்பு காரணங்களால் இந்தத் தளம் நேரடியாகச் செயல்படாது. தயவுசெய்து ஏதேனும் ஒரு Local Server-ஐப் பயன்படுத்தவும் அல்லது Cloudflare-ல் அப்லோடு செய்யவும்.");
+                }
+            }, 1000);
+        });
+    </script>
+        <nav class="bottom-nav">
+        <a href="index.html" class="nav-item">
+            <span class="nav-icon">🏠</span>
+            <span>Home</span>
+        </a>
+        <a href="subject.html" class="nav-item">
+            <span class="nav-icon">📚</span>
+            <span>Course</span>
+        </a>
+        <a href="tel:6369371452" class="nav-item">
+            <span class="nav-icon">📞</span>
+            <span>Contact</span>
+        </a>
+        <a href="#" class="nav-item">
+            <span class="nav-icon">💳</span>
+            <span>Pay</span>
+        </a>
+        <a href="#" onclick="window.logout(); return false;" class="nav-item logout">
+            <span class="nav-icon">🚪</span>
+            <span>Logout</span>
+        </a>
+    </nav>
+</body>
+</html>
+

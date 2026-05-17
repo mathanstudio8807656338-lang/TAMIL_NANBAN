@@ -1,0 +1,24 @@
+{
+  "isBilingual": true,
+  "unit": "Unit 2",
+  "subject": "English",
+  "class": "6",
+  "term": 3,
+  "title": "Prose: That Sunday Morning",
+  "summary": "Content coming soon...",
+  "material": {
+    "isBilingual": true,
+    "sections": [
+      {
+        "title": "Lesson Notes",
+        "type": "bilingual",
+        "en": ["Content will be updated soon."],
+        "ta": ["பாடக்குறிப்புகள் விரைவில் பதிவேற்றப்படும்."]
+      }
+    ]
+  },
+  "quiz": {
+    "questions": []
+  },
+  "credits": "A1 ONLINE COACHING CENTER"
+}

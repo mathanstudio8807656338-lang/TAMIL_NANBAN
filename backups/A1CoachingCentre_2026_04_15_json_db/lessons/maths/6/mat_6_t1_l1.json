@@ -1,0 +1,144 @@
+{
+  "isBilingual": true,
+  "unit": "Unit 1",
+  "subject": "Maths",
+  "class": "6",
+  "term": 1,
+  "title": "Numbers (எண்கள்)",
+  "summary": "இயல் எண்கள், முழு எண்கள், இடமதிப்பு, BIDMAS விதி மற்றும் எண்களின் தோராயமாக்குதல் குறித்த விரிவான விளக்கம்.",
+  "material": {
+    "isBilingual": true,
+    "sections": [
+      {
+        "title": "1.1 அறிமுகம் (Introduction)",
+        "type": "bilingual",
+        "en": ["Numbers used for counting objects in mathematics are called 'Natural Numbers' or 'Counting Numbers'. Natural numbers start from 1. Their symbol is 'N'. N = {1, 2, 3, 4, 5...}. Natural numbers have no end; they go to infinity. The smallest natural number is 1."],
+        "ta": ["கணிதத்தில் பொருட்களை எண்ணுவதற்குப் பயன்படும் எண்கள் 'இயல் எண்கள்' (Natural Numbers) அல்லது 'எண்ணும் எண்கள்' எனப்படும். இயல் எண்கள் 1-லிருந்து தொடங்குகின்றன. இதன் குறியீடு 'N' ஆகும். N = {1, 2, 3, 4, 5...}. இயல் எண்களுக்கு முடிவே இல்லை, அவை முடிவிலியாகச் செல்கின்றன. மிகச்சிறிய இயல் எண் 1 ஆகும்."]
+      },
+      {
+        "title": "1.2 தொடரி மற்றும் முன்னி (Successor and Predecessor)",
+        "type": "bilingual",
+        "en": [
+          "1. Successor: Adding 1 to a number gives its 'Successor'. (e.g., Successor of 45 = 45 + 1 = 46).",
+          "2. Predecessor: Subtracting 1 from a number gives its 'Predecessor'. (e.g., Predecessor of 45 = 45 - 1 = 44).",
+          "In natural numbers, 1 has no predecessor. Adding zero (0) to natural numbers gives 'Whole Numbers' (W). In whole numbers (W), 0 has no predecessor."
+        ],
+        "ta": [
+          "1. தொடரி (Successor): ஓர் எண்ணுடன் 1-ஐக் கூட்டினால் கிடைப்பது அந்த எண்ணின் 'தொடரி' ஆகும். (எ.கா: 45-ன் தொடரி = 45 + 1 = 46).",
+          "2. முன்னி (Predecessor): ஓர் எண்ணிலிருந்து 1-ஐக் கழித்தால் கிடைப்பது அந்த எண்ணின் 'முன்னி' ஆகும். (எ.கா: 45-ன் முன்னி = 45 - 1 = 44).",
+          "இயல் எண்களில் 1-க்கு முன்னி கிடையாது. இயல் எண்களோடு பூஜ்ஜியத்தைச் (0) சேர்த்தால் கிடைப்பது 'முழு எண்கள்' (Whole Numbers - W) ஆகும். முழு எண்களில் 0-க்கு முன்னி கிடையாது."
+        ]
+      },
+      {
+        "title": "1.3 பெரிய எண்களின் உருவாக்கம் (Formation of Large Numbers)",
+        "type": "bilingual",
+        "en": [
+          "Adding 1 to the largest single-digit number, 9, gives the smallest two-digit number, 10. Similarly, adding 1 to the largest 5-digit number, 99,999, gives 1,00,000 (One Lakh - the smallest 6-digit number). Adding 1 to the largest 7-digit number, 99,99,999, gives 1,00,00,000 (One Crore - the smallest 8-digit number). As numbers keep growing, a systematic structure is needed to read and write them."
+        ],
+        "ta": [
+          "மிகப்பெரிய ஓர் இலக்க எண்ணான 9 உடன் 1-ஐக் கூட்டினால் கிடைப்பது மிகச்சிறிய ஈர் இலக்க எண்ணான 10 ஆகும். இதேபோல், மிகப்பெரிய 5-இலக்க எண்ணான 99,99,999 உடன் 1-ஐக் கூட்டினால் 1,00,000 (ஒரு இலட்சம் - மிகச்சிறிய 6-இலக்க எண்) கிடைக்கும். மிகப்பெரிய 7-இலக்க எண்ணான 99,99,99,999 உடன் 1-ஐக் கூட்டினால் 1,00,00,000 (ஒரு கோடி - மிகச்சிறிய 8-இலக்க எண்) கிடைக்கும். எண்கள் பெரிதாகிக் கொண்டே செல்வதால், அவற்றைப் படிக்கவும் எழுதவும் ஒரு முறையான அமைப்பு தேவைப்படுகிறது."
+        ]
+      },
+      {
+        "title": "1.4 இடமதிப்பு விளக்கம் (Place Value System)",
+        "type": "bilingual",
+        "en": [
+          "Every digit has its own 'Place Value'. Moving from right to left, the value increases tenfold. The 'Face Value' of a digit is the value of the digit itself.",
+          "1. Indian System: Ones (One, Ten, Hundred), Thousands (Thousand, Ten Thousand), Lakhs (Lakh, Ten Lakh), Crores (Crore, Ten Crore).",
+          "2. International System: Ones (One, Ten, Hundred), Thousands (Thousand, Ten Thousand, Hundred Thousand), Millions (Million, Ten Million, Hundred Million), Billions.",
+          "(Note: 1 Million = 10 Lakhs, 1 Billion = 100 Crores)."
+        ],
+        "ta": [
+          "ஒவ்வொரு இலக்கத்திற்கும் ஒரு இடமதிப்பு (Place Value) உண்டு. வலப்பக்கத்திலிருந்து இடப்பக்கமாகச் செல்லச் செல்ல இடமதிப்பு 10 மடங்காக அதிகரிக்கும். ஒரு எண்ணின் 'முகமதிப்பு' (Face value) என்பது அந்த இலக்கத்தின் அதே எண்ணையே குறிக்கும்.",
+          "1. இந்திய எண் முறை (Indian System): ஒன்றுகள் (ஒன்று, பத்து, நூறு), ஆயிரங்கள் (ஆயிரம், பத்தாயிரம்), இலட்சங்கள் (இலட்சம், பத்து இலட்சம்), கோடிகள் (கோடி, பத்து கோடி).",
+          "2. பன்னாட்டு எண் முறை (International System): ஒன்றுகள் (ஒன்று, பத்து, நூறு), ஆயிரங்கள் (ஆயிரம், பத்தாயிரம், நூறாயிரம்), மில்லியன்கள் (மில்லியன், பத்து மில்லியன், நூறு மில்லியன்), பில்லியன்கள்.",
+          "(குறிப்பு: 1 மில்லியன் = 10 இலட்சம், 1 பில்லியன் = 100 கோடி)."
+        ]
+      },
+      {
+        "title": "1.5 காற்புள்ளிகளின் பயன்பாடு (Use of Commas)",
+        "type": "bilingual",
+        "en": [
+          "Commas are used to read and write large numbers easily and without errors.",
+          "1. Indian System: A comma is placed after the first 3 digits from the right, then after every 2 digits. (e.g., 5,43,21,000).",
+          "2. International System: A comma is placed after every 3 digits from the right. (e.g., 54,321,000)."
+        ],
+        "ta": [
+          "பெரிய எண்களை எளிதாகப் படிக்கவும், பிழையின்றி எழுதவும் காற்புள்ளி (Comma) பயன்படுகிறது.",
+          "1. இந்திய முறை: வலப்பக்கத்திலிருந்து முதலில் 3 இலக்கங்கள் தள்ளியும், பிறகு ஒவ்வொரு 2 இலக்கங்களுக்கு ஒருமுறை கமா இடப்படும். (எ.கா: 5,43,21,000).",
+          "2. பன்னாட்டு முறை: வலப்பக்கத்திலிருந்து ஒவ்வொரு 3 இலக்கங்களுக்கு ஒருமுறை கமா இடப்படும். (எ.கா: 54,321,000)."
+        ]
+      },
+      {
+        "title": "1.6 எண்களை ஒப்பிடுதல் (Comparison of Numbers)",
+        "type": "bilingual",
+        "en": [
+          "Comparison is used to find which of two numbers is larger or smaller.",
+          "1. If numbers of digits are different: The number with more digits is the larger number.",
+          "2. If numbers of digits are equal: Start comparing from the leftmost digit (highest place value). If equal, move to the next digit.",
+          "Symbols used: > (Greater than), < (Less than), = (Equal to). (e.g., 5432 > 5342)."
+        ],
+        "ta": [
+          "இரண்டு எண்களில் எது பெரியது, எது சிறியது என்பதைக் கண்டறிய ஒப்பிடுதல் பயன்படுகிறது.",
+          "1. இலக்கங்களின் எண்ணிக்கை வெவ்வேறாக இருந்தால்: அதிக இலக்கங்களைக் கொண்ட எண் பெரிய எண் ஆகும்.",
+          "2. இலக்கங்களின் எண்ணிக்கை சமமாக இருந்தால்: இடப்பக்கத்தில் உள்ள அதிக இடமதிப்புக் கொண்ட இலக்கத்திலிருந்து ஒப்பிடத் தொடங்க வேண்டும். சமமாக இருந்தால் அடுத்தடுத்த இலக்கங்களை ஒப்பிட வேண்டும்.",
+          "பயன்படுத்தப்படும் குறியீடுகள்: > (பெரியது), < (சிறியது), = (சமம்). (எ.கா: 5432 > 5342)."
+        ]
+      },
+      {
+        "title": "1.7 ஏறுவரிசை மற்றும் இறங்குவரிசை (Ascending and Descending Order)",
+        "type": "bilingual",
+        "en": [
+          "1. Ascending Order: Arranging numbers from smallest to largest.",
+          "2. Descending Order: Arranging numbers from largest to smallest.",
+          "To form the largest number with given digits: Write digits in descending order. To form the smallest number: Write digits in ascending order. (Note: 0 should not come first)."
+        ],
+        "ta": [
+          "1. ஏறுவரிசை (Ascending Order): எண்களைச் சிறிய எண்ணிலிருந்து பெரிய எண் வரை வரிசைப்படுத்துவது ஏறுவரிசை எனப்படும்.",
+          "2. இறங்குவரிசை (Descending Order): எண்களைப் பெரிய எண்ணிலிருந்து சிறிய எண் வரை வரிசைப்படுத்துவது இறங்குவரிசை எனப்படும்.",
+          "குறிப்பிட்ட இலக்கங்களைக் கொடுத்து எண்களை உருவாக்கச் சொன்னால்: மிகப்பெரிய எண்ணை உருவாக்க இலக்கங்களை இறங்குவரிசையிலும், மிகச்சிறிய எண்ணை உருவாக்க இலக்கங்களை ஏறுவரிசையிலும் எழுத வேண்டும். (குறிப்பு: மிகச்சிறிய எண்ணை உருவாக்கும்போது 0 முதலில் வரக்கூடாது)."
+        ]
+      },
+      {
+        "title": "1.8 அன்றாட வாழ்வில் பெரிய எண்கள் (Large Numbers in Daily Life)",
+        "type": "bilingual",
+        "en": [
+          "Large numbers are used in our daily life for things like population calculation, bank transactions, distance between cities, etc. The four basic mathematical operations – addition, subtraction, multiplication, and division – are used to handle these."
+        ],
+        "ta": [
+          "நமது அன்றாட வாழ்வில் மக்கள் தொகையைக் கணக்கிடுதல், வங்கிப் பரிவர்த்தனைகள், இரு நகரங்களுக்கு இடையேயான தூரம் போன்றவற்றில் பெரிய எண்கள் பயன்படுகின்றன. இவற்றைக் கையாளக் கூட்டல், கழித்தல், பெருக்கல் மற்றும் வகுத்தல் ஆகிய நான்கு அடிப்படைச் கணிதச் செயல்பாடுகள் பயன்படுத்தப்படுகின்றன."
+        ]
+      },
+      {
+        "title": "1.9 செயல்பாடுகளின் வரிசை - BIDMAS (Order of Operations)",
+        "type": "bilingual",
+        "en": [
+          "To avoid confusion when multiple mathematical operations appear in a single calculation, the 'BIDMAS' rule is used.",
+          "B - Brackets, I - Indices, D - Division, M - Multiplication, A - Addition, S - Subtraction.",
+          "Division and Multiplication, and Addition and Subtraction, have the same priority (to be performed from left to right)."
+        ],
+        "ta": [
+          "ஒன்றுக்கு மேற்பட்ட கணிதச் செயல்பாடுகள் ஒரே கணக்கில் வரும்போது, எதை முதலில் செய்வது என்ற குழப்பத்தைத் தவிர்க்க 'BIDMAS' விதி பயன்படுகிறது.",
+          "B - அடைப்புக்குறி (Bracket), I - அடுக்குகள் / குறியீடுகள் (Indices), D - வகுத்தல் (Division), M - பெருக்கல் (Multiplication), A - கூட்டல் (Addition), S - கழித்தல் (Subtraction).",
+          "வகுத்தல் மற்றும் பெருக்கலுக்கும், கூட்டல் மற்றும் கழித்தலுக்கும் ஒரே முன்னுரிமை உண்டு (இடமிருந்து வலமாகச் செய்ய வேண்டும்)."
+        ]
+      },
+      {
+        "title": "1.10 எண்களைத் தோராயமாக்குதல் (Estimation / Rounding Off)",
+        "type": "bilingual",
+        "en": [
+          "Using an approximate, easy-to-calculate value instead of the exact value of a large number is called 'Estimation' or 'Rounding off'.",
+          "Rule: Look at the digit to the right of the place value you want to round off. If it's 5 or greater, add 1 to the digit. If less than 5, keep the digit same. Change all digits to the right to 0."
+        ],
+        "ta": [
+          "ஒரு பெரிய எண்ணின் সঠিক மதிப்பிற்குப் பதிலாக, அதற்கு மிக அருகில் உள்ள மற்றும் கணக்கிட எளிதான எண்ணைப் பயன்படுத்துவது 'தோராயமாக்குதல்' அல்லது 'முழுமையாக்குதல்' (Estimation / Rounding off) எனப்படும்.",
+          "விதி: எந்த இடமதிப்பிற்கு முழுமையாக்க வேண்டுமோ, அதற்கு வலப்பக்கம் உள்ள இலக்கத்தைப் பார்க்க வேண்டும். அந்த இலக்கம் 5 அல்லது 5-ஐ விடப் பெரியதாக இருந்தால், முழுமையாக்க வேண்டிய இலக்கத்துடன் 1-ஐக் கூட்ட வேண்டும். 5-ஐ விடச் சிறியதாக இருந்தால் அதே இலக்கத்தை வைத்துக் கொள்ள வேண்டும். மீதமுள்ள வலப்பக்க இலக்கங்களை 0 ஆக மாற்ற வேண்டும்."
+        ]
+      }
+    ]
+  },
+  "quiz": {
+    "questions": []
+  },
+  "credits": "A1 ONLINE COACHING CENTER"
+}

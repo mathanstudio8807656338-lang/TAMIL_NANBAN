@@ -1,0 +1,921 @@
+{
+  "lesson_meta": {
+    "title": "ஆங்கில இலக்கணம் - முழுப் பாடக்குறிப்புகள் (10ஆம் வகுப்பு, முழுப் புத்தகம்)",
+    "grade": "10",
+    "term": "Full",
+    "subject": "English Grammar",
+    "code": "eng_gram_10_full"
+  },
+  "material": {
+    "sections": [
+      {
+        "title": "1. Modals and Tenses (உதவி வினைச்சொற்கள் மற்றும் காலங்கள்)",
+        "content": "Modals (உதவி வினைச்சொற்கள்):\nCan (திறன்), Could (கடந்த காலத் திறன்), May (அனுமதி/சாத்தியம்), Might (குறைந்த சாத்தியம்), Will (எதிர்காலச் செயல்/உறுதி), Would (கடந்த கால வழக்கம்/வேண்டுகோள்), Shall (பரிந்துரை/எதிர்காலம்), Should / Ought to (அறிவுரை/கடமை), Must (கட்டாயம்).\nSemi-modals: Used to (கடந்த கால வழக்கம்), Need (தேவை), Dare (தைரியம்).\n\nTenses (முக்கிய காலங்கள்):\n1. Simple Present: உலக உண்மைகள், வழக்கமான செயல்கள் (The sun rises, He goes).\n2. Present Continuous: தற்போது நடந்துகொண்டிருக்கும் செயல் (is/am/are + V-ing).\n3. Present Perfect: சற்று முன் முடிவடைந்த செயல் (has/have + V3). (Already, just, recently).\n4. Simple Past: கடந்த காலத்தில் முடிந்த செயல் (V2). (Yesterday, ago, last year).\n5. Past Perfect: கடந்த காலத்தில் நடந்த இரு செயல்களில் முதலில் நடந்த செயல் (had + V3).\n6. Future Perfect: எதிர்காலத்தில் ஒரு குறிப்பிட்ட நேரத்திற்குள் முடியும் செயல் (will have + V3)."
+      },
+      {
+        "title": "2. Active and Passive Voice (செய்வினை மற்றும் செயப்பாட்டு வினை)",
+        "content": "Active-ஐ Passive ஆக மாற்றும் அடிப்படை விதிகள்:\n1. Object முன்னால் வரும், Subject பின்னால் (by + Object) வரும்.\n2. Tense மாறக்கூடாது. 'Be' form verb (is, was, been, being) சேர்க்கப்படும்.\n3. வினைச்சொல் V3 (Past Participle) ஆக மாறும்.\n\nமுக்கிய அமைப்புகள் (Advanced):\n1. Imperative (கட்டளை): Open the door -> Let the door be opened.\n2. Requests (வேண்டுகோள்): Please help me -> You are requested to help me.\n3. Questions (கேள்வி): Who wrote this? -> By whom was this written?\n4. Omission of Agent: Someone has stolen my pen -> My pen has been stolen (by someone தேவையில்லை).\n5. Modals: Can write -> Can be written. Must obey -> Must be obeyed."
+      },
+      {
+        "title": "3. Direct and Indirect Speech (நேர்க்கூற்று மற்றும் அயற்கூற்று)",
+        "content": "மாற்றும் விதிகள்:\n1. Statement (சாதாரண வாக்கியம்): 'That' சேர்க்க வேண்டும். Tense Past ஆக மாறும்.\n2. Interrogative (Wh-): இணைப்புச்சொல் Wh- வார்த்தையே. அமைப்பு Subject + Verb என மாறும்.\n3. Interrogative (Yes/No): If அல்லது Whether இணைப்புச்சொல்.\n4. Imperative (கட்டளை/வேண்டுகோள்): To (positive), Not to (negative) இணைப்புச்சொல்.\n5. Exclamatory: Exclaimed with joy/sorrow என்று மாறும். 'That' இணைப்புச்சொல்.\n\nகால மாற்றங்கள் (Tense Changes):\nSimple Present -> Simple Past (write -> wrote)\nPresent Continuous -> Past Continuous (is writing -> was writing)\nPresent Perfect -> Past Perfect (has written -> had written)\nSimple Past -> Past Perfect (wrote -> had written)\nWill/Can/May -> Would/Could/Might.\n\nஉலக உண்மைகள் (Universal Truths) வந்தால் Tense மாறாது."
+      },
+      {
+        "title": "4. Simple, Compound and Complex Sentences (எளிய, கூட்டு மற்றும் கலவை வாக்கியங்கள்)",
+        "content": "1. Simple Sentence (எளிய வாக்கியம்):\nஒரே ஒரு Main Clause மற்றும் ஒரு Phrase இருக்கும்.\nஅடையாளச் சொற்கள்: In spite of, On account of / Due to, Being, On seeing, In the event of, Too...to.\n\n2. Compound Sentence (கூட்டு வாக்கியம்):\nஇரண்டு Main Clauses, Coordinating Conjunctions ஆல் இணைக்கப்படும்.\nஅடையாளச் சொற்கள்: and, but, yet, or, so, and so, must...or.\n\n3. Complex Sentence (கலவை வாக்கியம்):\nஒரு Main Clause மற்றும் ஒன்று அல்லது அதற்கு மேற்பட்ட Subordinate Clauses இருக்கும்.\nஅடையாளச் சொற்கள்: Though, Although, As, Since, Because, If, Unless, As soon as, So...that...cannot.\n\nமாற்றும் முறை (Transformation):\n* In spite of (Simple) -> But/Yet (Compound) -> Though/Although (Complex).\n* On account of / Due to (Simple) -> So / And so (Compound) -> As/Since/Because (Complex).\n* In the event of / V+ing (Simple) -> And/Must...or (Compound) -> If/Unless (Complex).\n* Too...to (Simple) -> Very...and so cannot (Compound) -> So...that...cannot (Complex)."
+      },
+      {
+        "title": "5. Conditional Clauses, Concord & Question Tags",
+        "content": "Conditionals (If Clauses):\nType 0 (Fact): If + Present, Present.\nType 1 (Possible): If + Present, Future (will+V1).\nType 2 (Improbable): If + Past (V2 / were), would+V1.\nType 3 (Impossible): If + Past Perfect (had+V3), would have+V3.\nUnless என்றால் 'If...not' என்று பொருள்.\n\nConcord (Subject-Verb Agreement):\n1. Singular Subject -> Singular Verb. Plural Subject -> Plural Verb.\n2. One of the, Each of the, Neither of the -> Verb எப்போதுமே Singular (is/was/has).\n3. As well as, Along with -> முதல் Subject-ஐப் பொறுத்து Verb வரும்.\n4. Either...or, Neither...nor -> Verb-க்கு அருகில் உள்ள Subject-ஐப் பொறுத்து Verb வரும்.\n\nQuestion Tags:\n1. Positive வாக்கியம் -> Negative tag. Negative வாக்கியம் -> Positive tag.\n2. I am -> aren't I?\n3. Let us -> shall we?\n4. Imperatives (கட்டளைகள்) -> will you?\n5. Rarely, seldom, hardly, never ஆகியவை Negative சொற்கள். இவற்றிற்கு Positive tag வரும்."
+      },
+      {
+        "title": "6. Vocabulary (Idioms, Phrasal Verbs, Syllabification)",
+        "content": "Idioms (மரபுத்தொடர்கள்):\nOnce in a blue moon - மிக அரிதாக.\nA piece of cake - மிகவும் எளிதான செயல்.\nBurn the midnight oil - விடிய விடிய உழைத்தல்.\nUnder the weather - உடல்நிலை சரியில்லாமல் இருத்தல்.\n\nPhrasal Verbs:\nLook after - கவனித்துக்கொள்ளுதல்.\nPut off / Call off - தள்ளிவைத்தல் / ரத்து செய்தல்.\nGive up - கைவிடுதல்.\nTake off - புறப்படுதல் / கழற்றுதல்.\n\nSyllabification (அசை பிரித்தல்):\nMonosyllabic (1): Cat, Bat, School (no, wait, school is 1, but be careful of sounds).\nDisyllabic (2): Teach-er, Wa-ter.\nTrisyllabic (3): Beau-ti-ful, Com-pu-ter.\nTetrasyllabic (4): In-for-ma-tion.\nPentasyllabic (5): Ex-am-i-na-tion."
+      }
+    ]
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "Choose the correct modal: You ________ wear a helmet while riding a bike.",
+        "options": [
+          "can",
+          "must",
+          "might",
+          "would"
+        ],
+        "answer": 1,
+        "explanation": "வாகனம் ஓட்டும்போது ஹெல்மெட் அணிவது சட்டப்படியான கட்டாயம் (Compulsion). எனவே 'must' பயன்படுத்த வேண்டும்."
+      },
+      {
+        "question": "Choose the correct modal: ________ I come in, Sir?",
+        "options": [
+          "Will",
+          "Must",
+          "May",
+          "Should"
+        ],
+        "answer": 2,
+        "explanation": "பணிவாக அனுமதி கேட்பதற்கு (Polite permission) 'May' என்ற உதவி வினைச்சொல் பயன்படுத்தப்படும்."
+      },
+      {
+        "question": "Choose the correct semi-modal: When I was a child, I ________ play in the street.",
+        "options": [
+          "ought to",
+          "need to",
+          "used to",
+          "dare to"
+        ],
+        "answer": 2,
+        "explanation": "கடந்த காலத்தில் வழக்கமாக நடந்த ஒரு செயலைக் (Past habit) குறிக்க 'used to' பயன்படும்."
+      },
+      {
+        "question": "Choose the correct semi-modal: How ________ you speak to me like that!",
+        "options": [
+          "dare",
+          "need",
+          "used to",
+          "ought"
+        ],
+        "answer": 0,
+        "explanation": "கோபத்திலோ அல்லது சவாலாகவோ தைரியத்தைக் குறிக்க 'dare' என்ற சொல் பயன்படுகிறது."
+      },
+      {
+        "question": "We ________ respect our parents and teachers.",
+        "options": [
+          "can",
+          "might",
+          "ought to",
+          "could"
+        ],
+        "answer": 2,
+        "explanation": "தார்மீகக் கடமையைக் (Moral duty) குறிக்க 'ought to' (அல்லது should) பயன்படுத்தப்படுகிறது."
+      },
+      {
+        "question": "Tenses: The Earth ________ around the Sun.",
+        "options": [
+          "revolved",
+          "is revolving",
+          "revolves",
+          "has revolved"
+        ],
+        "answer": 2,
+        "explanation": "அறிவியல் உண்மைகள் (Universal truths) எப்போதுமே Simple Present Tense-ல் வர வேண்டும். 'Earth' singular என்பதால் 'revolves'."
+      },
+      {
+        "question": "Tenses: I ________ my breakfast just now.",
+        "options": [
+          "ate",
+          "eat",
+          "am eating",
+          "have eaten"
+        ],
+        "answer": 3,
+        "explanation": "'just now', 'recently' போன்ற சொற்கள் சற்று முன் முடிந்த செயலைக் குறிக்கும். எனவே Present Perfect Tense (have/has + V3) வரும்."
+      },
+      {
+        "question": "Tenses: When I reached the station, the train ________.",
+        "options": [
+          "left",
+          "had left",
+          "has left",
+          "is leaving"
+        ],
+        "answer": 1,
+        "explanation": "கடந்த காலத்தில் நடந்த இரு செயல்களில் முதலில் நடந்த செயலுக்கு Past Perfect Tense (had + V3) பயன்படுத்த வேண்டும்."
+      },
+      {
+        "question": "Tenses: By this time tomorrow, I ________ the project.",
+        "options": [
+          "will finish",
+          "will be finishing",
+          "will have finished",
+          "finished"
+        ],
+        "answer": 2,
+        "explanation": "'By this time tomorrow' என்பது எதிர்காலத்தில் ஒரு குறிப்பிட்ட நேரத்திற்குள் முடியும் செயலைக் குறிக்கும் Future Perfect Tense (will have + V3)."
+      },
+      {
+        "question": "Tenses: They ________ in this house since 2015.",
+        "options": [
+          "lived",
+          "live",
+          "have been living",
+          "are living"
+        ],
+        "answer": 2,
+        "explanation": "கடந்த காலத்தில் தொடங்கி, தற்போது வரை தொடர்ந்து நடந்துகொண்டிருக்கும் செயலைக் குறிக்க Present Perfect Continuous (have been + V+ing) பயன்படும்."
+      },
+      {
+        "question": "Voice: Choose the passive form of 'He writes a letter.'",
+        "options": [
+          "A letter wrote by him.",
+          "A letter is written by him.",
+          "A letter was written by him.",
+          "He is writing a letter."
+        ],
+        "answer": 1,
+        "explanation": "'writes' என்பது Simple Present Tense. Passive-ல் 'is/are + V3' (is written) வர வேண்டும்."
+      },
+      {
+        "question": "Voice: Choose the passive form of 'They are painting the wall.'",
+        "options": [
+          "The wall is painted by them.",
+          "The wall was painted by them.",
+          "The wall is being painted by them.",
+          "The wall has been painted by them."
+        ],
+        "answer": 2,
+        "explanation": "'are painting' என்பது Present Continuous. Passive-ல் 'is being + V3' (is being painted) வர வேண்டும்."
+      },
+      {
+        "question": "Voice: Choose the passive form of 'She had completed the task.'",
+        "options": [
+          "The task was completed by her.",
+          "The task had completed by her.",
+          "The task has been completed by her.",
+          "The task had been completed by her."
+        ],
+        "answer": 3,
+        "explanation": "'had completed' என்பது Past Perfect. Passive-ல் 'had been + V3' (had been completed) வர வேண்டும்."
+      },
+      {
+        "question": "Voice: Choose the passive form of 'Someone has stolen my purse.'",
+        "options": [
+          "My purse has stolen by someone.",
+          "My purse was stolen.",
+          "My purse has been stolen.",
+          "Someone has been stolen my purse."
+        ],
+        "answer": 2,
+        "explanation": "'has stolen' -> 'has been stolen'. 'Someone' போன்ற subjects-ஐ Passive-ல் 'by someone' என எழுத வேண்டிய அவசியமில்லை."
+      },
+      {
+        "question": "Voice: Choose the passive form of 'Close the door.'",
+        "options": [
+          "The door is closed.",
+          "Close door.",
+          "Let the door be closed.",
+          "The door closed."
+        ],
+        "answer": 2,
+        "explanation": "கட்டளை வாக்கியங்களை (Imperative sentences) Passive ஆக மாற்றும்போது 'Let + Object + be + V3' என்ற அமைப்பைப் பயன்படுத்த வேண்டும்."
+      },
+      {
+        "question": "Voice: Choose the passive form of 'Please give me a pen.'",
+        "options": [
+          "Let a pen be given to me.",
+          "You are requested to give me a pen.",
+          "A pen is given to me.",
+          "I am given a pen."
+        ],
+        "answer": 1,
+        "explanation": "'Please' என்று வரும் வேண்டுகோள் வாக்கியங்களை 'You are requested to + V1' என்று மாற்றுவது சரியான Passive அமைப்பாகும்."
+      },
+      {
+        "question": "Voice: Choose the passive form of 'Who broke the window?'",
+        "options": [
+          "By whom was the window broken?",
+          "Who was broken the window?",
+          "The window was broken by who?",
+          "By whom the window was broken?"
+        ],
+        "answer": 0,
+        "explanation": "'Who' என்று தொடங்கும் கேள்விகளை Passive ஆக மாற்றும்போது 'By whom' என்று தொடங்கி, தொடர்ந்து verb (was), பின் subject, பின் V3 வர வேண்டும்."
+      },
+      {
+        "question": "Voice: Change into Active Voice: 'The song was sung by her.'",
+        "options": [
+          "She sings the song.",
+          "She is singing the song.",
+          "She sang the song.",
+          "She has sung the song."
+        ],
+        "answer": 2,
+        "explanation": "'was sung' என்பது Simple Past Passive. Active-ல் V2 (sang) வர வேண்டும்."
+      },
+      {
+        "question": "Voice: Choose the passive form of 'I have to do this work.'",
+        "options": [
+          "This work has to be done by me.",
+          "This work is done by me.",
+          "This work have to do by me.",
+          "This work was done by me."
+        ],
+        "answer": 0,
+        "explanation": "'to + V1' (Infinitive) வந்தால், Passive-ல் 'to + be + V3' (to be done) என மாறும். This work singular என்பதால் 'has' வரும்."
+      },
+      {
+        "question": "Voice: Choose the passive form of 'We must respect our elders.'",
+        "options": [
+          "Our elders must respect.",
+          "Our elders are respected.",
+          "Our elders must be respected by us.",
+          "Our elders were respected."
+        ],
+        "answer": 2,
+        "explanation": "Modals (must, can) வந்தால் Passive-ல் Modal + be + V3 (must be respected) என மாறும்."
+      },
+      {
+        "question": "Speech: Convert to Indirect: He said, \"I am happy.\"",
+        "options": [
+          "He said that he is happy.",
+          "He said that I was happy.",
+          "He said that he was happy.",
+          "He asked if he was happy."
+        ],
+        "answer": 2,
+        "explanation": "தொடர்புச் சொல்லாக 'that' சேரும். 'I' என்பது 'he' ஆக மாறும். 'am' (present) என்பது 'was' (past) ஆக மாறும்."
+      },
+      {
+        "question": "Speech: Convert to Indirect: She said to me, \"Where are you going?\"",
+        "options": [
+          "She asked me where I was going.",
+          "She asked me that where I was going.",
+          "She told me where was I going.",
+          "She asked me where am I going."
+        ],
+        "answer": 0,
+        "explanation": "Wh-கேள்விகளுக்கு அதே வார்த்தையே இணைப்புச்சொல்லாக வரும். கேள்வி அமைப்பு சாதாரண வாக்கியமாக (Subject + verb -> I was going) மாற வேண்டும்."
+      },
+      {
+        "question": "Speech: Convert to Indirect: \"Did you complete the work?\" the manager asked.",
+        "options": [
+          "The manager asked that I completed the work.",
+          "The manager asked if I had completed the work.",
+          "The manager asked did I complete the work.",
+          "The manager asked whether I complete the work."
+        ],
+        "answer": 1,
+        "explanation": "Yes/No கேள்விகளுக்கு இணைப்புச்சொல் 'if' அல்லது 'whether'. Simple Past (did complete) -> Past Perfect (had completed) ஆக மாறும்."
+      },
+      {
+        "question": "Speech: Convert to Indirect: The doctor said to the patient, \"Take medicines regularly.\"",
+        "options": [
+          "The doctor ordered the patient that take medicines regularly.",
+          "The doctor advised the patient to take medicines regularly.",
+          "The doctor said to the patient take medicines.",
+          "The doctor requested the patient if he takes medicines."
+        ],
+        "answer": 1,
+        "explanation": "இது ஒரு அறிவுரை (Imperative). 'said to' என்பது 'advised' ஆக மாறும். இணைப்புச்சொல் 'to'."
+      },
+      {
+        "question": "Speech: Convert to Indirect: The teacher said, \"Don't talk in the class.\"",
+        "options": [
+          "The teacher told to not talk in the class.",
+          "The teacher ordered the students not to talk in the class.",
+          "The teacher asked don't talk in the class.",
+          "The teacher said that don't talk."
+        ],
+        "answer": 1,
+        "explanation": "Negative கட்டளை வாக்கியங்களுக்கு (Don't) இணைப்புச்சொல்லாக 'not to' பயன்படுத்த வேண்டும்."
+      },
+      {
+        "question": "Speech: Convert to Indirect: He said, \"Alas! I have lost my purse.\"",
+        "options": [
+          "He exclaimed with sorrow that he had lost his purse.",
+          "He said alas he lost his purse.",
+          "He exclaimed with joy that he has lost his purse.",
+          "He told that he lost his purse."
+        ],
+        "answer": 0,
+        "explanation": "Alas! என்பது சோகத்தைக் குறிக்கும். எனவே 'exclaimed with sorrow' என்று வர வேண்டும். have lost -> had lost."
+      },
+      {
+        "question": "Speech: Convert to Indirect: The teacher said, \"The sun rises in the east.\"",
+        "options": [
+          "The teacher said that the sun rose in the east.",
+          "The teacher said that the sun rises in the east.",
+          "The teacher asked if the sun rises in the east.",
+          "The teacher said the sun rising in the east."
+        ],
+        "answer": 1,
+        "explanation": "உலக உண்மைகள் (Universal truths) வரும்போது Indirect speech-ல் Tense மாறாது."
+      },
+      {
+        "question": "Speech: In Indirect speech, the word 'tomorrow' changes to ________.",
+        "options": [
+          "the next day",
+          "the previous day",
+          "today",
+          "that day"
+        ],
+        "answer": 0,
+        "explanation": "'tomorrow' (நாளை) என்பது 'the next day' அல்லது 'the following day' என்று மாறும்."
+      },
+      {
+        "question": "Speech: In Indirect speech, the word 'yesterday' changes to ________.",
+        "options": [
+          "the next day",
+          "the previous day",
+          "that day",
+          "today"
+        ],
+        "answer": 1,
+        "explanation": "'yesterday' (நேற்று) என்பது 'the previous day' அல்லது 'the day before' என்று மாறும்."
+      },
+      {
+        "question": "Speech: Choose the correct Direct Speech for: He asked me what my name was.",
+        "options": [
+          "He said to me, \"What is your name?\"",
+          "He said, \"What my name is?\"",
+          "He asked, \"What was your name?\"",
+          "He told, \"What is your name?\""
+        ],
+        "answer": 0,
+        "explanation": "Indirect-ல் உள்ள 'my name was' நேர்க்கூற்றில் (Direct) 'is your name' என்று இருந்திருக்கும்."
+      },
+      {
+        "question": "Identify the Sentence: 'In spite of his hard work, he failed.'",
+        "options": [
+          "Compound Sentence",
+          "Complex Sentence",
+          "Simple Sentence",
+          "Compound-Complex Sentence"
+        ],
+        "answer": 2,
+        "explanation": "'In spite of' என்பது ஒரு Phrase. ஒரே ஒரு Main clause (he failed) மட்டுமே உள்ளதால் இது Simple Sentence."
+      },
+      {
+        "question": "Identify the Sentence: 'He worked hard, but he failed.'",
+        "options": [
+          "Simple Sentence",
+          "Compound Sentence",
+          "Complex Sentence",
+          "Declarative Sentence"
+        ],
+        "answer": 1,
+        "explanation": "'but' என்ற Coordinating conjunction இரண்டு Main clauses-ஐ இணைப்பதால் இது Compound Sentence."
+      },
+      {
+        "question": "Identify the Sentence: 'Though he worked hard, he failed.'",
+        "options": [
+          "Simple Sentence",
+          "Compound Sentence",
+          "Complex Sentence",
+          "Interrogative Sentence"
+        ],
+        "answer": 2,
+        "explanation": "'Though' என்ற Subordinating conjunction வந்துள்ளதால் இது ஒரு Complex Sentence (கலவை வாக்கியம்)."
+      },
+      {
+        "question": "Transform to Complex: 'He is too weak to walk.'",
+        "options": [
+          "He is very weak so he cannot walk.",
+          "He is so weak that he cannot walk.",
+          "As he is weak, he cannot walk.",
+          "He is weak and he cannot walk."
+        ],
+        "answer": 1,
+        "explanation": "Simple sentence-ல் உள்ள 'too...to' அமைப்பை Complex ஆக மாற்ற 'so...that...cannot' என்ற அமைப்பைப் பயன்படுத்த வேண்டும்."
+      },
+      {
+        "question": "Transform to Simple: 'As soon as he saw the snake, he ran away.'",
+        "options": [
+          "He saw the snake and ran away.",
+          "On seeing the snake, he ran away.",
+          "Because he saw the snake, he ran away.",
+          "Seeing the snake so he ran away."
+        ],
+        "answer": 1,
+        "explanation": "Complex sentence-ல் உள்ள 'As soon as'-ஐ Simple ஆக மாற்ற 'On + V-ing' (On seeing) பயன்படுத்த வேண்டும்."
+      },
+      {
+        "question": "Transform to Complex: 'In the event of playing well, you will win.'",
+        "options": [
+          "If you play well, you will win.",
+          "You play well and you will win.",
+          "Unless you play well, you will win.",
+          "Play well or you will fail."
+        ],
+        "answer": 0,
+        "explanation": "'In the event of' (Simple) என்பது நிபந்தனையைக் குறிக்கும். இதனை Complex ஆக மாற்ற 'If' பயன்படுத்த வேண்டும்."
+      },
+      {
+        "question": "Transform to Compound: 'Being tired, he went to bed.'",
+        "options": [
+          "As he was tired, he went to bed.",
+          "He was tired, so he went to bed.",
+          "He went to bed because he was tired.",
+          "Though he was tired, he went to bed."
+        ],
+        "answer": 1,
+        "explanation": "'Being' (Simple) காரணத்தைக் குறிக்கிறது. Compound-ல் 'so' அல்லது 'and so' வர வேண்டும்."
+      },
+      {
+        "question": "Transform to Compound: 'Besides being a teacher, she is a singer.'",
+        "options": [
+          "She is not only a teacher but also a singer.",
+          "She is a teacher and a singer.",
+          "As she is a teacher, she is a singer.",
+          "Though she is a teacher, she is a singer."
+        ],
+        "answer": 0,
+        "explanation": "'Besides' (அதுமட்டுமில்லாமல்) என்ற Simple வாக்கியத்தை Compound ஆக மாற்ற 'Not only...but also' பயன்படும்."
+      },
+      {
+        "question": "Transform to Complex: 'He was ill, and so he did not come.'",
+        "options": [
+          "In spite of his illness, he did not come.",
+          "As he was ill, he did not come.",
+          "He did not come due to illness.",
+          "Being ill, he did not come."
+        ],
+        "answer": 1,
+        "explanation": "காரணத்தைக் கூறும் Compound sentence-ஐ (and so) Complex ஆக மாற்ற 'As', 'Since' அல்லது 'Because' பயன்படுத்த வேண்டும்."
+      },
+      {
+        "question": "Transform to Simple: 'Although he is rich, he is unhappy.'",
+        "options": [
+          "He is rich but he is unhappy.",
+          "Despite being rich, he is unhappy.",
+          "Because he is rich, he is unhappy.",
+          "He is rich, yet he is unhappy."
+        ],
+        "answer": 1,
+        "explanation": "முரண்பாட்டைக் கூறும் Complex sentence-ஐ (Although) Simple ஆக மாற்ற 'In spite of' அல்லது 'Despite' பயன்படுத்த வேண்டும்."
+      },
+      {
+        "question": "Conditionals: If you heat water to 100 degrees, it ________.",
+        "options": [
+          "boiled",
+          "will boil",
+          "boils",
+          "would boil"
+        ],
+        "answer": 2,
+        "explanation": "இது ஒரு அறிவியல் உண்மை (Type 0 / Zero conditional). எனவே இருபுறமும் Simple Present Tense (boils) வர வேண்டும்."
+      },
+      {
+        "question": "Conditionals: If you study hard, you ________ the exam.",
+        "options": [
+          "would pass",
+          "will pass",
+          "passed",
+          "would have passed"
+        ],
+        "answer": 1,
+        "explanation": "If + Simple Present (study) வந்தால், அடுத்த பகுதியில் Simple Future (will pass) வர வேண்டும் (Type 1)."
+      },
+      {
+        "question": "Conditionals: If I ________ a bird, I would fly.",
+        "options": [
+          "was",
+          "am",
+          "had been",
+          "were"
+        ],
+        "answer": 3,
+        "explanation": "கற்பனையான நிபந்தனை வாக்கியங்களில் (Type 2), 'I' உடன் 'was' வராது, 'were' மட்டுமே பயன்படுத்த வேண்டும்."
+      },
+      {
+        "question": "Conditionals: If she had invited me, I ________ the party.",
+        "options": [
+          "will attend",
+          "would attend",
+          "would have attended",
+          "attended"
+        ],
+        "answer": 2,
+        "explanation": "If + Past Perfect (had invited) வந்தால், அடுத்த பகுதியில் 'would have + V3' (would have attended) வர வேண்டும் (Type 3)."
+      },
+      {
+        "question": "Conditionals: ________ you work hard, you will fail.",
+        "options": [
+          "If",
+          "Because",
+          "Though",
+          "Unless"
+        ],
+        "answer": 3,
+        "explanation": "'Unless' என்றால் 'If...not' (இல்லையென்றால்) என்று பொருள். கடினமாக உழைக்காவிட்டால் தோல்வியடைவாய்."
+      },
+      {
+        "question": "Question Tags: He is a good boy, ________?",
+        "options": [
+          "is he",
+          "isn't he",
+          "does he",
+          "doesn't he"
+        ],
+        "answer": 1,
+        "explanation": "வாக்கியம் Positive (He is) ஆக இருப்பதால், Tag Negative ஆக (isn't he) இருக்க வேண்டும்."
+      },
+      {
+        "question": "Question Tags: They haven't completed the work, ________?",
+        "options": [
+          "have they",
+          "haven't they",
+          "do they",
+          "did they"
+        ],
+        "answer": 0,
+        "explanation": "வாக்கியம் Negative (haven't) ஆக இருப்பதால், Tag Positive ஆக (have they) இருக்க வேண்டும்."
+      },
+      {
+        "question": "Question Tags: I am a student, ________?",
+        "options": [
+          "am not I",
+          "don't I",
+          "aren't I",
+          "am I"
+        ],
+        "answer": 2,
+        "explanation": "ஆங்கில இலக்கண விதியின்படி 'I am' என்று Positive வாக்கியம் வந்தால், அதன் tag 'aren't I?' என்று மட்டுமே வரும்."
+      },
+      {
+        "question": "Question Tags: Let's go to the beach, ________?",
+        "options": [
+          "will we",
+          "shall we",
+          "don't we",
+          "do we"
+        ],
+        "answer": 1,
+        "explanation": "வாக்கியம் 'Let's' (Let us) என்று தொடங்கினால், அதன் Question tag எப்போதும் 'shall we?' என்றுதான் இருக்க வேண்டும்."
+      },
+      {
+        "question": "Question Tags: Open the window, ________?",
+        "options": [
+          "do you",
+          "don't you",
+          "are you",
+          "will you"
+        ],
+        "answer": 3,
+        "explanation": "கட்டளை வாக்கியங்களுக்கு (Imperatives) Tag 'will you?' அல்லது 'won't you?' என்று வரும்."
+      },
+      {
+        "question": "Concord: One of the students ________ selected for the competition.",
+        "options": [
+          "are",
+          "were",
+          "is",
+          "have"
+        ],
+        "answer": 2,
+        "explanation": "'One of the...' என்று தொடங்கினால், பலரில் ஒருவரை மட்டுமே குறிக்கிறது (Singular subject). எனவே singular verb (is) வர வேண்டும்."
+      },
+      {
+        "question": "Concord: The principal as well as the teachers ________ attending the meeting.",
+        "options": [
+          "is",
+          "are",
+          "were",
+          "have"
+        ],
+        "answer": 0,
+        "explanation": "'as well as', 'along with' போன்ற சொற்களால் இணைக்கப்படும்போது, முதல் subject-ஐப் (The principal - Singular) பொறுத்தே Verb (is) வரும்."
+      },
+      {
+        "question": "Concord: Neither Ravi nor his friends ________ brought the book.",
+        "options": [
+          "has",
+          "have",
+          "is",
+          "was"
+        ],
+        "answer": 1,
+        "explanation": "'Neither...nor', 'Either...or' வரும்போது, Verb-க்கு அருகில் உள்ள Subject-ஐப் (his friends - Plural) பொறுத்தே Verb (have) வரும்."
+      },
+      {
+        "question": "Concord: Bread and butter ________ my favourite breakfast.",
+        "options": [
+          "are",
+          "were",
+          "is",
+          "have"
+        ],
+        "answer": 2,
+        "explanation": "Bread and butter என்பது இரண்டு நவுன்கள் என்றாலும் அது ஒரே உணவாகக் (Single unit) கருதப்படும். எனவே Singular verb (is) வரும்."
+      },
+      {
+        "question": "Concord: Fifty kilometers ________ a long distance.",
+        "options": [
+          "are",
+          "is",
+          "were",
+          "have"
+        ],
+        "answer": 1,
+        "explanation": "தூரம் (Distance), பணம், காலம் ஆகியவற்றை ஒரு ஒட்டுமொத்த அளவாகக் கருதும்போது Singular verb (is) பயன்படுத்த வேண்டும்."
+      },
+      {
+        "question": "Prepositions: I have been living here ________ 2010.",
+        "options": [
+          "for",
+          "from",
+          "since",
+          "in"
+        ],
+        "answer": 2,
+        "explanation": "ஒரு செயல் தொடங்கிய குறிப்பிட்ட ஆண்டை/நேரத்தை (Point of time) குறிக்க 'since' பயன்படுத்த வேண்டும்."
+      },
+      {
+        "question": "Prepositions: Distribute the sweets ________ the two sisters.",
+        "options": [
+          "among",
+          "between",
+          "with",
+          "for"
+        ],
+        "answer": 1,
+        "explanation": "சரியாக இரண்டு பேருக்கு இடையில் எனப் பொருள் வரும்போது 'between' பயன்படுத்த வேண்டும். பலருக்கு இடையில் என்றால் 'among'."
+      },
+      {
+        "question": "Prepositions: He is very fond ________ music.",
+        "options": [
+          "in",
+          "with",
+          "of",
+          "at"
+        ],
+        "answer": 2,
+        "explanation": "ஆங்கில இலக்கண மரபுப்படி 'fond' (விருப்பம்/பற்று) என்ற சொல்லுக்கு அடுத்து எப்போதும் 'of' என்ற preposition வர வேண்டும்."
+      },
+      {
+        "question": "Articles: He is ________ honest man.",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "no article"
+        ],
+        "answer": 1,
+        "explanation": "'honest' என்ற சொல்லில் 'h' silent ஆக இருப்பதால், அது உயிர் ஒலியில் (vowel sound 'o') தொடங்குகிறது. எனவே 'an' வர வேண்டும்."
+      },
+      {
+        "question": "Articles: Mount Everest is ________ highest peak in the world.",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "no article"
+        ],
+        "answer": 2,
+        "explanation": "Superlative degree-க்கு (highest, tallest) முன்னால் எப்போதும் 'the' என்ற Article பயன்படுத்த வேண்டும்."
+      },
+      {
+        "question": "Non-finite Verbs: ________ is injurious to health. (Use Gerund)",
+        "options": [
+          "Smoke",
+          "To smoke",
+          "Smoked",
+          "Smoking"
+        ],
+        "answer": 3,
+        "explanation": "Subject ஆக வரும் Verb+ing அமைப்பு Gerund எனப்படும். 'Smoking' என்பது சரியான விடை."
+      },
+      {
+        "question": "Non-finite Verbs: He refused ________ the gift.",
+        "options": [
+          "accepting",
+          "accepted",
+          "to accept",
+          "accept"
+        ],
+        "answer": 2,
+        "explanation": "'refuse', 'want', 'decide' போன்ற சொற்களுக்குப் பின் Infinitive (to + verb) வர வேண்டும்."
+      },
+      {
+        "question": "Relative Pronouns: The man ________ stole the bag was caught.",
+        "options": [
+          "whom",
+          "who",
+          "whose",
+          "which"
+        ],
+        "answer": 1,
+        "explanation": "மனிதர்களைச் சுட்டிக்காட்டி எழுவாயாக (Subject) பயன்படும்போது 'who' (யார்) என்ற சொல்லைப் பயன்படுத்த வேண்டும்."
+      },
+      {
+        "question": "Relative Pronouns: The boy ________ father is a doctor is my friend.",
+        "options": [
+          "who",
+          "whom",
+          "whose",
+          "which"
+        ],
+        "answer": 2,
+        "explanation": "உடைமையைக் (எவனுடைய/யாருடைய) குறிப்பதற்கு 'whose' என்ற Relative pronoun பயன்படுத்தப்படுகிறது."
+      },
+      {
+        "question": "Relative Pronouns: The car ________ I bought is very fast.",
+        "options": [
+          "who",
+          "which",
+          "whom",
+          "whose"
+        ],
+        "answer": 1,
+        "explanation": "விலங்குகள் மற்றும் உயிரற்ற பொருள்களைக் (car) குறிப்பதற்கு 'which' அல்லது 'that' பயன்படுத்த வேண்டும்."
+      },
+      {
+        "question": "Phrases & Clauses: Identify the Noun Clause in 'I know that he is innocent.'",
+        "options": [
+          "I know",
+          "that he is",
+          "that he is innocent",
+          "he is innocent"
+        ],
+        "answer": 2,
+        "explanation": "Verb-க்கு (know) அடுத்து Object ஆக வரும் முழு Clause-ம் (that he is innocent) Noun Clause எனப்படும்."
+      },
+      {
+        "question": "Phrases & Clauses: Identify the Adjective Clause in 'The book which is on the table is mine.'",
+        "options": [
+          "The book",
+          "which is on the table",
+          "is mine",
+          "The book is mine"
+        ],
+        "answer": 1,
+        "explanation": "'book' என்ற Noun-ஐ விவரிக்கும் Relative pronoun-உடன் தொடங்கும் clause (which is on the table) Adjective clause ஆகும்."
+      },
+      {
+        "question": "Degrees of Comparison: No other metal is as heavy as lead. (Identify the degree)",
+        "options": [
+          "Comparative",
+          "Positive",
+          "Superlative",
+          "None"
+        ],
+        "answer": 1,
+        "explanation": "'No other' என்று தொடங்கி 'as...as' அமைப்பில் வருவதால் இது Positive Degree ஆகும்."
+      },
+      {
+        "question": "Degrees of Comparison: Gold is more precious than any other metal. (Identify the degree)",
+        "options": [
+          "Positive",
+          "Superlative",
+          "Comparative",
+          "Complex"
+        ],
+        "answer": 2,
+        "explanation": "'more...than' என்ற அமைப்பு வந்திருப்பதால் இது Comparative Degree ஆகும்."
+      },
+      {
+        "question": "Degrees of Comparison: Chennai is one of the largest cities in India. (Identify the degree)",
+        "options": [
+          "Positive",
+          "Comparative",
+          "Superlative",
+          "Simple"
+        ],
+        "answer": 2,
+        "explanation": "'one of the + superlative adjective' வந்திருப்பதால் இது Superlative Degree (Type 2) ஆகும்."
+      },
+      {
+        "question": "Phrasal Verbs: The match was ________ due to heavy rain.",
+        "options": [
+          "put on",
+          "put off",
+          "given up",
+          "looked after"
+        ],
+        "answer": 1,
+        "explanation": "'Put off' அல்லது 'Called off' என்றால் ஒரு நிகழ்வைத் 'தள்ளிவைத்தல்' அல்லது 'ரத்து செய்தல்' (Postpone/Cancel) என்று பொருள்."
+      },
+      {
+        "question": "Phrasal Verbs: We should ________ our aged parents.",
+        "options": [
+          "look for",
+          "look at",
+          "look after",
+          "look into"
+        ],
+        "answer": 2,
+        "explanation": "'Look after' என்றால் 'கவனித்துக் கொள்ளுதல்' (Take care of) என்று பொருள்."
+      },
+      {
+        "question": "Idioms: What does 'Once in a blue moon' mean?",
+        "options": [
+          "Very frequently",
+          "Very rarely",
+          "Never",
+          "Every month"
+        ],
+        "answer": 1,
+        "explanation": "'Once in a blue moon' என்றால் 'அத்தி பூத்தாற்போல' அதாவது மிக அரிதாக (Very rarely) நடைபெறும் ஒரு நிகழ்வைக் குறிக்கும்."
+      },
+      {
+        "question": "Idioms: The math test was a 'piece of cake'. What does it mean?",
+        "options": [
+          "Very hard",
+          "Very easy",
+          "Tasty",
+          "Complicated"
+        ],
+        "answer": 1,
+        "explanation": "'A piece of cake' என்ற மரபுத்தொடர் (Idiom) 'மிகவும் எளிதான செயல்' (Very easy) என்பதைக் குறிக்கிறது."
+      },
+      {
+        "question": "Idioms: To pass the exam, he had to 'burn the midnight oil'. What does it mean?",
+        "options": [
+          "Light a lamp",
+          "Waste oil",
+          "Work late into the night",
+          "Sleep early"
+        ],
+        "answer": 2,
+        "explanation": "'Burn the midnight oil' என்றால் விடிய விடிய அல்லது இரவு வெகுநேரம் வரை கண்விழித்து உழைத்தல் என்று பொருள்."
+      },
+      {
+        "question": "Affixes: Add the correct prefix to the word 'legal'.",
+        "options": [
+          "un-",
+          "dis-",
+          "il-",
+          "im-"
+        ],
+        "answer": 2,
+        "explanation": "Legal (சட்டபூர்வமான) என்பதன் எதிர்ச்சொல் Illegal (சட்டவிரோதமான) ஆகும்."
+      },
+      {
+        "question": "Affixes: Add the correct suffix to the word 'manage'.",
+        "options": [
+          "-ment",
+          "-ness",
+          "-ly",
+          "-ful"
+        ],
+        "answer": 0,
+        "explanation": "'manage' உடன் '-ment' சேர்த்தால் 'management' (மேலாண்மை) என்ற பெயர்ச்சொல் கிடைக்கும்."
+      },
+      {
+        "question": "Plurals: What is the plural form of 'Datum'?",
+        "options": [
+          "Datums",
+          "Data",
+          "Dati",
+          "Datae"
+        ],
+        "answer": 1,
+        "explanation": "லத்தீன் மொழிச் சொற்களான '-um' என்பதில் முடியும் சொற்களின் பன்மை '-a' என்று மாறும் (Medium->Media, Datum->Data)."
+      },
+      {
+        "question": "Homophones: Everyone came to the party ________ Ravi.",
+        "options": [
+          "accept",
+          "expect",
+          "except",
+          "aspect"
+        ],
+        "answer": 2,
+        "explanation": "'Except' என்றால் 'தவிர' (Ravi-ஐத் தவிர) என்று பொருள். 'Accept' என்றால் ஏற்றுக்கொள்வது."
+      },
+      {
+        "question": "Syllabification: How many syllables are there in the word 'Examination'?",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "answer": 2,
+        "explanation": "Ex-am-i-na-tion (எக்ஸ்-சாம்-இ-நே-ஷன்) என இந்தச் சொல்லை 5 அசைகளாகப் (Pentasyllabic) பிரிக்கலாம்."
+      }
+    ]
+  }
+}

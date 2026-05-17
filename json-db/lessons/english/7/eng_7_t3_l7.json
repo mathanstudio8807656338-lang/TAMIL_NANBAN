@@ -1,0 +1,608 @@
+{
+  "lesson_meta": {
+    "subject": "english",
+    "class": 7,
+    "term": 3,
+    "lesson": 7,
+    "title": "Jane Eyre",
+    "title_en": "Jane Eyre",
+    "description": ""
+  },
+  "material": {
+    "sections": [
+      {
+        "title": "Summary",
+        "content": "This play is an extract based on Charlotte Bronte's famous novel 'Jane Eyre'. The story follows the life of a ten-year-old orphaned girl, Jane. She lives at Gateshead with her cruel aunt, Mrs. Reed, and her abusive cousins, John, Eliza, and Georgiana. After a violent incident where John throws a book at her and hits her, Jane is unfairly punished and locked in the terrifying 'red room'. She falls ill with a fever and is subsequently sent away to Lowood Institution, a charity school for orphans run by Mr. Brocklehurst. At Lowood, despite the harsh conditions like frozen wash water and semi-starvation, Jane meets kind figures like Miss Temple and her first real friend, Helen Burns. Tragically, a disease outbreak kills many students, including Helen. Jane spends eight years at Lowood (six as a student, two as a teacher). Seeking liberty, she advertises in 'The Herald' and gets a job as a governess at Thornfield. There, welcomed by Mrs. Fairfax, she begins a happy new life teaching Miss Adela, the ward of Mr. Rochester, believing that 'art is the window of the soul'."
+      },
+      {
+        "title": "Additional Sections and Notes",
+        "content": [
+          "Author: Charlotte Bronte.",
+          "The book Jane was reading at Gateshead before being bullied: Bewick's History of British Birds.",
+          "Lowood Institution Details: It is partly a charity school for educating orphans. Out of eighty girls, forty-five fell ill at one time due to semi-starvation and neglected colds.",
+          "Jane's Advertisement: She advertises for a situation (job) in a newspaper named 'The Herald'.",
+          "Thornfield Hall Characters: Mrs. Fairfax (housekeeper), Miss Adela (Jane's pupil / Mr. Rochester's ward), and Miss Varens (Adela's attendant).",
+          "Helen Burns' Faith: When dying, Helen remains calm and composed, stating she is going to her 'long home - last home' (God), showing incredible spiritual maturity."
+        ]
+      },
+      {
+        "title": "Points to Remember and Key Notes",
+        "content": [
+          "Gateshead represents abuse, dependence, and Jane's miserable childhood.",
+          "The 'Red Room' incident is a traumatic turning point that leads to her leaving Gateshead.",
+          "Lowood represents hardship but also serves as the place where Jane gets her education, which becomes her tool for independence.",
+          "Miss Temple is the first adult to show genuine kindness and maternal affection to Jane at Lowood.",
+          "Thornfield represents Jane's entry into adulthood, independence, and professional life as a governess."
+        ]
+      },
+      {
+        "title": "Let Us Know More",
+        "content": [
+          "Grammar Focus - Determiners: Words like a little, a lot of, a few, few, fewer, many, and much. They modify nouns to indicate quantity.",
+          "Grammar Focus - Passive Voice: The text highlights passive structures (e.g., 'Abraham Lincoln was elected to Congress in 1846.').",
+          "Vocabulary - Syllables: \n- Monosyllabic (1 syllable): ten, hide, wide, threw.\n- Disyllabic (2 syllables): notice, tired, servant, quickly, pretty.\n- Trisyllabic (3 syllables): dependant, quarrelling.",
+          "Theme of Education: In Jane's childhood, education takes the place of every physical and emotional need, transforming her from a helpless orphan into an independent woman."
+        ]
+      },
+      {
+        "title": "Book Back Evaluation Questions",
+        "content": [
+          "1. Arrange the jumbled sentences to write a paragraph: \nJane Eyre is an orphan. She lives with her aunt Mrs. Reed. Mrs. Reed does not like Jane because Jane is not her daughter. Jane’s uncle Mr. Reed likes Jane, but he dies. He makes Mrs. Reed promise to take care of Jane, but instead she sends Jane away. Jane is ten years old, she is sent to Lowood school. Jane graduates and stays there to teach. She leaves for Thornfield, where she is a governess. She is very happy there.",
+          "2. True or False (Listening Exercise): \n1. Dad hasn't been to this fishing spot since last year. -> False (Since he was a boy).\n2. Dad used to go fishing with his father. -> False (With his brother).\n3. Dad has talked a lot about this fishing spot in the past. -> True.\n4. The daughter also loves to fish. -> False.\n5. Dad says his daughter MUST fish. -> False (He asks her to cook the fish instead).\n6. The daughter is going to cook the fish. -> True.\n7. Dad's fishing place hasn't changed since he was a boy. -> False (A shopping center is being built there)."
+        ]
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "question": "Who is the author of the story 'Jane Eyre'?",
+      "options": [
+        "Jane Austen",
+        "Charlotte Bronte",
+        "Emily Bronte",
+        "Charles Dickens"
+      ],
+      "answer": 1,
+      "explanation": "The play is an adaptation of the classic novel 'Jane Eyre' written by Charlotte Bronte."
+    },
+    {
+      "question": "How old is Jane Eyre at the beginning of the play?",
+      "options": [
+        "Eight",
+        "Ten",
+        "Twelve",
+        "Fifteen"
+      ],
+      "answer": 1,
+      "explanation": "The introduction states: 'Jane Eyre is ten years old. Both her parents are dead.'"
+    },
+    {
+      "question": "Who does Jane live with at Gateshead?",
+      "options": [
+        "Her parents",
+        "Her grandmother",
+        "Her aunt Mrs. Reed and her cousins",
+        "Miss Temple"
+      ],
+      "answer": 2,
+      "explanation": "She lives with her aunt, Mrs. Reed, and three cousins, Eliza, John, and Georgiana."
+    },
+    {
+      "question": "What is the name of the servant maid at Gateshead?",
+      "options": [
+        "Bessie",
+        "Miss Miller",
+        "Mrs. Fairfax",
+        "Miss Varens"
+      ],
+      "answer": 0,
+      "explanation": "Bessie is the servant maid who warns Jane to keep out of mischief."
+    },
+    {
+      "question": "Where does Jane hide to read her book at Gateshead?",
+      "options": [
+        "In the garden",
+        "In the sitting room",
+        "In the library",
+        "In the red room"
+      ],
+      "answer": 2,
+      "explanation": "Jane says, 'I'll hide myself in the library with Uncle Reed's book.'"
+    },
+    {
+      "question": "Which book is Jane reading when John interrupts her?",
+      "options": [
+        "Gulliver's Travels",
+        "Bewicks's History of British Birds",
+        "The Bible",
+        "A poetry book"
+      ],
+      "answer": 1,
+      "explanation": "When Eliza asks what she is reading, Jane replies, 'Bewicks’s History of British Birds.'"
+    },
+    {
+      "question": "How does John Reed treat Jane?",
+      "options": [
+        "He is very kind to her",
+        "He ignores her",
+        "He reminds her she is a dependent, throws a book at her, and hits her",
+        "He teaches her how to read"
+      ],
+      "answer": 2,
+      "explanation": "John bullies her, calls her a dependent with no money, throws a book at her, and makes her bleed."
+    },
+    {
+      "question": "Where does Mrs. Reed order Jane to be locked up as punishment?",
+      "options": [
+        "The basement",
+        "The library",
+        "The red room",
+        "The attic"
+      ],
+      "answer": 2,
+      "explanation": "Mrs. Reed shouts, 'Take her away in the red room and lock her in there!'"
+    },
+    {
+      "question": "What happens to Jane while she is locked in the red room?",
+      "options": [
+        "She finds a hidden treasure",
+        "She escapes through the window",
+        "She hears a noise, thinks she sees Uncle Reed, screams, and falls ill",
+        "She falls asleep peacefully"
+      ],
+      "answer": 2,
+      "explanation": "She hears a noise, collapses, screams for help, and later tells Bessie she thought it was Uncle Reed. She gets a fever from the trauma."
+    },
+    {
+      "question": "What is the name of the school Jane is sent to?",
+      "options": [
+        "Thornfield Hall",
+        "Lowood Institution",
+        "Gateshead School",
+        "Durham Academy"
+      ],
+      "answer": 1,
+      "explanation": "Mrs. Reed writes to Mr. Brocklehurst who runs a school called Lowood, and Jane is sent there."
+    },
+    {
+      "question": "Who are the first two teachers/staff Jane meets at Lowood?",
+      "options": [
+        "Mrs. Reed and Bessie",
+        "Miss Miller and Miss Temple",
+        "Mrs. Fairfax and Miss Varens",
+        "Helen and Adela"
+      ],
+      "answer": 1,
+      "explanation": "Upon arriving at Lowood, she meets Miss Miller and Miss Temple."
+    },
+    {
+      "question": "How does Miss Temple treat Jane upon her arrival?",
+      "options": [
+        "She punishes her",
+        "She ignores her",
+        "She is kind, asks if she is tired and hungry, and orders supper for her",
+        "She sends her back to Gateshead"
+      ],
+      "answer": 2,
+      "explanation": "Miss Temple shows immediate kindness, ordering supper for the tired and hungry Jane."
+    },
+    {
+      "question": "What problem do the girls face in the morning at Lowood?",
+      "options": [
+        "There is no food",
+        "The water in the wash basins is frozen",
+        "Their uniforms are torn",
+        "There are no teachers"
+      ],
+      "answer": 1,
+      "explanation": "A girl tells Miss Miller, 'The water is frozen again,' indicating the harsh, freezing conditions."
+    },
+    {
+      "question": "Which form (grade) is Jane placed into by Miss Temple?",
+      "options": [
+        "First form",
+        "Second form",
+        "Fourth form",
+        "Sixth form"
+      ],
+      "answer": 2,
+      "explanation": "Miss Temple says, 'Perhaps the fourth form... She can read and write. I think she will do well there.'"
+    },
+    {
+      "question": "Who is the first student Jane speaks to and becomes friends with at Lowood?",
+      "options": [
+        "Georgiana",
+        "Eliza",
+        "Helen Burns",
+        "Adela"
+      ],
+      "answer": 2,
+      "explanation": "In the garden, Jane talks to a girl reading a book, whose name is Helen Burns."
+    },
+    {
+      "question": "According to Helen, what kind of school is Lowood?",
+      "options": [
+        "A school for the rich",
+        "An art academy",
+        "Partly a charity school for educating orphans",
+        "A strict prison"
+      ],
+      "answer": 2,
+      "explanation": "Helen explains, 'It is partly a charity school... This is called an institution for educating orphans.'"
+    },
+    {
+      "question": "What disaster strikes Lowood in the spring?",
+      "options": [
+        "A massive fire",
+        "A flood",
+        "Forty-five out of eighty girls fall ill due to infection from semi-starvation and cold",
+        "The school goes bankrupt"
+      ],
+      "answer": 2,
+      "explanation": "Semi-starvation and neglected colds predisposed the students to infection, and 45 out of 80 girls lay ill."
+    },
+    {
+      "question": "What does Helen mean when she tells Jane she is going to her 'long home - last home'?",
+      "options": [
+        "She is going back to her parents",
+        "She is moving to a bigger house",
+        "She is dying and going to God/Heaven",
+        "She is going to a hospital"
+      ],
+      "answer": 2,
+      "explanation": "Helen accepts her death peacefully, stating, 'I believe, I have faith. I am going to God.'"
+    },
+    {
+      "question": "How many years in total does Jane spend at Lowood School?",
+      "options": [
+        "Two years",
+        "Six years",
+        "Eight years",
+        "Ten years"
+      ],
+      "answer": 2,
+      "explanation": "The text states: 'Jane spends eight years in the school, six years as pupil and two years as teacher.'"
+    },
+    {
+      "question": "Why does Jane leave Lowood?",
+      "options": [
+        "She is expelled",
+        "She wants liberty and becomes half desperate, so she advertises for a job",
+        "The school closes down",
+        "Mrs. Reed calls her back"
+      ],
+      "answer": 1,
+      "explanation": "Jane wants liberty, advertises in 'The Herald' for situations, and gets a letter from Mrs. Fairfax."
+    },
+    {
+      "question": "In which newspaper did Jane advertise for a job?",
+      "options": [
+        "The Times",
+        "The London Gazette",
+        "The Herald",
+        "The Observer"
+      ],
+      "answer": 2,
+      "explanation": "She advertises in 'The Herald' for situations."
+    },
+    {
+      "question": "Where does Jane go to work after leaving Lowood?",
+      "options": [
+        "Gateshead",
+        "Thornfield",
+        "London",
+        "Durham"
+      ],
+      "answer": 1,
+      "explanation": "She receives a letter from Mrs. Fairfax, Thornfield, and goes there."
+    },
+    {
+      "question": "Who welcomes Jane at Thornfield?",
+      "options": [
+        "Mr. Rochester",
+        "Miss Temple",
+        "Mrs. Fairfax",
+        "Miss Varens"
+      ],
+      "answer": 2,
+      "explanation": "Mrs. Fairfax, the housekeeper, welcomes her warmly and shows her to her room."
+    },
+    {
+      "question": "Who is Jane's future pupil at Thornfield?",
+      "options": [
+        "Miss Fairfax",
+        "Miss Adela",
+        "Miss Varens",
+        "Georgiana"
+      ],
+      "answer": 1,
+      "explanation": "Mrs. Fairfax clarifies, 'Adela is the name of your future pupil.'"
+    },
+    {
+      "question": "Who does Adela belong to? (Whose ward is she?)",
+      "options": [
+        "Mrs. Fairfax's daughter",
+        "Mr. Brocklehurst's niece",
+        "Mr. Rochester's ward",
+        "Jane's cousin"
+      ],
+      "answer": 2,
+      "explanation": "Mrs. Fairfax explains that she has no family and that Adela is 'Mr. Rochester's ward.'"
+    },
+    {
+      "question": "Who is Miss Varens?",
+      "options": [
+        "The headmistress",
+        "Adela's attendant/nurse",
+        "A fellow teacher",
+        "The cook at Thornfield"
+      ],
+      "answer": 1,
+      "explanation": "Miss Adela comes running up the lawn followed by her attendant, Miss Varens."
+    },
+    {
+      "question": "What is Jane's philosophy about art, as mentioned to Adela?",
+      "options": [
+        "It is a waste of time",
+        "It is only for the rich",
+        "Art is the window of the soul",
+        "Art is difficult to learn"
+      ],
+      "answer": 2,
+      "explanation": "Jane tells Adela, 'I believe that art is the window of the soul.'"
+    },
+    {
+      "question": "What else does Miss Adela say she can do besides drawing?",
+      "options": [
+        "Cook and clean",
+        "Read Greek and Latin",
+        "Sing and dance",
+        "Play the piano and violin"
+      ],
+      "answer": 2,
+      "explanation": "Adela tells Jane, 'I can sing and dance also. Shall I?'"
+    },
+    {
+      "question": "Dictionary Meaning: What does the word 'uproar' mean?",
+      "options": [
+        "A quiet environment",
+        "A situation in which people shout and make a lot of noise",
+        "A type of bird",
+        "A room in the attic"
+      ],
+      "answer": 1,
+      "explanation": "Bessie warns Jane that quarrelling will have the whole house in an 'uproar'."
+    },
+    {
+      "question": "Dictionary Meaning: What does the word 'tedious' mean?",
+      "options": [
+        "Exciting",
+        "Tiresome",
+        "Fast",
+        "Beautiful"
+      ],
+      "answer": 1,
+      "explanation": "Mrs. Fairfax says, 'I am afraid you have had a tedious ride,' meaning a tiresome journey."
+    },
+    {
+      "question": "Dictionary Meaning: What does 'composed' mean in the context of Helen's face?",
+      "options": [
+        "Angry",
+        "Pale",
+        "Calm and in control of feeling",
+        "Written down"
+      ],
+      "answer": 2,
+      "explanation": "Even though Helen is dying, her face is pale but 'composed' (calm)."
+    },
+    {
+      "question": "Syllables: Which of the following is a 'disyllabic' (two-syllable) word?",
+      "options": [
+        "Ten",
+        "Notice",
+        "Dependant",
+        "Hide"
+      ],
+      "answer": 1,
+      "explanation": "No-tice has two syllables. 'Ten' and 'hide' are monosyllabic, 'dependant' is trisyllabic."
+    },
+    {
+      "question": "Syllables: Which of the following is a 'trisyllabic' (three-syllable) word?",
+      "options": [
+        "Quarrelling",
+        "Tired",
+        "Wide",
+        "Pretty"
+      ],
+      "answer": 0,
+      "explanation": "Quar-rel-ling has three syllables. The others are mono or disyllabic."
+    },
+    {
+      "question": "Grammar: Words like 'a little', 'a lot of', 'many', and 'few' are known as what?",
+      "options": [
+        "Conjunctions",
+        "Prepositions",
+        "Determiners",
+        "Verbs"
+      ],
+      "answer": 2,
+      "explanation": "These words determine or quantify the noun that follows them, hence they are determiners."
+    },
+    {
+      "question": "Grammar: Identify the voice in the sentence: 'Abraham Lincoln was elected to Congress in 1846.'",
+      "options": [
+        "Active Voice",
+        "Passive Voice",
+        "Direct Speech",
+        "Indirect Speech"
+      ],
+      "answer": 1,
+      "explanation": "The subject 'Abraham Lincoln' receives the action ('was elected'), making it passive voice."
+    },
+    {
+      "question": "Assertion (A): Mrs. Reed locked Jane in the red room. Reason (R): Mrs. Reed wanted to protect Jane from John.",
+      "options": [
+        "Both A and R are true.",
+        "A is true, R is false.",
+        "A is false, R is true.",
+        "Both A and R are false."
+      ],
+      "answer": 1,
+      "explanation": "Mrs. Reed locked her up as a harsh punishment because she blamed Jane for the fight, not to protect her."
+    },
+    {
+      "question": "Assertion (A): Helen Burns was terrified of dying. Reason (R): She cried out for the doctor when Jane visited her.",
+      "options": [
+        "Both A and R are true.",
+        "A is true, R is false.",
+        "A is false, R is true.",
+        "Both A and R are false."
+      ],
+      "answer": 3,
+      "explanation": "Helen was entirely composed, had deep faith, and was comfortably ready to go to her 'long home'."
+    },
+    {
+      "question": "Life-skill context: Why is education such a crucial theme in Jane's early life?",
+      "options": [
+        "It is a hobby for her",
+        "It is her only way to escape poverty, gain independence, and find employment",
+        "It allows her to punish Mrs. Reed",
+        "She wants to be a scientist"
+      ],
+      "answer": 1,
+      "explanation": "Education replaced her emotional and physical needs and gave her the skills to become a self-reliant teacher and governess."
+    },
+    {
+      "question": "What is the chronological order of places Jane lives in during the story?",
+      "options": [
+        "Lowood -> Gateshead -> Thornfield",
+        "Gateshead -> Lowood -> Thornfield",
+        "Thornfield -> Gateshead -> Lowood",
+        "Gateshead -> Thornfield -> Lowood"
+      ],
+      "answer": 1,
+      "explanation": "She starts at Gateshead with her aunt, is sent to Lowood school, and then gets a job at Thornfield."
+    },
+    {
+      "question": "What does Jane's response to John throwing the book reveal about her character?",
+      "options": [
+        "She is a coward",
+        "She has a strong sense of justice and defends herself despite her dependent status",
+        "She likes being hit",
+        "She hates books"
+      ],
+      "answer": 1,
+      "explanation": "Though she is a poor dependent, she does not silently accept the abuse; she recognizes the injustice."
+    },
+    {
+      "question": "What does the 'red room' symbolize for Jane?",
+      "options": [
+        "A place of joy and games",
+        "Trauma, unfair punishment, and the oppressive control of her aunt",
+        "A place to study peacefully",
+        "A dining hall"
+      ],
+      "answer": 1,
+      "explanation": "The red room is a terrifying place of solitary confinement where she is unjustly locked away."
+    },
+    {
+      "question": "Who says: 'You have no business to take our books. You are a dependant.'?",
+      "options": [
+        "Mrs. Reed",
+        "Bessie",
+        "John Reed",
+        "Mr. Brocklehurst"
+      ],
+      "answer": 2,
+      "explanation": "John Reed says this to Jane just before he throws the book at her."
+    },
+    {
+      "question": "Who says: 'This child is very young to be sent alone. She had better be put to bed soon.'?",
+      "options": [
+        "Miss Miller",
+        "Mrs. Fairfax",
+        "Miss Temple",
+        "Bessie"
+      ],
+      "answer": 2,
+      "explanation": "Miss Temple says this upon seeing Jane arrive tired and alone at Lowood."
+    },
+    {
+      "question": "Change into indirect speech: John ordered Jane, 'Come here when I call you.'",
+      "options": [
+        "John ordered Jane to come there when he called her.",
+        "John said to Jane to go there.",
+        "John ordered Jane that she comes here.",
+        "John requested Jane to come here."
+      ],
+      "answer": 0,
+      "explanation": "In imperative sentences, the verb becomes an infinitive ('to come'), 'here' changes to 'there', and 'I call' to 'he called'."
+    },
+    {
+      "question": "Change into indirect speech: Jane asked Helen, 'Why do they call it an institution?'",
+      "options": [
+        "Jane asked Helen why they called it an institution.",
+        "Jane asked Helen why do they call it an institution.",
+        "Jane told Helen why they called it an institution.",
+        "Jane asked Helen that why they called it an institution."
+      ],
+      "answer": 0,
+      "explanation": "The question word 'why' acts as the connector, and the tense changes to past ('called')."
+    },
+    {
+      "question": "From the listening exercise: With whom did Dad use to go fishing when he was young?",
+      "options": [
+        "His daughter",
+        "His father",
+        "His brother",
+        "His friends"
+      ],
+      "answer": 2,
+      "explanation": "The dad says, 'My brother and I used to catch huge fish...'"
+    },
+    {
+      "question": "From the listening exercise: What happened to Dad's old peaceful fishing spot?",
+      "options": [
+        "It dried up",
+        "It became a national park",
+        "A shopping center was built there",
+        "It was full of sharks"
+      ],
+      "answer": 2,
+      "explanation": "At the end of the script, the dad expresses shock: 'What's this shopping center doing here?'"
+    },
+    {
+      "question": "What is the primary cause of the widespread illness at Lowood Institution?",
+      "options": [
+        "Poisonous water",
+        "Semi-starvation and neglected colds due to poor management",
+        "A contagious student from outside",
+        "Old age"
+      ],
+      "answer": 1,
+      "explanation": "The text points out that 'Semi-starvation and neglected colds had predisposed most of the students to receive infection.'"
+    },
+    {
+      "question": "How does Jane transform by the end of this play extract?",
+      "options": [
+        "She becomes cruel like Mrs. Reed",
+        "She remains a helpless victim",
+        "She grows from an abused, dependent orphan into a confident, educated, and independent professional",
+        "She becomes incredibly wealthy by finding treasure"
+      ],
+      "answer": 2,
+      "explanation": "Her journey from Gateshead to Thornfield shows her gaining education and taking charge of her own life and career."
+    },
+    {
+      "question": "What quality does Miss Temple display that contrasts sharply with Mrs. Reed?",
+      "options": [
+        "Cruelty",
+        "Compassion, fairness, and maternal care",
+        "Arrogance",
+        "Greed"
+      ],
+      "answer": 1,
+      "explanation": "While Mrs. Reed is unjust and cruel, Miss Temple is gentle, feeds the hungry child, and touches her cheek gently."
+    }
+  ]
+}

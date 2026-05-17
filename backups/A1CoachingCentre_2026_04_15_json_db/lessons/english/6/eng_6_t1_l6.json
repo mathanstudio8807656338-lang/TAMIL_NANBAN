@@ -1,0 +1,87 @@
+{
+  "unit": "Lesson 6",
+  "subject": "English",
+  "class": "6",
+  "term": 1,
+  "title": "Supplementary: The Apple Tree and the Farmer",
+  "summary": "This emotional story tells how a farmer changes his mind about cutting down an old apple tree in his garden after his daughter reminds him of the tree's value to the ecosystem and his own childhood memories.",
+  "sections": [
+    {
+      "title": "1. Story Background (கதை பின்னணி)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          { "question": "Where did the old apple tree grow? / பழைய ஆப்பிள் மரம் எங்கே வளர்ந்தது?", "answer": "In the [[Farmer's garden]]" },
+          { "question": "How was the tree described? / மரம் எவ்வாறு விவரிக்கப்பட்டது?", "answer": "[[Old and gnarled]] but beautiful" },
+          { "question": "Who used to play under the tree in the beginning? / ஆரம்பத்தில் மரத்தின் அடியில் விளையாடியது யார்?", "answer": "The [[Farmer]] when he was a boy" },
+          { "question": "Which animals lived in the tree? / மரத்தில் எந்த விலங்குகள் வாழ்ந்தன?", "answer": "[[Squirrels, Sparrows, and Butterflies]]" },
+          { "question": "What did the tree provide to the animals? / மரம் விலங்குகளுக்கு எதனை வழங்கியது?", "answer": "[[Food and Shelter]]" },
+          { "question": "Why did the farmer stop climbing the tree? / விவசாயி ஏன் மரத்தில் ஏறுவதை நிறுத்திவிட்டார்?", "answer": "As he [[grew older]]" },
+          { "question": "What happened to the tree over time? / காலப்போக்கில் மரத்திற்கு என்ன நேர்ந்தது?", "answer": "It stopped [[bearing fruit]]" },
+          { "question": "How did the farmer feel about the tree later? / பின்னர் விவசாயி மரத்தைப் பற்றி what did he think?", "answer": "That it was [[useless]]" }
+        ]
+      }
+    },
+    {
+      "title": "2. The Conflict & Decision (மோதல் மற்றும் முடிவு)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          { "question": "Why did the farmer decide to cut the tree? / விவசாயி ஏன் மரத்தை வெட்ட முடிவு செய்தார்?", "answer": "To get [[timber]] (wood) for his house extension" },
+          { "question": "What tool did the farmer use? / விவசாயி எந்தக் கருவியைப் பயன்படுத்தினார்?", "answer": "A [[sharp axe]]" },
+          { "question": "Who pleaded with the farmer not to cut it? / மரத்தை வெட்ட வேண்டாம் என்று விவசாயியிடம் கெஞ்சியது யார்?", "answer": "His [[daughter]] and her friends" },
+          { "question": "What was the children's argument? / குழந்தைகளின் வாதம் என்னவாக இருந்தது?", "answer": "The tree is home to [[many creatures]]" },
+          { "question": "Did the farmer listen to them initially? / ஆரம்பத்தில் விவசாயி அவர்கள் பேச்சைக் கேட்டாரா?", "answer": "[[No]], he continued chopping" },
+          { "question": "What was the farmer's main concern? / விவசாயியின் முக்கிய நோக்கம் என்ன?", "answer": "[[Short-term utility]] (timber)" },
+          { "question": "What happened when he hit the trunk? / அவர் மரத்தின் தண்டுப்பகுதியை வெட்டியபோது என்ன நடந்தது?", "answer": "Animals and birds [[fled]] in panic" }
+        ]
+      }
+    },
+    {
+      "title": "3. The Resolution & Realization (தீர்வு மற்றும் உணர்தல்)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          { "question": "What did the daughter find in the hollow of the tree? / மரத்தின் பொந்தில் மகள் எதனைக் கண்டாள்?", "answer": "A [[sweet apple]]" },
+          { "question": "What did the farmer realize after tasting the apple? / ஆப்பிளைச் சுவைத்த பிறகு விவசாயி எதனை உணர்ந்தார்?", "answer": "That the tree was still [[valuable]]" },
+          { "question": "What did the animals promise? / விலங்குகள் என்ன வாக்குறுதி அளித்தன?", "answer": "To [[sing]] and fill the garden with life" },
+          { "question": "What was the farmer's final promise? / விவசாயியின் இறுதி வாக்குறுதி என்ன?", "answer": "[[Never to cut]] the tree" },
+          { "question": "How did the story end? / கதை எவ்வாறு முடிந்தது?", "answer": "A [[Green garden]] full of life and joy" }
+        ]
+      }
+    },
+    {
+      "title": "4. Ethics & Science (அறநெறி மற்றும் அறிவியல்)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          { "question": "What is 'Ecosystem Service'? / 'Ecosystem Service' என்றால் என்ன?", "answer": "[[Benefits]] humans receive from nature (shade, fruit)" },
+          { "question": "What is the conflict in the story? / கதையில் உள்ள மோதல் எது?", "answer": "Utility vs [[Ecology]]" },
+          { "question": "Meaning of 'Hollow'? / 'Hollow' என்பதன் பொருள் என்ன?", "answer": "[[Empty space]] inside something" },
+          { "question": "Meaning of 'Timber'? / 'Timber' என்றால் என்ன?", "answer": "Wood for [[building and carpentry]]" },
+          { "question": "Antonym of 'Useless'? / 'Useless' என்பதன் எதிர்ச்சொல்?", "answer": "[[Valuable]] or Useful" },
+          { "question": "What do birds provide in an ecosystem? / ஒரு சூழல் மண்டலத்தில் பறவைகள் எதனை வழங்குகின்றன?", "answer": "[[Biodiversity]] and seed dispersal" },
+          { "question": "Meaning of 'Chopping'? / 'Chopping' என்பதன் பொருள் என்ன?", "answer": "[[Cutting]] into pieces" },
+          { "question": "What does the axe symbolize? / கோடாரி எதனைக் குறிக்கிறது?", "answer": "[[Destruction]] of nature" },
+          { "question": "What does the apple symbolize? / ஆப்பிள் எதனைக் குறிக்கிறது?", "answer": "Nature's [[rewards]] and sweetness" },
+          { "question": "Moral of the story? / கதையின் நீதி என்ன?", "answer": "[[Protect nature]] for the future" }
+        ]
+      }
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "question": "Where was the old apple tree located?",
+        "options": ["In a forest", "In the farmer's garden", "Near a river", "On a hill"],
+        "answer": 1
+      },
+      {
+        "question": "The farmer realized that the tree was _____.",
+        "options": ["Useless", "A burden", "Not useless", "Dangerous"],
+        "answer": 2
+      }
+    ]
+  },
+  "credits": "A1 ONLINE COACHING CENTER"
+}

@@ -1,0 +1,616 @@
+{
+  "lesson_meta": {
+    "subject": "english",
+    "class": 7,
+    "term": 3,
+    "lesson": 2,
+    "title": "Sea Fever",
+    "title_en": "Sea Fever",
+    "description": ""
+  },
+  "material": {
+    "sections": [
+      {
+        "title": "Summary",
+        "content": "The poem 'Sea Fever' is written by the famous English Poet John Masefield. The poem beautifully expresses the poet's deep, uncontrollable urge to return to the sea. In the first stanza, he expresses his desire for a tall ship and a guiding star (the North Star) to sail through the lonely sea and sky. He longs for the physical sensations of sailing: the jerk of the steering wheel, the sound of the wind, the shaking of the white sails, and the sight of the grey mist and dawn. In the second stanza, the poet feels the irresistible and wild call of the running tide, which he cannot deny. He wishes for a windy day with flying white clouds, spraying sea water, blowing sea foam (spume), and crying sea-gulls. In the final stanza, he desires the wandering, adventurous life of a gypsy, sharing the sea with gulls and whales, even when the sea wind is as sharp as a knife. Finally, after his long sea voyage ('trick') is over, he hopes to listen to a joyful story ('yarn') from a fellow sailor, followed by a peaceful sleep and sweet dreams."
+      },
+      {
+        "title": "Additional Sections and Notes",
+        "content": [
+          "About the Author: John Masefield (1878–1967) was an English Poet and writer.",
+          "In 1930, John Masefield was appointed as the poet laureate of the United Kingdom.",
+          "The phrase 'I must go down to the seas again' is repeated at the beginning of each of the three stanzas, emphasizing the urgency and depth of his passion.",
+          "Visual Images used in the poem: Wheel's kick, white sail's shaking, grey mist, grey dawn, white clouds flying, flung spray, blown spume.",
+          "Sound Images used in the poem: Wind's song, sea-gulls crying, merry yarn."
+        ]
+      },
+      {
+        "title": "Points to Remember and Key Notes",
+        "content": [
+          "Title Meaning: 'Sea Fever' represents the poet's intense, feverish longing to be at sea.",
+          "The North Star (Pole Star) is crucial for sailors because it points towards the North, helping them steer the ship correctly.",
+          "Poetic Device 1: Personification is used in the line 'And a grey mist on the sea's face' (giving human features to the sea).",
+          "Poetic Device 2: Simile is used in the line 'where the wind's like a whetted knife' (comparing the cold wind to a sharp knife).",
+          "Rhyme Scheme: The poem follows an AABB rhyming pattern (e.g., sky/by, shaking/breaking, tide/denied, flying/crying, life/knife, rover/over)."
+        ]
+      },
+      {
+        "title": "Let Us Know More",
+        "content": [
+          "A 'yarn' refers to a long or rambling story, especially one that is impossible or highly exaggerated, usually told by sailors to pass the time.",
+          "A 'trick' in nautical terms refers to a sailor's period of duty or a specific period of stay on the ship after the voyage.",
+          "The poet describes the sea wind as a 'whetted knife' to highlight how freezing and piercing the sea weather can be, yet he welcomes it as part of the gypsy life."
+        ]
+      },
+      {
+        "title": "Book Back Evaluation Questions",
+        "content": [
+          "1. The title of the poem 'Sea Fever' means: the poet's deep wish to be at sea.",
+          "2. The poet asks for: a tall ship.",
+          "3. The poet wants to lead a life at sea like: the gulls and whales.",
+          "4. Where does the poet want to go? Ans: The poet wants to go to the lonely sea and the sky.",
+          "5. What according to the poet are the pleasures of sailing? Ans: The wheel's kick, the wind's song, and the white sail's shaking are the pleasures of sailing.",
+          "6. Why does the poet ask for a windy day? Ans: The poet asks for a windy day so that the white clouds keep flying, the sea sprays, and the foam blows, which helps the ship sail smoothly.",
+          "7. What kind of human company does the poet want? Ans: The poet wants the company of a laughing fellow-rover to hear a merry yarn.",
+          "8. What does the poet want to do after his voyage is over? Ans: The poet wants to have a quiet sleep and a sweet dream when the long trick (voyage) is over.",
+          "9. Rhyming Words: sky -> by, knife -> life, rover -> over.",
+          "10. Quote the line that has been repeated in the poem: 'I must go down to the seas again'.",
+          "11. Poetic device in 'And a grey mist on the sea's face': Personification.",
+          "12. Poetic device in 'where the wind's like a whetted knife': Simile."
+        ]
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "question": "Who is the author of the poem 'Sea Fever'?",
+      "options": [
+        "William Wordsworth",
+        "Robert Frost",
+        "John Masefield",
+        "Jules Verne"
+      ],
+      "answer": 2,
+      "explanation": "The poem 'Sea Fever' is written by the English poet John Masefield."
+    },
+    {
+      "question": "When was John Masefield born and when did he die?",
+      "options": [
+        "1880–1950",
+        "1878–1967",
+        "1850–1920",
+        "1900–1980"
+      ],
+      "answer": 1,
+      "explanation": "According to the author's note, John Masefield lived from 1878 to 1967."
+    },
+    {
+      "question": "What prestigious title was given to John Masefield in 1930?",
+      "options": [
+        "Prime Minister",
+        "Chief Commander of the Navy",
+        "Poet Laureate of the United Kingdom",
+        "Head of the Reform Club"
+      ],
+      "answer": 2,
+      "explanation": "He was appointed as the poet laureate of the United Kingdom in 1930."
+    },
+    {
+      "question": "What is the meaning of the title 'Sea Fever'?",
+      "options": [
+        "A sickness caused by sea travel",
+        "The poet's deep wish to be at sea",
+        "A fear of drowning",
+        "A type of flu affecting sailors"
+      ],
+      "answer": 1,
+      "explanation": "'Sea Fever' metaphorically means a passionate and burning desire to return to the sea."
+    },
+    {
+      "question": "What does the poet ask for in the very first stanza?",
+      "options": [
+        "A fishing net and a boat",
+        "A tall ship and a star",
+        "A map and a compass",
+        "A friend and food"
+      ],
+      "answer": 1,
+      "explanation": "He states: 'And all I ask is a tall ship and a star to steer her by'."
+    },
+    {
+      "question": "Why does the poet ask for a 'star'?",
+      "options": [
+        "To make the sky look beautiful",
+        "To steer the ship by finding the North direction",
+        "To make a wish",
+        "To provide light during the night"
+      ],
+      "answer": 1,
+      "explanation": "The North Star (Pole Star) helps sailors determine the North direction and steer the ship accurately."
+    },
+    {
+      "question": "Which line is repeatedly used by the poet in all the stanzas?",
+      "options": [
+        "And a grey mist on the sea's face",
+        "And all I ask is a tall ship",
+        "I must go down to the seas again",
+        "To the gull's way and the whale's way"
+      ],
+      "answer": 2,
+      "explanation": "This repeated line emphasizes his unavoidable urge to return to the sea."
+    },
+    {
+      "question": "How does the poet describe the sea and the sky in the first stanza?",
+      "options": [
+        "Crowded and noisy",
+        "Dark and scary",
+        "Lonely",
+        "Bright and sunny"
+      ],
+      "answer": 2,
+      "explanation": "He says, 'to the lonely sea and the sky'."
+    },
+    {
+      "question": "Which of the following does the poet consider a pleasure of sailing?",
+      "options": [
+        "The wheel's kick",
+        "The engine's roar",
+        "The loud music",
+        "The hot sun"
+      ],
+      "answer": 0,
+      "explanation": "The 'wheel's kick' refers to the strong physical jerk of the ship's steering wheel, which the poet enjoys."
+    },
+    {
+      "question": "What is the color of the mist on the sea's face?",
+      "options": [
+        "White",
+        "Black",
+        "Grey",
+        "Blue"
+      ],
+      "answer": 2,
+      "explanation": "The poet visualizes 'a grey mist on the sea's face'."
+    },
+    {
+      "question": "Identify the poetic device used in 'And a grey mist on the sea's face'.",
+      "options": [
+        "Simile",
+        "Metaphor",
+        "Personification",
+        "Alliteration"
+      ],
+      "answer": 2,
+      "explanation": "Giving the sea a human attribute like a 'face' is an example of Personification."
+    },
+    {
+      "question": "How is the call of the running tide described?",
+      "options": [
+        "A soft and gentle call",
+        "A silent request",
+        "A wild call and a clear call",
+        "A scary warning"
+      ],
+      "answer": 2,
+      "explanation": "The running tide gives a 'wild call and a clear call'."
+    },
+    {
+      "question": "Can the call of the running tide be denied?",
+      "options": [
+        "Yes, easily",
+        "No, it may not be denied",
+        "It depends on the weather",
+        "Only by the captain"
+      ],
+      "answer": 1,
+      "explanation": "The poet says it is a wild and clear call 'that may not be denied'."
+    },
+    {
+      "question": "What kind of weather does the poet ask for in the second stanza?",
+      "options": [
+        "A rainy day",
+        "A stormy night",
+        "A windy day",
+        "A calm, windless day"
+      ],
+      "answer": 2,
+      "explanation": "He asks for 'a windy day with the white clouds flying'."
+    },
+    {
+      "question": "What is the meaning of the word 'Spume'?",
+      "options": [
+        "Smoke",
+        "Sea foam",
+        "Dust",
+        "Fish"
+      ],
+      "answer": 1,
+      "explanation": "Spume refers to the frothy foam on the surface of the sea water."
+    },
+    {
+      "question": "What are the birds mentioned in the poem that the poet wants to hear crying?",
+      "options": [
+        "Eagles",
+        "Parrots",
+        "Sea-gulls",
+        "Penguins"
+      ],
+      "answer": 2,
+      "explanation": "He mentions the 'sea-gulls crying' in the second stanza."
+    },
+    {
+      "question": "Which two animals does the poet want to share the sea's way with?",
+      "options": [
+        "Sharks and dolphins",
+        "Gulls and whales",
+        "Turtles and crabs",
+        "Seals and pelicans"
+      ],
+      "answer": 1,
+      "explanation": "He wishes to go 'To the gull's way and the whale's way'."
+    },
+    {
+      "question": "What kind of life does the poet desire in the third stanza?",
+      "options": [
+        "A royal life",
+        "A vagrant gypsy life",
+        "A quiet farmer's life",
+        "A wealthy merchant's life"
+      ],
+      "answer": 1,
+      "explanation": "He longs for 'the vagrant gypsy life', meaning a wandering, free life."
+    },
+    {
+      "question": "What does the word 'Vagrant' mean?",
+      "options": [
+        "Settled",
+        "Rich",
+        "Wandering",
+        "Angry"
+      ],
+      "answer": 2,
+      "explanation": "Vagrant means a person without a settled home, wandering from place to place."
+    },
+    {
+      "question": "Identify the poetic device used in the line: 'where the wind's like a whetted knife'.",
+      "options": [
+        "Metaphor",
+        "Personification",
+        "Simile",
+        "Oxymoron"
+      ],
+      "answer": 2,
+      "explanation": "Comparing the wind to a whetted knife using the word 'like' makes it a Simile."
+    },
+    {
+      "question": "What is the meaning of the word 'Whetted'?",
+      "options": [
+        "Broken",
+        "Sharpened",
+        "Rusted",
+        "Lost"
+      ],
+      "answer": 1,
+      "explanation": "Whetted means sharpened. A whetted knife is a very sharp knife."
+    },
+    {
+      "question": "What does the poet want to hear from a laughing fellow-rover?",
+      "options": [
+        "A sad song",
+        "A serious warning",
+        "A merry yarn",
+        "A secret"
+      ],
+      "answer": 2,
+      "explanation": "He asks for a 'merry yarn' (a fun story) from his fellow sailor."
+    },
+    {
+      "question": "What is a 'Yarn' in the context of this poem?",
+      "options": [
+        "A type of thread used for sails",
+        "A long or rambling story, often impossible",
+        "A type of fish",
+        "A sailor's uniform"
+      ],
+      "answer": 1,
+      "explanation": "In nautical terms, spinning a yarn means telling a long, exaggerated story."
+    },
+    {
+      "question": "What does the word 'Rover' mean?",
+      "options": [
+        "A dog",
+        "A wanderer or sailor",
+        "A type of ship",
+        "A sea storm"
+      ],
+      "answer": 1,
+      "explanation": "A rover is a wanderer, here referring to a fellow sailor."
+    },
+    {
+      "question": "What does the poet wish for when the 'long trick's over'?",
+      "options": [
+        "A big feast",
+        "A bag of gold",
+        "Quiet sleep and a sweet dream",
+        "To buy a new ship"
+      ],
+      "answer": 2,
+      "explanation": "After the long voyage, he asks for 'quiet sleep and a sweet dream'."
+    },
+    {
+      "question": "What does the word 'Trick' mean in the poem?",
+      "options": [
+        "A magic show",
+        "A period of stay on the ship after the voyage / duty",
+        "A trap set by pirates",
+        "A game played by sailors"
+      ],
+      "answer": 1,
+      "explanation": "In nautical terms, a trick refers to a sailor's shift or period of duty/voyage."
+    },
+    {
+      "question": "Which of the following is the correct rhyming pair from the poem?",
+      "options": [
+        "sky - breaking",
+        "life - knife",
+        "tide - flying",
+        "rover - dream"
+      ],
+      "answer": 1,
+      "explanation": "In the third stanza, 'life' rhymes with 'knife'."
+    },
+    {
+      "question": "Find the rhyming word for 'sky' from the poem.",
+      "options": [
+        "fly",
+        "high",
+        "by",
+        "cry"
+      ],
+      "answer": 2,
+      "explanation": "In the first stanza, 'sky' rhymes with 'by' (a star to steer her by)."
+    },
+    {
+      "question": "Find the rhyming word for 'shaking' from the poem.",
+      "options": [
+        "making",
+        "breaking",
+        "taking",
+        "waking"
+      ],
+      "answer": 1,
+      "explanation": "The white sail's 'shaking' rhymes with a grey dawn 'breaking'."
+    },
+    {
+      "question": "What is the dictionary meaning of 'Flung'?",
+      "options": [
+        "Caught",
+        "Threw",
+        "Held",
+        "Dropped"
+      ],
+      "answer": 1,
+      "explanation": "Flung is the past tense of fling, which means threw."
+    },
+    {
+      "question": "What does 'Flurried' mean according to the glossary?",
+      "options": [
+        "Calm",
+        "Worried",
+        "Excited",
+        "Sleeping"
+      ],
+      "answer": 1,
+      "explanation": "Flurried means agitated, nervous, or worried."
+    },
+    {
+      "question": "Which of the following is considered a 'Visual Image' in the poem?",
+      "options": [
+        "Wind's song",
+        "Sea-gulls crying",
+        "White clouds flying",
+        "Merry yarn"
+      ],
+      "answer": 2,
+      "explanation": "Visual images are things we can see in our mind's eye, like 'white clouds flying'."
+    },
+    {
+      "question": "Which of the following is a 'Sound Image' from the poem?",
+      "options": [
+        "Grey dawn breaking",
+        "Wind's song",
+        "Flung spray",
+        "Tall ship"
+      ],
+      "answer": 1,
+      "explanation": "A sound image appeals to our sense of hearing, such as the 'wind's song'."
+    },
+    {
+      "question": "Match the words with their meanings: 1. Vagrant 2. Spume 3. Yarn 4. Whetted",
+      "options": [
+        "1-Wandering, 2-Sea foam, 3-Long story, 4-Sharpened",
+        "1-Sharpened, 2-Wandering, 3-Sea foam, 4-Long story",
+        "1-Long story, 2-Sharpened, 3-Wandering, 4-Sea foam",
+        "1-Sea foam, 2-Long story, 3-Sharpened, 4-Wandering"
+      ],
+      "answer": 0,
+      "explanation": "Vagrant is wandering, Spume is sea foam, Yarn is a long story, Whetted means sharpened."
+    },
+    {
+      "question": "Assertion (A): The poet requires the North Star for his journey. Reason (R): The North Star helps the sailors to steer the ship correctly by finding the North direction.",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A.",
+        "Both A and R are true, but R is not the correct explanation of A.",
+        "A is true, R is false.",
+        "A is false, R is true."
+      ],
+      "answer": 0,
+      "explanation": "Without GPS, ancient sailors relied on the North Star for navigation, which is exactly why the poet asks for it."
+    },
+    {
+      "question": "Assertion (A): The poet compares the sea wind to a whetted knife. Reason (R): The wind at sea is very warm and gentle.",
+      "options": [
+        "Both A and R are true.",
+        "A is true, R is false.",
+        "A is false, R is true.",
+        "Both A and R are false."
+      ],
+      "answer": 1,
+      "explanation": "The comparison to a sharp knife indicates the wind is cold, piercing, and harsh, not warm and gentle."
+    },
+    {
+      "question": "Analogy: Visual Image : Grey mist :: Sound Image : ?",
+      "options": [
+        "White sail",
+        "Sea-gulls crying",
+        "Tall ship",
+        "Running tide"
+      ],
+      "answer": 1,
+      "explanation": "Grey mist is something seen (visual), whereas sea-gulls crying is something heard (sound)."
+    },
+    {
+      "question": "Analogy: Wheel : Steering the ship :: Star : ?",
+      "options": [
+        "Providing warmth",
+        "Navigating the direction",
+        "Creating waves",
+        "Catching fish"
+      ],
+      "answer": 1,
+      "explanation": "Just as a wheel physically steers the ship, a star provides the navigational direction to steer by."
+    },
+    {
+      "question": "Life-skill context: The poet refers to a 'vagrant gypsy life'. If someone adopts this mindset for traveling, what quality are they displaying?",
+      "options": [
+        "Fear of unknown places",
+        "Desire for extreme wealth",
+        "Adaptability and love for freedom and adventure",
+        "Laziness"
+      ],
+      "answer": 2,
+      "explanation": "A gypsy life implies letting go of rigid routines and embracing a free, wandering, and adaptable lifestyle."
+    },
+    {
+      "question": "Life-skill context: The poet wishes for a 'quiet sleep and a sweet dream' after a 'long trick' (hard voyage). What does this teach us?",
+      "options": [
+        "We should sleep all day instead of working",
+        "Hard work and long journeys naturally earn us peaceful rest and contentment",
+        "Dreams are better than reality",
+        "Sailors sleep too much"
+      ],
+      "answer": 1,
+      "explanation": "It teaches the balance of life: severe hard work is rewarded with deeply satisfying rest."
+    },
+    {
+      "question": "Why does the poet describe the breaking dawn as 'grey' instead of bright or colorful?",
+      "options": [
+        "Because he is sad and depressed",
+        "Because mornings at the sea are often misty, foggy, and overcast, adding to the raw atmosphere",
+        "Because his eyesight is weak",
+        "Because the sun never rises at sea"
+      ],
+      "answer": 1,
+      "explanation": "The 'grey dawn' combined with 'grey mist' reflects the realistic, raw, and cool atmospheric conditions of the early morning sea."
+    },
+    {
+      "question": "HOTS: Why does the poet say the call of the running tide 'may not be denied'?",
+      "options": [
+        "Because the sea police will arrest him",
+        "Because his inner passion and instinct to return to the sea are too overwhelming to ignore",
+        "Because he has a contract to work on the ship",
+        "Because the tide is physically pulling him from the shore"
+      ],
+      "answer": 1,
+      "explanation": "The poet's spiritual and emotional connection to the sea is so profound that its call is irresistible to him."
+    },
+    {
+      "question": "HOTS: What is the primary purpose of repeating the phrase 'I must go down to the seas again'?",
+      "options": [
+        "To fill up space in the poem",
+        "To emphasize the uncontrollable urgency and deep compulsion of the poet's desire",
+        "To make it a song",
+        "Because he forgot what to say next"
+      ],
+      "answer": 1,
+      "explanation": "Repetition in poetry is often used to highlight the most dominant emotion, here being his urgent need to sail."
+    },
+    {
+      "question": "HOTS: By saying 'where the wind's like a whetted knife', what attitude does the poet show towards the harsh sea weather?",
+      "options": [
+        "He is terrified of it and wants to hide",
+        "He hates the cold weather",
+        "He embraces the harsh, extreme nature of the sea as a thrilling part of the adventure",
+        "He wants to bring a heater to the ship"
+      ],
+      "answer": 2,
+      "explanation": "Despite knowing the wind is painfully sharp, he actively seeks the 'vagrant gypsy life', showing he accepts and loves the sea's harshness."
+    },
+    {
+      "question": "HOTS: What is the overall mood of the poem 'Sea Fever'?",
+      "options": [
+        "Depressing and mournful",
+        "Angry and violent",
+        "Adventurous, passionate, and longing",
+        "Comical and funny"
+      ],
+      "answer": 2,
+      "explanation": "The tone throughout the poem radiates a deep longing (fever) for the adventure and raw beauty of the sea."
+    },
+    {
+      "question": "Find the rhyming word for 'over' from the poem.",
+      "options": [
+        "cover",
+        "hover",
+        "rover",
+        "clover"
+      ],
+      "answer": 2,
+      "explanation": "In the final stanza, 'fellow-rover' rhymes with 'long trick's over'."
+    },
+    {
+      "question": "What is the meaning of 'a merry yarn'?",
+      "options": [
+        "A sad poem",
+        "A joyful and entertaining story",
+        "A type of colorful string",
+        "A loud shout"
+      ],
+      "answer": 1,
+      "explanation": "Since yarn means a story, a 'merry yarn' is a happy, entertaining tale shared between sailors."
+    },
+    {
+      "question": "Which of the following is NOT requested by the poet in 'Sea Fever'?",
+      "options": [
+        "A tall ship",
+        "A windy day",
+        "A bag full of gold coins",
+        "A quiet sleep"
+      ],
+      "answer": 2,
+      "explanation": "The poet only asks for natural elements, a ship, a story, and rest. He never asks for money or wealth."
+    },
+    {
+      "question": "What makes the 'white sails shaking'?",
+      "options": [
+        "The ship's engine",
+        "The strong wind blowing against them",
+        "The sailors pulling them",
+        "The waves crashing"
+      ],
+      "answer": 1,
+      "explanation": "Sails shake and flutter when caught in strong sea winds, which the poet views as a pleasure of sailing."
+    },
+    {
+      "question": "What does the phrase 'blown spume' visually represent?",
+      "options": [
+        "Birds flying away",
+        "Sea foam being blown through the air by strong winds",
+        "Rain clouds gathering",
+        "Smoke from a ship"
+      ],
+      "answer": 1,
+      "explanation": "Spume means foam. 'Blown spume' visualizes the sea foam scattering in the air due to the strong sea breeze."
+    }
+  ]
+}

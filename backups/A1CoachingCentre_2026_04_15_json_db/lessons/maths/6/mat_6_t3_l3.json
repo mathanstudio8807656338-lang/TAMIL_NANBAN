@@ -1,0 +1,94 @@
+{
+  "isBilingual": true,
+  "unit": "Unit 3",
+  "subject": "Maths",
+  "class": "6",
+  "term": 3,
+  "title": "Perimeter and Area (சுற்றளவு மற்றும் பரப்பளவு)",
+  "summary": "இப்பாடம் செவ்வகம், சதுரம் மற்றும் செங்கோண முக்கோணங்களின் சுற்றளவு மற்றும் பரப்பளவு காணும் முறைகளையும், கூட்டு வடிவங்களின் அமைப்பையும் விளக்குகிறது.",
+  "material": {
+    "isBilingual": true,
+    "sections": [
+      {
+        "title": "3.1 சுற்றளவு - அறிமுகம் (Perimeter - Introduction)",
+        "type": "bilingual",
+        "en": [
+          "Perimeter: The length of the boundary of a closed figure.",
+          "Derived from Greek: 'peri' (around) and 'metron' (measure).",
+          "Units: Meter, cm, mm, km, inch, foot, yard.",
+          "Regular Polygon Perimeter = Number of sides × Length of one side."
+        ],
+        "ta": [
+          "சுற்றளவு: ஒரு மூடிய வடிவத்தின் எல்லையின் நீளம் அவ்வடிவத்தின் சுற்றளவு எனப்படும்.",
+          "பெயர்க்காரணம்: 'peri' (சுற்றிலும்) மற்றும் 'metron' (அளவு) என்ற கிரேக்கச் சொற்களிலிருந்து பெறப்பட்டது.",
+          "அலகுகள்: மீட்டர், செ.மீ, மி.மீ, கி.மீ, அங்குலம், அடி, கெஜம்.",
+          "ஒழுங்கு பலகோணத்தின் சுற்றளவு = பக்கங்களின் எண்ணிக்கை × ஒரு பக்கத்தின் நீளம்."
+        ]
+      },
+      {
+        "title": "3.2 சுற்றளவு சூத்திரங்கள் (Perimeter Formulas)",
+        "type": "bilingual",
+        "en": [
+          "Rectangle: P = 2(l + b) units (where l = length, b = breadth).",
+          "Square: P = 4 × s units (where s = side).",
+          "Triangle: P = a + b + c units (where a, b, c are sides)."
+        ],
+        "ta": [
+          "செவ்வகம்: P = 2(l + b) அலகுகள் (l = நீளம், b = அகலம்).",
+          "சதுரம்: P = 4 × s அலகுகள் (s = பக்கம்).",
+          "முக்கோணம்: P = a + b + c அலகுகள் (a, b, c பக்கங்கள்)."
+        ]
+      },
+      {
+        "title": "3.3 பரப்பளவு - அறிமுகம் (Area - Introduction)",
+        "type": "bilingual",
+        "en": [
+          "Area: The measure of the region enclosed by a closed figure.",
+          "Area is measured in Square Units (e.g., cm², m²).",
+          "1 acre = 4,046.86 m²",
+          "1 hectare = 10,000 m²"
+        ],
+        "ta": [
+          "பரப்பளவு: ஒரு மூடிய வடிவத்தின் எல்லைக்குள் அடைபட்ட பகுதியை அதன் பரப்பளவு என்கிறோம்.",
+          "பரப்பளவானது சதுர அலகுகளில் (Square Units) அளவிடப்படும்.",
+          "1 ஏக்கர் = 4,046.86 மீ²",
+          "1 ஹெக்டேர் = 10,000 மீ²"
+        ]
+      },
+      {
+        "title": "3.4 பரப்பளவு சூத்திரங்கள் (Area Formulas)",
+        "type": "bilingual",
+        "en": [
+          "Rectangle: Area = l × b sq. units.",
+          "Square: Area = s × s sq. units.",
+          "Right-angled Triangle: Area = 1/2 × (b × h) sq. units (where b = base, h = height)."
+        ],
+        "ta": [
+          "செவ்வகம்: பரப்பளவு = l × b சதுர அலகுகள்.",
+          "சதுரம்: பரப்பளவு = s × s சதுர அலகுகள்.",
+          "செங்கோண முக்கோணம்: பரப்பளவு = 1/2 × (b × h) சதுர அலகுகள் (b = அடிப்படை, h = உயரம்)."
+        ]
+      },
+      {
+        "title": "3.5 கூட்டு வடிவங்கள் மற்றும் மாற்றங்கள் (Composite Shapes & Changes)",
+        "type": "bilingual",
+        "en": [
+          "Composite Shape: A figure made up of different simple closed figures.",
+          "Perimeter: Sum of all outer sides of the boundary.",
+          "Area: Sum of areas of all simple figures forming the composite shape.",
+          "Key Idea: Removing a corner square from a rectangle decreases area but keeps the perimeter unchanged."
+        ],
+        "ta": [
+          "கூட்டு வடிவம்: பல்வேறு மூடிய வடிவங்களின் தொகுப்பே ஒரு கூட்டு வடிவம் ஆகும்.",
+          "சுற்றளவு: ஒட்டு மொத்த வெளிப்பக்க அளவுகளின் (எல்லைகள்) கூட்டுத் தொகை.",
+          "பரப்பளவு: கூட்டு வடிவத்தை உருவாக்கிய அனைத்து எளிய வடிவங்களின் பரப்பளவுகளின் கூட்டுத் தொகை.",
+          "முக்கியக் குறிப்பு: ஒரு செவ்வகத்தின் மூலையிலிருந்து ஒரு சிறு சதுரத்தை வெட்டி எடுத்தால் பரப்பளவு குறையும், ஆனால் சுற்றளவு மாறாது."
+        ]
+      }
+    ]
+  },
+  "quiz": {
+    "questions": []
+  },
+  "credits": "A1 ONLINE COACHING CENTER"
+}

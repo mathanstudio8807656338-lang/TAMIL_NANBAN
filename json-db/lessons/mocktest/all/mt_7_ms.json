@@ -1,0 +1,1664 @@
+{
+  "lesson_meta": {
+    "title": "TNTET மாதிரி வினாத்தாள் - முழுமையான 150 வினாக்கள்",
+    "unit": "All",
+    "grade": "TET",
+    "term": "Model",
+    "subject": "General",
+    "code": "tntet_model_paper"
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "பியாஜேயின் அறிதிறன் வளர்ச்சிக் கொள்கையில், 'பொருள் நிலைத்தன்மை' (Object Permanence) எந்தப் பருவத்தில் ஏற்படுகிறது?",
+        "options": [
+          "புலனியக்கப் பருவம்",
+          "செயல்பாட்டுக்கு முந்தைய பருவம்",
+          "பருப்பொருள் செயல்பாட்டுப் பருவம்",
+          "முழுமையான செயல்பாட்டுப் பருவம்"
+        ],
+        "answer": 0,
+        "explanation": "பியாஜேயின் கொள்கைப்படி, பிறப்பு முதல் 2 வயது வரையிலான புலனியக்கப் பருவத்தில் (Sensorimotor stage) தான் குழந்தைகள் மறைக்கப்பட்ட பொருள்களும் இருப்பு கொண்டவையே என்பதை உணர்கின்றனர்."
+      },
+      {
+        "question": "கற்றலில் 'சாரம் அமைத்தல்' (Scaffolding) என்ற கருத்தை வலியுறுத்திய உளவியலாளர் யார்?",
+        "options": [
+          "சிக்மண்ட் பிராய்ட்",
+          "ஜீயான் பியாஜே",
+          "லெவ் வைகாட்ஸ்கி",
+          "பி.எப். ஸ்கின்னர்"
+        ],
+        "answer": 2,
+        "explanation": "கற்றலில் பெரியவர்கள் அல்லது திறமையானவர்களின் தற்காலிக வழிகாட்டுதலைப் பெறுவதை 'சாரம் அமைத்தல்' என லெவ் வைகாட்ஸ்கி (Lev Vygotsky) தனது சமூக-கலாச்சாரக் கொள்கையில் குறிப்பிட்டுள்ளார்."
+      },
+      {
+        "question": "எரிக்சனின் சமூக-உளவியல் வளர்ச்சிக் கொள்கையில், குமரப்பருவத்தினர் எதிர்கொள்ளும் முக்கிய உளவியல் முரண்பாடு எது?",
+        "options": [
+          "நம்பிக்கை எதிர் நம்பிக்கையின்மை",
+          "தன்னாட்சி எதிர் சந்தேகம்",
+          "முயற்சி எதிர் குற்றவுணர்வு",
+          "அடையாளம் எதிர் பாத்திரக் குழப்பம்"
+        ],
+        "answer": 3,
+        "explanation": "குமரப்பருவத்தினர் (12-18 வயது) தாங்கள் யார், சமூகத்தில் தங்கள் பங்கு என்ன என்ற அடையாளம் காணும் சிக்கலையும் (Identity vs Role confusion) பாத்திரக் குழப்பத்தையும் சந்திக்கின்றனர்."
+      },
+      {
+        "question": "பாவ்லோவின் ஆக்கநிலையுறுத்தல் (Classical Conditioning) சோதனையில் பயன்படுத்தப்பட்ட விலங்கு எது?",
+        "options": [
+          "எலி",
+          "புறா",
+          "நாய்",
+          "சிம்பன்சி"
+        ],
+        "answer": 2,
+        "explanation": "ரஷ்ய உளவியலாளர் இவான் பாவ்லோவ், நாயின் உமிழ்நீர் சுரக்கும் வினையை வைத்து ஆக்கநிலையுறுத்தல் கற்றல் கோட்பாட்டை உருவாக்கினார்."
+      },
+      {
+        "question": "செயல்படு ஆக்கநிலையுறுத்தல் (Operant Conditioning) கோட்பாட்டை உருவாக்கியவர் யார்?",
+        "options": [
+          "பி.எப். ஸ்கின்னர்",
+          "இ.எல். தார்ண்டைக்",
+          "ஆல்பர்ட் பண்டுரா",
+          "வில்லியம் ஜேம்ஸ்"
+        ],
+        "answer": 0,
+        "explanation": "பி.எப். ஸ்கின்னர் எலி மற்றும் புறாக்களை வைத்து நடத்திய சோதனைகள் மூலம் செயல்படு ஆக்கநிலையுறுத்தல் அல்லது கருவிசார் கற்றல் கோட்பாட்டை உருவாக்கினார்."
+      },
+      {
+        "question": "கோல்பர்க்கின் (Kohlberg) தார்மீக வளர்ச்சிக் கொள்கை எத்தனை நிலைகளைக் கொண்டது?",
+        "options": [
+          "2 நிலைகள், 4 படிகள்",
+          "3 நிலைகள், 6 படிகள்",
+          "4 நிலைகள், 8 படிகள்",
+          "5 நிலைகள், 10 படிகள்"
+        ],
+        "answer": 1,
+        "explanation": "லாரன்ஸ் கோல்பர்க் மனிதனின் ஒழுக்க அல்லது தார்மீக வளர்ச்சியை 3 முக்கிய நிலைகளாகவும் (Levels), ஒவ்வொரு நிலைக்கும் 2 படிகள் என மொத்தம் 6 படிகளாகவும் (Stages) பிரித்துள்ளார்."
+      },
+      {
+        "question": "பன்முக நுண்ணறிவுத் (Multiple Intelligences) கோட்பாட்டை முன்மொழிந்தவர் யார்?",
+        "options": [
+          "ஆல்பிரட் பினே",
+          "சார்லஸ் ஸ்பியர்மேன்",
+          "ஹோவர்ட் கார்ட்னர்",
+          "ராபர்ட் ஸ்டெர்ன்பெர்க்"
+        ],
+        "answer": 2,
+        "explanation": "நுண்ணறிவு என்பது ஒற்றைத் திறன் அல்ல, அது மொழியியல், தர்க்கம், இசை, உடலியக்கம் என எட்டு வகையான பன்முகத் திறன்களைக் கொண்டது என்று ஹோவர்ட் கார்ட்னர் கூறினார்."
+      },
+      {
+        "question": "நுண்ணறிவுச் சோதனைகளின் தந்தை என்று அழைக்கப்படுபவர் யார்?",
+        "options": [
+          "டெர்மன்",
+          "ஆல்பிரட் பினே",
+          "வெஸ்லர்",
+          "கால்டன்"
+        ],
+        "answer": 1,
+        "explanation": "பிரெஞ்சு உளவியலாளர் ஆல்பிரட் பினே (Alfred Binet) 1905 ஆம் ஆண்டு முதல் நுண்ணறிவுச் சோதனையை உருவாக்கினார். இவரே நுண்ணறிவுச் சோதனைகளின் தந்தை எனப்படுகிறார்."
+      },
+      {
+        "question": "நுண்ணறிவு ஈவு (IQ) கணக்கிடுவதற்கான சரியான சூத்திரம் எது?",
+        "options": [
+          "(கால வயது / மன வயது) × 100",
+          "(மன வயது / கால வயது) × 100",
+          "(மன வயது × கால வயது) / 100",
+          "(மன வயது + கால வயது) × 100"
+        ],
+        "answer": 1,
+        "explanation": "நுண்ணறிவு ஈவு (IQ) = (Mental Age / Chronological Age) × 100 என டெர்மன் (Terman) வரையறுத்தார்."
+      },
+      {
+        "question": "மீத்திறன் மிக்க (Gifted) குழந்தைகளின் நுண்ணறிவு ஈவு (IQ) பொதுவாக எந்த அளவுக்கு மேல் இருக்கும்?",
+        "options": [
+          "90",
+          "110",
+          "120",
+          "130"
+        ],
+        "answer": 3,
+        "explanation": "IQ மதிப்பீட்டு அட்டவணையின்படி 130 அல்லது 140-க்கும் மேல் நுண்ணறிவு ஈவு உள்ளவர்கள் மீத்திறன் மிக்கவர்கள் அல்லது மேதைகள் எனப்படுவர்."
+      },
+      {
+        "question": "மாஸ்லோவின் (Maslow) தேவைப் படிநிலைக் கோட்பாட்டில் மனிதனின் மிக உயர்ந்த நிலைத் தேவை எது?",
+        "options": [
+          "பாதுகாப்புத் தேவைகள்",
+          "அன்பு மற்றும் ஏற்புத் தேவைகள்",
+          "மதிப்புத் தேவைகள்",
+          "தன்னிறைவுத் தேவைகள் (Self-actualization)"
+        ],
+        "answer": 3,
+        "explanation": "அடிப்படைத் தேவைகள் அனைத்தும் பூர்த்தியான பின் மனிதன் தனது முழு திறனையும் உணர்ந்து அடையும் மிக உயர்ந்த நிலையே தன்னிறைவு அல்லது தன்-நனவாக்கம் எனப்படும்."
+      },
+      {
+        "question": "கவனித்தல் மற்றும் பின்பற்றுதல் மூலமாகவே பெரும்பாலான கற்றல் நிகழ்கிறது என்று கூறும் சமூகக் கற்றல் கோட்பாட்டை உருவாக்கியவர்?",
+        "options": [
+          "ஆல்பர்ட் பண்டுரா",
+          "ஜான் டூயி",
+          "கார்ல் ரோஜர்ஸ்",
+          "கர்ட் லெவின்"
+        ],
+        "answer": 0,
+        "explanation": "ஆல்பர்ட் பண்டுரா (Albert Bandura) போபோ பொம்மை சோதனை மூலம் குழந்தைகள் மற்றவர்களை உற்றுநோக்குதல் மற்றும் பின்பற்றுதல் வழியாகக் கற்கிறார்கள் என்பதை நிரூபித்தார்."
+      },
+      {
+        "question": "பொருளறிந்து கற்றல் அல்லது கண்டுபிடித்தல் கற்றல் (Discovery Learning) என்ற கருத்தை வலியுறுத்தியவர்?",
+        "options": [
+          "ஆசுபெல்",
+          "ப்ரூனர்",
+          "பியாஜே",
+          "காக்னே"
+        ],
+        "answer": 1,
+        "explanation": "மாணவர்கள் தாமாகவே தகவல்களைத் தேடி, ஆராய்ந்து, கண்டறிந்து கற்பதே சிறந்த கற்றல் என ஜெரோம் ப்ரூனர் (Jerome Bruner) வாதிட்டார்."
+      },
+      {
+        "question": "கருப்பொருள் இணைத்தறி சோதனை (Thematic Apperception Test - TAT) யாரால் உருவாக்கப்பட்டது?",
+        "options": [
+          "ஹெர்மன் ரோர்ஷாக்",
+          "முர்ரே மற்றும் மார்கன்",
+          "ரேவன்",
+          "கேட்டல்"
+        ],
+        "answer": 1,
+        "explanation": "படங்களைக் காட்டி கதை எழுதச் செய்யும் புறத்தேற்று நுண்முறையான TAT-ஐ முர்ரே மற்றும் மார்கன் (Murray and Morgan) உருவாக்கினர்."
+      },
+      {
+        "question": "டிஸ்லெக்ஸியா (Dyslexia) என்பது எதனுடன் தொடர்புடைய கற்றல் குறைபாடாகும்?",
+        "options": [
+          "கணிதத் திறன் குறைபாடு",
+          "எழுதுதல் குறைபாடு",
+          "படித்தல் மற்றும் மொழித்திறன் குறைபாடு",
+          "கவனச்சிதறல் குறைபாடு"
+        ],
+        "answer": 2,
+        "explanation": "டிஸ்லெக்ஸியா என்பது எழுத்துக்களை அடையாளம் காண்பதிலும், சரளமாகப் படிப்பதிலும் சிரமத்தை ஏற்படுத்தும் ஒரு நரம்பியல் சார்ந்த கற்றல் குறைபாடாகும்."
+      },
+      {
+        "question": "ADHD என்பதன் விரிவாக்கம் என்ன?",
+        "options": [
+          "Attention Deficit Hyperactivity Disorder",
+          "Active Development and Hyperactive Disorder",
+          "Attention Delay and Hearing Disorder",
+          "Adolescent Development and Health Disorder"
+        ],
+        "answer": 0,
+        "explanation": "ADHD என்பது கவனக்குறைவு மற்றும் அதிவேகச் செயல்பாட்டுக் குறைபாடு (Attention Deficit Hyperactivity Disorder) எனப்படும் நரம்பியல் வளர்ச்சிக் கோளாறாகும்."
+      },
+      {
+        "question": "ப்ளூமின் வகைப்பாட்டியலில் (Bloom's Taxonomy) அறிவுப் புலத்தின் (Cognitive domain) மிக அடிப்படையான கீழ்நிலை எது?",
+        "options": [
+          "புரிந்துகொள்ளுதல்",
+          "பயன்படுத்துதல்",
+          "அறிவு (நினைவுகூர்தல்)",
+          "மதிப்பிடுதல்"
+        ],
+        "answer": 2,
+        "explanation": "ப்ளூமின் அறிவுப்புலப் படிநிலைகளில் மிகக் கீழ்நிலை 'அறிவு' அல்லது 'நினைவுகூர்தல்' (Knowledge / Remembering) ஆகும்."
+      },
+      {
+        "question": "வகுப்பறையில் பாடம் கற்பிக்கும்போதே மாணவர்களின் புரிதலை அறிய நடத்தப்படும் மதிப்பீடு எது?",
+        "options": [
+          "தொகுத்தறி மதிப்பீடு",
+          "வளரறி மதிப்பீடு (Formative Assessment)",
+          "தரநிலை மதிப்பீடு",
+          "இறுதி மதிப்பீடு"
+        ],
+        "answer": 1,
+        "explanation": "கற்றல்-கற்பித்தல் நிகழ்வின் போதே மாணவர்களின் குறைகளைக் கண்டறிந்து திருத்த உதவும் மதிப்பீடு வளரறி மதிப்பீடு ஆகும்."
+      },
+      {
+        "question": "இந்தியாவில் நுண்ணிலைக் கற்பித்தல் சுழற்சியின் (Microteaching cycle) மொத்த கால அளவு எவ்வளவு?",
+        "options": [
+          "45 நிமிடங்கள்",
+          "30 நிமிடங்கள்",
+          "36 நிமிடங்கள்",
+          "50 நிமிடங்கள்"
+        ],
+        "answer": 2,
+        "explanation": "NCERT-ன் பரிந்துரைப்படி இந்தியாவில் ஒரு நுண்ணிலைக் கற்பித்தல் சுழற்சியின் மொத்த கால அளவு 36 நிமிடங்களாகும் (6+6+6+6+6+6)."
+      },
+      {
+        "question": "உலகின் முதல் உளவியல் ஆய்வகத்தை ஜெர்மனியில் உள்ள லீப்சிக் நகரில் நிறுவியவர் யார்?",
+        "options": [
+          "வில்லியம் ஜேம்ஸ்",
+          "வில்ஹெல்ம் வுண்ட்",
+          "ஜான் வாட்சன்",
+          "சிக்மண்ட் பிராய்ட்"
+        ],
+        "answer": 1,
+        "explanation": "1879 ஆம் ஆண்டில் வில்ஹெல்ம் வுண்ட் (Wilhelm Wundt) என்பவரால் முதல் உளவியல் ஆய்வகம் நிறுவப்பட்டு, உளவியல் ஒரு தனி அறிவியலாக உருவானது."
+      },
+      {
+        "question": "குறுகிய கால நினைவின் (Short-term memory) சராசரி கொள்ளளவு எவ்வளவு?",
+        "options": [
+          "3 ± 1 உருப்படிகள்",
+          "5 ± 2 உருப்படிகள்",
+          "7 ± 2 உருப்படிகள்",
+          "9 ± 3 உருப்படிகள்"
+        ],
+        "answer": 2,
+        "explanation": "ஜார்ஜ் மில்லர் (George Miller) என்பவரின் ஆய்வின்படி மனிதனின் குறுகிய கால நினைவின் வீச்சு மாய எண் 7 ± 2 (அதாவது 5 முதல் 9 உருப்படிகள்) ஆகும்."
+      },
+      {
+        "question": "முடிக்கப்பட்ட செயல்களை விட, முடிக்கப்படாத அல்லது பாதியில் விடப்பட்ட செயல்கள் நீண்ட காலம் நினைவில் இருப்பதைக் குறிக்கும் விளைவு?",
+        "options": [
+          "ஹாலோ விளைவு",
+          "ஜெய்கார்னிக் விளைவு (Zeigarnik effect)",
+          "பிளாசிபோ விளைவு",
+          "எப்பிங்ஹாஸ் விளைவு"
+        ],
+        "answer": 1,
+        "explanation": "ரஷ்ய உளவியலாளர் புளுமா ஜெய்கார்னிக் கண்டறிந்த இவ்விளைவு, முற்றுப்பெறாத செயல்கள் மனதில் ஒருவித அழுத்தத்தை ஏற்படுத்தி நினைவில் நிற்கின்றன என்கிறது."
+      },
+      {
+        "question": "மிதிவண்டி ஓட்டக் கற்ற ஒருவருக்கு, இருசக்கர மோட்டார் வாகனம் ஓட்டக் கற்பது எளிதாக இருப்பது எவ்வகைக் கற்றல் மாற்றம்?",
+        "options": [
+          "எதிர்மறை மாற்றம்",
+          "சுழிய மாற்றம்",
+          "நேர்மறை மாற்றம்",
+          "பக்கவாட்டு மாற்றம்"
+        ],
+        "answer": 2,
+        "explanation": "முற்கற்றல் ஒரு புதிய செயலைக் கற்பதற்கு உதவி செய்தால் அது நேர்மறை கற்றல் மாற்றம் (Positive transfer of learning) எனப்படும்."
+      },
+      {
+        "question": "சுல்தான் என்ற சிம்பன்சியை வைத்து 'உட்காட்சி வழிக் கற்றல்' (Insightful learning) சோதனையை நடத்திய கெஸ்டால்ட் உளவியலாளர் யார்?",
+        "options": [
+          "வொல்ஃப்கேங் கோலர்",
+          "குர்த் கோப்கா",
+          "மேக்ஸ் வெர்தீமர்",
+          "குர்த் லெவின்"
+        ],
+        "answer": 0,
+        "explanation": "பிரச்சினையை முழுமையாகப் பகுப்பாய்வு செய்து திடீரெனத் தீர்வு காணும் உட்காட்சி வழிக் கற்றலை கோலர் (Kohler) சிம்பன்சி மூலம் விளக்கினார்."
+      },
+      {
+        "question": "கற்றலில் 'விளைவு விதியை' (Law of Effect) முதன்முதலில் முன்மொழிந்தவர் யார்?",
+        "options": [
+          "பாவ்லோவ்",
+          "வாட்சன்",
+          "தார்ண்டைக்",
+          "ஸ்கின்னர்"
+        ],
+        "answer": 2,
+        "explanation": "இ.எல். தார்ண்டைக் (E.L. Thorndike) முயன்று தவறிக்கற்றல் கோட்பாட்டில் ஆயத்த விதி, பயிற்சி விதி மற்றும் விளைவு விதி ஆகிய மூன்றை வகுத்தார்."
+      },
+      {
+        "question": "ஒரு மாணவன் தனக்குப் பிடித்தமான பாடத்தை அதிக விருப்பத்துடன் எந்தவித வற்புறுத்தலுமின்றி படிப்பது எவ்வகை ஊக்கத்தின் பாற்படும்?",
+        "options": [
+          "புற ஊக்கம்",
+          "அக ஊக்கம் (Intrinsic motivation)",
+          "சமூக ஊக்கம்",
+          "பரிசு ஊக்கம்"
+        ],
+        "answer": 1,
+        "explanation": "தனிநபரின் உள்ளார்ந்த ஆர்வத்தாலும், செயலில் உள்ள ஈடுபாட்டாலும் தோன்றும் ஊக்கம் அக ஊக்கம் எனப்படும்."
+      },
+      {
+        "question": "ஆளுமையை அகமுகர் (Introvert) மற்றும் புறமுகர் (Extrovert) என வகைப்படுத்திய உளவியலாளர் யார்?",
+        "options": [
+          "கார்ல் யுங் (Carl Jung)",
+          "ஆல்பிரட் ஆட்லர்",
+          "ஹென்றி முர்ரே",
+          "ரேமண்ட் கேட்டல்"
+        ],
+        "answer": 0,
+        "explanation": "சுவிஸ் உளவியலாளர் கார்ல் யுங் மனித ஆளுமையை அவர்களின் சமூகத் தொடர்புகளின் அடிப்படையில் அகமுகர், புறமுகர் எனப் பிரித்தார்."
+      },
+      {
+        "question": "சிக்மண்ட் பிராய்டின் உளப்பகுப்பாய்வுக் கோட்பாட்டின்படி, முழுமையாக இன்பக் கொள்கையின் (Pleasure principle) அடிப்படையில் செயல்படும் மனதின் பகுதி எது?",
+        "options": [
+          "ஈகோ (Ego)",
+          "சூப்பர் ஈகோ (Superego)",
+          "இட் (Id)",
+          "நனவு மனம்"
+        ],
+        "answer": 2,
+        "explanation": "இட் (Id) என்பது விலங்குத் தன்மையானது. இது சரி, தவறு பார்க்காமல் உடனடி இன்பத்தையே நாடும் தன்மை கொண்டது."
+      },
+      {
+        "question": "தான் தேர்வில் தோல்வியடைந்ததற்கு வினாத்தாள் கடினமாக இருந்ததே காரணம் என ஒரு மாணவன் கூறுவது எவ்வகைத் தற்காப்பு நடத்தை?",
+        "options": [
+          "இடமாற்றம்",
+          "புறத்தேற்றுதல்",
+          "காரணம் கற்பித்தல் (Rationalization)",
+          "பின்னடைவு"
+        ],
+        "answer": 2,
+        "explanation": "தன்னுடைய குறையை மறைக்க, ஏற்றுக்கொள்ளக்கூடிய ஒரு பொய்யான அல்லது சாக்குப்போக்கான காரணத்தைக் கூறுவது காரணம் கற்பித்தல் ('திராட்சை புளிக்கும்' மனப்பான்மை) எனப்படும்."
+      },
+      {
+        "question": "உளவியலில் 'இயற்கை எதிர் வளர்ப்பு' (Nature vs. Nurture) விவாதம் எதைக் குறிக்கிறது?",
+        "options": [
+          "பள்ளி மற்றும் வீடு",
+          "மரபு மற்றும் சூழ்நிலை",
+          "உடல் மற்றும் மனம்",
+          "ஆசிரியர் மற்றும் மாணவர்"
+        ],
+        "answer": 1,
+        "explanation": "மனித வளர்ச்சியில் 'இயற்கை' என்பது மரபுவழியையும் (Heredity), 'வளர்ப்பு' என்பது அவர் வளரும் சூழ்நிலையையும் (Environment) குறிக்கிறது."
+      },
+      {
+        "question": "தொல்காப்பியத்தில் உள்ள மொத்த அதிகாரங்களின் எண்ணிக்கை எத்தனை?",
+        "options": [
+          "3",
+          "5",
+          "9",
+          "27"
+        ],
+        "answer": 0,
+        "explanation": "தமிழின் மிகப் பழமையான இலக்கண நூலான தொல்காப்பியம் எழுத்து, சொல், பொருள் என 3 அதிகாரங்களைக் கொண்டுள்ளது."
+      },
+      {
+        "question": "எட்டுத்தொகை நூல்களுள் அகமும் புறமும் கலந்த நூல் எது?",
+        "options": [
+          "நற்றிணை",
+          "குறுந்தொகை",
+          "பரிபாடல்",
+          "கலித்தொகை"
+        ],
+        "answer": 2,
+        "explanation": "பரிபாடல் மட்டுமே எட்டுத்தொகை நூல்களில் அகம் மற்றும் புறம் ஆகிய இரண்டு கருத்துகளையும் பாடும் சிறப்பைப் பெற்றுள்ளது."
+      },
+      {
+        "question": "திருக்குறளில் உள்ள மொத்த அதிகாரங்களின் எண்ணிக்கை எவ்வளவு?",
+        "options": [
+          "100",
+          "133",
+          "1330",
+          "108"
+        ],
+        "answer": 1,
+        "explanation": "திருக்குறள் அறத்துப்பால் (38), பொருட்பால் (70), இன்பத்துப்பால் (25) என மொத்தம் 133 அதிகாரங்களைக் கொண்டுள்ளது."
+      },
+      {
+        "question": "சிலப்பதிகாரம் எத்தனை காண்டங்களைக் கொண்டுள்ளது?",
+        "options": [
+          "2 காண்டங்கள்",
+          "3 காண்டங்கள்",
+          "5 காண்டங்கள்",
+          "6 காண்டங்கள்"
+        ],
+        "answer": 1,
+        "explanation": "இளங்கோவடிகள் இயற்றிய சிலப்பதிகாரம் புகார் காண்டம், மதுரைக் காண்டம், வஞ்சிக் காண்டம் என 3 காண்டங்களையும் 30 காதைகளையும் கொண்டுள்ளது."
+      },
+      {
+        "question": "கவிச்சக்கரவர்த்தி கம்பர் பிறந்த ஊர் எது?",
+        "options": [
+          "எட்டயபுரம்",
+          "திருவழுந்தூர் (தேரழுந்தூர்)",
+          "சிக்கில்",
+          "திருமறைக்காடு"
+        ],
+        "answer": 1,
+        "explanation": "கம்பர் சோழ நாட்டில் உள்ள மயிலாடுதுறைக்கு அருகிலுள்ள திருவழுந்தூர் (தேரழுந்தூர்) என்னும் ஊரில் பிறந்தார்."
+      },
+      {
+        "question": "மகாகவி பாரதியார் ஆசிரியராகப் பணியாற்றிய இதழ் எது?",
+        "options": [
+          "குயில்",
+          "தென்றல்",
+          "இந்தியா",
+          "சுதேசமித்திரன்"
+        ],
+        "answer": 2,
+        "explanation": "பாரதியார் 'இந்தியா', 'விஜயா', 'பாலபாரதி' போன்ற பல இதழ்களுக்கு ஆசிரியராக இருந்து சுதந்திர வேட்கையைத் தூண்டினார். சுதேசமித்திரனில் துணை ஆசிரியராக இருந்தார்."
+      },
+      {
+        "question": "‘உவமைக் கவிஞர்’ எனச் சிறப்பிக்கப்படும் சுரதாவின் இயற்பெயர் என்ன?",
+        "options": [
+          "முத்தையா",
+          "ராசகோபாலன்",
+          "சுப்புரத்தினம்",
+          "கனகசபை"
+        ],
+        "answer": 1,
+        "explanation": "பாரதிதாசன் (சுப்புரத்தினம்) மீதான பற்றால் சுப்புரத்தினதாசன் (சுரதா) எனப் பெயர் மாற்றிக்கொண்ட இவரின் இயற்பெயர் ராசகோபாலன் ஆகும்."
+      },
+      {
+        "question": "முத்தொள்ளாயிரம் எந்த மூவேந்தர்களைப் பற்றிப் பாடும் நூல்?",
+        "options": [
+          "சேர, சோழ, பாண்டியர்",
+          "பல்லவ, சோழ, பாண்டியர்",
+          "சேர, பாண்டிய, நாயக்கர்",
+          "பல்லவ, சாளுக்கிய, ராஷ்டிரகூடர்"
+        ],
+        "answer": 0,
+        "explanation": "முத்தொள்ளாயிரம் என்பது சேர, சோழ, பாண்டிய மன்னர்களின் சிறப்புகளைப் பற்றி தலா 300 பாடல்கள் வீதம் 900 பாடல்களைக் கொண்ட நூலாகும்."
+      },
+      {
+        "question": "குற்றியலுகரம் எத்தனை வகைப்படும்?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "answer": 2,
+        "explanation": "குற்றியலுகரம் நெடில்தொடர், ஆய்தத்தொடர், உயிர்த்தொடர், வன்றொடர், மென்றொடர், இடைத்தொடர் என 6 வகைப்படும்."
+      },
+      {
+        "question": "உயிரளபெடை எத்தனை வகைப்படும்?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": 1,
+        "explanation": "உயிரளபெடை செய்யுளிசையளபெடை (இசைநிறையளபெடை), இன்னிசையளபெடை, சொல்லிசையளபெடை என 3 வகைப்படும்."
+      },
+      {
+        "question": "ஆகுபெயர் பொதுவாக எத்தனை வகைப்படும் என நன்னூல் கூறுகிறது?",
+        "options": [
+          "10",
+          "12",
+          "16",
+          "18"
+        ],
+        "answer": 2,
+        "explanation": "பொருள், இடம், காலம், சினை, குணம், தொழில் எனப் பல வகைகளில் தோன்றி ஆகுபெயர் மொத்தம் 16 வகைப்படும் என நன்னூல் குறிப்பிடுகிறது."
+      },
+      {
+        "question": "தமிழில் வேற்றுமை எத்தனை வகைப்படும்?",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "answer": 2,
+        "explanation": "முதல் வேற்றுமை (எழுவாய்) முதல் எட்டாம் வேற்றுமை (விளி) வரை தமிழில் வேற்றுமை 8 வகைப்படும்."
+      },
+      {
+        "question": "‘காலம் கரந்த பெயரெச்சம்’ என இலக்கண நூல்கள் எதைக் குறிப்பிடுகின்றன?",
+        "options": [
+          "பண்புத்தொகை",
+          "வினைத்தொகை",
+          "உவமைத்தொகை",
+          "அன்மொழித்தொகை"
+        ],
+        "answer": 1,
+        "explanation": "காலத்தைக் காட்டும் இடைநிலையும் பெயரெச்ச விகுதியும் மறைந்து வரும் பெயரெச்சம் வினைத்தொகை எனப்படும். (எ.கா: ஊறுகாய்)."
+      },
+      {
+        "question": "'போல, புரைய, ஒப்ப, உறழ' என்பவை எவ்வகை உருபுகள்?",
+        "options": [
+          "வேற்றுமை உருபுகள்",
+          "பண்புருபுகள்",
+          "உவம உருபுகள்",
+          "இடைச்சொற்கள்"
+        ],
+        "answer": 2,
+        "explanation": "இவை ஒரு பொருளை மற்றொரு பொருளோடு ஒப்பிட்டுக் காட்டப் பயன்படும் உவம உருபுகள் ஆகும்."
+      },
+      {
+        "question": "பிரித்தால் பொருள் தராத சொற்றொடர் எது?",
+        "options": [
+          "அடுக்குத்தொடர்",
+          "இரட்டைக்கிளவி",
+          "பண்புத்தொகை",
+          "உம்மைத்தொகை"
+        ],
+        "answer": 1,
+        "explanation": "சலசல, கலகல போன்ற ஒலிக் குறிப்புச் சொற்கள் எப்போதும் இரட்டித்தே வரும், பிரித்தால் பொருள் தராது. இது இரட்டைக்கிளவி எனப்படும்."
+      },
+      {
+        "question": "அடுக்குத்தொடர் எத்தனை முறை அடுக்கி வரலாம்?",
+        "options": [
+          "2 முறை மட்டும்",
+          "3 முறை மட்டும்",
+          "2, 3, அல்லது 4 முறை",
+          "எத்தனை முறை வேண்டுமானாலும்"
+        ],
+        "answer": 2,
+        "explanation": "அசைநிலை, விரைவு, வெகுளி, அச்சம், உவகை போன்ற பொருள்களில் ஒரு சொல் இரண்டு, மூன்று அல்லது நான்கு முறை வரை அடுக்கி வருவது அடுக்குத்தொடராகும்."
+      },
+      {
+        "question": "தமிழ் விடு தூது நூலில் உள்ள கண்ணிகளின் எண்ணிக்கை எத்தனை?",
+        "options": [
+          "268",
+          "368",
+          "168",
+          "468"
+        ],
+        "answer": 0,
+        "explanation": "மதுரையில் வீற்றிருக்கும் சொக்கநாதர் மீது காதல் கொண்ட பெண் ஒருத்தி தமிழையே தூது விடுவதாக அமைந்த இந்நூல் 268 கண்ணிகளைக் கொண்டுள்ளது."
+      },
+      {
+        "question": "‘ஒன்றே குலம் ஒருவனே தேவன்’ எனப் பாடிய சித்தர் யார்?",
+        "options": [
+          "அகத்தியர்",
+          "போகர்",
+          "திருமூலர்",
+          "பாம்பாட்டிச் சித்தர்"
+        ],
+        "answer": 2,
+        "explanation": "பன்னிரு திருமுறைகளில் பத்தாம் திருமுறையாகிய திருமந்திரத்தை இயற்றிய திருமூலர் இக்கருத்தை வலியுறுத்தியுள்ளார்."
+      },
+      {
+        "question": "பெரியபுராணம் என்னும் நூலை இயற்றியவர் யார்?",
+        "options": [
+          "கம்பர்",
+          "ஒட்டக்கூத்தர்",
+          "சேக்கிழார்",
+          " புகழேந்திப் புலவர்"
+        ],
+        "answer": 2,
+        "explanation": "63 நாயன்மார்களின் வரலாற்றைக் கூறும் திருத்தொண்டர் புராணம் என்ற பெரியபுராணத்தை இயற்றியவர் சேக்கிழார் பெருமான் ஆவார்."
+      },
+      {
+        "question": "நாலடியார் நூலை இயற்றியவர்கள் யார்?",
+        "options": [
+          "சமண முனிவர்கள்",
+          "பௌத்தத் துறவிகள்",
+          "சைவ அடியார்கள்",
+          "ஆழ்வார்கள்"
+        ],
+        "answer": 0,
+        "explanation": "பதினெண்கீழ்க்கணக்கு நூல்களுள் ஒன்றான நாலடியார், பல சமண முனிவர்களால் பாடப்பட்ட 400 வெண்பாக்களைக் கொண்ட தொகுப்பாகும்."
+      },
+      {
+        "question": "‘திராவிட மொழிகளின் ஒப்பிலக்கணம்’ என்ற புகழ்பெற்ற நூலை எழுதியவர் யார்?",
+        "options": [
+          "வீரமாமுனிவர்",
+          "ராபர்ட் டி நொபிலி",
+          "கால்டுவெல்",
+          "ஜி.யு. போப்"
+        ],
+        "answer": 2,
+        "explanation": "ராபர்ட் கால்டுவெல் (Robert Caldwell) 1856 ஆம் ஆண்டு இந்நூலை எழுதி திராவிட மொழிகள் சமஸ்கிருதத்திலிருந்து வேறுபட்டவை என நிரூபித்தார்."
+      },
+      {
+        "question": "தமிழில் ‘தனித்தமிழ் இயக்கத்தைத்’ தோற்றுவித்தவர் யார்?",
+        "options": [
+          "பாரதியார்",
+          "மறைமலை அடிகள்",
+          "தேவநேயப் பாவாணர்",
+          "பரிதிமாற்கலைஞர்"
+        ],
+        "answer": 1,
+        "explanation": "வேதாசலம் என்ற தன் பெயரை மறைமலை அடிகள் என மாற்றிக்கொண்டு, பிறமொழி கலப்பின்றி தூய தமிழில் எழுதும் தனித்தமிழ் இயக்கத்தைத் தோற்றுவித்தார்."
+      },
+      {
+        "question": "பத்துப்பாட்டு நூல்களுள் ஒன்றான ‘குறிஞ்சிப்பாட்டைப்’ பாடியவர் யார்?",
+        "options": [
+          "நக்கீரர்",
+          "கபிலர்",
+          "மாங்குடி மருதனார்",
+          "கடியலூர் உருத்திரங்கண்ணனார்"
+        ],
+        "answer": 1,
+        "explanation": "ஆரிய அரசன் பிரகத்தனுக்குத் தமிழின் பெருமையை உணர்த்த கபிலர் 99 வகையான பூக்களின் பெயர்களைத் தொகுத்து குறிஞ்சிப்பாட்டைப் பாடினார்."
+      },
+      {
+        "question": "தமிழின் முதல் அகராதியான ‘சதுரகராதியை’ வெளியிட்டவர் யார்?",
+        "options": [
+          "ஜி.யு. போப்",
+          "ஆறுமுக நாவலர்",
+          "வீரமாமுனிவர்",
+          "உ.வே.சா"
+        ],
+        "answer": 2,
+        "explanation": "கான்ஸ்டான்டைன் ஜோசப் பெஸ்கி என்ற இயற்பெயர் கொண்ட வீரமாமுனிவர் பெயர், பொருள், தொகை, தொடை என 4 பிரிவுகளைக் கொண்ட சதுரகராதியை வெளியிட்டார்."
+      },
+      {
+        "question": "தமிழ்நாட்டின் மாநில மரம் எது?",
+        "options": [
+          "ஆலமரம்",
+          "அரசமரம்",
+          "பனைமரம்",
+          "தென்னைமரம்"
+        ],
+        "answer": 2,
+        "explanation": "பண்டைய காலம்தொட்டே தமிழர்களின் வாழ்வோடு இரண்டறக் கலந்துள்ள கற்பகத்தருவான பனைமரமே தமிழ்நாட்டின் மாநில மரமாகும்."
+      },
+      {
+        "question": "‘மனோன்மணீயம்’ என்ற நாடகக் காப்பியத்தை எழுதியவர் யார்?",
+        "options": [
+          "பம்மல் சம்பந்த முதலியார்",
+          "சங்கரதாஸ் சுவாமிகள்",
+          "பேராசிரியர் சுந்தரனார்",
+          "பாரதிதாசன்"
+        ],
+        "answer": 2,
+        "explanation": "தமிழ்நாட்டின் தமிழ்த்தாய் வாழ்த்தாக உள்ள 'நீராரும் கடலுடுத்த' என்ற பாடல் இடம்பெற்றுள்ள மனோன்மணீயத்தை எழுதியவர் பெ. சுந்தரனார் ஆவார்."
+      },
+      {
+        "question": "நற்றிணைப் பாடல்களின் அடிவரையறை என்ன?",
+        "options": [
+          "4 முதல் 8 அடிகள்",
+          "9 முதல் 12 அடிகள்",
+          "13 முதல் 31 அடிகள்",
+          "3 முதல் 6 அடிகள்"
+        ],
+        "answer": 1,
+        "explanation": "எட்டுத்தொகை நூலான நற்றிணை 9 அடிச் சிறுமையும் 12 அடிப் பெருமையும் கொண்ட 400 அகவற்பாக்களைக் கொண்டது."
+      },
+      {
+        "question": "இஸ்லாமிய இலக்கியமான ‘சீறாப்புராணத்தை’ இயற்றியவர் யார்?",
+        "options": [
+          "மஸ்தான் சாகிபு",
+          "குணங்குடி மஸ்தான்",
+          "உமறுப்புலவர்",
+          "செய்குத்தம்பி பாவலர்"
+        ],
+        "answer": 2,
+        "explanation": "இஸ்லாமிய இறைதூதர் நபிகள் நாயகத்தின் வாழ்க்கை வரலாற்றைக் கூறும் சீறாப்புராணத்தை வள்ளல் சீதக்காதியின் வேண்டுகோளுக்கிணங்க உமறுப்புலவர் இயற்றினார்."
+      },
+      {
+        "question": "புறநானூற்றுப் பாடல்கள் சிலவற்றை ஆங்கிலத்தில் மொழிபெயர்த்த அறிஞர் யார்?",
+        "options": [
+          "கால்டுவெல்",
+          "எல்லிஸ்",
+          "ஜி.யு. போப்",
+          "வீரமாமுனிவர்"
+        ],
+        "answer": 2,
+        "explanation": "தமிழ் இலக்கியங்கள் மீது அதீத பற்று கொண்ட ஜி.யு. போப் திருக்குறள், நாலடியார், புறநானூறு மற்றும் திருவாசகம் ஆகியவற்றை ஆங்கிலத்தில் மொழிபெயர்த்துள்ளார்."
+      },
+      {
+        "question": "‘தமிழ்த்தென்றல்’ எனச் சிறப்பிக்கப்படும் தமிழறிஞர் யார்?",
+        "options": [
+          "மு. வரதராசனார்",
+          "திரு.வி. கல்யாணசுந்தரனார்",
+          "ரா.பி. சேதுப்பிள்ளை",
+          "அறிஞர் அண்ணா"
+        ],
+        "answer": 1,
+        "explanation": "தமிழ் மொழியை மேடைப் பேச்சிலும் எழுத்திலும் மிகச் சிறப்பாகக் கையாண்ட திரு.வி.க அவர்கள் 'தமிழ்த்தென்றல்' எனப் போற்றப்படுகிறார்."
+      },
+      {
+        "question": "Identify the noun in the following sentence: 'Honesty is the best policy.'",
+        "options": [
+          "Honesty",
+          "is",
+          "best",
+          "policy"
+        ],
+        "answer": 0,
+        "explanation": "'Honesty' is an abstract noun that acts as the subject of the sentence. 'Policy' is also a noun, but 'Honesty' is the primary subject noun here."
+      },
+      {
+        "question": "Fill in the blank with the suitable article: He is ___ honest man.",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "no article"
+        ],
+        "answer": 1,
+        "explanation": "The word 'honest' starts with a silent 'h', producing a vowel sound ('o' sound). Hence, the article 'an' is used."
+      },
+      {
+        "question": "Choose the correct preposition: He died ___ cholera.",
+        "options": [
+          "from",
+          "with",
+          "by",
+          "of"
+        ],
+        "answer": 3,
+        "explanation": "When someone dies as a direct result of a disease, the correct preposition to use is 'of' (died of cholera/cancer)."
+      },
+      {
+        "question": "Choose the correct tense form: I ___ (read) this book since morning.",
+        "options": [
+          "am reading",
+          "was reading",
+          "have been reading",
+          "read"
+        ],
+        "answer": 2,
+        "explanation": "An action that started in the past and is still continuing is expressed in the present perfect continuous tense."
+      },
+      {
+        "question": "Change the sentence into Passive Voice: 'Close the door.'",
+        "options": [
+          "The door is closed.",
+          "Let the door be closed.",
+          "You are ordered to close the door.",
+          "The door should be closed."
+        ],
+        "answer": 1,
+        "explanation": "For imperative sentences (commands), the passive voice is formed using 'Let + object + be + past participle'."
+      },
+      {
+        "question": "Which conjunction is used to connect assertive sentences in indirect speech?",
+        "options": [
+          "if",
+          "whether",
+          "to",
+          "that"
+        ],
+        "answer": 3,
+        "explanation": "In reported speech, statement (assertive) sentences are joined using the conjunction 'that'."
+      },
+      {
+        "question": "Change into Superlative degree: 'No other boy in the class is as tall as Ram.'",
+        "options": [
+          "Ram is taller than any other boy in the class.",
+          "Ram is the tallest boy in the class.",
+          "Ram is tall in the class.",
+          "Very few boys are as tall as Ram."
+        ],
+        "answer": 1,
+        "explanation": "The sentence indicates that no one exceeds Ram's height, making him the absolute highest, which is expressed by the superlative 'the tallest'."
+      },
+      {
+        "question": "Identify the sentence pattern: 'They elected him President.'",
+        "options": [
+          "S V O",
+          "S V Ido Ddo",
+          "S V O C",
+          "S V O A"
+        ],
+        "answer": 2,
+        "explanation": "They (Subject) elected (Verb) him (Object) President (Complement - completes the meaning of the object)."
+      },
+      {
+        "question": "Add a suitable question tag: 'Let's go to the beach, ___?'",
+        "options": [
+          "will you",
+          "don't we",
+          "shall we",
+          "aren't we"
+        ],
+        "answer": 2,
+        "explanation": "Sentences starting with 'Let us' or 'Let's' always take the question tag 'shall we?'."
+      },
+      {
+        "question": "Fill in the blank: If I ___ a bird, I would fly in the sky.",
+        "options": [
+          "was",
+          "am",
+          "were",
+          "had been"
+        ],
+        "answer": 2,
+        "explanation": "In an imaginary or hypothetical condition (Type 2 conditional), 'were' is used for all subjects."
+      },
+      {
+        "question": "What is the meaning of the phrasal verb 'call off'?",
+        "options": [
+          "postpone",
+          "cancel",
+          "summon",
+          "speak loudly"
+        ],
+        "answer": 1,
+        "explanation": "The phrasal verb 'call off' means to cancel an event or an agreement."
+      },
+      {
+        "question": "What does the idiom 'Once in a blue moon' mean?",
+        "options": [
+          "Very often",
+          "Always",
+          "Very rarely",
+          "At night"
+        ],
+        "answer": 2,
+        "explanation": "A blue moon is a rare astronomical event. Hence, the idiom means something that happens very rarely."
+      },
+      {
+        "question": "Find the synonym for the word 'Abundant'.",
+        "options": [
+          "Scarce",
+          "Plentiful",
+          "Limited",
+          "Empty"
+        ],
+        "answer": 1,
+        "explanation": "'Abundant' means existing or available in large quantities; plentiful."
+      },
+      {
+        "question": "What is the antonym of 'Optimist'?",
+        "options": [
+          "Realist",
+          "Pessimist",
+          "Activist",
+          "Pacifist"
+        ],
+        "answer": 1,
+        "explanation": "An optimist always looks at the positive side of things, while a pessimist always expects the worst."
+      },
+      {
+        "question": "Add a suitable prefix to the word 'understand'.",
+        "options": [
+          "un-",
+          "dis-",
+          "mis-",
+          "in-"
+        ],
+        "answer": 2,
+        "explanation": "The correct prefix is 'mis-', forming the word 'misunderstand' (to fail to understand correctly)."
+      },
+      {
+        "question": "Choose the correct homophone for the word 'Peace'.",
+        "options": [
+          "Peas",
+          "Piece",
+          "Pace",
+          "Pause"
+        ],
+        "answer": 1,
+        "explanation": "'Peace' and 'Piece' sound exactly the same (homophones) but have different spellings and meanings."
+      },
+      {
+        "question": "How many syllables are there in the word 'Beautiful'?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": 1,
+        "explanation": "The word is syllabified as Beau-ti-ful, containing three distinct vowel sounds."
+      },
+      {
+        "question": "Identify the figure of speech: 'He fought like a lion in the battle.'",
+        "options": [
+          "Metaphor",
+          "Simile",
+          "Personification",
+          "Hyperbole"
+        ],
+        "answer": 1,
+        "explanation": "A direct comparison using the words 'like' or 'as' is called a Simile."
+      },
+      {
+        "question": "Identify the figure of speech: 'The wind whispered through the trees.'",
+        "options": [
+          "Simile",
+          "Metaphor",
+          "Personification",
+          "Oxymoron"
+        ],
+        "answer": 2,
+        "explanation": "Giving human qualities (whispering) to an inanimate object (the wind) is called Personification."
+      },
+      {
+        "question": "What is the plural form of the word 'Datum'?",
+        "options": [
+          "Datums",
+          "Data",
+          "Dati",
+          "Datas"
+        ],
+        "answer": 1,
+        "explanation": "Datum is a Latin singular noun. Its standard plural form is Data."
+      },
+      {
+        "question": "Fill in the relative pronoun: The man ___ stole the bag was caught by the police.",
+        "options": [
+          "whom",
+          "whose",
+          "which",
+          "who"
+        ],
+        "answer": 3,
+        "explanation": "'Who' is used as a subject relative pronoun to refer to people."
+      },
+      {
+        "question": "Choose the correct conjunction: ___ he was sick, he attended the meeting.",
+        "options": [
+          "Because",
+          "But",
+          "Though",
+          "Therefore"
+        ],
+        "answer": 2,
+        "explanation": "'Though' or 'Although' is used to introduce a subordinate clause expressing a contrast."
+      },
+      {
+        "question": "Fill in with the correct modal verb: I ___ swim across the river easily.",
+        "options": [
+          "may",
+          "can",
+          "must",
+          "shall"
+        ],
+        "answer": 1,
+        "explanation": "The modal verb 'can' is used to express ability or capacity to do something."
+      },
+      {
+        "question": "Identify the gerund in the sentence: 'Walking is a good exercise.'",
+        "options": [
+          "Walking",
+          "is",
+          "good",
+          "exercise"
+        ],
+        "answer": 0,
+        "explanation": "A gerund is a verb form ending in '-ing' that functions as a noun. Here, 'Walking' acts as the subject noun."
+      },
+      {
+        "question": "Choose the word with the correct spelling.",
+        "options": [
+          "Acommodation",
+          "Accomodation",
+          "Accommodation",
+          "Accommadation"
+        ],
+        "answer": 2,
+        "explanation": "The correct spelling is 'Accommodation', which has a double 'c' and a double 'm'."
+      },
+      {
+        "question": "A person who knows and can use several languages is called a:",
+        "options": [
+          "Linguist",
+          "Polyglot",
+          "Bilingual",
+          "Philologist"
+        ],
+        "answer": 1,
+        "explanation": "A 'Polyglot' is someone who is fluent in multiple languages. A linguist studies the science of language."
+      },
+      {
+        "question": "What is the rhyme scheme of the lines: 'Twinkle, twinkle, little star / How I wonder what you are'?",
+        "options": [
+          "abab",
+          "aabb",
+          "aa",
+          "ab"
+        ],
+        "answer": 2,
+        "explanation": "'star' and 'are' rhyme with each other, forming a couplet with the rhyme scheme 'aa'."
+      },
+      {
+        "question": "How many vowel sounds are there in the English phonetic system?",
+        "options": [
+          "5",
+          "12",
+          "20",
+          "24"
+        ],
+        "answer": 2,
+        "explanation": "While there are 5 vowel letters, they produce 20 distinct vowel sounds (12 pure vowels/monophthongs and 8 diphthongs) in English phonetics."
+      },
+      {
+        "question": "Identify the complex sentence.",
+        "options": [
+          "The sun rose and the fog disappeared.",
+          "Because he was late, he missed the train.",
+          "He is poor but honest.",
+          "Seeing the tiger, the deer ran away."
+        ],
+        "answer": 1,
+        "explanation": "A complex sentence contains one independent clause and at least one dependent clause (starting with 'Because')."
+      },
+      {
+        "question": "What is the meaning of the phrase 'to give up'?",
+        "options": [
+          "to start",
+          "to distribute",
+          "to abandon or surrender",
+          "to rise"
+        ],
+        "answer": 2,
+        "explanation": "'To give up' means to stop trying, to quit doing something, or to surrender."
+      },
+      {
+        "question": "எண்களில் மிகச்சிறிய பகா எண் எது?",
+        "options": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ],
+        "answer": 2,
+        "explanation": "2 என்பது மட்டுமே இரட்டைப் படை பகா எண்ணாகும். மேலும் இதுவே எண்களில் மிகச்சிறிய பகா எண்ணாகும் (Prime number)."
+      },
+      {
+        "question": "15 மற்றும் 20-ன் மீ.சி.ம (LCM) என்ன?",
+        "options": [
+          "5",
+          "30",
+          "60",
+          "120"
+        ],
+        "answer": 2,
+        "explanation": "15 மற்றும் 20 ஆகிய இரு எண்களாலும் மீதியின்றி வகுபடும் மிகச்சிறிய எண் 60 ஆகும்."
+      },
+      {
+        "question": "a^m x a^n என்பதன் மதிப்பு என்ன?",
+        "options": [
+          "a^(m-n)",
+          "a^(m+n)",
+          "a^(mn)",
+          "a^(m/n)"
+        ],
+        "answer": 1,
+        "explanation": "அடிமானங்கள் சமமாக இருந்து பெருக்கலில் இருந்தால், அதன் அடுக்குகளைக் கூட்ட வேண்டும். எனவே a^m x a^n = a^(m+n)."
+      },
+      {
+        "question": "வட்டத்தின் பரப்பளவு காண்பதற்கான சூத்திரம் என்ன?",
+        "options": [
+          "2πr",
+          "πr^2",
+          "πd",
+          "1/2 πr^2"
+        ],
+        "answer": 1,
+        "explanation": "r அலகு ஆரம் கொண்ட வட்டத்தின் பரப்பளவு காண்பதற்கான சூத்திரம் πr^2 சதுர அலகுகள் ஆகும்."
+      },
+      {
+        "question": "√144 ன் மதிப்பு என்ன?",
+        "options": [
+          "12",
+          "14",
+          "16",
+          "24"
+        ],
+        "answer": 0,
+        "explanation": "12 x 12 = 144. எனவே 144-ன் வர்க்கமூலம் (Square root) 12 ஆகும்."
+      },
+      {
+        "question": "ஒரு முக்கோணத்தின் மூன்று கோணங்களின் கூடுதல் என்ன?",
+        "options": [
+          "90°",
+          "180°",
+          "270°",
+          "360°"
+        ],
+        "answer": 1,
+        "explanation": "எந்தவொரு முக்கோணமாக இருந்தாலும், அதன் மூன்று உட்கோணங்களின் கூடுதல் எப்போதுமே 180° ஆக இருக்கும்."
+      },
+      {
+        "question": "-5 மற்றும் 5 ஆகிய இரு முழுக்களுக்கும் இடையே உள்ள முழுக்கள் எத்தனை?",
+        "options": [
+          "9",
+          "10",
+          "11",
+          "8"
+        ],
+        "answer": 0,
+        "explanation": "-4, -3, -2, -1, 0, 1, 2, 3, 4 ஆகிய 9 முழுக்கள் -5 க்கும் 5 க்கும் இடையே உள்ளன."
+      },
+      {
+        "question": "2:3 மற்றும் 4:x ஆகியவை விகிதசமமாக இருந்தால், x-ன் மதிப்பு என்ன?",
+        "options": [
+          "5",
+          "6",
+          "8",
+          "12"
+        ],
+        "answer": 1,
+        "explanation": "விகிதசம விதியின்படி, கோடி உறுப்புகளின் பெருக்கற்பலன் = நடு உறுப்புகளின் பெருக்கற்பலன். 2x = 3*4 = 12. எனவே x = 6."
+      },
+      {
+        "question": "(a+b)^2 என்பதன் விரிவு என்ன?",
+        "options": [
+          "a^2 - 2ab + b^2",
+          "a^2 + b^2",
+          "a^2 + 2ab + b^2",
+          "a^2 - b^2"
+        ],
+        "answer": 2,
+        "explanation": "(a+b)^2 என்ற இயற்கணித முற்றுரிமையின் விரிவானது a^2 + 2ab + b^2 ஆகும்."
+      },
+      {
+        "question": "அசலானது ரூ.1000, வட்டி வீதம் 10%, 2 ஆண்டுகளுக்குத் தனிவட்டி எவ்வளவு?",
+        "options": [
+          "ரூ. 100",
+          "ரூ. 200",
+          "ரூ. 210",
+          "ரூ. 1200"
+        ],
+        "answer": 1,
+        "explanation": "தனிவட்டி (I) = PNR / 100. I = (1000 x 2 x 10) / 100 = ரூ. 200."
+      },
+      {
+        "question": "0.5 என்பதைப் பின்னமாக மாற்றுக.",
+        "options": [
+          "1/5",
+          "1/2",
+          "5/100",
+          "2/5"
+        ],
+        "answer": 1,
+        "explanation": "0.5 என்பதை 5/10 என எழுதலாம். இதைச் சுருக்கினால் 1/2 என்ற பின்னம் கிடைக்கும்."
+      },
+      {
+        "question": "ஒரு நாணயத்தைச் சுண்டும்போது 'தலை' கிடைப்பதற்கான நிகழ்தகவு என்ன?",
+        "options": [
+          "1",
+          "1/4",
+          "1/2",
+          "0"
+        ],
+        "answer": 2,
+        "explanation": "நாணயத்தில் தலை (H), பூ (T) என 2 விளைவுகள் உள்ளன. இதில் தலை கிடைக்க 1 வாய்ப்பு உள்ளதால், நிகழ்தகவு 1/2 ஆகும்."
+      },
+      {
+        "question": "a^0-ன் மதிப்பு என்ன?",
+        "options": [
+          "0",
+          "a",
+          "1",
+          "-1"
+        ],
+        "answer": 2,
+        "explanation": "பூஜ்ஜியம் அல்லாத எந்தவொரு எண்ணின் அடுக்கும் 0 ஆக இருந்தால், அதன் மதிப்பு எப்போதும் 1 ஆகும்."
+      },
+      {
+        "question": "செங்கோண முக்கோணத்தில் மிகப்பெரிய பக்கம் எது?",
+        "options": [
+          "அடிப்பக்கம்",
+          "குத்துயரம்",
+          "கர்ணம்",
+          "அனைத்தும் சமம்"
+        ],
+        "answer": 2,
+        "explanation": "ஒரு செங்கோண முக்கோணத்தில் 90° கோணத்திற்கு எதிரே உள்ள பக்கமான 'கர்ணம்' (Hypotenuse) தான் மிகப்பெரிய பக்கமாகும்."
+      },
+      {
+        "question": "ஒரு சதுரத்தின் பக்கம் 5 செ.மீ எனில், அதன் சுற்றளவு என்ன?",
+        "options": [
+          "10 செ.மீ",
+          "20 செ.மீ",
+          "25 செ.மீ",
+          "15 செ.மீ"
+        ],
+        "answer": 1,
+        "explanation": "சதுரத்தின் சுற்றளவு P = 4a. எனவே 4 x 5 = 20 செ.மீ ஆகும்."
+      },
+      {
+        "question": "லாப சதவீதம் காணும் சூத்திரம் என்ன?",
+        "options": [
+          "(லாபம் / விற்பனை விலை) x 100",
+          "(லாபம் / அடக்கு விலை) x 100",
+          "(நட்டம் / அடக்கு விலை) x 100",
+          "(அடக்கு விலை / லாபம்) x 100"
+        ],
+        "answer": 1,
+        "explanation": "லாப அல்லது நட்ட சதவீதம் எப்பொழுதும் அடக்கு விலையின் (Cost Price) அடிப்படையிலேயே கணக்கிடப்பட வேண்டும்."
+      },
+      {
+        "question": "இரு எண்களின் மீ.பெ.வா (HCF) 1 எனில் அவ்வெண்கள் எவ்வாறு அழைக்கப்படும்?",
+        "options": [
+          "பகா எண்கள்",
+          "பகு எண்கள்",
+          "சார்பகா எண்கள்",
+          "இரட்டைப் பகா எண்கள்"
+        ],
+        "answer": 2,
+        "explanation": "இரண்டு எண்களுக்கு 1-ஐத் தவிர வேறு பொதுக் காரணிகள் இல்லை (அதாவது HCF=1) என்றால் அவை சார்பகா எண்கள் (Co-primes) எனப்படும்."
+      },
+      {
+        "question": "முக்கோணத்தின் பரப்பளவு காணும் சூத்திரம் என்ன?",
+        "options": [
+          "b x h",
+          "1/2 x b x h",
+          "a^2",
+          "l x b"
+        ],
+        "answer": 1,
+        "explanation": "அடிப்பக்கம் 'b' மற்றும் குத்துயரம் 'h' கொண்ட முக்கோணத்தின் பரப்பளவு 1/2 x b x h சதுர அலகுகள் ஆகும்."
+      },
+      {
+        "question": "x^2 - y^2 என்பதன் காரணிப்படுத்தப்பட்ட வடிவம் என்ன?",
+        "options": [
+          "(x-y)^2",
+          "(x+y)^2",
+          "(x+y)(x-y)",
+          "x^2 - 2xy + y^2"
+        ],
+        "answer": 2,
+        "explanation": "x^2 - y^2 என்ற முற்றுரிமையை (x+y)(x-y) என இரு காரணிகளின் பெருக்கற்பலனாக எழுதலாம்."
+      },
+      {
+        "question": "கீழ்க்கண்டவற்றுள் முப்பரிமாண (3D) வடிவத்திற்கு ஓர் எடுத்துக்காட்டு எது?",
+        "options": [
+          "சதுரம்",
+          "வட்டம்",
+          "முக்கோணம்",
+          "கனசதுரம்"
+        ],
+        "answer": 3,
+        "explanation": "சதுரம், வட்டம், முக்கோணம் ஆகியவை இருபரிமாண (2D) வடிவங்கள். கனசதுரம் (Cube) மட்டுமே நீளம், அகலம், உயரம் கொண்ட 3D வடிவமாகும்."
+      },
+      {
+        "question": "1 மில்லியன் என்பது இந்திய எண்முறையில் எதற்குச் சமம்?",
+        "options": [
+          "1 லட்சம்",
+          "10 லட்சம்",
+          "1 கோடி",
+          "10 கோடி"
+        ],
+        "answer": 1,
+        "explanation": "சர்வதேச எண்முறையில் 1 மில்லியன் (1,000,000) என்பது இந்திய எண்முறையில் 10 லட்சத்திற்குச் சமமாகும்."
+      },
+      {
+        "question": "2, 4, 6, 8, 10 ஆகிய எண்களின் கூட்டுச்சராசரி என்ன?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": 1,
+        "explanation": "கூட்டுச்சராசரி = எண்களின் கூடுதல் / எண்களின் எண்ணிக்கை. (2+4+6+8+10) / 5 = 30 / 5 = 6."
+      },
+      {
+        "question": "ஆய்லரின் (Euler's) சூத்திரத்தின்படி V + F - E = ?",
+        "options": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ],
+        "answer": 2,
+        "explanation": "எந்தவொரு பன்முகிக்கும் (Polyhedron) உச்சிகள்(V), முகங்கள்(F) மற்றும் விளிம்புகளுக்கு(E) இடையேயான தொடர்பு V + F - E = 2 ஆகும்."
+      },
+      {
+        "question": "நேர்க்கோட்டுக் கோணத்தின் (Straight angle) அளவு என்ன?",
+        "options": [
+          "90°",
+          "180°",
+          "270°",
+          "360°"
+        ],
+        "answer": 1,
+        "explanation": "ஒரு நேர்க்கோட்டில் அமையும் கோணம் 180° ஆகும். இது இரு செங்கோணங்களுக்குச் சமமாகும்."
+      },
+      {
+        "question": "அரைவட்டத்தின் சுற்றளவு காணும் சூத்திரம் என்ன?",
+        "options": [
+          "πr",
+          "πr + 2r",
+          "2πr",
+          "πr^2 / 2"
+        ],
+        "answer": 1,
+        "explanation": "அரைவட்டத்தின் சுற்றளவு என்பது வட்டவில்லின் நீளம் (πr) மற்றும் விட்டம் (2r) ஆகியவற்றின் கூடுதலாகும். அதாவது (π+2)r."
+      },
+      {
+        "question": "எந்த எண்ணின் வர்க்கமும் (Square) அதே எண்ணாக இருக்கும்?",
+        "options": [
+          "0 மற்றும் 1",
+          "1 மற்றும் 2",
+          "2 மற்றும் 3",
+          "-1 மற்றும் 1"
+        ],
+        "answer": 0,
+        "explanation": "0 x 0 = 0 மற்றும் 1 x 1 = 1. எனவே 0 மற்றும் 1 ஆகிய எண்களின் வர்க்கம் அதே எண்ணாகவே அமையும்."
+      },
+      {
+        "question": "3/4 என்பதைச் சதவீதமாக (Percentage) மாற்றுக.",
+        "options": [
+          "25%",
+          "50%",
+          "75%",
+          "100%"
+        ],
+        "answer": 2,
+        "explanation": "பின்னத்தைச் சதவீதமாக மாற்ற 100-ஆல் பெருக்க வேண்டும். (3/4) x 100 = 3 x 25 = 75%."
+      },
+      {
+        "question": "இணைகரத்தின் (Parallelogram) பரப்பளவு காணும் சூத்திரம் என்ன?",
+        "options": [
+          "1/2 x b x h",
+          "b x h",
+          "l x b",
+          "a^2"
+        ],
+        "answer": 1,
+        "explanation": "அடிப்பக்கம் 'b' மற்றும் குத்துயரம் 'h' கொண்ட இணைகரத்தின் பரப்பளவு b x h சதுர அலகுகள் ஆகும்."
+      },
+      {
+        "question": "பித்தாகரஸ் தேற்றம் எந்த வகையான முக்கோணத்தில் மட்டும் பயன்படும்?",
+        "options": [
+          "சமபக்க முக்கோணம்",
+          "இருசமபக்க முக்கோணம்",
+          "செங்கோண முக்கோணம்",
+          "அசமபக்க முக்கோணம்"
+        ],
+        "answer": 2,
+        "explanation": "கர்ணத்தின் வர்க்கம் மற்ற இரு பக்கங்களின் வர்க்கங்களின் கூடுதலுக்குச் சமம் என்ற பித்தாகரஸ் தேற்றம் செங்கோண முக்கோணத்தில் மட்டுமே பொருந்தும்."
+      },
+      {
+        "question": "முதல் 10 இயல் எண்களின் (Natural numbers) சராசரி என்ன?",
+        "options": [
+          "5",
+          "5.5",
+          "6",
+          "10"
+        ],
+        "answer": 1,
+        "explanation": "முதல் n இயல் எண்களின் கூடுதல் = n(n+1)/2. 10 இயல் எண்களின் கூடுதல் 55. சராசரி = 55/10 = 5.5."
+      },
+      {
+        "question": "ஒளிச்சேர்க்கையின் போது (Photosynthesis) தாவரங்கள் எந்த வாயுவை உள்ளிழுக்கின்றன?",
+        "options": [
+          "ஆக்ஸிஜன்",
+          "நைட்ரஜன்",
+          "கார்பன் டை ஆக்சைடு",
+          "ஹைட்ரஜன்"
+        ],
+        "answer": 2,
+        "explanation": "தாவரங்கள் வளிமண்டலத்தில் உள்ள கார்பன் டை ஆக்சைடை (CO2) உள்ளிழுத்து, ஒளிச்சேர்க்கை மூலம் உணவைத் தயாரித்து ஆக்ஸிஜனை வெளியிடுகின்றன."
+      },
+      {
+        "question": "எஸ்.ஐ (SI) அலகு முறையில் நீளத்தின் அலகு என்ன?",
+        "options": [
+          "கிலோமீட்டர்",
+          "சென்டிமீட்டர்",
+          "மீட்டர்",
+          "மில்லிமீட்டர்"
+        ],
+        "answer": 2,
+        "explanation": "பன்னாட்டு அலகு முறையில் (SI Unit) நீளத்தின் அடிப்படை அலகு மீட்டர் (m) ஆகும்."
+      },
+      {
+        "question": "வயது வந்த மனித உடலில் உள்ள மொத்த எலும்புகளின் எண்ணிக்கை எவ்வளவு?",
+        "options": [
+          "206",
+          "300",
+          "208",
+          "212"
+        ],
+        "answer": 0,
+        "explanation": "குழந்தையாகப் பிறக்கும்போது சுமார் 300 எலும்புகள் இருந்தாலும், வளர வளர சில இணைந்து முதிர்ச்சியடைந்த மனித உடலில் 206 எலும்புகள் மட்டுமே இருக்கும்."
+      },
+      {
+        "question": "அமிலங்கள் (Acids) நீல லிட்மஸ் தாளை எந்த நிறமாக மாற்றுகின்றன?",
+        "options": [
+          "பச்சை",
+          "சிவப்பு",
+          "மஞ்சள்",
+          "நிறமாற்றம் இல்லை"
+        ],
+        "answer": 1,
+        "explanation": "அமிலங்கள் நீல லிட்மஸ் தாளைச் சிவப்பாக மாற்றும் பண்புடையவை. காரங்கள் சிவப்பு லிட்மஸை நீலமாக மாற்றும்."
+      },
+      {
+        "question": "வெற்றிடத்தில் ஒளியின் (Light) திசைவேகம் எவ்வளவு?",
+        "options": [
+          "3 x 10^5 மீ/வி",
+          "3 x 10^8 மீ/வி",
+          "330 மீ/வி",
+          "1.5 x 10^8 மீ/வி"
+        ],
+        "answer": 1,
+        "explanation": "வெற்றிடத்தில் ஒளியின் வேகம் வினாடிக்கு சுமார் 3 லட்சம் கிலோமீட்டர்கள், அதாவது 3 x 10^8 மீட்டர்/வினாடி ஆகும்."
+      },
+      {
+        "question": "செல்களின் 'ஆற்றல் மையம்' (Powerhouse of the cell) என்று அழைக்கப்படுவது எது?",
+        "options": [
+          "உட்கரு",
+          "ரைபோசோம்",
+          "மைட்டோகாண்ட்ரியா",
+          "கோல்கை உறுப்புகள்"
+        ],
+        "answer": 2,
+        "explanation": "மைட்டோகாண்ட்ரியாக்களில் தான் செல் சுவாசம் நடைபெற்று ஆற்றல் (ATP) வெளிப்படுவதால் அவை செல்லின் ஆற்றல் மையம் எனப்படுகின்றன."
+      },
+      {
+        "question": "மனிதனின் செவியுணர் ஒலியின் அதிர்வெண் (Audible frequency) வரம்பு என்ன?",
+        "options": [
+          "10 Hz முதல் 10,000 Hz வரை",
+          "20 Hz முதல் 20,000 Hz வரை",
+          "30 Hz முதல் 30,000 Hz வரை",
+          "20,000 Hz க்கு மேல்"
+        ],
+        "answer": 1,
+        "explanation": "மனிதக் காதுகளால் 20 ஹெர்ட்ஸ் முதல் 20,000 ஹெர்ட்ஸ் வரையிலான அதிர்வெண் கொண்ட ஒலிகளை மட்டுமே கேட்க முடியும்."
+      },
+      {
+        "question": "மின்தடையின் (Electrical Resistance) அலகு என்ன?",
+        "options": [
+          "ஆம்பியர்",
+          "வோல்ட்",
+          "ஓம் (Ohm)",
+          "வாட்"
+        ],
+        "answer": 2,
+        "explanation": "ஒரு மின்சுற்றில் மின்னோட்டம் பாய்வதை எதிர்க்கும் பண்பு மின்தடை எனப்படும். இதன் அலகு ஓம் (Ω) ஆகும்."
+      },
+      {
+        "question": "இயற்கையில் கிடைக்கும் கடினமான பொருள் எது?",
+        "options": [
+          "இரும்பு",
+          "தங்கம்",
+          "வைரம்",
+          "பிளாட்டினம்"
+        ],
+        "answer": 2,
+        "explanation": "வைரம் (Diamond) என்பது கார்பனின் புறவேற்றுமை வடிவமாகும். இயற்கையில் கிடைக்கும் பொருட்களிலேயே இதுதான் மிகவும் கடினமானதாகும்."
+      },
+      {
+        "question": "எந்த வைட்டமின் குறைபாட்டால் மாலைக்கண் நோய் (Night blindness) ஏற்படுகிறது?",
+        "options": [
+          "வைட்டமின் A",
+          "வைட்டமின் B",
+          "வைட்டமின் C",
+          "வைட்டமின் D"
+        ],
+        "answer": 0,
+        "explanation": "கண்களின் ஆரோக்கியத்திற்கு வைட்டமின் ஏ மிகவும் அவசியமாகும். இதன் குறைபாட்டால் மாலைக்கண் நோய் ஏற்படுகிறது."
+      },
+      {
+        "question": "நீரின் கொதிநிலை (Boiling point) என்ன?",
+        "options": [
+          "0° C",
+          "50° C",
+          "100° C",
+          "212° C"
+        ],
+        "answer": 2,
+        "explanation": "சாதாரண வளிமண்டல அழுத்தத்தில் தூய நீர் 100° செல்சியஸ் (Celsius) வெப்பநிலையில் கொதிக்கத் தொடங்கி நீராவியாக மாறுகிறது."
+      },
+      {
+        "question": "பட்டுப்புழு வளர்ப்பு அறிவியல் முறையில் எவ்வாறு அழைக்கப்படுகிறது?",
+        "options": [
+          "எபிகல்ச்சர் (Apiculture)",
+          "செரிகல்ச்சர் (Sericulture)",
+          "பிசிகல்ச்சர் (Pisciculture)",
+          "ஹார்ட்டிகல்ச்சர் (Horticulture)"
+        ],
+        "answer": 1,
+        "explanation": "பட்டு இழைகளைப் பெறுவதற்காகப் பட்டுப்புழுக்களை வளர்க்கும் முறைக்குச் செரிகல்ச்சர் என்று பெயர்."
+      },
+      {
+        "question": "மின்னோட்டத்தை (Electric current) அளக்கப் பயன்படும் கருவி எது?",
+        "options": [
+          "வோல்ட்மீட்டர்",
+          "அம்மீட்டர்",
+          "கால்வனாமீட்டர்",
+          "பாரோமீட்டர்"
+        ],
+        "answer": 1,
+        "explanation": "ஒரு மின்சுற்றில் பாயும் மின்னோட்டத்தின் அளவை ஆம்பியர் அலகில் அளக்க அம்மீட்டர் (Ammeter) என்ற கருவி பயன்படுகிறது."
+      },
+      {
+        "question": "நிலக்கரியை எரிக்கும்போது முக்கியமாக வெளிவரும் வாயு எது?",
+        "options": [
+          "நைட்ரஜன்",
+          "ஆக்ஸிஜன்",
+          "கார்பன் டை ஆக்சைடு",
+          "ஹைட்ரஜன்"
+        ],
+        "answer": 2,
+        "explanation": "நிலக்கரியில் அதிகளவு கார்பன் உள்ளதால், அதனை ஆக்சிஜனுடன் எரிக்கும்போது கார்பன் டை ஆக்சைடு (CO2) அதிகளவில் உருவாகிறது."
+      },
+      {
+        "question": "புவி ஈர்ப்பு முடுக்கத்தின் (g) சராசரி மதிப்பு என்ன?",
+        "options": [
+          "9.8 m/s^2",
+          "10.5 m/s^2",
+          "8.9 m/s^2",
+          "98 m/s^2"
+        ],
+        "answer": 0,
+        "explanation": "பூமியின் மேற்பரப்பில் புவியீர்ப்பு முடுக்கத்தின் தோராயமான சராசரி மதிப்பு 9.8 மீட்டர்/வினாடி^2 (m/s^2) ஆகும்."
+      },
+      {
+        "question": "இரும்பு துருப்பிடித்தல் (Rusting of iron) என்பது எவ்வகை மாற்றம்?",
+        "options": [
+          "இயற்பியல் மாற்றம்",
+          "வேதியியல் மாற்றம்",
+          "மீள் மாற்றம்",
+          "விரைவான மாற்றம்"
+        ],
+        "answer": 1,
+        "explanation": "இரும்பு ஆக்சிஜன் மற்றும் ஈரப்பதத்துடன் வினைபுரிந்து இரும்பு ஆக்சைடாக (துரு) மாறுவது ஒரு மீளா மற்றும் வேதியியல் மாற்றமாகும்."
+      },
+      {
+        "question": "ரத்த சிவப்பணுக்களின் (RBC) ஆயுட்காலம் எவ்வளவு?",
+        "options": [
+          "20 நாட்கள்",
+          "60 நாட்கள்",
+          "120 நாட்கள்",
+          "180 நாட்கள்"
+        ],
+        "answer": 2,
+        "explanation": "மனித உடலில் உள்ள ரத்த சிவப்பணுக்களின் சராசரி ஆயுட்காலம் 100 முதல் 120 நாட்கள் ஆகும். பின்னர் அவை மண்ணீரலில் அழிக்கப்படுகின்றன."
+      },
+      {
+        "question": "தாவர செல்லில் மட்டுமே காணப்பட்டு, விலங்கு செல்லில் காணப்படாத உறுப்பு எது?",
+        "options": [
+          "உட்கரு",
+          "செல் சவ்வு",
+          "மைட்டோகாண்ட்ரியா",
+          "செல் சுவர்"
+        ],
+        "answer": 3,
+        "explanation": "தாவர செல்களுக்குக் குறிப்பிட்ட வடிவத்தையும் உறுதியையும் தரும் 'செல் சுவர்' (Cell wall) விலங்கு செல்களில் இருப்பதில்லை."
+      },
+      {
+        "question": "ஆசிட் (Acid - அமிலம்) என்ற சொல் எம்மொழியிலிருந்து பெறப்பட்டது?",
+        "options": [
+          "கிரேக்கம்",
+          "லத்தீன்",
+          "பிரெஞ்சு",
+          "அரபு"
+        ],
+        "answer": 1,
+        "explanation": "ஆசிட் என்ற சொல் 'அசிடஸ்' (Acidus) என்ற லத்தீன் மொழிச் சொல்லிலிருந்து பெறப்பட்டது. இதற்குப் புளிப்புச் சுவை என்று பொருள்."
+      },
+      {
+        "question": "தூய நீரின் pH மதிப்பு என்ன?",
+        "options": [
+          "0",
+          "7",
+          "14",
+          "5"
+        ],
+        "answer": 1,
+        "explanation": "தூய நீர் நடுநிலைத்தன்மை கொண்டது. எனவே pH அளவுகோலில் அதன் மதிப்பு சரியாக 7 ஆகும்."
+      },
+      {
+        "question": "மூளையைப் பாதுகாக்கும் எலும்புப் பெட்டியின் பெயர் என்ன?",
+        "options": [
+          "விலா எலும்பு",
+          "முதுகெலும்பு",
+          "மண்டை ஓடு (Cranium)",
+          "இடுப்பெலும்பு"
+        ],
+        "answer": 2,
+        "explanation": "மிகவும் மென்மையான உறுப்பான மூளையைப் பாதுகாக்கும் வலுவான எலும்பு அமைப்பு மண்டை ஓடு (Cranium) என அழைக்கப்படுகிறது."
+      },
+      {
+        "question": "வெப்பநிலையை (Temperature) அளக்கும் எஸ்.ஐ (SI) அலகு எது?",
+        "options": [
+          "செல்சியஸ்",
+          "ஃபாரன்ஹீட்",
+          "கெல்வின்",
+          "ஜூல்"
+        ],
+        "answer": 2,
+        "explanation": "அன்றாட வாழ்வில் செல்சியஸ் பயன்படுத்தப்பட்டாலும், அறிவியல்படி வெப்பநிலையின் பன்னாட்டு (SI) அலகு கெல்வின் (K) ஆகும்."
+      },
+      {
+        "question": "பச்சையத்தில் (Chlorophyll) காணப்படும் மைய உலோகம் எது?",
+        "options": [
+          "இரும்பு",
+          "தாமிரம்",
+          "மெக்னீசியம்",
+          "கால்சியம்"
+        ],
+        "answer": 2,
+        "explanation": "தாவரங்களின் ஒளிச்சேர்க்கைக்கு உதவும் பச்சையத்தில் (Chlorophyll) மெக்னீசியம் (Mg) என்ற உலோகம் அமைந்துள்ளது."
+      },
+      {
+        "question": "அணுவின் உட்கருவைக் (Nucleus) கண்டுபிடித்தவர் யார்?",
+        "options": [
+          "ஜே.ஜே. தாம்சன்",
+          "எர்னஸ்ட் ரூதர்போர்டு",
+          "ஜேம்ஸ் சாட்விக்",
+          "ஜான் டால்டன்"
+        ],
+        "answer": 1,
+        "explanation": "எர்னஸ்ட் ரூதர்போர்டு தனது தங்கத் தகடு சோதனையின் மூலம் அணுவின் மையத்தில் நேர்மின் சுமையுடைய உட்கரு இருப்பதைக் கண்டுபிடித்தார்."
+      },
+      {
+        "question": "பாக்டீரியாவை (Bacteria) முதன்முதலில் கண்டுபிடித்தவர் யார்?",
+        "options": [
+          "லூயி பாஸ்டியர்",
+          "அலெக்சாண்டர் பிளெமிங்",
+          "ஆன்டன் வான் லியூவன்ஹூக்",
+          "ராபர்ட் கோச்"
+        ],
+        "answer": 2,
+        "explanation": "நுண்ணுயிரியலின் தந்தை என அழைக்கப்படும் ஆன்டன் வான் லியூவன்ஹூக் தாமே வடிவமைத்த நுண்ணோக்கி மூலம் பாக்டீரியாவைக் கண்டறிந்தார்."
+      },
+      {
+        "question": "தடையின்றித் தொங்கவிடப்பட்ட காந்தம் எப்போதும் எந்தத் திசையை நோக்கிக் காட்டும்?",
+        "options": [
+          "கிழக்கு-மேற்கு",
+          "வடக்கு-தெற்கு",
+          "வடகிழக்கு-தென்மேற்கு",
+          "எந்த திசையிலும் நிற்கும்"
+        ],
+        "answer": 1,
+        "explanation": "காந்தத்தின் ஒரு முக்கியப் பண்பு திசைகாட்டும் பண்பாகும். அது புவியின் காந்தப்புலத்தால் ஈர்க்கப்பட்டு எப்போதும் வடக்கு-தெற்கு திசையிலேயே நிற்கும்."
+      },
+      {
+        "question": "பால் மற்றும் தயிரில் உள்ள அமிலம் எது?",
+        "options": [
+          "சிட்ரிக் அமிலம்",
+          "அசிட்டிக் அமிலம்",
+          "லாக்டிக் அமிலம்",
+          "டார்டாரிக் அமிலம்"
+        ],
+        "answer": 2,
+        "explanation": "பாலில் லாக்டோஸ் என்ற சர்க்கரை உள்ளது, இது லாக்டோபாகிலஸ் பாக்டீரியாவால் லாக்டிக் அமிலமாக மாற்றப்படுவதாலேயே தயிர் புளிக்கிறது."
+      },
+      {
+        "question": "மனிதனின் சாதாரண உடல் வெப்பநிலை எவ்வளவு?",
+        "options": [
+          "37° C",
+          "98.6° C",
+          "100° C",
+          "35° C"
+        ],
+        "answer": 0,
+        "explanation": "நலமான மனிதனின் சராசரி உடல் வெப்பநிலை செல்சியஸ் அளவுகோலில் 37° C (ஃபாரன்ஹீட் அளவுகோலில் 98.6° F) ஆகும்."
+      },
+      {
+        "question": "மீள் ஒளித்துகள்கள் (Photons) என்பவை எதனுடன் தொடர்புடையவை?",
+        "options": [
+          "ஒலி",
+          "மின்னோட்டம்",
+          "காந்தப்புலம்",
+          "ஒளி"
+        ],
+        "answer": 3,
+        "explanation": "ஒளி என்பது போட்டான்கள் (Photons) எனப்படும் ஆற்றல் மிக்க துகள்களின் தொகுப்பாகும் என ஆல்பர்ட் ஐன்ஸ்டீன் விளக்கினார்."
+      },
+      {
+        "question": "முதன்முதலில் கண்டுபிடிக்கப்பட்ட நுண்ணுயிர் எதிர்ப்பொருள் (Antibiotic) எது?",
+        "options": [
+          "ஸ்ட்ரெப்டோமைசின்",
+          "பெனிசிலின்",
+          "டெட்ராசைக்ளின்",
+          "எரித்ரோமைசின்"
+        ],
+        "answer": 1,
+        "explanation": "1928 ஆம் ஆண்டு அலெக்சாண்டர் பிளெமிங் என்பவரால் 'பெனிசிலியம் நொட்டேட்டம்' என்ற பூஞ்சையிலிருந்து முதல் ஆன்டிபயாடிக்கான பெனிசிலின் கண்டறியப்பட்டது."
+      }
+    ]
+  }
+}

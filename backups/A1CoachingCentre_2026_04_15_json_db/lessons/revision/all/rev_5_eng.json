@@ -1,0 +1,199 @@
+{
+  "code": "rev_5_eng",
+  "quiz": {
+    "questions": [
+      {
+        "question": "In the story 'Trip to Ooty', who is the teacher accompanying the students?",
+        "options": ["Geetha Miss", "Malar Miss", "Anitha Miss", "Kavitha Miss"],
+        "answer": 0,
+        "explanation": "Geetha Miss was the class teacher who took the students on the trip."
+      },
+      {
+        "question": "What is the unique name of the train that runs to Ooty?",
+        "options": ["Duronto Express", "Toy Train / Nilgiri Mountain Railway", "Rajdhani Express", "Vande Bharat"],
+        "answer": 1,
+        "explanation": "The Toy Train is a UNESCO World Heritage site and a major attraction."
+      },
+      {
+        "question": "Merlin write a letter to whom about her Ooty trip?",
+        "options": ["Her Mother", "Her Friend Malli", "Her Grandmother", "Her Cousin"],
+        "answer": 1,
+        "explanation": "The story is written in the form of a letter to her friend Malli."
+      },
+      {
+        "question": "What animal did the children see blocking the railway track?",
+        "options": ["Lion", "Elephant", "Tiger", "Bear"],
+        "answer": 1,
+        "explanation": "A baby elephant and its mother were on the tracks."
+      },
+      {
+        "question": "Identify the adjective in the sentence: 'Ooty is a beautiful hill station.'",
+        "options": ["Ooty", "Beautiful", "Hill", "Station"],
+        "answer": 1,
+        "explanation": "Adjectives describe the noun (Hill station)."
+      },
+      {
+        "question": "Choose the correct preposition: 'The cat is sitting ________ the table.'",
+        "options": ["under", "between", "among", "into"],
+        "answer": 0,
+        "explanation": "'Under' specifies the position."
+      },
+      {
+        "question": "In the story 'Think to Win', who is the main character?",
+        "options": ["Mani", "Rucha", "Seema", "Arul"],
+        "answer": 1,
+        "explanation": "Rucha was a shy girl who eventually won the relay race."
+      },
+      {
+        "question": "Rucha's coach told her to ________ to win the race.",
+        "options": ["Run fast", "Don't look back", "Think to win", "Drink water"],
+        "answer": 2,
+        "explanation": "The power of positive thinking helped her overcome her fear."
+      },
+      {
+        "question": "What was the final outcome of the relay race?",
+        "options": ["Rucha's team lost", "Rucha's team won", "The race was cancelled", "It was a tie"],
+        "answer": 1,
+        "explanation": "Rucha ran the final leg with confidence and won."
+      },
+      {
+        "question": "Identify the adverb: 'The tortoise walked slowly.'",
+        "options": ["Tortoise", "Walked", "Slowly", "The"],
+        "answer": 2,
+        "explanation": "Adverbs describe how an action (walking) is performed."
+      },
+      {
+        "question": "What is the meaning of the word 'Stationery'?",
+        "options": ["Not moving", "Writing materials", "A place for trains", "A map"],
+        "answer": 1,
+        "explanation": "Items like pens, pencils, and paper are called stationery."
+      },
+      {
+        "question": "What is the meaning of the word 'Stationary'?",
+        "options": ["Books", "Fixed in one place / Not moving", "Travel", "Hill"],
+        "answer": 1,
+        "explanation": "Note the spelling difference: -ery (items), -ary (fixed)."
+      },
+      {
+        "question": "The train to Ooty starts from ________.",
+        "options": ["Coimbatore", "Mettupalayam", "Chennai", "Salem"],
+        "answer": 1,
+        "explanation": "The rack and pinion track starts from Mettupalayam."
+      },
+      {
+        "question": "Which of these is a compound word?",
+        "options": ["Railway", "Beautiful", "Suddenly", "Happily"],
+        "answer": 0,
+        "explanation": "Rail + Way = Railway."
+      },
+      {
+        "question": "Complete the sentence with an adjective: 'This is a ________ building.'",
+        "options": ["tall", "run", "slowly", "up"],
+        "answer": 0,
+        "explanation": "'Tall' describes the building."
+      },
+      {
+         "question": "Rucha was afraid of ________.",
+         "options": ["Running", "Failing", "Cycling", "Losing"],
+         "answer": 2,
+         "explanation": "She had a fall while cycling and lost her confidence."
+      },
+      {
+         "question": "Who encouraged Rucha to take part in the relay race?",
+         "options": ["Her mother", "Her coach and friends", "Her sister", "No one"],
+         "answer": 1,
+         "explanation": "They motivated her to try her best."
+      },
+      {
+         "question": "The phrase 'Don't be a quitter' means ________.",
+         "options": ["Leave early", "Don't give up", "Keep quiet", "Run away"],
+         "answer": 1,
+         "explanation": "It encourages perseverance."
+      },
+      {
+         "question": "What is the antonym of 'Brave'?",
+         "options": ["Courageous", "Fearful / Cowardly", "Strong", "Fast"],
+         "answer": 1,
+         "explanation": "'Fearful' is the opposite of brave."
+      },
+      {
+         "question": "What is the plural of 'Foot'?",
+         "options": ["Foots", "Feet", "Feets", "Footes"],
+         "answer": 1,
+         "explanation": "It is an irregular plural."
+      },
+      {
+         "question": "Which word describes the sound of a train?",
+         "options": ["Hiss", "Chug", "Roar", "Moo"],
+         "answer": 1,
+         "explanation": "Steam engines often make a chugging sound."
+      },
+      {
+         "question": "Merlin was excited because it was her first ________.",
+         "options": ["Birthday", "School trip", "Exam", "Dance class"],
+         "answer": 1,
+         "explanation": "The long-awaited trip to the hills."
+      },
+      {
+         "question": "What is the opposite of 'Entrance'?",
+         "options": ["Enter", "Exit", "Way", "Gate"],
+         "answer": 1,
+         "explanation": "Exit is the way out."
+      },
+      {
+         "question": "Choose the correct comparative adjective: 'My house is ________ than yours.'",
+         "options": ["big", "bigger", "biggest", "more big"],
+         "answer": 1,
+         "explanation": "When comparing two things, we use -er form."
+      },
+      {
+         "question": "Identify the preposition: 'The plane flew over the mountains.'",
+         "options": ["Plane", "Flew", "Over", "Mountains"],
+         "answer": 2,
+         "explanation": "'Over' shows the relationship between the plane and mountains."
+      },
+      {
+         "question": "What was 'Balu' in the Ooty trip story?",
+         "options": ["The driver", "An elephant", "A student", "A monkey"],
+         "answer": 3,
+         "explanation": "A monkey tried to snatch snacks from the students."
+      },
+      {
+         "question": "What did the students do when the elephant blocked the way?",
+         "options": ["They shouted", "They fed the elephant", "They waited patiently", "They ran away"],
+         "answer": 2,
+         "explanation": "The driver and the forest guards handled the situation safely."
+      },
+      {
+         "question": "The word 'Enthusiasm' means ________.",
+         "options": ["Boredom", "Great excitement", "Sadness", "Angry"],
+         "answer": 1,
+         "explanation": "It means having a lot of interest and energy."
+      },
+      {
+         "question": "Identify the silent letter in 'Knowledge':",
+         "options": ["K", "n", "w", "l"],
+         "answer": 0,
+         "explanation": "The 'K' is silent."
+      },
+      {
+         "question": "How did Rucha feel after winning the race?",
+         "options": ["Angry", "Tired", "Confident and Happy", "Sad"],
+         "answer": 2,
+         "explanation": "She proved to herself that she could win."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "title": "Revision Notes: Exam 5 - English",
+      "content": [
+        "**1. Trip to Ooty:** A story about a school trip on the Nilgiri Mountain Railway (Toy Train). It highlights the natural beauty and the fun of travelling with friends.",
+        "**2. Think to Win:** An inspiring story about Rucha, who overcomes her fear and lack of confidence to win a relay race through positive thinking.",
+        "**3. Grammar - Adjectives & Adverbs:** Adjectives describe nouns (Beautiful Ooty), and Adverbs describe actions (Running fast).",
+        "**4. Prepositions:** Words like 'on', 'under', 'into', 'over' show position and direction.",
+        "**5. Vocabulary:** Homophones like Stationary/Stationery, Antonyms (Success/Failure), and Compound words (Railway, Homework)."
+      ]
+    }
+  ]
+}

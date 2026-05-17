@@ -1,0 +1,163 @@
+{
+  "unit": "Lesson 2",
+  "subject": "English",
+  "class": "6",
+  "term": 1,
+  "title": "Poem: The Crocodile",
+  "summary": "This cheerful but cautionary poem by Lewis Carroll describes a crocodile that improves its appearance to entice little fishes into its gently smiling jaws.",
+  "sections": [
+    {
+      "title": "Comprehensive Study Material (முழுமையான பாடக் குறிப்புகள்)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "In which river does the little crocodile live? / அந்தச் சிறிய முதலை எந்த நதியில் வாழ்கிறது?",
+            "answer": "The little crocodile lives in the River [[Nile]]."
+          },
+          {
+            "question": "What does the crocodile improve in the poem? / முதலை தன் உடலில் எந்தப் பகுதியை மேம்படுத்துகிறது?",
+            "answer": "The crocodile improves his [[shining tail]]."
+          },
+          {
+            "question": "What does he pour on every scale? / முதலை தன் செதில்களில் எதை ஊற்றுகிறது?",
+            "answer": "He pours the [[waters of the Nile]] on every scale."
+          },
+          {
+            "question": "How do the scales look in the sunlight? / சூரிய வெளிச்சத்தில் செதில்கள் எப்படிக் காட்சி அளிகின்றன?",
+            "answer": "The scales look like [[gold]] (Golden scales)."
+          },
+          {
+            "question": "How does the crocodile seem to grin? / முதலை எப்படிச் சிரிப்பதாகத் தோன்றுகிறது?",
+            "answer": "The crocodile seems to grin [[cheerfully]]."
+          },
+          {
+            "question": "How does he spread his claws? / முதலை தன் நகங்களை எப்படி விரித்துள்ளது?",
+            "answer": "He spreads his claws [[neatly]]."
+          },
+          {
+            "question": "Whom does he welcome into his jaws? / முதலை எதை வரவேற்கிறது?",
+            "answer": "He welcomes [[little fishes]] into his mouth."
+          },
+          {
+            "question": "How are the jaws described when welcoming fish? / மீன்களை வரவேற்கும்போது அதன் வாய் எப்படி இருக்கிறது?",
+            "answer": "They are described as [[gently smiling jaws]]."
+          },
+          {
+            "question": "Who is the author of this poem? / இந்தக் கவிதையின் ஆசிரியர் யார்?",
+            "answer": "The author is [[Lewis Carroll]]."
+          },
+          {
+            "question": "From which book is this poem taken? / இந்தக் கவிதை எந்தப் புத்தகத்திலிருந்து எடுக்கப்பட்டது?",
+            "answer": "It is taken from [[Alice’s in Wonderland]]."
+          },
+          {
+            "question": "What is the meaning of 'Doth'? / 'Doth' என்பது என்ன?",
+            "answer": "Doth is an old English word for [[does]]."
+          },
+          {
+            "question": "What is the meaning of 'Improve'? / 'Improve' என்ற சொல்லுக்கு என்ன பொருள்?",
+            "answer": "Improve means to [[make better]]."
+          },
+          {
+            "question": "What are 'Scales'? / 'Scales' (செதில்கள்) என்பது என்ன?",
+            "answer": "They are [[thin plates]] protecting the skin of reptiles."
+          },
+          {
+            "question": "What are 'Claws'? / 'Claws' (நகங்கள்) என்பது என்ன?",
+            "answer": "They are [[sharp nails]] found on the feet of animals."
+          },
+          {
+            "question": "What does the word 'Grin' mean? / 'Grin' என்ற சொல்லுக்கு என்ன பொருள்?",
+            "answer": "Grin means to [[smile widely]]."
+          },
+          {
+            "question": "What is 'Nile'? / 'Nile' என்பது என்ன?",
+            "answer": "Nile is the [[longest river]] in Africa."
+          },
+          {
+            "question": "How does the crocodile feel while grinning? / சிரிக்கும்போது முதலை எப்படி உணர்கிறது?",
+            "answer": "The crocodile seems to feel [[cheerful]]."
+          },
+          {
+            "question": "Is the crocodile's smile real or a trick? / முதலையின் சிரிப்பு உண்மையானதா அல்லது தந்திரமா?",
+            "answer": "The smile is a [[trick]] to catch prey."
+          },
+          {
+            "question": "What is the group name for Nile and Amazon? / நைல் மற்றும் அமேசான் போன்றவற்றுக்கான பொதுவான பெயர்?",
+            "answer": "The group name is [[Rivers]]."
+          },
+          {
+            "question": "What is the group name for Crocodile and Snake? / முதலை மற்றும் பாம்பு போன்றவற்றுக்கான பொதுவான பெயர்?",
+            "answer": "The group name is [[Reptiles]]."
+          },
+          {
+            "question": "What is the group name for Gold and Silver? / தங்கம் மற்றும் வெள்ளி போன்றவற்றுக்கான பொதுவான பெயர்?",
+            "answer": "The group name is [[Metals]]."
+          },
+          {
+            "question": "What is the rhyme word for 'Nile'? / 'Nile' என்ற சொல்லுடன் எது எதுகையாய் அமைகிறது?",
+            "answer": "The rhyme word is [[Crocodile]]."
+          },
+          {
+            "question": "What is the rhyme word for 'Tail'? / 'Tail' என்ற சொல்லுடன் எது எதுகையாய் அமைகிறது?",
+            "answer": "The rhyme word is [[Scale]]."
+          },
+          {
+            "question": "What is the rhyme word for 'Claws'? / 'Claws' என்ற சொல்லுடன் எது எதுகையாய் அமைகிறது?",
+            "answer": "The rhyme word is [[Jaws]]."
+          },
+          {
+            "question": "Does the crocodile use claws to catch fish? / முதலை மீன்களைப் பிடிக்க நகங்களைப் பயன்படுத்துகிறதா?",
+            "answer": "No, it uses its [[jaws]] to catch them."
+          },
+          {
+            "question": "What is the moral of the poem? / இந்தக் கவிதையின் கருத்து என்ன?",
+            "answer": "The moral is that [[appearances can be deceptive]]."
+          },
+          {
+            "question": "What is the name for animals that hunt others? / பிற விலங்குகளை வேட்டையாடும் விலங்குகளின் பெயர்?",
+            "answer": "They are called [[Predators]]."
+          },
+          {
+            "question": "Is the crocodile in the poem large or little? / கவிதையில் உள்ள முதலை பெரியதா அல்லது சிறியதா?",
+            "answer": "The poet calls it the [[little crocodile]]."
+          },
+          {
+            "question": "What does the crocodile do to his claws? / முதலை தன் நகங்களை என்ன செய்கிறது?",
+            "answer": "He [[spreads]] them neatly."
+          },
+          {
+            "question": "Where does the crocodile pour the water? / முதலை தண்ணீரை எங்கே ஊற்றுகிறது?",
+            "answer": "He pours it on every [[golden scale]]."
+          }
+        ]
+      }
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "question": "In which river does the little crocodile live?",
+        "options": [
+          "Ganges",
+          "Nile",
+          "Amazon",
+          "Cauvery"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "What part of his body does the crocodile improve?",
+        "options": [
+          "Head",
+          "Eyes",
+          "Shining tail",
+          "Legs"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "credits": "A1 ONLINE COACHING CENTER"
+}

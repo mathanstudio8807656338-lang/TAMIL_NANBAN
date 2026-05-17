@@ -1,0 +1,608 @@
+{
+  "lesson_meta": {
+    "title": "The Wind on Haunted Hill",
+    "unit": "l4",
+    "grade": "7",
+    "term": "t1",
+    "subject": "english",
+    "code": "eng_7_t1_l4"
+  },
+  "material": {
+    "sections": [
+      {
+        "title": "Lesson Summary",
+        "content": "The story revolves around a young girl named Usha who goes to the bazaar, located three miles away from her village across the Haunted Hill. During her return journey, a terrible storm breaks out, and she is forced to take shelter in the haunted ruins on the hill. In the dark and scary ruins, amidst thunder and lightning, she encounters two ghostly figures. Terrified, she runs out, only to bump into her brother Suresh and friend Binya, who had come looking for her. They realize the 'ghosts' were each other. After spending the night huddled together in the ruins, they return home safely the next morning, leaving behind a lingering mystery of voices in the wind."
+      },
+      {
+        "title": "Warm Up - Riddles",
+        "content": "• I have a face but no eyes, hands but no arms. - Answer: Clock\n• I sit in a corner while travelling around the world. - Answer: Stamp\n• I go up when rain comes down. - Answer: Umbrella\n• I have a head and a tail but no body. - Answer: Coin"
+      },
+      {
+        "title": "Main Characters",
+        "content": "• Usha: An eleven or twelve-year-old girl with dark hair and rose cheeks. She is brave and takes care of the shopping.\n• Suresh: Usha's younger brother, aged eight, chubby, and almond-eyed.\n• Binya: Usha's friend and neighbor, slightly older than Usha.\n• Grandfather: The only adult male in the house, who narrates the ghost story about the Haunted Hill.\n• Aunt Lakshmi: Usha's aunt who lives in the bazaar town and suffers from shoulder ache and stiff joints."
+      },
+      {
+        "title": "The Ghost Story (Grandfather's Tale)",
+        "content": "Over a hundred years ago, English people lived on Haunted Hill. It was a bad spot, prone to lightning strikes. During a terrible storm, one of the houses was hit by lightning, killing everyone inside, including a brother and sister. Grandfather claims to have seen the ghosts of these two children playing in the moonlight when passing through the ruins late at night."
+      },
+      {
+        "title": "Usha's Shopping at the Bazaar",
+        "content": "▸ Usha walked an hour to reach the bazaar. She bought:\n• - Soap, matches, spices, and sugar for the house.\n• - A new pipe stem for her grandfather's hookah.\n• - An exercise book and marbles (bought as an afterthought) for Suresh.\n• - Mother's slippers were left at the mochi's (cobbler) shop for repair.\n• - She spent her own saved up 2 rupees to buy an amber-coloured bead necklace from an old Tibetan lady."
+      },
+      {
+        "title": "The Storm and The Ruins",
+        "content": "While returning, dark clouds gathered. It was March, the month of storms. Usha had no umbrella, so she tied a scarf over her head and pulled her shawl tight. She ran to the ruins for shelter. Inside, she touched a wild cat in the dark. She took shelter under a tin roof held down by an oak tree branch. In a flash of blue lightning, she saw two small figures in the disused fireplace. Panicking, she ran out and bumped into Suresh and Binya. They all waited for the storm to stop and went home at dawn."
+      },
+      {
+        "title": "Glossary (கலைச்சொற்கள்)",
+        "content": "• moaned - make a long, low sound\n• haunted - possessed\n• ruins - decayed, collapsed building or place\n• terrible - fearful\n• saddle - low point on a ridge between two summits\n• crumbling - breaking apart into small pieces\n• scuttled - ran with short quick steps\n• whistling-thrush - a small singing bird\n• straggling - spreading out in different directions\n• forbidding - unfriendly or frightening\n• foliage thrashing - hitting leaves and branches\n• flicker - shine\n• startled - frightened\n• remnant - what was left\n• crouching - bending down\n• groaned and clattered - banged together and made a loud noise\n• puddle - pool of water\n• blotted out - hid\n• streak - line\n• sizzled - hissed like something hot on a frying pan\n• stumbled - lost one's balance\n• giggle - laugh lightly\n• huddled - crowded together\n• excitedly - feeling great eagerness"
+      },
+      {
+        "title": "The Detective's Dictionary",
+        "content": "• Detective: Someone who investigates a crime.\n• Victim: Someone who suffers the effect of a crime.\n• Suspect: Someone who might have committed a crime.\n• Clue: An idea or fact that helps us solve a mystery.\n• Evidence: Information we have that proves us that something is true."
+      },
+      {
+        "title": "Grammar - Tenses",
+        "content": "• Present Perfect Tense: Tells us that an action is complete at this time. (e.g., I have completed my homework).\n• Past Perfect Tense: Tells us about an action that took place before another action in the past. (e.g., The train had left before he reached the station).\n• Future Perfect Tense: Helps describe an event that is expected or planned to happen before a time in the future. (e.g., We will have completed our project by next week)."
+      },
+      {
+        "title": "Book Back Questions - 1 Mark (MCQ & Fill in the blanks)",
+        "content": "• The wind hurried and passed through the pines and deodars.\n• The market was 3 miles away from the village.\n• Usha went to visit her aunt's house after shopping in the market.\n• Usha took shelter in the ruins.\n• At dawn, the thrush began to sing.\n• (These bits of information form the core of the evaluation sections)."
+      }
+    ]
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "Solve the riddle: I have a face but no eyes, hands but no arms. Who am I?",
+        "options": [
+          "A human",
+          "A clock",
+          "A tree",
+          "A river"
+        ],
+        "answer": 1,
+        "explanation": "A clock has a 'face' and 'hands' (minute/hour hands), matching the riddle perfectly."
+      },
+      {
+        "question": "Solve the riddle: I sit in a corner while travelling around the world. Who am I?",
+        "options": [
+          "A pilot",
+          "A compass",
+          "A stamp",
+          "A shadow"
+        ],
+        "answer": 2,
+        "explanation": "A postage stamp sits in the corner of an envelope but travels all over the world."
+      },
+      {
+        "question": "What is the age of Usha in the story?",
+        "options": [
+          "Eight years old",
+          "Eleven or twelve years old",
+          "Fourteen years old",
+          "Sixteen years old"
+        ],
+        "answer": 1,
+        "explanation": "The text states that Usha, dark-haired and rose-cheeked, was eleven or twelve."
+      },
+      {
+        "question": "How far was the bazaar from Usha's village?",
+        "options": [
+          "1 mile",
+          "3 miles",
+          "5 miles",
+          "7 miles"
+        ],
+        "answer": 1,
+        "explanation": "Suresh was always ready to visit the bazaar, which was three miles away."
+      },
+      {
+        "question": "Who told the children the story about the ghosts on Haunted Hill?",
+        "options": [
+          "Aunt Lakshmi",
+          "Their father",
+          "Grandfather",
+          "The Tibetan lady"
+        ],
+        "answer": 2,
+        "explanation": "Grandfather narrated the story of the English people who died in the ruins over a hundred years ago."
+      },
+      {
+        "question": "According to Grandfather's story, how were the English people in the ruins killed?",
+        "options": [
+          "In a landslide",
+          "By wild animals",
+          "Struck by lightning",
+          "Due to illness"
+        ],
+        "answer": 2,
+        "explanation": "Grandfather said that during a terrible storm, the house was hit by lightning and everyone was killed."
+      },
+      {
+        "question": "What did Usha buy for her Grandfather at the bazaar?",
+        "options": [
+          "An exercise book",
+          "A new pipe stem",
+          "An amber necklace",
+          "Matches and sugar"
+        ],
+        "answer": 1,
+        "explanation": "She bought a new pipe stem for her grandfather's hookah."
+      },
+      {
+        "question": "Which of the following items did Usha buy as an 'afterthought' for Suresh?",
+        "options": [
+          "An exercise book",
+          "Marbles",
+          "Sweets",
+          "A toy train"
+        ],
+        "answer": 1,
+        "explanation": "She bought an exercise book for his sums, and as an afterthought, she bought him some marbles."
+      },
+      {
+        "question": "What did Usha buy for herself with her saved-up 2 rupees?",
+        "options": [
+          "Mother's slippers",
+          "Hot sweet tea",
+          "Amber-coloured beads necklace",
+          "Wild plums"
+        ],
+        "answer": 2,
+        "explanation": "She bought a necklace of amber-coloured beads from an old Tibetan lady."
+      },
+      {
+        "question": "What complaint did Aunt Lakshmi have when Usha visited her?",
+        "options": [
+          "Headache and fever",
+          "Ache in left shoulder and stiff joints",
+          "Toothache",
+          "Cold and cough"
+        ],
+        "answer": 1,
+        "explanation": "Aunt Lakshmi talked about the ache in her left shoulder and the stiffness in her joints."
+      },
+      {
+        "question": "Match the characters with their descriptions:\n1. Suresh - A. Dark haired and rose cheeked\n2. Usha - B. Slightly older girl, neighbour\n3. Binya - C. Eight, chubby, almond-eyed",
+        "options": [
+          "1-B, 2-A, 3-C",
+          "1-C, 2-A, 3-B",
+          "1-A, 2-C, 3-B",
+          "1-C, 2-B, 3-A"
+        ],
+        "answer": 1,
+        "explanation": "Suresh is an 8-year-old chubby boy. Usha is dark-haired. Binya is a slightly older neighbour."
+      },
+      {
+        "question": "The wind hurried and passed through the ___________.",
+        "options": [
+          "apples and mangoes",
+          "berries and cherries",
+          "oaks and willows",
+          "pines and deodars"
+        ],
+        "answer": 3,
+        "explanation": "As per the text and book-back evaluation, the wind hummed and moaned in the tall pines and deodars."
+      },
+      {
+        "question": "Usha went to visit her ____________ house after shopping in the market.",
+        "options": [
+          "Grandfather's",
+          "Aunt's",
+          "Cousin's",
+          "Friend's"
+        ],
+        "answer": 1,
+        "explanation": "She met her Aunt Lakshmi and spent an hour in her flat above the shops."
+      },
+      {
+        "question": "Where did Usha take shelter during the heavy storm?",
+        "options": [
+          "In a cave",
+          "Under an oak tree",
+          "In the ruins",
+          "At the mochi's shop"
+        ],
+        "answer": 2,
+        "explanation": "Unable to reach home, she decided to take shelter in the ruined building on Haunted Hill."
+      },
+      {
+        "question": "When Usha touched something soft and furry in the dark ruins, what was it?",
+        "options": [
+          "An owl",
+          "A wild cat",
+          "A rabbit",
+          "Suresh's coat"
+        ],
+        "answer": 1,
+        "explanation": "She touched something soft and furry which gave a snarl/screech; it was a wild cat that lived in the ruins."
+      },
+      {
+        "question": "What part of the old ruins provided Usha some shelter from the drumming rain?",
+        "options": [
+          "The basement",
+          "The blocked-up chimney",
+          "A corner with a remnant of a tin roof",
+          "Under the wild plum tree"
+        ],
+        "answer": 2,
+        "explanation": "She crouched in the corner where she heard the rain drumming on the remnant of the tin roof."
+      },
+      {
+        "question": "When the streak of blue lightning lit up the floor, what did Usha see crouching in the disused fireplace?",
+        "options": [
+          "Two wild cats",
+          "Two small children figures",
+          "An old man",
+          "Nothing but stones"
+        ],
+        "answer": 1,
+        "explanation": "She saw two small ghostly figures (which later turned out to be Suresh and Binya) crouching in the fireplace."
+      },
+      {
+        "question": "Who bumped into Usha as she was running out of the ruins in fear?",
+        "options": [
+          "Her Grandfather",
+          "Aunt Lakshmi",
+          "Suresh and Binya",
+          "The English ghosts"
+        ],
+        "answer": 2,
+        "explanation": "She bumped into something which shouted in a boy's voice; it was Suresh, accompanied by Binya."
+      },
+      {
+        "question": "Why didn't Usha, Suresh, and Binya run back home immediately after meeting in the ruins?",
+        "options": [
+          "They wanted to play",
+          "The path had fallen away at one place",
+          "They were lost",
+          "The ghosts blocked their way"
+        ],
+        "answer": 1,
+        "explanation": "Binya stated that the path had fallen away and it wouldn't be safe in the dark and rain."
+      },
+      {
+        "question": "At dawn, what bird began to sing, flooding the ruins with music?",
+        "options": [
+          "Cuckoo",
+          "Thrush",
+          "Linnet",
+          "Nightingale"
+        ],
+        "answer": 1,
+        "explanation": "Towards dawn, the whistling-thrush began to sing its sweet broken notes."
+      },
+      {
+        "question": "What happened to the wild plum tree after the storm?",
+        "options": [
+          "It was completely uprooted",
+          "It caught fire by lightning",
+          "It stood upright but had lost all its blossoms",
+          "It broke into two halves"
+        ],
+        "answer": 2,
+        "explanation": "The text states that the plum tree stood upright again, although it had lost all its blossoms."
+      },
+      {
+        "question": "While leaving the ruins in the morning, what did Usha think she saw behind the wall?",
+        "options": [
+          "A wild cat",
+          "A hand waving",
+          "A piece of tin flying",
+          "Grandfather walking"
+        ],
+        "answer": 1,
+        "explanation": "Usha looked back and said, 'Can you see something there, behind the wall? It's like a hand waving.'"
+      },
+      {
+        "question": "Glossary check: What is the meaning of 'scuttled'?",
+        "options": [
+          "Lost one's balance",
+          "Ran with short quick steps",
+          "Banged together",
+          "Spreading out"
+        ],
+        "answer": 1,
+        "explanation": "'Scuttled' refers to running with short, quick steps, like the lizards over the stones."
+      },
+      {
+        "question": "Glossary check: The word 'forbidding' in the context of the ruins means:",
+        "options": [
+          "Welcoming and warm",
+          "Unfriendly or frightening",
+          "Decayed and old",
+          "Beautifully constructed"
+        ],
+        "answer": 1,
+        "explanation": "The ruins looked grim and forbidding, meaning they looked unfriendly and frightening."
+      },
+      {
+        "question": "Assertion (A): Usha did not use an umbrella during the storm.\nReason (R): The weather had seemed fine when she started, so she did not bring one.",
+        "options": [
+          "Both A and R are true, and R is the correct explanation of A.",
+          "Both A and R are true, but R is not the correct explanation of A.",
+          "A is true, but R is false.",
+          "A is false, but R is true."
+        ],
+        "answer": 0,
+        "explanation": "The text explicitly states she had no umbrella because the weather seemed fine hours ago, forcing her to use a scarf."
+      },
+      {
+        "question": "Assertion (A): Suresh accompanied Usha to the bazaar.\nReason (R): Suresh loved visiting the bazaar.",
+        "options": [
+          "Both A and R are true, and R is the correct explanation of A.",
+          "Both A and R are true, but R is not the correct explanation of A.",
+          "A is true, but R is false.",
+          "A is false, but R is true."
+        ],
+        "answer": 3,
+        "explanation": "Suresh wanted to go, but Usha told him he couldn't because he had to help Grandfather chop wood. So, A is false."
+      },
+      {
+        "question": "Analogy Check: Victim : Suffers the effect :: Detective : ___________",
+        "options": [
+          "Commits a crime",
+          "Investigates a crime",
+          "Proves evidence",
+          "Hides clues"
+        ],
+        "answer": 1,
+        "explanation": "According to the Detective's Dictionary, a victim suffers, while a detective investigates."
+      },
+      {
+        "question": "Vocabulary check: Which word from the text means 'hissed like something hot on a frying pan'?",
+        "options": [
+          "Clattered",
+          "Sizzled",
+          "Groaned",
+          "Flickered"
+        ],
+        "answer": 1,
+        "explanation": "'Sizzled' describes the sound of the blue streak of lightning."
+      },
+      {
+        "question": "What is the correct meaning of 'clue' according to the Detective's Dictionary?",
+        "options": [
+          "Information that proves something is true",
+          "An idea or fact that helps solve a mystery",
+          "Someone who suffers an effect",
+          "A hidden weapon"
+        ],
+        "answer": 1,
+        "explanation": "A clue is an idea or fact that helps solve a mystery, whereas evidence is information that proves something true."
+      },
+      {
+        "question": "Real-life scenario: If someone stumbles and falls while running, which word best describes the action of losing balance?",
+        "options": [
+          "Scuttled",
+          "Straggled",
+          "Stumbled",
+          "Crouched"
+        ],
+        "answer": 2,
+        "explanation": "Stumbled means to lose one's balance or trip over something."
+      },
+      {
+        "question": "Grammar: Identify the tense - 'The train had left before he reached the station.'",
+        "options": [
+          "Present Perfect Tense",
+          "Simple Past Tense",
+          "Past Perfect Tense",
+          "Future Perfect Tense"
+        ],
+        "answer": 2,
+        "explanation": "The past perfect tense ('had left') tells us about an action that took place before another past action."
+      },
+      {
+        "question": "Grammar Check: Fill in the blank with the correct past perfect form: Night _________ (fall).",
+        "options": [
+          "has fallen",
+          "was falling",
+          "had fallen",
+          "will have fallen"
+        ],
+        "answer": 2,
+        "explanation": "The past perfect form uses 'had' + past participle (fallen)."
+      },
+      {
+        "question": "Grammar Check: Fill in the blank with the future perfect tense: Tomorrow by this time, she _____________ (join) the class.",
+        "options": [
+          "will join",
+          "is joining",
+          "will have joined",
+          "has joined"
+        ],
+        "answer": 2,
+        "explanation": "Future perfect tense uses 'will have' + past participle to show an action completed before a future time."
+      },
+      {
+        "question": "Who asked the question, 'Was it just the wind?' at the end of the story?",
+        "options": [
+          "Suresh",
+          "Binya",
+          "Usha",
+          "Grandfather"
+        ],
+        "answer": 2,
+        "explanation": "Usha heard the voices calling goodbye and wondered to herself, 'Or was it just the wind?'"
+      },
+      {
+        "question": "When Binya and Suresh said they heard no one calling, Usha concluded that it might be:",
+        "options": [
+          "The wild cat",
+          "The thrush",
+          "Just the wind",
+          "The ghosts"
+        ],
+        "answer": 2,
+        "explanation": "The others told her it was only the wind, and eventually she also pondered if it was just the wind."
+      },
+      {
+        "question": "According to the story, during which month did the events take place?",
+        "options": [
+          "June",
+          "October",
+          "March",
+          "December"
+        ],
+        "answer": 2,
+        "explanation": "The text mentions, 'This was March, the month for storms.'"
+      },
+      {
+        "question": "What prevented the tin roof sheets from blowing away completely during the storm in the ruins?",
+        "options": [
+          "Large rocks placed by Usha",
+          "The solid branch of an old oak tree",
+          "The strong stone walls",
+          "Heavy iron chains"
+        ],
+        "answer": 1,
+        "explanation": "The tin sheets groaned but were held down by the solid branch of a straggling old oak tree."
+      },
+      {
+        "question": "Why were Usha, Suresh, and Binya placing rocks on clothes at the beginning of the story?",
+        "options": [
+          "To wash them",
+          "To prevent the wind from blowing them away",
+          "To iron them",
+          "To hide them from ghosts"
+        ],
+        "answer": 1,
+        "explanation": "Haunted Hill had strong winds, so they kept rocks on the clothes spread out to dry so they wouldn't flutter away."
+      },
+      {
+        "question": "Where was the children's father posted?",
+        "options": [
+          "In the village bazaar",
+          "In the army, in a distant part of the country",
+          "In a foreign country",
+          "At the Haunted Hill"
+        ],
+        "answer": 1,
+        "explanation": "Their father was in the army, posted in a distant part of the country."
+      },
+      {
+        "question": "Why did Suresh say, 'I'm hungry' twice in the story?",
+        "options": [
+          "He wanted to eat the wild plums",
+          "He was waiting out the storm all night and wanted to go home",
+          "He hadn't eaten anything in two days",
+          "He wanted Aunt Lakshmi's tea"
+        ],
+        "answer": 1,
+        "explanation": "After spending the terrifying and rainy night in the ruins, Suresh was eager to leave and said he was hungry."
+      },
+      {
+        "question": "What does the word 'blotted out' mean in the text?",
+        "options": [
+          "Made a spot",
+          "Dried up",
+          "Hid or covered",
+          "Revealed"
+        ],
+        "answer": 2,
+        "explanation": "The sound of the storm blotted out (hid or drowned out) all other sounds."
+      },
+      {
+        "question": "Unscramble the sound describing word: 'murebl'",
+        "options": [
+          "lumber",
+          "rumble",
+          "blumer",
+          "mumble"
+        ],
+        "answer": 1,
+        "explanation": "The unscrambled word is 'rumble', which describes a deep sound."
+      },
+      {
+        "question": "Unscramble the sound describing word: 'nogra'",
+        "options": [
+          "organ",
+          "groan",
+          "argon",
+          "orang"
+        ],
+        "answer": 1,
+        "explanation": "The unscrambled word is 'groan', a low sound made in pain or by creaking objects."
+      },
+      {
+        "question": "Which sentence is grammatically correct according to the 'Don't say / Say' section?",
+        "options": [
+          "I am here since last week.",
+          "I have been here since last week.",
+          "I was here since last week.",
+          "I am being here since last week."
+        ],
+        "answer": 1,
+        "explanation": "For a situation starting in the past and continuing, we use present perfect tense: 'I have been here...'"
+      },
+      {
+        "question": "Identify the error: 'My mom has called me yesterday.'",
+        "options": [
+          "The word 'yesterday' is spelled wrong",
+          "'has called' cannot be used with a past time expression like 'yesterday'",
+          "'Mom' should be plural",
+          "There is no error"
+        ],
+        "answer": 1,
+        "explanation": "Present perfect tense cannot be used with an expression of past time. It should be 'My mom called me yesterday.'"
+      },
+      {
+        "question": "What is the meaning of the phrase 'Usha's heart was in her mouth'?",
+        "options": [
+          "She had a heart attack",
+          "She was extremely terrified or frightened",
+          "She was very hungry",
+          "She was running too fast"
+        ],
+        "answer": 1,
+        "explanation": "It is an idiom meaning someone is feeling extremely nervous or afraid, which happened when she saw the 'ghosts'."
+      },
+      {
+        "question": "HOTS Question: Why didn't Usha search for a drier place under the blocked-up chimney?",
+        "options": [
+          "Because the wild cat was sitting there",
+          "Because it was struck by lightning",
+          "Because she was afraid of losing her way in the dark",
+          "Because she saw the ghosts there initially"
+        ],
+        "answer": 2,
+        "explanation": "She thought about finding shelter there, but decided not to because she might lose her way altogether in the pitch dark."
+      },
+      {
+        "question": "Analogy: Stumbled : Lost balance :: Huddled : _________",
+        "options": [
+          "Cried loudly",
+          "Crowded together",
+          "Ran quickly",
+          "Bent down"
+        ],
+        "answer": 1,
+        "explanation": "According to the glossary, huddled means crowded together (like the children did to stay warm)."
+      },
+      {
+        "question": "Sequence of events: Which happened first?\n1. Usha bought an amber necklace.\n2. Usha bought a pipe stem.\n3. Usha visited Aunt Lakshmi.",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "They happened simultaneously"
+        ],
+        "answer": 1,
+        "explanation": "She first bought the household items and pipe stem, then as an afterthought the marbles, then the necklace with her own money, and lastly met Aunt Lakshmi."
+      },
+      {
+        "question": "Assertion (A): The ruins did not seem forbidding to the children anymore.\nReason (R): The children gave each other warmth and confidence by being together.",
+        "options": [
+          "Both A and R are true, and R is the correct explanation of A.",
+          "Both A and R are true, but R is not the correct explanation of A.",
+          "A is true, but R is false.",
+          "A is false, but R is true."
+        ],
+        "answer": 0,
+        "explanation": "Once Usha, Suresh, and Binya huddled together, their mutual presence gave them warmth and confidence, making the ruins less scary."
+      }
+    ]
+  }
+}

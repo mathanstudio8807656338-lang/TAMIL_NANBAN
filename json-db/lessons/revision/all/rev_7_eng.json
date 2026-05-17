@@ -1,0 +1,344 @@
+{
+  "code": "rev_7_eng",
+  "title": "திருப்புதல் தேர்வு 7 - ஆங்கிலம்",
+  "sections": [
+    {
+      "title": "பாடக்குறிப்பு",
+      "content": "ஆங்கிலம் பாடப்பகுதிக்கான திருப்புதல் வினாக்கள் இதில் அடங்கும்."
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "question": "HOTS Question: The phrase 'dwelt in the lone house then' implies what about the phantoms?",
+        "options": [
+          "They are just visiting for the night",
+          "The house is their permanent supernatural residence now",
+          "They are hiding from the Traveller",
+          "They are trapped in the basement"
+        ],
+        "answer": 1,
+        "explanation": "The word 'dwelt' means lived or resided, indicating that the spirits are the actual 'inhabitants' of the abandoned house."
+      },
+      {
+        "question": "Why did John Clay and Duncan Ross invent the 'Red-Headed League'?",
+        "options": [
+          "To help red-headed people find jobs",
+          "To write a new encyclopaedia",
+          "To get Mr. Wilson out of his shop for a few hours every day",
+          "To steal Mr. Wilson's pawnbroker items"
+        ],
+        "answer": 2,
+        "explanation": "Holmes explains, 'The villains wanted Wilson away from the shop for some hours every day.'"
+      },
+      {
+        "question": "In the lesson's example, why did Meena potentially feel insecure?",
+        "options": [
+          "She didn't like her big ears and didn't want anyone to notice them",
+          "She had a bad relationship with her parents",
+          "She failed her exams",
+          "She couldn't throw a ball"
+        ],
+        "answer": 0,
+        "explanation": "The text states: 'maybe Meena doesn’t like her big ears and doesn’t want anyone to notice them.'"
+      },
+      {
+        "question": "What was the initial clue that made Holmes suspect Spaulding?",
+        "options": [
+          "He had red hair",
+          "He was happy to work for half-wages",
+          "He was a bad assistant",
+          "He was always reading the newspaper"
+        ],
+        "answer": 1,
+        "explanation": "Holmes says, 'I suspected when Spaulding was happy to work for half-wages.'"
+      },
+      {
+        "question": "Why did Holmes ask Spaulding for directions to the Strand even though he knew London very well?",
+        "options": [
+          "He wanted to hear his accent",
+          "He forgot the way",
+          "He wanted to see Spaulding face-to-face",
+          "He wanted to stall for time"
+        ],
+        "answer": 2,
+        "explanation": "Watson deduced, 'You wanted to see him.' Holmes wanted to observe Spaulding to confirm his suspicions."
+      },
+      {
+        "question": "At what time did Holmes ask Watson to meet him for the investigation?",
+        "options": [
+          "Nine o'clock",
+          "Eleven o'clock",
+          "Midnight",
+          "Ten o'clock"
+        ],
+        "answer": 3,
+        "explanation": "Holmes says, 'Right, but I want your help tonight. Come at ten o’clock.'"
+      },
+      {
+        "question": "What happens to Duncan Ross during the ambush?",
+        "options": [
+          "He is caught immediately by Holmes",
+          "He gets back into the tunnel but is caught at the other end",
+          "He successfully escapes",
+          "He fights with Mr. Jones"
+        ],
+        "answer": 1,
+        "explanation": "Ross quickly gets back into the tunnel... Holmes says, 'There are three men waiting for him at the other end.'"
+      },
+      {
+        "question": "What overall feeling or mood does the poem create?",
+        "options": [
+          "Joyful and exciting",
+          "Comical and funny",
+          "Eerie and mysterious",
+          "Romantic and soft"
+        ],
+        "answer": 2,
+        "explanation": "The silent phantoms, the lone house in the forest, and the unanswered calls create an eerie, mysterious feeling."
+      },
+      {
+        "question": "Why did the thieves choose a Saturday night for the robbery?",
+        "options": [
+          "Because they get paid on Saturday",
+          "Because Mr. Wilson is out of town",
+          "Because the bank does not open on Sunday, giving them time to escape",
+          "Because it was a dark night"
+        ],
+        "answer": 2,
+        "explanation": "Holmes explains, 'And Saturday is a good day. The bank does not open on Sunday. It would have given the thieves enough time to get away.'"
+      },
+      {
+        "question": "Book Back True/False: Spaulding dug a tunnel from the cellar of the shop to the jewellery shop.",
+        "options": [
+          "True",
+          "False",
+          "Partially True",
+          "Cannot be determined"
+        ],
+        "answer": 1,
+        "explanation": "False. He dug the tunnel to the bank's strong room, not a jewellery shop."
+      },
+      {
+        "question": "Pick out the rhyming word for 'hall' from the poem.",
+        "options": [
+          "Still",
+          "Call",
+          "Door",
+          "Men"
+        ],
+        "answer": 1,
+        "explanation": "In the poem, 'hall' rhymes with 'call'."
+      },
+      {
+        "question": "Where does Scene 2 take place?",
+        "options": [
+          "Holmes's study",
+          "Wilson's pawnshop",
+          "The strong room at a bank",
+          "The Scotland Yard office"
+        ],
+        "answer": 2,
+        "explanation": "Scene 2 begins in: 'The strong room at a bank, with many boxes and crates in it.'"
+      },
+      {
+        "question": "Why did Spaulding often go down to the cellar of the pawnshop?",
+        "options": [
+          "To develop photographs",
+          "To sleep",
+          "To dig a tunnel to the bank",
+          "To count the stolen money"
+        ],
+        "answer": 2,
+        "explanation": "He was making a tunnel from the cellar to the bank's strong room."
+      },
+      {
+        "question": "Pick out the rhyming word for 'then' from the poem.",
+        "options": [
+          "Men",
+          "Floor",
+          "Door",
+          "Said"
+        ],
+        "answer": 0,
+        "explanation": "In the poem, 'then' rhymes with 'men'."
+      },
+      {
+        "question": "What is meant by the 'lone house'?",
+        "options": [
+          "A house available for loan",
+          "A single, isolated house standing by itself",
+          "A broken down house",
+          "A newly built house"
+        ],
+        "answer": 1,
+        "explanation": "'Lone' means solitary or isolated, emphasizing its remote location in the forest."
+      },
+      {
+        "question": "What confirmed to Holmes that Spaulding was digging a tunnel?",
+        "options": [
+          "The map he found",
+          "The dirt on the knees/legs of Spaulding's trousers",
+          "The sound of digging",
+          "Spaulding's confession"
+        ],
+        "answer": 1,
+        "explanation": "Holmes noticed his trousers were dirty because making a tunnel is dirty work."
+      },
+      {
+        "question": "Why did Mr. Wilson go to Sherlock Holmes?",
+        "options": [
+          "He wanted to open a new shop",
+          "He lost his money",
+          "He was disturbed by the thought that someone played a practical joke on him",
+          "He wanted Holmes to join the League"
+        ],
+        "answer": 2,
+        "explanation": "He was disturbed by the abrupt dissolution and thought it was a practical joke, so he sought a solution."
+      },
+      {
+        "question": "What is the physical feature that distinguishes Mr. Jabez Wilson?",
+        "options": [
+          "He wears glasses",
+          "He is very tall",
+          "He has bright red hair",
+          "He has a scar on his face"
+        ],
+        "answer": 2,
+        "explanation": "He is described as a client with bright red hair."
+      },
+      {
+        "question": "What was Jabez Wilson's specific job at the League office?",
+        "options": [
+          "To clean the office",
+          "To count money",
+          "To copy out the Encyclopaedia Britannica in longhand",
+          "To repair old watches"
+        ],
+        "answer": 2,
+        "explanation": "He was tasked with copying out the Encyclopaedia Britannica in longhand."
+      },
+      {
+        "question": "How much salary did the Red-Headed League promise per week?",
+        "options": [
+          "Four pounds",
+          "Ten pounds",
+          "Fifty pounds",
+          "Two pounds"
+        ],
+        "answer": 0,
+        "explanation": "The announcement promised a salary of four pounds a week."
+      },
+      {
+        "question": "Which figure of speech is used in the phrase 'forest’s ferny floor'?",
+        "options": [
+          "Simile",
+          "Metaphor",
+          "Alliteration",
+          "Personification"
+        ],
+        "answer": 2,
+        "explanation": "The repetition of the 'f' consonant sound in 'forest', 'ferny', and 'floor' is Alliteration."
+      },
+      {
+        "question": "Which sensory detail does the poet use to break the silence in the first few lines?",
+        "options": [
+          "The sight of the moon",
+          "The smell of the ferns",
+          "The sound of the horse champing grasses",
+          "The colour of the Traveller's eyes"
+        ],
+        "answer": 2,
+        "explanation": "The noisy chewing ('champing') of the horse is a sound that contrasts with the deep silence of the forest."
+      },
+      {
+        "question": "Where is Mr. Wilson's shop located?",
+        "options": [
+          "Baker Street",
+          "The Strand",
+          "Saxe-Coburg Square",
+          "Scotland Yard"
+        ],
+        "answer": 2,
+        "explanation": "Holmes and Dr. Watson move to Wilson’s shop in Saxe-Coburg Square at once."
+      },
+      {
+        "question": "How do the thieves enter the bank's strong room?",
+        "options": [
+          "Through the main door",
+          "By breaking the window",
+          "Through the stone floor (a tunnel)",
+          "Down the chimney"
+        ],
+        "answer": 2,
+        "explanation": "Suddenly the stones give way. First a hand with a gun comes out of the ground."
+      },
+      {
+        "question": "What detail shows that the Traveller was looking closely for any sign of life inside?",
+        "options": [
+          "He looked at the horse",
+          "He waited for a head to lean over the leaf-fringed sill",
+          "He broke the door",
+          "He climbed the turret"
+        ],
+        "answer": 1,
+        "explanation": "He expected someone to look down at him from the window ('No head from the leaf-fringed sill Leaned over')."
+      },
+      {
+        "question": "Who was the head of the Red-Headed League?",
+        "options": [
+          "Mr. Jones",
+          "Sherlock Holmes",
+          "Vincent Spaulding",
+          "Mr. Duncan Ross"
+        ],
+        "answer": 3,
+        "explanation": "Wilson was accepted into the League by Mr. Duncan Ross, the head of the League."
+      },
+      {
+        "question": "What does the contrast between the loud knocking and the absolute silence highlight?",
+        "options": [
+          "The Traveller's anger",
+          "The deafness of the phantoms",
+          "The spooky isolation and barrier between the living and the dead",
+          "The thickness of the door"
+        ],
+        "answer": 2,
+        "explanation": "The contrast emphasizes the impenetrable barrier between the Traveller (the living) and the phantoms (the supernatural)."
+      },
+      {
+        "question": "Who was sleeping peacefully while Tom was groaning?",
+        "options": [
+          "Mary",
+          "Aunt Polly",
+          "The new girl",
+          "Sid"
+        ],
+        "answer": 3,
+        "explanation": "Sid was sleeping unconsciously in the same room while Tom started his dramatic groans."
+      },
+      {
+        "question": "Which of the following is NOT a reason given by the poet to speak gently?",
+        "options": [
+          "To rule by fear",
+          "To gain a child's love",
+          "To not grieve an aged heart",
+          "To win back the erring"
+        ],
+        "answer": 0,
+        "explanation": "The poet explicitly states it is better to rule by love, NOT fear."
+      },
+      {
+        "question": "In the lesson's example, what was a possible reason for Ajay being unhappy with himself?",
+        "options": [
+          "His bad performance in the exams",
+          "His big ears",
+          "His lack of friends",
+          "His physical weakness"
+        ],
+        "answer": 0,
+        "explanation": "The text suggests that 'Maybe Ajay is unhappy with his performance in the exams'."
+      }
+    ]
+  }
+}

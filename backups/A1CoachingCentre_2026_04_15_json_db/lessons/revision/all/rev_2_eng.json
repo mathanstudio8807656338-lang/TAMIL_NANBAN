@@ -1,0 +1,199 @@
+{
+  "code": "rev_2_eng",
+  "quiz": {
+    "questions": [
+      {
+        "question": "Which vegetable is known as a 'Visitor from Distant Lands'?",
+        "options": ["Potato", "Lady's finger", "Garlic", "Onion"],
+        "answer": 0,
+        "explanation": "Potatoes were brought to India by the Portuguese."
+      },
+      {
+        "question": "Which spice is used to make food taste delicious and yellow in color?",
+        "options": ["Chilli", "Cinnamon", "Turmeric", "Pepper"],
+        "answer": 2,
+        "explanation": "Turmeric gives a yellow color and has medicinal properties."
+      },
+      {
+        "question": "The poem 'I Dream of Spices' is about which family member's request?",
+        "options": ["Father", "Mother", "Grandfather", "Sister"],
+        "answer": 1,
+        "explanation": "The speaker's mother asks him to buy spices from the shop."
+      },
+      {
+        "question": "In the poem 'I Dream of Spices', what did the boy actually buy instead of spices?",
+        "options": ["Sugar and Salt", "Onion and Garlic", "Sesame Seeds and Onions", "Chillies and Mustard"],
+        "answer": 2,
+        "explanation": "He forgets the list and buys sesame seeds and onions."
+      },
+      {
+        "question": "The boy's name in 'I Dream of Spices' is ________.",
+        "options": ["Ravi", "Raj", "Muthu", "Ram"],
+        "answer": 2,
+        "explanation": "The character's name mentioned is Muthu."
+      },
+      {
+        "question": "Which of these is a collective noun?",
+        "options": ["Apple", "Team", "London", "Hard"],
+        "answer": 1,
+        "explanation": "'Team' represents a group of people."
+      },
+      {
+        "question": "The plural form of 'Child' is ________.",
+        "options": ["Childs", "Children", "Childrens", "Childes"],
+        "answer": 1,
+        "explanation": "'Children' is the irregular plural form."
+      },
+      {
+        "question": "Identify the proper noun: 'The Ganges is a holy river.'",
+        "options": ["Ganges", "River", "Holy", "The"],
+        "answer": 0,
+        "explanation": "Ganges is the specific name of a river."
+      },
+      {
+        "question": "Which vegetable was brought by the Portuguese to India?",
+        "options": ["Carrot", "Cabbage", "Corn", "Chilli"],
+        "answer": 3,
+        "explanation": "Chillies were brought from South America by the Portuguese."
+      },
+      {
+        "question": "What is the collective noun for a group of fish?",
+        "options": ["Swarm", "Shoal / School", "Herd", "Pride"],
+        "answer": 1,
+        "explanation": "A group of fish is called a shoal or school."
+      },
+      {
+        "question": "Choose the correct article: 'He is ________ honest man.'",
+        "options": ["a", "an", "the", "no article"],
+        "answer": 1,
+        "explanation": "'Honest' starts with a vowel sound (silent 'h')."
+      },
+      {
+        "question": "Which vegetable was not brought from abroad?",
+        "options": ["Tomato", "Lady's finger", "Potato", "Sweet potato"],
+        "answer": 1,
+        "explanation": "Lady's finger is native to India/Africa."
+      },
+      {
+        "question": "The poem 'A Tragic Story' is about a man and his ________.",
+        "options": ["Dog", "Pigtail", "Hat", "Beard"],
+        "answer": 1,
+        "explanation": "The man tries to move his pigtail to the front."
+      },
+      {
+        "question": "In 'A Tragic Story', the man lived in a ________ land.",
+        "options": ["Strange", "Foreign", "Holy", "Great"],
+        "answer": 0,
+        "explanation": "A sage in the days of yore lived in a strange land."
+      },
+      {
+        "question": "What did the man do to change the position of his pigtail?",
+        "options": ["He cut it", "He tied it", "He spun round and round", "He hid it"],
+        "answer": 2,
+        "explanation": "He kept spinning, but the pigtail stayed behind him."
+      },
+      {
+        "question": "Choose the correct collective noun: A ________ of lions.",
+        "options": ["Pack", "Pride", "Flock", "Herd"],
+        "answer": 1,
+        "explanation": "A group of lions is called a pride."
+      },
+      {
+        "question": "What is the abstract noun for 'Brave'?",
+        "options": ["Bravery", "Braver", "Bravest", "Brave"],
+        "answer": 0,
+        "explanation": "Bravery is the quality of being brave."
+      },
+      {
+        "question": "Which of these is used to make food spicy?",
+        "options": ["Sugar", "Honey", "Pepper", "Milk"],
+        "answer": 2,
+        "explanation": "Pepper (Black gold) adds spiciness."
+      },
+      {
+        "question": "Vasco da Gama reached ________ in India.",
+        "options": ["Chennai", "Calicut (Kozhikode)", "Goa", "Mumbai"],
+        "answer": 1,
+        "explanation": "He discovered the sea route to India and reached Calicut."
+      },
+      {
+        "question": "Which of these is a countable noun?",
+        "options": ["Sugar", "Water", "Book", "Milk"],
+        "answer": 2,
+        "explanation": "Books can be counted (one book, two books)."
+      },
+      {
+        "question": "Identify the verb: 'She sings beautifully.'",
+        "options": ["She", "Sings", "Beautifully", "Is"],
+        "answer": 1,
+        "explanation": "'Sings' is the action being performed."
+      },
+      {
+        "question": "The pigtail 'hung behind him still'. Here 'still' means ________.",
+        "options": ["Quiet", "Even then / Moving slowly", "In the same place", "Always"],
+        "answer": 2,
+        "explanation": "It remained in the same position."
+      },
+      {
+        "question": "Collective noun for a group of wolves is ________.",
+        "options": ["Pack", "Crowd", "Grip", "Shed"],
+        "answer": 0,
+        "explanation": "A group of wolves is called a pack."
+      },
+      {
+        "question": "Muthu's mother called him to go to the shop. Shop is a ________ noun.",
+        "options": ["Common", "Proper", "Abstract", "Collective"],
+        "answer": 0,
+        "explanation": "Shop is a general name for a place."
+      },
+      {
+        "question": "Who is the author of the poem 'A Tragic Story'?",
+        "options": ["William Makepeace Thackeray", "Robert Frost", "Shakespeare", "John Keats"],
+        "answer": 0,
+        "explanation": "Thackeray wrote this humorous poem."
+      },
+      {
+        "question": "Substitute with a single word: 'A person who studies science'.",
+        "options": ["Doctor", "Scientist", "Artist", "Driver"],
+        "answer": 1,
+        "explanation": "A scientist is a person who studies science."
+      },
+      {
+        "question": "The plural form of 'Goose' is ________.",
+        "options": ["Gooses", "Geese", "Goosis", "Geesees"],
+        "answer": 1,
+        "explanation": "Irregular plural: Goose -> Geese."
+      },
+      {
+        "question": "Which of these is an uncountable noun?",
+        "options": ["Car", "Happiness", "Chair", "Pencil"],
+        "answer": 1,
+        "explanation": "Feelings cannot be counted numerically."
+      },
+      {
+        "question": "Choose the correct article: 'I have ________ umbrella.'",
+        "options": ["a", "an", "the", "no article"],
+        "answer": 1,
+        "explanation": "'Umbrella' starts with a vowel sound."
+      },
+      {
+        "question": "What is the synonym of 'Ancient'?",
+        "options": ["New", "Modern", "Old / Yore", "Fast"],
+        "answer": 2,
+        "explanation": "Ancient means very old."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "title": "Revision Notes: Exam 2 - English",
+      "content": [
+        "**1. Visitors from Distant Lands:** Learn about vegetables brought from other countries. Potato (Portugal), Chilli (South America). Lady's finger and Pepper are native to India.",
+        "**2. I Dream of Spices:** A poem about a boy named Muthu who goes to buy spices for his mother but buys sesame seeds and onions instead.",
+        "**3. A Tragic Story:** A humorous poem about a sage who tries unsuccessfully to bring his pigtail to the front by spinning.",
+        "**4. Grammar - Nouns:** Different types of nouns: Proper (specific names), Common (general), Collective (Team, Pride, Pack), and Abstract (Bravery, Happiness).",
+        "**5. Grammar - Plurals & Articles:** Singular/Plural forms (Geese, Children) and usage of articles (A, An, The)."
+      ]
+    }
+  ]
+}

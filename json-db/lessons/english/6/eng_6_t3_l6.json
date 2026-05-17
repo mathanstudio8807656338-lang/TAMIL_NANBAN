@@ -1,0 +1,403 @@
+{
+  "lesson_meta": {
+    "title": "Brought to Book",
+    "unit": 6,
+    "std": 6,
+    "term": "3",
+    "subject": "English",
+    "grade": "6",
+    "code": "eng_6_t3_l6"
+  },
+  "sections": [
+    {
+      "title": "Complete Summary",
+      "type": "infobox",
+      "content": [
+        {
+          "text": "This story revolves around a young boy named Mahesh, who does not take care of his books and belongings. In a dream, he finds himself in a bizarre courtroom where all his school belongings have come alive to testify against him for his negligence and cruelty. The judge is Justice Mathematics, who is very strict. \n\nOne by one, the characters appear in the witness box. Ms. English is battered and torn. Mr. Geography is in a terrible state with his cover missing and his maps mercilessly filled with all the colors of the paint box. He envies his brother, who belongs to a neat girl named Shobitha. Mr. Pencil Box complains that Mahesh never cleans him, chewing him when stuck for an answer, leaving his body pock-marked. Mr. School Bag, old and dragging his broken straps, complains that Mahesh never packs him the night before and just crams everything at the last minute. The young Master Notebook tearfully explains how Mahesh threw him against the wall in anger when he couldn't solve a math problem.\n\nHearing all this, Justice Mathematics is furious. In this unique court, the victims decide the punishment. The victims suggest various terrifying punishments: throwing Mahesh against the wall, biting and chewing him, dragging him around, and jumping on him. Just as the mob of angry books and bags advances menacingly to attack him, the petite Ms. English intervenes. Despite being treated most shamefully, she argues that Mahesh deserves a second chance as it is his first offense.\n\nThe others agree and back off. Justice Mathematics warns Mahesh never to ill-treat a book again. Suddenly, Mahesh's mother wakes him up for school. He realizes it was all a terrifying dream. He immediately sits down to glue and cover his English book. Due to this realization, the next year, Mahesh wins the prize for the 'Best-Looked-After Books'."
+        }
+      ]
+    },
+    {
+      "title": "Character Conditions",
+      "type": "infobox",
+      "content": [
+        {
+          "text": "**Ms. English:** Battered, torn, and in a shameful condition, but still kind-hearted."
+        },
+        {
+          "text": "**Mr. Geography:** No cover, the 'Contents' page hanging on its last threads, maps filled mercilessly with all colors."
+        },
+        {
+          "text": "**Mr. Pencil Box:** Unclean, pock-marked from being chewed, filled with pencil shavings."
+        },
+        {
+          "text": "**Mr. School Bag:** Elderly and ponderous, with broken straps and buckles dragging behind him, treated like a sack of cement."
+        },
+        {
+          "text": "**The young Master Notebook:** Choked up, battered after being thrown against a wall."
+        }
+      ]
+    },
+    {
+      "title": "Vocabulary and Glossary",
+      "type": "infobox",
+      "content": [
+        {
+          "text": "**Wreck:** worn out"
+        },
+        {
+          "text": "**Stentorian:** extremely loud"
+        },
+        {
+          "text": "**Battered:** damaged"
+        },
+        {
+          "text": "**Pock-marked:** scarred"
+        },
+        {
+          "text": "**Ponderous:** dull and lacking grace"
+        },
+        {
+          "text": "**Lumbered:** walked or moved clumsily"
+        },
+        {
+          "text": "**Verdict:** a judgement or opinion"
+        },
+        {
+          "text": "**Agitated:** troubled emotionally"
+        },
+        {
+          "text": "**Anticipation:** expectation or hope"
+        },
+        {
+          "text": "**Menacingly:** threateningly"
+        },
+        {
+          "text": "**Frantically:** in an uncontrolled manner"
+        },
+        {
+          "text": "**Staunchly:** faithfully"
+        },
+        {
+          "text": "**Astonished:** amazed"
+        },
+        {
+          "text": "**Chores:** a routine duty or task"
+        },
+        {
+          "text": "**Bedraggled:** untidy or messy"
+        }
+      ]
+    },
+    {
+      "title": "Things to Remember",
+      "type": "infobox",
+      "content": [
+        {
+          "text": "The story is a dream sequence about a boy named Mahesh who mistreats his books."
+        },
+        {
+          "text": "Justice Mathematics presides over the court."
+        },
+        {
+          "text": "Mr. Geography's maps were ruined with paint."
+        },
+        {
+          "text": "Shobitha is mentioned as a good example of a student who maintains her books neatly."
+        },
+        {
+          "text": "Mahesh threw Master Notebook against the wall out of frustration over a math problem."
+        },
+        {
+          "text": "In this special court, the victims decide the punishment."
+        },
+        {
+          "text": "Ms. English saved Mahesh from the mob's punishments by asking for a second chance."
+        },
+        {
+          "text": "The dream changed Mahesh, and he won the 'Best-Looked-After Books' prize the following year."
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "Who is the judge in the dream courtroom? || கனவு நீதிமன்றத்தில் நீதிபதி யார்?",
+        "options": [
+          "Justice English || Justice English",
+          "Justice Mathematics || Justice Mathematics",
+          "Justice Science || Justice Science",
+          "Justice Geography || Justice Geography"
+        ],
+        "a": 1,
+        "ex": "Justice Mathematics presides over the court where Mahesh is put on trial. || Justice Mathematics presides over the court where Mahesh is put on trial."
+      },
+      {
+        "q": "What was the condition of Mr. Geography's maps? || திரு. புவியியலின் வரைபடங்களின் நிலை என்னவாக இருந்தது?",
+        "options": [
+          "They were torn out || They were torn out",
+          "They were perfectly clean || They were perfectly clean",
+          "They were filled in mercilessly with all the colours in the paint box || They were filled in mercilessly with all the colours in the paint box",
+          "They were filled with pencil || They were filled with pencil"
+        ],
+        "a": 2,
+        "ex": "Mr. Geography complains that his maps were ruined because Mahesh used all the paint colors on them. || Mr. Geography complains that his maps were ruined because Mahesh used all the paint colors on them."
+      },
+      {
+        "q": "Who does Mr. Geography envy? || திரு. புவியியல் யார் மீது பொறாமைப்படுகிறார்?",
+        "options": [
+          "His brother who belongs to Mahesh || His brother who belongs to Mahesh",
+          "His brother who belongs to Shobitha || His brother who belongs to Shobitha",
+          "Ms. English || Ms. English",
+          "Justice Mathematics || Justice Mathematics"
+        ],
+        "a": 1,
+        "ex": "He envies his brother because Shobitha covers him neatly and handles him gently. || He envies his brother because Shobitha covers him neatly and handles him gently."
+      },
+      {
+        "q": "How does Shobitha fill in her maps? || ஷோபிதா தனது வரைபடங்களை எவ்வாறு நிரப்புகிறாள்?",
+        "options": [
+          "With paint || With paint",
+          "With pen || With pen",
+          "With pencil || With pencil",
+          "She doesn't fill them || She doesn't fill them"
+        ],
+        "a": 2,
+        "ex": "Mr. Geography mentions that Shobitha carefully fills her maps with a pencil, unlike Mahesh. || Mr. Geography mentions that Shobitha carefully fills her maps with a pencil, unlike Mahesh."
+      },
+      {
+        "q": "What did Mahesh make out of torn pages? || கிழிந்த பக்கங்களிலிருந்து மகேஷ் என்ன செய்தான்?",
+        "options": [
+          "Paper boats || Paper boats",
+          "Paper planes || Paper planes",
+          "Origami birds || Origami birds",
+          "Paper balls || Paper balls"
+        ],
+        "a": 1,
+        "ex": "Justice Mathematics' face became dark when he heard that Mahesh tore off pages to make paper planes. || Justice Mathematics' face became dark when he heard that Mahesh tore off pages to make paper planes."
+      },
+      {
+        "q": "Why did Mr. Pencil Box have a pock-marked body? || திரு. பென்சில் பாக்ஸின் உடல் ஏன் அம்மைத் தழும்புகளுடன் இருந்தது?",
+        "options": [
+          "It fell down often || It fell down often",
+          "Mahesh chewed him whenever he got stuck for an answer || Mahesh chewed him whenever he got stuck for an answer",
+          "It was very old || It was very old",
+          "Other students scratched it || Other students scratched it"
+        ],
+        "a": 1,
+        "ex": "Mr. Pencil Box complained that his body was scarred because Mahesh chewed on him. || Mr. Pencil Box complained that his body was scarred because Mahesh chewed on him."
+      },
+      {
+        "q": "What was wrong with Mr. School Bag? || திரு. ஸ்கூல் பேக்குக்கு என்ன பிரச்சினை?",
+        "options": [
+          "He had broken straps and buckles || He had broken straps and buckles",
+          "He had a hole in the bottom || He had a hole in the bottom",
+          "His zipper was broken || His zipper was broken",
+          "He was too small || He was too small"
+        ],
+        "a": 0,
+        "ex": "The elderly Mr. School Bag lumbered to the witness box with his broken straps and buckles dragging behind him. || The elderly Mr. School Bag lumbered to the witness box with his broken straps and buckles dragging behind him."
+      },
+      {
+        "q": "Why was Mr. School Bag treated like a 'sack of cement'? || திரு. ஸ்கூல் பேக் ஏன் ஒரு சிமெண்ட் மூட்டை போல நடத்தப்பட்டது?",
+        "options": [
+          "He was very heavy || He was very heavy",
+          "He was grey in colour || He was grey in colour",
+          "Mahesh crammed everything in him at the last moment || Mahesh crammed everything in him at the last moment",
+          "He was left on the floor || He was left on the floor"
+        ],
+        "a": 2,
+        "ex": "Instead of packing the night before, Mahesh shoved everything in haphazardly at the last minute. || Instead of packing the night before, Mahesh shoved everything in haphazardly at the last minute."
+      },
+      {
+        "q": "Why did Mahesh throw Master Notebook against the wall? || மகேஷ் மாஸ்டர் நோட்புக்கை ஏன் சுவரில் எறிந்தான்?",
+        "options": [
+          "He was playing a game || He was playing a game",
+          "He failed to solve a tough mathematics problem and vented his anger || He failed to solve a tough mathematics problem and vented his anger",
+          "The notebook was torn || The notebook was torn",
+          "He wanted to hit a bug || He wanted to hit a bug"
+        ],
+        "a": 1,
+        "ex": "Out of frustration from failing to solve a math problem, Mahesh threw the notebook against the wall. || Out of frustration from failing to solve a math problem, Mahesh threw the notebook against the wall."
+      },
+      {
+        "q": "How is the court in the story different from other courts? || கதையில் வரும் நீதிமன்றம் மற்ற நீதிமன்றங்களிலிருந்து எவ்வாறு வேறுபடுகிறது?",
+        "options": [
+          "It is held in a school || It is held in a school",
+          "The judge is a student || The judge is a student",
+          "The punishment is decided by the victims || The punishment is decided by the victims",
+          "There are no lawyers || There are no lawyers"
+        ],
+        "a": 2,
+        "ex": "Justice Mathematics states that in this court, the victims decide the punishment. || Justice Mathematics states that in this court, the victims decide the punishment."
+      },
+      {
+        "q": "What punishment did Master Notebook suggest? || மாஸ்டர் நோட்புக் என்ன தண்டனையை பரிந்துரைத்தது?",
+        "options": [
+          "Biting Mahesh || Biting Mahesh",
+          "Dragging him around the room || Dragging him around the room",
+          "Thrashing him and throwing him against the wall || Thrashing him and throwing him against the wall",
+          "Jumping on him || Jumping on him"
+        ],
+        "a": 2,
+        "ex": "Master Notebook wanted to do to Mahesh exactly what Mahesh had done to him. || Master Notebook wanted to do to Mahesh exactly what Mahesh had done to him."
+      },
+      {
+        "q": "What punishment did Mr. Pencil Box suggest? || திரு. பென்சில் பாக்ஸ் என்ன தண்டனையை பரிந்துரைத்தார்?",
+        "options": [
+          "Locking him in a box || Locking him in a box",
+          "Biting him and letting him see how it feels to be chewed || Biting him and letting him see how it feels to be chewed",
+          "Throwing him away || Throwing him away",
+          "Making him eat pencil shavings || Making him eat pencil shavings"
+        ],
+        "a": 1,
+        "ex": "Since Mahesh chewed on him, Mr. Pencil Box wanted to chew on Mahesh. || Since Mahesh chewed on him, Mr. Pencil Box wanted to chew on Mahesh."
+      },
+      {
+        "q": "Who stopped the mob from attacking Mahesh? || மகேஷைத் தாக்குவதிலிருந்து கும்பலைத் தடுத்தது யார்?",
+        "options": [
+          "Justice Mathematics || Justice Mathematics",
+          "His mother || His mother",
+          "Ms. English || Ms. English",
+          "Mr. Geography || Mr. Geography"
+        ],
+        "a": 2,
+        "ex": "The petite Ms. English intervened and asked the court to give Mahesh a second chance. || The petite Ms. English intervened and asked the court to give Mahesh a second chance."
+      },
+      {
+        "q": "Why did Ms. English argue for a second chance? || திருமதி. இங்கிலீஷ் ஏன் இரண்டாவது வாய்ப்புக்காக வாதிட்டார்?",
+        "options": [
+          "Because she liked Mahesh || Because she liked Mahesh",
+          "Because Mahesh was a child || Because Mahesh was a child",
+          "Because it was Mahesh's first offence || Because it was Mahesh's first offence",
+          "Because she was afraid of the judge || Because she was afraid of the judge"
+        ],
+        "a": 2,
+        "ex": "She believed everyone deserves a second chance, especially since it was his first offense. || She believed everyone deserves a second chance, especially since it was his first offense."
+      },
+      {
+        "q": "What woke Mahesh up from his dream? || மகேஷை அவனது கனவிலிருந்து எழுப்பியது எது?",
+        "options": [
+          "A loud noise || A loud noise",
+          "Justice Mathematics hitting the hammer || Justice Mathematics hitting the hammer",
+          "His mother's hand shaking him || His mother's hand shaking him",
+          "An alarm clock || An alarm clock"
+        ],
+        "a": 2,
+        "ex": "His mother woke him up saying, 'Mahesh, do get up. You will be late for school!' || His mother woke him up saying, 'Mahesh, do get up. You will be late for school!'"
+      },
+      {
+        "q": "What did Mahesh do immediately after waking up? || மகேஷ் விழித்தெழுந்தவுடன் உடனடியாக என்ன செய்தான்?",
+        "options": [
+          "He went to sleep again || He went to sleep again",
+          "He cried || He cried",
+          "He sat down to glue and cover his English book || He sat down to glue and cover his English book",
+          "He packed his bag neatly || He packed his bag neatly"
+        ],
+        "a": 2,
+        "ex": "Touched by Ms. English's kindness in the dream, he immediately started repairing his English book. || Touched by Ms. English's kindness in the dream, he immediately started repairing his English book."
+      },
+      {
+        "q": "What prize did Mahesh win the next year? || அடுத்த ஆண்டு மகேஷ் என்ன பரிசை வென்றான்?",
+        "options": [
+          "First Rank || First Rank",
+          "Best Athlete || Best Athlete",
+          "Best-Looked-After Books || Best-Looked-After Books",
+          "Most Punctual Student || Most Punctual Student"
+        ],
+        "a": 2,
+        "ex": "The dream changed his habits completely, and he won a prize for taking the best care of his books. || The dream changed his habits completely, and he won a prize for taking the best care of his books."
+      },
+      {
+        "q": "What is the meaning of the word 'Ponderous'? || 'Ponderous' என்ற வார்த்தையின் அர்த்தம் என்ன?",
+        "options": [
+          "Light and quick || Light and quick",
+          "Dull and lacking grace || Dull and lacking grace",
+          "Beautiful || Beautiful",
+          "Angry || Angry"
+        ],
+        "a": 1,
+        "ex": "It refers to someone or something that is heavy, slow, and clumsy. || It refers to someone or something that is heavy, slow, and clumsy."
+      },
+      {
+        "q": "What does 'Bedraggled' mean? || 'Bedraggled' என்பதன் அர்த்தம் என்ன?",
+        "options": [
+          "Untidy or messy || Untidy or messy",
+          "Very clean || Very clean",
+          "Expensive || Expensive",
+          "New || New"
+        ],
+        "a": 0,
+        "ex": "The books and notebooks were described as bedraggled because they were dirty and ruined. || The books and notebooks were described as bedraggled because they were dirty and ruined."
+      },
+      {
+        "q": "What is the meaning of 'Frantically'? || 'Frantically' என்பதன் அர்த்தம் என்ன?",
+        "options": [
+          "Calmly || Calmly",
+          "Happily || Happily",
+          "In an uncontrolled manner || In an uncontrolled manner",
+          "Slowly || Slowly"
+        ],
+        "a": 2,
+        "ex": "When the mob advanced, Mahesh looked around frantically (in a panic/uncontrolled way) to hide. || When the mob advanced, Mahesh looked around frantically (in a panic/uncontrolled way) to hide."
+      },
+      {
+        "q": "Who said: 'I intensely dislike such children who do not take proper care of their books'? || 'தங்கள் புத்தகங்களைச் சரியாகப் பராமரிக்காத குழந்தைகளை நான் தீவிரமாக வெறுக்கிறேன்' என்று கூறியது யார்?",
+        "options": [
+          "Mr. School Bag || Mr. School Bag",
+          "Ms. English || Ms. English",
+          "Mahesh's Mother || Mahesh's Mother",
+          "Justice Mathematics || Justice Mathematics"
+        ],
+        "a": 3,
+        "ex": "The judge expressed his severe displeasure at children who ruined their books. || The judge expressed his severe displeasure at children who ruined their books."
+      },
+      {
+        "q": "Who said: 'You have to undo what you have done. Do you understand?' || 'நீங்கள் செய்ததை நீங்கள் சரிசெய்ய வேண்டும். உங்களுக்குப் புரிகிறதா?' என்று கூறியது யார்?",
+        "options": [
+          "Justice Mathematics || Justice Mathematics",
+          "Ms. English || Ms. English",
+          "Mahesh || Mahesh",
+          "Mr. Pencil Box || Mr. Pencil Box"
+        ],
+        "a": 0,
+        "ex": "Justice Mathematics screamed this at Mahesh when he mumbled an apology. || Justice Mathematics screamed this at Mahesh when he mumbled an apology."
+      },
+      {
+        "q": "Which character's 'Contents' page was hanging on its last threads? || எந்தக் கதாபாத்திரத்தின் 'பொருளடக்கம்' (Contents) பக்கம் கிழிந்து தொங்கிக்கொண்டிருந்தது?",
+        "options": [
+          "Ms. English || Ms. English",
+          "Mr. Geography || Mr. Geography",
+          "Master Notebook || Master Notebook",
+          "Mr. Pencil Box || Mr. Pencil Box"
+        ],
+        "a": 1,
+        "ex": "Mr. Geography was in a terrible condition with his cover gone and pages hanging. || Mr. Geography was in a terrible condition with his cover gone and pages hanging."
+      },
+      {
+        "q": "What spilled on the floor when Mr. Pencil Box stood up as a witness? || திரு. பென்சில் பாக்ஸ் சாட்சியாக எழுந்தபோது தரையில் என்ன கொட்டியது?",
+        "options": [
+          "Ink || Ink",
+          "Pencil shavings || Pencil shavings",
+          "Erasers || Erasers",
+          "Broken pencils || Broken pencils"
+        ],
+        "a": 1,
+        "ex": "Because Mahesh never cleaned it, Mr. Pencil Box accidentally opened and spilled shavings on the courtroom floor. || Because Mahesh never cleaned it, Mr. Pencil Box accidentally opened and spilled shavings on the courtroom floor."
+      },
+      {
+        "q": "What is the central theme of the story? || கதையின் மையக் கருத்து என்ன?",
+        "options": [
+          "The importance of studying mathematics || The importance of studying mathematics",
+          "Taking proper care of books and school belongings || Taking proper care of books and school belongings",
+          "How to win a prize in school || How to win a prize in school",
+          "The fear of courtrooms || The fear of courtrooms"
+        ],
+        "a": 1,
+        "ex": "The entire story revolves around Mahesh realizing the importance of maintaining his books properly. || The entire story revolves around Mahesh realizing the importance of maintaining his books properly."
+      }
+    ]
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "code": "rev_6_eng",
+  "title": "திருப்புதல் தேர்வு 6 - ஆங்கிலம்",
+  "quiz": {
+    "questions": [
+      {
+        "question": "Where did the students in the lesson 'Trip to Ooty' go for a trip?",
+        "options": ["Chennai", "Madurai", "Ooty", "Kanyakumari"],
+        "answer": 2,
+        "explanation": "The lesson describes a school trip to the hill station Ooty."
+      },
+      {
+        "question": "What is the famous train called that goes to Ooty?",
+        "options": ["Express Train", "Mountain Train (Toy Train)", "Bullet Train", "Metro"],
+        "answer": 1,
+        "explanation": "The Nilgiri Mountain Railway is famous for its scenic toy train ride."
+      },
+      {
+        "question": "Who wrote the letter to her friend describing the Ooty trip?",
+        "options": ["Merlin", "Mithra", "Meena", "Muthu"],
+        "answer": 0,
+        "explanation": "Merlin wrote a letter to Malli about her wonderful experience."
+      },
+      {
+        "question": "What did the teacher Geetha tell the students not to do in the train?",
+        "options": ["Sing", "Eat", "Hang out of the windows", "Talk"],
+        "answer": 2,
+        "explanation": "Safety is important, so students were told not to stick their heads or hands out."
+      },
+      {
+        "question": "The mountain train moves very ________ because of the steep climb.",
+        "options": ["Fast", "Slowly", "Noiselessly", "Smoothly"],
+        "answer": 1,
+        "explanation": "The train climbs the hills slowly, allowing passengers to enjoy the view."
+      },
+      {
+        "question": "Who is the author of the poem 'From a Railway Carriage'?",
+        "options": ["Robert Louis Stevenson", "Robert Frost", "William Wordsworth", "Shakespeare"],
+        "answer": 0,
+        "explanation": "R.L. Stevenson wrote this poem about the view from a moving train."
+      },
+      {
+        "question": "In the poem 'From a Railway Carriage', the train is faster than ________.",
+        "options": ["Fairies and Witches", "Cars", "Birds", "Horses"],
+        "answer": 0,
+        "explanation": "The poet uses the line 'Faster than fairies, faster than witches'."
+      },
+      {
+        "question": "What is the meaning of the word 'Tramps' in the poem?",
+        "options": ["A person who travels on foot in search of work", "A dancer", "A soldier", "A king"],
+        "answer": 0,
+        "explanation": "A tramp is someone who moves from place to place."
+      },
+      {
+        "question": "In 'Gulliver's Travels', Gulliver was a ________ by profession.",
+        "options": ["King", "Doctor (Surgeon)", "Farmer", "Teacher"],
+        "answer": 1,
+        "explanation": "Lemuel Gulliver was a ship's surgeon who loved traveling."
+      },
+      {
+        "question": "What was the name of the land where people were only six inches tall?",
+        "options": ["Lilliput", "Brobdingnag", "England", "Blefuscu"],
+        "answer": 0,
+        "explanation": "Gulliver landed in Lilliput after a shipwreck."
+      },
+      {
+        "question": "How did the Lilliputians capture Gulliver?",
+        "options": ["They used magic", "They tied him with ropes while he was asleep", "They used a cage", "They fought him"],
+        "answer": 1,
+        "explanation": "Because of his size, they used hundreds of tiny ropes to bind him."
+      },
+      {
+        "question": "What did Gulliver use as a bed in Lilliput?",
+        "options": ["A real bed", "The palace floor", "He slept on the ground", "A giant leaf"],
+        "answer": 1,
+        "explanation": "The Lilliputians provided a place for him in an ancient temple."
+      },
+      {
+        "question": "Gulliver saved Lilliput from the invasion of ________.",
+        "options": ["Lilliputians", "Giant birds", "Blefuscu", "Monsters"],
+        "answer": 2,
+        "explanation": "He pulled the entire enemy fleet of Blefuscu across the sea."
+      },
+      {
+        "question": "Identify the conjunction: 'I like tea ________ I don't like coffee.'",
+        "options": ["and", "but", "or", "so"],
+        "answer": 1,
+        "explanation": "'But' is used to show contrast."
+      },
+      {
+        "question": "Which word is the synonym of 'Frightened'?",
+        "options": ["Happy", "Scared", "Angry", "Brave"],
+        "answer": 1,
+        "explanation": "Frightened means being afraid or scared."
+      },
+      {
+        "question": "Choose the correct preposition: 'The cat is ________ the table.'",
+        "options": ["under", "between", "among", "into"],
+        "answer": 0,
+        "explanation": "'Under' specifies the position of the cat below the table."
+      },
+      {
+        "question": "Identify the adjective: 'It was a beautiful morning in Ooty.'",
+        "options": ["Morning", "Ooty", "Beautiful", "It"],
+        "answer": 2,
+        "explanation": "'Beautiful' describes the quality of the morning."
+      },
+      {
+        "question": "The plural form of 'Leaf' is ________.",
+        "options": ["Leafs", "Leaves", "Leafies", "Leafess"],
+        "answer": 1,
+        "explanation": "Words ending in -f usually change to -ves in plural."
+      },
+      {
+        "question": "What is the past tense of 'Go'?",
+        "options": ["Goes", "Gone", "Went", "Going"],
+        "answer": 2,
+        "explanation": "'Went' is the irregular past tense of go."
+      },
+      {
+        "question": "In the poem 'From a Railway Carriage', what are 'Hedges'?",
+        "options": ["Trees", "Fences made of bushes", "Rivers", "Mountains"],
+        "answer": 1,
+        "explanation": "Hedges are rows of bushes or trees planted close together."
+      },
+      {
+        "question": "What made Merlin scream in the train?",
+        "options": ["A snake", "A monkey tried to grab her banana", "The train stopped", "Her friend pinched her"],
+        "answer": 1,
+        "explanation": "A wild monkey snatched a fruit from her hand."
+      },
+      {
+        "question": "What did Gulliver eat in Lilliput?",
+        "options": ["Nothing", "Thousands of tiny loaves of bread", "One big pizza", "Fruits from a giant tree"],
+        "answer": 1,
+        "explanation": "Lilliputians had to prepare large amounts of their tiny food for him."
+      },
+      {
+        "question": "The word 'Stationary' means ________.",
+        "options": ["Writing materials", "Not moving; fixed in one place", "A place to catch a train", "Moving fast"],
+        "answer": 1,
+        "explanation": "Stationary (with an 'a') means fixed. Stationery (with an 'e') refers to pens/paper."
+      },
+      {
+        "question": "Correct the error: 'She have a pen.'",
+        "options": ["She has a pen", "She had a pen", "She having a pen", "She had pen"],
+        "answer": 0,
+        "explanation": "With third-person singular (He/She/It), we use 'has'."
+      },
+      {
+        "question": "What award did Gulliver receive from the Emperor of Lilliput?",
+        "options": ["A gold medal", "The title of Nardac", "A ship", "A house"],
+        "answer": 1,
+        "explanation": "He was given the highest honor for his help in the war."
+      },
+      {
+        "question": "A group of elephants is called a ________.",
+        "options": ["Pack", "Herd", "Flock", "Pride"],
+        "answer": 1,
+        "explanation": "A 'herd' is the collective noun for elephants."
+      },
+      {
+        "question": "Which of these is a silent letter word?",
+        "options": ["Cat", "Knife", "Bat", "Pen"],
+        "answer": 1,
+        "explanation": "In 'Knife', the 'K' is silent."
+      },
+      {
+        "question": "The word 'Excursion' means ________.",
+        "options": ["A long sleep", "A short trip for pleasure", "A heavy work", "A punishment"],
+        "answer": 1,
+        "explanation": "An excursion is a short journey or outing."
+      },
+      {
+        "question": "Identify the adverb: 'The train moved slowly.'",
+        "options": ["The", "Train", "Moved", "Slowly"],
+        "answer": 3,
+        "explanation": "'Slowly' describes how the train moved (the verb)."
+      },
+      {
+        "question": "Who was Gulliver's friend in Lilliput who warned him about the conspiracy?",
+        "options": ["The King", "A courtier", "The Queen", "A soldier"],
+        "answer": 1,
+        "explanation": "A loyal friend informed him that the Emperor planned to blind him."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "title": "Revision Notes: Exam 6 - English",
+      "content": [
+        "**1. Trip to Ooty:** A prose describing a school trip on the Nilgiri Mountain Railway. Highlights travel experience and nature.",
+        "**2. From a Railway Carriage:** R.L. Stevenson's poem capturing the fast-moving scenes visible from a train window (hedges, ditches, tramps).",
+        "**3. Gulliver's Travels:** Jonathan Swift's classic about Gulliver in Lilliput, the land of tiny people. Deals with size, perspective, and help.",
+        "**4. Grammar:** Usage of Adjectives, Adverbs (Slowly), Conjunctions (But), and Prepositions (Under). Irregular plurals (Leaves) and past tense (Went).",
+        "**5. Vocabulary:** Synonyms (Frightened/Scared), Collective nouns (Herd), and homophones (Stationary/Stationery)."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "unit": "Lesson 9",
+  "subject": "English",
+  "class": "6",
+  "term": 1,
+  "title": "Supplementary: Stone Soup",
+  "summary": "In this clever folk tale, a hungry traveller teaches a stingy and unhappy village the value of sharing by convincing them to contribute ingredients to a 'magic' soup made from a simple stone.",
+  "sections": [
+    {
+      "title": "1. Story Overview (கதைச் சுருக்கம்)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          { "question": "Who came to the village one day? / ஒரு நாள் கிராமத்திற்கு வந்தது யார்?", "answer": "A [[traveller]]" },
+          { "question": "How was the traveller feeling? / பயணி எப்படி உணர்ந்தார்?", "answer": "[[Tired]] and [[hungry]]" },
+          { "question": "How did the village appear to the traveller? / கிராமம் பயணிக்கு எப்படித் தோன்றியது?", "answer": "[[Dark]] and [[unhappy]]" },
+          { "question": "What did the woman say when the traveller asked for food? / பயணி உணவு கேட்டபோது அந்தப் பெண் என்ன சொன்னாள்?", "answer": "There is [[no food]] here" },
+          { "question": "What was the traveller's plan to get food? / உணவைப் பெற பயணியின் திட்டம் என்ன?", "answer": "To make [[stone soup]]" },
+          { "question": "What did the traveller pick from the ground? / தரையிலிருந்து பயணி எதை எடுத்தார்?", "answer": "A large, [[round stone]]" },
+          { "question": "What was the woman's first reaction to 'Stone Soup'? / 'கல் சூப்' பற்றி அந்தப் பெண்ணின் முதல் எதிர்வினை என்ன?", "answer": "She [[laughed]]" },
+          { "question": "What did the woman provide first to start the soup? / சூப் செய்ய அந்தப் பெண் முதலில் எதைக் கொடுத்தாள்?", "answer": "[[Pot of water]] and [[fire]]" },
+          { "question": "What two things did the traveller ask for to make the boiling water better? / கொதிக்கும் நீரை இன்னும் சுவையாக்க பயணி கேட்ட இரண்டு பொருட்கள் எவை?", "answer": "[[Salt]] and [[butter]]" },
+          { "question": "What did the husband bring home in a bag? / கணவர் பையில் வீட்டிற்கு கொண்டு வந்தது என்ன?", "answer": "[[Onions]] and [[potatoes]]" }
+        ]
+      }
+    },
+    {
+      "title": "2. The Ingredients Sequence (சேர்க்கப்பட்ட பொருட்கள்)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          { "question": "The first base of the soup was?", "answer": "[[Water]] and a [[Stone]]" },
+          { "question": "Added after water boiled for basic taste?", "answer": "[[Salt]] and [[Butter]]" },
+          { "question": "The husband added these vegetables?", "answer": "[[Onions]] and [[Potatoes]]" },
+          { "question": "The neighbour watching from the window brought?", "answer": "[[Carrots]] and [[Beans]]" },
+          { "question": "The last main ingredient added by the farmer was?", "answer": "[[Chicken]]" },
+          { "question": "How did the traveller describe the soup after adding chicken?", "answer": "[[Perfect!]]" },
+          { "question": "The smell of the soup drifted down the...?", "answer": "[[Street]]" },
+          { "question": "Who shared the soup at the end?", "answer": "[[Every villager]]" },
+          { "question": "What did the villagers think the stone was?", "answer": "[[Magic]]" },
+          { "question": "Was the stone used up or still whole?", "answer": "Still [[whole]]" }
+        ]
+      }
+    },
+    {
+      "title": "3. Characters & Speakers (யார் கூறியது?)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          { "question": "Who said: 'There is no food here'?", "answer": "The [[Woman]]" },
+          { "question": "Who said: 'What are you making'?", "answer": "The woman's [[Husband]]" },
+          { "question": "Who said: 'I have chicken'?", "answer": "The [[Farmer]]" },
+          { "question": "Who said: 'Perfect'?", "answer": "The [[Traveller]]" },
+          { "question": "Who said: 'I have some (carrots and beans)'?", "answer": "The [[Neighbour]]" },
+          { "question": "Who said: 'Stone soup? You can’t make soup from a stone!'?", "answer": "The [[Woman]]" },
+          { "question": "Who realized the soup didn't come from the stone?", "answer": "The [[Villagers]]" },
+          { "question": "What did the village become at the end?", "answer": "A [[happy place]]" },
+          { "question": "What did the villagers start doing after that day?", "answer": "They [[shared]] what they had" },
+          { "question": "The traveller left after drinking the...?", "answer": "[[Leftover soup]]" }
+        ]
+      }
+    },
+    {
+      "title": "4. Paddy Cultivation Steps (நெற்பயிர் சாகுபடி)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          { "question": "Manure is given to paddy plants after? / நெற்பயிர்களுக்கு உரம் எப்போது இடப்படுகிறது?", "answer": "[[100 days]]" },
+          { "question": "The ripening phase of paddy takes? / நெல் முதிர்ச்சியடையும் நிலை எவ்வளவு காலம் எடுக்கும்?", "answer": "[[30 days]]" },
+          { "question": "How many days are needed to mill the rice? / நெல்லை அரைக்க எத்தனை நாட்கள் தேவை?", "answer": "[[10 days]]" },
+          { "question": "After drying, the rice grains are? / உலர்த்திய பின் நெல் மணிகள் என்ன செய்யப்படுகின்றன?", "answer": "[[Stored]]" },
+          { "question": "How many days should we dry the grains before boiling? / அவிப்பதற்கு முன் தானியங்களை எத்தனை நாட்கள் உலர்த்த வேண்டும்?", "answer": "[[3 days]]" },
+          { "question": "The vegetative phase takes how many days? / வளர்ச்சி நிலை எத்தனை நாட்கள் எடுக்கும்?", "answer": "[[45 days]]" },
+          { "question": "The reproductive phase (flowering) takes? / இனப்பெருக்க நிலை (பூத்தல்) எவ்வளவு காலம் எடுக்கும்?", "answer": "[[30 days]]" },
+          { "question": "Total days for ripening phase? / முதிர்வு நிலையின் மொத்த நாட்கள்?", "answer": "[[30 days]]" },
+          { "question": "What is done for 10 days after ripening? / முதிர்ச்சிக்குப் பிறகு 10 நாட்களுக்கு என்ன செய்யப்படுகிறது?", "answer": "[[Harvesting]]" },
+          { "question": "What is done for 3 days after harvesting? / அறுவடைக்குப் பிறகு 3 நாட்களுக்கு என்ன செய்யப்படுகிறது?", "answer": "[[Drying]]" }
+        ]
+      }
+    },
+    {
+      "title": "5. Vocabulary & Logical Steps (சொற்களும் அறிவாற்றலும்)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          { "question": "The word 'Drifted' in the story means?", "answer": "[[Moved slowly]] (smell)" },
+          { "question": "The word 'Plentiful' means?", "answer": "[[Large amount]]" },
+          { "question": "Which is the odd one: Garlic, Sesame, Mustard, Olive, Corn?", "answer": "[[Corn]] (Others are oilseeds/spices)" },
+          { "question": "Identify the logic: JANUARY -> KBOVBSZ. Then OCTOBER -> ?", "answer": "[[PDUPCFS]] (Next letter)" },
+          { "question": "What did the traveller teach the village?", "answer": "The art of [[sharing]]" },
+          { "question": "Why were the villagers unhappy at first?", "answer": "They were [[not friendly]] or sharing" },
+          { "question": "What was the pot placed on?", "answer": "On top of the [[fire]]" },
+          { "question": "How did the traveller taste the soup?", "answer": "Using a [[spoon]]" },
+          { "question": "The story title 'Stone Soup' refers to?", "answer": "A [[trick]] to promote sharing" }
+        ]
+      }
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "question": "The traveller picked a _______ stone from the ground.",
+        "options": ["Small, square", "Large, round", "Tiny, flat", "Sharp, black"],
+        "answer": 1
+      },
+      {
+        "question": "What was the villagers' main problem in the story?",
+        "options": ["No water", "Not sharing with each other", "A dragon", "Too much rain"],
+        "answer": 1
+      }
+    ]
+  },
+  "credits": "A1 ONLINE COACHING CENTER"
+}

@@ -1,0 +1,60 @@
+{
+  "isBilingual": true,
+  "unit": "Unit 5",
+  "subject": "Maths",
+  "class": "6",
+  "term": 2,
+  "title": "Information Processing (தகவல் செயலாக்கம்)",
+  "summary": "இப்பாடம் தரவுகளைச் சேகரித்தல், முறைப்படுத்தப்பட்ட பட்டியல்கள், மரவுரு வரைபடங்கள் மற்றும் மிகக் குறுகிய பாதையைக் கண்டறிதல் பற்றி விளக்குகிறது.",
+  "material": {
+    "isBilingual": true,
+    "sections": [
+      {
+        "title": "5.1 அறிமுகம் (Introduction)",
+        "type": "bilingual",
+        "en": [
+          "Information processing involves collecting data, organizing it, and making logical decisions based on the analysis.",
+          "It helps in exploring all possible ways to perform a task and choosing the best and simplest one.",
+          "It is used in solving puzzles and finding out various possibilities in mathematics."
+        ],
+        "ta": [
+          "தகவல் செயலாக்கம் என்பது பல்வேறு தரவுகளை (Data) சேகரித்து, அவற்றை முறைப்படுத்தி, சரியான முடிவுகளை எடுப்பதற்கான வழிமுறைகளை அறிவதாகும்.",
+          "ஒரு செயலைச் செய்வதற்கு முன், அதற்கான அனைத்து வழிகளையும் ஆராய்ந்து சிறந்ததைத் தேர்ந்தெடுக்க இது உதவுகிறது.",
+          "கணிதத்தில் புதிர்களை விடுவிக்கவும், பல்வேறு சாத்தியக்கூறுகளைக் கண்டறியவும் இது பயன்படுகிறது."
+        ]
+      },
+      {
+        "title": "5.2 முறைப்படுத்தப்பட்ட பட்டியல் (Systematic Listing)",
+        "type": "bilingual",
+        "en": [
+          "Systematic Listing: Listing all possible outcomes of an event in a sequence without repetition or omission.",
+          "Example: Calculating combinations of outfits (2 shirts × 3 pants = 6 ways) or forming numbers using given digits.",
+          "Tree Diagram: A visual diagram starting from a root and branching out to show all possibilities of a situation."
+        ],
+        "ta": [
+          "முறைப்படுத்தப்பட்ட பட்டியல்: ஒரு நிகழ்வு நடைபெறுவதற்கான 'அனைத்து சாத்தியமான வழிகளையும்' விடுபடாமலும் திரும்ப வராமலும் பட்டியலிடும் முறையாகும்.",
+          "எடுத்துக்காட்டு: 2 சட்டைகள் + 3 பேண்ட்கள் = 6 வழிகள். இலக்கங்களைக் கொண்டு எண்களை உருவாக்குதல் போன்றவற்றை இதில் பட்டியலிடலாம்.",
+          "மரவுரு வரைபடம்: தரவுகளின் ஒவ்வொரு சாத்தியக்கூறுகளையும் மரத்தின் கிளைகள் போலப் பிரித்துக் காட்டும் வரைபடமாகும்."
+        ]
+      },
+      {
+        "title": "5.3 தேர்வு செய்தல் மற்றும் குறுக்கு வழிகள் (Selection and Shortcuts)",
+        "type": "bilingual",
+        "en": [
+          "Selection: Picking items from a group based on specific conditions (e.g., choosing 2 colors from 5 options).",
+          "Shortest Route: Analyzing a map to find the path with the minimum total distance between two points.",
+          "Puzzles: Sudoku (filling digits 1-9 in rows/columns without repetition) and Magic Squares (sum of numbers in rows/columns/diagonals are equal)."
+        ],
+        "ta": [
+          "தேர்வு செய்தல்: குறிப்பிட்ட நிபந்தனையின் அடிப்படையில் சில பொருள்களைத் தேர்ந்தெடுப்பது.",
+          "மிகக் குறுகிய பாதை: ஒரு இடத்திலிருந்து மற்றொரு இடத்திற்குச் செல்லப் பல வழிகளில் குறைவான தூரம் (Shortest distance) கொண்ட பாதையைத் தேர்ந்தெடுப்பது.",
+          "புதிர்கள்: சுடோகு (Sudoku - எண்கள் மீண்டும் வராதவாறு நிரப்புதல்) மற்றும் மாயச்சதுரம் (எல்லா திசைகளிலும் கூடுதல் சமமாக வரும் கட்டம்)."
+        ]
+      }
+    ]
+  },
+  "quiz": {
+    "questions": []
+  },
+  "credits": "A1 ONLINE COACHING CENTER"
+}

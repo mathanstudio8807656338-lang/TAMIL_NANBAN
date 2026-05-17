@@ -1,0 +1,789 @@
+{
+  "lesson_meta": {
+    "title": "A Childhood in Malabar: A Memoir",
+    "unit": 3,
+    "std": 6,
+    "term": "3",
+    "subject": "English",
+    "grade": "6",
+    "code": "eng_6_t3_l3"
+  },
+  "sections": [
+    {
+      "title": "1. பாடச் சுருக்கம் (Full Summary of the Lesson)",
+      "type": "infobox",
+      "content": [
+        {
+          "text": "This story is an excerpt from Kamala Das's memoir, describing a terrifying storm/cyclone that hit her ancestral home in Malabar."
+        },
+        {
+          "text": "The story begins with the family noticing the sky darkening and the wind picking up. Ammamma, sensing a cyclone, gathers everyone in the middle room upstairs."
+        },
+        {
+          "text": "As the storm intensifies with a 'roar like a vast crowd', the family moves to the 'thekkini' (southern room) downstairs, which is considered to have the strongest ceiling."
+        },
+        {
+          "text": "The author describes the chaos: a coconut palm crashing down, the courtyard (nalukettu) flooding with ice-cold water, and the sound of trees falling."
+        },
+        {
+          "text": "Characters like Meenakshi Edathi, though a distant relative, are depicted as indispensable to the family's daily happiness."
+        },
+        {
+          "text": "Ammayi (Kutti Oppu) arrives drenched and brave, despite the thunder and lightning. Even Thumbi, the pet dog, seeks shelter on the verandah."
+        },
+        {
+          "text": "The night is spent in fear and prayer. A servant woman wails in fear of never seeing her family again."
+        },
+        {
+          "text": "By morning, the rain stops. A young man named Balan arrives after wading through waist-high water to check on them, reporting the devastation of huts and trees in the village."
+        },
+        {
+          "text": "The story ends with the author feeling ashamed for asking about 'murukkus and dates' when others had lost so much in the storm."
+        }
+      ]
+    },
+    {
+      "title": "2. கூடுதல் பகுதிகள் மற்றும் குறிப்புகள் (Additional Notes)",
+      "type": "infobox",
+      "content": [
+        {
+          "text": "Cultural Context: The story uses Malayalam kinship terms, giving us a glimpse into the traditional 'Nalukettu' houses of Kerala."
+        },
+        {
+          "text": "The Thekkini: The southern room of the house, usually used for storage or as a safe room during storms."
+        },
+        {
+          "text": "Nalukettu: A traditional style of architecture with a central courtyard and four wooden pillars."
+        },
+        {
+          "text": "The impact of nature: The story highlights the power of a cyclone and the human-animal bond (Thumbi the dog getting shelter)."
+        }
+      ]
+    },
+    {
+      "title": "3. அறிந்து கொள்வோம் (Malayalam Kinship Terms)",
+      "type": "infobox",
+      "content": [
+        {
+          "text": "Edathi - Brother's wife (அண்ணி)"
+        },
+        {
+          "text": "Ettan - Elder brother (அண்ணன்)"
+        },
+        {
+          "text": "Ammamma - Mother's mother (தாய் வழி பாட்டி)"
+        },
+        {
+          "text": "Muthassi - Father's mother (தந்தை வழி பாட்டி)"
+        },
+        {
+          "text": "Ammayi - Mother-in-law / Aunt (அத்தை)"
+        },
+        {
+          "text": "Cheriamma - Mother's younger sister (சித்தி)"
+        },
+        {
+          "text": "Kochu / Kutti Oppu - Nicknames used for younger sisters or cousins."
+        }
+      ]
+    },
+    {
+      "title": "4. அருஞ்சொற்பொருள் (Glossary)",
+      "type": "infobox",
+      "content": [
+        {
+          "text": "Glimmered - Shone with a faint light (மங்கலாக மின்னியது)"
+        },
+        {
+          "text": "Slammed - Shut with force (வேகமாக சாத்தப்பட்டது)"
+        },
+        {
+          "text": "Sob - Cry noisily (விம்மி அழுவது)"
+        },
+        {
+          "text": "Collapse - Fall down suddenly (இடிந்து விழுதல்)"
+        },
+        {
+          "text": "Make-shift - Temporary (தற்காலிகமான)"
+        },
+        {
+          "text": "Drenched - Completely wet (முழுவதுமாக நனைந்தது)"
+        },
+        {
+          "text": "Wail - A long high-pitched cry (புலம்பல்/அலறல்)"
+        },
+        {
+          "text": "Casualties - People killed or injured (உயிரிழப்புகள்/சேதங்கள்)"
+        },
+        {
+          "text": "Mundu - A traditional garment worn around the waist (வேட்டி போன்ற ஆடை)"
+        }
+      ]
+    },
+    {
+      "title": "5. நினைவில் கொள்க (Key Points for Exams)",
+      "type": "infobox",
+      "content": [
+        {
+          "text": "The story took place in a village in Malabar, Kerala."
+        },
+        {
+          "text": "The storm started around 4 PM when it became pitch dark."
+        },
+        {
+          "text": "The family took shelter in the 'thekkini' because of its strong ceiling."
+        },
+        {
+          "text": "Sankaran Nair was the person who checked on the cows and the yard."
+        },
+        {
+          "text": "Thumbi was the pet dog from Ambazhathel family."
+        },
+        {
+          "text": "Balan from Vadekkara was the first to visit after the storm."
+        }
+      ]
+    },
+    {
+      "title": "A. Identify the Character/Speaker",
+      "type": "infobox",
+      "content": [
+        {
+          "text": "1. 'Why isn’t the snake coming?' - Meenakshi Edathi"
+        },
+        {
+          "text": "2. 'I wonder whether it’s a cyclone.' - Ammamma"
+        },
+        {
+          "text": "3. 'I want to see kutti oppu.' - Malathikutty"
+        },
+        {
+          "text": "4. 'Will the house collapse?' - Muthassi"
+        },
+        {
+          "text": "5. 'Is she crazy?' - Muthassi"
+        }
+      ]
+    },
+    {
+      "title": "B. True or False",
+      "type": "infobox",
+      "content": [
+        {
+          "text": "1. Droplets of rain glimmered on Ammamma’s face. (True)"
+        },
+        {
+          "text": "2. Malathikutty wanted to see kutti oppu. (True)"
+        },
+        {
+          "text": "3. Ammayi comforted Malathikutty when she sobbed. (False - Ammamma comforted her initially)"
+        },
+        {
+          "text": "4. The coconut palm crashed down due to heavy rain. (True)"
+        }
+      ]
+    },
+    {
+      "title": "C. Choose the Correct Answer",
+      "type": "infobox",
+      "content": [
+        {
+          "text": "1. Meenakshi Edathi was a _______ relative of the Ambazhathel family. (Answer: b. distant)"
+        },
+        {
+          "text": "2. We suddenly heard the sound of the rain from the __________ like a roar. (Answer: b. southwest)"
+        },
+        {
+          "text": "3. The ________ with four pillars began to overflow. (Answer: a. central hall)"
+        },
+        {
+          "text": "4. __________ arrived drenched to the skin. (Answer: c. Ammayi)"
+        },
+        {
+          "text": "5. There was knee-deep water in the ________. (Answer: a. courtyard)"
+        }
+      ]
+    },
+    {
+      "title": "D. Steps to Success - Weather/Climate/Season",
+      "type": "infobox",
+      "content": [
+        {
+          "text": "1. Weather forecast is useful for farmers, fishermen, and navigators."
+        },
+        {
+          "text": "2. The climate of a place is permanent in nature."
+        },
+        {
+          "text": "3. India has a tropical monsoon climate."
+        },
+        {
+          "text": "4. Spring, Summer, autumn and winter are the four seasons."
+        },
+        {
+          "text": "5. Global warming is a change in the world's climate."
+        },
+        {
+          "text": "6. Satellite photographs help us predict tomorrow’s weather."
+        },
+        {
+          "text": "7. Spring is my favourite season."
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "Who is the author of the lesson 'A Childhood in Malabar'? || Who is the author of the lesson 'A Childhood in Malabar'?",
+        "options": [
+          "Nisha Dygrine || Nisha Dygrine",
+          "Kamala Das || Kamala Das",
+          "Ruskin Bond || Ruskin Bond",
+          "R.K. Narayan || R.K. Narayan"
+        ],
+        "a": 1,
+        "ex": "This lesson is an excerpt from the memoirs of the famous Indian writer Kamala Das. || This lesson is an excerpt from the memoirs of the famous Indian writer Kamala Das."
+      },
+      {
+        "q": "In which direction did the family first hear the roar of the rain? || In which direction did the family first hear the roar of the rain?",
+        "options": [
+          "South-east || South-east",
+          "North-west || North-west",
+          "South-west || South-west",
+          "North-east || North-east"
+        ],
+        "a": 2,
+        "ex": "The story mentions hearing the sound of rain from the south-west like the roar of a vast crowd. || The story mentions hearing the sound of rain from the south-west like the roar of a vast crowd."
+      },
+      {
+        "q": "Where did Ammamma ask everyone to sit initially? || Where did Ammamma ask everyone to sit initially?",
+        "options": [
+          "Kitchen || Kitchen",
+          "Middle room upstairs || Middle room upstairs",
+          "Southern room downstairs || Southern room downstairs",
+          "Cowshed || Cowshed"
+        ],
+        "a": 1,
+        "ex": "Initially, they gathered in the middle room upstairs and played with metal dice. || Initially, they gathered in the middle room upstairs and played with metal dice."
+      },
+      {
+        "q": "What was the name of the pet dog that came to the verandah? || What was the name of the pet dog that came to the verandah?",
+        "options": [
+          "Sankara || Sankara",
+          "Thumbi || Thumbi",
+          "Balan || Balan",
+          "Kochu || Kochu"
+        ],
+        "a": 1,
+        "ex": "Thumbi was the black-and-white pet dog from Ambazhathel who came in drenched. || Thumbi was the black-and-white pet dog from Ambazhathel who came in drenched."
+      },
+      {
+        "q": "Why was the 'thekkini' chosen as the final shelter? || Why was the 'thekkini' chosen as the final shelter?",
+        "options": [
+          "It was the biggest room || It was the biggest room",
+          "It was near the kitchen || It was near the kitchen",
+          "It had the strongest ceiling || It had the strongest ceiling",
+          "It was upstairs || It was upstairs"
+        ],
+        "a": 2,
+        "ex": "Ammaman’s mother instructed them to move there because it was the safest room. || Ammaman’s mother instructed them to move there because it was the safest room."
+      },
+      {
+        "q": "What did the dry leaves do when the storm began? || What did the dry leaves do when the storm began?",
+        "options": [
+          "They turned green || They turned green",
+          "They swirled upwards || They swirled upwards",
+          "They stayed still || They stayed still",
+          "They flew into the kitchen || They flew into the kitchen"
+        ],
+        "a": 1,
+        "ex": "The text says the dry leaves collected around the pond swirled upwards. || The text says the dry leaves collected around the pond swirled upwards."
+      },
+      {
+        "q": "What does the word 'thekkini' mean in English? || What does the word 'thekkini' mean in English?",
+        "options": [
+          "Front yard || Front yard",
+          "Southern room || Southern room",
+          "Kitchen balcony || Kitchen balcony",
+          "Upstairs bedroom || Upstairs bedroom"
+        ],
+        "a": 1,
+        "ex": "According to the glossary, thekkini refers to the southern room of the house. || According to the glossary, thekkini refers to the southern room of the house."
+      },
+      {
+        "q": "What time did Ammamma say it was when it became 'pitch dark' outside? || What time did Ammamma say it was when it became 'pitch dark' outside?",
+        "options": [
+          "Not even four || Not even four",
+          "Exactly six || Exactly six",
+          "Around noon || Around noon",
+          "Late night || Late night"
+        ],
+        "a": 0,
+        "ex": "Ammamma remarked that it wasn't even 4 PM but was already dark outside. || Ammamma remarked that it wasn't even 4 PM but was already dark outside."
+      },
+      {
+        "q": "Who arrived at the house 'drenched to the skin' during the lightning? || Who arrived at the house 'drenched to the skin' during the lightning?",
+        "options": [
+          "Meenakshi Edathi || Meenakshi Edathi",
+          "Ammayi (Kutti Oppu) || Ammayi (Kutti Oppu)",
+          "Balan || Balan",
+          "Sankaran Nair || Sankaran Nair"
+        ],
+        "a": 1,
+        "ex": "Ammayi arrived unmindful of the thunder and lightning, completely wet. || Ammayi arrived unmindful of the thunder and lightning, completely wet."
+      },
+      {
+        "q": "What activity did Cheriamma suggest to help forget the fear? || What activity did Cheriamma suggest to help forget the fear?",
+        "options": [
+          "Playing with dice || Playing with dice",
+          "Cooking snacks || Cooking snacks",
+          "Chanting aksharaslokams || Chanting aksharaslokams",
+          "Swimming in the courtyard || Swimming in the courtyard"
+        ],
+        "a": 2,
+        "ex": "Cheriamma suggested reciting verses (aksharaslokams) to distract everyone from the storm. || Cheriamma suggested reciting verses (aksharaslokams) to distract everyone from the storm."
+      },
+      {
+        "q": "What was the 'nalukettu' mentioned in the story? || What was the 'nalukettu' mentioned in the story?",
+        "options": [
+          "A type of boat || A type of boat",
+          "A central hall with four pillars || A central hall with four pillars",
+          "A heavy rainfall || A heavy rainfall",
+          "A traditional dish || A traditional dish"
+        ],
+        "a": 1,
+        "ex": "Nalukettu is a traditional Kerala house design with a central open courtyard. || Nalukettu is a traditional Kerala house design with a central open courtyard."
+      },
+      {
+        "q": "Who was the servant woman's favorite god she called out to? || Who was the servant woman's favorite god she called out to?",
+        "options": [
+          "Sankara || Sankara",
+          "Guruvayoorappa || Guruvayoorappa",
+          "Thumbi || Thumbi",
+          "Vallathol || Vallathol"
+        ],
+        "a": 1,
+        "ex": "In her panic, she wailed calling 'My Guruvayoorappa!'. || In her panic, she wailed calling 'My Guruvayoorappa!'."
+      },
+      {
+        "q": "Analogy: Ammamma : Mother's mother :: Muthassi : ? || Analogy: Ammamma : Mother's mother :: Muthassi : ?",
+        "options": [
+          "Mother's sister || Mother's sister",
+          "Father's mother || Father's mother",
+          "Elder brother || Elder brother",
+          "Aunt || Aunt"
+        ],
+        "a": 1,
+        "ex": "In Malayalam, Muthassi is used for the father's mother. || In Malayalam, Muthassi is used for the father's mother."
+      },
+      {
+        "q": "Assertion (A): The family moved to the southern room downstairs.\nReason (R): The southern room had the strongest ceiling to protect them. || Assertion (A): The family moved to the southern room downstairs.\nReason (R): The southern room had the strongest ceiling to protect them.",
+        "options": [
+          "Both A and R are true, and R explains A || Both A and R are true, and R explains A",
+          "Both A and R are true, but R does not explain A || Both A and R are true, but R does not explain A",
+          "A is true, but R is false || A is true, but R is false",
+          "A is false, but R is true || A is false, but R is true"
+        ],
+        "a": 0,
+        "ex": "The reason why they moved to the thekkini was its structural strength during the cyclone. || The reason why they moved to the thekkini was its structural strength during the cyclone."
+      },
+      {
+        "q": "What did Sankaran Nair check regarding the cowshed? || What did Sankaran Nair check regarding the cowshed?",
+        "options": [
+          "If it was empty || If it was empty",
+          "If the beams were strong enough || If the beams were strong enough",
+          "If the cows were hungry || If the cows were hungry",
+          "If the gate was locked || If the gate was locked"
+        ],
+        "a": 1,
+        "ex": "He checked the cowshed and said the beams were strong, so it wouldn't fall. || He checked the cowshed and said the beams were strong, so it wouldn't fall."
+      },
+      {
+        "q": "What was the color of the pet dog Thumbi? || What was the color of the pet dog Thumbi?",
+        "options": [
+          "Pure white || Pure white",
+          "Golden brown || Golden brown",
+          "Black-and-white || Black-and-white",
+          "Entirely black || Entirely black"
+        ],
+        "a": 2,
+        "ex": "The text describes Thumbi as the black-and-white pet dog. || The text describes Thumbi as the black-and-white pet dog."
+      },
+      {
+        "q": "How high was the water at the gate when Balan arrived in the morning? || How high was the water at the gate when Balan arrived in the morning?",
+        "options": [
+          "Ankle-high || Ankle-high",
+          "Waist-high || Waist-high",
+          "Knee-high || Knee-high",
+          "Over the head || Over the head"
+        ],
+        "a": 1,
+        "ex": "A young man (Balan) stood smiling in waist-high water at the gate. || A young man (Balan) stood smiling in waist-high water at the gate."
+      },
+      {
+        "q": "Why did the author hang her head in shame at the end? || Why did the author hang her head in shame at the end?",
+        "options": [
+          "Because she broke a glass || Because she broke a glass",
+          "Because she asked for snacks despite the tragedy || Because she asked for snacks despite the tragedy",
+          "Because she didn't help Ammamma || Because she didn't help Ammamma",
+          "Because she was afraid of the rain || Because she was afraid of the rain"
+        ],
+        "a": 1,
+        "ex": "When Balan reported deaths of animals and destruction, the author asked for murukkus, making her feel ashamed. || When Balan reported deaths of animals and destruction, the author asked for murukkus, making her feel ashamed."
+      },
+      {
+        "q": "Match the characters with their actions:\n1. Sankaran Nair - a. Arrived drenched\n2. Ammayi - b. Checked the cowshed\n3. Balan - c. Waded through water at dawn || Match the characters with their actions:\n1. Sankaran Nair - a. Arrived drenched\n2. Ammayi - b. Checked the cowshed\n3. Balan - c. Waded through water at dawn",
+        "options": [
+          "1-b, 2-a, 3-c || 1-b, 2-a, 3-c",
+          "1-a, 2-b, 3-c || 1-a, 2-b, 3-c",
+          "1-c, 2-a, 3-b || 1-c, 2-a, 3-b",
+          "1-b, 2-c, 3-a || 1-b, 2-c, 3-a"
+        ],
+        "a": 0,
+        "ex": "Sankaran checked the shed, Ammayi arrived wet, and Balan waded through the water. || Sankaran checked the shed, Ammayi arrived wet, and Balan waded through the water."
+      },
+      {
+        "q": "Which plant is mentioned to have crashed down during the storm? || Which plant is mentioned to have crashed down during the storm?",
+        "options": [
+          "Mango tree || Mango tree",
+          "Neem tree || Neem tree",
+          "Coconut palm || Coconut palm",
+          "Banana plant || Banana plant"
+        ],
+        "a": 2,
+        "ex": "They heard a coconut palm crashing down, which made Muthassi worry about the house. || They heard a coconut palm crashing down, which made Muthassi worry about the house."
+      },
+      {
+        "q": "What is the meaning of the word 'mundu'? || What is the meaning of the word 'mundu'?",
+        "options": [
+          "A type of food || A type of food",
+          "A traditional garment || A traditional garment",
+          "A Malayalam month || A Malayalam month",
+          "A heavy storm || A heavy storm"
+        ],
+        "a": 1,
+        "ex": "Mundu is the traditional white garment/dhoti worn in Kerala. || Mundu is the traditional white garment/dhoti worn in Kerala."
+      },
+      {
+        "q": "Identify the incorrect pair based on the glossary: || Identify the incorrect pair based on the glossary:",
+        "options": [
+          "Ettan - Elder brother || Ettan - Elder brother",
+          "Edathi - Elder sister || Edathi - Elder sister",
+          "Ammamma - Mother's mother || Ammamma - Mother's mother",
+          "Cheriamma - Chitti || Cheriamma - Chitti"
+        ],
+        "a": 1,
+        "ex": "According to the text glossary, Edathi means Brother's wife (Anni). || According to the text glossary, Edathi means Brother's wife (Anni)."
+      },
+      {
+        "q": "What kind of 'memorial' or 'record' does a fact file on energy resources create? || What kind of 'memorial' or 'record' does a fact file on energy resources create?",
+        "options": [
+          "Casualty report || Casualty report",
+          "Fact file || Fact file",
+          "Weather report || Weather report",
+          "Memoir || Memoir"
+        ],
+        "a": 1,
+        "ex": "The project section G asks to make a fact file on energy resources. || The project section G asks to make a fact file on energy resources."
+      },
+      {
+        "q": "According to the 'Steps to Success' section, which of these is permanent in nature? || According to the 'Steps to Success' section, which of these is permanent in nature?",
+        "options": [
+          "Weather || வானிலை (Weather)",
+          "Season || Season",
+          "Climate || காலநிலை (Climate)",
+          "Forecast || Forecast"
+        ],
+        "a": 2,
+        "ex": "The climate of a place is generally permanent and stable compared to daily weather. || The climate of a place is generally permanent and stable compared to daily weather."
+      },
+      {
+        "q": "What helps scientists predict tomorrow's weather? || What helps scientists predict tomorrow's weather?",
+        "options": [
+          "Books || Books",
+          "Satellite photographs || Satellite photographs",
+          "Metal dice || Metal dice",
+          "Old stories || Old stories"
+        ],
+        "a": 1,
+        "ex": "Satellite photographs help us predict tomorrow’s weather. || Satellite photographs help us predict tomorrow’s weather."
+      },
+      {
+        "q": "Situation: If you are in a house during a cyclone, what is the best thing to do according to the lesson? || Situation: If you are in a house during a cyclone, what is the best thing to do according to the lesson?",
+        "options": [
+          "Run outside to watch trees fall || Run outside to watch trees fall",
+          "Sit in a room with a strong ceiling and stay quiet || Sit in a room with a strong ceiling and stay quiet",
+          "Swim in the flooded courtyard || Swim in the flooded courtyard",
+          "Stand near the windows to see Kutti Oppu || Stand near the windows to see Kutti Oppu"
+        ],
+        "a": 1,
+        "ex": "Ammamma advised everyone to sit quietly and pray in the safest part of the house. || Ammamma advised everyone to sit quietly and pray in the safest part of the house."
+      },
+      {
+        "q": "What did the servant woman take refuge in? || What did the servant woman take refuge in?",
+        "options": [
+          "The kitchen || The kitchen",
+          "The thekkini || The thekkini",
+          "A makeshift toilet adjacent to the room || A makeshift toilet adjacent to the room",
+          "The upstairs bedroom || The upstairs bedroom"
+        ],
+        "a": 2,
+        "ex": "The servant woman took refuge in the makeshift toilet adjacent to the thekkini. || The servant woman took refuge in the makeshift toilet adjacent to the thekkini."
+      },
+      {
+        "q": "What does 'Kochu' refer to in the sentence 'Kochu, what was that?' || What does 'Kochu' refer to in the sentence 'Kochu, what was that?'",
+        "options": [
+          "A small dog || A small dog",
+          "A character (Ammamma) || A character (Ammamma)",
+          "A type of bird || A type of bird",
+          "A window || A window"
+        ],
+        "a": 1,
+        "ex": "Muthassi calls Ammamma 'Kochu' in the story. || Muthassi calls Ammamma 'Kochu' in the story."
+      },
+      {
+        "q": "Who was the 'important person' in the Ambazhathel family without whom they couldn't exist happily? || Who was the 'important person' in the Ambazhathel family without whom they couldn't exist happily?",
+        "options": [
+          "Kamala Das || Kamala Das",
+          "Sankaran Nair || Sankaran Nair",
+          "Meenakshi Edathi || Meenakshi Edathi",
+          "Balan || Balan"
+        ],
+        "a": 2,
+        "ex": "The text states that without Meenakshi Edathi, the family could not have existed happily for a single day. || The text states that without Meenakshi Edathi, the family could not have existed happily for a single day."
+      },
+      {
+        "q": "What are 'murukkus'? || What are 'murukkus'?",
+        "options": [
+          "Traditional Malayali snacks || Traditional Malayali snacks",
+          "Heavy rain clouds || Heavy rain clouds",
+          "Falling leaves || Falling leaves",
+          "Wooden pillars || Wooden pillars"
+        ],
+        "a": 0,
+        "ex": "Murukkus are savory, crunchy snacks mentioned in the text. || Murukkus are savory, crunchy snacks mentioned in the text."
+      },
+      {
+        "q": "What was the weather like when it was 'not even four'? || What was the weather like when it was 'not even four'?",
+        "options": [
+          "Bright and sunny || Bright and sunny",
+          "Pitch dark || Pitch dark",
+          "Slightly cloudy || Slightly cloudy",
+          "Snowy || Snowy"
+        ],
+        "a": 1,
+        "ex": "Ammamma said it was pitch dark outside despite being early afternoon. || Ammamma said it was pitch dark outside despite being early afternoon."
+      },
+      {
+        "q": "What sound scared Ammamma in the beginning? || What sound scared Ammamma in the beginning?",
+        "options": [
+          "A dog barking || A dog barking",
+          "The sound of the cyclone/wind || The sound of the cyclone/wind",
+          "Children playing || Children playing",
+          "Cooking sounds || Cooking sounds"
+        ],
+        "a": 1,
+        "ex": "Ammamma said, 'The sound of it scares me,' referring to the impending storm. || Ammamma said, 'The sound of it scares me,' referring to the impending storm."
+      },
+      {
+        "q": "Analogy: Rainy : Downpour :: Bright : ? || Analogy: Rainy : Downpour :: Bright : ?",
+        "options": [
+          "Cloudy || Cloudy",
+          "Windy || Windy",
+          "Sunny || Sunny",
+          "Thunder || Thunder"
+        ],
+        "a": 2,
+        "ex": "Rainy weather features downpours; bright weather is sunny. || Rainy weather features downpours; bright weather is sunny."
+      },
+      {
+        "q": "Who said 'The cowshed won’t fall down, Valiamma'? || Who said 'The cowshed won’t fall down, Valiamma'?",
+        "options": [
+          "Balan || Balan",
+          "Sankaran Nair || Sankaran Nair",
+          "Ammaman || Ammaman",
+          "The servant woman || The servant woman"
+        ],
+        "a": 1,
+        "ex": "Sankaran Nair reassured Ammamma (Valiamma) about the strength of the cowshed. || Sankaran Nair reassured Ammamma (Valiamma) about the strength of the cowshed."
+      },
+      {
+        "q": "What was floating in the water after the storm according to Balan? || What was floating in the water after the storm according to Balan?",
+        "options": [
+          "Paper boats || Paper boats",
+          "Dead goats and fowls || Dead goats and fowls",
+          "Flowers || Flowers",
+          "Metal dice || Metal dice"
+        ],
+        "a": 1,
+        "ex": "Balan describes the tragic sight of dead poultry and floating goats in the floodwater. || Balan describes the tragic sight of dead poultry and floating goats in the floodwater."
+      },
+      {
+        "q": "What did Sankaran spread on the verandah for the dog Thumbi? || What did Sankaran spread on the verandah for the dog Thumbi?",
+        "options": [
+          "A soft blanket || A soft blanket",
+          "A gunny bag || A gunny bag",
+          "A mundu || A mundu",
+          "Leaves || Leaves"
+        ],
+        "a": 1,
+        "ex": "Sankaran spread a gunny bag for Thumbi to lie down and sleep on. || Sankaran spread a gunny bag for Thumbi to lie down and sleep on."
+      },
+      {
+        "q": "Which of these is a 'Season' according to the lesson? || Which of these is a 'Season' according to the lesson?",
+        "options": [
+          "Rainy || Rainy",
+          "Sunny || Sunny",
+          "Autumn || Autumn",
+          "Cloudy || Cloudy"
+        ],
+        "a": 2,
+        "ex": "Spring, Summer, Autumn, and Winter are specifically listed as the four seasons. || Spring, Summer, Autumn, and Winter are specifically listed as the four seasons."
+      },
+      {
+        "q": "What did the family do to pass the time while sitting in the upstairs room? || What did the family do to pass the time while sitting in the upstairs room?",
+        "options": [
+          "Slept || Slept",
+          "Played with metal dice || Played with metal dice",
+          "Watched TV || Watched TV",
+          "Cleaned the house || Cleaned the house"
+        ],
+        "a": 1,
+        "ex": "Ammamma gave them metal dice to play with to keep them occupied. || Ammamma gave them metal dice to play with to keep them occupied."
+      },
+      {
+        "q": "In the evening, who was Malathikutty desperate to see? || In the evening, who was Malathikutty desperate to see?",
+        "options": [
+          "Balan || Balan",
+          "Thumbi || Thumbi",
+          "Kutti Oppu || Kutti Oppu",
+          "Sankaran || Sankaran"
+        ],
+        "a": 2,
+        "ex": "Malathikutty kept crying, 'I want to see Kutti Oppu'. || Malathikutty kept crying, 'I want to see Kutti Oppu'."
+      },
+      {
+        "q": "What happened to the water in the sunken courtyard of the nalukettu? || What happened to the water in the sunken courtyard of the nalukettu?",
+        "options": [
+          "It dried up || It dried up",
+          "It began to overflow || It began to overflow",
+          "It turned into ice || It turned into ice",
+          "It was used for drinking || It was used for drinking"
+        ],
+        "a": 1,
+        "ex": "The water collected in the courtyard and began to overflow as the rain continued. || The water collected in the courtyard and began to overflow as the rain continued."
+      },
+      {
+        "q": "Assertion (A): The author hanging her head in shame is the conclusion of the story.\nReason (R): She realized her own selfishness in asking for snacks while the village suffered. || Assertion (A): The author hanging her head in shame is the conclusion of the story.\nReason (R): She realized her own selfishness in asking for snacks while the village suffered.",
+        "options": [
+          "Both A and R are true, and R is the correct explanation || Both A and R are true, and R is the correct explanation",
+          "Both A and R are true, but R is not the correct explanation || Both A and R are true, but R is not the correct explanation",
+          "A is true, R is false || A is true, R is false",
+          "A is false, R is true || A is false, R is true"
+        ],
+        "a": 0,
+        "ex": "Her shame came from the contrast between her childish desire for treats and the real tragedy Balan described. || Her shame came from the contrast between her childish desire for treats and the real tragedy Balan described."
+      },
+      {
+        "q": "What was the appearance of Meenakshi Edathi described in the jumbled sentences? || What was the appearance of Meenakshi Edathi described in the jumbled sentences?",
+        "options": [
+          "Fair and young || Fair and young",
+          "Dark-skinned and middle-aged || Dark-skinned and middle-aged",
+          "Very tall and thin || Very tall and thin",
+          "Short with grey hair || Short with grey hair"
+        ],
+        "a": 1,
+        "ex": "The text describes her as a dark-skinned, middle-aged woman. || The text describes her as a dark-skinned, middle-aged woman."
+      },
+      {
+        "q": "Identify the weather icon that represents 'Thunder and Lightning': || Identify the weather icon that represents 'Thunder and Lightning':",
+        "options": [
+          "Sun icon || Sun icon",
+          "Cloud with rain icon || Cloud with rain icon",
+          "Cloud with a bolt icon || Cloud with a bolt icon",
+          "Rainbow icon || Rainbow icon"
+        ],
+        "a": 2,
+        "ex": "A bolt of electricity usually symbolizes thunder and lightning. || A bolt of electricity usually symbolizes thunder and lightning."
+      },
+      {
+        "q": "What was the temperature of the water in the courtyard according to the narrator? || What was the temperature of the water in the courtyard according to the narrator?",
+        "options": [
+          "Luke-warm || Luke-warm",
+          "Very hot || Very hot",
+          "Ice-cold || Ice-cold",
+          "Normal || Normal"
+        ],
+        "a": 2,
+        "ex": "The narrator grumbled that the water was 'ice-cold'. || The narrator grumbled that the water was 'ice-cold'."
+      },
+      {
+        "q": "Who came from 'Vadekkara' to check on the family? || Who came from 'Vadekkara' to check on the family?",
+        "options": [
+          "Sankaran || Sankaran",
+          "Balan || Balan",
+          "Ammaman || Ammaman",
+          "Kutti Oppu || Kutti Oppu"
+        ],
+        "a": 1,
+        "ex": "Balan arrived in the morning, saying he was from Vadekkara. || Balan arrived in the morning, saying he was from Vadekkara."
+      },
+      {
+        "q": "Why was the servant woman hitting her head with her hands? || Why was the servant woman hitting her head with her hands?",
+        "options": [
+          "She had a headache || She had a headache",
+          "She was in extreme panic and fear || She was in extreme panic and fear",
+          "She was trying to fix her hair || She was trying to fix her hair",
+          "She was playing a game || She was playing a game"
+        ],
+        "a": 1,
+        "ex": "In her desperation and fear of dying, she wailed and hit her head. || In her desperation and fear of dying, she wailed and hit her head."
+      },
+      {
+        "q": "What is 'Global Warming' related to in the 'Steps to Success' section? || What is 'Global Warming' related to in the 'Steps to Success' section?",
+        "options": [
+          "Change in season || Change in season",
+          "Change in world's climate || Change in world's climate",
+          "Tomorrow's weather || Tomorrow's weather",
+          "Metal dice || Metal dice"
+        ],
+        "a": 1,
+        "ex": "Global warming is defined as a change in the world's climate. || Global warming is defined as a change in the world's climate."
+      },
+      {
+        "q": "Which tree's seat of the swing fell down? || Which tree's seat of the swing fell down?",
+        "options": [
+          "Coconut tree || Coconut tree",
+          "Ilanji tree || Ilanji tree",
+          "Mango tree || Mango tree",
+          "Teak tree || Teak tree"
+        ],
+        "a": 1,
+        "ex": "The jumbled sentences mention that the seat of the swing fell down from the ilanji tree. || The jumbled sentences mention that the seat of the swing fell down from the ilanji tree."
+      },
+      {
+        "q": "How did Balan travel to the house in the morning? || How did Balan travel to the house in the morning?",
+        "options": [
+          "By boat || By boat",
+          "By car || By car",
+          "Waded through water || Waded through water",
+          "By flying || By flying"
+        ],
+        "a": 2,
+        "ex": "Balan started at daybreak and waded through the floodwater. || Balan started at daybreak and waded through the floodwater."
+      },
+      {
+        "q": "What was the overall atmosphere of the story during the night? || What was the overall atmosphere of the story during the night?",
+        "options": [
+          "Celebration || Celebration",
+          "Fear and uncertainty || Fear and uncertainty",
+          "Boredom || Boredom",
+          "Excitement || Excitement"
+        ],
+        "a": 1,
+        "ex": "The storm, falling trees, and wailing servant created an atmosphere of fear and survival. || The storm, falling trees, and wailing servant created an atmosphere of fear and survival."
+      }
+    ]
+  }
+}

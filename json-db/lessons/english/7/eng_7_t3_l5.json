@@ -1,0 +1,618 @@
+{
+  "lesson_meta": {
+    "subject": "english",
+    "class": 7,
+    "term": 3,
+    "lesson": 5,
+    "title": "Courage by Edgar Albert Guest",
+    "title_en": "Courage by Edgar Albert Guest",
+    "description": ""
+  },
+  "material": {
+    "sections": [
+      {
+        "title": "Summary",
+        "content": "The poem 'Courage' by Edgar Albert Guest conveys that true courage is not a sudden, brilliant flash of bravery or a desperate act done at the last minute. Instead, it is a permanent, deeply ingrained quality in a person's soul. It is characterized by patience, strength to wait, and steady perseverance. Courage is an everyday companion, present when times are peaceful ('skies are blue') and during hard work. A truly brave person possesses courage at all times, in both victory and defeat, behind their smiles, and through their tears. Courage is not meant to be shown off; it is the fundamental 'breath of life' and the guiding principle (creed) of a strong person."
+      },
+      {
+        "title": "Additional Sections and Notes",
+        "content": "Edgar Albert Guest (1881–1959) was an England-born American poet known affectionately as the 'People’s Poet'. His poems often featured an inspirational and optimistic view of everyday life. The lesson also introduces the concept of a 'Bio-Poem', which is an essay about oneself written in the form of an 11-line poem. It uses personal details like name, adjectives, relationships, feelings, needs, fears, and life goals."
+      },
+      {
+        "title": "Points to Remember and Key Notes",
+        "content": [
+          "Courage is NOT: an instantaneous thing, born of despair, a flickered hope, a last resort, or a dazzling light.",
+          "Courage IS: deep in the soul, a slow, unwavering, ingrained trait, the breath of life, and a strong man's creed.",
+          "Courage requires the patience to work and the strength to wait.",
+          "It is present in both victory and defeat, behind smiles and tears.",
+          "Courage is never designed for show; it does not come and go.",
+          "Rhyme Scheme of the poem: aabbccdd (each stanza follows consecutive rhyming couplets)."
+        ]
+      },
+      {
+        "title": "Book Back Evaluation Questions",
+        "content": [
+          {
+            "தலைப்பு": "A. Answer the following questions",
+            "வினாக்கள்": [
+              "1. Can courage be developed suddenly? Why? - No, courage cannot be developed suddenly. The poet states it isn't an instantaneous thing or a sudden spring; it is a slow, ingrained trait.",
+              "2. When should we have courage? - We should have courage always, throughout our hours, days, and years, in victory, defeat, smiles, and tears.",
+              "3. Give an example for dazzling light. - A dazzling light flashes brightly and passes away from sight quickly, unlike true courage which is steady.",
+              "4. Can a courageous man be defeated? Why? - Yes, a courageous man can face defeat, because courage is written in both victory and defeat. It helps him endure the failure.",
+              "5. What is the 'breath of life'? - According to the poet, courage is the breath of life.",
+              "6. What are the characteristics of a courageous man? - Patience to work, strength to wait, unwavering nature, and maintaining courage even when it is not actively needed."
+            ]
+          },
+          {
+            "தலைப்பு": "B. Read the following lines and answer",
+            "வினாக்கள்": [
+              "1. a) What does 'it' refer to? - 'It' refers to courage. b) What does 'born of despair' mean? - It means an act done purely out of hopelessness or a last-minute panic.",
+              "2. a) What is an 'ingrained trait'? - A quality or characteristic that is firmly established and hard to change. b) Why does a courageous man need patience? - He needs patience to keep working towards his goal without giving up.",
+              "3. a) What does 'tears' mean? - 'Tears' signify times of sorrow, failure, struggle, and hardship."
+            ]
+          },
+          {
+            "தலைப்பு": "C. Literary Appreciation",
+            "வினாக்கள்": [
+              "1. Alliterated words: sudden-spring, slipping-string (rope), soul-serve-some, skies-blue (no), work-wait.",
+              "2. Rhyming words: dash/flash, thing/spring, hope/rope, man/plan, resort/sport, call/fall, not/hot, goal/soul, light/sight, trait/wait, blue/do, it/it, show/go, defeat/meet, years/tears, deed/creed.",
+              "3. Rhyme scheme: The rhyme scheme is aabbccdd for the eight-line stanzas."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "question": "Who is the author of the poem 'Courage'?",
+      "options": [
+        "William Wordsworth",
+        "Robert Frost",
+        "Edgar Albert Guest",
+        "John Keats"
+      ],
+      "answer": 2,
+      "explanation": "The poem 'Courage' is written by Edgar Albert Guest, who is known as the People's Poet."
+    },
+    {
+      "question": "According to the poet, courage is NOT a brilliant ___.",
+      "options": [
+        "light",
+        "flash",
+        "dash",
+        "deed"
+      ],
+      "answer": 2,
+      "explanation": "The first line of the poem states: 'Courage isn’t a brilliant dash'."
+    },
+    {
+      "question": "What does the poet mean when he says courage isn't an 'instantaneous thing'?",
+      "options": [
+        "It happens very fast.",
+        "It cannot be developed suddenly.",
+        "It is only for the strong.",
+        "It comes from fear."
+      ],
+      "answer": 1,
+      "explanation": "'Instantaneous' means happening immediately. The poet says courage is built slowly, not instantly."
+    },
+    {
+      "question": "Where is courage located according to the first stanza?",
+      "options": [
+        "In the brain of a man",
+        "In the soul of man",
+        "In the physical strength",
+        "In the weapons he holds"
+      ],
+      "answer": 1,
+      "explanation": "The poem says: 'But it’s something deep in the soul of man'."
+    },
+    {
+      "question": "Courage isn’t the last ___ in the work of life or the game of sport.",
+      "options": [
+        "resort",
+        "effort",
+        "chance",
+        "hope"
+      ],
+      "answer": 0,
+      "explanation": "The poet states: 'Courage isn’t the last resort'."
+    },
+    {
+      "question": "A man must have courage within his soul if he strives for a ___ goal.",
+      "options": [
+        "immediate",
+        "distant",
+        "easy",
+        "wealthy"
+      ],
+      "answer": 1,
+      "explanation": "The poem reads: 'For who would strive for a distant goal / Must always have courage within his soul'."
+    },
+    {
+      "question": "What does 'ingrained trait' mean in the context of the poem?",
+      "options": [
+        "A temporary habit",
+        "A quality firmly established and hard to change",
+        "A physical illness",
+        "A sudden emotional outburst"
+      ],
+      "answer": 1,
+      "explanation": "Glossary definition: 'ingrained' means firmly established and hard to change."
+    },
+    {
+      "question": "Courage requires the patience to work and the strength to ___.",
+      "options": [
+        "fight",
+        "run",
+        "wait",
+        "win"
+      ],
+      "answer": 2,
+      "explanation": "The poem states: 'With the patience to work and the strength to wait'."
+    },
+    {
+      "question": "When a man's 'skies are blue', what does it symbolize?",
+      "options": [
+        "Times of extreme danger",
+        "Times of peace and happiness",
+        "Times of deep sorrow",
+        "Times of winter"
+      ],
+      "answer": 1,
+      "explanation": "'Skies are blue' is a metaphor for peaceful, happy, and trouble-free times."
+    },
+    {
+      "question": "Is a brave man ever freed of his courage?",
+      "options": [
+        "Yes, when he goes to sleep.",
+        "Yes, when there is no danger.",
+        "No, the brave man never is freed of it.",
+        "Yes, after he wins a battle."
+      ],
+      "answer": 2,
+      "explanation": "The poem says: 'The brave man never is freed of it. / He has it when there is no need of it'."
+    },
+    {
+      "question": "Courage was never designed for ___.",
+      "options": [
+        "victory",
+        "show",
+        "defeat",
+        "life"
+      ],
+      "answer": 1,
+      "explanation": "The poet explicitly states: 'Courage was never designed for show'."
+    },
+    {
+      "question": "In what two situations is courage 'written' according to the last stanza?",
+      "options": [
+        "Peace and War",
+        "Victory and Defeat",
+        "Life and Death",
+        "Joy and Anger"
+      ],
+      "answer": 1,
+      "explanation": "The poem mentions: 'It’s written in victory and defeat'."
+    },
+    {
+      "question": "Courage is the ___ of life and a strong man's creed.",
+      "options": [
+        "blood",
+        "breath",
+        "heart",
+        "soul"
+      ],
+      "answer": 1,
+      "explanation": "The final line is: 'It’s the breath of life and a strong man’s creed'."
+    },
+    {
+      "question": "What is the title given to Edgar Albert Guest due to his popularity?",
+      "options": [
+        "The Royal Poet",
+        "The Nature Poet",
+        "The People’s Poet",
+        "The Tragic Poet"
+      ],
+      "answer": 2,
+      "explanation": "The author note states he became known as the 'People's Poet'."
+    },
+    {
+      "question": "What was the typical theme of Edgar Albert Guest's poems?",
+      "options": [
+        "Horror and tragedy",
+        "Inspirational and optimistic view of everyday life",
+        "Political satire",
+        "Science fiction"
+      ],
+      "answer": 1,
+      "explanation": "His poems often had an inspirational and optimistic view of everyday life."
+    },
+    {
+      "question": "What does the word 'flickered' mean in the poem?",
+      "options": [
+        "Burned permanently",
+        "Shone unsteadily",
+        "Exploded",
+        "Turned to ashes"
+      ],
+      "answer": 1,
+      "explanation": "Glossary definition: flickered means 'shone unsteadily'."
+    },
+    {
+      "question": "What does the word 'strive' mean?",
+      "options": [
+        "To give up easily",
+        "To make great effort",
+        "To travel a long distance",
+        "To sleep peacefully"
+      ],
+      "answer": 1,
+      "explanation": "Glossary definition: strive means 'make great effort'."
+    },
+    {
+      "question": "Which of the following describes a 'Bio-Poem'?",
+      "options": [
+        "A poem about biological science",
+        "An essay about oneself in the form of poetry",
+        "A poem strictly about famous historical figures",
+        "A poem without any structure"
+      ],
+      "answer": 1,
+      "explanation": "The creative writing section defines a Bio-Poem as an essay about oneself in the form of poetry."
+    },
+    {
+      "question": "How many lines does the specified Bio-Poem format contain?",
+      "options": [
+        "5",
+        "8",
+        "11",
+        "14"
+      ],
+      "answer": 2,
+      "explanation": "The structural guide provided for the Bio-Poem has 11 lines."
+    },
+    {
+      "question": "In a Bio-Poem, what information is placed on Line 2?",
+      "options": [
+        "Your first name",
+        "Four adjectives that describe you",
+        "Your fears",
+        "Your last name"
+      ],
+      "answer": 1,
+      "explanation": "The instructions state: 'Line 2 : Four adjectives that describe you'."
+    },
+    {
+      "question": "Identify the rhyming pair from the poem.",
+      "options": [
+        "light - wait",
+        "defeat - meet",
+        "years - creed",
+        "hope - plan"
+      ],
+      "answer": 1,
+      "explanation": "In the final stanza, 'defeat' rhymes perfectly with 'meet'."
+    },
+    {
+      "question": "Assertion (A): Courage cannot be summoned only at the final moment of failure.\nReason (R): Courage is an ingrained trait that works always to serve a plan, not a final tug at a slipping rope.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A.",
+        "Both A and R are true but R is not the correct explanation of A.",
+        "A is true but R is false.",
+        "A is false but R is true."
+      ],
+      "answer": 0,
+      "explanation": "The poem rejects the idea that courage is just a last-minute reaction. It is a constant, steady trait."
+    },
+    {
+      "question": "Analogy - Instantaneous : Immediate :: Dazzling : ?",
+      "options": [
+        "Boring",
+        "Brightly shining",
+        "Dark",
+        "Slow"
+      ],
+      "answer": 1,
+      "explanation": "Instantaneous means immediate. Dazzling means brightly shining or flashing."
+    },
+    {
+      "question": "Match the following phrases with their contextual meanings:\n1. Slipping rope\n2. Skies are blue\n3. Distant goal\n\nA. Peaceful/happy times\nB. A long-term ambition\nC. Losing hope / desperate situation",
+      "options": [
+        "1-C, 2-A, 3-B",
+        "1-B, 2-C, 3-A",
+        "1-A, 2-B, 3-C",
+        "1-C, 2-B, 3-A"
+      ],
+      "answer": 0,
+      "explanation": "A slipping rope implies losing grasp/hope. Skies are blue means peace. Distant goal is a long-term ambition."
+    },
+    {
+      "question": "Life-Situation: Ravi failed his science exam twice but calmly studies every day to attempt it again without giving up. Does this represent the poem's definition of courage?",
+      "options": [
+        "No, because courage means passing on the first try.",
+        "Yes, because courage has the patience to work and strength to wait.",
+        "No, because courage must be a sudden, flashy achievement.",
+        "Yes, but only because he is desperate."
+      ],
+      "answer": 1,
+      "explanation": "The poem emphasizes that courage is a slow, ingrained trait featuring patience and steady strength."
+    },
+    {
+      "question": "What does the line 'Back of his smiles and behind his tears' suggest about courage?",
+      "options": [
+        "Courage is only present when someone cries.",
+        "Courage is hidden behind facial expressions.",
+        "Courage exists during both joyful and sorrowful times.",
+        "A brave person never smiles or cries."
+      ],
+      "answer": 2,
+      "explanation": "Smiles represent joy and tears represent sorrow. Courage is constantly present behind both emotions."
+    },
+    {
+      "question": "Find the alliterated words in this line: 'With the patience to work and the strength to wait.'",
+      "options": [
+        "patience - strength",
+        "work - wait",
+        "the - to",
+        "with - and"
+      ],
+      "answer": 1,
+      "explanation": "'Work' and 'wait' begin with the same consonant sound 'w', making them alliterated."
+    },
+    {
+      "question": "Which word from the poem rhymes with 'sport'?",
+      "options": [
+        "resort",
+        "part",
+        "wait",
+        "hot"
+      ],
+      "answer": 0,
+      "explanation": "In stanza 2, 'resort' rhymes with 'sport'."
+    },
+    {
+      "question": "The poet says courage isn’t a thing that a man can call at some ___ time when he’s apt to fall.",
+      "options": [
+        "past",
+        "present",
+        "future",
+        "unknown"
+      ],
+      "answer": 2,
+      "explanation": "The poem states: 'At some future time when he’s apt to fall'."
+    },
+    {
+      "question": "Assertion (A): True courage is silent, steady, and unshowy.\nReason (R): The poet says courage is not a dazzling light or designed for show.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A.",
+        "Both A and R are true but R is not the correct explanation of A.",
+        "A is true but R is false.",
+        "A is false but R is true."
+      ],
+      "answer": 0,
+      "explanation": "The poet directly contrasts courage with things that are flashy, dazzling, or meant for showing off."
+    },
+    {
+      "question": "If a man does not have courage 'now', what will happen when 'the strain is great'?",
+      "options": [
+        "He will suddenly develop it.",
+        "Someone will give it to him.",
+        "He will not have it then either.",
+        "He will find it in despair."
+      ],
+      "answer": 2,
+      "explanation": "The poem says: 'If he hasn’t it now, he will have it not / When the strain is great and the pace is hot'."
+    },
+    {
+      "question": "What is the rhyme scheme of each stanza in this poem?",
+      "options": [
+        "ababcdcd",
+        "aabbccdd",
+        "abcabcab",
+        "aaaa bbbb"
+      ],
+      "answer": 1,
+      "explanation": "The lines rhyme in consecutive pairs (e.g., dash/flash, thing/spring, hope/rope, man/plan)."
+    },
+    {
+      "question": "What does 'creed' most likely mean in the context of 'a strong man's creed'?",
+      "options": [
+        "A weapon used for fighting",
+        "A set of beliefs or guiding principles",
+        "A type of disease",
+        "A weakness"
+      ],
+      "answer": 1,
+      "explanation": "A creed is a system of Christian or other religious belief; a faith or a guiding principle."
+    },
+    {
+      "question": "Life-Situation: An athlete boasts about his skills to the media but quits the game halfway when the opponent scores higher. According to the poet, did he possess courage?",
+      "options": [
+        "Yes, because he showed off initially.",
+        "No, because courage is written in defeat and is not for show.",
+        "Yes, because he tried playing.",
+        "No, because courage means only winning."
+      ],
+      "answer": 1,
+      "explanation": "Courage is not designed for show and remains steady even in times of defeat, which the athlete lacked."
+    },
+    {
+      "question": "Higher Order Thinking (HOTs): Why does the poet compare courage to the 'breath of life'?",
+      "options": [
+        "Because you need air to scream when in danger.",
+        "Because like breathing, courage should be a continuous, essential, and natural part of existence.",
+        "Because courage only lasts as long as a single breath.",
+        "Because courageous people breathe faster."
+      ],
+      "answer": 1,
+      "explanation": "Breathing is constant and keeps us alive. Comparing courage to breathing means it is a permanent and essential part of living."
+    },
+    {
+      "question": "Courage isn't a ___ of flickered hope.",
+      "options": [
+        "creature",
+        "shadow",
+        "memory",
+        "dream"
+      ],
+      "answer": 0,
+      "explanation": "The poem reads: 'It isn’t a creature of flickered hope'."
+    },
+    {
+      "question": "According to the poet, what is born of despair?",
+      "options": [
+        "A slow unwavering trait",
+        "A sudden spring (which is NOT true courage)",
+        "A strong man's creed",
+        "Patience to work"
+      ],
+      "answer": 1,
+      "explanation": "The poem says courage ISN'T an instantaneous thing born of despair with a sudden spring."
+    },
+    {
+      "question": "Where was the poet Edgar Albert Guest born?",
+      "options": [
+        "America",
+        "India",
+        "England",
+        "Australia"
+      ],
+      "answer": 2,
+      "explanation": "The author note describes him as an England-born American poet."
+    },
+    {
+      "question": "Analogy - Flickered : Unsteady :: Unwavering : ?",
+      "options": [
+        "Shaking",
+        "Firm and steady",
+        "Breaking",
+        "Fading"
+      ],
+      "answer": 1,
+      "explanation": "Flickered means unsteady. The antonym/analogue for unwavering is firm and steady."
+    },
+    {
+      "question": "What phrase from the poem suggests that courage is working towards a larger purpose?",
+      "options": [
+        "Dazzling light",
+        "Born of despair",
+        "Working always to serve some plan",
+        "A thing that can come and go"
+      ],
+      "answer": 2,
+      "explanation": "The line 'That is working always to serve some plan' implies purpose and long-term vision."
+    },
+    {
+      "question": "In a Bio-Poem, what does Line 8 express?",
+      "options": [
+        "Your fears (Who fears...)",
+        "Your needs (Who needs...)",
+        "Your family (Son/Daughter of...)",
+        "Your last name"
+      ],
+      "answer": 0,
+      "explanation": "According to the Bio-Poem structure: 'Line 8 : Who fears (three things)'."
+    },
+    {
+      "question": "Higher Order Thinking (HOTs): 'He has it when there is no need of it.' What does this paradox reveal about a brave man's character?",
+      "options": [
+        "He wastes his energy being brave for no reason.",
+        "Courage is a fundamental part of his identity, not just a tool used in emergencies.",
+        "He is paranoid and always expects danger.",
+        "He pretends to be brave to impress others."
+      ],
+      "answer": 1,
+      "explanation": "It shows that courage is a permanent state of mind and character, ingrained in him regardless of the situation."
+    },
+    {
+      "question": "Match the rhyming words from Stanza 1:\n1. dash\n2. hope\n3. man\n\nA. rope\nB. plan\nC. flash",
+      "options": [
+        "1-A, 2-B, 3-C",
+        "1-C, 2-A, 3-B",
+        "1-B, 2-C, 3-A",
+        "1-C, 2-B, 3-A"
+      ],
+      "answer": 1,
+      "explanation": "Dash rhymes with flash; hope rhymes with rope; man rhymes with plan."
+    },
+    {
+      "question": "Assertion (A): Courage can easily come and go depending on the situation.\nReason (R): The poet explicitly states 'It isn’t a thing that can come and go'.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A.",
+        "A is true but R is false.",
+        "A is false but R is true.",
+        "Both A and R are false."
+      ],
+      "answer": 2,
+      "explanation": "Courage does NOT come and go. It is permanent. Hence Assertion is false, but Reason (the poet's quote) is true."
+    },
+    {
+      "question": "Which line indicates that courage is part of everyday existence?",
+      "options": [
+        "It’s part of his hours, his days and his years",
+        "It isn’t a dazzling light",
+        "A daring deed in a moment’s flash",
+        "Born of despair with a sudden spring"
+      ],
+      "answer": 0,
+      "explanation": "This line highlights that courage is a continuous presence in a person's daily life across time."
+    },
+    {
+      "question": "Higher Order Thinking (HOTs): How does the poet contrast the 'flash' with the 'trait' in the context of courage?",
+      "options": [
+        "Flash is permanent, trait is temporary.",
+        "Flash implies a short-lived, showy moment, while a trait is a deep, long-lasting quality.",
+        "Both mean exactly the same thing.",
+        "Flash is physical courage, trait is mental courage."
+      ],
+      "answer": 1,
+      "explanation": "The poet dismisses the 'moment's flash' as fake courage, elevating the 'ingrained trait' as true, enduring courage."
+    },
+    {
+      "question": "Life-Situation: A frontline worker serves continuously during a pandemic, facing risks every day for over a year without giving up. Does this fit the poet's definition of courage?",
+      "options": [
+        "No, because it is not a sudden daring deed.",
+        "Yes, because it shows 'patience to work' and is an 'ingrained trait' over days and years.",
+        "No, because courage is only for sports.",
+        "Yes, but only because they were forced to."
+      ],
+      "answer": 1,
+      "explanation": "True courage is enduring, quiet, and persistent over long periods, exactly like the frontline worker's dedication."
+    },
+    {
+      "question": "Courage isn't a thing that a man can call when the ___ is great and the pace is hot.",
+      "options": [
+        "pain",
+        "fear",
+        "strain",
+        "weather"
+      ],
+      "answer": 2,
+      "explanation": "The poem reads: 'When the strain is great and the pace is hot'."
+    },
+    {
+      "question": "What is meant by 'the final tug at a slipping rope'?",
+      "options": [
+        "A game of tug of war",
+        "A desperate, last-minute effort when everything else fails",
+        "Climbing a mountain",
+        "Tying a strong knot"
+      ],
+      "answer": 1,
+      "explanation": "It is a metaphor for a desperate final attempt before giving up. The poet says courage is NOT just this."
+    },
+    {
+      "question": "Higher Order Thinking (HOTs): By stating 'It’s written in victory and defeat', what ultimate message is the poet giving to the reader?",
+      "options": [
+        "That courage guarantees you will always win.",
+        "That losing means you have no courage.",
+        "That the outcome (success or failure) does not define courage; the resilience to face either does.",
+        "That courageous people prefer to be defeated."
+      ],
+      "answer": 2,
+      "explanation": "Courage is the process and the character shown during the journey, not just the final result of winning or losing."
+    }
+  ]
+}

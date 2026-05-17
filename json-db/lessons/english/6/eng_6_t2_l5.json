@@ -1,0 +1,227 @@
+{
+  "isBilingual": true,
+  "unit": "Unit 2",
+  "subject": "English",
+  "class": "6",
+  "term": 2,
+  "title": "Poem: From a Railway Carriage (Memoriter)",
+  "summary": "This classic poem by Robert Louis Stevenson captures the rapidly changing scenes visible from a moving train carriage window.",
+  "material": {
+    "isBilingual": true,
+    "sections": [
+      {
+        "title": "I. WARM UP (ஆயத்தப்படுத்துதல்)",
+        "type": "bilingual",
+        "en": [
+          "#### **Read the title. What do you think the poem is about?**",
+          "* **Have you been on a train?**",
+          "* **Close your eyes and think about the moving scene outside a train window.**",
+          "* **Take turns in class to describe one image that crossed your mind.**",
+          "  * *Example: I saw a tea vendor run past the window; I saw tall trees flash past...*"
+        ],
+        "ta": [
+          "#### **தலைப்பை வாசிக்கவும். இந்தக் கவிதை எதைப் பற்றியதாக இருக்கும் என்று நீங்கள் நினைக்கிறீர்கள்?**",
+          "* **நீங்கள் எப்போதாவது இரயிலில் பயணம் செய்திருக்கிறீர்களா?**",
+          "* **உங்கள் கண்களை மூடிவிட்டு, இரயில் ஜன்னலுக்கு வெளியே தெரியும் நகரும் காட்சிகளைப் பற்றிச் சிந்தித்துப் பாருங்கள்.**",
+          "* **உங்கள் மனதில் தோன்றிய ஒரு காட்சியை வகுப்பில் விவரிக்கவும்.**",
+          "  * *உதாரணம்: ஒரு டீ வியாபாரி ஜன்னலைக் கடந்து ஓடுவதைக் கண்டேன்; உயரமான மரங்கள் மின்னல் வேகத்தில் கடந்து செல்வதைக் கண்டேன்...*"
+        ]
+      },
+      {
+        "title": "II. POEM TEXT: FROM A RAILWAY CARRIAGE",
+        "type": "bilingual",
+        "en": [
+          "#### **Faster than fairies, faster than witches,**",
+          "#### **Bridges and houses, hedges and ditches;**",
+          "#### **And charging along like troops in a battle,**",
+          "#### **All through the meadows the horses and cattle:**",
+          "#### **All of the sights of the hill and the plain**",
+          "#### **Fly as thick as driving rain;**",
+          "#### **And ever again, in the wink of an eye,**",
+          "#### **Painted stations whistle by.**",
+          "",
+          "#### **Here is a child who clambers and scrambles,**",
+          "#### **All by himself and gathering brambles;**",
+          "#### **Here is a tramp who stands and gazes;**",
+          "#### **And there is the green for stringing the daisies!**",
+          "#### **Here is a cart run away in the road,**",
+          "#### **Lumping along with man and load;**",
+          "#### **And here is a mill and there is a river:**",
+          "#### **Each a glimpse and gone forever!**",
+          "",
+          "**- Robert Louis Stevenson**"
+        ],
+        "ta": [
+          "#### **தேவதைகளை விடவும், சூனியக்காரிகளை விடவும் வேகமாக,**",
+          "#### **பாலங்கள், வீடுகள், வேலிகள் மற்றும் பள்ளங்களைக் கடந்து;**",
+          "#### **போர்க்களத்தில் வீரர்கள் மோதுவதைப் போல முன்னேறிச் சென்று,**",
+          "#### **புல்வெளிகளில் உள்ள குதிரைகளையும் கால்நடைகளையும் கடந்து;**",
+          "#### **மலை மற்றும் சமவெளியின் அனைத்துக் காட்சிகளும்**",
+          "#### **பெருமழையைப் போலத் திரண்டு பறந்து செல்கின்றன;**",
+          "#### **கண் இமைக்கும் நேரத்தில் மீண்டும் மீண்டும்,**",
+          "#### **வர்ணம் பூசப்பட்ட இரயில் நிலையங்கள் விசிலடித்தபடி கடக்கின்றன.**",
+          "",
+          "#### **இதோ ஒரு சிறுவன் தடுமாறி ஏறித் தவிக்கிறான்,**",
+          "#### **தனியாகப் பழங்களைச் (brambles) சேகரித்துக் கொண்டிருக்கிறான்;**",
+          "#### **இதோ ஒரு நாடோடி நின்று உற்றுப் பார்க்கிறான்;**",
+          "#### **அதோ ஒரு புல்வெளி, டெய்ஸி பூக்களைக் கோர்ப்பதற்காக!**",
+          "#### **இதோ ஒரு வண்டி சாலையில் ஓடுகிறது,**",
+          "#### **மனிதனையும் சுமையையும் ஏற்றிக்கொண்டு சிரமப்பட்டு நகர்கிறது;**",
+          "#### **இதோ ஒரு ஆலை, அதோ ஒரு ஆறு:**",
+          "#### **ஒவ்வொன்றும் ஒரு கணம் மட்டுமே தெரியும், பிறகு என்றும் மறைந்துவிடும்!**",
+          "",
+          "**- ராபர்ட் லூயிஸ் ஸ்டீவன்சன்**"
+        ]
+      },
+      {
+        "title": "III. ABOUT THE AUTHOR (ஆசிரியர் குறிப்பு)",
+        "type": "bilingual",
+        "en": [
+          "* **Name:** Robert Louis Balfour Stevenson (Scottish novelist, poet, essayist, and travel writer).",
+          "* **Lifespan:** 13 Nov 1850 – 3 December 1894.",
+          "* **Famous Works:** *Treasure Island*, *Kidnapped*, *Strange Case of Dr. Jekyll & Mr. Hyde*, and *A Child’s Garden of Verses*."
+        ],
+        "ta": [
+          "* **பெயர்:** ராபர்ட் லூயிஸ் பால்ஃபோர் ஸ்டீவன்சன் (ஸ்காட்லாந்து நாவலாசிரியர், கவிஞர் మరియు பயண எழுத்தாளர்).",
+          "* **காலம்:** 13 நவம்பர் 1850 – 3 டிசம்பர் 1894.",
+          "* **புகழ்பெற்ற படைப்புகள்:** *ட்ரிஷர் ஐலேண்ட்*, *கிட்நாப்ட்*, *டாக்டர் ஜெகில் மற்றும் மிஸ்டர் ஹைட்*, மற்றும் *ஏ சைல்ட்ஸ் கார்டன் ஆஃப் வெர்சஸ்*."
+        ]
+      },
+      {
+        "title": "IV. GLOSSARY (கலைச்சொற்கள்)",
+        "type": "bilingual",
+        "en": [
+          "| Word | Meaning |",
+          "| :--- | :--- |",
+          "| **Charge** | To make a rush at or sudden attack upon a person or thing |",
+          "| **Clamber** | Climb or move in an awkward and laborious way |",
+          "| **Brambles** | A prickly scrambling shrub of the rose family |",
+          "| **Tramp** | A person who travels from place to place on foot |",
+          "| **Stringing** | Hang so that it stretches in a long line |",
+          "| **Lumping** | Carry with difficulty |",
+          "| **Glimpse** | See or perceive briefly or partially |"
+        ],
+        "ta": [
+          "| ஆங்கிலச் சொல் | தமிழ் பொருள் |",
+          "| :--- | :--- |",
+          "| **Charge** | ஒரு நபர் அல்லது பொருள் மீது திடீரெனப் பாய்வது |",
+          "| **Clamber** | கை கால்களைப் பயன்படுத்தி சிரமப்பட்டு ஏறுதல் |",
+          "| **Brambles** | முட்கள் நிறைந்த ஒரு வகையான புதர்ச் செடி |",
+          "| **Tramp** | வேலை தேடி நடைப்பயணமாக ஊர் ஊராகச் செல்பவர் |",
+          "| **Stringing** | ஒரு நீண்ட கோடாகத் தொங்கவிடுதல் |",
+          "| **Lumping** | சிரமத்துடன் எதையாவது சுமந்து செல்லுதல் |",
+          "| **Glimpse** | ஒரு காட்சியை ஒரு கணம் மட்டும் பார்ப்பது |"
+        ]
+      },
+      {
+        "title": "V. READ AND UNDERSTAND: Q&A",
+        "type": "bilingual",
+        "en": [
+          "#### **A. Read the lines and answer questions:**",
+          "1. *'Faster than fairies, faster than witches,'* - **What is faster?**",
+          "   * **Answer:** Typical railway train.",
+          "3. *'Paint stations whistle by.'* - **'In the wink of an eye' means very quickly. Explain 'painted stations whistle by'.**",
+          "   * **Answer:** It means the colorful stations appear and disappear in a flash as the train speeds past.",
+          "4. *'Each a glimpse and gone forever!'* - **What is 'each' over here? Why is it gone forever?**",
+          "   * **Answer:** Each refers to all the sights like the child, tramp, cart, mill, and river. They are gone forever because the train moves forward and never returns to that exact fleeting moment.",
+          "#### **B. Answer the following:**",
+          "1. **What does 'charges along like troops in a battle' mean?**",
+          "   * **Answer:** It means the train rushes forward with great speed and power, like soldiers in a war.",
+          "2. **What word replaces 'charges'?**",
+          "   * **Answer:** Rushes or pushes.",
+          "3. **Why does the child 'clamber and scramble'?**",
+          "   * **Answer:** To gather blackberries from the prickly bushes (brambles)."
+        ],
+        "ta": [
+          "#### **அ. பாடல் வரிகளைப் படித்து விடையளிக்கவும்:**",
+          "1. *'தேவதைகளை விட வேகமாக...'* - **எது வேகமாகச் செல்கிறது?**",
+          "   * **விடை:** இரயில் வண்டி (Train).",
+          "3. *'வர்ணம் பூசப்பட்ட இரயில் நிலையங்கள் விசிலடித்தபடி கடக்கின்றன'* - **இந்தத் தொடரின் பொருள் என்ன?**",
+          "   * **விடை:** இரயில் மிக வேகமாகச் செல்வதால், அழகான நிலையங்கள் ஒரு கணத்தில் தோன்றி மறைவதைக் குறிக்கிறது.",
+          "4. *'ஒவ்வொன்றும் ஒரு கணம்... என்றும் மறைந்துவிடும்'* - **இங்கே 'ஒவ்வொன்றும்' என்பது எதைக் குறிக்கிறது?**",
+          "   * **விடை:** கவிதையில் கூறப்பட்டுள்ள சிறுவன், நாடோடி, வண்டி, ஆலை மற்றும் ஆறு போன்ற அனைத்துக் காட்சிகளையும் இது குறிக்கிறது.",
+          "#### **ஆ. பின்வரும் வினாக்களுக்கு விடையளிக்கவும்:**",
+          "1. **'போர்க்களத்தில் வீரர்கள் பாய்வதைப் போல' என்பதன் பொருள் என்ன?**",
+          "   * **விடை:** இரயில் மிகுந்த வேகத்துடனும் வலிமையுடனும் முன்னேறிச் செல்வதைக் குறிக்கிறது.",
+          "2. **'Charges' என்ற சொல்லிற்குப் பதில் வேறென்ன சொல்லைப் பயன்படுத்தலாம்?**",
+          "   * **விடை:** Rushes அல்லது pushes.",
+          "3. **சிறுவன் ஏன் சிரமப்பட்டு ஏறுகிறான்?**",
+          "   * **விடை:** முட்செடிகளில் இருந்து பழங்களைப் பறிப்பதற்ககாக."
+        ]
+      },
+      {
+        "title": "VI. POEM SUMMARY (பாடல் சுருக்கம்)",
+        "type": "bilingual",
+        "en": [
+          "Ever since their introduction, **trains** and their unique rhythms have **inspired** poets. In this poem, the poet shares his experience **of travel** with us. He presents natural scenes seen from **the window of** a railway carriage. The **rhythm** is regular and steady, but **the scene** from the window is constantly changing. Every line is a quick account of something seen for **a moment**."
+        ],
+        "ta": [
+          "இரயில்களின் அறிமுகம் முதல், அவற்றின் தனித்துவமான வேகம் கவிஞர்களை **ஊக்குவித்துள்ளது (inspired)**. இந்தக் கவிதையில், கவிஞர் தனது **பயண (travel)** அனுபவத்தைப் பகிர்ந்து கொள்கிறார். இரயில் ஜன்னல் வழியாகத் தெரியும் இயற்கை காட்சிகளை அவர் வழங்குகிறார். இரயிலின் **வேகம் (rhythm)** சீராக இருந்தாலும், ஜன்னல் வழியாகத் தெரியும் **காட்சிகள் (scene)** தொடர்ந்து மாறிக் கொண்டே இருக்கின்றன."
+        ]
+      },
+      {
+        "title": "VII. VOCABULARY & APPRECIATION",
+        "type": "bilingual",
+        "en": [
+          "#### **1. Simile (உவமை)**",
+          "* *'Charging along like troops in a battle'*",
+          "* *'Fly as thick as driving rain'*",
+          "#### **2. Rhyming Words (இயைபுச் சொற்கள்)**",
+          "* Witches / Ditches | Battle / Cattle",
+          "* Plain / Rain | Eye / By | Scrambles / Brambles",
+          "#### **3. Find me in the poem:**",
+          "* Cross the river - **Bridge**",
+          "* Border your garden - **Hedge**",
+          "* Alert you - **Whistle**",
+          "* Carry you - **Cart**"
+        ],
+        "ta": [
+          "#### **1. உவமை (Simile)**",
+          "* *'போர்க்களத்தில் வீரர்கள் பாய்வதைப் போல'*",
+          "* *'பெருமழையைப் போலத் திரண்டு பறக்கின்றன'*",
+          "#### **2. இயைபுச் சொற்கள் (Rhyming Words)**",
+          "* Witches / Ditches | Battle / Cattle",
+          "* Plain / Rain | Eye / By | Scrambles / Brambles",
+          "#### **3. கவிதையில் கண்டுபிடி:**",
+          "* ஆற்றைக் கடக்க உதவுவது - **பாலம் (Bridge)**",
+          "* தோட்டத்தின் எல்லை - **வேலி (Hedge)**",
+          "* எச்சரிக்கை செய்வது - **விசில் (Whistle)**",
+          "* உங்களைச் சுமந்து செல்வது - **வண்டி (Cart)**"
+        ]
+      },
+      {
+        "title": "VIII. CREATIVE WRITING: CINQUAIN (சிங்குவேன் கவிதை)",
+        "type": "bilingual",
+        "en": [
+          "A cinquain is a five-line poem with 11 words:",
+          "* Line 1: Single word title (noun)",
+          "* Line 2: Two adjectives",
+          "* Line 3: Three action verbs",
+          "* Line 4: Four-word feeling phrase",
+          "* Line 5: One word (repeating title)",
+          "#### **Example:**",
+          "**Train**",
+          "**Long, snaking**",
+          "**Hooting, chugging, steaming**",
+          "**Along the winding tracks**",
+          "**Procession**"
+        ],
+        "ta": [
+          "சிங்குவேன் என்பது 11 சொற்களைக் கொண்ட 5 வரி கவிதை ஆகும்:",
+          "* வரி 1: ஒரு சொல் தலைப்பு (பெயர்ச்சொல்)",
+          "* வரி 2: இரண்டு உரிச்சொற்கள் (விவரிக்கும் சொற்கள்)",
+          "* வரி 3: மூன்று வினைச்சொற்கள்",
+          "* வரி 4: நான்கு சொற்கள் கொண்ட உணர்வுத் தொடர்",
+          "* வரி 5: தலைப்பை உணர்த்தும் மற்றொரு சொல்",
+          "#### **உதாரணம்:**",
+          "**இரயில் (Train)**",
+          "**நீண்ட, வளைந்த (Long, snaking)**",
+          "**ஒலியெழுப்பி, புகையெழுப்பி, நகர்ந்து (Hooting, chugging, steaming)**",
+          "**வளைந்த தண்டவாளங்களின் வழியே (Along the winding tracks)**",
+          "**ஊர்வலம் (Procession)**"
+        ]
+      }
+    ],
+    "credits": "A1 ONLINE COACHING CENTER"
+  }
+}

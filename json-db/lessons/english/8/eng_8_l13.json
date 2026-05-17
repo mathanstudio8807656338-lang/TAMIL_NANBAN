@@ -1,0 +1,588 @@
+{
+  "subject": "English",
+  "class": "8",
+  "term": "Annual",
+  "title": "Prose: Being Safe",
+  "summary": "",
+  "sections": [
+    {
+      "title": "1. Prose: Being Safe (பாதுகாப்புடன் இருத்தல்) - Summary",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● [[Core Theme]]",
+            "answer": "Importance of safety rules and precautions in daily life at home and on road. || அன்றாட வாழ்வில் வீட்டிலும் சாலையிலும் பின்பற்ற வேண்டியப் பாதுகாப்பு முறைகள்."
+          },
+          {
+            "question": "● [[Road Safety]]",
+            "answer": "Obey traffic signals, use zebra crossings, wear helmets and seat belts. Never use mobile phones while driving. || சாலை விதிகளை மதித்தல், ஹெல்மெட் அணிதல் மற்றும் வாகனத்தை கவனமாகச் செலுத்தல்."
+          },
+          {
+            "question": "● [[Home Safety]]",
+            "answer": "Handle electricity and fire carefully. Keep medicines and chemicals away from children. || மின்சாரம் மற்றும் தீயினைக் கவனமாகக் கையாளுதல்; மருந்துகளை எட்டாத இடத்தில் வைத்தல்."
+          },
+          {
+            "question": "● [[First Aid]]",
+            "answer": "Basic help given to an injured person before the doctor arrives. || மருத்துவர் வருவதற்கு முன்ச் செய்யப்படும் முதலுதவி."
+          }
+        ]
+      }
+    },
+    {
+      "title": "2. Glossary: Safety & Health (Exam Focus - Synonyms)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● [[Hazard]] / ஆபத்து / இடைஞ்சல்",
+            "answer": "A danger or risk."
+          },
+          {
+            "question": "● [[Precaution]] / முன்னெச்சரிக்கை",
+            "answer": "A measure taken in advance to prevent something dangerous."
+          },
+          {
+            "question": "● [[Pedestrian]] / பாதசாரி",
+            "answer": "A person walking rather than travelling in a vehicle."
+          },
+          {
+            "question": "● [[Commuter]] / பயணி",
+            "answer": "A person who travels some distance to work on a regular basis."
+          },
+          {
+            "question": "● [[Fatal]] / உயிருக்கு ஆபத்தான",
+            "answer": "Causing death."
+          },
+          {
+            "question": "● [[Stink]]",
+            "answer": "Have a strong unpleasant smell. (கெட்ட வாசனை)."
+          }
+        ]
+      }
+    },
+    {
+      "title": "3. Grammars: Transitive & Intransitive Verbs (வினைச்சொற்கள்)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● [[Transitive Verb]]",
+            "answer": "Verbs that require an object to complete their meaning (e.g., He [[reads]] a book). || செயப்படுபொருள் தேவைப்படும் வினைச்சொல்."
+          },
+          {
+            "question": "● [[Intransitive Verb]]",
+            "answer": "Verbs that do not need an object (e.g., She [[sleeps]]). || செயப்படுபொருள் தேவையில்லாத வினைச்சொல்."
+          }
+        ]
+      }
+    },
+    {
+      "title": "4. Road Safety Signs & Rules (சாலை விதிகள்)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● Red Light",
+            "answer": "Stop and wait. || நின்றுக் காத்திருக்கவும்."
+          },
+          {
+            "question": "● Yellow Light",
+            "answer": "Get ready or slow down. || கவனமாகச் செல்லத் தயாராகவும்."
+          },
+          {
+            "question": "● Green Light",
+            "answer": "Go. || செல்லவும்."
+          },
+          {
+            "question": "● Zebra Crossing",
+            "answer": "Place for pedestrians to cross the road. || பாதசாரிகள் சாலையைக் கடக்கும் இடம்."
+          }
+        ]
+      }
+    },
+    {
+      "title": "5. Common Home Hazards (வீட்டு உபயோக ஆபத்துகள்)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● Electric Shock",
+            "answer": "Caused by wet hands on switches. || ஈரக்கையோடு மின்சாரத்தைத் தொடுவதால் ஏற்படும்."
+          },
+          {
+            "question": "● Sharp Tools",
+            "answer": "Knives and scissors should be handled with care. || கத்தி, கத்தரிக்கோல் ஆகியவற்றைக் கவனமாகக் கையாளவும்."
+          }
+        ]
+      }
+    },
+    {
+      "title": "6. Previous Year Questions & Competitive Focus",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● What is the help given before a doctor arrives?",
+            "answer": "[[First Aid]]. || முதலுதவி."
+          },
+          {
+            "question": "● What should we wear while riding a bike?",
+            "answer": "[[Helmet]]. || ஹெல்மெட் / தலைக்கவசம்."
+          },
+          {
+            "question": "● Identify Verb: 'Birds fly'.",
+            "answer": "[[Intransitive]] (Because no object). || இது ஒரு செயப்படுபொருள் இல்லாத வினை."
+          },
+          {
+            "question": "● Meaning of 'Fatal'?",
+            "answer": "[[Causing death]]. || உயிரிழப்பை ஏற்படுத்தும்."
+          }
+        ]
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "q": "What is the primary message of the lesson 'Being Safe'? || 'பீயிங் சேஃப்' பாடத்தின் முதன்மையானத் தகவல் என்ன?",
+      "options": [
+        "Safety is not important",
+        "Precautions are better than accidents (விபத்தை விட முன்னெச்சரிக்கை மேலானது)",
+        "Running fast is safe",
+        "Electricity is safe with wet hands"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What should a pedestrian use while crossing a busy road? || பாதசாரி சாலையைக் கடந்த எதனைப் பயன்படுத்த வேண்டும்?",
+      "options": [
+        "Running fast",
+        "Zebra Crossing (கருப்பு வெள்ளைக்கோடுகள் / பாதசாரி பாதை)",
+        "Climbing vehicles",
+        "Closed eyes"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What color light tells the vehicles to 'Wait'? || வாகனங்களைக் 'காத்திருக்க'ச் சொல்லும் ஒளி எது?",
+      "options": [
+        "Green",
+        "Red (சிவப்பு - நில் / காத்திரு)",
+        "Blue",
+        "White"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "We should always keep medicines ______? || மருந்துகளை நாம் எப்போதும் எங்கே வைத்திருக்க வேண்டும்?",
+      "options": [
+        "Near children",
+        "Out of reach of children (குழந்தைகளுக்கு எட்டாத உயரத்தில்)",
+        "On the floor",
+        "In the kitchen open"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What should we do before touching an electric switch? || மின்சாரச் சுவிட்சைத் தொடும் முன் என்னச் செய்ய வேண்டும்?",
+      "options": [
+        "Have wet hands",
+        "Ensure hands are dry (கைகள் காய்ந்திருப்பதை உறுதி செய்)",
+        "Be fast",
+        "Close eyes"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of the word 'Hazard'? || 'Hazard' என்பதன் பொருள்?",
+      "options": [
+        "Gift",
+        "Danger / Risk (ஆபத்து / இடர்)",
+        "Friend",
+        "Game"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify the Intransitive Verb: || செயப்படுபொருள் இல்லாத வினைச்சொல் எது?",
+      "options": [
+        "The dog barked (நாய் குறைத்தது)",
+        "He ate a mango",
+        "She wrote a letter",
+        "I play cricket"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "A person who travels daily to work is called a ______? || வேலைக்காகத் தினமும்ப் பயணம் செய்பவர் யார்?",
+      "options": [
+        "Tourist",
+        "Commuter (கம்யூட்டர் / பயணி)",
+        "Farmer",
+        "Driver"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What is the help given to a person during an injury before the doctor arrives? || மருத்துவர் வருவதற்குத் முன்பு காயம்பட்டவருக்குத் தரும் உதவி எது?",
+      "options": [
+        "Surgery",
+        "First Aid (முதலுதவி)",
+        "Injection",
+        "Operation"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Wearing a helmet is mandatory for ______? || தலைக்கவசம் அணிவது யாருக்குக் கட்டாயமானது?",
+      "options": [
+        "Car drivers",
+        "Two-wheeler riders (இருசக்கர வாகன ஓட்டிகள்)",
+        "Walking people",
+        "Bus passengers"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What is the meaning of 'Fatal'? || 'Fatal' என்பதன் பொருள்?",
+      "options": [
+        "Healing",
+        "Causing death (உயிரிழப்பை ஏற்படுத்தும்)",
+        "Minor",
+        "Fast"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Which signal allows us to Go? || 'செல்லலாம்' என்பதற்கானச் சமிஞ்சை எது?",
+      "options": [
+        "Yellow",
+        "Green (பச்சை வண்ணம்)",
+        "Red",
+        "Grey"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: 'He kicked the ball'. Is 'kick' transitive or intransitive? || இதில் 'கிக்' உன்பது எவ்வகை வினைச்சொல்?",
+      "options": [
+        "Transitive (செயப்படுபொருள் கொண்ட வினை)",
+        "Intransitive",
+        "None",
+        "Exclamation"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Why should we use seat belts in cars? || காரில் ஏன் இருக்கைப் பட்டை அணிய வேண்டும்?",
+      "options": [
+        "To look styles",
+        "To prevent being thrown forward in a crash (விபத்தின்போது முன்னோக்கித் தள்ளப்படுவதைத் தவிர்க்க)",
+        "To sleep",
+        "To keep the engine cool"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of 'Pedestrian'? || 'Pedestrian' - என்பதன் பொருள்?",
+      "options": [
+        "Cycling",
+        "Walking on foot (நடந்துச் செல்பவர்)",
+        "Flying",
+        "Driving"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "If you see a stranger on the internet, you should? || இணையத்தில் முன்பின் தெரியாத ஒரு நபரைக் கண்டால் என்னச் செய்ய வேண்டும்?",
+      "options": [
+        "Become friends",
+        "Be cautious and not share personal info (கவனமாக இருக்கவும், விவரங்களைப் பகிரக் கூடாது)",
+        "Give them your address",
+        "Invite them home"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What is the synonym of 'Precaution'? || 'Precaution' - என்பதன் ஒத்தப்பொருள்?",
+      "options": [
+        "Mistake",
+        "Forethought / Prevention (முன்னெச்சரிக்கை / தடுப்பு)",
+        "Late",
+        "Brave"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify the verb in: 'Mani laughed'. || 'Mani laughed' - இதில் வினைச்சொல் எது?",
+      "options": [
+        "Mani",
+        "laughed (சிரித்தான்)",
+        "No verb",
+        "All"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "True or False: We can use a mobile phone while driving if the road is empty. || சரியா தவறா: சாலை காலியாக இருந்தால் வாகனம் ஓட்டும்போது போன்ப் பயன்படுத்தலாம்?",
+      "options": [
+        "True",
+        "False (தவறு)",
+        "Maybe",
+        "Unknown"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What should used for 'Cuts' initially? || வெட்டுக் காயங்களுக்கு முதலில் என்னச் செய்ய வேண்டும்?",
+      "options": [
+        "Salt",
+        "Wash with clean water (சுத்தமானத் தண்ணீரில் கழுவவும்)",
+        "Dirt",
+        "Ink"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of 'Stink': || 'Stink' (ஸ்டிங்க்) என்பதன் பொருள்?",
+      "options": [
+        "Sweet smell",
+        "Strong unpleasant smell (துர்நாற்றம்)",
+        "Fragrance",
+        "No smell"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "A 'Vulnerable' person means one who is? || 'Vulnerable' என்பது யாருக்குப் பொருந்தும்?",
+      "options": [
+        "Strong",
+        "At risk or easily harmed (ஆபத்தில் இருக்கும் அல்லது பாதிக்கப்படக் கூடிய)",
+        "Rich",
+        "Speedy"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: 'Transitive Verb' usually answers the question? || செயப்படுபொருள் கொண்ட வினை எதற்குப் பதிலளிக்கும்?",
+      "options": [
+        "When?",
+        "What? or Whom? (என்ன? அல்லது யாரை?)",
+        "How?",
+        "Where?"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Where should we never play? || நாம் எங்கே ஒருபோதும் விளையாடக் கூடாது?",
+      "options": [
+        "In a park",
+        "On the road (சாலையில்)",
+        "In the garden",
+        "In a school ground"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What should you do if there is a gas leak? || கேஸ் கசிவு ஏற்பட்டால் என்னச் செய்ய வேண்டும்?",
+      "options": [
+        "Switch on lights",
+        "Open windows and turn off cylinder (ஜன்னல்களைத் திறந்துவிட்டு சிலிண்டரை அணைக்கவும்)",
+        "Light a matchsticks",
+        "Ignore it"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: 'Sun shines brightly'. Identify the verb type. || இதில் வினைச்சொல் எவ்வகையைச் சார்ந்தது?",
+      "options": [
+        "Transitive",
+        "Intransitive (தான் இயங்கும் வினை)",
+        "Noun",
+        "Conjunction"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Expansion of 'NGO' in social service? || NGO - என்பதன் விரிவாக்கம்?",
+      "options": [
+        "Non-Governmental Organization (அரசு சாரா அமைப்பு)",
+        "Next Great Object",
+        "National Gun Organization",
+        "New Government Order"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of 'Precarious': || 'Precarious' (பிரிஃகேரியஸ்) என்பதன் பொருள்?",
+      "options": [
+        "Safe",
+        "Not securely held/Dangerous (நிலையற்ற / அபாயகரமான)",
+        "Fast",
+        "Strong"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Safety on the internet is also called? || இணையப் பாதுகாப்பு எவ்வாறு அழைக்கப்படுகிறது?",
+      "options": [
+        "Food safety",
+        "Cyber Safety (சைபர் பாதுகாப்பு)",
+        "Water safety",
+        "Road safety"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What light signal means 'Ready to go'? || 'கிளம்பத் தயாராக இரு' எனும் சிக்னல் எது?",
+      "options": [
+        "Red",
+        "Orange / Yellow (ஆரஞ்சு / மஞ்சள்)",
+        "Blue",
+        "Black"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Choose the correctly spelled word. || சரியான எழுத்துப்பிழையற்றச் சொல் எது?",
+      "options": [
+        "Precaution (முன்னெச்சரிக்கை)",
+        "Presaution",
+        "Precautionary",
+        "Precausion"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "If you get a burn, what is the first step? || சுட்டக் காயம் ஏற்பட்டால் முதலில் என்னச் செய்ய வேண்டும்?",
+      "options": [
+        "Put dust on it",
+        "Apply cold running water (குளிர்ந்தத் தண்ணீரில் காட்டவும்)",
+        "Wrap with wool",
+        "Rub it hard"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: \"Children play in the park\". Transitive or Intransitive? || இந்தச் சூழலில் வினைச்சொல் எது?",
+      "options": [
+        "Intransitive (இன்டிரான்சிட்டிவ்)",
+        "Transitive",
+        "Both",
+        "Noun"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Why helmet is needed for kids on bicycles? || சைக்கிள் ஓட்டும் சிறுவர்களுக்கு ஏன் ஹெல்மெட் தேவை?",
+      "options": [
+        "To be like adults",
+        "To protect head from falls (கீழே விழும்போதுத் தலையைக் காக்க)",
+        "To be heavy",
+        "To ride fast"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of 'Brisk': || 'Brisk' - என்பதன் பொருள்?",
+      "options": [
+        "Slow",
+        "Quick and active (வேகமான மற்றும் சுறுசுறுப்பான)",
+        "Sad",
+        "Old"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Which organization helps with blood during accidents? || விபத்தின்போது இரத்தத்திற்கு உதவும் அமைப்பு எது?",
+      "options": [
+        "Police",
+        "Red Cross (ரெட் கிராஸ்)",
+        "Army",
+        "Supermarket"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: Verb in \"He wrote a poem\". || இதில் எவ்வகை வினை பயின்று வருகிறது?",
+      "options": [
+        "Transitive (டிரான்சிட்டிவ்)",
+        "Intransitive",
+        "None",
+        "Exclamation"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Conclusion: Safety is a ______ for everyone. || முடிவு: பாதுகாப்பு ஒரு ______.",
+      "options": [
+        "Choice",
+        "Essential responsibility (அவசியமானக் கடமை)",
+        "Waste",
+        "Hobby"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Who explains safety rules in this lesson? || இப்பாடத்தில் பாதுகாப்பு விதிகளை விளக்குவது யார்?",
+      "options": [
+        "A doctor",
+        "The author through various examples (பல்வேறு உதாரணங்கள் வழியாக ஆசிரியர்)",
+        "A pilot",
+        "A child"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Clipped word of 'Bicycles'? || 'Bicycles' - என்பதன் சுருக்கப்பட்ட வடிவம்?",
+      "options": [
+        "Cycles (சைக்கிள்)",
+        "Bike",
+        "Bi",
+        "Cycleses"
+      ],
+      "a": 0,
+      "ex": ""
+    }
+  ],
+  "credits": "தொகுப்பு: A1 ONLINE COACHING CENTER"
+}

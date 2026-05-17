@@ -1,0 +1,1291 @@
+{
+  "lesson_meta": {
+    "subject": "english",
+    "class": 7,
+    "term": 3,
+    "lesson": 1,
+    "title": "Journey by Train",
+    "title_en": "Journey by Train",
+    "description": ""
+  },
+  "material": {
+    "sections": [
+      {
+        "title": "Summary",
+        "content": "This extract is taken from the classic adventure novel, 'Around the World in Eighty Days' written by Jules Verne. An Englishman, Mr. Phileas Fogg, along with his French attendant, Passepartout, attempts to go round the world in 80 days on a wager of $20,000 (roughly $1.6 million today) set by his friends at the Reform Club. This story is about their train journey from Bombay to Calcutta at a time when railways were being built in India. The train passes through Salcette Island, Khandesh, the Tapty river, and the Sutpour Mountains. The journey is interrupted at a hamlet named Kholby because the railway line was not finished. They had to travel 50 miles further to reach Allahabad. Mr. Fogg had to catch a steamer from Calcutta to Hong Kong at noon on the 25th (it was the 22nd then). Therefore, as an alternative, they bought an elephant named Kiouni for 2,000 pounds and continued their journey with the help of a skilled young guide."
+      },
+      {
+        "title": "Additional Sections and Notes",
+        "content": [
+          "Passengers who travelled in the train: Government officials, merchants, Mr. Fogg, Passepartout, and Sir Francis Cromarty.",
+          "Sir Francis Cromarty was a friend Mr. Fogg made on the ship 'Mongolia' that brought him to Bombay.",
+          "Natural landscape along the train route: Mountains, Nassik region, the flat and well-cultivated country of Khandesh, tributaries of the Godavari river, and plantations of cotton, coffee, nutmeg, clove, and pepper.",
+          "Animals seen in the jungles: Snakes, tigers, and elephants that stood gazing with sad eyes at the train.",
+          "Travel timings: Breakfast at Burhampoor at half-past twelve, entered the valleys of the Sutpour Mountains at 3 AM, and the train stopped in a forest fifteen miles beyond Rothal at 8 AM.",
+          "The train locomotive was guided by an English engineer and fed with coal.",
+          "Prices offered by Fogg for the elephant: Renting for 10 pounds/hour (refused) -> 20 -> 40. Then proposing to buy outright: 1000 pounds -> 1200 -> 1500 -> 1800 -> finally yielded to sell for 2000 pounds."
+        ]
+      },
+      {
+        "title": "Points to Remember and Key Notes",
+        "content": [
+          "Author of the book: Jules Verne",
+          "Wager amount: $20,000",
+          "Place where the wager was set: Reform Club",
+          "Unfinished railway distance: 50 miles (from Kholby to Allahabad)",
+          "Name of the elephant: Kiouni",
+          "Purchase price of the elephant: 2000 pounds",
+          "Travel date details: A steamer leaves Calcutta for Hong Kong at noon on the 25th. The current date is the 22nd.",
+          "The train travelled along the banks of the small river Tapty, which empties into the Gulf of Cambray near Surat.",
+          "The Sutpour Mountains separate the Khandesh from Bundelcund."
+        ]
+      },
+      {
+        "title": "Let Us Know More",
+        "content": [
+          "Benefits of traveling: Travelling improves memory and reduces the risk of heart diseases. It makes us more intelligent and happier, as proved by scientists.",
+          "Agra: Agra is one of the most visited destinations in India. The main reason is the Taj Mahal. It also has other attractions like the Agra Fort, the Sikandra Fort, Akbar's tomb, and many other tourist spots.",
+          "Language Check Point: Always use the preposition 'by' to indicate travel by a vehicle (By train, By car). But we should say 'on foot' to indicate walking, and not 'by walk'.",
+          "The group of people who work on a ship is called a 'crew'."
+        ]
+      },
+      {
+        "title": "Book Back Evaluation Questions",
+        "content": [
+          "1. Problem faced by Mr. Fogg's team: The train stopped in the middle of the forest. / Solution: They bought an elephant named Kiouni.",
+          "2. Problem faced by Mr. Fogg's team: They couldn't hire the elephant. / Solution: They bought the elephant outright for 2000 pounds.",
+          "3. Problem faced by Mr. Fogg's team: They were in need of an elephant driver. / Solution: They hired a young man with an intelligent face as a guide by offering a generous reward.",
+          "4. Inhabitants of the jungles that the train passed through: Snakes, tigers, and elephants.",
+          "5. Reaction of the inhabitants: Snakes and tigers fled at the noise of the train. Elephants stood gazing with sad eyes at the train.",
+          "6. Reason why Mr. Fogg said 'it was foreseen': He had predicted that some obstacle or other would sooner or later arise on his route.",
+          "7. Travel words: tickets -> book, things -> pack, trip -> schedule, station -> reach, train -> board.",
+          "8. Match the Phrasal Verbs: set out -> to begin a journey, pick up -> to get someone from a place, get away -> to go somewhere for a short break or holiday, see off -> to go to the station to say good bye to someone, get into -> to enter a bus/train, get off -> to leave a bus/train.",
+          "9. Dictionary meaning: journey (act of travelling), picnic (an outing or pleasure trip), pilgrimage (a journey to a sacred place), tour (a journey for pleasure/visiting places), vacation (a fixed holiday period), excursion (a short journey for pleasure)."
+        ]
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "question": "Which novel is the extract 'Journey by Train' taken from?",
+      "options": [
+        "The Time Machine",
+        "Journey to the Center of the Earth",
+        "Around the World in Eighty Days",
+        "Treasure Island"
+      ],
+      "answer": 2,
+      "explanation": "This extract is taken from the classic adventure novel 'Around the World in Eighty Days'."
+    },
+    {
+      "question": "Who is the author of the novel 'Around the World in Eighty Days'?",
+      "options": [
+        "Charles Dickens",
+        "Jules Verne",
+        "William Shakespeare",
+        "Robert Louis Stevenson"
+      ],
+      "answer": 1,
+      "explanation": "The adventure novel was written by the French author Jules Verne."
+    },
+    {
+      "question": "Which nationality does Mr. Phileas Fogg belong to?",
+      "options": [
+        "American",
+        "German",
+        "Englishman",
+        "French"
+      ],
+      "answer": 2,
+      "explanation": "The text explicitly mentions him as 'An Englishman, Mr. Phileas Fogg'."
+    },
+    {
+      "question": "Which country does Passepartout belong to?",
+      "options": [
+        "Russia",
+        "France",
+        "Italy",
+        "Spain"
+      ],
+      "answer": 1,
+      "explanation": "Passepartout is described as Fogg's 'French attendant'."
+    },
+    {
+      "question": "What was the wager amount set by Mr. Fogg to go around the world?",
+      "options": [
+        "$10,000",
+        "$50,000",
+        "$20,000",
+        "$100,000"
+      ],
+      "answer": 2,
+      "explanation": "Mr. Fogg attempts to go round the world on a wager of $20,000."
+    },
+    {
+      "question": "Where was the wager set by his friends?",
+      "options": [
+        "Royal Society",
+        "Reform Club",
+        "British Museum",
+        "House of Commons"
+      ],
+      "answer": 1,
+      "explanation": "The wager was set by his friends at the Reform Club."
+    },
+    {
+      "question": "Who occupied the seat opposite to Mr. Fogg and Passepartout in the train?",
+      "options": [
+        "Sir Francis Cromarty",
+        "Jules Verne",
+        "Kiouni",
+        "The Railway Conductor"
+      ],
+      "answer": 0,
+      "explanation": "Sir Francis Cromarty, a friend of Mr. Fogg, occupied the seat opposite to them."
+    },
+    {
+      "question": "Where did Mr. Fogg first meet Sir Francis Cromarty?",
+      "options": [
+        "At the Bombay railway station",
+        "On the ship Mongolia",
+        "At the Reform Club in London",
+        "In Calcutta"
+      ],
+      "answer": 1,
+      "explanation": "They became friends on the ship 'Mongolia' that brought him to Bombay."
+    },
+    {
+      "question": "Which island did the train pass an hour after leaving Bombay?",
+      "options": [
+        "Andaman Island",
+        "Majuli Island",
+        "Island of Salcette",
+        "Lakshadweep"
+      ],
+      "answer": 2,
+      "explanation": "An hour after leaving Bombay, the train passed the bridges and the Island of Salcette."
+    },
+    {
+      "question": "The fertile territory of Khandesh is watered by the tributaries of which river?",
+      "options": [
+        "Ganges",
+        "Yamuna",
+        "Cauvery",
+        "Godavari"
+      ],
+      "answer": 3,
+      "explanation": "The fertile territory of Khandesh is mostly watered by tributaries of the Godavari."
+    },
+    {
+      "question": "Along the banks of which small river did the train travel after Burhampoor?",
+      "options": [
+        "Narmada",
+        "Tapty",
+        "Brahmaputra",
+        "Krishna"
+      ],
+      "answer": 1,
+      "explanation": "The travellers started off for Assurghur travelling along the banks of the small river Tapty."
+    },
+    {
+      "question": "Where does the Tapty river empty into?",
+      "options": [
+        "Gulf of Mannar",
+        "Gulf of Kutch",
+        "Gulf of Cambray",
+        "Palk Strait"
+      ],
+      "answer": 2,
+      "explanation": "The Tapty river empties into the Gulf of Cambray, near Surat."
+    },
+    {
+      "question": "Which two regions are separated by the Sutpour Mountains?",
+      "options": [
+        "Khandesh and Bundelcund",
+        "Bombay and Calcutta",
+        "Surat and Cambray",
+        "Nassik and Salcette"
+      ],
+      "answer": 0,
+      "explanation": "The valleys of the Sutpour Mountains separate the Khandesh from Bundelcund."
+    },
+    {
+      "question": "Which creatures fled at the noise of the train in the jungles?",
+      "options": [
+        "Elephants and deer",
+        "Snakes and tigers",
+        "Bears and monkeys",
+        "Lions and leopards"
+      ],
+      "answer": 1,
+      "explanation": "These creatures (snakes and tigers) fled at the noise of the train."
+    },
+    {
+      "question": "Which animals stood gazing with sad eyes at the passing train?",
+      "options": [
+        "Horses",
+        "Camels",
+        "Elephants",
+        "Deer"
+      ],
+      "answer": 2,
+      "explanation": "They came to forests where elephants stood gazing with sad eyes at the train."
+    },
+    {
+      "question": "Where did the travellers make a hasty breakfast at half-past twelve?",
+      "options": [
+        "Rothal",
+        "Kholby",
+        "Burhampoor",
+        "Allahabad"
+      ],
+      "answer": 2,
+      "explanation": "At half-past twelve the train stopped at Burhampoor where the travellers made a hasty breakfast."
+    },
+    {
+      "question": "What is the name of the hamlet where the train stopped at 8 o'clock?",
+      "options": [
+        "Narmada",
+        "Rothal",
+        "Kholby",
+        "Khandesh"
+      ],
+      "answer": 2,
+      "explanation": "The conductor said they were at the hamlet of Kholby."
+    },
+    {
+      "question": "Why did the train stop at the hamlet of Kholby?",
+      "options": [
+        "The engine broke down",
+        "The railway line was not finished",
+        "For passengers to eat",
+        "Tigers blocked the track"
+      ],
+      "answer": 1,
+      "explanation": "The conductor explained that the railway wasn't finished from Kholby to Allahabad."
+    },
+    {
+      "question": "How many miles of railway line were yet to be laid from Kholby to Allahabad?",
+      "options": [
+        "30 miles",
+        "100 miles",
+        "50 miles",
+        "80 miles"
+      ],
+      "answer": 2,
+      "explanation": "There was still a matter of fifty miles to be laid from Kholby to Allahabad."
+    },
+    {
+      "question": "Who got angry saying the papers announced the opening of the railway throughout?",
+      "options": [
+        "Mr. Fogg",
+        "Passepartout",
+        "Railway Conductor",
+        "Sir Francis Cromarty"
+      ],
+      "answer": 3,
+      "explanation": "Sir Francis grew angry because the papers were mistaken about the completion of the railway."
+    },
+    {
+      "question": "How did Mr. Fogg react to the delay caused by the unfinished railway?",
+      "options": [
+        "He was extremely furious",
+        "He became very sad",
+        "He calmly said it was foreseen",
+        "He decided to sue the railway management"
+      ],
+      "answer": 2,
+      "explanation": "Mr. Fogg remained calm and said the obstacle was 'foreseen' (predicted)."
+    },
+    {
+      "question": "On what date does the steamer leave Calcutta for Hong Kong?",
+      "options": [
+        "22nd",
+        "25th",
+        "20th",
+        "30th"
+      ],
+      "answer": 1,
+      "explanation": "A steamer leaves Calcutta for Hong Kong at noon, on the 25th."
+    },
+    {
+      "question": "What alternative means of conveyance did Passepartout find?",
+      "options": [
+        "Camel",
+        "Horse",
+        "Elephant",
+        "Donkey"
+      ],
+      "answer": 2,
+      "explanation": "Passepartout found an elephant belonging to an Indian nearby."
+    },
+    {
+      "question": "What was the name of the elephant?",
+      "options": [
+        "Jumbo",
+        "Airavatam",
+        "Kiouni",
+        "Appu"
+      ],
+      "answer": 2,
+      "explanation": "The name of the animal was Kiouni."
+    },
+    {
+      "question": "What was the maximum excessive sum offered per hour to hire the elephant?",
+      "options": [
+        "10 pounds",
+        "20 pounds",
+        "40 pounds",
+        "100 pounds"
+      ],
+      "answer": 2,
+      "explanation": "Fogg persisted offering 10, 20, and finally 40 pounds an hour for the loan, but was refused."
+    },
+    {
+      "question": "For how much did Mr. Fogg finally purchase the elephant outright?",
+      "options": [
+        "1000 pounds",
+        "1500 pounds",
+        "1800 pounds",
+        "2000 pounds"
+      ],
+      "answer": 3,
+      "explanation": "At two thousand pounds the owner yielded and sold the elephant."
+    },
+    {
+      "question": "Who became fairly white with suspense and lost his breath hearing the price of the elephant?",
+      "options": [
+        "Sir Francis",
+        "The elephant owner",
+        "The guide",
+        "Passepartout"
+      ],
+      "answer": 3,
+      "explanation": "Passepartout was shocked and lost his breath seeing the huge amount spent on an elephant."
+    },
+    {
+      "question": "Who offered his services as a guide to drive the elephant?",
+      "options": [
+        "An old sage",
+        "A young man with an intelligent face",
+        "The elephant's old owner",
+        "The railway conductor"
+      ],
+      "answer": 1,
+      "explanation": "A young man, with an intelligent face, offered his services as a guide."
+    },
+    {
+      "question": "From where did Mr. Fogg extract the banknotes to pay for the elephant?",
+      "options": [
+        "Bank cheque",
+        "Carpet-bag",
+        "Shirt pocket",
+        "Iron chest"
+      ],
+      "answer": 1,
+      "explanation": "He extracted the banknotes from the famous carpet-bag."
+    },
+    {
+      "question": "What is the name of the seat attached to the sides of the elephant for riding?",
+      "options": [
+        "Saddle",
+        "Howdahs",
+        "Carpet",
+        "Palanquin"
+      ],
+      "answer": 1,
+      "explanation": "Uncomfortable howdahs were attached to each of its sides for the passengers to sit."
+    },
+    {
+      "question": "At what time did they set out from the village on the elephant?",
+      "options": [
+        "7 o'clock",
+        "8 o'clock",
+        "9 o'clock",
+        "12 o'clock"
+      ],
+      "answer": 2,
+      "explanation": "At nine o'clock they set out from the village through the dense forest."
+    },
+    {
+      "question": "What does the word 'Viharas' refer to in the text?",
+      "options": [
+        "Temples",
+        "Sort of abandoned monasteries",
+        "Bungalows",
+        "Railway stations"
+      ],
+      "answer": 1,
+      "explanation": "The text explains viharas as 'sort of abandoned monasteries'."
+    },
+    {
+      "question": "What was the train engine fed with?",
+      "options": [
+        "Diesel",
+        "Petrol",
+        "Coal",
+        "Electricity"
+      ],
+      "answer": 2,
+      "explanation": "The locomotive was guided by an English engineer and fed with coal."
+    },
+    {
+      "question": "Match the following: 1. Proceeded 2. Fertile territory 3. Locomotive 4. Horizon",
+      "options": [
+        "1-moved, 2-rich vegetated area, 3-railway engine, 4-line where earth and sky appear to meet",
+        "1-stopped, 2-desert, 3-train compartment, 4-sky",
+        "1-fast, 2-forest, 3-ticket, 4-ground",
+        "1-line where earth and sky appear to meet, 2-railway engine, 3-rich vegetated area, 4-moved"
+      ],
+      "answer": 0,
+      "explanation": "Proceeded - moved, Fertile territory - rich vegetated area, Locomotive - railway engine, Horizon - line at which earth and sky meet."
+    },
+    {
+      "question": "What is the dictionary meaning of 'Rapidly'?",
+      "options": [
+        "Slowly",
+        "Quickly",
+        "Happily",
+        "Sadly"
+      ],
+      "answer": 1,
+      "explanation": "Rapidly means quickly."
+    },
+    {
+      "question": "What is the meaning of the word 'Furious'?",
+      "options": [
+        "Extremely happy",
+        "Extremely sad",
+        "Extremely angry",
+        "Extremely afraid"
+      ],
+      "answer": 2,
+      "explanation": "Furious means extremely angry."
+    },
+    {
+      "question": "According to scientists, what is one of the medical benefits of travelling?",
+      "options": [
+        "Improves eyesight",
+        "Increases body weight",
+        "Reduces the risk of heart diseases",
+        "Protects the skin"
+      ],
+      "answer": 2,
+      "explanation": "Travelling improves memory and reduces the risk of heart diseases."
+    },
+    {
+      "question": "Apart from the Taj Mahal, what are the other tourist attractions in Agra?",
+      "options": [
+        "Red Fort, India Gate",
+        "Agra Fort, Sikandra Fort, Akbar's tomb",
+        "Mysore Palace",
+        "Suchindram Temple"
+      ],
+      "answer": 1,
+      "explanation": "Agra also has other attractions like the Agra Fort, the Sikandra Fort, and Akbar's tomb."
+    },
+    {
+      "question": "Grammar rule: How should you indicate travelling by a vehicle?",
+      "options": [
+        "In train",
+        "On train",
+        "By train",
+        "With train"
+      ],
+      "answer": 2,
+      "explanation": "Always use the preposition 'by' to indicate travel by a vehicle (e.g., By train, By bus)."
+    },
+    {
+      "question": "Grammar rule: How should you correctly say walking in English?",
+      "options": [
+        "By walk",
+        "On foot",
+        "In foot",
+        "By foot"
+      ],
+      "answer": 1,
+      "explanation": "We say 'on foot' because walk is not a means of transport. We walk on our feet."
+    },
+    {
+      "question": "What is the collective noun for the group of people who work on a ship?",
+      "options": [
+        "Team",
+        "Group",
+        "Crew",
+        "Batch"
+      ],
+      "answer": 2,
+      "explanation": "The group of people who work on a ship is called a 'crew'."
+    },
+    {
+      "question": "Change to Indirect Speech: My uncle said to me, 'I am coming to Chennai tomorrow.'",
+      "options": [
+        "My uncle told me that he was coming to Chennai tomorrow.",
+        "My uncle said to me that I am coming to Chennai the next day.",
+        "My uncle told me that he was coming to Chennai the next day.",
+        "My uncle told me that he is coming to Chennai the next day."
+      ],
+      "answer": 2,
+      "explanation": "Said to -> told, 'I' -> 'he', 'am coming' -> 'was coming', 'tomorrow' -> 'the next day'."
+    },
+    {
+      "question": "Change to Indirect Speech: Ram said to Rakesh, 'I want an ice cream.'",
+      "options": [
+        "Ram told Rakesh that he wants an ice cream.",
+        "Ram told Rakesh that he wanted an ice cream.",
+        "Ram said Rakesh that I want an ice cream.",
+        "Ram told Rakesh he wanting an ice cream."
+      ],
+      "answer": 1,
+      "explanation": "Present tense (want) changes to past tense (wanted). 'Said to' becomes 'told'."
+    },
+    {
+      "question": "Change to Indirect Speech: The librarian said, 'The comic books are kept on the second shelf.'",
+      "options": [
+        "The librarian said that the comic books are kept on the second shelf.",
+        "The librarian told the comic books were kept on the second shelf.",
+        "The librarian said that the comic books were kept on the second shelf.",
+        "The librarian says the comic books were kept on the second shelf."
+      ],
+      "answer": 2,
+      "explanation": "The present verb 'are' changes to 'were' in indirect speech."
+    },
+    {
+      "question": "Fill in the blank: We have to ______ tickets well in advance.",
+      "options": [
+        "reach",
+        "pack",
+        "board",
+        "book"
+      ],
+      "answer": 3,
+      "explanation": "To make travel convenient, we must book tickets well in advance."
+    },
+    {
+      "question": "Match the phrasal verb: What is the meaning of 'set out'?",
+      "options": [
+        "To say good bye",
+        "To enter a train",
+        "To begin a journey",
+        "To leave a train"
+      ],
+      "answer": 2,
+      "explanation": "Set out means to begin a journey."
+    },
+    {
+      "question": "Match the phrasal verb: What is the meaning of 'see off'?",
+      "options": [
+        "To visit",
+        "To go to the station to say good bye to someone",
+        "To look far away",
+        "To cancel a trip"
+      ],
+      "answer": 1,
+      "explanation": "See off means to bid farewell to someone starting a journey."
+    },
+    {
+      "question": "Match the phrasal verb: What is the meaning of 'get into'?",
+      "options": [
+        "To search inside",
+        "To enter a bus, a train or a plane",
+        "To leave a vehicle",
+        "To get trapped"
+      ],
+      "answer": 1,
+      "explanation": "Get into is used for entering vehicles."
+    },
+    {
+      "question": "Match the phrasal verb: What is the meaning of 'get off'?",
+      "options": [
+        "To start",
+        "To leave a bus, a train or a plane",
+        "To run away",
+        "To turn off"
+      ],
+      "answer": 1,
+      "explanation": "Get off means to exit or alight from a vehicle."
+    },
+    {
+      "question": "Dictionary meaning: What does 'Excursion' mean?",
+      "options": [
+        "A long sea voyage",
+        "A short journey for pleasure",
+        "Space travel",
+        "Trekking"
+      ],
+      "answer": 1,
+      "explanation": "An excursion is a brief pleasure trip."
+    },
+    {
+      "question": "Life-skill context: If you were in Mr. Fogg's position when the train line ended unexpectedly, what would be the best action?",
+      "options": [
+        "Wait at the station for days",
+        "Get angry and cancel the trip back to Bombay",
+        "Immediately search for an alternative mode of transport like Mr. Fogg",
+        "Fight with the railway officials"
+      ],
+      "answer": 2,
+      "explanation": "Instead of panicking or getting angry, finding an alternative solution is the smartest approach to obstacles."
+    },
+    {
+      "question": "Assertion (A): Passepartout willingly wanted to knock the conductor down. Reason (R): He was angry because the train stopped halfway, delaying their journey.",
+      "options": [
+        "A is false, R is true",
+        "A is true, R is false",
+        "Both A and R are true. R is the correct explanation of A.",
+        "Both A and R are true, but R is not the correct explanation of A."
+      ],
+      "answer": 2,
+      "explanation": "Passepartout was frustrated with the sudden halt and the conductor's casual response, making him want to hit the conductor."
+    },
+    {
+      "question": "Analogy: Ship : Crew :: Elephant : ?",
+      "options": [
+        "Passengers",
+        "Elephant driver (Mahout/Guide)",
+        "Conductor",
+        "Ticket checker"
+      ],
+      "answer": 1,
+      "explanation": "A crew navigates a ship, similarly, an elephant driver navigates and controls the elephant."
+    },
+    {
+      "question": "Assertion (A): Mr. Fogg was more interested in buying the elephant outright than renting it. Reason (R): The elephant's owner flatly refused to rent it out.",
+      "options": [
+        "Both A and R are true.",
+        "A is true, R is false.",
+        "A is false, R is true.",
+        "Both A and R are false."
+      ],
+      "answer": 0,
+      "explanation": "Because the owner refused the rental offers up to 40 pounds an hour, Fogg decided to purchase it outright."
+    },
+    {
+      "question": "Why did Passepartout make an unhappy face when Fogg decided to walk?",
+      "options": [
+        "He was sad the train stopped",
+        "He thought of his magnificent Indian shoes getting ruined by walking in the forest",
+        "He was scared of the elephant",
+        "He was afraid of Fogg's anger"
+      ],
+      "answer": 1,
+      "explanation": "Passepartout made an unhappy face as he thought of his magnificent Indian shoes being ruined on foot."
+    },
+    {
+      "question": "What did Mr. Fogg promise to give the young guide to increase his zeal?",
+      "options": [
+        "To gift him the elephant",
+        "To take him to England",
+        "A generous reward",
+        "To gift him a house"
+      ],
+      "answer": 2,
+      "explanation": "Fogg accepted his services promising so generous a reward as to greatly increase his zeal."
+    },
+    {
+      "question": "How did the trio sit on the elephant?",
+      "options": [
+        "Fogg and Sir Francis took the howdahs on either side, while Passepartout got onto the saddle-cloth between them",
+        "All sat on one side",
+        "Passepartout sat on the neck",
+        "No one sat, they walked alongside"
+      ],
+      "answer": 0,
+      "explanation": "Sir Francis and Mr. Fogg occupied the howdahs, and Passepartout sat between them on the saddle-cloth."
+    },
+    {
+      "question": "Where did the young driver sit on the elephant?",
+      "options": [
+        "In the howdah",
+        "Perched on the elephant's neck",
+        "Near the tail",
+        "Under the elephant"
+      ],
+      "answer": 1,
+      "explanation": "The driver perched himself on the elephant's neck."
+    },
+    {
+      "question": "The elephant marched off through a dense forest full of which trees?",
+      "options": [
+        "Banyan trees",
+        "Palm trees",
+        "Teak trees",
+        "Bamboo trees"
+      ],
+      "answer": 1,
+      "explanation": "The animal marched off through the dense forest of palms by short cuts."
+    },
+    {
+      "question": "Where did Mr. Fogg keep his banknotes?",
+      "options": [
+        "Leather bag",
+        "Carpet-bag",
+        "Plastic bag",
+        "Iron box"
+      ],
+      "answer": 1,
+      "explanation": "He extracted the banknotes from the famous carpet-bag."
+    },
+    {
+      "question": "Match the following: 1. Acacias 2. Hasty 3. Gazing 4. Point-blank",
+      "options": [
+        "1-a thorny tree, 2-quick, 3-look steadily, 4-bluntly",
+        "1-quick, 2-bluntly, 3-a thorny tree, 4-look steadily",
+        "1-bluntly, 2-look steadily, 3-quick, 4-a thorny tree",
+        "1-look steadily, 2-a thorny tree, 3-bluntly, 4-quick"
+      ],
+      "answer": 0,
+      "explanation": "Acacias - thorny tree, Hasty - quick, Gazing - look steadily, Point-blank - bluntly."
+    },
+    {
+      "question": "Analogy: Bombay : Calcutta :: Khandesh : ?",
+      "options": [
+        "Bundelcund",
+        "Paris",
+        "London",
+        "New York"
+      ],
+      "answer": 0,
+      "explanation": "Just as the train travels between Bombay and Calcutta, the Sutpour Mountains separate Khandesh from Bundelcund."
+    },
+    {
+      "question": "Life-skill context: If you were Passepartout, how would you feel seeing your master pay 2000 pounds for an elephant?",
+      "options": [
+        "Very happy",
+        "Shocked and feeling breathless thinking he is wasting money",
+        "Would fight with the owner",
+        "Would calmly accept as there is no other way"
+      ],
+      "answer": 1,
+      "explanation": "Passepartout was 'fairly white with suspense' and lost his breath seeing the huge sum spent."
+    },
+    {
+      "question": "What kind of plantations did the train pass by?",
+      "options": [
+        "Apple and grapes",
+        "Cotton, coffee, nutmeg, clove, and pepper",
+        "Tea and rubber",
+        "Sugarcane and paddy"
+      ],
+      "answer": 1,
+      "explanation": "The train passed by cotton, coffee, nutmeg, clove, and pepper plantations."
+    },
+    {
+      "question": "What does 'Hesitation' mean?",
+      "options": [
+        "Unwillingness / pausing",
+        "Speed",
+        "Courage",
+        "Joy"
+      ],
+      "answer": 0,
+      "explanation": "Hesitation refers to pausing or showing unwillingness before doing something."
+    },
+    {
+      "question": "What did the newspapers mistakenly announce about the railway?",
+      "options": [
+        "The opening of the railway throughout",
+        "That 50 miles are yet to be built",
+        "That the railway is on strike",
+        "That the train journey is dangerous"
+      ],
+      "answer": 0,
+      "explanation": "The papers falsely announced the opening of the railway throughout the route."
+    },
+    {
+      "question": "On what date did Phileas Fogg plan to leave Calcutta?",
+      "options": [
+        "22nd",
+        "25th",
+        "30th",
+        "28th"
+      ],
+      "answer": 1,
+      "explanation": "He needed to reach Calcutta in time to catch a steamer leaving for Hong Kong on the 25th."
+    },
+    {
+      "question": "Assertion (A): The owner initially refused to sell the elephant. Reason (R): He was probably thinking he could make a greater bargain.",
+      "options": [
+        "A is true, R is false.",
+        "A is false, R is true.",
+        "Both A and R are true, R is the correct explanation.",
+        "Both A and R are false."
+      ],
+      "answer": 2,
+      "explanation": "The owner refused the 1000 pounds offer, perhaps thinking he was going to make a great bargain."
+    },
+    {
+      "question": "What does 'Flurried' mean?",
+      "options": [
+        "Calm",
+        "Worried / nervous",
+        "Sleeping",
+        "Laughing"
+      ],
+      "answer": 1,
+      "explanation": "Flurried means getting worried or nervous. Fogg bargained 'without getting in the least flurried'."
+    },
+    {
+      "question": "What does 'Yielded' mean?",
+      "options": [
+        "Opposed",
+        "Ran away",
+        "Accepted/Surrendered",
+        "Disappeared"
+      ],
+      "answer": 2,
+      "explanation": "Yielded means giving in or accepting. The man yielded at 2000 pounds."
+    },
+    {
+      "question": "Who perched himself on the elephant's neck?",
+      "options": [
+        "Mr. Fogg",
+        "Passepartout",
+        "Sir Francis",
+        "The elephant driver (Guide)"
+      ],
+      "answer": 3,
+      "explanation": "The young man guiding the elephant perched on its neck."
+    },
+    {
+      "question": "Where did the elephant's owner live?",
+      "options": [
+        "In Bombay",
+        "A hundred steps from where they were in Kholby",
+        "In Calcutta",
+        "In Allahabad"
+      ],
+      "answer": 1,
+      "explanation": "Passepartout found an elephant belonging to an Indian who lived but a hundred steps from there."
+    },
+    {
+      "question": "What term did the conductor use to describe Kholby?",
+      "options": [
+        "City",
+        "Hamlet of Kholby",
+        "Town",
+        "Metropolis"
+      ],
+      "answer": 1,
+      "explanation": "The conductor said they were at the 'hamlet' (a small village) of Kholby."
+    },
+    {
+      "question": "How many days had Mr. Fogg already gained/saved in his itinerary to sacrifice?",
+      "options": [
+        "5 days",
+        "1 day",
+        "2 days",
+        "10 days"
+      ],
+      "answer": 2,
+      "explanation": "Fogg states, 'I have two days, which I have already gained, to sacrifice.'"
+    },
+    {
+      "question": "What kind of Indian architecture did the passengers see from the train?",
+      "options": [
+        "Glass palaces",
+        "Attractive bungalows, viharas, and marvellous temples",
+        "Grand mosques",
+        "Churches"
+      ],
+      "answer": 1,
+      "explanation": "They saw attractive bungalows, viharas, and marvellous temples decorated by rich Indian architecture."
+    },
+    {
+      "question": "What is the dictionary meaning of 'Obstacle'?",
+      "options": [
+        "Prize",
+        "Difficulty/Barrier",
+        "Path",
+        "Happiness"
+      ],
+      "answer": 1,
+      "explanation": "An obstacle is a barrier or difficulty that blocks one's way."
+    },
+    {
+      "question": "What is the meaning of the word 'Foreseen'?",
+      "options": [
+        "Forgotten",
+        "Discovered",
+        "Predicted / Known beforehand",
+        "Destroyed"
+      ],
+      "answer": 2,
+      "explanation": "Foreseen means being aware of a future event or predicting it before it happens."
+    },
+    {
+      "question": "Which mountains did the train enter at three in the morning?",
+      "options": [
+        "Himalayas",
+        "Vindhya",
+        "Sutpour Mountains",
+        "Western Ghats"
+      ],
+      "answer": 2,
+      "explanation": "Towards evening the train entered the valleys of the Sutpour Mountains."
+    },
+    {
+      "question": "What did the conductor shout at Kholby?",
+      "options": [
+        "Show your tickets",
+        "Passengers will get out here!",
+        "The train will continue",
+        "Food is ready"
+      ],
+      "answer": 1,
+      "explanation": "The conductor shouted, 'Passengers will get out here!'"
+    },
+    {
+      "question": "Where does the railway line begin again, according to the conductor?",
+      "options": [
+        "Rothal",
+        "Calcutta",
+        "Allahabad",
+        "Bombay"
+      ],
+      "answer": 2,
+      "explanation": "The conductor said there's fifty miles to be laid to Allahabad, where the line begins again."
+    },
+    {
+      "question": "Life-skill context: If you were Sir Francis Cromarty, what would you think of Mr. Fogg's calmness?",
+      "options": [
+        "I would think he is crazy",
+        "I would think he doesn't care about the trip",
+        "I would be amazed by his patience and planning skills",
+        "I would leave him and go alone"
+      ],
+      "answer": 2,
+      "explanation": "Fogg's ability to remain calm and find a solution during a crisis is an admirable trait."
+    },
+    {
+      "question": "What did the area where the train stopped at Kholby look like?",
+      "options": [
+        "A big city",
+        "A clearing with several bungalows and workmen's cabins in the midst of a forest",
+        "A desert",
+        "A beach"
+      ],
+      "answer": 1,
+      "explanation": "It stopped in the midst of a clearing where there were several bungalows and workmen's cabins."
+    },
+    {
+      "question": "How did Passepartout feel after finding the elephant?",
+      "options": [
+        "Scared",
+        "Happy/Excited",
+        "Crying",
+        "Angry"
+      ],
+      "answer": 1,
+      "explanation": "Passepartout speedily returned, crying happily: 'Monsieur, I think I have found a means of conveyance.'"
+    },
+    {
+      "question": "What other vehicles did Mr. Fogg find before buying the elephant?",
+      "options": [
+        "Horse carriage",
+        "Motor car",
+        "Found absolutely nothing after searching the village from end to end",
+        "Boat"
+      ],
+      "answer": 2,
+      "explanation": "Mr. Fogg and Sir Francis came back without having found anything after searching the village."
+    },
+    {
+      "question": "What was the initial rent per hour offered by Mr. Fogg for the elephant?",
+      "options": [
+        "5 pounds",
+        "10 pounds",
+        "15 pounds",
+        "20 pounds"
+      ],
+      "answer": 1,
+      "explanation": "Mr. Fogg offered the excessive sum of ten pounds an hour for the loan of the animal."
+    },
+    {
+      "question": "Which vessel was Mr. Fogg supposed to board to continue his journey out of India?",
+      "options": [
+        "Mongolia",
+        "Titanic",
+        "A steamer leaving Calcutta for Hong Kong",
+        "Warship"
+      ],
+      "answer": 2,
+      "explanation": "He needed to catch the steamer leaving Calcutta for Hong Kong."
+    },
+    {
+      "question": "Dictionary meaning: What does 'Vacation' mean?",
+      "options": [
+        "Working day",
+        "Holiday/leave period",
+        "School day",
+        "Exam day"
+      ],
+      "answer": 1,
+      "explanation": "A vacation is an extended period of recreation or a holiday."
+    },
+    {
+      "question": "Dictionary meaning: What does 'Pilgrimage' mean?",
+      "options": [
+        "Sports trip",
+        "A journey to a sacred place",
+        "Business trip",
+        "Adventure trip"
+      ],
+      "answer": 1,
+      "explanation": "A pilgrimage is a journey to a religious or sacred place."
+    },
+    {
+      "question": "Which world-famous tourist attraction is located in Agra?",
+      "options": [
+        "Qutub Minar",
+        "Red Fort",
+        "Taj Mahal",
+        "Charminar"
+      ],
+      "answer": 2,
+      "explanation": "Agra's main attraction is the Taj Mahal."
+    },
+    {
+      "question": "Why did the elephant owner initially refuse to lend his elephant?",
+      "options": [
+        "The elephant was sick",
+        "Fogg was a foreigner",
+        "The elephant couldn't walk far",
+        "He refused point-blank without giving an explicit reason"
+      ],
+      "answer": 3,
+      "explanation": "The text states that the owner 'refused point-blank' to the proposal of renting the elephant."
+    },
+    {
+      "question": "Which club did Mr. Fogg belong to?",
+      "options": [
+        "Royal Club",
+        "Reform Club",
+        "Adventure Club",
+        "Travellers Club"
+      ],
+      "answer": 1,
+      "explanation": "He made the wager with his friends at the Reform Club."
+    },
+    {
+      "question": "What was the profession of Sir Francis Cromarty?",
+      "options": [
+        "Farmer",
+        "Merchant",
+        "Officer/General",
+        "Ship Sailor"
+      ],
+      "answer": 2,
+      "explanation": "The text refers to him as 'General' and 'Officer' multiple times."
+    },
+    {
+      "question": "How did Passepartout describe Kiouni's ability to travel?",
+      "options": [
+        "Slow and silent",
+        "Could doubtless travel rapidly for a long time",
+        "Could travel without water",
+        "Could travel only at night"
+      ],
+      "answer": 1,
+      "explanation": "Passepartout noted that Kiouni could doubtless travel rapidly for a long time."
+    },
+    {
+      "question": "What was placed on the elephant's back before the howdahs?",
+      "options": [
+        "Silk cloth",
+        "A sort of saddle-cloth",
+        "Wooden chair",
+        "Plastic sheet"
+      ],
+      "answer": 1,
+      "explanation": "The driver covered the elephant's back with a sort of saddle-cloth."
+    },
+    {
+      "question": "From which city did the train journey begin?",
+      "options": [
+        "Delhi",
+        "Chennai",
+        "Bombay",
+        "Paris"
+      ],
+      "answer": 2,
+      "explanation": "The train journey began an hour after leaving Bombay."
+    },
+    {
+      "question": "What did the train leave behind during the night?",
+      "options": [
+        "Oceans",
+        "Mountains",
+        "Deserts",
+        "Snow regions"
+      ],
+      "answer": 1,
+      "explanation": "During the night the train left the mountains behind."
+    },
+    {
+      "question": "What structures rose above the villages in the Khandesh region?",
+      "options": [
+        "Lighthouses",
+        "Towers of temples",
+        "Schools",
+        "Hospitals"
+      ],
+      "answer": 1,
+      "explanation": "Above the straggling villages rose the towers of temples."
+    },
+    {
+      "question": "What could Passepartout not believe upon looking out?",
+      "options": [
+        "The speed of the train",
+        "That he was actually crossing India in a railway train",
+        "The presence of elephants",
+        "The height of the mountains"
+      ],
+      "answer": 1,
+      "explanation": "Passepartout could not believe that he was actually crossing India in a railway train."
+    },
+    {
+      "question": "Why did Passepartout make an unhappy face (Unhappy face)?",
+      "options": [
+        "He was hungry",
+        "The train journey ended",
+        "He thought of walking and ruining his shoes",
+        "Fogg scolded him"
+      ],
+      "answer": 2,
+      "explanation": "He made an unhappy face as he thought of his magnificent Indian shoes."
+    },
+    {
+      "question": "What was Mr. Fogg's first offer to buy the elephant outright?",
+      "options": [
+        "100 pounds",
+        "500 pounds",
+        "1000 pounds",
+        "2000 pounds"
+      ],
+      "answer": 2,
+      "explanation": "At first, he offered a thousand pounds to purchase the animal outright."
+    },
+    {
+      "question": "What is the correct sequence of amounts offered by Fogg to buy the elephant?",
+      "options": [
+        "1000, 1500, 2000",
+        "1000, 1200, 1500, 1800, 2000",
+        "500, 1000, 1500, 2000",
+        "Directly 2000"
+      ],
+      "answer": 1,
+      "explanation": "He offered first twelve hundred, then fifteen hundred, eighteen hundred, and finally two thousand."
+    },
+    {
+      "question": "Who wanted to knock down the railway conductor?",
+      "options": [
+        "Mr. Fogg",
+        "Sir Francis",
+        "Passepartout",
+        "The elephant owner"
+      ],
+      "answer": 2,
+      "explanation": "Passepartout would willingly have knocked the conductor down."
+    },
+    {
+      "question": "What kind of trees were in the forest where the train stopped?",
+      "options": [
+        "Teak and redwood",
+        "Dates and acacias",
+        "Mango and jackfruit",
+        "Apple and orange"
+      ],
+      "answer": 1,
+      "explanation": "It stopped in the midst of this forest of dates and acacias."
+    },
+    {
+      "question": "What does the French word 'Monsieur' mean?",
+      "options": [
+        "Friend",
+        "Mister/Sir",
+        "Enemy",
+        "King"
+      ],
+      "answer": 1,
+      "explanation": "Monsieur is a French title equivalent to Mister or Sir."
+    },
+    {
+      "question": "Who said 'The papers were mistaken'?",
+      "options": [
+        "Sir Francis",
+        "Mr. Fogg",
+        "Railway Conductor",
+        "Passepartout"
+      ],
+      "answer": 2,
+      "explanation": "The conductor explained that the newspapers were mistaken about the railway being finished."
+    },
+    {
+      "question": "Who was angry that tickets were sold from Bombay to Calcutta despite the unfinished line?",
+      "options": [
+        "Passepartout",
+        "Sir Francis Cromarty",
+        "Mr. Fogg",
+        "The Guide"
+      ],
+      "answer": 1,
+      "explanation": "Sir Francis grew angry and snapped, 'Yet you sell tickets from Bombay to Calcutta'."
+    },
+    {
+      "question": "According to the conductor, who had to provide means of transportation?",
+      "options": [
+        "The railway management",
+        "The passengers themselves",
+        "The government",
+        "No one could travel"
+      ],
+      "answer": 1,
+      "explanation": "The conductor said passengers know they must provide means of transportation for themselves."
+    },
+    {
+      "question": "How is the face of the young man guiding the elephant described?",
+      "options": [
+        "Fierce face",
+        "Intelligent face",
+        "Sad face",
+        "Scared face"
+      ],
+      "answer": 1,
+      "explanation": "He is described as 'A young man, with an intelligent face'."
+    },
+    {
+      "question": "Which city did Mr. Fogg urgently need to reach to continue his journey out of India?",
+      "options": [
+        "Bombay",
+        "Allahabad",
+        "Calcutta",
+        "Rothal"
+      ],
+      "answer": 2,
+      "explanation": "He needed to reach Calcutta in time for the steamer to Hong Kong."
+    },
+    {
+      "question": "Assertion (A): Mr. Fogg was worried that he would lose the wager. Reason (R): The railway line ended at Kholby.",
+      "options": [
+        "Both A and R are true.",
+        "A is true, R is false.",
+        "A is false, R is true.",
+        "Both A and R are false."
+      ],
+      "answer": 2,
+      "explanation": "The railway line ending at Kholby is true (R), but Fogg was not worried; he was calm and said nothing is lost (A is false)."
+    },
+    {
+      "question": "In which direction did the elephant march off to begin the journey?",
+      "options": [
+        "Towards Allahabad by short cuts",
+        "Towards Bombay",
+        "Towards Calcutta via main road",
+        "Towards Khandesh"
+      ],
+      "answer": 0,
+      "explanation": "The animal marched off through the dense forest of palms by the short cuts towards Allahabad."
+    }
+  ]
+}

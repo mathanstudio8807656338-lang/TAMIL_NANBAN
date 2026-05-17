@@ -1,0 +1,882 @@
+{
+  "lesson_meta": {
+    "title": "Who Owns the Water? (Prose)",
+    "unit": 1,
+    "std": 6,
+    "term": "3",
+    "subject": "English",
+    "grade": "6",
+    "code": "eng_6_t3_l1"
+  },
+  "sections": [
+    {
+      "title": "1. பாடச் சுருக்கம் (Full Summary of the Lesson)",
+      "type": "infobox",
+      "content": [
+        {
+          "text": "This story highlights the importance of water and how a small depression in the earth becomes a pond, raising the question of who truly owns natural resources. || இந்தக் கதை நீரின் முக்கியத்துவத்தை விளக்குகிறது, மேலும் பூமியில் ஒரு சிறிய பள்ளம் எவ்வாறு குளமாக மாறுகிறது என்பதை விவரிக்கிறது, இயற்கை வளங்கள் உண்மையில் யாருக்குச் சொந்தம் என்ற கேள்வியை எழுப்புகிறது."
+        },
+        {
+          "text": "A tiny bird initially dug a shallow depression in a parched land to lay her eggs. After the eggs hatched, the birds flew away. || ஒரு சிறிய பறவை ஆரம்பத்தில் ஒரு வறண்ட நிலத்தில் முட்டையிடுவதற்காக ஒரு ஆழமற்ற பள்ளத்தைத் தோண்டியது. முட்டைகள் பொரித்த பிறகு, பறவைகள் பறந்து சென்றன."
+        },
+        {
+          "text": "A wild boar later found the hole, broadened it to sleep, and left it bigger. || ஒரு காட்டுப்பன்றி பின்னர் அந்தத் துளையைக் கண்டுபிடித்து, தூங்குவதற்காக அதை விரிவுபடுத்தியது, மேலும் அதை பெரியதாக விட்டுச் சென்றது."
+        },
+        {
+          "text": "A pack of wild dogs came sniffing for the boar, dug the hole further, and left when they found nothing. || காட்டு நாய்களின் கூட்டம் பன்றியைத் தேடி வந்தது, துளையை மேலும் தோண்டியது, எதுவும் கிடைக்காதபோது அங்கிருந்து சென்றது."
+        },
+        {
+          "text": "During the monsoons, it rained continuously for three days, filling the hole with water. || பருவமழையின் போது, மூன்று நாட்கள் தொடர்ச்சியாக மழை பெய்து, அந்தத் துளையை நீரால் நிரப்பியது."
+        },
+        {
+          "text": "Buffaloes discovered the puddle and wallowed in it, trampling the soil and expanding the hole into a small watering hole. || எருமைகள் குட்டையைக் கண்டுபிடித்து அதில் புரண்டன, மண்ணை மிதித்து துளையை ஒரு சிறிய நீர்நிலையாக விரிவுபடுத்தின."
+        },
+        {
+          "text": "A poor farmer, whose harvest was meagre, noticed this green patch. He used his pickaxe and spade to turn the muddy pit into a decent little pond. || தனது அறுவடை குறைவாக இருந்த ஒரு ஏழை விவசாயி இந்த பசுமையான இடத்தைக் கவனித்தார். அவர் தனது கோடாரி மற்றும் மண்வெட்டியைப் பயன்படுத்தி சேற்றுப் பள்ளத்தை ஒரு நல்ல சிறிய குளமாக மாற்றினார்."
+        },
+        {
+          "text": "The poor farmer's wife called the village priest to bless their fortune. || ஏழை விவசாயியின் மனைவி தங்களின் அதிர்ஷ்டத்தை ஆசீர்வதிக்க கிராமத்து பூசாரியை அழைத்தார்."
+        },
+        {
+          "text": "The richest farmer in the village arrived and falsely claimed that the pond was on his land. || கிராமத்தின் பணக்கார விவசாயி வந்து, குளம் தனது நிலத்தில் இருப்பதாக பொய்யாகக் கூறினார்."
+        },
+        {
+          "text": "As the two farmers argued, all the animals (boar, dogs, buffaloes, bird) watched, each thinking they had a part in creating the pond. The story leaves us with the thought-provoking question: 'Who owns the water?' || இரு விவசாயிகளும் வாதிட்டபோது, அனைத்து விலங்குகளும் (பன்றி, நாய்கள், எருமைகள், பறவை) பார்த்தன, ஒவ்வொன்றும் குளம் உருவாவதில் தங்களுக்கு ஒரு பங்கு இருப்பதாக நினைத்தன. கதை நம்மிடம் ஒரு சிந்திக்க வைக்கும் கேள்வியை விட்டுச் செல்கிறது: 'நீருக்குச் சொந்தக்காரர் யார்?'"
+        }
+      ]
+    },
+    {
+      "title": "2. கூடுதல் பகுதிகள் மற்றும் குறிப்புகள் (Additional Information & Notes)",
+      "type": "infobox",
+      "content": [
+        {
+          "text": "The story does not end with a direct moral, but plants a 'germ of an idea' about nature and ownership. || கதை ஒரு நேரடி நீதியுடன் முடிவடையவில்லை, ஆனால் இயற்கை மற்றும் உரிமை பற்றிய ஒரு 'கருத்தை' விதைக்கிறது."
+        },
+        {
+          "text": "The transition of the land: Parched land -> Shallow depression -> Dusty hole -> Muddy pit -> Watering hole -> Decent little pond -> Little jewel of blue. || நிலத்தின் மாற்றம்: வறண்ட நிலம் -> ஆழமற்ற பள்ளம் -> தூசி நிறைந்த துளை -> சேற்றுப் பள்ளம் -> நீர்நிலை -> நல்ல சிறிய குளம் -> சிறிய நீல நிற நகை."
+        },
+        {
+          "text": "Tools used by the poor farmer: Pickaxe and Spade. || ஏழை விவசாயி பயன்படுத்திய கருவிகள்: கோடாரி மற்றும் மண்வெட்டி."
+        },
+        {
+          "text": "Animals in sequence: Tiny Bird -> Wild Boar -> Wild Dogs -> Buffaloes. || விலங்குகளின் வரிசை: சிறிய பறவை -> காட்டுப்பன்றி -> காட்டு நாய்கள் -> எருமைகள்."
+        }
+      ]
+    },
+    {
+      "title": "3. மேலும் அறிந்து கொள்வோம் (Do You Know?)",
+      "type": "infobox",
+      "content": [
+        {
+          "text": "WEATHER: The conditions in the atmosphere like rain, wind, or temperature at any time. || வானிலை: மழை, காற்று அல்லது வெப்பநிலை போன்ற வளிமண்டலத்தின் நிலைகள்."
+        },
+        {
+          "text": "CLIMATE: The general weather conditions of a place. (e.g., a warm climate, cold climate). || காலநிலை: ஒரு இடத்தின் பொதுவான வானிலை நிலைகள். (எ.கா., வெப்பமான காலநிலை, குளிர்ந்த காலநிலை)."
+        },
+        {
+          "text": "SEASONS: One of the four periods of the year which has its own typical weather conditions resulting from the earth's changing positions in its orbit around the sun. || பருவங்கள்: சூரியனைச் சுற்றியுள்ள பூமியின் மாறும் நிலைகளால் ஏற்படும் அதன் சொந்த பொதுவான வானிலை நிலைகளைக் கொண்ட ஆண்டின் நான்கு காலங்களில் ஒன்று."
+        }
+      ]
+    },
+    {
+      "title": "4. அருஞ்சொற்பொருள் (Glossary & Vocabulary)",
+      "type": "infobox",
+      "content": [
+        {
+          "text": "outskirts - the outer areas of a city or a town || புறநகர் - ஒரு நகரம் அல்லது ஊரின் வெளிப்புறப் பகுதிகள்"
+        },
+        {
+          "text": "parched - very dry || வறண்ட - மிகவும் காய்ந்த"
+        },
+        {
+          "text": "desperation - losing hope || நம்பிக்கையற்ற நிலை - நம்பிக்கையை இழத்தல்"
+        },
+        {
+          "text": "untenanted - not occupied || குடியிருப்பார் இல்லாத - ஆக்கிரமிக்கப்படாத"
+        },
+        {
+          "text": "rump - back part of a mammal's body or the part of the body you use to sit || புட்டம் - ஒரு பாலூட்டியின் உடலின் பின்புறம் அல்லது நீங்கள் அமர பயன்படுத்தும் உடலின் பகுதி"
+        },
+        {
+          "text": "scrabbled - moved hands and feet around || கீறப்பட்டது - கைகளையும் கால்களையும் சுற்றிலும் நகர்த்தியது"
+        },
+        {
+          "text": "cosy - comfortable || வசதியான - சுகமான"
+        },
+        {
+          "text": "rumble - a low sound like thunder || உருமல் - இடி போன்ற ஒரு தாழ்ந்த ஒலி"
+        },
+        {
+          "text": "sniffed - to breathe in air in a noisy way || முகர்ந்தது - சத்தத்துடன் காற்றைச் சுவாசித்தல்"
+        },
+        {
+          "text": "whined - made a high pitched cry || சிணுங்கியது - அதிக சுருதியுள்ள அழுகையை உருவாக்கியது"
+        },
+        {
+          "text": "snarled - made a deep angry noise || உறுமியது - ஆழமான கோபமான சத்தத்தை உருவாக்கியது"
+        },
+        {
+          "text": "soaked - completely wet || நனைந்தது - முற்றிலும் ஈரமானது"
+        },
+        {
+          "text": "wallowed - to lie and roll in mud || புரண்டது - சேற்றில் படுத்து உருளுதல்"
+        },
+        {
+          "text": "multitude - a large number of people || திரள் - ஏராளமான மக்கள்"
+        },
+        {
+          "text": "trampling - crushing || மிதித்தல் - நசுக்குதல்"
+        },
+        {
+          "text": "tilled - prepared the land for crops || உழுதது - பயிர்களுக்கு நிலத்தைத் தயார் செய்தது"
+        },
+        {
+          "text": "meagre - small quantity || குறைவான - சிறிய அளவு"
+        },
+        {
+          "text": "gratitude - thankful || நன்றி உணர்வு - நன்றியுடன் இருத்தல்"
+        },
+        {
+          "text": "verdant - green with grass || பசுமையான - புற்களால் பச்சை நிறமாக இருப்பது"
+        },
+        {
+          "text": "suspiciously - doubtfully || சந்தேகத்துடன் - ஐயப்பாட்டுடன்"
+        },
+        {
+          "text": "summoned - called || அழைக்கப்பட்டது - கூப்பிடப்பட்டது"
+        },
+        {
+          "text": "fortune - luck || அதிர்ஷ்டம் - யோகம்"
+        },
+        {
+          "text": "contentment - satisfaction || மனநிறைவு - திருப்தி"
+        },
+        {
+          "text": "stuttered - spoke with difficulty || தடுமாறியது - சிரமத்துடன் பேசியது"
+        },
+        {
+          "text": "four-square - solidly || உறுதியாக - வலுவாக"
+        }
+      ]
+    },
+    {
+      "title": "5. இலக்கணக் குறிப்புகள் (Grammar Points for Exams)",
+      "type": "infobox",
+      "content": [
+        {
+          "text": "Compound Words: rain+coat = raincoat, sail+boat = sailboat, tender+coconut = tender coconut, rain+bow = rainbow, fire+place = fireplace. || கூட்டுச் சொற்கள்: rain+coat = raincoat (மழை அங்கி), sail+boat = sailboat (பாய்மரப் படகு), tender+coconut = tender coconut (இளநீர்), rain+bow = rainbow (வானவில்), fire+place = fireplace (அடுப்பு)."
+        },
+        {
+          "text": "Collective Nouns: A PACK of wolves, A PAIR of shoes, A SCHOOL of fish, A SWARM of bees, A BUNCH of grapes. || தொகுப்புப் பெயர்கள்: A PACK of wolves (ஓநாய்களின் கூட்டம்), A PAIR of shoes (ஒரு ஜோடி காலணிகள்), A SCHOOL of fish (மீன்களின் கூட்டம்), A SWARM of bees (தேனீக்களின் கூட்டம்), A BUNCH of grapes (திராட்சைக் கொத்து)."
+        },
+        {
+          "text": "Confusing Words: 'Beside' means next to/at the side of. 'Besides' means in addition to."
+        },
+        {
+          "text": "Confusing Words: 'Accept' means to receive. 'Except' means to leave out."
+        },
+        {
+          "text": "Confusing Words: 'Watch' is to look at something moving carefully. 'See' is to just look at something in front of us."
+        },
+        {
+          "text": "Conjunctions: Words that join two words or sentences (e.g., and, but, or, so, because). || இணைப்புச் சொற்கள்: இரண்டு சொற்கள் அல்லது வாக்கியங்களை இணைக்கும் சொற்கள் (எ.கா., and, but, or, so, because)."
+        }
+      ]
+    },
+    {
+      "title": "6. நினைவில் கொள்க (Points to Remember for One Mark)",
+      "type": "infobox",
+      "content": [
+        {
+          "text": "The story is an allegory about shared natural resources. || இந்தக் கதை பகிரப்பட்ட இயற்கை வளங்களைப் பற்றிய ஒரு நீதிக்கதையாகும்."
+        },
+        {
+          "text": "The dry earth soaked up moisture like a 'hungry puppy laps up milk' (Simile). || வறண்ட பூமி ஒரு 'பசியுள்ள நாய்க்குட்டி பாலை நக்குவது போல' ஈரப்பதத்தை உறிஞ்சியது (உவமை)."
+        },
+        {
+          "text": "The pond is referred to as 'the little jewel of blue'. || குளம் 'சிறிய நீல நிற நகை' என்று குறிப்பிடப்படுகிறது."
+        },
+        {
+          "text": "The richest farmer crossed his arms and planted his feet 'four-square' to claim the land. || பணக்கார விவசாயி தனது கைகளைக் கட்டிக்கொண்டு, நிலத்தைக் கோருவதற்கு தனது கால்களை 'உறுதியாக' ஊன்றினார்."
+        }
+      ]
+    },
+    {
+      "title": "A. True or False Statements",
+      "type": "infobox",
+      "content": [
+        {
+          "text": "1. A tiny bird looked for a place to lay her eggs. (True - √)"
+        },
+        {
+          "text": "2. The land was wet and green. (False - x)"
+        },
+        {
+          "text": "3. The little bird found a shallow hollow in the ground. (True - √)"
+        },
+        {
+          "text": "4. The eggs hatched and the babies flew away. (True - √)"
+        },
+        {
+          "text": "5. The pit was comfortable for the wild boar to sleep in. (False - x)"
+        },
+        {
+          "text": "6. The wild boar got up from its day bed because it was disturbed by another boar. (False - x)"
+        }
+      ]
+    },
+    {
+      "title": "B. Fill in the blanks",
+      "type": "infobox",
+      "content": [
+        {
+          "text": "1. The wild dogs came to the spot to catch the scent of boar. || 1. காட்டு நாய்கள் பன்றியின் வாசனையைப் பிடிக்க அந்த இடத்திற்கு வந்தன."
+        },
+        {
+          "text": "2. The rains came and poured for three days and three nights. || 2. மூன்று பகல் மற்றும் மூன்று இரவுகள் மழை பொழிந்தது."
+        },
+        {
+          "text": "3. The whole earth smelled wet and fresh. || 3. பூமி முழுவதும் ஈரமாகவும் புதிய வாசனையுடனும் இருந்தது."
+        },
+        {
+          "text": "4. The hole in the ground was filled with water. || 4. தரையில் இருந்த துளை நீரால் நிரப்பப்பட்டது."
+        },
+        {
+          "text": "5. The buffalo wallowed in the hole. || 5. எருமை அந்தத் துளையில் புரண்டது."
+        },
+        {
+          "text": "6. The hole became widened and grew. || 6. துளை விரிவடைந்து வளர்ந்தது."
+        }
+      ]
+    },
+    {
+      "title": "C. Choose the correct answer",
+      "type": "infobox",
+      "content": [
+        {
+          "text": "1. The little bird broadened the hole with her ___________ (Answer: b. claws) || 1. சிறிய பறவை தனது ___________ ஆல் துளையை விரிவுபடுத்தியது (விடை: b. நகங்கள்)"
+        },
+        {
+          "text": "2. The wild boar settled down scraping the hole into a ________ to have a good sleep. (Answer: b. hollow) || 2. காட்டுப்பன்றி நன்றாகத் தூங்குவதற்கு அந்தத் துளையை ஒரு ________ ஆக மாற்றியது. (விடை: b. பள்ளம்)"
+        },
+        {
+          "text": "3. The poor farmer’s crop was _________ (Answer: a. meagre) || 3. ஏழை விவசாயியின் பயிர் _________ ஆக இருந்தது (விடை: a. குறைவான)"
+        }
+      ]
+    },
+    {
+      "title": "D. Tick the correct answer",
+      "type": "infobox",
+      "content": [
+        {
+          "text": "1. The boar slept until the fading sun told him it was time to get up. What does the phrase until the fading sun mean? (Answer: a. until evening) || 1. மறையும் சூரியன் எழும் நேரம் வந்துவிட்டது என்று சொல்லும் வரை பன்றி தூங்கியது. 'மறையும் சூரியன் வரை' என்ற சொற்றொடரின் பொருள் என்ன? (விடை: a. மாலை வரை)"
+        },
+        {
+          "text": "2. The farmer was thankful at the sight of the verdant bowl because ___________ (Answer: a. it was a pond of water) || 2. பசுமையான நீர்நிலையைக் கண்டதும் விவசாயி நன்றியுடன் இருந்தார், ஏனெனில் ___________ (விடை: a. அது ஒரு நீர் குளம்)"
+        },
+        {
+          "text": "3. They all stood around the little jewel of blue means ___________ (Answer: a. They stood around the pond.) || 3. அவர்கள் அனைவரும் அந்தச் சிறிய நீல நிற நகையைச் சுற்றி நின்றனர் என்பது ___________ (விடை: a. அவர்கள் குளத்தைச் சுற்றி நின்றனர்.)"
+        },
+        {
+          "text": "4. The dry earth soaked up the moisture as a hungry puppy laps up milk. It means ____ (Answer: b. The dry earth absorbed the water very quickly.) || 4. வறண்ட பூமி ஒரு பசியுள்ள நாய்க்குட்டி பாலை நக்குவது போல ஈரப்பதத்தை உறிஞ்சியது. இதன் பொருள் ____ (விடை: b. வறண்ட பூமி நீரை மிக விரைவாக உறிஞ்சியது.)"
+        }
+      ]
+    },
+    {
+      "title": "E. Vocabulary - Collective Nouns",
+      "type": "infobox",
+      "content": [
+        {
+          "text": "1. A pack of wolves || 1. ஓநாய்களின் ஒரு கூட்டம் (Pack)"
+        },
+        {
+          "text": "2. A pair of shoes || 2. ஒரு ஜோடி (Pair) காலணிகள்"
+        },
+        {
+          "text": "3. A school of fish || 3. மீன்களின் ஒரு கூட்டம் (School)"
+        },
+        {
+          "text": "4. A swarm of bees || 4. தேனீக்களின் ஒரு கூட்டம் (Swarm)"
+        },
+        {
+          "text": "5. A bunch of grapes || 5. திராட்சையின் ஒரு கொத்து (Bunch)"
+        }
+      ]
+    },
+    {
+      "title": "F. Grammar - Conjunctions",
+      "type": "infobox",
+      "content": [
+        {
+          "text": "1. Our team played well and won the game. || 1. எங்கள் குழு நன்றாக விளையாடி ஆட்டத்தில் வென்றது."
+        },
+        {
+          "text": "2. She slipped badly but she did not hurt herself. || 2. அவள் மோசமாக நழுவினாள், ஆனால் அவளுக்குக் காயம் ஏற்படவில்லை."
+        },
+        {
+          "text": "3. The box was heavy so he could not lift it. || 3. பெட்டி கனமாக இருந்தது, அதனால் அவரால் அதைத் தூக்க முடியவில்லை."
+        },
+        {
+          "text": "4. Rani was late to school because she missed the bus. || 4. ராணி பள்ளிக்குத் தாமதமாக வந்தாள், ஏனெனில் அவள் பேருந்தைத் தவறவிட்டாள்."
+        },
+        {
+          "text": "5. You can use a pen or a pencil for writing. || 5. நீங்கள் எழுதுவதற்கு ஒரு பேனா அல்லது பென்சிலைப் பயன்படுத்தலாம்."
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "What was the initial state of the land where the tiny bird wanted to lay her eggs? || சிறிய பறவை முட்டையிட விரும்பிய நிலத்தின் ஆரம்ப நிலை என்ன?",
+        "options": [
+          "Lush and green || Lush and green",
+          "Parched and dry || வறண்ட மற்றும் காய்ந்த",
+          "Wet and muddy || Wet and muddy",
+          "Covered with snow || Covered with snow"
+        ],
+        "a": 1,
+        "ex": "The story states that the land was parched and dry, and there wasn't a bush or tree in sight. || நிலம் வறண்டு காய்ந்திருந்ததாகவும், பார்வையில் ஒரு புதர் அல்லது மரம் கூட இல்லை என்றும் கதை கூறுகிறது."
+      },
+      {
+        "q": "Which part of her body did the little bird use to remove the stones? || கற்களை அகற்ற சிறிய பறவை தனது உடலின் எந்தப் பகுதியைப் பயன்படுத்தியது?",
+        "options": [
+          "Wings || Wings",
+          "Beak || Beak",
+          "Claws || நகங்கள்",
+          "Tail || Tail"
+        ],
+        "a": 2,
+        "ex": "The little bird used her claws to remove the stones and loosen up the packed earth. || சிறிய பறவை கற்களை அகற்றவும், இறுகிய மண்ணைத் தளர்த்தவும் தனது நகங்களைப் பயன்படுத்தியது."
+      },
+      {
+        "q": "What does the word 'untenanted' mean in the context of the story? || கதையின் சூழலில் 'untenanted' என்ற சொல்லின் பொருள் என்ன?",
+        "options": [
+          "Occupied by many || Occupied by many",
+          "Not occupied || ஆக்கிரமிக்கப்படாத",
+          "Full of water || Full of water",
+          "Destroyed || Destroyed"
+        ],
+        "a": 1,
+        "ex": "'Untenanted' means not occupied or lived in. The hole remained untenanted after the bird left. || 'Untenanted' என்பது ஆக்கிரமிக்கப்படாத அல்லது வசிக்கப்படாத என்று பொருள்படும். பறவை சென்ற பிறகு துளை ஆக்கிரமிக்கப்படாமல் இருந்தது."
+      },
+      {
+        "q": "Which animal was the first to use the hole after the bird's babies flew away? || பறவையின் குஞ்சுகள் பறந்து சென்ற பிறகு துளையை முதலில் பயன்படுத்திய விலங்கு எது?",
+        "options": [
+          "Buffalo || Buffalo",
+          "Wild dog || Wild dog",
+          "Wild boar || காட்டுப்பன்றி",
+          "Poor farmer || Poor farmer"
+        ],
+        "a": 2,
+        "ex": "A passing wild boar settled his rump into the depression. || கடந்து சென்ற ஒரு காட்டுப்பன்றி தனது புட்டத்தை அந்தப் பள்ளத்தில் அமர்த்தியது."
+      },
+      {
+        "q": "Why did the wild boar depart his daybed? || காட்டுப்பன்றி ஏன் தனது பகல் நேரப் படுக்கையை விட்டு வெளியேறியது?",
+        "options": [
+          "He saw wild dogs approaching || He saw wild dogs approaching",
+          "The farmer chased him || The farmer chased him",
+          "Fading sun and a rumble in his stomach || மறையும் சூரியன் மற்றும் வயிற்றில் ஏற்பட்ட உருமல்",
+          "It started to rain heavily || It started to rain heavily"
+        ],
+        "a": 2,
+        "ex": "The boar woke up because it was evening (fading sun) and he was hungry (rumble in his stomach). || மாலை நேரம் (மறையும் சூரியன்) மற்றும் அவருக்கு பசி (வயிற்றில் உருமல்) ஏற்பட்டதால் பன்றி எழுந்தது."
+      },
+      {
+        "q": "Choose the exact meaning of the word 'rump'. || Choose the exact meaning of the word 'rump'.",
+        "options": [
+          "The sharp tusks of an animal || The sharp tusks of an animal",
+          "A low sound like thunder || A low sound like thunder",
+          "Back part of a mammal's body used to sit || பாலூட்டியின் உடலின் பின்புறம் அமரப் பயன்படுத்தப்படும் பகுதி",
+          "Moved hands and feet around || Moved hands and feet around"
+        ],
+        "a": 2,
+        "ex": "According to the glossary, 'rump' refers to the back part of a mammal's body. || அருஞ்சொற்பொருளின் படி, 'rump' என்பது ஒரு பாலூட்டியின் உடலின் பின்புறத்தைக் குறிக்கிறது."
+      },
+      {
+        "q": "How did the wild dogs react when they reached the spot where the boar had slept? || பன்றி தூங்கிய இடத்திற்கு காட்டு நாய்கள் வந்தபோது அவை எவ்வாறு நடந்துகொண்டன?",
+        "options": [
+          "They slept in the hole || They slept in the hole",
+          "They whined, snarled and dug at the smell || அவை சிணுங்கி, உறுமி, வாசனையை நோக்கித் தோண்டின",
+          "They drank water from the hole || They drank water from the hole",
+          "They hid from the boar || They hid from the boar"
+        ],
+        "a": 1,
+        "ex": "Catching the scent of the boar, the dogs sniffed, whined, snarled, and dug at the smell. || பன்றியின் வாசனையைப் பிடித்த நாய்கள், முகர்ந்து, சிணுங்கி, உறுமி, அந்த வாசனையை நோக்கித் தோண்டின."
+      },
+      {
+        "q": "How long did the monsoon rains pour without stopping? || பருவமழை இடைவிடாமல் எவ்வளவு காலம் பொழிந்தது?",
+        "options": [
+          "One day and one night || One day and one night",
+          "Two days and two nights || Two days and two nights",
+          "Three days and three nights || மூன்று பகல் மற்றும் மூன்று இரவுகள்",
+          "A whole week || A whole week"
+        ],
+        "a": 2,
+        "ex": "The text explicitly states it rained without stopping for three days and three nights. || மூன்று பகல் மற்றும் மூன்று இரவுகள் இடைவிடாது மழை பெய்ததாக உரை தெளிவாகக் கூறுகிறது."
+      },
+      {
+        "q": "Identify the figure of speech in the line: 'the dry earth soaked up the moisture, as a hungry puppy laps up milk'. || 'வறண்ட பூமி ஒரு பசியுள்ள நாய்க்குட்டி பாலை நக்குவது போல ஈரப்பதத்தை உறிஞ்சியது' என்ற வரியில் உள்ள அணி (Figure of speech) எது?",
+        "options": [
+          "Metaphor || Metaphor",
+          "Personification || Personification",
+          "Simile || உவமை அணி",
+          "Hyperbole || Hyperbole"
+        ],
+        "a": 2,
+        "ex": "The use of 'as' to compare the dry earth soaking moisture to a hungry puppy lapping milk makes it a simile. || வறண்ட பூமி ஈரப்பதத்தை உறிஞ்சுவதை ஒரு பசியுள்ள நாய்க்குட்டி பாலை நக்குவதோடு ஒப்பிட 'as' ஐப் பயன்படுத்துவது அதை ஒரு உவமையாக்குகிறது."
+      },
+      {
+        "q": "Which animals turned the hole into a muddy pit by wallowing in it? || துளையில் புரண்டு அதைச் சேற்றுப் பள்ளமாக மாற்றிய விலங்குகள் எவை?",
+        "options": [
+          "Elephants || Elephants",
+          "Wild pigs || Wild pigs",
+          "Buffaloes || எருமைகள்",
+          "Wild dogs || Wild dogs"
+        ],
+        "a": 2,
+        "ex": "Buffaloes discovered the grassy spot and wallowed in the puddly water, turning it into a muddy pit. || எருமைகள் புல்வெளியைக் கண்டுபிடித்து குட்டை நீரில் புரண்டன, அதை ஒரு சேற்றுப் பள்ளமாக மாற்றின."
+      },
+      {
+        "q": "What is the meaning of the word 'multitude'? || 'multitude' என்ற சொல்லின் பொருள் என்ன?",
+        "options": [
+          "A small fraction || A small fraction",
+          "Crushing || Crushing",
+          "A large number of people/things || ஏராளமான மக்கள்/பொருட்கள்",
+          "Prepared land || Prepared land"
+        ],
+        "a": 2,
+        "ex": "'Multitude' means a large number. The text mentions a multitude of hooves trampling the soil. || 'Multitude' என்பது ஒரு பெரிய எண்ணிக்கையைக் குறிக்கிறது. மண் மிதிக்கப்படுவதை உரை குறிப்பிடுகிறது."
+      },
+      {
+        "q": "Why did the poor farmer travel far in the summer months? || கோடை மாதங்களில் ஏழை விவசாயி ஏன் வெகுதூரம் பயணம் செய்தார்?",
+        "options": [
+          "To sell his crops || To sell his crops",
+          "To find wild animals || To find wild animals",
+          "To get water for his thirsty crops || தனது தாகமுள்ள பயிர்களுக்குத் தண்ணீர் கொண்டு வர",
+          "To meet the village priest || To meet the village priest"
+        ],
+        "a": 2,
+        "ex": "His life was hard, and he had to travel far to get water for his thirsty crops. || அவரது வாழ்க்கை கடினமாக இருந்தது, மேலும் அவர் தனது தாகமுள்ள பயிர்களுக்குத் தண்ணீர் பெற வெகுதூரம் செல்ல வேண்டியிருந்தது."
+      },
+      {
+        "q": "What did the farmer see on the horizon that made him fall to the ground with gratitude? || தொடுவானத்தில் விவசாயி எதைப் பார்த்தார், அது அவரை நன்றியுடன் தரையில் விழ வைத்தது?",
+        "options": [
+          "A pot of gold || A pot of gold",
+          "A verdant bowl || ஒரு பசுமையான பகுதி (கிண்ணம் போன்ற வடிவம்)",
+          "A heavy rain cloud || A heavy rain cloud",
+          "A herd of buffaloes || A herd of buffaloes"
+        ],
+        "a": 1,
+        "ex": "He saw a patch of green (verdant bowl) containing water close to his holding. || அவர் தனது நிலத்திற்கு அருகில் நீர் கொண்ட ஒரு பசுமையான பகுதியைக் (பசுமையான கிண்ணம்) கண்டார்."
+      },
+      {
+        "q": "Which tools did the poor farmer use to make the hole into a decent little pond? || துளையை ஒரு நல்ல சிறிய குளமாக மாற்ற ஏழை விவசாயி எந்தக் கருவிகளைப் பயன்படுத்தினார்?",
+        "options": [
+          "Tractor and plough || Tractor and plough",
+          "Axe and hammer || Axe and hammer",
+          "Pickaxe and spade || கோடாரி மற்றும் மண்வெட்டி",
+          "Sickle and rope || Sickle and rope"
+        ],
+        "a": 2,
+        "ex": "He raced home and brought out his pickaxe and spade to dig the pond. || அவர் வீட்டிற்கு ஓடிச் சென்று குளத்தைத் தோண்ட தனது கோடாரி மற்றும் மண்வெட்டியைக் கொண்டு வந்தார்."
+      },
+      {
+        "q": "Whom did the farmer's wife summon to bless their fortune? || தங்கள் அதிர்ஷ்டத்தை ஆசீர்வதிக்க விவசாயியின் மனைவி யாரை அழைத்தார்?",
+        "options": [
+          "The village headman || The village headman",
+          "The rich farmer || The rich farmer",
+          "The village priest || கிராமத்துப் பூசாரி",
+          "The king || The king"
+        ],
+        "a": 2,
+        "ex": "The wife summoned the village priest to bless the newly found water source. || புதிதாகக் கண்டுபிடிக்கப்பட்ட நீர் ஆதாரத்தை ஆசீர்வதிக்க மனைவி கிராமத்து பூசாரியை அழைத்தார்."
+      },
+      {
+        "q": "How is the rich farmer's nature described when an event takes place in the village? || கிராமத்தில் ஒரு நிகழ்வு நடக்கும்போது பணக்கார விவசாயியின் குணம் எவ்வாறு விவரிக்கப்படுகிறது?",
+        "options": [
+          "He is always generous and helpful || He is always generous and helpful",
+          "He is always upset when not invited || அழைக்கப்படாதபோது அவர் எப்போதும் வருத்தப்படுவார்",
+          "He is completely indifferent || He is completely indifferent",
+          "He stays hidden in his house || He stays hidden in his house"
+        ],
+        "a": 1,
+        "ex": "The text notes that the richest farmer was always upset when things took place that he was not invited to. || அழைக்கப்படாத நிகழ்வுகள் நடக்கும்போது பணக்கார விவசாயி எப்போதும் வருத்தமடைவார் என்று உரை குறிப்பிடுகிறது."
+      },
+      {
+        "q": "What does 'stuttered' mean? || 'stuttered' என்பதன் பொருள் என்ன?",
+        "options": [
+          "Spoke fluently || Spoke fluently",
+          "Spoke with difficulty || சிரமத்துடன் பேசியது",
+          "Shouted angrily || Shouted angrily",
+          "Whispered softly || Whispered softly"
+        ],
+        "a": 1,
+        "ex": "The poor farmer stuttered (spoke with difficulty) when the rich farmer claimed the pond. || பணக்கார விவசாயி குளத்தைக் கோரியபோது ஏழை விவசாயி தடுமாறினார் (சிரமத்துடன் பேசினார்)."
+      },
+      {
+        "q": "Complete the compound word: The ____ boat danced on the pond. || கூட்டுச் சொல்லை நிறைவு செய்க: ____ படகு குளத்தில் ஆடியது.",
+        "options": [
+          "rain || rain",
+          "sail || பாய்மரம் (sail)",
+          "motor || motor",
+          "steam || steam"
+        ],
+        "a": 1,
+        "ex": "The correct compound word given in the book exercise is 'sailboat'. || புத்தகப் பயிற்சியில் கொடுக்கப்பட்டுள்ள சரியான கூட்டுச் சொல் 'sailboat' (பாய்மரப் படகு)."
+      },
+      {
+        "q": "Match the following collective nouns correctly:\n1. Wolves - a. School\n2. Fish - b. Bunch\n3. Grapes - c. Pack || Match the following collective nouns correctly:\n1. Wolves - a. School\n2. Fish - b. Bunch\n3. Grapes - c. Pack",
+        "options": [
+          "1-b, 2-c, 3-a || 1-b, 2-c, 3-a",
+          "1-c, 2-a, 3-b || 1-c, 2-a, 3-b",
+          "1-a, 2-b, 3-c || 1-a, 2-b, 3-c",
+          "1-c, 2-b, 3-a || 1-c, 2-b, 3-a"
+        ],
+        "a": 1,
+        "ex": "A pack of wolves, a school of fish, a bunch of grapes. || ஓநாய்களின் கூட்டம், மீன்களின் கூட்டம், திராட்சைக் கொத்து."
+      },
+      {
+        "q": "Fill in with the appropriate collective noun: A _______ of bees had settled on a mango tree. || Fill in with the appropriate collective noun: A _______ of bees had settled on a mango tree.",
+        "options": [
+          "pack || pack",
+          "swarm || கூட்டம் (swarm)",
+          "flock || flock",
+          "herd || herd"
+        ],
+        "a": 1,
+        "ex": "The collective noun for bees is 'swarm'. || தேனீக்களுக்கான தொகுப்புப் பெயர் 'swarm' (கூட்டம்)."
+      },
+      {
+        "q": "What is the collective noun for shoes? || காலணிகளுக்கான தொகுப்புப் பெயர் (Collective noun) எது?",
+        "options": [
+          "Pair || ஜோடி (Pair)",
+          "Set || Set",
+          "Bunch || Bunch",
+          "Pack || Pack"
+        ],
+        "a": 0,
+        "ex": "We say a 'pair' of shoes. || நாங்கள் ஒரு 'ஜோடி' காலணிகள் என்று கூறுகிறோம்."
+      },
+      {
+        "q": "Select the correct word to fill in the blank: There is a table ______ the bed. || Select the correct word to fill in the blank: There is a table ______ the bed.",
+        "options": [
+          "besides || besides",
+          "beside || அருகில் (beside)",
+          "except || தவிர (except)",
+          "accept || accept"
+        ],
+        "a": 1,
+        "ex": "'Beside' means next to. 'Besides' means in addition to. || 'Beside' என்பது அருகில் என்று பொருள்படும். 'Besides' என்பது கூடுதலாக என்று பொருள்படும்."
+      },
+      {
+        "q": "Select the correct word to fill in the blank: Everyone played games ______ Kathir. || Select the correct word to fill in the blank: Everyone played games ______ Kathir.",
+        "options": [
+          "accept || accept",
+          "beside || அருகில் (beside)",
+          "besides || besides",
+          "except || தவிர (except)"
+        ],
+        "a": 3,
+        "ex": "'Except' means to leave out. 'Accept' means to receive. || 'Except' என்பது தவிர என்று பொருள்படும். 'Accept' என்பது ஏற்றுக்கொள்வது என்று பொருள்படும்."
+      },
+      {
+        "q": "Which is the correct verb to use? I _______ T.V. news regularly. || பயன்படுத்த வேண்டிய சரியான வினைச்சொல் எது? நான் தொடர்ந்து டி.வி செய்திகளை _______ .",
+        "options": [
+          "see || see",
+          "watch || பார்க்கிறேன் (watch)",
+          "look || look",
+          "stare || stare"
+        ],
+        "a": 1,
+        "ex": "'Watch' is used to look at something carefully, usually something moving (like T.V.). || 'Watch' என்பது எதையாவது கவனமாகப் பார்க்கப் பயன்படுகிறது, பொதுவாக நகரும் எதையாவது (டிவி போல)."
+      },
+      {
+        "q": "Assertion (A): The wild dogs left the hole without finding any food.\nReason (R): The wild boar had already departed the hole hours ago. || Assertion (A): The wild dogs left the hole without finding any food.\nReason (R): The wild boar had already departed the hole hours ago.",
+        "options": [
+          "Both A and R are true, and R is the correct explanation of A. || Both A and R are true, and R is the correct explanation of A.",
+          "Both A and R are true, but R is not the correct explanation of A. || Both A and R are true, but R is not the correct explanation of A.",
+          "A is true, but R is false. || A is true, but R is false.",
+          "A is false, but R is true. || A is false, but R is true."
+        ],
+        "a": 0,
+        "ex": "The dogs sniffed the smell of the boar but found nothing because the boar had woken up and left earlier. || நாய்கள் பன்றியின் வாசனையை முகர்ந்தன, ஆனால் பன்றி ஏற்கனவே எழுந்து சென்றதால் எதையும் கண்டுபிடிக்கவில்லை."
+      },
+      {
+        "q": "Identify the correct conjunction: The box was heavy ______ he could not lift it. || சரியான இணைப்புச் சொல்லை அடையாளம் காணவும்: பெட்டி கனமாக இருந்தது ______ அவரால் அதைத் தூக்க முடியவில்லை.",
+        "options": [
+          "but || ஆனால் (but)",
+          "so || அதனால் (so)",
+          "and || and",
+          "because || ஏனெனில் (because)"
+        ],
+        "a": 1,
+        "ex": "'So' is used to show the result. The box was heavy, as a result, he could not lift it. || 'So' என்பது முடிவைக் காட்டப் பயன்படுகிறது. பெட்டி கனமாக இருந்தது, அதன் விளைவாக, அவரால் அதைத் தூக்க முடியவில்லை."
+      },
+      {
+        "q": "Identify the correct conjunction: She slipped badly ______ she did not hurt herself. || சரியான இணைப்புச் சொல்லை அடையாளம் காணவும்: அவள் மோசமாக நழுவினாள் ______ அவளுக்குக் காயம் ஏற்படவில்லை.",
+        "options": [
+          "but || ஆனால் (but)",
+          "and || and",
+          "or || or",
+          "so || அதனால் (so)"
+        ],
+        "a": 0,
+        "ex": "'But' is used to connect contrasting ideas. || 'But' என்பது முரண்பட்ட கருத்துக்களை இணைக்கப் பயன்படுகிறது."
+      },
+      {
+        "q": "Identify the correct conjunction: Rani was late to school ______ she missed the bus. || சரியான இணைப்புச் சொல்லை அடையாளம் காணவும்: ராணி பள்ளிக்குத் தாமதமாக வந்தாள் ______ அவள் பேருந்தைத் தவறவிட்டாள்.",
+        "options": [
+          "so || அதனால் (so)",
+          "because || ஏனெனில் (because)",
+          "but || ஆனால் (but)",
+          "or || or"
+        ],
+        "a": 1,
+        "ex": "'Because' gives the reason for an action. || 'Because' ஒரு செயலுக்கான காரணத்தைக் கூறுகிறது."
+      },
+      {
+        "q": "According to the 'Do You Know' section, what defines the general weather conditions of a place (e.g., warm, cold)? || According to the 'Do You Know' section, what defines the general weather conditions of a place (e.g., warm, cold)?",
+        "options": [
+          "Weather || வானிலை (Weather)",
+          "Season || Season",
+          "Climate || காலநிலை (Climate)",
+          "Atmosphere || Atmosphere"
+        ],
+        "a": 2,
+        "ex": "Climate is defined as the general weather conditions of a place over a long period. || காலநிலை என்பது ஒரு இடத்தின் நீண்ட காலப் பொதுவான வானிலை நிலைகள் என வரையறுக்கப்படுகிறது."
+      },
+      {
+        "q": "Which term describes the conditions in the atmosphere like rain, wind, or temperature at ANY time? || எந்த நேரத்திலும் மழை, காற்று அல்லது வெப்பநிலை போன்ற வளிமண்டல நிலைகளை விவரிக்கும் சொல் எது?",
+        "options": [
+          "Climate || காலநிலை (Climate)",
+          "Weather || வானிலை (Weather)",
+          "Season || Season",
+          "Monsoon || Monsoon"
+        ],
+        "a": 1,
+        "ex": "Weather refers to the short-term atmospheric conditions at a specific time. || வானிலை என்பது ஒரு குறிப்பிட்ட நேரத்தில் குறுகிய கால வளிமண்டல நிலைகளைக் குறிக்கிறது."
+      },
+      {
+        "q": "What causes the four distinct seasons on Earth? || பூமியில் நான்கு வெவ்வேறு பருவங்கள் ஏற்படக் காரணம் என்ன?",
+        "options": [
+          "The moon's rotation || The moon's rotation",
+          "Earth's changing positions in its orbit around the sun || சூரியனைச் சுற்றியுள்ள அதன் சுற்றுப்பாதையில் பூமியின் மாறும் நிலைகள்",
+          "The blowing of wild winds || The blowing of wild winds",
+          "The movement of tectonic plates || The movement of tectonic plates"
+        ],
+        "a": 1,
+        "ex": "Seasons result from the earth's changing positions in its orbit around the sun. || சூரியனைச் சுற்றியுள்ள அதன் சுற்றுப்பாதையில் பூமியின் மாறும் நிலைகளால் பருவங்கள் ஏற்படுகின்றன."
+      },
+      {
+        "q": "What does the phrase 'the little jewel of blue' refer to in the story? || கதையில் 'சிறிய நீல நிற நகை' என்ற சொற்றொடர் எதைக் குறிக்கிறது?",
+        "options": [
+          "A blue sapphire found by the farmer || A blue sapphire found by the farmer",
+          "The blue sky above the village || The blue sky above the village",
+          "The small pond filled with clear water || தெளிவான நீர் நிறைந்த சிறிய குளம்",
+          "A blue bird's egg || A blue bird's egg"
+        ],
+        "a": 2,
+        "ex": "The pond full of water reflecting the sky is metaphorically called the little jewel of blue. || வானத்தைப் பிரதிபலிக்கும் நீர் நிறைந்த குளம் உருவகமாக சிறிய நீல நிற நகை என்று அழைக்கப்படுகிறது."
+      },
+      {
+        "q": "What does the word 'meagre' mean? || What does the word 'meagre' mean?",
+        "options": [
+          "Excessive || Excessive",
+          "Small quantity || சிறிய அளவு (Small quantity)",
+          "Rich || Rich",
+          "Colourful || Colourful"
+        ],
+        "a": 1,
+        "ex": "The poor farmer's harvest was meagre, meaning very little or a small quantity. || ஏழை விவசாயியின் அறுவடை குறைவாக இருந்தது, அதாவது மிகக் குறைவு அல்லது சிறிய அளவு."
+      },
+      {
+        "q": "Analogy: Bird : Eggs :: Wild Boar : ? || Analogy: Bird : Eggs :: Wild Boar : ?",
+        "options": [
+          "Milk || Milk",
+          "Snooze || Snooze",
+          "Nest || Nest",
+          "Harvest || Harvest"
+        ],
+        "a": 1,
+        "ex": "The bird used the hole for her eggs, while the wild boar used it for a snooze (sleep). || பறவை தனது முட்டைகளுக்காக துளையைப் பயன்படுத்தியது, அதே நேரத்தில் காட்டுப்பன்றி அதை ஒரு தூக்கத்திற்காக (உறக்கம்) பயன்படுத்தியது."
+      },
+      {
+        "q": "Who believed they had something to do with the creation of the pond at the end of the story? || கதையின் முடிவில் குளம் உருவாவதில் தங்களுக்கு ஏதோ ஒரு பங்கு இருப்பதாக நம்பியது யார்?",
+        "options": [
+          "Only the rich farmer || Only the rich farmer",
+          "Only the poor farmer || Only the poor farmer",
+          "All the animals and the farmers || அனைத்து விலங்குகளும் விவசாயிகளும்",
+          "Only the village priest || Only the village priest"
+        ],
+        "a": 2,
+        "ex": "The boar, dogs, buffaloes, bird, and farmers all stood there, each thinking they had a role in creating the pond. || பன்றி, நாய்கள், எருமைகள், பறவை மற்றும் விவசாயிகள் அனைவரும் அங்கே நின்றனர், ஒவ்வொன்றும் குளம் உருவாவதில் தங்களுக்கு ஒரு பங்கு இருப்பதாக நினைத்தன."
+      },
+      {
+        "q": "Which word from the text means 'prepared the land for crops'? || பாடப்பகுதியில் உள்ள எந்தச் சொல் 'பயிர்களுக்கு நிலத்தைத் தயார் செய்தது' என்று பொருள்படும்?",
+        "options": [
+          "Trampling || Trampling",
+          "Tilled || உழுதது (Tilled)",
+          "Wallowed || Wallowed",
+          "Scrabbled || Scrabbled"
+        ],
+        "a": 1,
+        "ex": "'Tilled' means to prepare and cultivate the land for crops. || 'Tilled' என்பது பயிர்களுக்கு நிலத்தைத் தயாரித்தல் மற்றும் பயிரிடுதல் என்று பொருள்படும்."
+      },
+      {
+        "q": "Statement 1: The rich farmer happily agreed to share the water with the poor farmer.\nStatement 2: The rich farmer planted his feet four-square to claim the land. || Statement 1: The rich farmer happily agreed to share the water with the poor farmer.\nStatement 2: The rich farmer planted his feet four-square to claim the land.",
+        "options": [
+          "Both Statements are true || Both Statements are true",
+          "Statement 1 is true, Statement 2 is false || Statement 1 is true, Statement 2 is false",
+          "Statement 1 is false, Statement 2 is true || கூற்று 1 தவறு, கூற்று 2 சரி",
+          "Both Statements are false || Both Statements are false"
+        ],
+        "a": 2,
+        "ex": "The rich farmer aggressively claimed the land was his. He did not agree to share it. || பணக்கார விவசாயி நிலம் தனது நிலம் என்று ஆக்ரோஷமாகக் கோரினார். அவர் அதைப் பகிர ஒப்புக்கொள்ளவில்லை."
+      },
+      {
+        "q": "Complete the compound word: We must drink tender ________ water in summer. || கூட்டுச் சொல்லை நிறைவு செய்க: கோடையில் நாம் ________ பருக வேண்டும்.",
+        "options": [
+          "melon || melon",
+          "coconut || இளநீர் (tender coconut)",
+          "mango || mango",
+          "apple || apple"
+        ],
+        "a": 1,
+        "ex": "The correct compound word is tender coconut. || சரியான கூட்டுச் சொல் tender coconut (இளநீர்)."
+      },
+      {
+        "q": "What does 'four-square' mean in the context: 'planted his feet four-square on the ground'? || What does 'four-square' mean in the context: 'planted his feet four-square on the ground'?",
+        "options": [
+          "In a shape of a square || In a shape of a square",
+          "Nervously || Nervously",
+          "Solidly and firmly || உறுதியாகவும் வலுவாகவும்",
+          "With four people || With four people"
+        ],
+        "a": 2,
+        "ex": "It means he stood his ground solidly and aggressively. || அவர் தனது நிலப்பாட்டில் உறுதியாகவும் ஆக்ரோஷமாகவும் நின்றார் என்று பொருள்படும்."
+      },
+      {
+        "q": "What does 'desperation' mean? || What does 'desperation' mean?",
+        "options": [
+          "Feeling joyful || Feeling joyful",
+          "Losing hope || நம்பிக்கையை இழத்தல் (Losing hope)",
+          "Feeling angry || Feeling angry",
+          "Being peaceful || Being peaceful"
+        ],
+        "a": 1,
+        "ex": "Desperation means losing hope. The bird was in desperation to find a spot. || நம்பிக்கையற்ற நிலை என்பது நம்பிக்கையை இழப்பதைக் குறிக்கிறது. ஒரு இடத்தைக் கண்டுபிடிப்பதில் பறவை நம்பிக்கையற்ற நிலையில் இருந்தது."
+      },
+      {
+        "q": "Which compound word fits here: Clean the ashes out of the ________. || Which compound word fits here: Clean the ashes out of the ________.",
+        "options": [
+          "raincoat || raincoat",
+          "fireplace || அடுப்பு (fireplace)",
+          "rainbow || rainbow",
+          "sailboat || sailboat"
+        ],
+        "a": 1,
+        "ex": "Ashes are found in a fireplace. || சாம்பல் அடுப்பில் (fireplace) காணப்படுகிறது."
+      },
+      {
+        "q": "Situation Question: If you see a multitude of hooves trampling the soil in a puddle, what will happen to the puddle? || சூழல் வினா: ஒரு குட்டையில் ஏராளமான குளம்புகள் மண்ணை மிதிப்பதைக் கண்டால், அந்தக் குட்டைக்கு என்ன நடக்கும்?",
+        "options": [
+          "It will dry up immediately || It will dry up immediately",
+          "It will become a muddy pit and widen || அது ஒரு சேற்றுப் பள்ளமாக மாறி விரிவடையும்",
+          "It will turn into solid rock || It will turn into solid rock",
+          "It will catch fire || It will catch fire"
+        ],
+        "a": 1,
+        "ex": "Just like the buffaloes did, trampling wet soil widens the depression into a muddy pit. || எருமைகள் செய்தது போலவே, ஈரமான மண்ணை மிதிப்பது பள்ளத்தை ஒரு சேற்றுப் பள்ளமாக விரிவுபடுத்துகிறது."
+      },
+      {
+        "q": "What did the village priest do when he saw the pond? || பூசாரி குளத்தைப் பார்த்தபோது என்ன செய்தார்?",
+        "options": [
+          "He took a bath in it || He took a bath in it",
+          "He furrowed his brow and chanted something serious || அவர் தனது புருவங்களைச் சுருக்கி தீவிரமாக ஏதோ ஓதினார்",
+          "He drank the water || He drank the water",
+          "He fought with the rich farmer || He fought with the rich farmer"
+        ],
+        "a": 1,
+        "ex": "The priest came to bless the fortune, furrowing his brow and chanting seriously. || பூசாரி அதிர்ஷ்டத்தை ஆசீர்வதிக்க வந்தார், தனது புருவங்களைச் சுருக்கி தீவிரமாக மந்திரம் ஓதினார்."
+      },
+      {
+        "q": "What is the meaning of 'verdant'? || What is the meaning of 'verdant'?",
+        "options": [
+          "Dry and yellow || Dry and yellow",
+          "Green with grass || புற்களால் பசுமையானது",
+          "Filled with mud || Filled with mud",
+          "Rocky and hard || Rocky and hard"
+        ],
+        "a": 1,
+        "ex": "Verdant means lush and green with vegetation or grass. || பசுமையான என்பது தாவரங்கள் அல்லது புற்களுடன் செழிப்பாகவும் பச்சை நிறமாகவும் இருப்பதைக் குறிக்கிறது."
+      },
+      {
+        "q": "How did the rich farmer react to the poor farmer's claim? || How did the rich farmer react to the poor farmer's claim?",
+        "options": [
+          "He smoothly oiled that the land was his || நிலம் தனது என்று அவர் நயமாகக் கூறினார்",
+          "He stuttered and ran away || He stuttered and ran away",
+          "He offered money for the water || He offered money for the water",
+          "He called the police || He called the police"
+        ],
+        "a": 0,
+        "ex": "He spoke smoothly ('smoothly oiled') to assert his false dominance over the land boundary. || நில எல்லையில் தனது தவறான ஆதிக்கத்தை உறுதிப்படுத்த அவர் மென்மையாகப் பேசினார்."
+      },
+      {
+        "q": "Assertion (A): The story of the hole ends with a strict moral.\nReason (R): The author explicitly states a moral at the end of the prose. || Assertion (A): The story of the hole ends with a strict moral.\nReason (R): The author explicitly states a moral at the end of the prose.",
+        "options": [
+          "Both A and R are true || Both A and R are true",
+          "Both A and R are false || Both A and R are false",
+          "A is true, R is false || A is true, R is false",
+          "A is false, R is true || A is false, R is true"
+        ],
+        "a": 1,
+        "ex": "The narrator explicitly says, 'Not a moral, just a thought – a germ of an idea to dig and make bigger.' || விவரிப்பாளர் தெளிவாகக் கூறுகிறார், 'இது நீதி அல்ல, வெறும் ஒரு எண்ணம் - தோண்டி பெரிதாக்க ஒரு கரு.'"
+      },
+      {
+        "q": "What did the dry earth do when the monsoon rains came? || What did the dry earth do when the monsoon rains came?",
+        "options": [
+          "It repelled the water || It repelled the water",
+          "It soaked up the moisture || It soaked up the moisture",
+          "It cracked open || It cracked open",
+          "It turned into dust || It turned into dust"
+        ],
+        "a": 1,
+        "ex": "The dry earth soaked up the moisture completely after the continuous rain. || தொடர்ச்சியான மழைக்குப் பிறகு வறண்ட பூமி ஈரப்பதத்தை முழுமையாக உறிஞ்சியது."
+      },
+      {
+        "q": "Which of these animals did NOT contribute to the making of the pond? || Which of these animals did NOT contribute to the making of the pond?",
+        "options": [
+          "Wild Boar || Wild Boar",
+          "Tiny Bird || Tiny Bird",
+          "Elephant || Elephant",
+          "Buffaloes || எருமைகள்"
+        ],
+        "a": 2,
+        "ex": "Elephants are never mentioned in the story. The bird, boar, dogs, and buffaloes contributed. || கதையில் யானைகள் ஒருபோதும் குறிப்பிடப்படவில்லை. பறவை, பன்றி, நாய்கள் மற்றும் எருமைகள் பங்களித்தன."
+      },
+      {
+        "q": "Join the sentence using the correct conjunction: You can use a pen ______ a pencil for writing. || Join the sentence using the correct conjunction: You can use a pen ______ a pencil for writing.",
+        "options": [
+          "but || ஆனால் (but)",
+          "and || and",
+          "or || or",
+          "because || ஏனெனில் (because)"
+        ],
+        "a": 2,
+        "ex": "'Or' is used to indicate a choice between two options. || 'Or' என்பது இரண்டு விருப்பங்களுக்கு இடையிலான ஒரு தேர்வை உணர்த்தப் பயன்படுகிறது."
+      },
+      {
+        "q": "What is the core theme of the prose 'Who Owns the Water?'? || What is the core theme of the prose 'Who Owns the Water?'?",
+        "options": [
+          "Farming techniques in summer || Farming techniques in summer",
+          "How to hunt wild animals || How to hunt wild animals",
+          "The shared ownership and contribution of nature's resources || The shared ownership and contribution of nature's resources",
+          "The life cycle of a tiny bird || The life cycle of a tiny bird"
+        ],
+        "a": 2,
+        "ex": "The story makes us think about how natural resources like water belong to everyone and are shaped by nature and various creatures, not just one human owner. || நீர் போன்ற இயற்கை வளங்கள் அனைவருக்கும் சொந்தமானவை என்பதும், அவை ஒரு மனித உரிமையாளரால் மட்டுமல்லாமல், இயற்கை மற்றும் பல்வேறு உயிரினங்களால் வடிவமைக்கப்படுகின்றன என்பதும் பற்றி இந்தக் கதை நம்மைச் சிந்திக்க வைக்கிறது."
+      }
+    ]
+  }
+}

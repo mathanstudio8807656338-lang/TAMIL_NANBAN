@@ -1,0 +1,85 @@
+{
+  "unit": "Lesson 8",
+  "subject": "English",
+  "class": "6",
+  "term": 1,
+  "title": "Poem: I Dream of Spices",
+  "summary": "This humorous poem tells the story of Raj, a young boy who gets distracted by singing on his way to the shop and ends up buying the wrong items, leading to a playful punishment from his mother.",
+  "sections": [
+    {
+      "title": "1. Poem Narrative (கவிதையின் கதைக்கரு)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          { "question": "Who is the main character in the poem? / இந்தக் கவிதையின் முதன்மைக் கதாபாத்திரம் யார்?", "answer": "[[Raj]]" },
+          { "question": "Who sends Raj to the shop? / ராஜைக் கடைக்கு அனுப்பியது யார்?", "answer": "[[His Mother]]" },
+          { "question": "What were the items mother asked him to buy? / அம்மா அவனை என்ன பொருட்களை வாங்கி வரச் சொன்னார்?", "answer": "[[Cinnamon, Garlic, Ginger, and Pepper]]" },
+          { "question": "What did Raj buy instead? / ராஜ் அதற்குப் பதிலாக எதனை வாங்கினான்?", "answer": "[[Sesame seeds, Onions, Tomatoes, and Pickles]]" },
+          { "question": "How did Raj walk to the shop? / ராஜ் கடைக்கு எவ்வாறு நடந்து சென்றான்?", "answer": "[[Singing songs]] and being distracted" },
+          { "question": "What happened when Raj returned home? / ராஜ் வீட்டிற்குத் திரும்பியதும் என்ன நடந்தது?", "answer": "His mother [[slapped his back]]" },
+          { "question": "What sound did Raj make while muttering? / ராஜ் முணுமுணுக்கும்போது என்ன சத்தம் கேட்டது?", "answer": "[[Rattles and Snuffles]]" }
+        ]
+      }
+    },
+    {
+      "title": "2. List of Spices & Items (நறுமணப் பொருட்கள் & இதர பொருட்கள்)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          { "question": "What is 'Cinnamon'? / 'Cinnamon' என்பது எது?", "answer": "[[இலவங்கப்பட்டை]]" },
+          { "question": "What is 'Garlic'? / 'Garlic' என்பது எது?", "answer": "[[பூண்டு]]" },
+          { "question": "What is 'Ginger'? / 'Ginger' என்பது எது?", "answer": "[[இஞ்சி]]" },
+          { "question": "What is 'Pepper'? / 'Pepper' என்பது எது?", "answer": "[[மிளகு]]" },
+          { "question": "What are 'Sesame seeds'? / 'Sesame seeds' என்பது எது?", "answer": "[[எள்]]" },
+          { "question": "What is 'Pickle'? / 'Pickle' என்பது எது?", "answer": "[[ஊறுகாய்]]" },
+          { "question": "Which items were in the mother's list? / அம்மாவின் பட்டியலில் இருந்த பொருட்கள் எவை?", "answer": "[[Cinnamon, Garlic, Ginger, Pepper]]" },
+          { "question": "Which items were in Raj's list? / ராஜ் வாங்கிய பொருட்கள் எவை?", "answer": "[[Sesame seeds, Onions, Tomatoes, Pickles]]" }
+        ]
+      }
+    },
+    {
+      "title": "3. Glossary & Rhyming Words (அரும்பதப்பொருள் & எதுகைச் சொற்கள்)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          { "question": "What is the meaning of 'Mutter'? / 'Mutter' என்பதன் பொருள் என்ன?", "answer": "[[To speak in a low voice]] (முணுமுணுத்தல்)" },
+          { "question": "What is the meaning of 'Rattles'? / 'Rattles' என்பதன் பொருள் என்ன?", "answer": "[[Makes a series of short sounds]] (கலகலவென ஒலித்தல்)" },
+          { "question": "What is the meaning of 'Snuffles'? / 'Snuffles' என்பதன் பொருள் என்ன?", "answer": "[[To breathe noisily]] (மூச்சை உறிஞ்சுதல்)" },
+          { "question": "Find the rhyming word for 'Pepper' in the poem.", "answer": "The rhyming word is [[Mutter]]." },
+          { "question": "Find the rhyming word for 'Seeds' in the poem.", "answer": "The rhyming word is [[Needs]]." },
+          { "question": "Find the rhyming word for 'Back' in the poem.", "answer": "The rhyming word is [[Whack]]." }
+        ]
+      }
+    },
+    {
+      "title": "4. Comprehension Questions (புரிதல் வினாக்கள்)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          { "question": "Was Raj successful in his mission? / ராஜ் தனது வேலையைச் சரியாகச் செய்தானா?", "answer": "[[No]], he forgot the list" },
+          { "question": "Why did Raj forget the list? / ராஜ் ஏன் பட்டியலை மறந்தான்?", "answer": "Because he was [[singing and distracted]]" },
+          { "question": "How did mother feel when Raj came back? / ராஜ் திரும்பியதும் அம்மா எப்படி உணர்ந்தார்?", "answer": "[[Angry]] or Annoyed" },
+          { "question": "What part of Raj's body was slapped? / ராஜின் எந்த உடலில் அறை விழுந்தது?", "answer": "[[His Back]]" },
+          { "question": "What spice did Raj miss from the list? / ராஜ் பட்டியலில் இருந்து எந்த நறுமணப் பொருளைத் தவறவிட்டான்?", "answer": "[[All of them]] (Cinnamon, Garlic, Ginger, Pepper)" },
+          { "question": "What lesson does Raj learn? / ராஜ் என்ன பாடம் கற்றுக்கொள்கிறான்?", "answer": "[[To pay attention]] to mother's words" },
+          { "question": "Is 'Pickle' a spice? / 'Pickle' ஒரு நறுமணப் பொருளா?", "answer": "[[No]], it is a preserved food item" }
+        ]
+      }
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "question": "Who is the boy in the poem?",
+        "options": ["Mani", "Raj", "Vasu", "Arun"],
+        "answer": 1
+      },
+      {
+        "question": "What did Raj buy instead of Cinnamon?",
+        "options": ["Onions", "Pickles", "Sesame seeds", "Tomatoes"],
+        "answer": 2
+      }
+    ]
+  },
+  "credits": "A1 ONLINE COACHING CENTER"
+}

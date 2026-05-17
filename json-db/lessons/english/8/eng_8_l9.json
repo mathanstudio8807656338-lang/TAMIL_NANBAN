@@ -1,0 +1,588 @@
+{
+  "subject": "English",
+  "class": "8",
+  "term": "Annual",
+  "title": "Supplementary: The Three Questions",
+  "summary": "",
+  "sections": [
+    {
+      "title": "1. Supplementary: The Three Questions (மூன்று கேள்விகள்) - Summary",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● [[Core Theme]]",
+            "answer": "Living in the present, being kind, and the importance of timely action. || நிகழ்காலத்தில் வாழ்தல், இரக்கம் காட்டுதல் மற்றும் சரியான நேரத்தில் செயல்படுதலி்ன் முக்கியத்துவம்."
+          },
+          {
+            "question": "● [[The King]]",
+            "answer": "A king wanted to know the answer to three questions to never fail: When is the right time? Who are the right people? What is the most important thing? || ஒரு அரசன் தனதுத் தோல்வியைத் தவிர்க்க மூன்று கேள்விகளுக்கு விடைத் தேடுகிறான்."
+          },
+          {
+            "question": "● [[The Hermit]]",
+            "answer": "The king visited a wise hermit in the forest. By helping the hermit and saving a wounded enemy, the king learned the answers through experience. || காட்டில் இருந்த ஞானியைக் கண்டு, அவருக்கு உதவியதன் மூலம் தன் கேள்விகளுக்கு விடைப் பெறுகிறான்."
+          },
+          {
+            "question": "● [[About Author]]",
+            "answer": "Written by [[Leo Tolstoy]], a famous Russian writer known for his philosophical stories. || லியோ டால்ஸ்டாய் எழுதியக் கதை."
+          }
+        ]
+      }
+    },
+    {
+      "title": "2. Glossary: Wisdom & Action (Exam Focus - Synonyms)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● [[Hermit]] / துறவி / ஞானி",
+            "answer": "A person living in solitude as a religious discipline."
+          },
+          {
+            "question": "● [[Proclaimed]] / அறிவிக்கப்பட்டது",
+            "answer": "Announced officially or publicly."
+          },
+          {
+            "question": "● [[Council]] / ஆலோசனைக் குழு",
+            "answer": "A body of people consulted for advice."
+          },
+          {
+            "question": "● [[Revived]] / புத்துயிர்",
+            "answer": "Restore to life or consciousness."
+          },
+          {
+            "question": "● [[Wounded]]",
+            "answer": "Injured by a weapon. (காயமடைந்த)."
+          },
+          {
+            "question": "● [[Forgive]]",
+            "answer": "To stop feeling angry or resentful. (மன்னித்தல்)."
+          }
+        ]
+      }
+    },
+    {
+      "title": "3. Characters in the Story (கதாபாத்திரங்கள்)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● [[The King]]",
+            "answer": "Seeking the secret to success. || வெற்றிக்கான வழியைத் தேடுபவர்."
+          },
+          {
+            "question": "● [[The Hermit]]",
+            "answer": "Living in a forest, digging the ground. || காட்டில் வசிக்கும் ஞானி."
+          },
+          {
+            "question": "● [[The Wounded Man]]",
+            "answer": "King’s enemy who came to kill him but was saved by the king. || அரசரைக் கொல்ல வந்த எதிரி; பின்னால் உயிர் காக்கப்பட்டவர்."
+          }
+        ]
+      }
+    },
+    {
+      "title": "4. The Three Questions & Answers (மூன்று கேள்விகளும் பதில்களும்)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● Q1: The Right Time?",
+            "answer": "[[Now]] (the only time you have power). || இப்போது (நிகழ்காலம்)."
+          },
+          {
+            "question": "● Q2: The Right People?",
+            "answer": "The one you are [[with]] at the moment. || அக்கணம் உங்களுடன் இருப்பவர்."
+          },
+          {
+            "question": "● Q3: Most Important Thing?",
+            "answer": "To do [[good]] to that person. || அந்த நபருக்கு நன்மை செய்தல்."
+          }
+        ]
+      }
+    },
+    {
+      "title": "5. Grammars: Sentence Patterns Recap (S V O A)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● [[S + V + O]]",
+            "answer": "The king met the hermit. || அரசர் ஞானியைச் சந்தித்தார்."
+          },
+          {
+            "question": "● [[S + V + A]]",
+            "answer": "He lives in the forest. || அவர் காட்டில் வசிக்கிறார்."
+          }
+        ]
+      }
+    },
+    {
+      "title": "6. Previous Year Questions & Competitive Focus",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● Who is the author of 'The Three Questions'?",
+            "answer": "[[Leo Tolstoy]]. || லியோ டால்ஸ்டாய்."
+          },
+          {
+            "question": "● What is the most important time?",
+            "answer": "[[Now]]. || இப்போது."
+          },
+          {
+            "question": "● Whom did the king visit in the forest?",
+            "answer": "A [[hermit]]. || ஒரு ஞானி."
+          },
+          {
+            "question": "● Why did the bearded man follow the king?",
+            "answer": "To take [[revenge]] and kill him. || பழிவாங்கவும் கொலை செய்யவும்."
+          }
+        ]
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "q": "What was the first question the king wanted to know? || அரசன் அறிய விரும்பிய முதல் கேள்வி என்ன?",
+      "options": [
+        "How to earn money?",
+        "What was the right time to begin everything? (எதற்கும் சரியான நேரம் எது?)",
+        "Who was the richest king?",
+        "How to build a palace?"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Who did the king decide to consult finally? || இறுதியில் யாரிடம் ஆலோசனைப் பெற அரசர் முடிவெடுத்தார்?",
+      "options": [
+        "Scientists",
+        "A hermit (ஒரு ஞானி / துறவி)",
+        "Doctors",
+        "His soldiers"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What was the hermit doing when the king arrived? || அரசர் வந்தபோது ஞானி என்னச் செய்துகொண்டிருந்தார்?",
+      "options": [
+        "Sleeping",
+        "Digging the ground (மண்ணைத் தோண்டிக் கொண்டிருந்தார்)",
+        "Eating",
+        "Praying"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Why didn't the hermit answer the king's questions immediately? || ஞானி ஏன் அரசரின் கேள்விகளுக்கு உடனேப் பதிலளிக்கவில்லை?",
+      "options": [
+        "He was deaf",
+        "He wanted the king to learn through experience (அரசன் அனுபவம் மூலம் கற்க விரும்பினார்)",
+        "He was angry",
+        "He forgot the answers"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Who came running out of the woods later? || சற்று நேரத்திற்குப் பின் காட்டிலிருந்து ஓடி வந்தது யார்?",
+      "options": [
+        "A tiger",
+        "A bearded wounded man (தாடி வைத்தக் காயமடைந்தப் பேர்வழி)",
+        "A small child",
+        "A hidden soldier"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Who had wounded the bearded man? || அந்த மனிதனை காயப்படுத்தியது யார்?",
+      "options": [
+        "The Hermit",
+        "The King's bodyguards (அரசரின் மெய்க்காப்பாளர்கள்)",
+        "A bear",
+        "Robbers"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What did the king do for the wounded man? || காயமடைந்த மனிதனுக்கு அரசர் என்னச் செய்தார்?",
+      "options": [
+        "Arrested him",
+        "Washed and bandaged his wound (காயத்தைத் தூய்மைச் செய்து கட்டுப் போட்டார்)",
+        "Gave him gold",
+        "Sent him away"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Why did the bearded man ask for the king's forgiveness? || அந்த மனிதன் ஏன் அரசரிடம் மன்னிப்புக் கோரினான்?",
+      "options": [
+        "Because he was scared",
+        "Because the king saved his life although he came to kill him (கொல்ல வந்த தன்னை அரசர் காத்ததால்)",
+        "He was hungry",
+        "He lost his way"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What is the only important time according to the wise hermit? || ஞானியின் கூற்றுப்படி முக்கியமான நேரம் எது?",
+      "options": [
+        "Yesterday",
+        "Now (இப்போது / நிகழ்காலம்)",
+        "Tomorrow",
+        "Next year"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Who is the most necessary person at any given moment? || ஒருத் தருணத்தில் நமக்கு மிகவும்த் தேவையான நபர் யார்?",
+      "options": [
+        "The King",
+        "The one with whom you are (அந்தக் கணத்தில் உங்களுடன் இருப்பவர்)",
+        "A doctor",
+        "A rich man"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of 'Hermit'? || 'Hermit' என்பதன் பொருள்?",
+      "options": [
+        "King",
+        "A person living in solitude (தனிமையில் வாழும் ஞானி / துறவி)",
+        "Soldier",
+        "Tailor"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Who is the author of 'The Three Questions'? || 'த திரீ கொஸ்டீன்ஸ்' கதையின் ஆசிரியர் யார்?",
+      "options": [
+        "Leo Tolstoy (லியோ டால்ஸ்டாய்)",
+        "Leo Messi",
+        "Oscar Wilde",
+        "Charles Dickens"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Which is the most important business or thing to do in life? || வாழ்வில் மிக முக்கியமானச் செயல் எது?",
+      "options": [
+        "Earning money",
+        "To do good to the person you are with (உங்களுடனுள்ள நபருக்கு நன்மை செய்வது)",
+        "Fighting wars",
+        "Buying properties"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What did the king give to the hermit when he left? || அரசர் கிளம்பும்போது ஞானியிடம் என்னச் செய்தார்?",
+      "options": [
+        "Gave him gold",
+        "Asked for answers one last time (இறுதியாக ஒருமுறைப் பதில் கேட்டார்)",
+        "Arrested him",
+        "Laughed at him"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: Prefix of 'Unconscious'. || 'Unconscious' எனும் சொல்லின் முன்னொட்டு?",
+      "options": [
+        "Conscious",
+        "Un (அன்)",
+        "Ion",
+        "Ous"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Why was the wounded man an enemy to the king? || அந்த மனிதன் ஏன் அரசருக்கு எதிரியானான்?",
+      "options": [
+        "The king took his land and executed his brother (அரசன் அவனது நிலத்தைப் பறித்து, சகோதரரை தண்டித்ததால்)",
+        "The king was weak",
+        "For no reason",
+        "He was a soldier from another country"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of 'Proclaimed'? || 'Proclaimed' என்பதன் பொருள்?",
+      "options": [
+        "Hidden",
+        "Officially announced (அதிகாரப்பூர்வமாக அறிவிக்கப்பட்டது)",
+        "Forgotten",
+        "Broken"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Where did the hermit live? || ஞானி எங்கேத் தங்கியிருந்தார்?",
+      "options": [
+        "In a palace",
+        "In a small wood/forest (காட்டில்)",
+        "In a city",
+        "On a ship"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What is a 'Council' of wise men? || அறிஞர்களின்க் 'குழு' (Council) என்பது என்ன?",
+      "options": [
+        "A fight",
+        "A body of people for advice (ஆலோசனை வழங்குபவர்களின் குழு)",
+        "A school",
+        "A market"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What did the king lose when he was with the hermit? || ஞானியுடன் இருக்கும்போது அரசர் எதனைக் கவனித்தார்?",
+      "options": [
+        "His money",
+        "The sense of being a king / He was working like a commoner (அரசன் என்ற அதிகாரத்தை விடுத்துக் கடினமாக உழைத்தார்)",
+        "His life",
+        "His crown"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What happened to the bearded man at the end? || இறுதியில் அந்தத் தாடி வைத்த மனிதன் என்னவானான்?",
+      "options": [
+        "He died",
+        "He became the king's most faithful servant (அரசரின் உண்மையுள்ளப் பணியாளராக மாறினார்)",
+        "He ran back to Nepal",
+        "He killed the king"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify the word: \"Restored to life or consciousness\". || ஒருவருக்குப் புத்துயிர் அளித்தல் என்பது?",
+      "options": [
+        "Revived (ரிவைவ்டு)",
+        "Died",
+        "Slept",
+        "Ran"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "According to the story, which is the 'most important action'? || கதையின்படி மிக முக்கியமானச் செயல் எது?",
+      "options": [
+        "Victory in war",
+        "Doing good (நன்மை செய்வது)",
+        "Saving money",
+        "Collecting taxes"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What was the hermit's physical condition? || ஞானியின் உடல் நிலை எவ்வாறு இருந்தது?",
+      "options": [
+        "Strong and big",
+        "Frail and weak (மெலிந்த மற்றும் பலவீனமானவர்)",
+        "Very fat",
+        "Young and fast"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "The king put on ______ clothes to meet the hermit. || ஞானியைச் சந்திக்க அரசர் எத்தகைய உடைகளை அணிந்தார்?",
+      "options": [
+        "Golden",
+        "Simple (எளிமையான)",
+        "War",
+        "New"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: \"He lives in a wood\". What is 'Wood' here? || 'Wood' என்பது எதனைக் குறிக்கும்?",
+      "options": [
+        "A piece of timber",
+        "A forest (காடு)",
+        "A table",
+        "A tree"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Which century did Leo Tolstoy live? || லியோ டால்ஸ்டாய் எந்தக் நூற்றாண்டைச் சேர்ந்தவர்?",
+      "options": [
+        "15th",
+        "19th century (19-ம் நூற்றாண்டு)",
+        "21st",
+        "10th"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What is 'Revenge'? || 'Revenge' (பழிவாங்கல்) என்பது என்ன?",
+      "options": [
+        "Helping someone",
+        "Action to hurt someone in return for an injury (ஒரு காயத்திற்குப் பதிலடியாக தீங்கு செய்வது)",
+        "Love",
+        "Peace"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "The king promised to ______ the man's properties. || அந்த மனிதனின்ச் சொத்துக்களை அரசர் ______ செய்வதாகக் கூறினார்?",
+      "options": [
+        "Sell",
+        "Restore / Give back (திரும்ப ஒப்படைத்தல் / நிலைநிறுத்துதல்)",
+        "Take away",
+        "Burn"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of 'Solely'? || 'Solely' என்பதன் பொருள்?",
+      "options": [
+        "Only (மட்டுமே)",
+        "Mostly",
+        "Slowly",
+        "Fast"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "If the king had not helped the hermit, what would have happened? || அரசர் ஞானிக்கு உதவாமல் திரும்பியிருந்தால் என்னவாயிருக்கும்?",
+      "options": [
+        "He would have been safe",
+        "The enemy would have attacked him on the way (வழியில் எதிரி அரசரைத் தாக்கியிருப்பான்)",
+        "He would have found gold",
+        "Nothing would have changed"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: S V O pattern. || S V O வாக்கிய அமைப்பு எது?",
+      "options": [
+        "The king (S) washed (V) the wound (O) (அரசர் காயத்தைக் கழுவினார்)",
+        "He slept",
+        "In the forest",
+        "He is wise"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "What is the synonym of 'Wounded'? || 'Wounded' என்பதன் ஒத்தப்பொருள்?",
+      "options": [
+        "Injured (காயமடைந்த)",
+        "Healthy",
+        "Happy",
+        "Dead"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Was the hermit famous or unknown? || ஞானிப் புகழ்பெற்றவரா அல்லதுத் தெரியாதவரா?",
+      "options": [
+        "Unknown",
+        "Widely renowned for wisdom (அறிவாற்றலுக்குப் புகழ்பெற்றவர்)",
+        "Rich",
+        "Infamous"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What did the king do before leaving his palace to meet hermit? || ஞானியைச் சந்திக்கப் புறப்படும் முன் அரசர் என்னச் செய்தார்?",
+      "options": [
+        "Left his horse and bodyguards (குதிரை மற்றும் காவலர்களை விட்டுச் சென்றார்)",
+        "Took a large army",
+        "Carried a lot of gold",
+        "He was crying"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "What lesson does 'The Three Questions' teach? || இக்கதை நமக்குக் கூறும் பாடம் என்ன?",
+      "options": [
+        "To fear enemies",
+        "Life's most important purpose is doing good in the present (நற்பண்புகளோடும் விழிப்புணர்வோடும் வாழ்தல்)",
+        "Wait for the future",
+        "Don't work hard"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "How many questions did the king have? || அரசனிடம் எத்தனை கேள்விகள் இருந்தன?",
+      "options": [
+        "One",
+        "Three (மூன்று)",
+        "Ten",
+        "Four"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of 'Seize'? || 'Seize' (கைப்பற்றுதல்) என்பதன் பொருள்?",
+      "options": [
+        "Give away",
+        "Take hold of suddenly and forcibly (வலிமையாகக் கைப்பற்றுதல்)",
+        "Sleep",
+        "Eat"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: Antonym of 'Forgive'. || 'மன்னித்தல்' - எதிர்ச்சொல்?",
+      "options": [
+        "Pardon",
+        "Blame/Punish (குற்றம் சுமத்துதல் / தண்டித்தல்)",
+        "Love",
+        "Help"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Conclusion: Who was the wisest in the story? || முடிவு: இந்தக் கதையில் மிகவும்ச் சிறந்த ஞானம் உடையவர் யார்?",
+      "options": [
+        "The king",
+        "The hermit (அந்தத் துறவி / ஞானி)",
+        "The enemy",
+        "The boy"
+      ],
+      "a": 1,
+      "ex": ""
+    }
+  ],
+  "credits": "தொகுப்பு: A1 ONLINE COACHING CENTER"
+}

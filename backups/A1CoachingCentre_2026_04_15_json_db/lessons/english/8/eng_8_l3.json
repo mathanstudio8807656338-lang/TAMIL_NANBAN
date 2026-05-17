@@ -1,0 +1,600 @@
+{
+  "subject": "English",
+  "class": "8",
+  "term": "Annual",
+  "title": "Supplementary: The Woman on Platform 8",
+  "summary": "",
+  "sections": [
+    {
+      "title": "1. Supplementary: The Woman on Platform 8 (ரயில் நிலையப் பெண்மணி) - Summary",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● [[Core Theme]]",
+            "answer": "A simple act of kindness from a stranger and the bond of trust. || முன்பின் தெரியாதவர்களின் அன்பு மற்றும் நம்பிக்கை."
+          },
+          {
+            "question": "● [[About Author]]",
+            "answer": "Written by [[Ruskin Bond]], a famous Indian author of British descent, known for his children's stories. || ரஸ்கின் பாண்ட் அவர்களால் எழுதப்பட்டது."
+          },
+          {
+            "question": "● [[The Plot]]",
+            "answer": "[[Arun]], a 12-year-old boy, is waiting alone at Ambala station. A kind woman in a white saree talks to him and treats him to snacks. When Arun's friend [[Satish]] and his mother arrive, the woman pretends to be Arun's mother to protect him from the mother's rude behavior. Arun calls her 'Mother' at the end out of gratitude. || அருண் என்ற சிறுவன் அம்பாலா ரயில் நிலையத்தில் காத்திருக்கும் போது ஒரு பெண்மணியைச் சந்திக்கிறான். அவர் அவனிடம் அன்பு காட்டி சிற்றுண்டி வாங்கித் தருகிறார். சதீஷின் தாய் வரும்போது, அருணைக் காப்பதற்காக அந்தப் பெண்மணி அவனது தாய் போல் நடித்து அன்பு காட்டுகிறார். இறுதியில் அருண் 'அம்மா' என்று அழைத்து நன்றி கூறுகிறான்."
+          }
+        ]
+      }
+    },
+    {
+      "title": "2. Glossary: Story Keywords (Exam Focus - Synonyms)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● [[Serene]]",
+            "answer": "Calm and peaceful. || அமைதியான."
+          },
+          {
+            "question": "● [[Impatience]]",
+            "answer": "Inability to wait; restless. || பொறுமையின்மை."
+          },
+          {
+            "question": "● [[Patronising]]",
+            "answer": "Treating with an apparent kindness that betrays a feeling of superiority. || மற்றவர்களைக் கிண்டலடிப்பதைப் போல நடத்துதல்."
+          },
+          {
+            "question": "● [[Startled]]",
+            "answer": "Surprised or shocked. || அதிர்ச்சியடைந்த."
+          },
+          {
+            "question": "● [[Embarrassed]]",
+            "answer": "Feeling self-conscious or ashamed. || சங்கடமான / வெட்கமான."
+          }
+        ]
+      }
+    },
+    {
+      "title": "3. Characters & Places (கதாபாத்திரங்கள் மற்றும் இடங்கள்)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● [[Arun]]",
+            "answer": "The protagonist, a 12-year-old schoolboy. || கதையின் நாயகன், 12 வயது சிறுவன்."
+          },
+          {
+            "question": "● [[The Woman]]",
+            "answer": "A kind stranger dressed in a white saree. || வெள்ளைச் சேலை அணிந்த கனிவான பெண்மணி."
+          },
+          {
+            "question": "● [[Satish]]",
+            "answer": "Arun’s friend and schoolmate. || அருணின் நண்பன்."
+          },
+          {
+            "question": "● [[Ambala]]",
+            "answer": "The railway station where the story takes place. || கதை நடக்கும் ரயில் நிலையம்."
+          }
+        ]
+      }
+    },
+    {
+      "title": "4. Sequence of Events (நிகழ்வுகளின் வரிசை)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● Step 1",
+            "answer": "Arun waits for his train to modern school. || அருண் பள்ளி செல்ல ரயிலுக்காகக் காத்திருக்கிறான்."
+          },
+          {
+            "question": "● Step 2",
+            "answer": "A woman in a white saree approaches him. || வெள்ளைச் சேலை அணிந்த பெண்மணி அவனிடம் பேசுகிறார்."
+          },
+          {
+            "question": "● Step 3",
+            "answer": "They share tea and samosas. || இருவரும் டீ மற்றும் சமோசா சாப்பிடுகின்றனர்."
+          },
+          {
+            "question": "● Step 4",
+            "answer": "Satish and his proud mother arrive. || சதீஷும் அவரது கர்வமுள்ள தாயும் வருகின்றனர்."
+          },
+          {
+            "question": "● Step 5",
+            "answer": "The woman protects Arun's identity. || அந்தப் பெண் அருணைக் காக்கிறார்."
+          }
+        ]
+      }
+    },
+    {
+      "title": "5. Grammar: Prefixes & Suffixes (Unit 1 Supp Focus)",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● [[Prefix]]: [[Un]]happy",
+            "answer": "Un + Happy (Not happy)."
+          },
+          {
+            "question": "● [[Prefix]]: [[Dis]]agree",
+            "answer": "Dis + Agree (Not agree)."
+          },
+          {
+            "question": "● [[Suffix]]: Kind[[ness]]",
+            "answer": "Kind + ness (State of being kind)."
+          },
+          {
+            "question": "● [[Suffix]]: Hope[[less]]",
+            "answer": "Hope + less (Without hope)."
+          }
+        ]
+      }
+    },
+    {
+      "title": "6. Previous Year Questions & Competitive Focus",
+      "type": "evaluation",
+      "evaluationData": {
+        "mcqs": [
+          {
+            "question": "● At which station did Arun wait for the train?",
+            "answer": "[[Ambala]] Station. || அம்பாலா ரயில் நிலையம்."
+          },
+          {
+            "question": "● What was the color of the stranger's saree?",
+            "answer": "[[White]]. || வெள்ளை."
+          },
+          {
+            "question": "● Who is the author of 'The Woman on Platform 8'?",
+            "answer": "[[Ruskin Bond]]."
+          },
+          {
+            "question": "● What did the woman buy for Arun?",
+            "answer": "[[Tea]], [[Samosas]] and [[Jalebis]]. || டீ, சமோசா மற்றும் ஜிலேபி."
+          }
+        ]
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "q": "How old was Arun in the story? || கதையில் வரும் அருணிற்கு எத்தனை வயது?",
+      "options": [
+        "10 years",
+        "12 years (12 வயது)",
+        "15 years",
+        "14 years"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "At which station was Arun waiting? || அருண் எந்த ரயில் நிலையத்தில் காத்திருந்தார்?",
+      "options": [
+        "Delhi",
+        "Ambala (அம்பாலா)",
+        "Mumbai",
+        "Chennai"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What was the woman wearing when Arun first saw her? || அருண் அந்தப் பெண்ணை முதலில் பார்த்தபோது அவர் என்ன அணிந்திருந்தார்?",
+      "options": [
+        "Red saree",
+        "White saree (வெள்ளை நிறச் சேலை)",
+        "Blue dress",
+        "School uniform"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What food did the woman buy for Arun? || அந்தப் பெண் அருணிற்கு என்ன உணவுகள் வாங்கித் தந்தார்?",
+      "options": [
+        "Cake and biscuits",
+        "Tea, samosas and jalebis (டீ, சமோசா மற்றும் ஜிலேபி)",
+        "Rice and curry",
+        "Fruit Only"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Who was Arun's friend mentioned in the story? || கதையில் வரும் அருணின் நண்பன் யார்?",
+      "options": [
+        "Vetri",
+        "Satish (சதீஷ்)",
+        "Mani",
+        "Ravi"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What was Satish’s mother's opinion about strangers? || முன்பின் தெரியாதவர்களைப் பற்றி சதீஷின் தாயின் கருத்து என்ன?",
+      "options": [
+        "strangers are always good",
+        "never talk to strangers (தெரியாதவர்களிடம் பேசக் கூடாது)",
+        "strangers are not real",
+        "all strangers are family"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "How did the woman respond to Satish's mother? || சதீஷின் தாயிடம் அந்தப் பெண்மணி எவ்வாறு நடந்துகொண்டார்?",
+      "options": [
+        "She got angry",
+        "She pretended to be Arun's mother (அருணின் தாய் போல் நடித்தார்)",
+        "She ran away",
+        "She cried"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What did Arun call the woman at the very end of the story? || கதையின் முடிவில் அருண் அந்தப் பெண்ணை எவ்வாறு அழைத்தான்?",
+      "options": [
+        "Sister",
+        "Mother (அம்மா / தாய்)",
+        "Aunt",
+        "Friend"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Who is the author of 'The Woman on Platform 8'? || 'த வுமன் ஆன் பிளாட்பார்ம் 8' கதையின் ஆசிரியர் யார்?",
+      "options": [
+        "Ruskin Bond (ரஸ்கின் பாண்ட்)",
+        "Leo Tolstoy",
+        "Rabindranath Tagore",
+        "George Orwell"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of 'Serene'? || 'Serene' என்பதன் பொருள்?",
+      "options": [
+        "Noisy",
+        "Calm and peaceful (அமைதியான)",
+        "Angry",
+        "Fast"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What is the prefix in the word 'Unhappy'? || 'Unhappy' எனும் சொல்லில் வரும் முன்னொட்டு (Prefix) எது?",
+      "options": [
+        "Happy",
+        "Un (அன்)",
+        "Py",
+        "None"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What is the suffix in 'Kindness'? || 'Kindness' - இதிலுள்ள பின்னொட்டு (Suffix) எது?",
+      "options": [
+        "Kind",
+        "Ness (னஸ்)",
+        "Kin",
+        "Dess"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Where was Arun going by train? || அருண் ரயிலில் எங்கே சென்று கொண்டிருந்தான்?",
+      "options": [
+        "Home",
+        "Boarding school (அவரது விடுதிப் பள்ளிக்கு)",
+        "Village",
+        "Zoo"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Did the woman look rich or poor according to Arun's description? || அருணின் விவரிப்புப்படி அந்தப் பெண் பணக்காரரா அல்லது ஏழையா?",
+      "options": [
+        "Very rich",
+        "Neither rich nor poor/Simple (எளிமையானவர்)",
+        "Very poor",
+        "A queen"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What is 'Impatience'? || 'Impatience' (பொறுமையின்மை) என்பது எதனைக் குறிக்கும்?",
+      "options": [
+        "Being calm",
+        "Unable to wait (காத்திருக்க இயலாத நிலை)",
+        "Being strong",
+        "Being clever"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Assertion (A): Arun liked the stranger immediately. Reason (R): She spoke to him with kindness and treated him with food. || கூற்று (A): அருண் அந்தப் பெண்மணியை உடனே நேசித்தான். காரணம் (R): அவர் அவனிடம் அன்பு காட்டி உணவு வழங்கினார்.",
+      "options": [
+        "Both A and R are true, and R is correct explanation",
+        "Both true, but R is not explanation",
+        "A is true, R is false",
+        "A is false, R is true"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "What does a 'Patronising' mother mean? || 'Patronising' என்ற சொல்லின் பொருள்?",
+      "options": [
+        "Loving",
+        "Treating others as inferior (மற்றவர்களைக் கிண்டலடிப்பதைப் போன்ற குணம்)",
+        "Brave",
+        "Quiet"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: Prefix of 'Disappear'. || 'Disappear' எனும் சொல்லின் முன்னொட்டு?",
+      "options": [
+        "Appear",
+        "Dis (டிஸ்)",
+        "Ear",
+        "Pear"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "How did Satish get into trouble with his mother in the story? || சதீஷ் அவனது தாயிடம் எதனால் திட்டு வாங்கினான்?",
+      "options": [
+        "Lost his luggage",
+        "Trying to reach out of the moving train (ஓடும் ரயிலிலிருந்து எட்டிப் பார்த்தது)",
+        "Not eating",
+        "Fighting with Arun"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What did Arun say when Satish's mother asked personal questions? || சதீஷின் தாய் தனிப்பட்ட விவரங்களைக் கேட்டபோது அருண் என்ன செய்தான்?",
+      "options": [
+        "Answered all",
+        "Kept silent/Disliked it (அமைதியாக இருந்தான்)",
+        "Shouted",
+        "Cried"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of 'Startled'? || 'Startled' என்பதன் பொருள்?",
+      "options": [
+        "Happy",
+        "Surprised/Shocked (அதிர்ச்சியடைந்த/ஆச்சரியமடைந்த)",
+        "Sleeping",
+        "Laughing"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What kind of face did the woman have? || அந்தப் பெண்மணியின் முகம் எவ்வாறு இருந்தது?",
+      "options": [
+        "Angry face",
+        "Pale and kind face (வெளிறிய ஆனால் கனிவான முகம்)",
+        "Funny face",
+        "Dark face"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Satish's mother was carrying ______? || சதீஷின் தாய் எதனைக் கொண்டு வந்திருந்தார்?",
+      "options": [
+        "A bag of gold",
+        "A large bag of snacks (ஒரு பெரிய சிற்றுண்டிப் பை)",
+        "A stick",
+        "A book"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Arun was waiting at the station from ______ in the evening. || அருண் மாலை எப்போது முதல் ரயில் நிலையத்தில் காத்திருந்தான்?",
+      "options": [
+        "Early",
+        "Twelve o'clock (பன்னிரண்டு மணி)",
+        "6 PM",
+        "4 PM"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: Suffix of 'Endless'. || 'Endless' என்பதன் பின்னொட்டு?",
+      "options": [
+        "End",
+        "Less (லெஸ்)",
+        "Nes",
+        "En"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "How did the story end for the woman? || அந்தப் பெண்மணி இறுதியில் என்னவானார்?",
+      "options": [
+        "She went home with Arun",
+        "She stood on the platform until the train vanished (ரயில் மறையும் வரை பிளாட்பாரத்தில் நின்றார்)",
+        "She got on the train",
+        "She died"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What did Arun feel about Satish's mother's advice? || சதீஷின் தாயின் ஆலோசனையைப் பற்றி அருண் என்ன நினைத்தான்?",
+      "options": [
+        "Followed it",
+        "Resented it/Did not like (அதைப் பிடிக்கவில்லை / எதிர்த்தான்)",
+        "Loved it",
+        "He was sleep"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What happens when you add 'Re' to 'Write'? || 'Write' எனும் சொல்லுக்கு முன்னால் 'Re' சேர்த்தால் என்ன பொருள் வரும்?",
+      "options": [
+        "Write again (மீண்டும் எழுதுதல்)",
+        "Don't write",
+        "Wrong writing",
+        "Big writing"
+      ],
+      "a": 0,
+      "ex": ""
+    },
+    {
+      "q": "Why didn't Arun tell Satish's mother that the woman was a stranger? || அந்தப் பெண்மணி ஒரு முன்பின் தெரியாதவர் என்று ஏன் அருண் சதீஷின் தாயிடம் கூறவில்லை?",
+      "options": [
+        "He forgot",
+        "He wanted to protect the bond and shared trust (அந்த நல்லுறவைக் காக்க விரும்பினான்)",
+        "He was scared of the police",
+        "He didn't know how to speak"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Modern School, where Arun studied, was in? || அருண் படித்த மாடர்ன் ஸ்கூல் எங்கே இருந்தது?",
+      "options": [
+        "Delhi",
+        "Near his school town/Station journey destination (அவரது பள்ளி இருந்த இடத்திற்கு சென்றான்)",
+        "Chennai",
+        "Ambala"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Ruskin Bond often writes about? || ரஸ்கின் பாண்ட் பெரும்பாலும் எதைப் பற்றி எழுதுவார்?",
+      "options": [
+        "War",
+        "Simple human emotions and nature (சாதாரண மனித உணர்வுகள் மற்றும் இயற்கை)",
+        "Aliens",
+        "Cooking"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of 'Obstinate'? || 'Obstinate' (அடம்பிடிக்கும்) என்பதன் பொருள்?",
+      "options": [
+        "Flexible",
+        "Stubborn (பிடிவாதமான)",
+        "Happy",
+        "Kind"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Identify: Prefix of 'Dislike'. || 'Dislike' எனும் சொல்லின் முன்னொட்டு?",
+      "options": [
+        "Like",
+        "Dis (டிஸ்)",
+        "Ke",
+        "Ike"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "The woman bought 'Jalebis' for Arun. What are they? || அருணிற்கு அவர் ஜிலேபி வாங்கித் தந்தார். ஜிலேபி என்பது?",
+      "options": [
+        "Spicy snack",
+        "Sweet snack (இனிப்பு பலகாரம்)",
+        "Fruit",
+        "Drink"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What did the woman do when the train whistle blew? || ரயிலின் விசில் சத்தம் கேட்டதும் அந்தப் பெண் என்ன செய்தார்?",
+      "options": [
+        "Ran away",
+        "Held Arun's hands and led him to the carriage (அருணைக் கைப்பிடித்து அழைத்துச் சென்றார்)",
+        "Sat down",
+        "Slept"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Was the woman Arun's real mother? || அந்தப் பெண் அருணின் உண்மையான தாயா?",
+      "options": [
+        "Yes",
+        "No (இல்லை)",
+        "Step-mother",
+        "Unknown"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "How did Satish's mother look? || சதீஷின் தாய் எத்தகையத் தோற்றம் கொண்டிருந்தாள்?",
+      "options": [
+        "Kind eyes",
+        "Large spectacles and proud looking (பெரிய கண்ணாடி அணிந்த கர்வமானத் தோற்றம்)",
+        "Sad eyes",
+        "Green dress"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Meaning of 'Vague'? || 'Vague' என்பதன் பொருள்?",
+      "options": [
+        "Clear",
+        "Unclear/Hazy (தெளிவற்ற)",
+        "Bright",
+        "Certain"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "What is the suffix for 'Friendship'? || 'Friendship' எனும் சொல்லின் பின்னொட்டு எது?",
+      "options": [
+        "Friend",
+        "Ship (ஷிப்)",
+        "Shipmate",
+        "FriendIy"
+      ],
+      "a": 1,
+      "ex": ""
+    },
+    {
+      "q": "Arun says \"I like strangers\". Why? || \"எனக்குத் தெரியாதவர்களைப் பிடிக்கும்\" என அருண் ஏன் கூறினான்?",
+      "options": [
+        "Because they give gold",
+        "Because of the kind woman (அந்தப் பெண்மணியின் அன்பினால்)",
+        "He hates family",
+        "None"
+      ],
+      "a": 1,
+      "ex": ""
+    }
+  ],
+  "credits": "தொகுப்பு: A1 ONLINE COACHING CENTER"
+}

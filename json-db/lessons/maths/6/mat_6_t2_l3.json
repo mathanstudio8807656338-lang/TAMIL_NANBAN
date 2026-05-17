@@ -1,0 +1,62 @@
+{
+  "isBilingual": true,
+  "unit": "Unit 3",
+  "subject": "Maths",
+  "class": "6",
+  "term": 2,
+  "title": "Bill, Profit and Loss (பட்டியல், இலாபம் மற்றும் நட்டம்)",
+  "summary": "பட்டியல் தயாரித்தல், அடக்க விலை, குறித்த விலை, விற்பனை விலை மற்றும் இலாப நட்டக் கணக்கீடுகளைப் பற்றி இப்பாடம் விளக்குகிறது.",
+  "material": {
+    "isBilingual": true,
+    "sections": [
+      {
+        "title": "3.1 அறிமுகம் மற்றும் பட்டியல் (Introduction and Bill)",
+        "type": "bilingual",
+        "en": [
+          "A Bill/Receipt is a statement provided by a shopkeeper as proof of purchase and payment.",
+          "Key components: Shop name, Bill No/Date, Particulars (Items), Quantity, Rate (Price per unit), Amount (Quantity × Rate), and Total.",
+          "Verification: Check if quantities are correct, calculations (Qty × Rate) are accurate, and the final total is correct."
+        ],
+        "ta": [
+          "பட்டியல் (Bill): நாம் வாங்கிய பொருள்களுக்கான கட்டணத்தைச் செலுத்தியவுடன், கடைக்காரர் நமக்கு வழங்கும் ரசீது ஆகும். இது வாங்கியதற்கான ஆதாரமாகும்.",
+          "முக்கிய விவரங்கள்: கடையின் பெயர், பட்டியல் எண்/தேதி, விவரம் (பொருளின் பெயர்), அளவு, வீதம் (ஒரு கிலோ/எண்ணிக்கையின் விலை), தொகை (அளவு × வீதம்) மற்றும் மொத்தத் தொகை.",
+          "சரிபார்த்தல்: பொருள்களின் அளவும் கணக்கீடும் சரியாக உள்ளதா என்பதையும், மொத்தத் தொகை சரியாகக் கூட்டப்பட்டுள்ளதா என்பதையும் சரிபார்க்க வேண்டும்."
+        ]
+      },
+      {
+        "title": "3.2 விலை மற்றும் தள்ளுபடி (Price and Discount)",
+        "type": "bilingual",
+        "en": [
+          "Cost Price (C.P): The price at which an item is bought or produced. Total C.P = Buying price + Overhead expenses (Transport, Labor, Repairs).",
+          "Marked Price (M.P): The price printed on the label or estimated by the shopkeeper with a profit margin.",
+          "Discount: The reduction in price from the Marked Price to attract customers.",
+          "Selling Price (S.P): The price at which an item is sold. S.P = Marked Price - Discount."
+        ],
+        "ta": [
+          "அடக்க விலை (Cost Price - C.P): பொருளை வாங்குவதற்கு அல்லது உற்பத்தி செய்வதற்கு ஆகும் செலவு. மொத்த அடக்க விலை = வாங்கிய விலை + கூடுதல் செலவுகள் (போக்குவரத்து, கூலி, பழுதுபார்ப்பு).",
+          "குறித்த விலை (Marked Price - M.P): பொருளின் மீது அச்சிடப்பட்டிருக்கும் அல்லது கடைக்காரர் நிர்ணயிக்கும் விலை.",
+          "தள்ளுபடி (Discount): வாடிக்கையாளர்களைக் கவர்வதற்காக குறித்த விலையிலிருந்து குறைக்கப்படும் தொகை.",
+          "விற்பனை விலை (Selling Price - S.P): வாடிக்கையாளருக்கு விற்பனை செய்யும் விலை. விற்பனை விலை = குறித்த விலை - தள்ளுபடி."
+        ]
+      },
+      {
+        "title": "3.3 இலாபம் மற்றும் நட்டம் (Profit and Loss)",
+        "type": "bilingual",
+        "en": [
+          "Profit: If Selling Price (S.P) > Cost Price (C.P). Formula: Profit = S.P - C.P.",
+          "Loss: If Cost Price (C.P) > Selling Price (S.P). Formula: Loss = C.P - S.P.",
+          "No Profit No Loss: If C.P = S.P."
+        ],
+        "ta": [
+          "இலாபம் (Profit): விற்பனை விலை (S.P) > அடக்க விலை (C.P) எனில் இலாபம். சூத்திரம்: இலாபம் = விற்பனை விலை - அடக்க விலை.",
+          "நட்டம் (Loss): அடக்க விலை (C.P) > விற்பனை விலை (S.P) எனில் நட்டம். சூத்திரம்: நட்டம் = அடக்க விலை - விற்பனை விலை.",
+          "இலாபமும் இல்லை நட்டமும் இல்லை: அடக்க விலையும் விற்பனை விலையும் சமமாக இருந்தால் (C.P = S.P)."
+        ]
+      }
+    ]
+  },
+  "quiz": {
+    "questions": []
+  },
+  "credits": "A1 ONLINE COACHING CENTER"
+}

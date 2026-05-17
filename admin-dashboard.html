@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400;500;600;700;800&family=Noto+Sans+Tamil:wght@400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>A1 Coaching - Admin Dashboard</title>
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600;700&family=Noto+Sans+Tamil:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+/* --- BRAND HEADER --- */
+.header-standard {
+    background: #ffffff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #1e3a8a;
+    border-bottom: 1px solid #1e3a8a;
+}
+.brand-container {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.brand-main {
+    font-family: 'Baloo Thambi 2', cursive;
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: #1e3a8a;
+    line-height: 1.2;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+.brand-sub {
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #ef4444;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-top: -2px;
+}
+@media (max-width: 480px) {
+    .brand-main { font-size: 1.5rem; }
+    .brand-sub { font-size: 0.65rem; }
+    .header-standard { height: 60px; }
+}
+
+/* Bottom Nav */
+.bottom-nav {
+    position: fixed;
+    bottom: 0; left: 0; right: 0;
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.6rem 0.4rem;
+    box-shadow: 0 -4px 20px rgba(0,0,0,0.08);
+    z-index: 1000;
+    border-top: 1px solid #f1f5f9;
+}
+.nav-item {
+    text-decoration: none;
+    color: #64748b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.65rem;
+    font-weight: 700;
+    gap: 4px;
+    flex: 1;
+    transition: color 0.3s ease;
+}
+.nav-item.active { color: #1e3a8a; }
+.nav-item.logout { color: #ef4444; }
+.nav-icon { font-size: 1.2rem; margin-bottom: 2px; }
+
+/* Global fixes */
+body {
+    padding-bottom: 80px;
+}
+
+  :root {
+    --bg: #0a0f1e;
+    --surface: #111827;
+    --surface2: #1a2236;
+    --border: #1e3a5f;
+    --accent: #0ea5e9;
+    --accent2: #f59e0b;
+    --danger: #ef4444;
+    --success: #22c55e;
+    --text: #e2e8f0;
+    --muted: #64748b;
+    --p1: #6366f1;
+    --p2: #0ea5e9;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Rajdhani', 'Noto Sans Tamil', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+  }
+
+  /* ── LOGIN SCREEN ── */
+  #loginScreen {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(ellipse at 30% 50%, #0c1f3f 0%, #0a0f1e 70%);
+    position: relative;
+    overflow: hidden;
+  }
+
+  #loginScreen::before {
+    content: '';
+    position: absolute;
+    width: 600px; height: 600px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(14,165,233,0.08) 0%, transparent 70%);
+    top: -200px; right: -100px;
+  }
+
+  .login-box {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 48px 40px;
+    width: 100%;
+    max-width: 420px;
+    box-shadow: 0 25px 60px rgba(0,0,0,0.5);
+    position: relative;
+    z-index: 1;
+  }
+
+  .login-logo {
+    text-align: center;
+    margin-bottom: 32px;
+  }
+
+  .login-logo .brand {
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: var(--accent);
+  }
+
+  .login-logo .sub {
+    font-size: 0.85rem;
+    color: var(--muted);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-top: 4px;
+  }
+
+  .login-title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 28px;
+    color: var(--text);
+  }
+
+  .form-group { margin-bottom: 20px; }
+
+  .form-group label {
+    display: block;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 8px;
+  }
+
+  .form-group input {
+    width: 100%;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 12px 16px;
+    color: var(--text);
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+
+  .form-group input:focus { border-color: var(--accent); }
+
+  .login-btn {
+    width: 100%;
+    background: var(--accent);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 14px;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: opacity 0.2s, transform 0.1s;
+    margin-top: 8px;
+  }
+
+  .login-btn:hover { opacity: 0.9; transform: translateY(-1px); }
+  .login-btn:active { transform: translateY(0); }
+
+  .login-error {
+    background: rgba(239,68,68,0.1);
+    border: 1px solid rgba(239,68,68,0.3);
+    border-radius: 8px;
+    padding: 10px 14px;
+    color: var(--danger);
+    font-size: 0.9rem;
+    margin-top: 16px;
+    display: none;
+    text-align: center;
+  }
+
+  /* ── DASHBOARD ── */
+  #dashboard { display: none; }
+
+  .topbar {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 16px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+
+  .topbar-left {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .topbar-brand {
+    font-size: 1.4rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: var(--accent);
+  }
+
+  .topbar-sub {
+    font-size: 0.75rem;
+    color: var(--muted);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  .topbar-right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .refresh-btn, .logout-btn {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 8px 16px;
+    color: var(--text);
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+    letter-spacing: 1px;
+  }
+
+  .refresh-btn:hover { border-color: var(--accent); color: var(--accent); }
+  .logout-btn:hover { border-color: var(--danger); color: var(--danger); }
+
+  .main-content { padding: 32px; max-width: 1400px; margin: 0 auto; }
+
+  /* Stats */
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    margin-bottom: 32px;
+  }
+
+  .stat-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 24px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .stat-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+  }
+
+  .stat-card.total::before { background: var(--accent); }
+  .stat-card.p1::before { background: var(--p1); }
+  .stat-card.p2::before { background: var(--p2); }
+  .stat-card.blocked::before { background: var(--danger); }
+
+  .stat-label {
+    font-size: 0.75rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 8px;
+  }
+
+  .stat-value {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1;
+  }
+
+  .stat-card.total .stat-value { color: var(--accent); }
+  .stat-card.p1 .stat-value { color: var(--p1); }
+  .stat-card.p2 .stat-value { color: var(--p2); }
+  .stat-card.blocked .stat-value { color: var(--danger); }
+
+  /* Tabs */
+  .tabs {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 24px;
+  }
+
+  .tab-btn {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 10px 24px;
+    color: var(--muted);
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .tab-btn.active.all { border-color: var(--accent); color: var(--accent); background: rgba(14,165,233,0.08); }
+  .tab-btn.active.p1 { border-color: var(--p1); color: var(--p1); background: rgba(99,102,241,0.08); }
+  .tab-btn.active.p2 { border-color: var(--p2); color: var(--p2); background: rgba(14,165,233,0.08); }
+
+  /* Search */
+  .search-bar {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 10px 16px;
+    color: var(--text);
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    outline: none;
+    width: 280px;
+    transition: border-color 0.2s;
+    margin-bottom: 24px;
+  }
+
+  .search-bar:focus { border-color: var(--accent); }
+  .search-bar::placeholder { color: var(--muted); }
+
+  /* Table */
+  .table-wrap {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  thead {
+    background: var(--surface2);
+    border-bottom: 1px solid var(--border);
+  }
+
+  th {
+    padding: 14px 20px;
+    text-align: left;
+    font-size: 0.75rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--muted);
+    font-weight: 600;
+  }
+
+  td {
+    padding: 14px 20px;
+    border-bottom: 1px solid rgba(30,58,95,0.4);
+    font-size: 0.95rem;
+    font-weight: 500;
+  }
+
+  tr:last-child td { border-bottom: none; }
+  tr:hover td { background: rgba(14,165,233,0.04); }
+
+  .badge {
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+
+  .badge-p1 { background: rgba(99,102,241,0.15); color: var(--p1); border: 1px solid rgba(99,102,241,0.3); }
+  .badge-p2 { background: rgba(14,165,233,0.15); color: var(--p2); border: 1px solid rgba(14,165,233,0.3); }
+  .badge-active { background: rgba(34,197,94,0.15); color: var(--success); border: 1px solid rgba(34,197,94,0.3); }
+  .badge-blocked { background: rgba(239,68,68,0.15); color: var(--danger); border: 1px solid rgba(239,68,68,0.3); }
+  .badge-mobile { background: rgba(245,158,11,0.15); color: var(--accent2); border: 1px solid rgba(245,158,11,0.3); }
+  .badge-desktop { background: rgba(100,116,139,0.15); color: #94a3b8; border: 1px solid rgba(100,116,139,0.3); }
+
+  .action-btn {
+    padding: 6px 14px;
+    border-radius: 6px;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border: 1px solid;
+    transition: all 0.2s;
+  }
+
+  .btn-block { color: var(--danger); border-color: rgba(239,68,68,0.4); background: rgba(239,68,68,0.08); }
+  .btn-block:hover { background: rgba(239,68,68,0.2); }
+  .btn-unblock { color: var(--success); border-color: rgba(34,197,94,0.4); background: rgba(34,197,94,0.08); }
+  .btn-unblock:hover { background: rgba(34,197,94,0.2); }
+
+  .loading {
+    text-align: center;
+    padding: 60px;
+    color: var(--muted);
+    font-size: 1rem;
+    letter-spacing: 2px;
+  }
+
+  .loading-spinner {
+    width: 32px; height: 32px;
+    border: 3px solid var(--border);
+    border-top-color: var(--accent);
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+    margin: 0 auto 16px;
+  }
+
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  .empty {
+    text-align: center;
+    padding: 60px;
+    color: var(--muted);
+  }
+
+  .last-updated {
+    font-size: 0.8rem;
+    color: var(--muted);
+    letter-spacing: 1px;
+    margin-bottom: 16px;
+  }
+
+  @media (max-width: 768px) {
+    .stats-grid { grid-template-columns: repeat(2, 1fr); }
+    .main-content { padding: 16px; }
+    .topbar { padding: 12px 16px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- LOGIN SCREEN -->
+<div id="loginScreen">
+  <div class="login-box">
+    <div class="login-logo">
+      <div class="brand">A1 COACHING</div>
+      <div class="sub">TNPSC & TET Experts</div>
+    </div>
+    <div class="login-title">Admin Dashboard</div>
+    <div class="form-group">
+      <label>Username</label>
+      <input type="text" id="adminUser" placeholder="Username உள்ளிடவும்" autocomplete="off">
+    </div>
+    <div class="form-group">
+      <label>Password</label>
+      <input type="password" id="adminPass" placeholder="Password உள்ளிடவும்">
+    </div>
+    <button class="login-btn" onclick="adminLogin()">உள்நுழைய (Login)</button>
+    <div class="login-error" id="loginError">தவறான Username அல்லது Password!</div>
+  </div>
+</div>
+
+<!-- DASHBOARD -->
+<div id="dashboard">
+  <div class="topbar">
+    <div class="topbar-left">
+      <div>
+        <div class="topbar-brand">A1 COACHING</div>
+        <div class="topbar-sub">Admin Dashboard</div>
+      </div>
+    </div>
+    <div class="topbar-right">
+      <button class="refresh-btn" onclick="loadData()">↻ Refresh</button>
+      <button class="logout-btn" onclick="adminLogout()">Logout</button>
+    </div>
+  </div>
+
+  <div class="main-content">
+    <!-- Stats -->
+    <div class="stats-grid">
+      <div class="stat-card total">
+        <div class="stat-label">மொத்த Students</div>
+        <div class="stat-value" id="statTotal">—</div>
+      </div>
+      <div class="stat-card p1">
+        <div class="stat-label">Paper 1 Students</div>
+        <div class="stat-value" id="statP1">—</div>
+      </div>
+      <div class="stat-card p2">
+        <div class="stat-label">Paper 2 Students</div>
+        <div class="stat-value" id="statP2">—</div>
+      </div>
+      <div class="stat-card blocked">
+        <div class="stat-label">Blocked Students</div>
+        <div class="stat-value" id="statBlocked">—</div>
+      </div>
+    </div>
+
+    <!-- Tabs -->
+    <div class="tabs">
+      <button class="tab-btn active all" onclick="filterTab('all', this)">அனைவரும் (All)</button>
+      <button class="tab-btn" onclick="filterTab('p1', this)">Paper 1</button>
+      <button class="tab-btn" onclick="filterTab('p2', this)">Paper 2</button>
+      <button class="tab-btn" onclick="filterTab('blocked', this)">Blocked</button>
+    </div>
+
+    <!-- Search -->
+    <input class="search-bar" type="text" id="searchInput" placeholder="📞 Phone number தேடவும்..." oninput="renderTable()">
+
+    <!-- Last Updated -->
+    <div class="last-updated" id="lastUpdated"></div>
+
+    <!-- Table -->
+    <div class="table-wrap">
+      <div class="loading" id="loadingEl">
+        <div class="loading-spinner"></div>
+        DATA LOADING...
+      </div>
+      <table id="userTable" style="display:none;">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Phone Number</th>
+            <th>Project</th>
+            <th>Device</th>
+            <th>Device ID</th>
+            <th>Last Login</th>
+            <th>Registered</th>
+            <th>Status</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody id="tableBody"></tbody>
+      </table>
+      <div class="empty" id="emptyEl" style="display:none;">
+        📭 Data இல்லை
+      </div>
+    </div>
+  </div>
+</div>
+
+        <nav class="bottom-nav">
+        <a href="index.html" class="nav-item">
+            <span class="nav-icon">🏠</span>
+            <span>Home</span>
+        </a>
+        <a href="subject.html" class="nav-item">
+            <span class="nav-icon">📚</span>
+            <span>Course</span>
+        </a>
+        <a href="tel:6369371452" class="nav-item">
+            <span class="nav-icon">📞</span>
+            <span>Contact</span>
+        </a>
+        <a href="#" class="nav-item">
+            <span class="nav-icon">💳</span>
+            <span>Pay</span>
+        </a>
+        <a href="#" onclick="window.logout(); return false;" class="nav-item logout">
+            <span class="nav-icon">🚪</span>
+            <span>Logout</span>
+        </a>
+    </nav>
+
+    <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
+  import { getFirestore, collection, getDocs, doc, updateDoc, setDoc } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js";
+
+  const firebaseConfig = {
+    apiKey: "AIzaSyCtbz8pKglviupPOwQvlioqsLELuQqtHhA",
+    authDomain: "greenpen-device-lock.firebaseapp.com",
+    projectId: "greenpen-device-lock",
+    storageBucket: "greenpen-device-lock.firebasestorage.app",
+    messagingSenderId: "270447669595",
+    appId: "1:270447669595:web:954d2aa2c38fc53b982a7e"
+  };
+
+  const app = initializeApp(firebaseConfig);
+  const db = getFirestore(app);
+
+  // Admin credentials
+  const ADMIN_USER = "MYGREENPEN";
+  const ADMIN_PASS = "MYgreenPEN";
+  const ADMIN_SESSION = "a1_admin_session";
+
+  let allUsers = [];
+  let currentFilter = 'all';
+
+  // ── Login ──
+  window.adminLogin = function() {
+    const u = document.getElementById('adminUser').value.trim();
+    const p = document.getElementById('adminPass').value.trim();
+    const err = document.getElementById('loginError');
+    if (u === ADMIN_USER && p === ADMIN_PASS) {
+      sessionStorage.setItem(ADMIN_SESSION, '1');
+      document.getElementById('loginScreen').style.display = 'none';
+      document.getElementById('dashboard').style.display = 'block';
+      loadData();
+    } else {
+      err.style.display = 'block';
+      setTimeout(() => err.style.display = 'none', 3000);
+    }
+  };
+
+  // Enter key login
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Enter' && document.getElementById('loginScreen').style.display !== 'none') {
+      window.adminLogin();
+    }
+  });
+
+  // ── Logout ──
+  window.adminLogout = function() {
+    sessionStorage.removeItem(ADMIN_SESSION);
+    location.reload();
+  };
+
+  // ── Auto login check ──
+  if (sessionStorage.getItem(ADMIN_SESSION)) {
+    document.getElementById('loginScreen').style.display = 'none';
+    document.getElementById('dashboard').style.display = 'block';
+    loadData();
+  }
+
+  // ── Load Data from Firestore ──
+  window.loadData = async function() {
+    document.getElementById('loadingEl').style.display = 'block';
+    document.getElementById('userTable').style.display = 'none';
+    document.getElementById('emptyEl').style.display = 'none';
+
+    try {
+      const snap = await getDocs(collection(db, 'device_sessions'));
+      allUsers = [];
+      snap.forEach(d => {
+        allUsers.push({ id: d.id, ...d.data() });
+      });
+
+      // Update stats
+      const p1 = allUsers.filter(u => (u.project || '').startsWith('p1'));
+      const p2 = allUsers.filter(u => (u.project || '').startsWith('p2'));
+      const blocked = allUsers.filter(u => u.blocked === true);
+
+      document.getElementById('statTotal').textContent = allUsers.length;
+      document.getElementById('statP1').textContent = p1.length;
+      document.getElementById('statP2').textContent = p2.length;
+      document.getElementById('statBlocked').textContent = blocked.length;
+
+      const now = new Date();
+      document.getElementById('lastUpdated').textContent =
+        `கடைசியாக refresh: ${now.toLocaleTimeString('ta-IN')}`;
+
+      renderTable();
+    } catch (e) {
+      document.getElementById('loadingEl').innerHTML = `<div style="color:var(--danger)">❌ Firebase Error: ${e.message}</div>`;
+    }
+  };
+
+  // ── Filter Tab ──
+  window.filterTab = function(filter, btn) {
+    currentFilter = filter;
+    document.querySelectorAll('.tab-btn').forEach(b => {
+      b.classList.remove('active', 'all', 'p1', 'p2', 'blocked');
+    });
+    btn.classList.add('active', filter);
+    renderTable();
+  };
+
+  // ── Render Table ──
+  window.renderTable = function() {
+    const search = document.getElementById('searchInput').value.trim().toLowerCase();
+
+    let filtered = allUsers.filter(u => {
+      if (currentFilter === 'p1') return (u.project || '').startsWith('p1');
+      if (currentFilter === 'p2') return (u.project || '').startsWith('p2');
+      if (currentFilter === 'blocked') return u.blocked === true;
+      return true;
+    });
+
+    if (search) {
+      filtered = filtered.filter(u =>
+        (u.phone || '').includes(search) ||
+        (u.deviceId || '').toLowerCase().includes(search)
+      );
+    }
+
+    document.getElementById('loadingEl').style.display = 'none';
+
+    if (filtered.length === 0) {
+      document.getElementById('userTable').style.display = 'none';
+      document.getElementById('emptyEl').style.display = 'block';
+      return;
+    }
+
+    document.getElementById('emptyEl').style.display = 'none';
+    document.getElementById('userTable').style.display = 'table';
+
+    const tbody = document.getElementById('tableBody');
+    tbody.innerHTML = '';
+
+    filtered.forEach((u, i) => {
+      const isBlocked = u.blocked === true;
+      const project = u.project || '—';
+      const isPaper1 = project.startsWith('p1');
+      const browser = u.browser || 'Unknown';
+      const isMobile = browser === 'Mobile';
+
+      const lastLogin = u.lastLogin ? formatDate(u.lastLogin) : '—';
+      const registeredAt = u.registeredAt ? formatDate(u.registeredAt) : '—';
+      const deviceShort = (u.deviceId || '—').substring(0, 20) + '...';
+
+      const tr = document.createElement('tr');
+      tr.innerHTML = `
+        <td style="color:var(--muted)">${i + 1}</td>
+        <td style="font-size:1.05rem;font-weight:700;letter-spacing:1px">${u.phone || '—'}</td>
+        <td>
+          <span class="badge ${isPaper1 ? 'badge-p1' : 'badge-p2'}">
+            ${isPaper1 ? 'PAPER 1' : 'PAPER 2'}
+          </span>
+        </td>
+        <td>
+          <span class="badge ${isMobile ? 'badge-mobile' : 'badge-desktop'}">
+            ${isMobile ? '📱 Mobile' : '🖥️ Desktop'}
+          </span>
+        </td>
+        <td style="font-size:0.8rem;color:var(--muted);font-family:monospace" title="${u.deviceId || ''}">${deviceShort}</td>
+        <td style="font-size:0.85rem">${lastLogin}</td>
+        <td style="font-size:0.85rem">${registeredAt}</td>
+        <td>
+          <span class="badge ${isBlocked ? 'badge-blocked' : 'badge-active'}">
+            ${isBlocked ? '🔴 Blocked' : '🟢 Active'}
+          </span>
+        </td>
+        <td>
+          <button class="action-btn ${isBlocked ? 'btn-unblock' : 'btn-block'}"
+            onclick="toggleBlock('${u.id}', ${isBlocked})">
+            ${isBlocked ? 'Unblock' : 'Block'}
+          </button>
+        </td>
+      `;
+      tbody.appendChild(tr);
+    });
+  };
+
+  // ── Block / Unblock ──
+  window.toggleBlock = async function(docId, isCurrentlyBlocked) {
+    const action = isCurrentlyBlocked ? 'Unblock' : 'Block';
+    const phone = allUsers.find(u => u.id === docId)?.phone || docId;
+    if (!confirm(`${phone} - இந்த student-ஐ ${action} செய்யவா?`)) return;
+
+    try {
+      await updateDoc(doc(db, 'device_sessions', docId), {
+        blocked: !isCurrentlyBlocked
+      });
+      // Update local
+      const idx = allUsers.findIndex(u => u.id === docId);
+      if (idx !== -1) allUsers[idx].blocked = !isCurrentlyBlocked;
+
+      // Update stats
+      const blocked = allUsers.filter(u => u.blocked === true);
+      document.getElementById('statBlocked').textContent = blocked.length;
+
+      renderTable();
+    } catch (e) {
+      alert('Error: ' + e.message);
+    }
+  };
+
+  // ── Format Date ──
+  function formatDate(dateStr) {
+    try {
+      const d = new Date(dateStr);
+      return d.toLocaleString('ta-IN', {
+        day: '2-digit', month: '2-digit', year: 'numeric',
+        hour: '2-digit', minute: '2-digit'
+      });
+    } catch { return dateStr; }
+  }
+</script>
+</body>
+</html>

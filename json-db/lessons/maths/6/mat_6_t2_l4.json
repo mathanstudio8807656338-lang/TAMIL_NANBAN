@@ -1,0 +1,94 @@
+{
+  "isBilingual": true,
+  "unit": "Unit 4",
+  "subject": "Maths",
+  "class": "6",
+  "term": 2,
+  "title": "Geometry (வடிவியல்)",
+  "summary": "இப்பாடம் முக்கோணத்தின் அடிப்படைகள், வகைகள் (பக்கங்கள் மற்றும் கோணங்களின் அடிப்படையில்) மற்றும் அதன் முக்கிய பண்புகளை விளக்குகிறது.",
+  "material": {
+    "isBilingual": true,
+    "sections": [
+      {
+        "title": "4.1 அறிமுகம் (Introduction)",
+        "type": "bilingual",
+        "en": [
+          "Point: A location without dimensions.",
+          "Line: Extends infinitely in both directions.",
+          "Line Segment: A part of a line with two endpoints.",
+          "Ray: Starts at a point and extends infinitely in one direction.",
+          "Triangle: A closed figure formed by three line segments. It is the polygon with the minimum number of sides, denoted by 'Δ'."
+        ],
+        "ta": [
+          "புள்ளி: பரிமாணமற்ற ஒரு இடத்தைக் குறிக்கிறது.",
+          "கோடு: இரு திசைகளிலும் முடிவில்லாமல் நீண்டு செல்வது.",
+          "கோட்டுத்துண்டு: இரு முடிவுப் புள்ளிகளைக் கொண்ட ஒரு கோட்டின் பகுதி.",
+          "கதிர்: ஒரு தொடக்கப் புள்ளியைக் கொண்டு மறுபுறம் முடிவில்லாமல் செல்வது.",
+          "முக்கோணம்: மூன்று கோட்டுத்துண்டுகளால் அடைபடும் மூடிய உருவம். இது குறைந்தபட்ச பக்கங்களைக் கொண்ட பலகோணம் ஆகும், 'Δ' எனக் குறிக்கப்படும்."
+        ]
+      },
+      {
+        "title": "4.2 முக்கோணங்கள் (Triangles)",
+        "type": "bilingual",
+        "en": [
+          "Components: 3 Sides, 3 Angles, and 3 Vertices.",
+          "Example ΔABC: Vertices (A, B, C), Sides (AB, BC, CA), Angles (∠A, ∠B, ∠C).",
+          "Regions: Interior (inside), Exterior (outside), and Boundary (on the lines).",
+          "Diagonals: Triangles do not have any diagonals."
+        ],
+        "ta": [
+          "கூறுகள்: 3 பக்கங்கள், 3 கோணங்கள் மற்றும் 3 உச்சிகள்.",
+          "எடுத்துக்காட்டு ΔABC: உச்சிகள் (A, B, C), பக்கங்கள் (AB, BC, CA), கோணங்கள் (∠A, ∠B, ∠C).",
+          "பகுதிகள்: உட்புறம் (உள்ளே), வெளிப்புறம் (வெளியே) மற்றும் எல்லை (கோட்டின் மீது).",
+          "மூலைவிட்டங்கள்: முக்கோணத்திற்குக் மூலைவிட்டங்கள் கிடையாது."
+        ]
+      },
+      {
+        "title": "4.3 பக்கங்களின் அடிப்படையில் வகைகள் (Types by Sides)",
+        "type": "bilingual",
+        "en": [
+          "Scalene Triangle: All three sides have different lengths.",
+          "Isosceles Triangle: Any two sides are equal. Angles opposite to equal sides are also equal.",
+          "Equilateral Triangle: All three sides are equal. All angles are also equal (60° each)."
+        ],
+        "ta": [
+          "அசமபக்க முக்கோணம்: மூன்று பக்க அளவுகளும் வெவ்வேறானவை.",
+          "இருசமபக்க முக்கோணம்: ஏதேனும் இரண்டு பக்கங்கள் சமம். சம பக்கங்களுக்கு எதிரே உள்ள கோணங்களும் சமம்.",
+          "சமபக்க முக்கோணம்: மூன்று பக்கங்களும் சமம். மூன்று கோணங்களும் சமமாகவே (60°) இருக்கும்."
+        ]
+      },
+      {
+        "title": "4.4 கோணங்களின் அடிப்படையில் வகைகள் (Types by Angles)",
+        "type": "bilingual",
+        "en": [
+          "Acute Angled Triangle: All three angles are acute (< 90°).",
+          "Right Angled Triangle: Exactly one angle is 90°. The other two are acute.",
+          "Obtuse Angled Triangle: Exactly one angle is obtuse (> 90°)."
+        ],
+        "ta": [
+          "குறுங்கோண முக்கோணம்: மூன்று கோணங்களுமே 90°-ஐ விடக் குறைவானவை.",
+          "செங்கோண முக்கோணம்: ஏதேனும் ஒரு கோணம் சரியாக 90°.",
+          "விரிகோண முக்கோணம்: ஏதேனும் ஒரு கோணம் 90°-ஐ விடக் கூடியது (விரிகோணம்)."
+        ]
+      },
+      {
+        "title": "4.5 முக்கோணத்தின் பண்புகள் (Properties of a Triangle)",
+        "type": "bilingual",
+        "en": [
+          "Angle Sum Property: The sum of the three interior angles of a triangle is always 180°.",
+          "Triangle Inequality Property: The sum of the lengths of any two sides of a triangle must be greater than the length of the third side.",
+          "Also, the difference between any two sides is always less than the third side."
+        ],
+        "ta": [
+          "கோணங்களின் கூடுதல் பண்பு: முக்கோணத்தின் மூன்று உட்கோணங்களின் கூடுதல் எப்போதும் 180° ஆகும்.",
+          "சமனின்மைப் பண்பு: முக்கோணத்தின் ஏதேனும் இரு பக்க அளவுகளின் கூடுதல், மூன்றாவது பக்க அளவை விட அதிகமாக இருக்க வேண்டும்.",
+          "மேலும், இரு பக்கங்களின் வித்தியாசம் மூன்றாவது பக்கத்தை விடக் குறைவாக இருக்க வேண்டும்."
+        ]
+      }
+    ]
+  },
+  "quiz": {
+    "questions": []
+  },
+  "credits": "A1 ONLINE COACHING CENTER"
+}

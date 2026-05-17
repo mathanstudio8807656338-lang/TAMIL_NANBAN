@@ -1,0 +1,710 @@
+{
+  "lesson_meta": {
+    "title": "The Computer Swallowed Grandma",
+    "unit": "l2",
+    "grade": "7",
+    "term": "tTerm 1",
+    "subject": "english",
+    "code": "eng_7_tTerm 1_l2"
+  },
+  "material": {
+    "sections": [
+      {
+        "title": "Lesson Summary (பாடச் சுருக்கம்)",
+        "content": "The poem 'The Computer Swallowed Grandma' by an Anonymous poet is a humorous and playful piece. It expresses the innocent imagination of a child who believes that the computer has literally 'swallowed' their grandmother. The grandmother was working on the computer, and the moment she pressed 'Control' and 'Enter', her image disappeared from the screen. The poetic persona imagines that she has been devoured, perhaps affected by a 'virus' or eaten by a 'worm'—cleverly using computer terms as literal threats. The poet searches the recycle bin, all files, and the internet, even asking the search engine 'Jeeves' for help, but gets a negative reply. Finally, the poet pleads with the readers that if they ever find Grandma in their 'Inbox', they should 'Copy', 'Scan', and 'Paste' her in an email back to the poet."
+      },
+      {
+        "title": "Important Concepts: Stanza 1 & 2 (பாடக்கருத்துக்கள்)",
+        "content": "• Stanza 1: The poet firmly believes that the computer swallowed Grandma. It happened when she pressed the 'Control' and 'Enter' keys together on the keyboard, causing her to instantly disappear from the screen view.\n\n• Stanza 2: The poet feels squirmy (uncomfortable/twisting in pain) thinking that the computer has completely devoured (consumed) her. With child-like innocence, the poet wonders if she was attacked by a digital 'virus' or eaten by a computer 'worm', taking these software threats as physical creatures."
+      },
+      {
+        "title": "Important Concepts: Stanza 3 & 4 (பாடக்கருத்துக்கள்)",
+        "content": "• Stanza 3: Desperate to find her, the poet searches through the 'recycle bin' (where deleted files go) and all kinds of files on the system. The search extends even to the vast Internet, but Grandma is nowhere to be found.\n\n• Stanza 4: In a state of hopelessness (desperation), the poet asks 'Jeeves' (a famous internet search engine called Ask Jeeves) to refine the searches. However, the search yields a negative reply. Not a single trace of Grandma was found 'Online'."
+      },
+      {
+        "title": "Important Concepts: Stanza 5 (பாடக்கருத்துக்கள்)",
+        "content": "Stanza 5: The poet makes a final, desperate plea to anyone who might receive her. The poet asks that if Grandma accidentally ends up in someone's email 'Inbox', the recipient should use computer commands to 'Copy', 'Scan', and 'Paste' her back into an email and send her home."
+      },
+      {
+        "title": "Glossary (கலைச்சொற்கள்)",
+        "content": "• Devoured – consumed (முழுமையாக விழுங்குதல்/உட்கொள்ளுதல்)\n• Squirm – turn (நெளிதல்/அசௌகரியமாக உணர்தல்)\n• Desperation – hopelessness (நம்பிக்கையற்ற நிலை / விரக்தி)"
+      },
+      {
+        "title": "Book Back Questions: Section B (பாட பின்புற வினாக்கள்)",
+        "content": "• The computer swallowed grandma. Who swallowed Whom?\n• Answer: The computer swallowed Grandma.\n\n• She pressed ‘Control’ and ‘Enter’ And disappeared from view. How did Grandma disappear from view?\n• Answer: Grandma disappeared from view by pressing the 'Control' and 'Enter' keys.\n\n• It devoured her completely. Who does ’it’ refer to?\n• Answer: 'It' refers to the computer.\n\n• She must have caught a virus Or been eaten by a worm. What happened to Grandma?\n• Answer: The poet imagines that Grandma's system was attacked by a virus or a worm, causing her to disappear.\n\n• I’ve searched through the recycle bin And files of every kind; I’ve even used the Internet, But nothing did I find. Where did the author search for grandma?\n• Answer: The author searched the recycle bin, files of every kind, and the Internet."
+      },
+      {
+        "title": "Book Back Questions: Section C (பாட பின்புற வினாக்கள்)",
+        "content": "• Who did the author ask for grandma?\n• Answer: The author asked 'Jeeves' (a search engine) to find grandma.\n\n• Did the author get a positive reply?\n• Answer: No, the author got a negative reply.\n\n• What is the author’s plea?\n• Answer: The author pleads to 'Copy', 'Scan', and 'Paste' Grandma in an email and send her back if anyone finds her in their inbox."
+      },
+      {
+        "title": "Rhyming Words (நினைவில் கொள்க)",
+        "content": "• Stanza 1: true - view\n• Stanza 2: squirm - worm\n• Stanza 3: kind - find\n• Stanza 4: refine - online\n• Stanza 5: see - me"
+      }
+    ]
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "Who is the author of the poem 'The Computer Swallowed Grandma'?",
+        "options": [
+          "William Wordsworth",
+          "Anonymous",
+          "Robert Frost",
+          "Ruskin Bond"
+        ],
+        "answer": 1,
+        "explanation": "The author of the poem is unknown, which is why it is credited to 'Anonymous'."
+      },
+      {
+        "question": "Who or what swallowed Grandma according to the poet?",
+        "options": [
+          "A monster",
+          "The Internet",
+          "The computer",
+          "A wild animal"
+        ],
+        "answer": 2,
+        "explanation": "The poet playfully states in the very first line that the computer swallowed Grandma."
+      },
+      {
+        "question": "What is the tone of the poem?",
+        "options": [
+          "Humorous and playful",
+          "Serious and tragic",
+          "Angry and violent",
+          "Mysterious and scary"
+        ],
+        "answer": 0,
+        "explanation": "The poem is humorous and playful, depicting a child's innocent misinterpretation of computer functions."
+      },
+      {
+        "question": "Which two keys did Grandma press before disappearing?",
+        "options": [
+          "Alt and Tab",
+          "Shift and Delete",
+          "Control and Enter",
+          "Caps Lock and Space"
+        ],
+        "answer": 2,
+        "explanation": "The text explicitly mentions: 'She pressed ‘Control’ and ‘Enter’'."
+      },
+      {
+        "question": "What happened immediately after Grandma pressed the keys?",
+        "options": [
+          "The computer shut down.",
+          "She disappeared from view.",
+          "The screen turned blue.",
+          "She printed a document."
+        ],
+        "answer": 1,
+        "explanation": "The poem says: 'She pressed ‘Control’ and ‘Enter’ And disappeared from view.'"
+      },
+      {
+        "question": "What does the word 'devoured' mean according to the glossary?",
+        "options": [
+          "Ignored",
+          "Vomited",
+          "Chewed slowly",
+          "Consumed"
+        ],
+        "answer": 3,
+        "explanation": "According to the glossary, 'devoured' means consumed."
+      },
+      {
+        "question": "What physical reaction did the poet have when thinking about Grandma being devoured?",
+        "options": [
+          "It made the poet squirm.",
+          "It made the poet cry.",
+          "It made the poet laugh loudly.",
+          "It made the poet jump."
+        ],
+        "answer": 0,
+        "explanation": "The line reads: 'The thought just makes me squirm.'"
+      },
+      {
+        "question": "What does 'squirm' mean in the context of the poem?",
+        "options": [
+          "To scream",
+          "To turn",
+          "To sleep",
+          "To dance"
+        ],
+        "answer": 1,
+        "explanation": "The glossary defines 'squirm' as 'turn', implying turning or twisting in discomfort."
+      },
+      {
+        "question": "What is the first digital threat the poet imagines Grandma caught?",
+        "options": [
+          "A bug",
+          "A glitch",
+          "A hacker",
+          "A virus"
+        ],
+        "answer": 3,
+        "explanation": "The poet says: 'She must have caught a virus'."
+      },
+      {
+        "question": "What is the second digital threat the poet imagines might have eaten her?",
+        "options": [
+          "A worm",
+          "A snake",
+          "A Trojan",
+          "A web"
+        ],
+        "answer": 0,
+        "explanation": "The poet imagines she might have been 'eaten by a worm'."
+      },
+      {
+        "question": "Where did the poet search first on the computer?",
+        "options": [
+          "The web browser",
+          "The recycle bin",
+          "The inbox",
+          "The hard drive"
+        ],
+        "answer": 1,
+        "explanation": "The poet says: 'I’ve searched through the recycle bin'."
+      },
+      {
+        "question": "Apart from the recycle bin, what else did the poet search through?",
+        "options": [
+          "The keyboard and mouse",
+          "Books and magazines",
+          "Files of every kind",
+          "The printer tray"
+        ],
+        "answer": 2,
+        "explanation": "The poet searched through the recycle bin and 'files of every kind'."
+      },
+      {
+        "question": "Did the poet use the Internet to find Grandma?",
+        "options": [
+          "Yes, but found nothing.",
+          "No, the internet was down.",
+          "Yes, and found a picture.",
+          "No, the poet did not know how to use it."
+        ],
+        "answer": 0,
+        "explanation": "The line says: 'I’ve even used the Internet, But nothing did I find.'"
+      },
+      {
+        "question": "Who did the poet ask for help in desperation?",
+        "options": [
+          "Google",
+          "Jeeves",
+          "Alexa",
+          "Grandpa"
+        ],
+        "answer": 1,
+        "explanation": "The poet says: 'In desperation, I asked Jeeves'."
+      },
+      {
+        "question": "What did the poet ask Jeeves to do?",
+        "options": [
+          "Refine the searches",
+          "Turn off the computer",
+          "Call the police",
+          "Print an email"
+        ],
+        "answer": 0,
+        "explanation": "The poet asked Jeeves 'My searches to refine.'"
+      },
+      {
+        "question": "What does 'desperation' mean?",
+        "options": [
+          "Excitement",
+          "Happiness",
+          "Hopelessness",
+          "Courage"
+        ],
+        "answer": 2,
+        "explanation": "According to the glossary, desperation means hopelessness."
+      },
+      {
+        "question": "What kind of reply did Jeeves give?",
+        "options": [
+          "A neutral reply",
+          "A confusing reply",
+          "A positive reply",
+          "A negative reply"
+        ],
+        "answer": 3,
+        "explanation": "The poem states: 'The reply from him was negative'."
+      },
+      {
+        "question": "What does the line 'Not a thing was found Online' indicate?",
+        "options": [
+          "Grandma was hiding.",
+          "The internet was broken.",
+          "The search was completely unsuccessful.",
+          "The poet didn't search properly."
+        ],
+        "answer": 2,
+        "explanation": "It indicates complete failure; no trace of her was found on the internet."
+      },
+      {
+        "question": "Where does the poet request the readers to look for Grandma in the final stanza?",
+        "options": [
+          "Inside their 'Inbox'",
+          "In the 'Sent Items'",
+          "Inside the 'Recycle Bin'",
+          "In the 'Downloads' folder"
+        ],
+        "answer": 0,
+        "explanation": "The poet says: 'So, if inside your ‘Inbox’, My Grandma you should see'."
+      },
+      {
+        "question": "What three computer actions does the poet ask the reader to perform if they find Grandma?",
+        "options": [
+          "Save, Print, Delete",
+          "Cut, Paste, Forward",
+          "Copy, Scan, Paste",
+          "Click, Drag, Drop"
+        ],
+        "answer": 2,
+        "explanation": "The poem pleads: 'Please ‘Copy’, ‘Scan’ and ‘Paste’ her'."
+      },
+      {
+        "question": "How does the poet want Grandma to be returned?",
+        "options": [
+          "In a post mail",
+          "In a message",
+          "In a parcel",
+          "In an email"
+        ],
+        "answer": 3,
+        "explanation": "The poet asks the reader to send her 'In an email back to me.'"
+      },
+      {
+        "question": "Book back question: 'The computer swallowed grandma.' Who swallowed whom?",
+        "options": [
+          "Grandma swallowed the computer.",
+          "The computer swallowed Grandma.",
+          "The internet swallowed Grandma.",
+          "The virus swallowed the worm."
+        ],
+        "answer": 1,
+        "explanation": "The sentence clearly states that the computer is the one that swallowed Grandma."
+      },
+      {
+        "question": "Identify the rhyming word for 'squirm' from Stanza 2.",
+        "options": [
+          "view",
+          "true",
+          "kind",
+          "worm"
+        ],
+        "answer": 3,
+        "explanation": "In stanza 2, 'squirm' rhymes with 'worm'."
+      },
+      {
+        "question": "Identify the rhyming word for 'find' from Stanza 3.",
+        "options": [
+          "kind",
+          "online",
+          "refine",
+          "me"
+        ],
+        "answer": 0,
+        "explanation": "In stanza 3, 'kind' rhymes with 'find'."
+      },
+      {
+        "question": "Identify the rhyming pair in Stanza 4.",
+        "options": [
+          "squirm - worm",
+          "refine - online",
+          "true - view",
+          "see - me"
+        ],
+        "answer": 1,
+        "explanation": "In Stanza 4, 'refine' rhymes with 'online'."
+      },
+      {
+        "question": "What is the rhyming pair in Stanza 5?",
+        "options": [
+          "see - me",
+          "kind - find",
+          "refine - online",
+          "squirm - worm"
+        ],
+        "answer": 0,
+        "explanation": "In Stanza 5, 'see' rhymes with 'me'."
+      },
+      {
+        "question": "What figure of speech is used in the line 'The computer swallowed grandma'?",
+        "options": [
+          "Simile",
+          "Metaphor",
+          "Personification",
+          "Oxymoron"
+        ],
+        "answer": 2,
+        "explanation": "Personification is used because swallowing is a human/animal action given to an inanimate object (the computer)."
+      },
+      {
+        "question": "HOTS Question: Why does the poet use the words 'virus' and 'worm'?",
+        "options": [
+          "Because Grandma loved biology.",
+          "To describe actual insects on the computer.",
+          "Because the computer was kept in a garden.",
+          "To create a pun using computer malware terms as literal monsters."
+        ],
+        "answer": 3,
+        "explanation": "The poet humorously treats digital threats (computer viruses and worms) as physical creatures that attacked Grandma."
+      },
+      {
+        "question": "Assertion (A): The poet felt hopeless and asked Jeeves for help.\nReason (R): Jeeves was the poet's neighbor who knew a lot about computers.",
+        "options": [
+          "A is false, R is true",
+          "A is true, R is false",
+          "Both A and R are true",
+          "Both A and R are false"
+        ],
+        "answer": 1,
+        "explanation": "The poet did ask Jeeves in desperation (A is true), but Jeeves is a web search engine ('Ask Jeeves'), not a neighbor (R is false)."
+      },
+      {
+        "question": "Assertion (A): The poet searched the 'recycle bin'.\nReason (R): The recycle bin is where deleted files are stored in a computer.",
+        "options": [
+          "A is true, R is false",
+          "Both A and R are true, but R is not the correct explanation",
+          "Both A and R are true, and R is the correct explanation",
+          "A is false, R is true"
+        ],
+        "answer": 2,
+        "explanation": "The poet searched the recycle bin because they assumed Grandma might have been accidentally deleted and stored there like a file."
+      },
+      {
+        "question": "Life-situation Question: If a digital file suddenly disappears from your screen, which of the following is the logical first place to check?",
+        "options": [
+          "The Recycle Bin",
+          "The Inbox",
+          "The Internet",
+          "The Printer"
+        ],
+        "answer": 0,
+        "explanation": "Deleted or disappeared files usually go to the Recycle Bin (or Trash) first, which is why the poet checked there."
+      },
+      {
+        "question": "What is the underlying emotion of the poet in the poem?",
+        "options": [
+          "Anger at Grandma",
+          "Innocent concern and confusion",
+          "Joy and celebration",
+          "Boredom"
+        ],
+        "answer": 1,
+        "explanation": "The poet innocently believes the computer has physically taken Grandma and shows genuine concern in trying to get her back."
+      },
+      {
+        "question": "Match the following based on the poem:\n1. Recycle Bin\n2. Jeeves\n3. Inbox\n\nA. Email\nB. Deleted files\nC. Search engine",
+        "options": [
+          "1-A, 2-C, 3-B",
+          "1-B, 2-C, 3-A",
+          "1-C, 2-B, 3-A",
+          "1-B, 2-A, 3-C"
+        ],
+        "answer": 1,
+        "explanation": "Recycle Bin is for deleted files (B), Jeeves is a search engine (C), and Inbox is for emails (A)."
+      },
+      {
+        "question": "What word class (parts of speech) is 'completely' in 'It devoured her completely'?",
+        "options": [
+          "Noun",
+          "Adjective",
+          "Adverb",
+          "Verb"
+        ],
+        "answer": 2,
+        "explanation": "It modifies the verb 'devoured', so it is an adverb."
+      },
+      {
+        "question": "In the line 'Yes, honestly it's true!', what does 'honestly' emphasize?",
+        "options": [
+          "The poet's strong belief in the impossible event.",
+          "The poet is lying.",
+          "Grandma was an honest person.",
+          "The computer works honestly."
+        ],
+        "answer": 0,
+        "explanation": "The child emphasizes 'honestly' to show they firmly believe the computer literally swallowed her."
+      },
+      {
+        "question": "Which of the following keys is NOT mentioned in the poem?",
+        "options": [
+          "Shift",
+          "Enter",
+          "Control",
+          "None of the above (Both Control and Enter are mentioned)"
+        ],
+        "answer": 0,
+        "explanation": "Only 'Control' and 'Enter' are mentioned. 'Shift' is not."
+      },
+      {
+        "question": "Book back question: 'It devoured her completely.' Who does 'it' refer to?",
+        "options": [
+          "The worm",
+          "The internet",
+          "The computer",
+          "Jeeves"
+        ],
+        "answer": 2,
+        "explanation": "In context, 'it' refers back to the computer that swallowed her."
+      },
+      {
+        "question": "How many stanzas are there in the poem 'The Computer Swallowed Grandma'?",
+        "options": [
+          "Six",
+          "Three",
+          "Four",
+          "Five"
+        ],
+        "answer": 3,
+        "explanation": "The poem consists of five stanzas with four lines each."
+      },
+      {
+        "question": "Which punctuation marks does the poet use to highlight computer-related terms in the last stanza?",
+        "options": [
+          "Double quotes",
+          "Single quotes (' ')",
+          "Hyphens",
+          "Brackets"
+        ],
+        "answer": 1,
+        "explanation": "Terms like 'Inbox', 'Copy', 'Scan', and 'Paste' are enclosed in single quotes."
+      },
+      {
+        "question": "In the context of the poem, 'Online' refers to being connected to what?",
+        "options": [
+          "The electricity grid",
+          "The Internet",
+          "A printer",
+          "A phone line"
+        ],
+        "answer": 1,
+        "explanation": "'Online' universally means being connected to the Internet."
+      },
+      {
+        "question": "Which of these computer terms is NOT used as an action verb in the final stanza?",
+        "options": [
+          "Scan",
+          "Paste",
+          "Delete",
+          "Copy"
+        ],
+        "answer": 2,
+        "explanation": "The poet asks to 'Copy', 'Scan', and 'Paste'. 'Delete' is not mentioned there."
+      },
+      {
+        "question": "HOTS Question: The phrase 'The thought just makes me squirm' reveals that the poet is?",
+        "options": [
+          "Disturbed and anxious",
+          "Happy and relieved",
+          "Angry and revengeful",
+          "Sleepy and tired"
+        ],
+        "answer": 0,
+        "explanation": "Squirming indicates a feeling of unease, discomfort, and anxiety about Grandma's imagined fate."
+      },
+      {
+        "question": "If you 'Paste' something in a computer, what must you have done immediately before that?",
+        "options": [
+          "Printed it",
+          "Deleted it",
+          "Scanned it",
+          "Copied or Cut it"
+        ],
+        "answer": 3,
+        "explanation": "The 'Paste' command relies on data that has previously been 'Copied' or 'Cut' to the clipboard."
+      },
+      {
+        "question": "From the Warm-up section: If your grandmother is grabbing a lollipop from you, it shows she is...",
+        "options": [
+          "Angry and strict",
+          "Tired and weak",
+          "Playful and young at heart",
+          "Forgetful"
+        ],
+        "answer": 2,
+        "explanation": "Grabbing a lollipop like a child implies she has a very playful, active, and youthful nature."
+      },
+      {
+        "question": "HOTS Question: The poem revolves around a central theme. What is it?",
+        "options": [
+          "The dangers of real worms and viruses.",
+          "A humorous take on digital illiteracy or technological misunderstanding.",
+          "How to buy a new computer.",
+          "The history of search engines."
+        ],
+        "answer": 1,
+        "explanation": "The entire poem plays on misunderstanding computer jargon (swallow, virus, worm, recycle bin) as literal events."
+      },
+      {
+        "question": "Identify the true statement based on the poem.",
+        "options": [
+          "Jeeves found Grandma easily.",
+          "The poet searched both offline files and the online internet.",
+          "Grandma was eating an apple.",
+          "The poet hates Grandma."
+        ],
+        "answer": 1,
+        "explanation": "The poet searched 'files of every kind' (offline) and 'even used the Internet' (online)."
+      },
+      {
+        "question": "What is the rhyme scheme of the first stanza (grandma, true, Enter, view)?",
+        "options": [
+          "AABB",
+          "ABAB",
+          "ABCA",
+          "ABCB"
+        ],
+        "answer": 3,
+        "explanation": "Line 2 (true) rhymes with Line 4 (view), while Line 1 and 3 do not rhyme. This makes the scheme ABCB."
+      },
+      {
+        "question": "Match the meaning to the word:\n1. Turn\n2. Consumed\n3. Hopelessness\n\nA. Devoured\nB. Desperation\nC. Squirm",
+        "options": [
+          "1-A, 2-B, 3-C",
+          "1-C, 2-A, 3-B",
+          "1-B, 2-C, 3-A",
+          "1-C, 2-B, 3-A"
+        ],
+        "answer": 1,
+        "explanation": "Turn is Squirm (C), Consumed is Devoured (A), Hopelessness is Desperation (B)."
+      },
+      {
+        "question": "In the poem, what acts like a stomach that 'devours' and 'swallows'?",
+        "options": [
+          "Jeeves",
+          "The computer",
+          "The worm",
+          "The virus"
+        ],
+        "answer": 1,
+        "explanation": "The computer is personified as an entity that swallows and devours."
+      },
+      {
+        "question": "Why did the poet's searches need to be 'refined'?",
+        "options": [
+          "Because they were too loud.",
+          "Because Jeeves is a refinery.",
+          "Because initial searches yielded no results, requiring more specific search terms.",
+          "Because Grandma asked him to."
+        ],
+        "answer": 2,
+        "explanation": "When a search engine doesn't find what you need, you 'refine' the search by using better keywords."
+      },
+      {
+        "question": "Which line shows the poet's absolute certainty about the bizarre event?",
+        "options": [
+          "But nothing did I find.",
+          "The reply from him was negative.",
+          "Yes, honestly it's true!",
+          "In desperation, I asked Jeeves."
+        ],
+        "answer": 2,
+        "explanation": "The phrase 'honestly it's true!' shows the child's absolute, innocent certainty."
+      },
+      {
+        "question": "Life-situation Question: If an elderly person accidentally closes a video call (disappears from view), what is the most helpful reaction?",
+        "options": [
+          "Panic and think the device swallowed them.",
+          "Call them back on phone and patiently explain how to reconnect.",
+          "Delete all their files.",
+          "Throw the computer away."
+        ],
+        "answer": 1,
+        "explanation": "Patience and guidance are the best ways to help elderly people navigate digital technology."
+      },
+      {
+        "question": "What does the poet mean by 'files of every kind'?",
+        "options": [
+          "Only image files.",
+          "Only text documents.",
+          "Paper files in a cabinet.",
+          "All digital documents, pictures, and folders on the computer."
+        ],
+        "answer": 3,
+        "explanation": "Since the poet is searching inside the computer system, it refers to all digital files."
+      },
+      {
+        "question": "Assertion (A): The poet expects someone might receive Grandma as an email attachment.\nReason (R): The poet asks readers to look for her in their 'Inbox'.",
+        "options": [
+          "A is false, R is true",
+          "A is true, R is false",
+          "Both A and R are false",
+          "Both A and R are true, and R is the correct explanation"
+        ],
+        "answer": 3,
+        "explanation": "The poet asks readers to check their Inbox (R), showing the expectation that she might have been emailed to someone like an attachment (A)."
+      },
+      {
+        "question": "If Grandma was indeed found in the Inbox, the poet wants her sent back. How?",
+        "options": [
+          "Via courier",
+          "In a text message",
+          "In an email",
+          "By printing a photo"
+        ],
+        "answer": 2,
+        "explanation": "The poet says: 'In an email back to me.'"
+      },
+      {
+        "question": "What is the primary literary device used in 'She must have caught a virus'?",
+        "options": [
+          "Oxymoron",
+          "Pun / Double meaning",
+          "Alliteration",
+          "Simile"
+        ],
+        "answer": 1,
+        "explanation": "It's a pun or double meaning; 'virus' refers both to a biological illness a person catches and a computer malware."
+      },
+      {
+        "question": "Which of the following is an example of an internet search engine mentioned in the text?",
+        "options": [
+          "Recycle Bin",
+          "Inbox",
+          "Jeeves",
+          "Control"
+        ],
+        "answer": 2,
+        "explanation": "Jeeves (from Ask Jeeves) was a popular internet search engine."
+      },
+      {
+        "question": "How did the search end with Jeeves?",
+        "options": [
+          "Grandma was found in another country.",
+          "A negative reply, nothing was found online.",
+          "Jeeves crashed.",
+          "Jeeves sent an email."
+        ],
+        "answer": 1,
+        "explanation": "The text states: 'The reply from him was negative, Not a thing was found ‘Online.’'"
+      },
+      {
+        "question": "What word can replace 'plea' in the phrase 'What is the author's plea?'",
+        "options": [
+          "Command",
+          "Threat",
+          "Request/Appeal",
+          "Joke"
+        ],
+        "answer": 2,
+        "explanation": "A plea is an earnest request or appeal, matching the poet's final stanza."
+      },
+      {
+        "question": "What is the ultimate message or takeaway from this poem?",
+        "options": [
+          "Computers are dangerous and shouldn't be used.",
+          "Viruses literally eat humans.",
+          "Children often interpret unfamiliar technology in imaginative, literal, and humorous ways.",
+          "Grandmas should not press Enter."
+        ],
+        "answer": 2,
+        "explanation": "The poem highlights the funny, literal interpretation of complex digital jargon through a child's imagination."
+      }
+    ]
+  }
+}

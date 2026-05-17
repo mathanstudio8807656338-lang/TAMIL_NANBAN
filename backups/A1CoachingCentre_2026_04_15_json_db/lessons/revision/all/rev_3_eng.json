@@ -1,0 +1,199 @@
+{
+  "code": "rev_3_eng",
+  "quiz": {
+    "questions": [
+      {
+        "question": "Mithali Raj is the captain of the Indian Women's ________ team.",
+        "options": ["Tennis", "Cricket", "Hockey", "Football"],
+        "answer": 1,
+        "explanation": "Mithali Dorai Raj is a famous Indian cricketer."
+      },
+      {
+        "question": "Which award did Mithali Raj receive in 2015?",
+        "options": ["Padma Shri", "Arjuna Award", "Khel Ratna", "Padma Bhushan"],
+        "answer": 0,
+        "explanation": "She was honored with the Padma Shri for her excellence in sports."
+      },
+      {
+        "question": "Who is called the 'Golden Girl' or 'Queen of Indian Track'?",
+        "options": ["Mithali Raj", "P.T. Usha", "M.C. Mary Kom", "Saina Nehwal"],
+        "answer": 1,
+        "explanation": "P.T. Usha is a legendary Indian sprinter."
+      },
+      {
+        "question": "Saina Nehwal is associated with which sport?",
+        "options": ["Tennis", "Badminton", "Table Tennis", "Chess"],
+        "answer": 1,
+        "explanation": "Saina Nehwal is a former world number one in badminton."
+      },
+      {
+        "question": "What medal did Saina Nehwal win in the 2012 London Olympics?",
+        "options": ["Gold", "Silver", "Bronze", "None"],
+        "answer": 2,
+        "explanation": "She won a historical Bronze medal in Badminton."
+      },
+      {
+        "question": "Mithali Raj was the first Indian woman to score ________ in international cricket.",
+        "options": ["1000 runs", "5000 runs", "10,000 runs", "20,000 runs"],
+        "answer": 2,
+        "explanation": "She is one of the highest run-scorers in women's cricket history."
+      },
+      {
+        "question": "Choose the correct collective noun: A ________ of grapes.",
+        "options": ["Bunch", "Pack", "Flock", "Herd"],
+        "answer": 0,
+        "explanation": "We say a 'bunch' of grapes."
+      },
+      {
+        "question": "What is the collective noun for a group of soldiers?",
+        "options": ["Team", "Army", "Band", "Crowd"],
+        "answer": 1,
+        "explanation": "An 'army' of soldiers."
+      },
+      {
+        "question": "Identify the proper noun: 'Sachin Tendulkar is a great player.'",
+        "options": ["Player", "Great", "Sachin Tendulkar", "Is"],
+        "answer": 2,
+        "explanation": "Sachin Tendulkar is the specific name of a person."
+      },
+      {
+        "question": "Which of these is a female gender noun?",
+        "options": ["Lion", "King", "Mistress", "Actor"],
+        "answer": 2,
+        "explanation": "Mistress is the feminine form of Master."
+      },
+      {
+        "question": "The poem 'Teamwork' is written by ________.",
+        "options": ["Edgar A. Guest", "Robert Frost", "William Wordsworth", "Shakespeare"],
+        "answer": 0,
+        "explanation": "Edgar Albert Guest wrote this inspiring poem about cooperation."
+      },
+      {
+        "question": "According to the poem 'Teamwork', what makes the dream work?",
+        "options": ["Hard work", "Money", "Teamwork", "Luck"],
+        "answer": 2,
+        "explanation": "Working together as a team helps achieve goals."
+      },
+      {
+        "question": "The sport played with a shuttlecock is ________.",
+        "options": ["Cricket", "Soccer", "Badminton", "Golf"],
+        "answer": 2,
+        "explanation": "Badminton uses a racket and a shuttlecock."
+      },
+      {
+        "question": "Who was the first Indian woman to win a Silver medal in the Olympics?",
+        "options": ["Saina Nehwal", "P.V. Sindhu", "Mary Kom", "Karnam Malleswari"],
+        "answer": 1,
+        "explanation": "P.V. Sindhu won Silver at the 2016 Rio Olympics."
+      },
+      {
+        "question": "Identify the common noun: 'Chennai is a big city.'",
+        "options": ["Chennai", "Big", "City", "Is"],
+        "answer": 2,
+        "explanation": "'City' is a general name for a place."
+      },
+      {
+        "question": "Choose the correct article: 'She is ________ IAS officer.'",
+        "options": ["a", "an", "the", "no article"],
+        "answer": 1,
+        "explanation": "'IAS' starts with a vowel sound (eye-ay-ess)."
+      },
+      {
+        "question": "Which of these is an abstract noun?",
+        "options": ["Chair", "Honesty", "Table", "Dog"],
+        "answer": 1,
+        "explanation": "Honesty is a quality that cannot be seen or touched."
+      },
+      {
+        "question": "What is the synonym of 'Courage'?",
+        "options": ["Fear", "Bravery", "Shyness", "Weakness"],
+        "answer": 1,
+        "explanation": "Both mean the ability to face danger or pain."
+      },
+      {
+        "question": "Mithali Raj is from which Indian state?",
+        "options": ["Tamil Nadu", "Rajasthan", "Karnataka", "Kerala"],
+        "answer": 1,
+        "explanation": "She was born in Jodhpur, Rajasthan."
+      },
+      {
+        "question": "M.C. Mary Kom is a famous ________.",
+        "options": ["Boxer", "Wrestler", "Cricketer", "Javelin thrower"],
+        "answer": 0,
+        "explanation": "She is a five-time World Amateur Boxing champion."
+      },
+      {
+        "question": "Collective noun for sheep is ________.",
+        "options": ["Flock", "Herd", "Swarm", "Pride"],
+        "answer": 0,
+        "explanation": "A 'flock' of sheep."
+      },
+      {
+        "question": "What is the opposite of 'Victory'?",
+        "options": ["Success", "Win", "Defeat", "Triumph"],
+        "answer": 2,
+        "explanation": "Defeat means losing."
+      },
+      {
+        "question": "Identify the verb in the sentence: 'The team played well.'",
+        "options": ["The", "Team", "Played", "Well"],
+        "answer": 2,
+        "explanation": "'Played' shows the action."
+      },
+      {
+        "question": "A ________ of singers. (Collective Noun)",
+        "options": ["Band", "Choir", "Group", "Collection"],
+        "answer": 1,
+        "explanation": "A 'choir' of singers."
+      },
+      {
+        "question": "What does the line 'sharing the joy' in the Teamwork poem mean?",
+        "options": ["Eating together", "Celebrating victory together", "Crying together", "Playing alone"],
+        "answer": 1,
+        "explanation": "Success is more joyful when shared with teammates."
+      },
+      {
+        "question": "Which prefix can be added to the word 'Happy' to mean not happy?",
+        "options": ["In-", "Un-", "Mis-", "Dis-"],
+        "answer": 1,
+        "explanation": "Unhappy."
+      },
+      {
+        "question": "The plural form of 'Mouse' is ________.",
+        "options": ["Mouses", "Mice", "Mices", "Mousses"],
+        "answer": 1,
+        "explanation": "Irregular plural: Mouse -> Mice."
+      },
+      {
+        "question": "Which of these is used for batting in cricket?",
+        "options": ["Racket", "Club", "Stick", "Bat"],
+        "answer": 3,
+        "explanation": "Cricketers use bats to hit the ball."
+      },
+      {
+        "question": "P.V. Sindhu represents ________ at international levels.",
+        "options": ["India", "USA", "UK", "China"],
+        "answer": 0,
+        "explanation": "She is a pride of India."
+      },
+      {
+        "question": "Saina Nehwal has been ranked world number ________ in 2015.",
+        "options": ["1", "5", "10", "100"],
+        "answer": 0,
+        "explanation": "She reached the top ranking in the world."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "title": "Revision Notes: Exam 3 - English",
+      "content": [
+        "**1. Sports Stars:** Recognition of Indian women achievers. Mithali Raj (Cricket), Saina Nehwal (Badminton), P.V. Sindhu (Badminton), Mary Kom (Boxing).",
+        "**2. Mithali Raj:** Former captain, highest run-scorer in women's cricket. Winner of Padma Shri.",
+        "**3. Teamwork:** Edgar Guest's poem highlighting that group effort leads to victory. Individual brilliance is good, but teamwork wins games.",
+        "**4. Nouns:** Understanding Gender (He/She), Collective (Flock, Army, Choir), and Proper nouns.",
+        "**5. Vocabulary:** Synonyms (Brave/Courageous), Antonyms (Victory/Defeat), and Irregular Plurals (Mice, Children)."
+      ]
+    }
+  ]
+}
