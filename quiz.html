@@ -1,0 +1,1484 @@
+<!DOCTYPE html>
+<html lang="ta">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400;500;600;700;800&family=Noto+Sans+Tamil:wght@400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <title>Quiz - A1 Coaching</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- MathJax for scientific/mathematical formulas -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            }
+        };
+        <!-- FIREBASE INTEGRATION - ADD AFTER LINE 20 -->
+        <script type="module">
+    // Import Firebase
+            import {db} from './js/firebase-init.js';
+            import {doc, setDoc, updateDoc} from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js';
+
+            // Get URL parameters
+            const urlParams = new URLSearchParams(window.location.search);
+            const phoneNumber = urlParams.get('phone');
+            const examDate = urlParams.get('date');
+            const category = urlParams.get('category');
+
+            // Store for global access
+            window.firebaseQuizData = {
+                db,
+                doc,
+                setDoc,
+                updateDoc,
+                phoneNumber,
+                examDate,
+                category
+            };
+    </script>
+    .brand-container {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+    .brand-main {
+    font-family: 'Baloo Thambi 2', cursive;
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: #1e3a8a;
+    line-height: 1.2;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+    }
+    .brand-sub {
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #ef4444;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-top: -2px;
+    }
+    @media (max-width: 480px) {
+    .brand-main { font-size: 1.5rem; }
+    .brand-sub { font-size: 0.65rem; }
+    .header-standard { height: 60px; }
+    }
+
+    /* Bottom Nav */
+    .bottom-nav {
+    position: fixed;
+    bottom: 0; left: 0; right: 0;
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.6rem 0.4rem;
+    box-shadow: 0 -4px 20px rgba(0,0,0,0.08);
+    z-index: 1000;
+    border-top: 1px solid #f1f5f9;
+    }
+    .nav-item {
+    text-decoration: none;
+    color: #64748b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.65rem;
+    font-weight: 700;
+    gap: 4px;
+    flex: 1;
+    transition: color 0.3s ease;
+    }
+    .nav-item.active { color: #1e3a8a; }
+    .nav-item.logout { color: #ef4444; }
+    .nav-icon { font-size: 1.2rem; margin-bottom: 2px; }
+
+    /* Global fixes */
+    body {
+    padding-bottom: 80px;
+    }
+
+    body {
+    background: #f8fafc;
+    font-family: 'Inter', sans-serif;
+    color: #1e293b;
+    margin: 0;
+    padding: 0;
+    }
+
+    .quiz-view-container {
+    max-width: 800px;
+    margin: 0 auto 8rem;
+    padding: 2rem 1.5rem;
+    }
+
+    /* Lang classes */
+    .lang-sep { display: inline; opacity: 0.3; margin: 0 0.5rem; }
+    body.lang-en .tm-text, body.lang-en .lang-sep { display: none !important; }
+    body.lang-tm .en-text, body.lang-tm .lang-sep { display: none !important; }
+
+    .tm-text { font-weight: normal; }
+    .en-text { font-weight: bold; }
+
+    /* Sticky Lang Bar */
+    .lang-bar {
+    position: fixed;
+    bottom: 1.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1100;
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
+    padding: 0.4rem;
+    border-radius: 3rem;
+    display: flex;
+    gap: 0.3rem;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+    border: 1px solid rgba(255,255,255,0.8);
+    }
+
+    .lang-btn {
+    padding: 0.7rem 1.4rem;
+    border-radius: 2rem;
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 0.95rem;
+    background: transparent;
+    color: #64748b;
+    }
+
+    .lang-btn.active {
+    background: #1a73e8;
+    color: white;
+    box-shadow: 0 8px 15px rgba(26, 115, 232, 0.25);
+    }
+
+    .quiz-header {
+    text-align: center;
+    margin-bottom: 3.5rem;
+    background: #ffffff;
+    padding: 3rem 1.5rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.02), 0 10px 15px -3px rgba(0,0,0,0.03);
+    border: 1px solid #e2e8f0;
+    }
+
+    .quiz-header h1 {
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: #d32f2f; /* Clear Professional Red for Title */
+    margin-bottom: 1rem;
+    }
+
+    /* Professional Question Cards */
+    .question-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    }
+
+    .question-card {
+    background: #ffffff;
+    padding: 2.5rem;
+    border-radius: 1.25rem;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.03);
+    border: 1px solid #f1f5f9;
+    border-left: 8px solid #d32f2f; /* Red Accent instead of Blue to match title */
+    transition: all 0.3s ease;
+    }
+
+    .question-text {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #1a73e8; /* Vibrant Clear Blue for Question */
+    line-height: 1.5;
+    margin-bottom: 2rem;
+    }
+
+    .options-grid {
+    display: grid;
+    gap: 1.25rem;
+    }
+
+    .option-item {
+    padding: 1.1rem 1.5rem;
+    border: 1.5px solid #f1f5f9;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: all 0.3s;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    font-weight: 600;
+    color: #475569;
+    font-size: 1.05rem;
+    }
+
+    .option-item:hover {
+    border-color: #1a73e8;
+    background: #f8fbff;
+    }
+
+    .option-item.selected {
+    border-color: #1a73e8;
+    background: #f0f7ff;
+    box-shadow: 0 8px 16px rgba(26, 115, 232, 0.1);
+    }
+
+    .option-item.correct {
+    border-color: #10b981;
+    background: #ecfdf5;
+    color: #065f46;
+    }
+
+    .option-item.wrong {
+    border-color: #ef4444;
+    background: #fef2f2;
+    color: #991b1b;
+    }
+
+    .explanation-box {
+    margin-top: 2rem;
+    padding: 1.25rem;
+    background: #f8fafc;
+    border-radius: 0.75rem;
+    font-size: 1rem;
+    color: #334155;
+    line-height: 1.7;
+    display: none;
+    border: 1px solid #e2e8f0;
+    animation: slideUp 0.4s ease-out;
+    }
+
+    @keyframes slideUp {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Submit Section at bottom */
+    .submit-section {
+    padding: 4rem 1.5rem;
+    text-align: center;
+    }
+
+    .btn-submit {
+    background: #1e293b;
+    color: white;
+    padding: 1.25rem 4rem;
+    border-radius: 3rem;
+    font-size: 1.3rem;
+    font-weight: 800;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+    transition: all 0.3s;
+    }
+
+    .btn-submit:hover {
+    transform: scale(1.05);
+    background: #0f172a;
+    }
+
+    /* Language Toggle - Inline version */
+    .inline-lang-container {
+    display: none; /* Hidden by default, shown via JS for English only */
+    justify-content: center;
+    gap: 0.4rem;
+    margin: 1rem auto 0;
+    background: #f1f5f9;
+    padding: 0.3rem;
+    border-radius: 100px;
+    width: fit-content;
+    border: 1px solid #e2e8f0;
+    }
+
+    .lang-btn {
+    padding: 0.4rem 1rem;
+    border-radius: 100px;
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-size: 0.8rem;
+    background: transparent;
+    color: #64748b;
+    }
+
+    .lang-btn.active {
+    background: #1a73e8;
+    color: white;
+    box-shadow: 0 4px 10px rgba(26, 115, 232, 0.2);
+    }
+
+    /* Sticky Footer for Result */
+    .submit-section {
+    margin-top: 4rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    }
+
+    .btn-submit {
+    background: linear-gradient(135deg, #1a73e8, #0d47a1);
+    color: white;
+    padding: 1.1rem 3.5rem;
+    border-radius: 3rem;
+    font-size: 1.25rem;
+    font-weight: 800;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 10px 30px rgba(26, 115, 232, 0.3);
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+
+    .btn-submit:hover {
+    transform: scale(1.05);
+    background: linear-gradient(135deg, #1557b0, #0a3375);
+    box-shadow: 0 15px 35px rgba(26, 115, 232, 0.4);
+    }
+
+    #resultView {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2000;
+    background: white;
+    padding: 3rem;
+    border-radius: 2rem;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 50px 100px rgba(0,0,0,0.25);
+    text-align: center;
+    animation: popUp 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+
+    @keyframes popUp {
+    from { transform: translate(-50%, -40%) scale(0.8); opacity: 0; }
+    to { transform: translate(-50%, -50%) scale(1); opacity: 1; }
+    }
+
+    .overlay {
+    display: none;
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(15, 23, 42, 0.6);
+    backdrop-filter: blur(5px);
+    z-index: 1999;
+    }
+
+    .score-display {
+    font-size: 4rem;
+    font-weight: 900;
+    color: #1a73e8;
+    margin: 1.5rem 0;
+    }
+
+    .sticky-back {
+    position: fixed;
+    bottom: 1.5rem;
+    left: 1.2rem;
+    z-index: 1200;
+    }
+
+    .sticky-btn {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    color: #1e293b !important;
+    border-radius: 50%;
+    text-decoration: none;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+    border: 1px solid #e2e8f0;
+    transition: all 0.3s ease;
+    }
+
+    .sticky-btn:hover {
+    transform: scale(1.1);
+    border-color: #1a73e8;
+    color: #1a73e8 !important;
+    }
+
+    @media (max-width: 600px) {
+    .quiz-view-container { padding: 0.5rem; }
+    .question-list { gap: 0.75rem; }
+    .question-card { padding: 1rem; border-left-width: 4px; box-shadow: 0 2px 10px rgba(0,0,0,0.02); }
+    .question-text { font-size: 0.95rem; margin-bottom: 0.75rem; line-height: 1.4; }
+    .options-grid { gap: 0.4rem; }
+    .option-item { padding: 0.6rem 0.8rem; font-size: 0.85rem; border-radius: 0.6rem; }
+    .explanation-box { padding: 0.6rem; font-size: 0.8rem; }
+    .quiz-header { padding: 1rem 0.75rem; margin-bottom: 1rem; }
+    .quiz-header h1 { font-size: 1.25rem; }
+    .quiz-header p { font-size: 0.8rem; }
+    }
+
+    .keyword-highlight {
+    color: #db2777;
+    font-weight: 800;
+    display: inline;
+    }
+
+    /* --- PREMIUM UI STYLES (Only for Revision, Model, Psy, 9th, 10th) --- */
+    body.premium-ui .question-card {
+    border-left: 6px solid #2563eb;
+    border-radius: 1rem;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    background: #f8fafc; /* Card Background Box */
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    }
+    body.premium-ui .question-text {
+    color: #2563eb; /* Blue Question Text */
+    font-size: 1.3rem;
+    font-weight: 700;
+    }
+    body.premium-ui .option-item {
+    background: #ffffff; /* Option Box Color */
+    color: #334155; /* Text Color */
+    border: 2px solid #e2e8f0;
+    border-radius: 0.8rem;
+    padding: 1rem;
+    transition: all 0.3s;
+    }
+    body.premium-ui .option-item:hover {
+    border-color: #2563eb;
+    background: #eff6ff;
+    }
+    body.premium-ui .option-item.selected {
+    border-color: #1d4ed8;
+    background: #dbeafe;
+    }
+    body.premium-ui .option-item.correct {
+    border-color: #166534;
+    background: #dcfce7;
+    color: #166534; /* Dark Green Answer */
+    font-weight: bold;
+    }
+    body.premium-ui .option-item.wrong {
+    border-color: #ef4444;
+    background: #fee2e2;
+    color: #991b1b;
+    }
+    body.premium-ui .explanation-box {
+    background: #fdf2f8; /* Soft Pink Background */
+    color: #be185d; /* Pink Text Color */
+    border-left: 4px solid #db2777;
+    padding: 1rem;
+    margin-top: 1.5rem;
+    border-radius: 0.5rem;
+    }
+    body.premium-ui .quiz-header h1 {
+    background: linear-gradient(135deg, #1d4ed8, #2563eb);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+    body.premium-ui .btn-submit {
+    background: #1d4ed8;
+    box-shadow: 0 10px 30px rgba(29, 78, 216, 0.3);
+    }
+    body.premium-ui .btn-submit:hover {
+    background: #1e40af;
+    box-shadow: 0 15px 35px rgba(29, 78, 216, 0.4);
+    }
+    /* --- END PREMIUM UI STYLES --- */
+
+    /* TTS Button Styles */
+    .tts-btn {
+    background: #eff6ff;
+    border: 1px solid #bfdbfe;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-size: 1.2rem;
+    color: #2563eb;
+    flex-shrink: 0;
+    margin-left: 10px;
+    }
+    .tts-btn:hover {
+    background: #dbeafe;
+    transform: scale(1.1);
+    }
+
+    /* Read All Button */
+    .btn-read-all {
+    background: #ffffff;
+    color: #1a73e8;
+    border: 2px solid #1a73e8;
+    padding: 0.8rem 1.5rem;
+    border-radius: 50px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 1.5rem auto 0;
+    font-size: 1rem;
+    box-shadow: 0 4px 12px rgba(26, 115, 232, 0.1);
+    width: fit-content;
+    }
+    .btn-read-all:hover {
+    background: #1a73e8;
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(26, 115, 232, 0.2);
+    }
+    .btn-read-all.reading {
+    background: #ef4444;
+    border-color: #ef4444;
+    color: white;
+    animation: pulse-red 2s infinite;
+    }
+    @keyframes pulse-red {
+    0% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.4); }
+    70% { box-shadow: 0 0 0 10px rgba(239, 68, 68, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0); }
+    }
+    .question-card.reading-highlight {
+    border-left-color: #10b981 !important;
+    background: #f0fdf4 !important;
+    transform: scale(1.02);
+    box-shadow: 0 10px 25px rgba(16, 185, 129, 0.1);
+    }
+
+    /* Audio Player Styles */
+
+    .audio-player-container {
+    display: none;
+    background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+    border-radius: 20px;
+    padding: 1.2rem;
+    margin: 0 auto 2.5rem;
+    max-width: 600px;
+    box-shadow: 0 15px 35px rgba(30, 58, 138, 0.25);
+    color: white;
+    animation: slideDown 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+    @keyframes slideDown {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+    }
+    .audio-controls {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    }
+    .play-btn {
+    background: white;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform 0.2s;
+    flex-shrink: 0;
+    color: #1e3a8a;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .play-btn:hover { transform: scale(1.1); }
+    .play-btn svg { width: 24px; height: 24px; }
+    .audio-info { flex: 1; }
+    .audio-title { font-weight: 800; font-size: 0.95rem; margin-bottom: 0.4rem; letter-spacing: 0.5px; }
+    .progress-bar-container {
+    height: 6px;
+    background: rgba(255,255,255,0.2);
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    }
+    .progress-bar {
+    height: 100%;
+    background: white;
+    border-radius: 10px;
+    width: 0%;
+    transition: width 0.1s linear;
+    }
+    .time-labels {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.7rem;
+    margin-top: 0.4rem;
+    font-weight: 600;
+    opacity: 0.8;
+    }
+
+    /* Watermark Styles */
+    .watermark {
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-35deg);
+    font-size: 40pt;
+    font-weight: 900;
+    color: rgba(0, 0, 0, 0.04);
+    white-space: nowrap;
+    user-select: none;
+    pointer-events: none;
+    z-index: -100;
+    display: none;
+    }
+    .watermark-lower { top: 70%; }
+    body.psychology-view .watermark {
+    display: block;
+    z-index: 1000 !important;
+    opacity: 0.1 !important;
+    }
+    </style>
+</head>
+
+<body class="lang-en">
+    <div class="watermark">TAMIL NANBAN</div>
+    <div class="watermark watermark-lower">TAMIL NANBAN</div>
+
+    <header class="header-standard">
+        <a href="index.html" class="brand-container">
+            <div class="brand-main">தமிழ் நண்பன்</div>
+            <div class="brand-sub">COACHING CENTER</div>
+        </a>
+    </header>
+
+    <main class="quiz-view-container">
+
+        <div id="quizHeader" class="quiz-header">
+            <h1 id="lessonTitle">ஆன்லைன் தேர்வு</h1>
+            <p id="lessonSub" style="color: #64748b; font-weight: 600;">அனைத்து கேள்விகளுக்கும் விடையளிக்கவும்</p>
+
+            <!-- Dynamic Audio Player -->
+            <div id="audioPlayer" class="audio-player-container">
+                <div class="audio-controls">
+                    <button id="playPauseBtn" class="play-btn">
+                        <svg id="playIcon" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M8 5v14l11-7z" />
+                        </svg>
+                        <svg id="pauseIcon" viewBox="0 0 24 24" fill="currentColor" style="display:none;">
+                            <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z" />
+                        </svg>
+                    </button>
+                    <div class="audio-info">
+                        <div class="audio-title">🎧 கேள்விகளைக் கேட்க (Click to Listen)</div>
+                        <div id="progressBarContainer" class="progress-bar-container">
+                            <div id="progressBar" class="progress-bar"></div>
+                        </div>
+                        <div class="time-labels">
+                            <span id="currentTime">0:00</span>
+                            <span id="totalDuration">0:00</span>
+                        </div>
+                    </div>
+                </div>
+                <audio id="mainAudio" style="display:none;"></audio>
+            </div>
+
+            <div id="ttsReadAllContainer">
+                <button id="readAllBtn" onclick="toggleReadAll()" class="btn-read-all">
+                    <span id="readAllIcon">🔊</span> <span id="readAllText">அனைத்து கேள்விகளையும் கேட்க (Listen to
+                        All)</span>
+                </button>
+            </div>
+
+            <div id="inlineLangToggle" class="inline-lang-container">
+                <button onclick="toggleLang('en', this)" class="lang-btn">English</button>
+                <button onclick="toggleLang('both', this)" class="lang-btn active">Both</button>
+                <button onclick="toggleLang('tm', this)" class="lang-btn">தமிழ்</button>
+            </div>
+        </div>
+
+        <div id="quizLoader" style="text-align: center; color: #64748b; font-weight: 600; padding: 4rem;">
+            Loading...
+        </div>
+
+        <div id="quizApp" style="display: none;">
+            <div id="quizProgress"
+                style="padding: 0.5rem 1rem; border-radius: 20px; background: #f1f5f9; color: #475569; font-weight: 700; font-size: 0.8rem; width: fit-content; margin: 0 auto 1.5rem;">
+                மொத்த கேள்விகள் (Total Questions): <span id="totalQNum">0</span>
+            </div>
+
+            <div id="questionContainer" class="question-list">
+                <!-- All colorful cards injected here -->
+            </div>
+
+            <div class="submit-section">
+                <button id="finalSubmitBtn" class="btn btn-submit"
+                    style="width: 100%; max-width: 400px;">சமர்ப்பிக்கவும் (SUBMIT TEST)</button>
+            </div>
+        </div>
+
+        <div class="overlay" id="overlay"></div>
+        <div id="resultView">
+            <h2 style="color: #1e293b;">தேர்வு முடிந்தது!</h2>
+            <div id="resultLessonName"
+                style="font-weight: 800; color: #1a73e8; margin-top: 1rem; font-size: 1.1rem; opacity: 0.9;"></div>
+            <div class="score-display" id="finalScore" style="margin: 0.5rem 0 1.5rem 0;">0/0</div>
+            <p id="resultMsg" style="color: #64748b; font-weight: 600; margin-bottom: 2rem;"></p>
+            <div style="display: flex; flex-direction: column; gap: 0.8rem;">
+                <button onclick="closeResults()" class="btn btn-primary" style="width:100%; padding: 1rem;">விடைகளைச்
+                    சரிபார் (Review Answers)</button>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem;">
+                    <button onclick="window.location.reload()" class="btn btn-outline"
+                        style="font-size: 0.9rem; padding: 0.8rem;">மீண்டும் முயற்சி</button>
+                    <a id="backHome" href="index.html" class="btn btn-outline"
+                        style="font-size: 0.9rem; text-decoration: none; padding: 0.8rem;">முகப்புப் பக்கம்</a>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+
+    <div class="sticky-back">
+        <a id="exitQuizSticky" href="#" class="sticky-btn">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"
+                stroke-linecap="round" stroke-linejoin="round">
+                <line x1="19" y1="12" x2="5" y2="12"></line>
+                <polyline points="12 19 5 12 12 5"></polyline>
+            </svg>
+        </a>
+    </div>
+
+    <nav class="bottom-nav">
+        <a href="index.html" class="nav-item">
+            <span class="nav-icon">🏠</span>
+            <span>Home</span>
+        </a>
+        <a href="subject.html" class="nav-item">
+            <span class="nav-icon">📚</span>
+            <span>Course</span>
+        </a>
+        <a href="#" class="nav-item">
+            <span class="nav-icon">💳</span>
+            <span>Pay</span>
+        </a>
+        <a href="#" onclick="window.logout(); return false;" class="nav-item logout">
+            <span class="nav-icon">🚪</span>
+            <span>Logout</span>
+        </a>
+    </nav>
+
+    <script type="module">
+        (async () => {
+            const {APP_VERSION} = await import(`./js/version.js?v=${Date.now()}`);
+            const v = APP_VERSION;
+            const {checkAuth, waitForAuth} = await import(`./js/auth.js?v=${v}`);
+            const {getLocalLessonData} = await import(`./js/fetchData.js?v=${v}`);
+
+            checkAuth();
+
+            const params = new URLSearchParams(window.location.search);
+            const subject = params.get('subject');
+            const className = params.get('class');
+            const lessonId = params.get('lesson');
+// ========== FREE EXAM SUPPORT ==========
+        const isFreeExam = params.get('mode') === 'free';
+        const examFile = params.get('examFile');
+
+        if (isFreeExam && examFile) {
+            console.log('🎯 Free Exam Mode!');
+            
+            (async () => {
+                try {
+                    // Dynamically load free-exam-loader.js
+                    if (!window.FreeExamLoader) {
+                        const script = document.createElement('script');
+                        script.src = 'free-exam-loader.js';
+                        document.head.appendChild(script);
+                        await new Promise(r => script.onload = r);
+                    }
+                    
+                    // Load exam
+                    const loader = new window.FreeExamLoader();
+                    const examData = await loader.loadExam(examFile);
+                    
+                    if (!examData) throw new Error('Exam not found');
+                    
+                    // Get questions
+                    questions = loader.getAllQuestions(examData);
+                    
+                    console.log(`✅ ${questions.length} questions loaded`);
+                    
+                    // Update UI
+                    document.getElementById('lessonTitle').innerHTML = examData.title;
+                    document.getElementById('resultLessonName').innerHTML = examData.title;
+                    document.getElementById('totalQNum').innerText = questions.length;
+                    document.getElementById('quizLoader').style.display = 'none';
+                    
+                    // Render questions
+                    const container = document.getElementById('quizViewContainer');
+                    container.innerHTML = '';
+                    
+                    questions.forEach((q, idx) => {
+                        const qCard = document.createElement('div');
+                        qCard.className = 'question-card';
+                        qCard.innerHTML = `
+                            <div class="q">
+                                <span class="qnum">${idx + 1}.</span>
+                                ${q.question}
+                            </div>
+                            <div class="options-grid" id="options-${idx}">
+                                ${Object.values(q.options).map((opt, oIdx) => `
+                                    <div class="option-item" onclick="handleSelect(${idx}, ${oIdx}, this)">
+                                        ${opt}
+                                    </div>
+                                `).join('')}
+                            </div>
+                            ${q.explanation ? `
+                                <div class="explanation-box" id="exp-${idx}" style="display:none;">
+                                    <strong>விளக்கம்:</strong> ${q.explanation}
+                                </div>
+                            ` : ''}
+                        `;
+                        container.appendChild(qCard);
+                    });
+                    
+                    window.quizStartTime = Date.now();
+                    
+                } catch (err) {
+                    console.error('Error:', err);
+                    document.getElementById('quizLoader').innerHTML = 
+                        `<div style="color:red;padding:20px;">தேர்வு load செய்ய முடியவில்லை! ${err.message}</div>`;
+                }
+            })();
+            
+            return; // Skip normal quiz loading
+        }
+        // ========== END FREE EXAM SUPPORT ==========
+
+
+            if (subject && subject.includes('psy')) {
+                document.body.classList.add('psychology-view');
+        }
+
+            const exitUrl = `subject.html?id=${subject}&class=${className}`;
+            document.getElementById('exitQuizSticky').href = exitUrl;
+            document.getElementById('backHome').href = exitUrl;
+
+            let currentIdx = 0;
+            let questions = [];
+            let answers = { };
+            let resultsRevealed = false;
+
+        // Helper to normalize strings for comparison
+        const normalize = (s) => (s || "").toString().trim();
+
+            // Robust helper to get correct answer index across different question styles
+            function getCorrectIdx(q) {
+            const raw = q.answer !== undefined ? q.answer : q.a;
+            if (raw === undefined) return -1;
+
+            // If it's already an index (index-based protocol)
+            if (typeof raw === 'number') return raw;
+
+            const normAns = normalize(raw);
+
+            // Try matching "Option A" style from English modules
+            if (normAns.startsWith("Option ")) {
+                const char = normAns.replace("Option ", "").trim().toUpperCase();
+            const charIndex = char.charCodeAt(0) - 65; // A=0, B=1...
+                if (charIndex >= 0 && charIndex < q.options.length) return charIndex;
+            }
+
+            // Try matching single letters "A", "B", "C", "D"
+            if (normAns.length === 1 && /^[A-D]$/i.test(normAns)) {
+                return normAns.toUpperCase().charCodeAt(0) - 65;
+            }
+
+            // Try exact text match (fallback for some protocols)
+            const exactIdx = q.options.findIndex(opt => normalize(opt) === normAns);
+            if (exactIdx !== -1) return exactIdx;
+
+            // Try partial match (if option starts with the answer string, or vice-versa)
+            const partialIdx = q.options.findIndex(opt => {
+                const nOpt = normalize(opt);
+            return nOpt.startsWith(normAns) || normAns.startsWith(nOpt);
+            });
+            if (partialIdx !== -1) return partialIdx;
+
+            return -1;
+        }
+
+        window.closeResults = () => {
+            if (window.history.state && window.history.state.results) {
+                window.history.back();
+            } else {
+                document.getElementById('overlay').style.display = 'none';
+            document.getElementById('resultView').style.display = 'none';
+            }
+        };
+
+        window.addEventListener('popstate', (e) => {
+            if (!e.state || !e.state.results) {
+                document.getElementById('overlay').style.display = 'none';
+            document.getElementById('resultView').style.display = 'none';
+            }
+        });
+
+        window.toggleLang = (lang, btn) => {
+                currentLanguage = lang;
+            localStorage.setItem('appLanguage', lang);
+            updateLangUI();
+        };
+
+            function updateLangUI() {
+                document.body.classList.remove('lang-en', 'lang-tm');
+            if (currentLanguage !== 'both') {
+                document.body.classList.add('lang-' + currentLanguage);
+            }
+            
+            document.querySelectorAll('.lang-btn').forEach(b => {
+                b.classList.remove('active');
+            if (b.innerText.toLowerCase().includes(currentLanguage.substring(0, 2))) {
+                b.classList.add('active');
+                } else if (currentLanguage === 'both' && b.innerText.toLowerCase() === 'both') {
+                b.classList.add('active');
+                }
+            });
+        }
+
+        const checkEnglishSubject = () => {
+            const toggle = document.getElementById('inlineLangToggle');
+            if (subject && subject.toLowerCase().includes('english')) {
+                toggle.style.display = 'flex';
+            } else {
+                toggle.style.display = 'none';
+            currentLanguage = 'both';
+            updateLangUI();
+            }
+        };
+
+            let currentLanguage = localStorage.getItem('appLanguage') || 'both';
+            updateLangUI();
+
+            function formatText(text) {
+            if (!text) return "";
+            let html = text.toString().replace(/\[\[(.*?)\]\]/g, '<span class="keyword-highlight">$1</span>');
+
+            // Support '||' separator (New Standard)
+            if (html.includes('||')) {
+                const parts = html.split('||');
+            return `<span class="en-text">${parts[0].trim()}</span><span class="lang-sep">||</span><span class="tm-text">${parts[1].trim()}</span>`;
+            }
+
+            // Support ' / ' or Parentheses (Old Fallback)
+            if (html.includes(" / ")) {
+                const parts = html.split(" / ");
+            return `<span class="en-text">${parts[0].trim()}</span><span class="lang-sep">/</span><span class="tm-text">${parts[1].trim()}</span>`;
+            }
+
+            const tamilRegex = /[\u0b80-\u0bff]+/;
+            if (tamilRegex.test(html) && /[a-zA-Z]/.test(html) && !html.includes('$')) {
+                if (html.includes(" (") && html.includes(")")) {
+                    const start = html.indexOf(" (");
+            const end = html.indexOf(")", start); // Use first matching closing paren
+            if (end !== -1) {
+                        const before = html.substring(0, start).trim();
+            const inside = html.substring(start + 1, end).trim();
+            const after = html.substring(end + 1).trim();
+            return `<span class="en-text">${before}</span><span class="tm-text"> ${inside}</span>${after ? ' ' + after : ''}`;
+                    }
+                }
+            }
+            return html;
+        }
+
+            async function initQuiz() {
+                // Track quiz start time - ADD THIS LINE
+                window.quizStartTime = Date.now();
+
+            // Apply Premium UI exactly for the requested sections
+            const isPremium = (lessonId && (lessonId.startsWith('rev_') || lessonId.startsWith('model_') || lessonId.startsWith('psy_') || lessonId.startsWith('tam_'))) || className === 'demo-quiz';
+            ...
+
+            // 1. Try Quiz Folder First
+            const v = new Date().getTime();
+            let quizData = null;
+            try {
+                const quizPath = `json-db/quizzes/${subject}/${className}/${lessonId}.json?v=${v}`;
+            const res = await fetch(quizPath);
+            if (res.ok) quizData = await res.json();
+            } catch (e) { }
+
+            // 2. Fallback to lesson data
+            if (!quizData) {
+                const result = await getLocalLessonData(subject, className, lessonId, 'quiz');
+            if (result && result.data) quizData = result.data;
+            }
+
+            if (!quizData) {
+                document.getElementById('quizLoader').innerHTML = "தேர்வு இன்னும் தயாராகவில்லை. (Exam Pending)";
+            return;
+            }
+
+            // Extract questions: check quizzes field, then top-level questions array
+            questions = quizData.questions || (quizData.quiz ? (quizData.quiz.questions || quizData.quiz) : []);
+
+            if (questions.length === 0) {
+                document.getElementById('quizLoader').innerHTML = "தேர்வு கேள்விகள் இன்னும் தயாராகவில்லை. (Questions Pending)";
+            return;
+            }
+
+            const testFullTitle = formatText(quizData.title || (quizData.lesson_meta ? quizData.lesson_meta.title : 'Online Test'));
+            document.getElementById('lessonTitle').innerHTML = testFullTitle;
+            document.getElementById('resultLessonName').innerHTML = `${testFullTitle} - வகுப்பு ${className} (Class ${className})`;
+            document.getElementById('totalQNum').innerText = questions.length;
+
+            // Audio Player Initialization
+            if (quizData.audio) {
+                const playerContainer = document.getElementById('audioPlayer');
+            const audioEl = document.getElementById('mainAudio');
+            const playPauseBtn = document.getElementById('playPauseBtn');
+            const playIcon = document.getElementById('playIcon');
+            const pauseIcon = document.getElementById('pauseIcon');
+            const progressBar = document.getElementById('progressBar');
+            const progressContainer = document.getElementById('progressBarContainer');
+            const currentTimeEl = document.getElementById('currentTime');
+            const totalDurationEl = document.getElementById('totalDuration');
+
+            playerContainer.style.display = 'block';
+            audioEl.src = quizData.audio;
+
+                const formatTime = (time) => {
+                    const min = Math.floor(time / 60);
+            const sec = Math.floor(time % 60);
+            return `${min}:${sec < 10 ? '0' : ''}${sec}`;
+                };
+
+                playPauseBtn.onclick = () => {
+                    if (audioEl.paused) {
+                audioEl.play();
+            playIcon.style.display = 'none';
+            pauseIcon.style.display = 'block';
+                    } else {
+                audioEl.pause();
+            playIcon.style.display = 'block';
+            pauseIcon.style.display = 'none';
+                    }
+                };
+
+                audioEl.ontimeupdate = () => {
+                    const progress = (audioEl.currentTime / audioEl.duration) * 100;
+            progressBar.style.width = `${progress}%`;
+            currentTimeEl.innerText = formatTime(audioEl.currentTime);
+                };
+
+                audioEl.onloadedmetadata = () => {
+                totalDurationEl.innerText = formatTime(audioEl.duration);
+                };
+
+                progressContainer.onclick = (e) => {
+                    const rect = progressContainer.getBoundingClientRect();
+            const pos = (e.clientX - rect.left) / rect.width;
+            audioEl.currentTime = pos * audioEl.duration;
+                };
+
+                audioEl.onended = () => {
+                playIcon.style.display = 'block';
+            pauseIcon.style.display = 'none';
+            progressBar.style.width = '0%';
+                };
+            }
+
+            renderAllQuestions();
+
+            document.getElementById('quizLoader').style.display = 'none';
+            document.getElementById('quizApp').style.display = 'block';
+        }
+
+            function renderAllQuestions() {
+            const container = document.getElementById('questionContainer');
+            let currentSection = "";
+            let html = "";
+            
+            questions.forEach((q, idx) => {
+                if (q.section && q.section !== currentSection) {
+                currentSection = q.section;
+            html += `<div class="section-label">${currentSection}</div>`;
+                }
+
+            const questionText = q.question || q.q;
+            const explanationText = q.ex || (q.explanation || '');
+                const isSelected = (oIdx) => answers[idx] === oIdx;
+
+            html += `
+            <div id="q-card-${idx}" class="question-card animate-fade">
+                <div class="question-text" style="display:flex; justify-content:space-between; align-items:flex-start;">
+                    <div>
+                        <span style="opacity: 0.5; font-size: 0.8rem; margin-right: 5px;">${idx + 1}.</span>
+                        ${formatText(questionText)}
+                    </div>
+                    <button onclick="playQuizAudio(${idx})" class="tts-btn" title="கேள்வியைக் கேட்கவும்">🔊</button>
+                </div>
+
+                <div class="options-grid" id="options-${idx}">
+                    ${q.options.map((opt, oIdx) => `
+                            <div class="option-item ${isSelected(oIdx) ? 'selected' : ''}" onclick="handleSelect(${idx}, ${oIdx}, this)">
+                                <span>${formatText(opt)}</span>
+                            </div>
+                        `).join('')}
+                </div>
+                <div id="ex-box-${idx}" class="explanation-box" style="${resultsRevealed ? 'display:block' : 'display:none'}">
+                    <strong style="color: #1a73e8; display: block; margin-bottom: 5px;">விளக்கம் (Explanation):</strong>
+                    ${formatText(explanationText)}
+                </div>
+            </div>
+            `;
+            });
+
+            container.innerHTML = html;
+
+            if (window.MathJax) {
+                window.MathJax.typesetPromise();
+            }
+        }
+
+            function revealAllResults() {
+                questions.forEach((q, idx) => {
+                    const userIdx = answers[idx];
+                    const correctIdx = getCorrectIdx(q);
+                    const grid = document.getElementById(`options-${idx}`);
+                    const exBox = document.getElementById(`ex-box-${idx}`);
+
+                    if (!grid) return;
+                    const items = grid.querySelectorAll('.option-item');
+
+                    // If not already highlighted (e.g. skipped), highlight correct answer now
+                    if (correctIdx !== -1) {
+                        if (userIdx !== undefined) {
+                            if (userIdx === correctIdx) {
+                                items[userIdx].classList.add('correct');
+                            } else {
+                                items[userIdx].classList.add('wrong');
+                                items[correctIdx].classList.add('correct');
+                            }
+                        } else {
+                            // Not answered: Just show the correct one
+                            items[correctIdx].classList.add('correct');
+                        }
+                    }
+
+                    // Smoothly show explanation
+                    if (exBox) {
+                        exBox.style.display = 'block';
+                        exBox.style.opacity = '1';
+                    }
+                });
+        }
+
+        window.handleSelect = (qIdx, oIdx, el) => {
+            if (resultsRevealed) return; // Prevent changing after submission
+            if (answers[qIdx] !== undefined) return; // Prevent clicking again if already answered
+
+            const q = questions[qIdx];
+            const correctIdx = getCorrectIdx(q);
+            answers[qIdx] = oIdx;
+
+            const grid = document.getElementById(`options-${qIdx}`);
+            const items = grid.querySelectorAll('.option-item');
+
+            // Immediate feedback highlighting
+            if (correctIdx !== -1) {
+                if (oIdx === correctIdx) {
+                el.classList.add('correct');
+                } else {
+                el.classList.add('wrong');
+            items[correctIdx].classList.add('correct');
+                }
+            }
+
+            el.classList.add('selected');
+            grid.style.pointerEvents = 'none'; // Lock the question
+        };
+
+        document.getElementById('finalSubmitBtn').onclick = async () => {
+                // Calculate score (SAME - NO CHANGE)
+                let score = 0;
+            let correctCount = 0;
+            let wrongCount = 0;
+            
+            questions.forEach((q, idx) => {
+                const userIdx = answers[idx];
+            const correctIdx = getCorrectIdx(q);
+            if (userIdx !== undefined && correctIdx !== -1 && userIdx === correctIdx) {
+                score++;
+            correctCount++;
+                } else if (userIdx !== undefined) {
+                wrongCount++;
+                }
+            });
+
+            // Calculate time taken
+            const endTime = Date.now();
+            const startTime = window.quizStartTime || endTime;
+            const timeTaken = Math.floor((endTime - startTime) / 1000);
+
+            // Show results first (SAME - NO CHANGE)
+            resultsRevealed = true;
+            revealAllResults();
+
+            window.history.pushState({results: true }, '', '');
+            document.getElementById('overlay').style.display = 'block';
+            document.getElementById('resultView').style.display = 'block';
+            document.getElementById('finalScore').innerText = `${score}/${questions.length}`;
+
+            const pct = (score / questions.length) * 100;
+            let msg = pct >= 80 ? "சிறப்பு! (Excellent!)" : pct >= 50 ? "நல்ல முயற்சி! (Good!)" : "மேலும் பயிற்சி தேவை. (Keep it up!)";
+            document.getElementById('resultMsg').innerText = msg;
+
+            window.scrollTo(0, 0);
+
+            // NEW CODE: Save to Firebase
+            try {
+                const {db, doc, setDoc, updateDoc, phoneNumber, examDate, category} = window.firebaseQuizData;
+
+            if (!phoneNumber || !examDate) {
+                console.error('Missing quiz parameters');
+            return;
+                }
+
+            const studentName = localStorage.getItem('studentName') || 'Student';
+
+            await setDoc(doc(db, 'free_exam_results', `${phoneNumber}_${examDate}`), {
+                phoneNumber,
+                studentName,
+                category,
+                examDate,
+                score,
+                correctAnswers: correctCount,
+            wrongAnswers: wrongCount,
+            totalQuestions: questions.length,
+            timeTaken,
+            completedAt: new Date().toISOString()
+                });
+
+            await updateDoc(doc(db, 'exam_registrations', `${phoneNumber}_${examDate}`), {
+                hasAttempted: true,
+            attemptedAt: new Date().toISOString()
+                });
+
+            console.log('Results saved to Firebase!');
+
+                setTimeout(() => {
+                window.location.href = `exam-results.html?phone=${phoneNumber}&date=${examDate}&category=${category}`;
+                }, 3000);
+
+            } catch (error) {
+                console.error('Firebase error:', error);
+            alert('முடிவுகள் save செய்வதில் பிழை!');
+            }
+        };
+
+            resultsRevealed = true;
+            revealAllResults();
+
+            window.history.pushState({results: true }, '', '');
+            document.getElementById('overlay').style.display = 'block';
+            document.getElementById('resultView').style.display = 'block';
+            document.getElementById('finalScore').innerText = `${score}/${questions.length}`;
+
+            const pct = (score / questions.length) * 100;
+            let msg = pct >= 80 ? "சிறப்பு! (Excellent!)" : pct >= 50 ? "நல்ல முயற்சி! (Good!)" : "மேலும் பயிற்சி தேவை. (Keep it up!)";
+            document.getElementById('resultMsg').innerText = msg;
+
+            // Scroll to top to see result if needed, but the view is fixed so it's fine
+            window.scrollTo(0, 0);
+        };
+
+            // TTS Logic
+            let synth = window.speechSynthesis;
+            let currentPlayingIdx = -1;
+            let isReadingAll = false;
+            let audioCtx = null;
+            let currentCloudAudio = null;
+
+            function playBeep() {
+            try {
+                if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+            const oscillator = audioCtx.createOscillator();
+            const gainNode = audioCtx.createGain();
+
+            oscillator.connect(gainNode);
+            gainNode.connect(audioCtx.destination);
+
+            oscillator.type = 'sine';
+            oscillator.frequency.setValueAtTime(600, audioCtx.currentTime);
+            gainNode.gain.setValueAtTime(0, audioCtx.currentTime);
+            gainNode.gain.linearRampToValueAtTime(0.03, audioCtx.currentTime + 0.05);
+            gainNode.gain.linearRampToValueAtTime(0, audioCtx.currentTime + 0.2);
+
+            oscillator.start();
+            oscillator.stop(audioCtx.currentTime + 0.2);
+            } catch (e) { }
+        }
+
+        window.toggleReadAll = () => {
+            const btn = document.getElementById('readAllBtn');
+            const text = document.getElementById('readAllText');
+            const icon = document.getElementById('readAllIcon');
+
+            if (isReadingAll) {
+                isReadingAll = false;
+            synth.cancel();
+            if (currentCloudAudio) {
+                currentCloudAudio.pause();
+            currentCloudAudio = null;
+                }
+            btn.classList.remove('reading');
+            text.innerText = "அனைத்து கேள்விகளையும் கேட்க (Listen to All)";
+            icon.innerText = "🔊";
+                document.querySelectorAll('.question-card').forEach(c => c.classList.remove('reading-highlight'));
+            } else {
+                isReadingAll = true;
+            btn.classList.add('reading');
+            text.innerText = "வாசிப்பதை நிறுத்த (Stop Reading)";
+            icon.innerText = "⏹️";
+            readNext(0);
+            }
+        };
+
+            async function readNext(idx) {
+            if (!isReadingAll || idx >= questions.length) {
+                if (isReadingAll) toggleReadAll();
+            return;
+            }
+
+            const card = document.getElementById(`q-card-${idx}`);
+            if (card) {
+                card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                document.querySelectorAll('.question-card').forEach(c => c.classList.remove('reading-highlight'));
+            card.classList.add('reading-highlight');
+            }
+
+            // 1. Read Question ONLY
+            window.playQuizAudio(idx, 'question', async () => {
+                if (!isReadingAll) return;
+
+            // 2. 5-second beep pause
+            for(let i=0; i<5; i++) {
+                    if (!isReadingAll) return;
+            playBeep();
+                    await new Promise(r => setTimeout(r, 1000));
+                }
+
+                // 3. Read Correct Answer
+                window.playQuizAudio(idx, 'answer', () => {
+                    if (!isReadingAll) return;
+
+                    // 4. Move to next question
+                    setTimeout(() => {
+                        if (isReadingAll) readNext(idx + 1);
+                    }, 1200);
+                });
+            });
+        }
+
+        window.playQuizAudio = async (idx, type = 'question', callback) => {
+            if (synth.speaking) synth.cancel();
+            if (currentCloudAudio) {
+                currentCloudAudio.pause();
+            currentCloudAudio = null;
+            }
+
+            currentPlayingIdx = idx;
+            const q = questions[idx];
+            let textToRead = "";
+
+            if (type === 'question') {
+                textToRead = "கேள்வி " + (idx + 1) + ": " + (q.question || q.q) + ". ";
+            } else if (type === 'answer') {
+                const correctIdx = getCorrectIdx(q);
+            const ansText = q.options[correctIdx] || "";
+            textToRead = "சரியான விடை: " + ansText + ". ";
+            } else if (type === 'explanation') {
+                const expText = q.ex || (q.explanation || "");
+            if (expText) {
+                textToRead = "விளக்கம்: " + expText;
+                } else {
+                    if (callback) callback();
+            return;
+                }
+            }
+
+            textToRead = textToRead.replace(/<[^>]*>?/gm, '');
+            textToRead = textToRead.replace(/\*/g, '');
+            textToRead = textToRead.replace(/_{2,}/g, ' Dash ');
+
+            try {
+                const apiKey = 'AIzaSyDb2uAv_N_XkyteAeNGEpz8RyVgzIWoIs0';
+            const url = `https://texttospeech.googleapis.com/v1/text:synthesize?key=${apiKey}`;
+                
+                const requestBody = {
+                    input: { text: textToRead },
+                    voice: { languageCode: 'ta-IN', name: 'ta-IN-Wavenet-C' }, // High-quality female neural voice
+                    audioConfig: { audioEncoding: 'MP3', speakingRate: 0.90, pitch: 0 } 
+                };
+
+                const response = await fetch(url, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(requestBody)
+                });
+
+                if (!response.ok) {
+                    console.error("Google TTS Error, using fallback");
+                    fallbackTTS(textToRead, callback);
+                    return;
+                }
+
+                const data = await response.json();
+                const audioSrc = "data:audio/mp3;base64," + data.audioContent;
+                
+                currentCloudAudio = new Audio(audioSrc);
+                currentCloudAudio.onended = () => {
+                    currentPlayingIdx = -1;
+                    if (callback) callback();
+                };
+                currentCloudAudio.play();
+
+            } catch (error) {
+                console.error("TTS Fetch Error:", error);
+                fallbackTTS(textToRead, callback);
+            }
+        };
+
+        function fallbackTTS(text, callback) {
+            let currentUtterance = new SpeechSynthesisUtterance(text);
+            currentUtterance.lang = 'ta-IN';
+            currentUtterance.rate = 0.85; 
+            currentUtterance.pitch = 1.0; 
+            currentUtterance.onend = () => {
+                currentPlayingIdx = -1;
+                if (callback) callback();
+            };
+            synth.speak(currentUtterance);
+        }
+
+        waitForAuth().then(user => {
+            if (!user) { window.location.href = 'login.html'; return; }
+            checkEnglishSubject();
+            initQuiz();
+        });
+        })();
+    </script>
+</body>
+
+</html>
