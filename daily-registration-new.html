@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>தேர்வு பதிவு - Tamil Nanban</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Noto+Sans+Tamil:wght@400;700&family=Baloo+Thambi+2:wght@800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Outfit', 'Noto Sans Tamil', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 25px;
+            padding: 40px;
+            max-width: 500px;
+            width: 100%;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .brand-main {
+            font-family: 'Baloo Thambi 2', cursive;
+            font-size: 2.2rem;
+            font-weight: 800;
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            font-size: 1.1rem;
+            color: #64748b;
+            margin-bottom: 20px;
+        }
+        
+        .exam-title {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            padding: 15px;
+            border-radius: 15px;
+            font-size: 1.1rem;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .form-group {
+            margin-bottom: 25px;
+        }
+        
+        label {
+            display: block;
+            font-weight: 600;
+            color: #334155;
+            margin-bottom: 8px;
+            font-size: 0.95rem;
+        }
+        
+        input {
+            width: 100%;
+            padding: 15px;
+            border: 2px solid #e2e8f0;
+            border-radius: 12px;
+            font-size: 1rem;
+            transition: all 0.3s;
+            font-family: 'Outfit', sans-serif;
+        }
+        
+        input:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+        
+        .btn-submit {
+            width: 100%;
+            padding: 15px;
+            background: linear-gradient(135deg, #10b981, #059669);
+            color: white;
+            border: none;
+            border-radius: 12px;
+            font-size: 1.1rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s;
+            margin-top: 10px;
+        }
+        
+        .btn-submit:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(16, 185, 129, 0.3);
+        }
+        
+        .btn-submit:disabled {
+            background: #d1d5db;
+            cursor: not-allowed;
+            transform: none;
+        }
+        
+        .error-msg {
+            background: #fee2e2;
+            color: #dc2626;
+            padding: 12px;
+            border-radius: 10px;
+            margin-top: 15px;
+            font-size: 0.9rem;
+            display: none;
+        }
+        
+        .success-msg {
+            background: #d1fae5;
+            color: #065f46;
+            padding: 12px;
+            border-radius: 10px;
+            margin-top: 15px;
+            font-size: 0.9rem;
+            display: none;
+        }
+        
+        .info-box {
+            background: #f0f9ff;
+            border-left: 4px solid #0ea5e9;
+            padding: 15px;
+            border-radius: 10px;
+            margin-top: 20px;
+            font-size: 0.9rem;
+            color: #0c4a6e;
+        }
+        
+        .back-link {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="brand-main">தமில்நண்பன்</div>
+            <div class="subtitle">தேர்வு பதிவு</div>
+        </div>
+        
+        <div class="exam-title" id="examTitle">
+            தேர்வு தகவல் load ஆகிறது...
+        </div>
+        
+        <form id="registrationForm">
+            <div class="form-group">
+                <label for="mobileInput">மொபைல் எண் (Mobile Number) *</label>
+                <input type="tel" id="mobileInput" placeholder="10 இலக்க மொபைல் எண்" maxlength="10" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="nameInput">பெயர் (Name) *</label>
+                <input type="text" id="nameInput" placeholder="உங்கள் பெயரை உள்ளிடவும்" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="dobInput">பிறந்த தேதி (Date of Birth) *</label>
+                <input type="date" id="dobInput" required>
+            </div>
+            
+            <button type="submit" class="btn-submit" id="submitBtn">
+                தேர்வை தொடங்கு →
+            </button>
+            
+            <div class="error-msg" id="errorMsg"></div>
+            <div class="success-msg" id="successMsg"></div>
+        </form>
+        
+        <div class="info-box">
+            ℹ️ <strong>குறிப்பு:</strong> தேர்வை ஒரு முறை மட்டுமே எழுத முடியும். உங்கள் தகவல்களை சரியாக உள்ளிடவும்.
+        </div>
+        
+        <a href="free-exam-select.html" class="back-link">← திரும்பிச் செல்</a>
+    </div>
+
+    <!-- Firebase v8 SDK (Compatible version) -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+
+    <script>
+        console.log('🚀 Registration page loaded');
+        
+        // Firebase config
+        const firebaseConfig = {
+            apiKey: "AIzaSyBpkL8eZT0u5mnxCxmVZMmmemX15BCaNf4",
+            authDomain: "a1-coaching.firebaseapp.com",
+            databaseURL: "https://a1-coaching-default-rtdb.firebaseio.com",
+            projectId: "a1-coaching",
+            storageBucket: "a1-coaching.firebasestorage.app",
+            messagingSenderId: "240838259015",
+            appId: "1:240838259015:web:a5b80f33e9a0fec5ea24b0"
+        };
+
+        // Initialize Firebase
+        try {
+            firebase.initializeApp(firebaseConfig);
+            const database = firebase.database();
+            console.log('✅ Firebase initialized successfully');
+        } catch (error) {
+            console.error('❌ Firebase initialization error:', error);
+        }
+
+        // Get exam file from URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const examFile = urlParams.get('exam');
+
+        console.log('📄 Exam file:', examFile);
+
+        if (!examFile) {
+            document.getElementById('examTitle').innerHTML = '❌ தேர்வு தகவல் இல்லை';
+            document.getElementById('submitBtn').disabled = true;
+        } else {
+            loadExamTitle();
+        }
+
+        async function loadExamTitle() {
+            try {
+                console.log('📥 Loading exam title...');
+                const response = await fetch(`json-db/free-exams/${examFile}`);
+                const examData = await response.json();
+                document.getElementById('examTitle').innerHTML = examData.title || 'TET தேர்வு';
+                console.log('✅ Exam title loaded:', examData.title);
+            } catch (error) {
+                console.error('❌ Error loading exam:', error);
+                document.getElementById('examTitle').innerHTML = 'TET இலவச தேர்வு';
+            }
+        }
+
+        // Form submission
+        document.getElementById('registrationForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+
+            console.log('📝 Form submitted');
+
+            // Get form values (CORRECT ORDER: mobile, name, dob)
+            const mobile = document.getElementById('mobileInput').value.trim();
+            const name = document.getElementById('nameInput').value.trim();
+            const dob = document.getElementById('dobInput').value;
+            
+            const errorMsg = document.getElementById('errorMsg');
+            const successMsg = document.getElementById('successMsg');
+            const submitBtn = document.getElementById('submitBtn');
+
+            // Hide previous messages
+            errorMsg.style.display = 'none';
+            successMsg.style.display = 'none';
+
+            // Validation
+            if (!mobile || !name || !dob) {
+                errorMsg.textContent = 'அனைத்து தகவல்களையும் நிரப்பவும்!';
+                errorMsg.style.display = 'block';
+                console.log('❌ Validation failed: Empty fields');
+                return;
+            }
+
+            if (mobile.length !== 10 || !/^\d+$/.test(mobile)) {
+                errorMsg.textContent = 'சரியான 10 இலக்க மொபைல் எண்ணை உள்ளிடவும்!';
+                errorMsg.style.display = 'block';
+                console.log('❌ Validation failed: Invalid mobile number');
+                return;
+            }
+
+            submitBtn.disabled = true;
+            submitBtn.textContent = 'சரிபார்க்கப்படுகிறது...';
+            console.log('⏳ Checking registration...');
+
+            try {
+                const today = new Date().toISOString().split('T')[0];
+                const deviceId = `${mobile}_${today}_${examFile.replace('.json', '')}`;
+
+                console.log('🔑 Device ID:', deviceId);
+
+                // Check if already registered
+                const snapshot = await firebase.database().ref(`device_sessions/${deviceId}`).once('value');
+                
+                if (snapshot.exists()) {
+                    const data = snapshot.val();
+                    console.log('📋 Existing registration:', data);
+                    
+                    if (data.hasAttempted) {
+                        errorMsg.textContent = 'நீங்கள் ஏற்கனவே இந்த தேர்வை எழுதிவிட்டீர்கள்!';
+                        errorMsg.style.display = 'block';
+                        submitBtn.disabled = false;
+                        submitBtn.textContent = 'தேர்வை தொடங்கு →';
+                        console.log('⚠️ Already attempted');
+                        return;
+                    }
+                }
+
+                // Save registration (CORRECT FIELD ORDER for Firebase)
+                const registrationData = {
+                    mobile: mobile,
+                    name: name,
+                    dob: dob,
+                    examFile: examFile,
+                    registeredAt: new Date().toISOString(),
+                    examDate: today,
+                    hasAttempted: false
+                };
+
+                console.log('💾 Saving registration:', registrationData);
+
+                await firebase.database().ref(`device_sessions/${deviceId}`).set(registrationData);
+
+                console.log('✅ Registration saved successfully!');
+                
+                successMsg.textContent = 'பதிவு வெற்றிகரமாக முடிந்தது! தேர்வுக்கு செல்கிறீர்கள்...';
+                successMsg.style.display = 'block';
+
+                // Redirect to quiz after short delay
+                setTimeout(() => {
+                    const quizUrl = `quiz.html?mode=free&examFile=${examFile}&phone=${mobile}&date=${today}`;
+                    console.log('🔗 Redirecting to:', quizUrl);
+                    window.location.href = quizUrl;
+                }, 1500);
+
+            } catch (error) {
+                console.error('❌ Registration error:', error);
+                errorMsg.textContent = `பதிவு செய்வதில் பிழை! ${error.message}`;
+                errorMsg.style.display = 'block';
+                submitBtn.disabled = false;
+                submitBtn.textContent = 'தேர்வை தொடங்கு →';
+            }
+        });
+
+        console.log('✅ All scripts loaded');
+    </script>
+</body>
+</html>
