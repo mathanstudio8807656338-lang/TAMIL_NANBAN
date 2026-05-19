@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>இலவச தேர்வு - Tamil Nanban</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Noto+Sans+Tamil:wght@400;700&family=Baloo+Thambi+2:wght@800&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: 'Outfit', 'Noto Sans Tamil', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        /* Header */
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 40px;
+        }
+        
+        .brand-main {
+            font-family: 'Baloo Thambi 2', cursive;
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        /* Time Status */
+        .time-status {
+            background: white;
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        
+        .time-status.active {
+            background: linear-gradient(135deg, #10b981, #059669);
+            color: white;
+        }
+        
+        .time-status.inactive {
+            background: #fef3c7;
+            color: #92400e;
+        }
+        
+        .time-status h3 {
+            font-size: 1.3rem;
+            margin-bottom: 10px;
+        }
+        
+        .current-time {
+            font-size: 2rem;
+            font-weight: 800;
+            font-family: 'Outfit', monospace;
+        }
+        
+        .time-info {
+            margin-top: 10px;
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+        
+        /* Exam Cards */
+        .exams-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 25px;
+            margin-bottom: 30px;
+        }
+        
+        .exam-card {
+            background: white;
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.15);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .exam-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 50px rgba(0,0,0,0.25);
+        }
+        
+        .exam-card.disabled {
+            opacity: 0.6;
+            pointer-events: none;
+        }
+        
+        .paper-badge {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+        
+        .exam-title {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: #1f2937;
+            margin-bottom: 15px;
+            line-height: 1.4;
+        }
+        
+        .exam-info {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .info-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.95rem;
+            color: #6b7280;
+        }
+        
+        .info-icon {
+            font-size: 1.2rem;
+        }
+        
+        .start-btn {
+            width: 100%;
+            padding: 15px;
+            background: linear-gradient(135deg, #10b981, #059669);
+            color: white;
+            border: none;
+            border-radius: 12px;
+            font-size: 1.1rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        .start-btn:hover:not(:disabled) {
+            transform: scale(1.05);
+            box-shadow: 0 5px 20px rgba(16, 185, 129, 0.4);
+        }
+        
+        .start-btn:disabled {
+            background: #d1d5db;
+            cursor: not-allowed;
+        }
+        
+        /* Loading */
+        .loading {
+            text-align: center;
+            color: white;
+            padding: 50px;
+        }
+        
+        .loading-spinner {
+            border: 4px solid rgba(255,255,255,0.3);
+            border-top: 4px solid white;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        /* Instructions */
+        .instructions {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 30px;
+        }
+        
+        .instructions h3 {
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+            color: #1f2937;
+        }
+        
+        .instructions ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .instructions li {
+            padding: 8px 0;
+            padding-left: 25px;
+            position: relative;
+            color: #4b5563;
+        }
+        
+        .instructions li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #10b981;
+            font-weight: bold;
+        }
+        
+        .back-btn {
+            display: inline-block;
+            background: white;
+            color: #667eea;
+            padding: 12px 25px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+        
+        .back-btn:hover {
+            background: #f3f4f6;
+            transform: translateX(-5px);
+        }
+
+        @media (max-width: 480px) {
+            .brand-main { font-size: 2rem; }
+            .exams-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <div class="brand-main">தமில்நண்பன்</div>
+            <div class="subtitle">TET இலவச தேர்வு</div>
+        </div>
+
+        <!-- Time Status -->
+        <div class="time-status" id="timeStatus">
+            <h3 id="statusText">⏰ தற்போதைய நேரம்</h3>
+            <div class="current-time" id="currentTime">--:--:--</div>
+            <p id="statusMessage"></p>
+            <div class="time-info">தேர்வு நேரம்: மாலை 7:00 - 10:00 PM (3 மணி நேரம்)</div>
+        </div>
+
+        <!-- Loading -->
+        <div class="loading" id="loadingBox">
+            <div class="loading-spinner"></div>
+            <p>தேர்வுகள் load ஆகிறது...</p>
+        </div>
+
+        <!-- Exams Grid -->
+        <div class="exams-grid" id="examsGrid" style="display: none;"></div>
+
+        <!-- Instructions -->
+        <div class="instructions" id="instructionsBox" style="display: none;">
+            <h3>📋 வழிமுறைகள்</h3>
+            <ul>
+                <li>தேர்வு நேரம்: <strong>மாலை 7:00 - 10:00 PM (3 மணி நேரம்)</strong></li>
+                <li>மொத்த கேள்விகள்: <strong>150 (ஒரு தாளுக்கு)</strong></li>
+                <li>ஒவ்வொரு தேர்வுக்கும்: <strong>3 மணி நேரம்</strong></li>
+                <li>ஒரே நேரத்தில் இரண்டு தேர்வுகள் கிடைக்கும்</li>
+                <li>ஒவ்வொரு கேள்விக்கும் 1 மதிப்பெண்</li>
+                <li>தவறான விடைகளுக்கு மதிப்பெண் இல்லை</li>
+                <li>ஒவ்வொரு தேர்வையும் ஒரு முறை மட்டுமே எழுதலாம்</li>
+                <li>முடிவுகள் உடனடியாக காட்டப்படும்</li>
+                <li>Ranking system இருக்கும்</li>
+            </ul>
+        </div>
+
+        <!-- Back Button -->
+        <div style="text-align: center;">
+            <a href="index.html" class="back-btn">← முகப்பு பக்கம்</a>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="free-exam-loader.js"></script>
+    
+    <script>
+        const loader = new FreeExamLoader();
+        let isExamTime = false;
+
+        // Initialize
+        async function init() {
+            console.log('🚀 Initializing Free Exam System...');
+            
+            // Start time update
+            updateTimeStatus();
+            setInterval(updateTimeStatus, 1000); // Update every second
+
+            // Load available exams
+            const exams = await loader.loadAvailableExams();
+            
+            document.getElementById('loadingBox').style.display = 'none';
+            
+            if (exams.length === 0) {
+                document.getElementById('examsGrid').innerHTML = `
+                    <div style="text-align: center; color: white; padding: 50px;">
+                        <h2>😔 தற்போது தேர்வுகள் இல்லை</h2>
+                        <p>விரைவில் தேர்வுகள் சேர்க்கப்படும்!</p>
+                        <p style="margin-top: 15px; font-size: 0.9rem; opacity: 0.8;">
+                            JSON files-ஐ // folder-ல் upload செய்யவும்
+                        </p>
+                    </div>
+                `;
+                document.getElementById('examsGrid').style.display = 'block';
+                return;
+            }
+
+            console.log(`✅ ${exams.length} தேர்வுகள் கிடைத்தன`);
+            
+            // Display exams
+            displayExams(exams);
+            document.getElementById('examsGrid').style.display = 'grid';
+            document.getElementById('instructionsBox').style.display = 'block';
+        }
+
+        // Update time status
+        function updateTimeStatus() {
+            const now = new Date();
+            const hours = now.getHours();
+            const minutes = now.getMinutes();
+            const seconds = now.getSeconds();
+            
+            const timeString = `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+            document.getElementById('currentTime').textContent = timeString;
+
+            // Check if it's exam time (7 PM - 10 PM = 3 hours)
+            isExamTime = hours >= 19 && hours < 22;
+            
+            const statusBox = document.getElementById('timeStatus');
+            const statusText = document.getElementById('statusText');
+            const statusMessage = document.getElementById('statusMessage');
+
+            if (isExamTime) {
+                statusBox.className = 'time-status active';
+                statusText.innerHTML = '✅ தேர்வு நடைபெறுகிறது';
+                const hoursLeft = 22 - hours - 1;
+                const minsLeft = 60 - minutes;
+                statusMessage.innerHTML = `நீங்கள் இப்போது தேர்வு எழுதலாம் (${hoursLeft}:${String(minsLeft).padStart(2, '0')} நேரம் உள்ளது)`;
+            } else {
+                statusBox.className = 'time-status inactive';
+                statusText.innerHTML = '⏰ தேர்வு நேரம் அல்ல';
+                if (hours < 19) {
+                    const hoursUntil = 19 - hours;
+                    statusMessage.innerHTML = `தேர்வு ${hoursUntil} மணி நேரத்தில் தொடங்கும் (7:00 PM)`;
+                } else {
+                    statusMessage.innerHTML = 'இன்றைய தேர்வு முடிந்தது. நாளை மீண்டும் வாருங்கள்';
+                }
+            }
+
+            // Enable/disable start buttons
+            updateExamButtons();
+        }
+
+        // Display exams
+        function displayExams(exams) {
+            const grid = document.getElementById('examsGrid');
+            grid.innerHTML = '';
+
+            exams.forEach((exam, index) => {
+                const card = document.createElement('div');
+                card.className = 'exam-card';
+                if (!isExamTime) card.classList.add('disabled');
+
+                card.innerHTML = `
+                    <div class="paper-badge">மாதிரி வினாத்தாள் ${exam.data.paper_number}</div>
+                    <h3 class="exam-title">${exam.title}</h3>
+                    <div class="exam-info">
+                        <div class="info-item">
+                            <span class="info-icon">📝</span>
+                            <span>${exam.totalQuestions} கேள்விகள்</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon">⏱️</span>
+                            <span>3:00 மணி</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon">🎯</span>
+                            <span>${exam.paperType.replace('_', ' & ')}</span>
+                        </div>
+                    </div>
+                    <button class="start-btn" 
+                            onclick="startExam('${exam.filename}')" 
+                            id="startBtn${index}"
+                            ${!isExamTime ? 'disabled' : ''}>
+                        தேர்வை தொடங்கு →
+                    </button>
+                `;
+
+                grid.appendChild(card);
+            });
+        }
+
+        // Update exam buttons based on time
+        function updateExamButtons() {
+            const buttons = document.querySelectorAll('.start-btn');
+            buttons.forEach(btn => {
+                btn.disabled = !isExamTime;
+            });
+
+            const cards = document.querySelectorAll('.exam-card');
+            cards.forEach(card => {
+                if (isExamTime) {
+                    card.classList.remove('disabled');
+                } else {
+                    card.classList.add('disabled');
+                }
+            });
+        }
+
+        // Start exam
+        function startExam(filename) {
+            if (!isExamTime) {
+                alert('தேர்வு நேரம் அல்ல! மாலை 7:00 - 10:00 PM வரை மட்டுமே தேர்வு எழுதலாம்.');
+                return;
+            }
+
+            console.log(`📝 Starting exam: ${filename}`);
+            
+            // Redirect to registration page
+            window.location.href = `daily-registration-new.html?exam=${filename}`;
+        }
+
+        // Start initialization
+        init();
+    </script>
+</body>
+</html>
