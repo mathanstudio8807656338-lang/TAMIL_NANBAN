@@ -423,8 +423,8 @@
             doc.setTextColor(120, 53, 15);  // Amber-900
             doc.setFontSize(9);
             doc.setFont('helvetica', 'bold');
-            doc.text(`📅 Exam Date: ${data.examDate}`, 15, 43.5);
-            doc.text(`👥 Total Students: ${data.totalStudents}`, pageWidth - 15, 43.5, { align: 'right' });
+            doc.text(`Exam Date: ${data.examDate}`, 15, 43.5);
+            doc.text(`Total Students: ${data.totalStudents}`, pageWidth - 15, 43.5, { align: 'right' });
             
             // ─── Sort by Rank ───
             const sortedData = [...data.results].sort((a, b) => a.rank - b.rank);
@@ -493,7 +493,7 @@
                     doc.setTextColor(100);
                     doc.setFont('helvetica', 'normal');
                     doc.text(
-                        `Page ${hookData.pageNumber} / ${pageCount}   •   Generated: ${new Date().toLocaleString('en-IN')}   •   Tamil Nanban © ${new Date().getFullYear()}`,
+                        `Page ${hookData.pageNumber} / ${pageCount}  |  Generated: ${new Date().toLocaleString('en-IN')}  |  Tamil Nanban (c) ${new Date().getFullYear()}`,
                         pageWidth / 2,
                         doc.internal.pageSize.height - 6,
                         { align: 'center' }
