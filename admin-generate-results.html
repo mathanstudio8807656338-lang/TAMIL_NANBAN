@@ -177,24 +177,25 @@
                     </div>
                 </div>
                 
-                <button class="btn-download" onclick="downloadFile('paper1')" id="p1DlBtn">
-                    📥 Download Paper 1 Results
+                <button class="btn-download" onclick="downloadPDF('paper1')" id="p1DlBtn">
+                    📄 Download Paper 1 PDF
                 </button>
-                <button class="btn-download" onclick="downloadFile('paper2')" id="p2DlBtn">
-                    📥 Download Paper 2 Results
+                <button class="btn-download" onclick="downloadPDF('paper2')" id="p2DlBtn">
+                    📄 Download Paper 2 PDF
+                </button>
+                <button class="btn-download" onclick="downloadFile('paper1')" id="p1JsonBtn" style="background:#475569;font-size:0.85rem;padding:10px;">
+                    💾 Paper 1 JSON (backup)
+                </button>
+                <button class="btn-download" onclick="downloadFile('paper2')" id="p2JsonBtn" style="background:#475569;font-size:0.85rem;padding:10px;">
+                    💾 Paper 2 JSON (backup)
                 </button>
                 
                 <div class="instructions">
-                    <strong>📌 அடுத்த step:</strong><br>
-                    1. மேலே உள்ள 2 JSON files-ஐ download பண்ணுங்கள்<br>
-                    2. Cloudflare project-ல் <code>/results/</code> folder-ஐ create பண்ணுங்கள்<br>
-                    3. அந்த folder-ல் இந்த files upload பண்ணுங்கள்<br>
-                    4. <code>git push</code> அல்லது Cloudflare upload<br>
-                    5. <code>free-result-check.html</code>-ல் மாணவர்கள் இந்த files-ஐ பார்க்க முடியும்<br>
+                    <strong>📌 PDF Columns:</strong><br>
+                    Rank | Name | Mobile | Score | Correct | Wrong | Unanswered | %<br>
                     <br>
-                    File names:<br>
-                    <code>paper1_results_YYYY-MM-DD.json</code><br>
-                    <code>paper2_results_YYYY-MM-DD.json</code>
+                    <strong>📌 சேமிப்பு:</strong><br>
+                    PDF + JSON இரண்டுமே browser-ல் download ஆகும்.
                 </div>
             </div>
         </div>
@@ -202,6 +203,8 @@
     
     <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.8.0/jspdf.plugin.autotable.min.js"></script>
     
     <script>
         // Admin secret — change this to your own key
@@ -366,6 +369,147 @@
             URL.revokeObjectURL(url);
             
             log(`📥 Downloaded: ${filename}`, 'success');
+        }
+        
+        // ═══════════════════════════════════════════════════════
+        // 📄 PDF Download (Rank-wise + all columns) — Colorful Design
+        // ═══════════════════════════════════════════════════════
+        function downloadPDF(paperKey) {
+            const data = generatedData[paperKey];
+            if (!data || !data.results || data.results.length === 0) {
+                alert('Generate செய்த பின் download பண்ணுங்கள்! Empty data இருக்கு.');
+                return;
+            }
+            
+            const { jsPDF } = window.jspdf;
+            const doc = new jsPDF('p', 'mm', 'a4');
+            const pageWidth = doc.internal.pageSize.width;
+            
+            // ═══ HEADER SECTION ═══
+            
+            // Top colored banner (Indigo)
+            doc.setFillColor(67, 56, 202);  // Indigo-700
+            doc.rect(0, 0, pageWidth, 38, 'F');
+            
+            // "TAMIL NANBAN" in white
+            doc.setTextColor(255, 255, 255);
+            doc.setFont('helvetica', 'bold');
+            doc.setFontSize(22);
+            doc.text('TAMIL NANBAN', pageWidth / 2, 13, { align: 'center' });
+            
+            // Subtitle "TEST BATCH"
+            doc.setFontSize(13);
+            doc.setFont('helvetica', 'bold');
+            doc.setTextColor(254, 215, 102);  // Gold
+            doc.text('TEST BATCH', pageWidth / 2, 21, { align: 'center' });
+            
+            // Mobile number
+            doc.setFontSize(10);
+            doc.setFont('helvetica', 'normal');
+            doc.setTextColor(255, 255, 255);
+            doc.text('Mobile: 63 69 37 14 52', pageWidth / 2, 28, { align: 'center' });
+            
+            // Exam title
+            const examTitle = paperKey === 'paper1'
+                ? 'Paper 1: Mathematics + Science'
+                : 'Paper 2: Social Science';
+            doc.setFontSize(10);
+            doc.setTextColor(220, 230, 255);
+            doc.text(examTitle, pageWidth / 2, 34, { align: 'center' });
+            
+            // ─── Info Strip (Date + Total Students) ───
+            doc.setFillColor(254, 243, 199);  // Amber-100
+            doc.rect(0, 38, pageWidth, 8, 'F');
+            doc.setTextColor(120, 53, 15);  // Amber-900
+            doc.setFontSize(9);
+            doc.setFont('helvetica', 'bold');
+            doc.text(`📅 Exam Date: ${data.examDate}`, 15, 43.5);
+            doc.text(`👥 Total Students: ${data.totalStudents}`, pageWidth - 15, 43.5, { align: 'right' });
+            
+            // ─── Sort by Rank ───
+            const sortedData = [...data.results].sort((a, b) => a.rank - b.rank);
+            
+            const tableData = sortedData.map(r => [
+                r.rank,
+                r.name || 'Student',
+                r.phone ? (r.phone.slice(0,2) + '****' + r.phone.slice(-2)) : '—',
+                `${r.score}/${r.total}`,
+                r.correct || 0,
+                r.wrong || 0,
+                r.unanswered || 0,
+                `${(r.percentage || 0).toFixed(1)}%`
+            ]);
+            
+            doc.autoTable({
+                head: [['Rank', 'Name', 'Mobile', 'Score', 'Correct', 'Wrong', 'Unans.', '%']],
+                body: tableData,
+                startY: 50,
+                styles: {
+                    fontSize: 8.5,
+                    cellPadding: 2.5,
+                    lineColor: [200, 200, 200],
+                    lineWidth: 0.15,
+                    textColor: [30, 41, 59]
+                },
+                headStyles: {
+                    fillColor: [67, 56, 202],   // Indigo header
+                    textColor: 255,
+                    fontStyle: 'bold',
+                    halign: 'center',
+                    fontSize: 9
+                },
+                // Each column gets a different background color for the data cells!
+                columnStyles: {
+                    0: { halign: 'center', cellWidth: 14, fillColor: [254, 240, 138], textColor: [113, 63, 18], fontStyle: 'bold' },   // Rank — Yellow
+                    1: { cellWidth: 50, fillColor: [219, 234, 254], textColor: [30, 58, 138], fontStyle: 'bold' },                       // Name — Blue
+                    2: { halign: 'center', cellWidth: 28, fillColor: [243, 232, 255], textColor: [88, 28, 135] },                       // Mobile — Purple
+                    3: { halign: 'center', cellWidth: 22, fillColor: [209, 250, 229], textColor: [6, 78, 59], fontStyle: 'bold' },     // Score — Green
+                    4: { halign: 'center', cellWidth: 18, fillColor: [220, 252, 231], textColor: [22, 101, 52] },                       // Correct — Light Green
+                    5: { halign: 'center', cellWidth: 17, fillColor: [254, 226, 226], textColor: [153, 27, 27] },                       // Wrong — Red
+                    6: { halign: 'center', cellWidth: 17, fillColor: [241, 245, 249], textColor: [71, 85, 105] },                       // Unanswered — Gray
+                    7: { halign: 'center', cellWidth: 18, fillColor: [254, 215, 170], textColor: [124, 45, 18], fontStyle: 'bold' }    // % — Orange
+                },
+                // Top 3 special highlight (medal rows)
+                didParseCell: function(cellData) {
+                    const rowIdx = cellData.row.index;
+                    const rank = sortedData[rowIdx]?.rank;
+                    if (cellData.section === 'body' && cellData.column.index === 0) {
+                        if (rank === 1) {
+                            cellData.cell.styles.fillColor = [251, 191, 36];   // Gold
+                            cellData.cell.styles.textColor = [120, 53, 15];
+                        } else if (rank === 2) {
+                            cellData.cell.styles.fillColor = [203, 213, 225]; // Silver
+                            cellData.cell.styles.textColor = [30, 41, 59];
+                        } else if (rank === 3) {
+                            cellData.cell.styles.fillColor = [217, 119, 6];   // Bronze
+                            cellData.cell.styles.textColor = [255, 255, 255];
+                        }
+                    }
+                },
+                didDrawPage: (hookData) => {
+                    // Footer
+                    const pageCount = doc.internal.getNumberOfPages();
+                    doc.setFontSize(8);
+                    doc.setTextColor(100);
+                    doc.setFont('helvetica', 'normal');
+                    doc.text(
+                        `Page ${hookData.pageNumber} / ${pageCount}   •   Generated: ${new Date().toLocaleString('en-IN')}   •   Tamil Nanban © ${new Date().getFullYear()}`,
+                        pageWidth / 2,
+                        doc.internal.pageSize.height - 6,
+                        { align: 'center' }
+                    );
+                    // Top thin line on continuation pages
+                    if (hookData.pageNumber > 1) {
+                        doc.setFillColor(67, 56, 202);
+                        doc.rect(0, 0, pageWidth, 4, 'F');
+                    }
+                }
+            });
+            
+            const pdfFilename = `${paperKey}_results_${selectedDate}.pdf`;
+            doc.save(pdfFilename);
+            
+            log(`📄 PDF Downloaded: ${pdfFilename} (${sortedData.length} students)`, 'success');
         }
     </script>
 </body>
