@@ -17,6 +17,15 @@
     {
       "binding": "DEVICE_SESSIONS",
       "id": "b491078fe44441d49d7b016e86c24aae"
+    },
+    {
+      "binding": "RESULTS_KV",
+      "id": "REPLACE_WITH_NEW_KV_NAMESPACE_ID"
     }
-  ]
+  ],
+  "triggers": {
+    "crons": [
+      "45 16 * * *"
+    ]
+  }
 }

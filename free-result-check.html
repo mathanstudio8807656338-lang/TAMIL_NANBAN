@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>தேர்வு முடிவுகள் - Tamil Nanban</title>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Noto+Sans+Tamil:wght@400;700&family=Baloo+Thambi+2:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&family=Noto+Sans+Tamil:wght@400;600;700&family=Baloo+Thambi+2:wght@800&display=swap" rel="stylesheet">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
@@ -14,90 +14,69 @@
             padding: 20px;
             padding-bottom: 60px;
         }
-        .container { max-width: 600px; margin: 0 auto; }
+        .container { max-width: 900px; margin: 0 auto; }
         
-        .header {
-            text-align: center;
-            color: white;
-            margin-bottom: 25px;
-        }
+        .header { text-align: center; color: white; margin-bottom: 25px; }
         .header h1 {
             font-family: 'Baloo Thambi 2', cursive;
-            font-size: 2.2rem;
+            font-size: 2.3rem;
             margin-bottom: 8px;
         }
         .header p { font-size: 1rem; opacity: 0.95; }
         
-        /* Lookup form */
-        .lookup-card {
+        .control-panel {
             background: white;
             border-radius: 20px;
-            padding: 30px 25px;
+            padding: 22px;
             box-shadow: 0 10px 40px rgba(0,0,0,0.2);
-        }
-        .lookup-card h2 {
-            color: #1e3a8a;
-            font-size: 1.3rem;
             margin-bottom: 20px;
-            text-align: center;
         }
         
-        .input-group { margin-bottom: 18px; }
-        .input-group label {
+        .control-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            margin-bottom: 15px;
+        }
+        
+        .control-row label {
             display: block;
             font-weight: 700;
             color: #334155;
-            margin-bottom: 8px;
-            font-size: 0.95rem;
+            margin-bottom: 6px;
+            font-size: 0.85rem;
         }
-        .input-group input {
+        
+        .control-row input, .control-row select {
             width: 100%;
-            padding: 14px 16px;
+            padding: 12px 14px;
             border: 2px solid #e2e8f0;
             border-radius: 10px;
-            font-size: 1rem;
+            font-size: 0.95rem;
             font-family: inherit;
-            transition: border-color 0.2s;
         }
-        .input-group input:focus {
+        .control-row input:focus, .control-row select:focus {
             outline: none;
             border-color: #667eea;
         }
         
-        .btn-fetch {
+        .btn-load {
             width: 100%;
-            padding: 15px;
+            padding: 14px;
             background: linear-gradient(135deg, #667eea, #764ba2);
             color: white;
             border: none;
             border-radius: 10px;
-            font-size: 1.05rem;
             font-weight: 700;
+            font-size: 1rem;
             cursor: pointer;
-            margin-top: 10px;
-            transition: transform 0.2s;
-        }
-        .btn-fetch:hover { transform: translateY(-2px); }
-        .btn-fetch:disabled {
-            opacity: 0.6;
-            cursor: not-allowed;
-            transform: none;
+            font-family: inherit;
         }
         
-        .cache-info {
-            background: #f0fdf4;
-            color: #166534;
-            padding: 10px 14px;
-            border-radius: 8px;
-            font-size: 0.85rem;
-            margin-top: 15px;
-            text-align: center;
-            display: none;
-        }
         .error-msg {
             background: #fef2f2;
             color: #991b1b;
-            padding: 12px 14px;
+            padding: 12px;
             border-radius: 8px;
             margin-top: 12px;
             font-size: 0.9rem;
@@ -105,191 +84,156 @@
             display: none;
         }
         
-        /* Results display */
-        .results-section { display: none; margin-top: 25px; }
+        .results-section { display: none; }
         
-        .paper-tabs {
+        .stats-bar {
+            background: white;
+            border-radius: 15px;
+            padding: 18px;
+            margin-bottom: 15px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+            gap: 12px;
+            text-align: center;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+        }
+        .stat .value { font-size: 1.5rem; font-weight: 800; color: #1e3a8a; }
+        .stat .label { font-size: 0.72rem; color: #64748b; text-transform: uppercase; }
+        
+        .toolbar {
+            background: white;
+            border-radius: 15px;
+            padding: 14px;
+            margin-bottom: 15px;
             display: flex;
             gap: 10px;
-            margin-bottom: 18px;
-            background: rgba(255,255,255,0.15);
-            padding: 6px;
-            border-radius: 12px;
+            align-items: center;
+            flex-wrap: wrap;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
         }
-        .paper-tab {
+        .toolbar input.search {
             flex: 1;
-            padding: 12px;
-            text-align: center;
-            color: white;
-            font-weight: 700;
-            cursor: pointer;
+            min-width: 180px;
+            padding: 10px 14px;
+            border: 2px solid #e2e8f0;
             border-radius: 8px;
-            transition: all 0.2s;
-            border: none;
-            background: transparent;
-            font-size: 0.95rem;
             font-family: inherit;
         }
-        .paper-tab.active {
-            background: white;
-            color: #667eea;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-        }
-        .paper-tab:disabled {
-            opacity: 0.4;
-            cursor: not-allowed;
+        .toolbar input.search:focus {
+            outline: none;
+            border-color: #667eea;
         }
         
-        .result-card {
-            background: white;
-            border-radius: 20px;
-            padding: 25px;
-            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
-        }
-        
-        .score-banner {
-            text-align: center;
-            padding: 25px 20px;
-            background: linear-gradient(135deg, #10b981, #059669);
-            border-radius: 15px;
-            color: white;
-            margin-bottom: 20px;
-        }
-        .score-banner h2 {
-            font-size: 2.5rem;
-            font-weight: 800;
-            margin-bottom: 5px;
-        }
-        .score-banner .pct {
-            font-size: 1.1rem;
-            opacity: 0.95;
-        }
-        
-        .rank-display {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            gap: 10px;
-            margin-bottom: 20px;
-        }
-        .rank-item {
-            background: #f8fafc;
-            padding: 18px 10px;
-            border-radius: 12px;
-            text-align: center;
-        }
-        .rank-item .icon { font-size: 1.8rem; margin-bottom: 6px; }
-        .rank-item .value {
-            font-size: 1.5rem;
-            font-weight: 800;
-            color: #1e3a8a;
-        }
-        .rank-item .label {
-            font-size: 0.7rem;
-            color: #64748b;
-            text-transform: uppercase;
-            margin-top: 3px;
-            letter-spacing: 0.04em;
-        }
-        
-        .details {
-            border-top: 1px solid #e2e8f0;
-            padding-top: 15px;
-            margin-bottom: 18px;
-        }
-        .detail-row {
-            display: flex;
-            justify-content: space-between;
-            padding: 8px 0;
-            font-size: 0.9rem;
-        }
-        .detail-row .label { color: #64748b; }
-        .detail-row .value { font-weight: 700; color: #1e293b; }
-        
-        .top-ten {
-            background: #f8fafc;
-            border-radius: 15px;
-            padding: 18px 15px;
-            margin-bottom: 15px;
-        }
-        .top-ten h3 {
-            text-align: center;
-            color: #1e3a8a;
-            margin-bottom: 12px;
-            font-size: 1.05rem;
-        }
-        .lb-row {
-            display: grid;
-            grid-template-columns: 40px 1fr 70px;
-            gap: 8px;
-            padding: 10px 12px;
-            background: white;
-            border-radius: 8px;
-            margin-bottom: 6px;
-            align-items: center;
-            font-size: 0.88rem;
-        }
-        .lb-row.me {
-            background: #fef3c7;
-            border: 2px solid #f59e0b;
-        }
-        .lb-rank { font-weight: 800; text-align: center; }
-        .lb-name { font-weight: 600; color: #1e293b; }
-        .lb-name small { display: block; font-size: 0.7rem; color: #94a3b8; font-weight: 400; }
-        .lb-score { text-align: right; font-weight: 700; color: #10b981; }
-        
-        .btn-refresh {
-            width: 100%;
-            padding: 12px;
+        .btn-toggle {
+            padding: 10px 16px;
             background: #f1f5f9;
             color: #475569;
             border: 2px solid #e2e8f0;
-            border-radius: 10px;
+            border-radius: 8px;
             font-weight: 700;
             cursor: pointer;
             font-family: inherit;
-            margin-bottom: 8px;
+            font-size: 0.9rem;
+            transition: all 0.2s;
         }
-        .btn-refresh:hover { background: #e2e8f0; }
+        .btn-toggle.active {
+            background: #667eea;
+            color: white;
+            border-color: #667eea;
+        }
+        
+        .btn-pdf {
+            padding: 10px 16px;
+            background: linear-gradient(135deg, #10b981, #059669);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-weight: 700;
+            cursor: pointer;
+            font-family: inherit;
+            font-size: 0.9rem;
+        }
+        
+        .table-wrap {
+            background: white;
+            border-radius: 15px;
+            padding: 8px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            overflow-x: auto;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.9rem;
+        }
+        th {
+            background: #f1f5f9;
+            padding: 12px 10px;
+            text-align: left;
+            font-weight: 700;
+            color: #1e293b;
+            position: sticky;
+            top: 0;
+            font-size: 0.8rem;
+        }
+        td {
+            padding: 11px 10px;
+            border-bottom: 1px solid #f1f5f9;
+        }
+        tr:hover { background: #fafbfc; }
+        
+        .rank-cell { font-weight: 800; text-align: center; }
+        .rank-1 { color: #f59e0b; }
+        .rank-2 { color: #94a3b8; }
+        .rank-3 { color: #d97706; }
+        
+        .name-cell { font-weight: 600; color: #1e293b; }
+        .phone-cell { color: #64748b; font-family: monospace; font-size: 0.85rem; }
+        .score-cell { font-weight: 700; color: #10b981; text-align: center; }
+        .pct-cell { color: #64748b; text-align: center; }
+        
+        .loading {
+            text-align: center;
+            color: white;
+            padding: 40px 20px;
+        }
+        .spinner {
+            border: 4px solid rgba(255,255,255,0.3);
+            border-top: 4px solid white;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            margin: 0 auto 15px;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin { 100% { transform: rotate(360deg); } }
+        
+        .empty-state {
+            text-align: center;
+            padding: 50px 20px;
+            color: white;
+        }
+        .empty-state .icon { font-size: 3rem; margin-bottom: 12px; }
         
         .btn-back {
             display: inline-block;
-            text-decoration: none;
             background: rgba(255,255,255,0.2);
             color: white;
-            padding: 12px 24px;
+            padding: 12px 28px;
             border-radius: 25px;
+            text-decoration: none;
             font-weight: 700;
             margin-top: 20px;
             border: 2px solid rgba(255,255,255,0.4);
         }
         
-        .spinner {
-            border: 3px solid rgba(102,126,234,0.2);
-            border-top: 3px solid #667eea;
-            border-radius: 50%;
-            width: 18px;
-            height: 18px;
-            display: inline-block;
-            animation: spin 0.8s linear infinite;
-            vertical-align: middle;
-            margin-right: 8px;
-        }
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-        }
-        
-        .empty-paper {
-            text-align: center;
-            padding: 40px 20px;
-            color: #64748b;
-        }
-        .empty-paper .icon { font-size: 3rem; margin-bottom: 12px; }
-        
-        @media (max-width: 480px) {
-            .rank-display { grid-template-columns: 1fr 1fr 1fr; gap: 6px; }
-            .rank-item .value { font-size: 1.2rem; }
-            .score-banner h2 { font-size: 2rem; }
+        @media (max-width: 600px) {
+            .control-row { grid-template-columns: 1fr; }
+            table { font-size: 0.82rem; }
+            th, td { padding: 8px 6px; }
+            .phone-cell { display: none; }
+            .header h1 { font-size: 1.8rem; }
         }
     </style>
 </head>
@@ -297,44 +241,81 @@
     <div class="container">
         <div class="header">
             <h1>📊 தேர்வு முடிவுகள்</h1>
-            <p>உங்கள் ரேங்க் & மதிப்பெண் பார்க்க</p>
+            <p>இலவச தேர்வு - மாணவர்கள் முழு பட்டியல்</p>
         </div>
         
-        <!-- Mobile Lookup -->
-        <div class="lookup-card" id="lookupCard">
-            <h2>📱 உங்கள் மொபைல் எண்ணை உள்ளிடவும்</h2>
-            <div class="input-group">
-                <label for="mobileInput">மொபைல் எண் (10 இலக்கம்)</label>
-                <input type="tel" id="mobileInput" placeholder="9876543210" maxlength="10" pattern="[0-9]{10}">
+        <div class="control-panel">
+            <div class="control-row">
+                <div>
+                    <label>📅 தேர்வு தேதி</label>
+                    <input type="date" id="examDate">
+                </div>
+                <div>
+                    <label>📄 தேர்வு பேப்பர்</label>
+                    <select id="paperSelect">
+                        <option value="paper1">📘 கணிதம் + அறிவியல்</option>
+                        <option value="paper2">📗 சமூக அறிவியல்</option>
+                    </select>
+                </div>
             </div>
-            <button class="btn-fetch" id="fetchBtn" onclick="fetchResults()">
-                🔍 முடிவுகள் பார்க்க
+            <button class="btn-load" onclick="loadResults()">
+                🔍 முடிவுகள் காண்பி
             </button>
-            <div class="cache-info" id="cacheInfo"></div>
             <div class="error-msg" id="errorMsg"></div>
         </div>
         
-        <!-- Results -->
+        <div id="loadingBox" class="loading" style="display:none;">
+            <div class="spinner"></div>
+            <p>முடிவுகள் ஏற்றப்படுகின்றன...</p>
+        </div>
+        
         <div class="results-section" id="resultsSection">
-            <div class="paper-tabs">
-                <button class="paper-tab" id="tabP1" onclick="showPaper('paper1')">
-                    📘 கணிதம் + அறிவியல்
-                </button>
-                <button class="paper-tab" id="tabP2" onclick="showPaper('paper2')">
-                    📗 சமூக அறிவியல்
-                </button>
+            <div class="stats-bar">
+                <div class="stat">
+                    <div class="value" id="totalCount">0</div>
+                    <div class="label">மொத்தம்</div>
+                </div>
+                <div class="stat">
+                    <div class="value" id="topScore">0</div>
+                    <div class="label">அதிக மதிப்பெண்</div>
+                </div>
+                <div class="stat">
+                    <div class="value" id="avgScore">0</div>
+                    <div class="label">சராசரி</div>
+                </div>
+                <div class="stat">
+                    <div class="value" id="topperName" style="font-size:0.95rem;">—</div>
+                    <div class="label">டாப்பர்</div>
+                </div>
             </div>
             
-            <div id="paperContent"></div>
-            
-            <div style="text-align:center;margin-top:20px;">
-                <button class="btn-refresh" onclick="refreshData()">
-                    🔄 Firebase-லிருந்து மீண்டும் பதிவிறக்கம் (Fresh data)
-                </button>
-                <button class="btn-refresh" onclick="resetLookup()" style="background:#fef3c7;color:#92400e;border-color:#fcd34d;">
-                    ↩️ வேறு மொபைல் எண் சோதிக்க
-                </button>
+            <div class="toolbar">
+                <input type="text" class="search" id="searchInput" placeholder="🔍 பெயர் தேடு...">
+                <button class="btn-toggle active" id="btnAZ" onclick="setSort('az')">A-Z</button>
+                <button class="btn-toggle" id="btnRank" onclick="setSort('rank')">Rank வரிசை</button>
+                <button class="btn-pdf" onclick="downloadPDF()">📥 PDF</button>
             </div>
+            
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width:60px;text-align:center;">Rank</th>
+                            <th>பெயர்</th>
+                            <th class="phone-cell">மொபைல்</th>
+                            <th style="width:80px;text-align:center;">மதிப்பெண்</th>
+                            <th style="width:60px;text-align:center;">%</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tableBody"></tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="empty-state" id="emptyState" style="display:none;">
+            <div class="icon">📭</div>
+            <h3>இந்த தேதிக்கு முடிவுகள் இல்லை</h3>
+            <p style="margin-top:8px;opacity:0.85;">தேர்வு முடிந்து 15 நிமிடம் கடந்த பிறகு முடிவுகள் தயாராகும்</p>
         </div>
         
         <div style="text-align:center;">
@@ -342,38 +323,22 @@
         </div>
     </div>
     
-    <!-- Firebase v8 compat -->
-    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.8.0/jspdf.plugin.autotable.min.js"></script>
     
     <script>
-        // ═══════════════════════════════════════════════════════
-        // Tamil Nanban - Free Exam Result Lookup
-        // 🔥 Firebase Quota Optimization: 1-hour cache in localStorage
-        // ═══════════════════════════════════════════════════════
-        
-        firebase.initializeApp({
-            apiKey: "AIzaSyBpkL8eZT0u5mnxCxmVZMmmemX15BCaNf4",
-            authDomain: "a1-coaching.firebaseapp.com",
-            databaseURL: "https://tamil-nanban-default-rtdb.asia-southeast1.firebasedatabase.app",
-            projectId: "a1-coaching",
-            storageBucket: "a1-coaching.firebasestorage.app",
-            messagingSenderId: "240838259015",
-            appId: "1:240838259015:web:a5b80f33e9a0fec5ea24b0"
-        });
-        const db = firebase.database();
-        
-        const CACHE_KEY = 'tn_free_results_cache';
-        const CACHE_TTL_MS = 60 * 60 * 1000; // 1 hour
-        
         let currentData = null;
-        let currentMobile = null;
+        let currentSort = 'az';
+        let currentSearch = '';
         
-        function timeFmt(seconds) {
-            const m = Math.floor(seconds / 60);
-            const s = seconds % 60;
-            return `${m}:${String(s).padStart(2,'0')}`;
+        // Smart default date: if after 10:15 PM today, use today; else yesterday
+        const now = new Date();
+        const isAfter1015pm = (now.getHours() > 22) || (now.getHours() === 22 && now.getMinutes() >= 15);
+        const defaultDate = new Date();
+        if (!isAfter1015pm) {
+            defaultDate.setDate(defaultDate.getDate() - 1);
         }
+        document.getElementById('examDate').value = defaultDate.toISOString().split('T')[0];
         
         function showError(msg) {
             const el = document.getElementById('errorMsg');
@@ -382,335 +347,175 @@
             setTimeout(() => el.style.display = 'none', 5000);
         }
         
-        function showCacheInfo(msg) {
-            const el = document.getElementById('cacheInfo');
-            el.textContent = msg;
-            el.style.display = 'block';
-        }
-        
-        // ═══════════════════════════════════════════════════════
-        // 💾 Cache Helpers
-        // ═══════════════════════════════════════════════════════
-        function getCache() {
-            try {
-                const raw = localStorage.getItem(CACHE_KEY);
-                if (!raw) return null;
-                const data = JSON.parse(raw);
-                if (Date.now() - data.timestamp > CACHE_TTL_MS) {
-                    console.log('🕒 Cache expired');
-                    return null;
-                }
-                return data;
-            } catch (e) { return null; }
-        }
-        
-        function setCache(mobile, papersData, allResultsByPaper) {
-            const payload = {
-                mobile,
-                timestamp: Date.now(),
-                papers: papersData,
-                allResultsByPaper  // For rank calculation + top 10
-            };
-            try {
-                localStorage.setItem(CACHE_KEY, JSON.stringify(payload));
-                console.log('💾 Cached for 1 hour');
-            } catch (e) {
-                console.warn('Cache save failed:', e);
-            }
-        }
-        
-        function clearCache() {
-            localStorage.removeItem(CACHE_KEY);
-            console.log('🗑️ Cache cleared');
-        }
-        
-        // ═══════════════════════════════════════════════════════
-        // 🔥 Firebase Fetch (only when cache miss/expired)
-        // ═══════════════════════════════════════════════════════
-        async function fetchFromFirebase(mobile) {
-            console.log('🔥 Firebase READ triggered for:', mobile);
+        async function loadResults() {
+            const examDate = document.getElementById('examDate').value;
+            const paperKey = document.getElementById('paperSelect').value;
             
-            // ONE big read of all results — then filter locally
-            const snap = await db.ref('free_exam_results').once('value');
-            
-            const allByPaper = { paper1: [], paper2: [] };
-            const myPapers = { paper1: null, paper2: null };
-            
-            snap.forEach(child => {
-                const r = child.val();
-                if (!r || !r.examFile || r.isTestMode) return;
-                const examKey = r.examFile.replace('.json', '');
-                if (!allByPaper[examKey]) return;
-                
-                allByPaper[examKey].push({
-                    phoneNumber: r.phoneNumber,
-                    studentName: r.studentName,
-                    score: r.score,
-                    totalQuestions: r.totalQuestions,
-                    percentage: r.percentage,
-                    timeTaken: r.timeTaken,
-                    completedAt: r.completedAt,
-                    correctAnswers: r.correctAnswers,
-                    wrongAnswers: r.wrongAnswers,
-                    unanswered: r.unanswered
-                });
-                
-                if (r.phoneNumber === mobile) {
-                    myPapers[examKey] = {
-                        score: r.score,
-                        totalQuestions: r.totalQuestions,
-                        percentage: r.percentage,
-                        correctAnswers: r.correctAnswers,
-                        wrongAnswers: r.wrongAnswers,
-                        unanswered: r.unanswered,
-                        timeTaken: r.timeTaken,
-                        completedAt: r.completedAt,
-                        studentName: r.studentName
-                    };
-                }
-            });
-            
-            // Sort each paper: score DESC, timeTaken ASC
-            for (const key of ['paper1', 'paper2']) {
-                allByPaper[key].sort((a, b) => {
-                    if (b.score !== a.score) return b.score - a.score;
-                    return (a.timeTaken || 0) - (b.timeTaken || 0);
-                });
-            }
-            
-            return { myPapers, allByPaper };
-        }
-        
-        // ═══════════════════════════════════════════════════════
-        // 🎯 Main: Fetch Results (uses cache if valid)
-        // ═══════════════════════════════════════════════════════
-        async function fetchResults() {
-            const mobile = document.getElementById('mobileInput').value.trim();
-            
-            if (!/^[0-9]{10}$/.test(mobile)) {
-                showError('சரியான 10 இலக்க மொபைல் எண்ணை உள்ளிடவும்');
+            if (!examDate) {
+                showError('தேதியை தேர்ந்தெடுக்கவும்!');
                 return;
             }
             
-            const btn = document.getElementById('fetchBtn');
-            btn.disabled = true;
-            btn.innerHTML = '<span class="spinner"></span> ஏற்றப்படுகிறது...';
+            document.getElementById('resultsSection').style.display = 'none';
+            document.getElementById('emptyState').style.display = 'none';
+            document.getElementById('loadingBox').style.display = 'block';
+            
+            // 🚫 NO Firebase! Static JSON fetch
+            const fileName = `${paperKey}_results_${examDate}.json`;
+            const url = `results/${fileName}`;
             
             try {
-                // 1️⃣ Try cache first
-                const cached = getCache();
-                if (cached && cached.mobile === mobile) {
-                    const ageMin = Math.round((Date.now() - cached.timestamp) / 60000);
-                    console.log(`✅ Cache hit (${ageMin} min old) — NO Firebase read`);
-                    currentData = { myPapers: cached.papers, allByPaper: cached.allResultsByPaper };
-                    currentMobile = mobile;
-                    showResults(currentData);
-                    showCacheInfo(`💾 Cache-ல் இருந்து load ஆனது (${ageMin} நிமிடம் முந்தைய data)`);
-                    return;
+                const response = await fetch(url);
+                if (!response.ok) {
+                    throw new Error(`File not found (${response.status})`);
                 }
                 
-                // 2️⃣ Cache miss → Firebase
-                const data = await fetchFromFirebase(mobile);
-                
-                if (!data.myPapers.paper1 && !data.myPapers.paper2) {
-                    showError('இந்த மொபைல் எண்ணுக்கு தேர்வு பதிவுகள் இல்லை');
-                    return;
-                }
-                
+                const data = await response.json();
                 currentData = data;
-                currentMobile = mobile;
-                setCache(mobile, data.myPapers, data.allByPaper);
-                showResults(data);
-                showCacheInfo('✅ Firebase-லிருந்து புதிய data load ஆனது (1 மணி நேரம் cache)');
+                
+                document.getElementById('loadingBox').style.display = 'none';
+                
+                if (!data.results || data.results.length === 0) {
+                    document.getElementById('emptyState').style.display = 'block';
+                    return;
+                }
+                
+                renderResults();
                 
             } catch (err) {
-                console.error('Error:', err);
-                showError('பிழை: ' + err.message);
-            } finally {
-                btn.disabled = false;
-                btn.innerHTML = '🔍 முடிவுகள் பார்க்க';
+                document.getElementById('loadingBox').style.display = 'none';
+                document.getElementById('emptyState').style.display = 'block';
+                console.warn('Load error:', err.message);
             }
         }
         
-        // ═══════════════════════════════════════════════════════
-        // 📊 Display Results
-        // ═══════════════════════════════════════════════════════
-        function showResults(data) {
-            document.getElementById('resultsSection').style.display = 'block';
-            
-            // Enable/disable tabs based on which papers attempted
-            const tabP1 = document.getElementById('tabP1');
-            const tabP2 = document.getElementById('tabP2');
-            tabP1.disabled = !data.myPapers.paper1;
-            tabP2.disabled = !data.myPapers.paper2;
-            
-            // Show first available paper
-            if (data.myPapers.paper1) {
-                showPaper('paper1');
-            } else if (data.myPapers.paper2) {
-                showPaper('paper2');
-            }
-        }
-        
-        function showPaper(paperKey) {
+        function renderResults() {
             if (!currentData) return;
             
-            // Tab UI
-            document.getElementById('tabP1').classList.toggle('active', paperKey === 'paper1');
-            document.getElementById('tabP2').classList.toggle('active', paperKey === 'paper2');
+            const results = currentData.results;
+            document.getElementById('totalCount').textContent = results.length;
             
-            const myResult = currentData.myPapers[paperKey];
-            const allResults = currentData.allByPaper[paperKey] || [];
-            const container = document.getElementById('paperContent');
+            // Topper = rank 1
+            const topper = results.find(r => r.rank === 1) || results[0];
+            document.getElementById('topScore').textContent = topper?.score || 0;
+            document.getElementById('topperName').textContent = topper?.name || '—';
             
-            if (!myResult) {
-                container.innerHTML = `
-                    <div class="result-card">
-                        <div class="empty-paper">
-                            <div class="icon">📭</div>
-                            <h3>இந்த தேர்வை நீங்கள் எழுதவில்லை</h3>
-                            <p style="margin-top:10px;color:#94a3b8;font-size:0.9rem;">
-                                ${paperKey === 'paper1' ? 'கணிதம் + அறிவியல்' : 'சமூக அறிவியல்'} தேர்வுக்கு பதிவு செய்யவில்லை
-                            </p>
-                        </div>
-                    </div>
-                `;
-                return;
+            const avg = results.reduce((s, r) => s + r.score, 0) / results.length;
+            document.getElementById('avgScore').textContent = avg.toFixed(1);
+            
+            // Filter
+            let display = [...results];
+            if (currentSearch) {
+                const q = currentSearch.toLowerCase();
+                display = display.filter(r => 
+                    (r.name || '').toLowerCase().includes(q) ||
+                    (r.phone || '').includes(q)
+                );
             }
             
-            // Find rank
-            const rank = allResults.findIndex(r => r.phoneNumber === currentMobile) + 1;
-            const totalParticipants = allResults.length;
+            // Sort
+            if (currentSort === 'az') {
+                display.sort((a, b) => (a.name || '').localeCompare(b.name || '', 'ta'));
+            } else {
+                display.sort((a, b) => a.rank - b.rank);
+            }
             
-            // Top 10
-            const top10 = allResults.slice(0, 10);
-            const top10Html = top10.map((r, i) => {
-                const isMe = r.phoneNumber === currentMobile;
-                const medal = i === 0 ? '🥇' : i === 1 ? '🥈' : i === 2 ? '🥉' : `${i+1}`;
+            const tbody = document.getElementById('tableBody');
+            tbody.innerHTML = display.map(r => {
+                const rankClass = r.rank === 1 ? 'rank-1' : r.rank === 2 ? 'rank-2' : r.rank === 3 ? 'rank-3' : '';
+                const medal = r.rank === 1 ? '🥇' : r.rank === 2 ? '🥈' : r.rank === 3 ? '🥉' : r.rank;
+                const phoneMask = r.phone ? r.phone.slice(0,2) + '****' + r.phone.slice(-2) : '—';
                 return `
-                    <div class="lb-row ${isMe ? 'me' : ''}">
-                        <div class="lb-rank">${medal}</div>
-                        <div class="lb-name">
-                            ${r.studentName || 'மாணவர்'}
-                            ${isMe ? ' ⭐' : ''}
-                        </div>
-                        <div class="lb-score">${r.score}/${r.totalQuestions}</div>
-                    </div>
+                    <tr>
+                        <td class="rank-cell ${rankClass}">${medal}</td>
+                        <td class="name-cell">${r.name || 'மாணவர்'}</td>
+                        <td class="phone-cell">${phoneMask}</td>
+                        <td class="score-cell">${r.score}/${r.total}</td>
+                        <td class="pct-cell">${(r.percentage || 0).toFixed(1)}%</td>
+                    </tr>
                 `;
             }).join('');
             
-            // If user not in top 10, show their row separately
-            let myRowExtra = '';
-            if (rank > 10) {
-                myRowExtra = `
-                    <div style="text-align:center;padding:10px;color:#94a3b8;font-size:0.85rem;">⋯</div>
-                    <div class="lb-row me">
-                        <div class="lb-rank">${rank}</div>
-                        <div class="lb-name">
-                            ${myResult.studentName || 'நீங்கள்'} ⭐
-                        </div>
-                        <div class="lb-score">${myResult.score}/${myResult.totalQuestions}</div>
-                    </div>
-                `;
+            document.getElementById('resultsSection').style.display = 'block';
+        }
+        
+        function setSort(mode) {
+            currentSort = mode;
+            document.getElementById('btnAZ').classList.toggle('active', mode === 'az');
+            document.getElementById('btnRank').classList.toggle('active', mode === 'rank');
+            renderResults();
+        }
+        
+        document.getElementById('searchInput').addEventListener('input', (e) => {
+            currentSearch = e.target.value.trim();
+            renderResults();
+        });
+        
+        function downloadPDF() {
+            if (!currentData || !currentData.results.length) {
+                alert('முதலில் முடிவுகளை load பண்ணுங்கள்');
+                return;
             }
             
-            const examTitle = paperKey === 'paper1' 
-                ? 'ஆசிரியர் தகுதி தேர்வு - கணிதம் + அறிவியல்' 
-                : 'ஆசிரியர் தகுதி தேர்வு - சமூக அறிவியல்';
+            const { jsPDF } = window.jspdf;
+            const doc = new jsPDF();
             
-            container.innerHTML = `
-                <div class="result-card">
-                    <div class="score-banner">
-                        <h2>${myResult.score}/${myResult.totalQuestions}</h2>
-                        <p class="pct">${(myResult.percentage || 0).toFixed(1)}%</p>
-                    </div>
-                    
-                    <div class="rank-display">
-                        <div class="rank-item">
-                            <div class="icon">🏆</div>
-                            <div class="value">${rank}</div>
-                            <div class="label">உங்கள் Rank</div>
-                        </div>
-                        <div class="rank-item">
-                            <div class="icon">👥</div>
-                            <div class="value">${totalParticipants}</div>
-                            <div class="label">மொத்தம்</div>
-                        </div>
-                        <div class="rank-item">
-                            <div class="icon">⏱️</div>
-                            <div class="value">${Math.round((myResult.timeTaken || 0)/60)}</div>
-                            <div class="label">நிமிடம்</div>
-                        </div>
-                    </div>
-                    
-                    <div class="details">
-                        <div class="detail-row">
-                            <span class="label">தேர்வு:</span>
-                            <span class="value" style="font-size:0.8rem;">${examTitle}</span>
-                        </div>
-                        <div class="detail-row">
-                            <span class="label">மாணவர் பெயர்:</span>
-                            <span class="value">${myResult.studentName || '—'}</span>
-                        </div>
-                        <div class="detail-row">
-                            <span class="label">சரியான பதில்கள்:</span>
-                            <span class="value" style="color:#10b981;">${myResult.correctAnswers}</span>
-                        </div>
-                        <div class="detail-row">
-                            <span class="label">தவறான பதில்கள்:</span>
-                            <span class="value" style="color:#ef4444;">${myResult.wrongAnswers}</span>
-                        </div>
-                        <div class="detail-row">
-                            <span class="label">விடை எழுதாதவை:</span>
-                            <span class="value" style="color:#94a3b8;">${myResult.unanswered || 0}</span>
-                        </div>
-                        <div class="detail-row">
-                            <span class="label">முடித்த நேரம்:</span>
-                            <span class="value">${new Date(myResult.completedAt).toLocaleString('ta-IN')}</span>
-                        </div>
-                    </div>
-                    
-                    <div class="top-ten">
-                        <h3>🏆 Top 10 மாணவர்கள்</h3>
-                        ${top10Html || '<p style="text-align:center;color:#94a3b8;">இன்னும் முடிவுகள் இல்லை</p>'}
-                        ${myRowExtra}
-                    </div>
-                </div>
-            `;
+            doc.setFontSize(16);
+            doc.setFont(undefined, 'bold');
+            doc.text('Tamil Nanban - Free Exam Results', 105, 15, { align: 'center' });
+            
+            doc.setFontSize(11);
+            doc.setFont(undefined, 'normal');
+            const titleText = currentData.paper === 'paper1' 
+                ? 'Paper 1: Mathematics + Science' 
+                : 'Paper 2: Social Science';
+            doc.text(titleText, 105, 22, { align: 'center' });
+            doc.text(`Exam Date: ${currentData.examDate}`, 105, 28, { align: 'center' });
+            doc.text(`Total Students: ${currentData.totalStudents}`, 105, 34, { align: 'center' });
+            
+            let pdfData = [...currentData.results];
+            if (currentSort === 'az') {
+                pdfData.sort((a, b) => (a.name || '').localeCompare(b.name || ''));
+            } else {
+                pdfData.sort((a, b) => a.rank - b.rank);
+            }
+            
+            const tableData = pdfData.map(r => [
+                r.rank,
+                r.name || 'Student',
+                r.phone ? r.phone.slice(0,2) + '****' + r.phone.slice(-2) : '—',
+                `${r.score}/${r.total}`,
+                `${(r.percentage || 0).toFixed(1)}%`
+            ]);
+            
+            doc.autoTable({
+                head: [['Rank', 'Name', 'Mobile', 'Score', '%']],
+                body: tableData,
+                startY: 40,
+                styles: { fontSize: 9, cellPadding: 2 },
+                headStyles: { fillColor: [102, 126, 234], textColor: 255, fontStyle: 'bold' },
+                alternateRowStyles: { fillColor: [248, 250, 252] },
+                columnStyles: {
+                    0: { halign: 'center', cellWidth: 18 },
+                    1: { cellWidth: 70 },
+                    2: { cellWidth: 35 },
+                    3: { halign: 'center', cellWidth: 28 },
+                    4: { halign: 'center', cellWidth: 20 }
+                },
+                didDrawPage: (data) => {
+                    const pageCount = doc.internal.getNumberOfPages();
+                    doc.setFontSize(8);
+                    doc.text(
+                        `Page ${data.pageNumber} / ${pageCount} — Generated: ${new Date().toLocaleString('en-IN')}`,
+                        105, doc.internal.pageSize.height - 8, { align: 'center' }
+                    );
+                }
+            });
+            
+            const sortLabel = currentSort === 'az' ? 'AZ' : 'Rank';
+            const filename = `${currentData.paper}_results_${currentData.examDate}_${sortLabel}.pdf`;
+            doc.save(filename);
         }
-        
-        // ═══════════════════════════════════════════════════════
-        // Helpers
-        // ═══════════════════════════════════════════════════════
-        function refreshData() {
-            if (!currentMobile) return;
-            clearCache();
-            document.getElementById('mobileInput').value = currentMobile;
-            fetchResults();
-        }
-        
-        function resetLookup() {
-            document.getElementById('resultsSection').style.display = 'none';
-            document.getElementById('mobileInput').value = '';
-            document.getElementById('mobileInput').focus();
-            document.getElementById('cacheInfo').style.display = 'none';
-        }
-        
-        // Auto-fill if mobile is in localStorage (from registration)
-        const savedMobile = localStorage.getItem('studentMobile');
-        if (savedMobile && /^[0-9]{10}$/.test(savedMobile)) {
-            document.getElementById('mobileInput').value = savedMobile;
-        }
-        
-        // Allow Enter key
-        document.getElementById('mobileInput').addEventListener('keypress', (e) => {
-            if (e.key === 'Enter') fetchResults();
-        });
-        
-        // Only digits in input
-        document.getElementById('mobileInput').addEventListener('input', (e) => {
-            e.target.value = e.target.value.replace(/[^0-9]/g, '');
-        });
     </script>
 </body>
 </html>

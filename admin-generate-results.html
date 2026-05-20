@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result Generator - Admin</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=Noto+Sans+Tamil:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Outfit', 'Noto Sans Tamil', sans-serif;
+            background: #1e293b;
+            color: #e2e8f0;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container { max-width: 800px; margin: 0 auto; }
+        h1 {
+            color: #f59e0b;
+            margin-bottom: 8px;
+            font-size: 1.8rem;
+        }
+        .subtitle { color: #94a3b8; margin-bottom: 25px; font-size: 0.95rem; }
+        
+        .card {
+            background: #334155;
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 20px;
+            border: 1px solid #475569;
+        }
+        
+        .auth-card {
+            background: #1e293b;
+            border: 2px solid #f59e0b;
+        }
+        
+        label {
+            display: block;
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: #fbbf24;
+            font-size: 0.9rem;
+        }
+        
+        input, select {
+            width: 100%;
+            padding: 12px 14px;
+            background: #1e293b;
+            border: 2px solid #475569;
+            color: #e2e8f0;
+            border-radius: 8px;
+            font-size: 1rem;
+            margin-bottom: 15px;
+            font-family: inherit;
+        }
+        input:focus, select:focus {
+            outline: none;
+            border-color: #f59e0b;
+        }
+        
+        button {
+            width: 100%;
+            padding: 14px;
+            background: linear-gradient(135deg, #f59e0b, #dc2626);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-weight: 700;
+            font-size: 1rem;
+            cursor: pointer;
+            font-family: inherit;
+            transition: transform 0.2s;
+            margin-bottom: 10px;
+        }
+        button:hover:not(:disabled) { transform: translateY(-2px); }
+        button:disabled { opacity: 0.5; cursor: not-allowed; }
+        
+        .btn-download {
+            background: linear-gradient(135deg, #10b981, #059669);
+        }
+        
+        .log-box {
+            background: #0f172a;
+            border: 1px solid #475569;
+            border-radius: 8px;
+            padding: 15px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.85rem;
+            max-height: 350px;
+            overflow-y: auto;
+            white-space: pre-wrap;
+            line-height: 1.5;
+        }
+        .log-info { color: #60a5fa; }
+        .log-success { color: #34d399; }
+        .log-warn { color: #fbbf24; }
+        .log-error { color: #f87171; }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            margin-bottom: 15px;
+        }
+        .stat {
+            background: #1e293b;
+            padding: 14px;
+            border-radius: 10px;
+            border-left: 3px solid #f59e0b;
+        }
+        .stat .label { color: #94a3b8; font-size: 0.78rem; margin-bottom: 4px; text-transform: uppercase; }
+        .stat .value { font-size: 1.6rem; font-weight: 800; color: #fbbf24; }
+        
+        .download-section { display: none; }
+        .download-section.show { display: block; }
+        
+        .instructions {
+            background: #1e3a8a;
+            border-left: 4px solid #60a5fa;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 15px;
+            font-size: 0.9rem;
+            line-height: 1.7;
+        }
+        .instructions code {
+            background: #0f172a;
+            padding: 2px 6px;
+            border-radius: 4px;
+            color: #fbbf24;
+            font-family: 'Courier New', monospace;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🛠️ Result Generator (Admin)</h1>
+        <p class="subtitle">Firebase-லிருந்து தினசரி தேர்வு முடிவுகளை JSON-ஆ generate செய்ய</p>
+        
+        <!-- Admin Authentication -->
+        <div class="card auth-card" id="authCard">
+            <h2 style="color:#f59e0b;margin-bottom:15px;">🔐 Admin Login</h2>
+            <label>Admin Key</label>
+            <input type="password" id="adminKey" placeholder="A1ADMIN2025" autocomplete="off">
+            <button onclick="login()">🔓 Login</button>
+        </div>
+        
+        <!-- Main Panel -->
+        <div id="mainPanel" style="display:none;">
+            <div class="card">
+                <h2 style="color:#f59e0b;margin-bottom:15px;">📅 தேர்வு தேதி தேர்வு</h2>
+                <label>Exam Date</label>
+                <input type="date" id="examDate">
+                <button onclick="generateResults()" id="genBtn">
+                    🔥 Firebase-ல் இருந்து Results Generate செய்
+                </button>
+            </div>
+            
+            <div class="card">
+                <h2 style="color:#fbbf24;margin-bottom:15px;">📋 Process Log</h2>
+                <div class="log-box" id="logBox">இங்கே log messages வரும்...</div>
+            </div>
+            
+            <!-- Download Section -->
+            <div class="card download-section" id="downloadSection">
+                <h2 style="color:#34d399;margin-bottom:15px;">✅ Generated Files</h2>
+                
+                <div class="stats-grid">
+                    <div class="stat">
+                        <div class="label">📘 Paper 1 (Maths+Sci)</div>
+                        <div class="value" id="p1Count">0</div>
+                    </div>
+                    <div class="stat">
+                        <div class="label">📗 Paper 2 (Social)</div>
+                        <div class="value" id="p2Count">0</div>
+                    </div>
+                </div>
+                
+                <button class="btn-download" onclick="downloadFile('paper1')" id="p1DlBtn">
+                    📥 Download Paper 1 Results
+                </button>
+                <button class="btn-download" onclick="downloadFile('paper2')" id="p2DlBtn">
+                    📥 Download Paper 2 Results
+                </button>
+                
+                <div class="instructions">
+                    <strong>📌 அடுத்த step:</strong><br>
+                    1. மேலே உள்ள 2 JSON files-ஐ download பண்ணுங்கள்<br>
+                    2. Cloudflare project-ல் <code>/results/</code> folder-ஐ create பண்ணுங்கள்<br>
+                    3. அந்த folder-ல் இந்த files upload பண்ணுங்கள்<br>
+                    4. <code>git push</code> அல்லது Cloudflare upload<br>
+                    5. <code>free-result-check.html</code>-ல் மாணவர்கள் இந்த files-ஐ பார்க்க முடியும்<br>
+                    <br>
+                    File names:<br>
+                    <code>paper1_results_YYYY-MM-DD.json</code><br>
+                    <code>paper2_results_YYYY-MM-DD.json</code>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+    
+    <script>
+        // Admin secret — change this to your own key
+        const ADMIN_KEY = 'A1ADMIN2025';
+        
+        firebase.initializeApp({
+            apiKey: "AIzaSyBpkL8eZT0u5mnxCxmVZMmmemX15BCaNf4",
+            authDomain: "a1-coaching.firebaseapp.com",
+            databaseURL: "https://tamil-nanban-default-rtdb.asia-southeast1.firebasedatabase.app",
+            projectId: "a1-coaching",
+            storageBucket: "a1-coaching.firebasestorage.app",
+            messagingSenderId: "240838259015",
+            appId: "1:240838259015:web:a5b80f33e9a0fec5ea24b0"
+        });
+        const db = firebase.database();
+        
+        let generatedData = { paper1: null, paper2: null };
+        let selectedDate = '';
+        
+        function log(msg, type = 'info') {
+            const box = document.getElementById('logBox');
+            const time = new Date().toLocaleTimeString('en-IN');
+            const cls = `log-${type}`;
+            box.innerHTML += `\n<span class="${cls}">[${time}] ${msg}</span>`;
+            box.scrollTop = box.scrollHeight;
+        }
+        
+        function login() {
+            const key = document.getElementById('adminKey').value.trim();
+            if (key !== ADMIN_KEY) {
+                alert('❌ தவறான Admin Key!');
+                return;
+            }
+            document.getElementById('authCard').style.display = 'none';
+            document.getElementById('mainPanel').style.display = 'block';
+            
+            // Set default date to today
+            const today = new Date().toISOString().split('T')[0];
+            document.getElementById('examDate').value = today;
+            
+            log('✅ Admin authenticated successfully', 'success');
+            log(`📅 Default date: ${today}`, 'info');
+        }
+        
+        async function generateResults() {
+            selectedDate = document.getElementById('examDate').value;
+            if (!selectedDate) {
+                alert('தேதியை தேர்ந்தெடுக்கவும்!');
+                return;
+            }
+            
+            const btn = document.getElementById('genBtn');
+            btn.disabled = true;
+            btn.textContent = '⏳ Generating...';
+            
+            log(`\n━━━ ${selectedDate} தேதிக்கான Generation தொடங்கியது ━━━`, 'warn');
+            
+            try {
+                // 🔥 ONE Firebase read for ALL today's results
+                log('🔥 Firebase READ — Fetching all results...', 'info');
+                const snap = await db.ref('free_exam_results').once('value');
+                
+                const byPaper = { paper1: [], paper2: [] };
+                let totalRecords = 0;
+                let testModeSkipped = 0;
+                let otherDatesSkipped = 0;
+                
+                snap.forEach(child => {
+                    const r = child.val();
+                    if (!r) return;
+                    totalRecords++;
+                    
+                    if (r.isTestMode) { testModeSkipped++; return; }
+                    if (r.examDate !== selectedDate) { otherDatesSkipped++; return; }
+                    if (!r.examFile) return;
+                    
+                    const key = r.examFile.replace('.json', '');
+                    if (!byPaper[key]) return;
+                    
+                    byPaper[key].push({
+                        phone: r.phoneNumber,
+                        name: r.studentName || 'மாணவர்',
+                        score: r.score,
+                        total: r.totalQuestions,
+                        correct: r.correctAnswers,
+                        wrong: r.wrongAnswers,
+                        unanswered: r.unanswered || 0,
+                        percentage: r.percentage || 0,
+                        timeTaken: r.timeTaken || 0,
+                        completedAt: r.completedAt
+                    });
+                });
+                
+                log(`📊 மொத்த records: ${totalRecords}`, 'info');
+                log(`🧪 Test mode skipped: ${testModeSkipped}`, 'info');
+                log(`📅 Other dates skipped: ${otherDatesSkipped}`, 'info');
+                log(`📘 Paper 1 students: ${byPaper.paper1.length}`, 'success');
+                log(`📗 Paper 2 students: ${byPaper.paper2.length}`, 'success');
+                
+                // Sort each paper by score DESC, timeTaken ASC → assign rank
+                for (const paperKey of ['paper1', 'paper2']) {
+                    byPaper[paperKey].sort((a, b) => {
+                        if (b.score !== a.score) return b.score - a.score;
+                        return a.timeTaken - b.timeTaken;
+                    });
+                    byPaper[paperKey].forEach((r, i) => r.rank = i + 1);
+                }
+                
+                log('✅ Ranks calculated (score DESC, time ASC tiebreak)', 'success');
+                
+                // Build final JSON
+                generatedData.paper1 = {
+                    examDate: selectedDate,
+                    paper: 'paper1',
+                    examTitle: 'ஆசிரியர் தகுதி தேர்வு - கணிதம் + அறிவியல்',
+                    totalStudents: byPaper.paper1.length,
+                    generatedAt: new Date().toISOString(),
+                    results: byPaper.paper1
+                };
+                
+                generatedData.paper2 = {
+                    examDate: selectedDate,
+                    paper: 'paper2',
+                    examTitle: 'ஆசிரியர் தகுதி தேர்வு - சமூக அறிவியல்',
+                    totalStudents: byPaper.paper2.length,
+                    generatedAt: new Date().toISOString(),
+                    results: byPaper.paper2
+                };
+                
+                // Display
+                document.getElementById('p1Count').textContent = byPaper.paper1.length;
+                document.getElementById('p2Count').textContent = byPaper.paper2.length;
+                document.getElementById('downloadSection').classList.add('show');
+                
+                document.getElementById('p1DlBtn').disabled = byPaper.paper1.length === 0;
+                document.getElementById('p2DlBtn').disabled = byPaper.paper2.length === 0;
+                
+                log(`\n✅ ━━━ Generation Complete! ━━━`, 'success');
+                log(`📥 கீழே உள்ள buttons-ஐ click செய்து files-ஐ download பண்ணுங்கள்`, 'warn');
+                
+            } catch (err) {
+                log(`❌ Error: ${err.message}`, 'error');
+                console.error(err);
+            } finally {
+                btn.disabled = false;
+                btn.textContent = '🔥 Firebase-ல் இருந்து Results Generate செய்';
+            }
+        }
+        
+        function downloadFile(paperKey) {
+            const data = generatedData[paperKey];
+            if (!data) { alert('Generate first!'); return; }
+            
+            const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const filename = `${paperKey}_results_${selectedDate}.json`;
+            
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = filename;
+            a.click();
+            URL.revokeObjectURL(url);
+            
+            log(`📥 Downloaded: ${filename}`, 'success');
+        }
+    </script>
+</body>
+</html>
