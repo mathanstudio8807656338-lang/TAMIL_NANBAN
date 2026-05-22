@@ -185,6 +185,22 @@
                 <input type="date" id="dobInput" required>
             </div>
             
+            <div class="form-group">
+                <label for="categoryInput">இனப்பிரிவு (Community) *</label>
+                <select id="categoryInput" required style="width:100%;padding:14px 16px;border:2px solid #e2e8f0;border-radius:12px;font-size:1rem;font-family:inherit;background:white;cursor:pointer;">
+                    <option value="">-- தேர்ந்தெடுக்கவும் --</option>
+                    <option value="OC">General / OC (60%)</option>
+                    <option value="BC">BC - Backward Class (50%)</option>
+                    <option value="BCM">BCM - BC Muslim (50%)</option>
+                    <option value="MBC">MBC - Most Backward Class (50%)</option>
+                    <option value="DNC">DNC - Denotified Community (50%)</option>
+                    <option value="SC">SC - Scheduled Caste (40%)</option>
+                    <option value="SCA">SCA - SC Arunthathiyar (40%)</option>
+                    <option value="ST">ST - Scheduled Tribe (40%)</option>
+                    <option value="PWD">PWD - Differently Abled (40%)</option>
+                </select>
+            </div>
+            
             <button type="submit" class="btn-submit" id="submitBtn">
                 தேர்வை தொடங்கு →
             </button>
@@ -269,6 +285,7 @@
             const mobile = document.getElementById('mobileInput').value.trim();
             const name = document.getElementById('nameInput').value.trim();
             const dob = document.getElementById('dobInput').value;
+            const category = document.getElementById('categoryInput').value;
             
             const errorMsg = document.getElementById('errorMsg');
             const successMsg = document.getElementById('successMsg');
@@ -279,8 +296,8 @@
             successMsg.style.display = 'none';
 
             // Validation
-            if (!mobile || !name || !dob) {
-                errorMsg.textContent = 'அனைத்து தகவல்களையும் நிரப்பவும்!';
+            if (!mobile || !name || !dob || !category) {
+                errorMsg.textContent = 'அனைத்து தகவல்களையும் நிரப்பவும்! (இனப்பிரிவு உட்பட)';
                 errorMsg.style.display = 'block';
                 console.log('❌ Validation failed: Empty fields');
                 return;
@@ -329,6 +346,7 @@
                     mobile: mobile,
                     name: name,
                     dob: dob,
+                    category: category,
                     examFile: examFile,
                     registeredAt: new Date().toISOString(),
                     examDate: today,
@@ -341,10 +359,11 @@
 
                 console.log('✅ Registration saved successfully!');
                 
-                // 💾 Save student name & details to localStorage for quiz page
+                // 💾 Save student details to localStorage for quiz page
                 localStorage.setItem('studentName', name);
                 localStorage.setItem('studentMobile', mobile);
                 localStorage.setItem('studentDob', dob);
+                localStorage.setItem('studentCategory', category);
                 
                 successMsg.textContent = 'பதிவு வெற்றிகரமாக முடிந்தது! தேர்வுக்கு செல்கிறீர்கள்...';
                 successMsg.style.display = 'block';

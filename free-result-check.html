@@ -10,229 +10,74 @@
         body {
             font-family: 'Outfit', 'Noto Sans Tamil', sans-serif;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-            padding: 20px;
-            padding-bottom: 60px;
+            min-height: 100vh; padding: 20px; padding-bottom: 60px;
         }
         .container { max-width: 900px; margin: 0 auto; }
-        
         .header { text-align: center; color: white; margin-bottom: 25px; }
-        .header h1 {
-            font-family: 'Baloo Thambi 2', cursive;
-            font-size: 2.3rem;
-            margin-bottom: 8px;
-        }
+        .header h1 { font-family: 'Baloo Thambi 2', cursive; font-size: 2.3rem; margin-bottom: 8px; }
         .header p { font-size: 1rem; opacity: 0.95; }
-        
-        .control-panel {
-            background: white;
-            border-radius: 20px;
-            padding: 22px;
-            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
-            margin-bottom: 20px;
-        }
-        
-        .control-row {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 12px;
-            margin-bottom: 15px;
-        }
-        
-        .control-row label {
-            display: block;
-            font-weight: 700;
-            color: #334155;
-            margin-bottom: 6px;
-            font-size: 0.85rem;
-        }
-        
-        .control-row input, .control-row select {
-            width: 100%;
-            padding: 12px 14px;
-            border: 2px solid #e2e8f0;
-            border-radius: 10px;
-            font-size: 0.95rem;
-            font-family: inherit;
-        }
-        .control-row input:focus, .control-row select:focus {
-            outline: none;
-            border-color: #667eea;
-        }
-        
-        .btn-load {
-            width: 100%;
-            padding: 14px;
-            background: linear-gradient(135deg, #667eea, #764ba2);
-            color: white;
-            border: none;
-            border-radius: 10px;
-            font-weight: 700;
-            font-size: 1rem;
-            cursor: pointer;
-            font-family: inherit;
-        }
-        
-        .error-msg {
-            background: #fef2f2;
-            color: #991b1b;
-            padding: 12px;
-            border-radius: 8px;
-            margin-top: 12px;
-            font-size: 0.9rem;
-            text-align: center;
-            display: none;
-        }
-        
-        .results-section { display: none; }
-        
-        .stats-bar {
-            background: white;
-            border-radius: 15px;
-            padding: 18px;
-            margin-bottom: 15px;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
-            gap: 12px;
-            text-align: center;
-            box-shadow: 0 6px 20px rgba(0,0,0,0.15);
-        }
-        .stat .value { font-size: 1.5rem; font-weight: 800; color: #1e3a8a; }
-        .stat .label { font-size: 0.72rem; color: #64748b; text-transform: uppercase; }
-        
-        .toolbar {
-            background: white;
-            border-radius: 15px;
-            padding: 14px;
-            margin-bottom: 15px;
-            display: flex;
-            gap: 10px;
-            align-items: center;
-            flex-wrap: wrap;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-        }
-        .toolbar input.search {
-            flex: 1;
-            min-width: 180px;
-            padding: 10px 14px;
-            border: 2px solid #e2e8f0;
-            border-radius: 8px;
-            font-family: inherit;
-        }
-        .toolbar input.search:focus {
-            outline: none;
-            border-color: #667eea;
-        }
-        
-        .btn-toggle {
-            padding: 10px 16px;
-            background: #f1f5f9;
-            color: #475569;
-            border: 2px solid #e2e8f0;
-            border-radius: 8px;
-            font-weight: 700;
-            cursor: pointer;
-            font-family: inherit;
-            font-size: 0.9rem;
-            transition: all 0.2s;
-        }
-        .btn-toggle.active {
-            background: #667eea;
-            color: white;
-            border-color: #667eea;
-        }
-        
-        .btn-pdf {
-            padding: 10px 16px;
-            background: linear-gradient(135deg, #10b981, #059669);
-            color: white;
-            border: none;
-            border-radius: 8px;
-            font-weight: 700;
-            cursor: pointer;
-            font-family: inherit;
-            font-size: 0.9rem;
-        }
-        
-        .table-wrap {
-            background: white;
-            border-radius: 15px;
-            padding: 8px;
-            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
-            overflow-x: auto;
-        }
-        
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            font-size: 0.9rem;
-        }
-        th {
-            background: #f1f5f9;
-            padding: 12px 10px;
-            text-align: left;
-            font-weight: 700;
-            color: #1e293b;
-            position: sticky;
-            top: 0;
-            font-size: 0.8rem;
-        }
-        td {
-            padding: 11px 10px;
-            border-bottom: 1px solid #f1f5f9;
-        }
+        .control-panel { background: white; border-radius: 20px; padding: 22px; box-shadow: 0 10px 40px rgba(0,0,0,0.2); margin-bottom: 20px; }
+        .control-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 15px; }
+        .control-row label { display: block; font-weight: 700; color: #334155; margin-bottom: 6px; font-size: 0.85rem; }
+        .control-row input, .control-row select { width: 100%; padding: 12px 14px; border: 2px solid #e2e8f0; border-radius: 10px; font-size: 0.95rem; font-family: inherit; }
+        .control-row input:focus, .control-row select:focus { outline: none; border-color: #667eea; }
+        .mode-tabs { display: flex; gap: 10px; margin-bottom: 15px; }
+        .mode-tab { flex: 1; padding: 12px; text-align: center; font-weight: 700; cursor: pointer; border-radius: 10px; border: 2px solid #e2e8f0; background: #f8fafc; color: #475569; font-family: inherit; font-size: 0.9rem; }
+        .mode-tab.active { background: #667eea; color: white; border-color: #667eea; }
+        .btn-load { width: 100%; padding: 14px; background: linear-gradient(135deg, #667eea, #764ba2); color: white; border: none; border-radius: 10px; font-weight: 700; font-size: 1rem; cursor: pointer; font-family: inherit; }
+        .error-msg { background: #fef2f2; color: #991b1b; padding: 12px; border-radius: 8px; margin-top: 12px; font-size: 0.9rem; text-align: center; display: none; }
+        .individual-result { display: none; }
+        .result-hero { background: white; border-radius: 20px; padding: 25px; box-shadow: 0 10px 40px rgba(0,0,0,0.2); margin-bottom: 15px; }
+        .result-name { text-align: center; font-size: 1.5rem; font-weight: 800; color: #1e3a8a; margin-bottom: 4px; }
+        .result-meta { text-align: center; color: #64748b; font-size: 0.9rem; margin-bottom: 20px; }
+        .passfail-banner { text-align: center; padding: 20px; border-radius: 15px; margin-bottom: 20px; color: white; }
+        .passfail-banner.pass { background: linear-gradient(135deg, #10b981, #059669); }
+        .passfail-banner.fail { background: linear-gradient(135deg, #ef4444, #dc2626); }
+        .passfail-banner .big { font-size: 2.2rem; font-weight: 800; margin-bottom: 5px; }
+        .passfail-banner .sub { font-size: 0.95rem; opacity: 0.95; }
+        .score-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(90px, 1fr)); gap: 10px; margin-bottom: 20px; }
+        .score-item { background: #f8fafc; padding: 16px 8px; border-radius: 12px; text-align: center; }
+        .score-item .icon { font-size: 1.5rem; margin-bottom: 4px; }
+        .score-item .value { font-size: 1.4rem; font-weight: 800; color: #1e3a8a; }
+        .score-item .label { font-size: 0.68rem; color: #64748b; text-transform: uppercase; margin-top: 2px; }
+        .detail-table { width: 100%; border-top: 1px solid #e2e8f0; padding-top: 12px; }
+        .detail-row2 { display: flex; justify-content: space-between; padding: 8px 0; font-size: 0.9rem; }
+        .detail-row2 .l { color: #64748b; }
+        .detail-row2 .v { font-weight: 700; color: #1e293b; }
+        .full-list { display: none; }
+        .stats-bar { background: white; border-radius: 15px; padding: 18px; margin-bottom: 15px; display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); gap: 12px; text-align: center; box-shadow: 0 6px 20px rgba(0,0,0,0.15); }
+        .stat .value { font-size: 1.4rem; font-weight: 800; color: #1e3a8a; }
+        .stat .label { font-size: 0.7rem; color: #64748b; text-transform: uppercase; }
+        .toolbar { background: white; border-radius: 15px; padding: 14px; margin-bottom: 15px; display: flex; gap: 10px; align-items: center; flex-wrap: wrap; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+        .toolbar input.search { flex: 1; min-width: 160px; padding: 10px 14px; border: 2px solid #e2e8f0; border-radius: 8px; font-family: inherit; }
+        .toolbar input.search:focus { outline: none; border-color: #667eea; }
+        .btn-toggle { padding: 10px 14px; background: #f1f5f9; color: #475569; border: 2px solid #e2e8f0; border-radius: 8px; font-weight: 700; cursor: pointer; font-family: inherit; font-size: 0.88rem; }
+        .btn-toggle.active { background: #667eea; color: white; border-color: #667eea; }
+        .btn-pdf { padding: 10px 14px; background: linear-gradient(135deg, #10b981, #059669); color: white; border: none; border-radius: 8px; font-weight: 700; cursor: pointer; font-family: inherit; font-size: 0.88rem; }
+        .table-wrap { background: white; border-radius: 15px; padding: 8px; box-shadow: 0 10px 40px rgba(0,0,0,0.2); overflow-x: auto; }
+        table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
+        th { background: #f1f5f9; padding: 11px 8px; text-align: left; font-weight: 700; color: #1e293b; font-size: 0.78rem; }
+        td { padding: 10px 8px; border-bottom: 1px solid #f1f5f9; }
         tr:hover { background: #fafbfc; }
-        
+        tr.me-row { background: #fef3c7; }
         .rank-cell { font-weight: 800; text-align: center; }
-        .rank-1 { color: #f59e0b; }
-        .rank-2 { color: #94a3b8; }
-        .rank-3 { color: #d97706; }
-        
+        .rank-1 { color: #f59e0b; } .rank-2 { color: #94a3b8; } .rank-3 { color: #d97706; }
         .name-cell { font-weight: 600; color: #1e293b; }
-        .phone-cell { color: #64748b; font-family: monospace; font-size: 0.85rem; }
+        .comm-cell { text-align: center; font-weight: 700; color: #7c3aed; font-size: 0.82rem; }
         .score-cell { font-weight: 700; color: #10b981; text-align: center; }
         .pct-cell { color: #64748b; text-align: center; }
-        
-        .loading {
-            text-align: center;
-            color: white;
-            padding: 40px 20px;
-        }
-        .spinner {
-            border: 4px solid rgba(255,255,255,0.3);
-            border-top: 4px solid white;
-            border-radius: 50%;
-            width: 40px;
-            height: 40px;
-            margin: 0 auto 15px;
-            animation: spin 1s linear infinite;
-        }
+        .result-cell { text-align: center; font-weight: 800; font-size: 0.8rem; }
+        .result-pass { color: #059669; }
+        .result-fail { color: #dc2626; }
+        .loading { text-align: center; color: white; padding: 40px 20px; }
+        .spinner { border: 4px solid rgba(255,255,255,0.3); border-top: 4px solid white; border-radius: 50%; width: 40px; height: 40px; margin: 0 auto 15px; animation: spin 1s linear infinite; }
         @keyframes spin { 100% { transform: rotate(360deg); } }
-        
-        .empty-state {
-            text-align: center;
-            padding: 50px 20px;
-            color: white;
-        }
+        .empty-state { text-align: center; padding: 50px 20px; color: white; }
         .empty-state .icon { font-size: 3rem; margin-bottom: 12px; }
-        
-        .btn-back {
-            display: inline-block;
-            background: rgba(255,255,255,0.2);
-            color: white;
-            padding: 12px 28px;
-            border-radius: 25px;
-            text-decoration: none;
-            font-weight: 700;
-            margin-top: 20px;
-            border: 2px solid rgba(255,255,255,0.4);
-        }
-        
+        .btn-back { display: inline-block; background: rgba(255,255,255,0.2); color: white; padding: 12px 28px; border-radius: 25px; text-decoration: none; font-weight: 700; margin-top: 20px; border: 2px solid rgba(255,255,255,0.4); }
         @media (max-width: 600px) {
             .control-row { grid-template-columns: 1fr; }
-            table { font-size: 0.82rem; }
-            th, td { padding: 8px 6px; }
-            .phone-cell { display: none; }
+            table { font-size: 0.8rem; } th, td { padding: 8px 5px; }
             .header h1 { font-size: 1.8rem; }
         }
     </style>
@@ -241,10 +86,15 @@
     <div class="container">
         <div class="header">
             <h1>📊 தேர்வு முடிவுகள்</h1>
-            <p>இலவச தேர்வு - மாணவர்கள் முழு பட்டியல்</p>
+            <p>இலவச தேர்வு - ஆசிரியர் தகுதி தேர்வு</p>
         </div>
-        
+
         <div class="control-panel">
+            <div class="mode-tabs">
+                <button class="mode-tab active" id="modeIndividual" onclick="setMode('individual')">👤 எனது முடிவு</button>
+                <button class="mode-tab" id="modeFull" onclick="setMode('full')">📋 முழு பட்டியல்</button>
+            </div>
+
             <div class="control-row">
                 <div>
                     <label>📅 தேர்வு தேதி</label>
@@ -258,263 +108,336 @@
                     </select>
                 </div>
             </div>
-            <button class="btn-load" onclick="loadResults()">
-                🔍 முடிவுகள் காண்பி
-            </button>
+
+            <div class="control-row" id="mobileRow" style="grid-template-columns:1fr;">
+                <div>
+                    <label>📱 உங்கள் மொபைல் எண் (10 இலக்கம்)</label>
+                    <input type="tel" id="mobileInput" placeholder="9876543210" maxlength="10">
+                </div>
+            </div>
+
+            <button class="btn-load" onclick="loadResults()">🔍 முடிவுகள் காண்பி</button>
             <div class="error-msg" id="errorMsg"></div>
         </div>
-        
+
         <div id="loadingBox" class="loading" style="display:none;">
             <div class="spinner"></div>
             <p>முடிவுகள் ஏற்றப்படுகின்றன...</p>
         </div>
-        
-        <div class="results-section" id="resultsSection">
-            <div class="stats-bar">
-                <div class="stat">
-                    <div class="value" id="totalCount">0</div>
-                    <div class="label">மொத்தம்</div>
+
+        <div class="individual-result" id="individualResult">
+            <div class="result-hero">
+                <div class="result-name" id="indName">—</div>
+                <div class="result-meta" id="indMeta">—</div>
+                <div class="passfail-banner" id="passfailBanner">
+                    <div class="big" id="pfText">—</div>
+                    <div class="sub" id="pfSub">—</div>
                 </div>
-                <div class="stat">
-                    <div class="value" id="topScore">0</div>
-                    <div class="label">அதிக மதிப்பெண்</div>
+                <div class="score-grid">
+                    <div class="score-item"><div class="icon">🏆</div><div class="value" id="indRank">—</div><div class="label">Rank</div></div>
+                    <div class="score-item"><div class="icon">📝</div><div class="value" id="indScore">—</div><div class="label">மதிப்பெண்</div></div>
+                    <div class="score-item"><div class="icon">📊</div><div class="value" id="indPct">—</div><div class="label">சதவீதம்</div></div>
                 </div>
-                <div class="stat">
-                    <div class="value" id="avgScore">0</div>
-                    <div class="label">சராசரி</div>
-                </div>
-                <div class="stat">
-                    <div class="value" id="topperName" style="font-size:0.95rem;">—</div>
-                    <div class="label">டாப்பர்</div>
+                <div class="detail-table">
+                    <div class="detail-row2"><span class="l">இனப்பிரிவு:</span><span class="v" id="indComm">—</span></div>
+                    <div class="detail-row2"><span class="l">தேர்ச்சி குறைந்தபட்சம்:</span><span class="v" id="indCutoff">—</span></div>
+                    <div class="detail-row2"><span class="l">சரியான பதில்கள்:</span><span class="v" id="indCorrect" style="color:#059669;">—</span></div>
+                    <div class="detail-row2"><span class="l">தவறான பதில்கள்:</span><span class="v" id="indWrong" style="color:#dc2626;">—</span></div>
+                    <div class="detail-row2"><span class="l">விடை எழுதாதவை:</span><span class="v" id="indUnans">—</span></div>
+                    <div class="detail-row2"><span class="l">மொத்த பங்கேற்பாளர்கள்:</span><span class="v" id="indTotal">—</span></div>
                 </div>
             </div>
-            
+        </div>
+
+        <div class="full-list" id="fullList">
+            <div class="stats-bar">
+                <div class="stat"><div class="value" id="totalCount">0</div><div class="label">மொத்தம்</div></div>
+                <div class="stat"><div class="value" id="passCount">0</div><div class="label">தேர்ச்சி</div></div>
+                <div class="stat"><div class="value" id="topScore">0</div><div class="label">அதிக மதிப்பெண்</div></div>
+                <div class="stat"><div class="value" id="topperName" style="font-size:0.9rem;">—</div><div class="label">டாப்பர்</div></div>
+            </div>
             <div class="toolbar">
                 <input type="text" class="search" id="searchInput" placeholder="🔍 பெயர் தேடு...">
                 <button class="btn-toggle active" id="btnAZ" onclick="setSort('az')">A-Z</button>
-                <button class="btn-toggle" id="btnRank" onclick="setSort('rank')">Rank வரிசை</button>
+                <button class="btn-toggle" id="btnRank" onclick="setSort('rank')">Rank</button>
                 <button class="btn-pdf" onclick="downloadPDF()">📥 PDF</button>
             </div>
-            
             <div class="table-wrap">
                 <table>
                     <thead>
                         <tr>
-                            <th style="width:60px;text-align:center;">Rank</th>
+                            <th style="width:50px;text-align:center;">Rank</th>
                             <th>பெயர்</th>
-                            <th class="phone-cell">மொபைல்</th>
-                            <th style="width:80px;text-align:center;">மதிப்பெண்</th>
-                            <th style="width:60px;text-align:center;">%</th>
+                            <th style="width:55px;text-align:center;">இனம்</th>
+                            <th style="width:70px;text-align:center;">மதிப்பெண்</th>
+                            <th style="width:50px;text-align:center;">%</th>
+                            <th style="width:60px;text-align:center;">முடிவு</th>
                         </tr>
                     </thead>
                     <tbody id="tableBody"></tbody>
                 </table>
             </div>
         </div>
-        
+
         <div class="empty-state" id="emptyState" style="display:none;">
             <div class="icon">📭</div>
-            <h3>இந்த தேதிக்கு முடிவுகள் இல்லை</h3>
-            <p style="margin-top:8px;opacity:0.85;">தேர்வு முடிந்து 15 நிமிடம் கடந்த பிறகு முடிவுகள் தயாராகும்</p>
+            <h3 id="emptyTitle">இந்த தேதிக்கு முடிவுகள் இல்லை</h3>
+            <p style="margin-top:8px;opacity:0.85;" id="emptyDesc">தேர்வு முடிந்து 15 நிமிடம் கடந்த பிறகு முடிவுகள் தயாராகும்</p>
         </div>
-        
+
         <div style="text-align:center;">
             <a href="index.html" class="btn-back">← முகப்புப் பக்கம்</a>
         </div>
     </div>
-    
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.8.0/jspdf.plugin.autotable.min.js"></script>
-    
+
     <script>
+        const CUTOFFS = { 'OC': 60, 'GENERAL': 60, 'BC': 50, 'BCM': 50, 'MBC': 50, 'DNC': 50, 'SC': 40, 'SCA': 40, 'ST': 40, 'PWD': 40 };
+        function getCutoff(cat) { return CUTOFFS[(cat || 'OC').toUpperCase()] ?? 60; }
+
         let currentData = null;
         let currentSort = 'az';
         let currentSearch = '';
-        
-        // Smart default date: if after 10:15 PM today, use today; else yesterday
+        let currentMode = 'individual';
+        let myPhone = '';
+
         const now = new Date();
         const isAfter1015pm = (now.getHours() > 22) || (now.getHours() === 22 && now.getMinutes() >= 15);
         const defaultDate = new Date();
-        if (!isAfter1015pm) {
-            defaultDate.setDate(defaultDate.getDate() - 1);
-        }
+        if (!isAfter1015pm) defaultDate.setDate(defaultDate.getDate() - 1);
         document.getElementById('examDate').value = defaultDate.toISOString().split('T')[0];
-        
+
+        const savedMobile = localStorage.getItem('studentMobile');
+        if (savedMobile && /^[0-9]{10}$/.test(savedMobile)) {
+            document.getElementById('mobileInput').value = savedMobile;
+        }
+
+        document.getElementById('mobileInput').addEventListener('input', (e) => {
+            e.target.value = e.target.value.replace(/[^0-9]/g, '');
+        });
+
+        function setMode(mode) {
+            currentMode = mode;
+            document.getElementById('modeIndividual').classList.toggle('active', mode === 'individual');
+            document.getElementById('modeFull').classList.toggle('active', mode === 'full');
+            document.getElementById('mobileRow').style.display = mode === 'individual' ? 'grid' : 'none';
+            document.getElementById('individualResult').style.display = 'none';
+            document.getElementById('fullList').style.display = 'none';
+            document.getElementById('emptyState').style.display = 'none';
+        }
+
         function showError(msg) {
             const el = document.getElementById('errorMsg');
             el.textContent = msg;
             el.style.display = 'block';
             setTimeout(() => el.style.display = 'none', 5000);
         }
-        
+
         async function loadResults() {
             const examDate = document.getElementById('examDate').value;
             const paperKey = document.getElementById('paperSelect').value;
-            
-            if (!examDate) {
-                showError('தேதியை தேர்ந்தெடுக்கவும்!');
-                return;
+            if (!examDate) { showError('தேதியை தேர்ந்தெடுக்கவும்!'); return; }
+
+            if (currentMode === 'individual') {
+                myPhone = document.getElementById('mobileInput').value.trim();
+                if (!/^[0-9]{10}$/.test(myPhone)) {
+                    showError('சரியான 10 இலக்க மொபைல் எண்ணை உள்ளிடவும்!');
+                    return;
+                }
             }
-            
-            document.getElementById('resultsSection').style.display = 'none';
+
+            document.getElementById('individualResult').style.display = 'none';
+            document.getElementById('fullList').style.display = 'none';
             document.getElementById('emptyState').style.display = 'none';
             document.getElementById('loadingBox').style.display = 'block';
-            
-            // 🚫 NO Firebase! Static JSON fetch
+
             const fileName = `${paperKey}_results_${examDate}.json`;
             const url = `results/${fileName}`;
-            
+
             try {
                 const response = await fetch(url);
-                if (!response.ok) {
-                    throw new Error(`File not found (${response.status})`);
-                }
-                
+                if (!response.ok) throw new Error(`File not found (${response.status})`);
                 const data = await response.json();
                 currentData = data;
-                
                 document.getElementById('loadingBox').style.display = 'none';
-                
+
                 if (!data.results || data.results.length === 0) {
                     document.getElementById('emptyState').style.display = 'block';
                     return;
                 }
-                
-                renderResults();
-                
+
+                if (currentMode === 'individual') renderIndividual();
+                else renderFullList();
             } catch (err) {
                 document.getElementById('loadingBox').style.display = 'none';
                 document.getElementById('emptyState').style.display = 'block';
                 console.warn('Load error:', err.message);
             }
         }
-        
-        function renderResults() {
-            if (!currentData) return;
-            
+
+        function renderIndividual() {
+            const me = currentData.results.find(r => r.phone === myPhone);
+            if (!me) {
+                document.getElementById('emptyTitle').textContent = 'உங்கள் முடிவு கிடைக்கவில்லை';
+                document.getElementById('emptyDesc').textContent = 'இந்த மொபைல் எண்ணில் இந்த தேர்வுக்கு பதிவு இல்லை';
+                document.getElementById('emptyState').style.display = 'block';
+                return;
+            }
+            const cutoff = me.cutoff ?? getCutoff(me.category);
+            const passed = me.passed ?? (me.percentage >= cutoff);
+
+            document.getElementById('indName').textContent = me.name || 'மாணவர்';
+            document.getElementById('indMeta').textContent = `${currentData.examTitle || ''} • ${currentData.examDate}`;
+
+            const banner = document.getElementById('passfailBanner');
+            banner.className = 'passfail-banner ' + (passed ? 'pass' : 'fail');
+            document.getElementById('pfText').textContent = passed ? '✅ தேர்ச்சி (PASS)' : '❌ தேர்ச்சி இல்லை (FAIL)';
+            document.getElementById('pfSub').textContent = passed
+                ? `வாழ்த்துக்கள்! நீங்கள் ${cutoff}% தாண்டியுள்ளீர்கள்`
+                : `தேவையான ${cutoff}% அடையவில்லை`;
+
+            document.getElementById('indRank').textContent = me.rank || '—';
+            document.getElementById('indScore').textContent = `${me.score}/${me.total}`;
+            document.getElementById('indPct').textContent = `${(me.percentage || 0).toFixed(1)}%`;
+            document.getElementById('indComm').textContent = me.category || 'OC';
+            document.getElementById('indCutoff').textContent = `${cutoff}%`;
+            document.getElementById('indCorrect').textContent = me.correct || 0;
+            document.getElementById('indWrong').textContent = me.wrong || 0;
+            document.getElementById('indUnans').textContent = me.unanswered || 0;
+            document.getElementById('indTotal').textContent = currentData.totalStudents || currentData.results.length;
+
+            document.getElementById('individualResult').style.display = 'block';
+        }
+
+        function renderFullList() {
             const results = currentData.results;
-            document.getElementById('totalCount').textContent = results.length;
-            
-            // Topper = rank 1
+            const passCount = results.filter(r => r.passed).length;
             const topper = results.find(r => r.rank === 1) || results[0];
+
+            document.getElementById('totalCount').textContent = results.length;
+            document.getElementById('passCount').textContent = passCount;
             document.getElementById('topScore').textContent = topper?.score || 0;
             document.getElementById('topperName').textContent = topper?.name || '—';
-            
-            const avg = results.reduce((s, r) => s + r.score, 0) / results.length;
-            document.getElementById('avgScore').textContent = avg.toFixed(1);
-            
-            // Filter
+
             let display = [...results];
             if (currentSearch) {
                 const q = currentSearch.toLowerCase();
-                display = display.filter(r => 
-                    (r.name || '').toLowerCase().includes(q) ||
-                    (r.phone || '').includes(q)
-                );
+                display = display.filter(r => (r.name || '').toLowerCase().includes(q));
             }
-            
-            // Sort
-            if (currentSort === 'az') {
-                display.sort((a, b) => (a.name || '').localeCompare(b.name || '', 'ta'));
-            } else {
-                display.sort((a, b) => a.rank - b.rank);
-            }
-            
+            if (currentSort === 'az') display.sort((a, b) => (a.name || '').localeCompare(b.name || '', 'ta'));
+            else display.sort((a, b) => a.rank - b.rank);
+
             const tbody = document.getElementById('tableBody');
             tbody.innerHTML = display.map(r => {
                 const rankClass = r.rank === 1 ? 'rank-1' : r.rank === 2 ? 'rank-2' : r.rank === 3 ? 'rank-3' : '';
                 const medal = r.rank === 1 ? '🥇' : r.rank === 2 ? '🥈' : r.rank === 3 ? '🥉' : r.rank;
-                const phoneMask = r.phone ? r.phone.slice(0,2) + '****' + r.phone.slice(-2) : '—';
-                return `
-                    <tr>
-                        <td class="rank-cell ${rankClass}">${medal}</td>
-                        <td class="name-cell">${r.name || 'மாணவர்'}</td>
-                        <td class="phone-cell">${phoneMask}</td>
-                        <td class="score-cell">${r.score}/${r.total}</td>
-                        <td class="pct-cell">${(r.percentage || 0).toFixed(1)}%</td>
-                    </tr>
-                `;
+                const isMe = myPhone && r.phone === myPhone;
+                return `<tr class="${isMe ? 'me-row' : ''}">
+                    <td class="rank-cell ${rankClass}">${medal}</td>
+                    <td class="name-cell">${r.name || 'மாணவர்'}${isMe ? ' ⭐' : ''}</td>
+                    <td class="comm-cell">${r.category || 'OC'}</td>
+                    <td class="score-cell">${r.score}/${r.total}</td>
+                    <td class="pct-cell">${(r.percentage || 0).toFixed(1)}%</td>
+                    <td class="result-cell ${r.passed ? 'result-pass' : 'result-fail'}">${r.passed ? 'PASS' : 'FAIL'}</td>
+                </tr>`;
             }).join('');
-            
-            document.getElementById('resultsSection').style.display = 'block';
+
+            document.getElementById('fullList').style.display = 'block';
         }
-        
+
         function setSort(mode) {
             currentSort = mode;
             document.getElementById('btnAZ').classList.toggle('active', mode === 'az');
             document.getElementById('btnRank').classList.toggle('active', mode === 'rank');
-            renderResults();
+            renderFullList();
         }
-        
+
         document.getElementById('searchInput').addEventListener('input', (e) => {
             currentSearch = e.target.value.trim();
-            renderResults();
+            renderFullList();
         });
-        
+
         function downloadPDF() {
-            if (!currentData || !currentData.results.length) {
-                alert('முதலில் முடிவுகளை load பண்ணுங்கள்');
-                return;
-            }
-            
+            if (!currentData || !currentData.results.length) { alert('முதலில் முடிவுகளை load பண்ணுங்கள்'); return; }
             const { jsPDF } = window.jspdf;
-            const doc = new jsPDF();
-            
-            doc.setFontSize(16);
-            doc.setFont(undefined, 'bold');
-            doc.text('Tamil Nanban - Free Exam Results', 105, 15, { align: 'center' });
-            
-            doc.setFontSize(11);
-            doc.setFont(undefined, 'normal');
-            const titleText = currentData.paper === 'paper1' 
-                ? 'Paper 1: Mathematics + Science' 
-                : 'Paper 2: Social Science';
-            doc.text(titleText, 105, 22, { align: 'center' });
-            doc.text(`Exam Date: ${currentData.examDate}`, 105, 28, { align: 'center' });
-            doc.text(`Total Students: ${currentData.totalStudents}`, 105, 34, { align: 'center' });
-            
-            let pdfData = [...currentData.results];
-            if (currentSort === 'az') {
-                pdfData.sort((a, b) => (a.name || '').localeCompare(b.name || ''));
-            } else {
-                pdfData.sort((a, b) => a.rank - b.rank);
-            }
-            
-            const tableData = pdfData.map(r => [
-                r.rank,
-                r.name || 'Student',
-                r.phone ? r.phone.slice(0,2) + '****' + r.phone.slice(-2) : '—',
-                `${r.score}/${r.total}`,
-                `${(r.percentage || 0).toFixed(1)}%`
+            const doc = new jsPDF('p', 'mm', 'a4');
+            const pageWidth = doc.internal.pageSize.width;
+
+            doc.setFillColor(67, 56, 202);
+            doc.rect(0, 0, pageWidth, 38, 'F');
+            doc.setTextColor(255, 255, 255);
+            doc.setFont('helvetica', 'bold');
+            doc.setFontSize(22);
+            doc.text('TAMIL NANBAN', pageWidth / 2, 13, { align: 'center' });
+            doc.setFontSize(13);
+            doc.setTextColor(254, 215, 102);
+            doc.text('TEST BATCH', pageWidth / 2, 21, { align: 'center' });
+            doc.setFontSize(10);
+            doc.setTextColor(255, 255, 255);
+            doc.text('Mobile: 63 69 37 14 52', pageWidth / 2, 28, { align: 'center' });
+            const titleText = currentData.paper === 'paper1' ? 'Paper 1: Mathematics + Science' : 'Paper 2: Social Science';
+            doc.setTextColor(220, 230, 255);
+            doc.text(titleText, pageWidth / 2, 34, { align: 'center' });
+
+            doc.setFillColor(254, 243, 199);
+            doc.rect(0, 38, pageWidth, 8, 'F');
+            doc.setTextColor(120, 53, 15);
+            doc.setFontSize(9);
+            doc.setFont('helvetica', 'bold');
+            doc.text(`Exam Date: ${currentData.examDate}`, 15, 43.5);
+            doc.text(`Total Students: ${currentData.totalStudents}`, pageWidth - 15, 43.5, { align: 'right' });
+
+            const sortedData = currentSort === 'az'
+                ? [...currentData.results].sort((a,b) => (a.name||'').localeCompare(b.name||''))
+                : [...currentData.results].sort((a,b) => a.rank - b.rank);
+
+            const tableData = sortedData.map(r => [
+                r.rank, r.name || 'Student', r.category || 'OC',
+                `${r.score}/${r.total}`, r.correct || 0, r.wrong || 0,
+                `${(r.percentage || 0).toFixed(1)}%`, r.passed ? 'PASS' : 'FAIL'
             ]);
-            
+
             doc.autoTable({
-                head: [['Rank', 'Name', 'Mobile', 'Score', '%']],
+                head: [['Rank', 'Name', 'Comm.', 'Score', 'Correct', 'Wrong', '%', 'Result']],
                 body: tableData,
-                startY: 40,
-                styles: { fontSize: 9, cellPadding: 2 },
-                headStyles: { fillColor: [102, 126, 234], textColor: 255, fontStyle: 'bold' },
-                alternateRowStyles: { fillColor: [248, 250, 252] },
+                startY: 50,
+                styles: { fontSize: 8.5, cellPadding: 2.5, lineColor: [200,200,200], lineWidth: 0.15, textColor: [30,41,59] },
+                headStyles: { fillColor: [67,56,202], textColor: 255, fontStyle: 'bold', halign: 'center', fontSize: 9 },
                 columnStyles: {
-                    0: { halign: 'center', cellWidth: 18 },
-                    1: { cellWidth: 70 },
-                    2: { cellWidth: 35 },
-                    3: { halign: 'center', cellWidth: 28 },
-                    4: { halign: 'center', cellWidth: 20 }
+                    0: { halign:'center', cellWidth:13, fillColor:[254,240,138], textColor:[113,63,18], fontStyle:'bold' },
+                    1: { cellWidth:46, fillColor:[219,234,254], textColor:[30,58,138], fontStyle:'bold' },
+                    2: { halign:'center', cellWidth:20, fillColor:[243,232,255], textColor:[88,28,135], fontStyle:'bold' },
+                    3: { halign:'center', cellWidth:22, fillColor:[209,250,229], textColor:[6,78,59], fontStyle:'bold' },
+                    4: { halign:'center', cellWidth:18, fillColor:[220,252,231], textColor:[22,101,52] },
+                    5: { halign:'center', cellWidth:16, fillColor:[254,226,226], textColor:[153,27,27] },
+                    6: { halign:'center', cellWidth:18, fillColor:[254,215,170], textColor:[124,45,18], fontStyle:'bold' },
+                    7: { halign:'center', cellWidth:18, fontStyle:'bold' }
                 },
-                didDrawPage: (data) => {
-                    const pageCount = doc.internal.getNumberOfPages();
+                didParseCell: function(cd) {
+                    const row = sortedData[cd.row.index];
+                    if (cd.section !== 'body') return;
+                    if (cd.column.index === 0) {
+                        if (row?.rank === 1) { cd.cell.styles.fillColor=[251,191,36]; cd.cell.styles.textColor=[120,53,15]; }
+                        else if (row?.rank === 2) { cd.cell.styles.fillColor=[203,213,225]; cd.cell.styles.textColor=[30,41,59]; }
+                        else if (row?.rank === 3) { cd.cell.styles.fillColor=[217,119,6]; cd.cell.styles.textColor=[255,255,255]; }
+                    }
+                    if (cd.column.index === 7) {
+                        if (row?.passed) { cd.cell.styles.fillColor=[34,197,94]; cd.cell.styles.textColor=[255,255,255]; }
+                        else { cd.cell.styles.fillColor=[239,68,68]; cd.cell.styles.textColor=[255,255,255]; }
+                    }
+                },
+                didDrawPage: (hd) => {
+                    const pc = doc.internal.getNumberOfPages();
                     doc.setFontSize(8);
-                    doc.text(
-                        `Page ${data.pageNumber} / ${pageCount} — Generated: ${new Date().toLocaleString('en-IN')}`,
-                        105, doc.internal.pageSize.height - 8, { align: 'center' }
-                    );
+                    doc.setTextColor(100);
+                    doc.setFont('helvetica', 'normal');
+                    doc.text(`Page ${hd.pageNumber} / ${pc}  |  Generated: ${new Date().toLocaleString('en-IN')}  |  Tamil Nanban`,
+                        pageWidth/2, doc.internal.pageSize.height - 6, { align: 'center' });
                 }
             });
-            
-            const sortLabel = currentSort === 'az' ? 'AZ' : 'Rank';
-            const filename = `${currentData.paper}_results_${currentData.examDate}_${sortLabel}.pdf`;
-            doc.save(filename);
+            doc.save(`${currentData.paper}_results_${currentData.examDate}.pdf`);
         }
     </script>
 </body>

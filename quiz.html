@@ -665,6 +665,7 @@
                             const phone = params.get('phone');
                             const date = params.get('date');
                             const studentName = localStorage.getItem('studentName') || 'Student';
+                            const studentCategory = localStorage.getItem('studentCategory') || 'OC';
                             const examKey = examFile.replace('.json', '');  // "paper1" or "paper2"
                             const deviceId = `${phone}_${date}_${examKey}`;  // ⭐ Same format as registration
                             
@@ -686,6 +687,7 @@
                                 await db.ref(`free_exam_results/${deviceId}`).set({
                                     phoneNumber: phone,
                                     studentName,
+                                    category: studentCategory,
                                     examFile,
                                     examDate: date,
                                     score,
@@ -732,7 +734,7 @@
                                     score, totalQuestions: questions.length
                                 });
                                 await db.ref(`free_exam_results/${deviceId}`).set({
-                                    phoneNumber: phone, studentName, examFile, examDate: date,
+                                    phoneNumber: phone, studentName, category: studentCategory, examFile, examDate: date,
                                     score, correctAnswers: correctCount, wrongAnswers: wrongCount,
                                     unanswered: questions.length - correctCount - wrongCount,
                                     totalQuestions: questions.length,
@@ -1102,6 +1104,11 @@
         };
 
         document.getElementById('finalSubmitBtn').onclick = async () => {
+                // 🛡️ SAFETY: free exam mode-ல் இந்த handler skip (Firestore double-write தடுக்க)
+                if (params.get('mode') === 'free') {
+                    console.log('🛡️ Regular submit handler skipped (free exam mode)');
+                    return;
+                }
                 // Calculate score (SAME - NO CHANGE)
                 let score = 0;
             let correctCount = 0;

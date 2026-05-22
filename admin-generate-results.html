@@ -210,6 +210,17 @@
         // Admin secret — change this to your own key
         const ADMIN_KEY = 'A1ADMIN2025';
         
+        // Community-wise pass cutoff percentages
+        const CUTOFFS = {
+            'OC': 60, 'GENERAL': 60,
+            'BC': 50, 'BCM': 50, 'MBC': 50, 'DNC': 50,
+            'SC': 40, 'SCA': 40, 'ST': 40, 'PWD': 40
+        };
+        function getPassStatus(category, percentage) {
+            const cutoff = CUTOFFS[(category || 'OC').toUpperCase()] ?? 60;
+            return { cutoff, passed: percentage >= cutoff };
+        }
+        
         firebase.initializeApp({
             apiKey: "AIzaSyBpkL8eZT0u5mnxCxmVZMmmemX15BCaNf4",
             authDomain: "a1-coaching.firebaseapp.com",
@@ -263,9 +274,12 @@
             log(`\n━━━ ${selectedDate} தேதிக்கான Generation தொடங்கியது ━━━`, 'warn');
             
             try {
-                // 🔥 ONE Firebase read for ALL today's results
-                log('🔥 Firebase READ — Fetching all results...', 'info');
-                const snap = await db.ref('free_exam_results').once('value');
+                // 🚀 OPTIMIZED: Fetch ONLY selected date (uses .indexOn examDate)
+                log('🔥 Firebase READ — Fetching results for ' + selectedDate + '...', 'info');
+                const snap = await db.ref('free_exam_results')
+                    .orderByChild('examDate')
+                    .equalTo(selectedDate)
+                    .once('value');
                 
                 const byPaper = { paper1: [], paper2: [] };
                 let totalRecords = 0;
@@ -287,6 +301,7 @@
                     byPaper[key].push({
                         phone: r.phoneNumber,
                         name: r.studentName || 'மாணவர்',
+                        category: r.category || 'OC',
                         score: r.score,
                         total: r.totalQuestions,
                         correct: r.correctAnswers,
@@ -294,7 +309,8 @@
                         unanswered: r.unanswered || 0,
                         percentage: r.percentage || 0,
                         timeTaken: r.timeTaken || 0,
-                        completedAt: r.completedAt
+                        completedAt: r.completedAt,
+                        ...getPassStatus(r.category, r.percentage || 0)
                     });
                 });
                 
@@ -432,16 +448,16 @@
             const tableData = sortedData.map(r => [
                 r.rank,
                 r.name || 'Student',
-                r.phone ? (r.phone.slice(0,2) + '****' + r.phone.slice(-2)) : '—',
+                r.category || 'OC',
                 `${r.score}/${r.total}`,
                 r.correct || 0,
                 r.wrong || 0,
-                r.unanswered || 0,
-                `${(r.percentage || 0).toFixed(1)}%`
+                `${(r.percentage || 0).toFixed(1)}%`,
+                r.passed ? 'PASS' : 'FAIL'
             ]);
             
             doc.autoTable({
-                head: [['Rank', 'Name', 'Mobile', 'Score', 'Correct', 'Wrong', 'Unans.', '%']],
+                head: [['Rank', 'Name', 'Comm.', 'Score', 'Correct', 'Wrong', '%', 'Result']],
                 body: tableData,
                 startY: 50,
                 styles: {
@@ -460,28 +476,41 @@
                 },
                 // Each column gets a different background color for the data cells!
                 columnStyles: {
-                    0: { halign: 'center', cellWidth: 14, fillColor: [254, 240, 138], textColor: [113, 63, 18], fontStyle: 'bold' },   // Rank — Yellow
-                    1: { cellWidth: 50, fillColor: [219, 234, 254], textColor: [30, 58, 138], fontStyle: 'bold' },                       // Name — Blue
-                    2: { halign: 'center', cellWidth: 28, fillColor: [243, 232, 255], textColor: [88, 28, 135] },                       // Mobile — Purple
+                    0: { halign: 'center', cellWidth: 13, fillColor: [254, 240, 138], textColor: [113, 63, 18], fontStyle: 'bold' },   // Rank — Yellow
+                    1: { cellWidth: 46, fillColor: [219, 234, 254], textColor: [30, 58, 138], fontStyle: 'bold' },                       // Name — Blue
+                    2: { halign: 'center', cellWidth: 20, fillColor: [243, 232, 255], textColor: [88, 28, 135], fontStyle: 'bold' },    // Community — Purple
                     3: { halign: 'center', cellWidth: 22, fillColor: [209, 250, 229], textColor: [6, 78, 59], fontStyle: 'bold' },     // Score — Green
                     4: { halign: 'center', cellWidth: 18, fillColor: [220, 252, 231], textColor: [22, 101, 52] },                       // Correct — Light Green
-                    5: { halign: 'center', cellWidth: 17, fillColor: [254, 226, 226], textColor: [153, 27, 27] },                       // Wrong — Red
-                    6: { halign: 'center', cellWidth: 17, fillColor: [241, 245, 249], textColor: [71, 85, 105] },                       // Unanswered — Gray
-                    7: { halign: 'center', cellWidth: 18, fillColor: [254, 215, 170], textColor: [124, 45, 18], fontStyle: 'bold' }    // % — Orange
+                    5: { halign: 'center', cellWidth: 16, fillColor: [254, 226, 226], textColor: [153, 27, 27] },                       // Wrong — Red
+                    6: { halign: 'center', cellWidth: 18, fillColor: [254, 215, 170], textColor: [124, 45, 18], fontStyle: 'bold' },   // % — Orange
+                    7: { halign: 'center', cellWidth: 18, fontStyle: 'bold' }                                                            // Result — colored in didParseCell
                 },
-                // Top 3 special highlight (medal rows)
+                // Top 3 medal + Pass/Fail color
                 didParseCell: function(cellData) {
                     const rowIdx = cellData.row.index;
-                    const rank = sortedData[rowIdx]?.rank;
-                    if (cellData.section === 'body' && cellData.column.index === 0) {
-                        if (rank === 1) {
-                            cellData.cell.styles.fillColor = [251, 191, 36];   // Gold
+                    const row = sortedData[rowIdx];
+                    if (cellData.section !== 'body') return;
+                    
+                    // Rank medals (column 0)
+                    if (cellData.column.index === 0) {
+                        if (row?.rank === 1) {
+                            cellData.cell.styles.fillColor = [251, 191, 36];
                             cellData.cell.styles.textColor = [120, 53, 15];
-                        } else if (rank === 2) {
-                            cellData.cell.styles.fillColor = [203, 213, 225]; // Silver
+                        } else if (row?.rank === 2) {
+                            cellData.cell.styles.fillColor = [203, 213, 225];
                             cellData.cell.styles.textColor = [30, 41, 59];
-                        } else if (rank === 3) {
-                            cellData.cell.styles.fillColor = [217, 119, 6];   // Bronze
+                        } else if (row?.rank === 3) {
+                            cellData.cell.styles.fillColor = [217, 119, 6];
+                            cellData.cell.styles.textColor = [255, 255, 255];
+                        }
+                    }
+                    // Result column (7) — Green PASS / Red FAIL
+                    if (cellData.column.index === 7) {
+                        if (row?.passed) {
+                            cellData.cell.styles.fillColor = [34, 197, 94];   // Green
+                            cellData.cell.styles.textColor = [255, 255, 255];
+                        } else {
+                            cellData.cell.styles.fillColor = [239, 68, 68];   // Red
                             cellData.cell.styles.textColor = [255, 255, 255];
                         }
                     }
