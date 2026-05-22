@@ -509,11 +509,20 @@
         const isFreeExam = params.get('mode') === 'free';
         const examFile = params.get('examFile');
 
-        // 🧪 TEST MODE detection (URL-ல் ?test=1)
+        // 🧪 TEST MODE detection
+        //   ?test=1        → exam time gate bypass, but saves as REAL entry (isTestMode: false)
+        //   ?test=1&mock=1 → bypass + marks isTestMode: true (admin generate skips it)
         const TEST_MODE = params.get('test') === '1';
+        const MOCK_MODE = params.get('mock') === '1';
         if (TEST_MODE) {
-            console.log('%c🧪 TEST MODE - Results will be marked as test data', 'background:#f59e0b;color:white;font-size:16px;padding:8px;font-weight:bold;');
-            window.IS_TEST_MODE = true;  // Save to Firebase later
+            console.log('%c🧪 TEST MODE (time gate bypassed)', 'background:#f59e0b;color:white;font-size:14px;padding:6px;font-weight:bold;');
+            if (MOCK_MODE) {
+                window.IS_TEST_MODE = true;   // pure mock — will be skipped by admin
+                console.log('%c⚠️ MOCK DATA — admin generate will skip this', 'background:#dc2626;color:white;font-size:13px;padding:5px;');
+            } else {
+                window.IS_TEST_MODE = false;  // real entry, shows in results
+                console.log('%c✅ Saved as REAL entry (visible in results)', 'background:#059669;color:white;font-size:13px;padding:5px;');
+            }
         }
 
         // 🔧 Shared variables (free exam & regular quiz இரண்டுக்கும் use ஆகுது)
