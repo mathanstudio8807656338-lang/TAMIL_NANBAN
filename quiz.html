@@ -355,7 +355,7 @@
             <div class="score-display" id="finalScore" style="margin: 0.5rem 0 1.5rem 0;">0/0</div>
             <p id="resultMsg" style="color: #64748b; font-weight: 600; margin-bottom: 2rem;"></p>
             <div style="display: flex; flex-direction: column; gap: 0.8rem;">
-                <button onclick="closeResults()" class="btn btn-primary" style="width:100%; padding: 1rem;">விடைகளைச்
+                <button id="reviewAnswersBtn" onclick="closeResults()" class="btn btn-primary" style="width:100%; padding: 1rem;">விடைகளைச்
                     சரிபார் (Review Answers)</button>
                 <a id="goToResults" href="free-result-check.html" class="btn btn-primary" style="width:100%; padding: 1rem; text-decoration:none; display:none; background:linear-gradient(135deg,#10b981,#059669);">
                     📊 முடிவுகள் & PDF (10:15 PM-க்கு பிறகு)
@@ -600,31 +600,20 @@
                         return -1;
                     };
                     
-                    // Option click → mark answer + show feedback
+                    // Option click → mark selection ONLY (real exam: no correct/wrong reveal)
                     window.handleSelect = (qIdx, oIdx, el) => {
                         if (resultsRevealed) return;
-                        if (answers[qIdx] !== undefined) return;
-                        
-                        const correctIdx = _feCorrectIdx(questions[qIdx]);
-                        answers[qIdx] = oIdx;
                         
                         const grid = document.getElementById(`options-${qIdx}`);
                         const items = grid.querySelectorAll('.option-item');
                         
-                        if (correctIdx !== -1) {
-                            if (oIdx === correctIdx) {
-                                el.classList.add('correct');
-                            } else {
-                                el.classList.add('wrong');
-                                if (items[correctIdx]) items[correctIdx].classList.add('correct');
-                            }
-                        }
-                        el.classList.add('selected');
-                        grid.style.pointerEvents = 'none';
+                        // Clear previous selection in this question (allow changing answer)
+                        items.forEach(it => it.classList.remove('selected'));
                         
-                        // Show explanation if available
-                        const exp = document.getElementById(`exp-${qIdx}`);
-                        if (exp) exp.style.display = 'block';
+                        // Mark this option as selected
+                        answers[qIdx] = oIdx;
+                        el.classList.add('selected');
+                        // 🚫 NO correct/wrong highlight, NO explanation during exam
                     };
                     
                     // Language toggle (English / Tamil / Both)
@@ -661,10 +650,17 @@
                         const resultMsg = document.getElementById('resultMsg');
                         if (overlay) overlay.style.display = 'block';
                         if (resultView) resultView.style.display = 'block';
+                        // 🚫 Free exam: hide "Review Answers" + "Retry" (real exam — no answer review, single attempt)
+                        const reviewBtn = document.getElementById('reviewAnswersBtn');
+                        if (reviewBtn) reviewBtn.style.display = 'none';
+                        const retryBtnRow = reviewBtn ? reviewBtn.parentElement.querySelector('div[style*="grid"]') : null;
+                        // hide the retry button specifically
+                        document.querySelectorAll('#resultView button').forEach(b => {
+                            if (b.textContent.includes('மீண்டும்')) b.style.display = 'none';
+                        });
                         // 📊 Free exam: show "results & PDF" button linking to result page
                         const goBtn = document.getElementById('goToResults');
                         if (goBtn) {
-                            const dateParam = params.get('date') || new Date().toISOString().split('T')[0];
                             goBtn.href = `free-result-check.html`;
                             goBtn.style.display = 'block';
                         }
