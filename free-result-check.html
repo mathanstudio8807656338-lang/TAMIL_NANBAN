@@ -146,6 +146,10 @@
                     <div class="detail-row2"><span class="l">விடை எழுதாதவை:</span><span class="v" id="indUnans">—</span></div>
                     <div class="detail-row2"><span class="l">மொத்த பங்கேற்பாளர்கள்:</span><span class="v" id="indTotal">—</span></div>
                 </div>
+
+                <button onclick="downloadMyPDF()" style="width:100%;margin-top:18px;padding:14px;background:linear-gradient(135deg,#10b981,#059669);color:white;border:none;border-radius:12px;font-weight:700;font-size:1rem;cursor:pointer;font-family:inherit;">
+                    📥 எனது முடிவை PDF-ஆ பதிவிறக்கு
+                </button>
             </div>
         </div>
 
@@ -277,6 +281,7 @@
             }
         }
 
+        let myResult = null;
         function renderIndividual() {
             const me = currentData.results.find(r => r.phone === myPhone);
             if (!me) {
@@ -285,6 +290,7 @@
                 document.getElementById('emptyState').style.display = 'block';
                 return;
             }
+            myResult = me;
             const cutoff = me.cutoff ?? getCutoff(me.category);
             const passed = me.passed ?? (me.percentage >= cutoff);
 
@@ -358,6 +364,82 @@
             currentSearch = e.target.value.trim();
             renderFullList();
         });
+
+        // 📄 Individual student's own result PDF (small, single page)
+        function downloadMyPDF() {
+            if (!myResult) { alert('முதலில் முடிவை load பண்ணுங்கள்'); return; }
+            const me = myResult;
+            const cutoff = me.cutoff ?? getCutoff(me.category);
+            const passed = me.passed ?? (me.percentage >= cutoff);
+
+            const { jsPDF } = window.jspdf;
+            const doc = new jsPDF('p', 'mm', 'a4');
+            const W = doc.internal.pageSize.width;
+
+            // Header banner
+            doc.setFillColor(67, 56, 202);
+            doc.rect(0, 0, W, 40, 'F');
+            doc.setTextColor(255, 255, 255);
+            doc.setFont('helvetica', 'bold');
+            doc.setFontSize(24);
+            doc.text('TAMIL NANBAN', W / 2, 15, { align: 'center' });
+            doc.setFontSize(14);
+            doc.setTextColor(254, 215, 102);
+            doc.text('TEST BATCH', W / 2, 24, { align: 'center' });
+            doc.setFontSize(10);
+            doc.setTextColor(255, 255, 255);
+            doc.text('Mobile: 63 69 37 14 52', W / 2, 31, { align: 'center' });
+            const examT = currentData.paper === 'paper1' ? 'Paper 1: Maths + Science' : 'Paper 2: Social Science';
+            doc.setTextColor(220, 230, 255);
+            doc.setFontSize(9);
+            doc.text(examT + '  |  ' + currentData.examDate, W / 2, 37, { align: 'center' });
+
+            // PASS / FAIL banner
+            if (passed) doc.setFillColor(34, 197, 94); else doc.setFillColor(239, 68, 68);
+            doc.roundedRect(20, 50, W - 40, 22, 3, 3, 'F');
+            doc.setTextColor(255, 255, 255);
+            doc.setFontSize(18);
+            doc.setFont('helvetica', 'bold');
+            doc.text(passed ? 'PASS - PASSED' : 'FAIL - NOT QUALIFIED', W / 2, 63, { align: 'center' });
+
+            // Student name
+            doc.setTextColor(30, 41, 59);
+            doc.setFontSize(16);
+            doc.text(me.name || 'Student', W / 2, 84, { align: 'center' });
+
+            // Detail rows as a small table
+            const rows = [
+                ['Rank', String(me.rank || '-')],
+                ['Score', `${me.score} / ${me.total}`],
+                ['Percentage', `${(me.percentage || 0).toFixed(1)}%`],
+                ['Community', me.category || 'OC'],
+                ['Pass Cutoff', `${cutoff}%`],
+                ['Correct Answers', String(me.correct || 0)],
+                ['Wrong Answers', String(me.wrong || 0)],
+                ['Unanswered', String(me.unanswered || 0)],
+                ['Total Participants', String(currentData.totalStudents || currentData.results.length)]
+            ];
+            doc.autoTable({
+                body: rows,
+                startY: 92,
+                theme: 'grid',
+                styles: { fontSize: 11, cellPadding: 3.5, lineColor: [220,220,220], lineWidth: 0.2 },
+                columnStyles: {
+                    0: { fillColor: [243,244,255], textColor: [55,48,163], fontStyle: 'bold', cellWidth: 70 },
+                    1: { fillColor: [255,255,255], textColor: [30,41,59], fontStyle: 'bold', halign: 'center' }
+                },
+                margin: { left: 30, right: 30 }
+            });
+
+            // Footer
+            doc.setFontSize(8);
+            doc.setTextColor(120);
+            doc.setFont('helvetica', 'normal');
+            doc.text(`Generated: ${new Date().toLocaleString('en-IN')}  |  Tamil Nanban`,
+                W / 2, doc.internal.pageSize.height - 10, { align: 'center' });
+
+            doc.save(`my_result_${me.phone}_${currentData.paper}_${currentData.examDate}.pdf`);
+        }
 
         function downloadPDF() {
             if (!currentData || !currentData.results.length) { alert('முதலில் முடிவுகளை load பண்ணுங்கள்'); return; }
