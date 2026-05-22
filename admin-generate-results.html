@@ -153,8 +153,21 @@
                 <label>Exam Date</label>
                 <input type="date" id="examDate">
                 <button onclick="generateResults()" id="genBtn">
-                    🔥 Firebase-ல் இருந்து Results Generate செய்
+                    🔥 Firebase-ல் இருந்து Results Generate செய் (Preview + PDF)
                 </button>
+                <button onclick="publishToKV()" id="kvBtn" style="background:linear-gradient(135deg,#059669,#047857);margin-top:10px;">
+                    🚀 KV-ல் Publish செய் (மாணவர்களுக்கு Live ஆக்கு)
+                </button>
+                <p style="color:#94a3b8;font-size:0.82rem;margin-top:8px;line-height:1.5;">
+                    💡 "Generate" → preview + PDF download (browser).<br>
+                    "Publish" → Worker மூலம் KV-ல் save → result page-ல் மாணவர்களுக்கு தெரியும்.<br>
+                    (10:15 PM auto-cron-ம் தானா publish பண்ணும்)
+                </p>
+            </div>
+            
+            <div class="card">
+                <label>Worker URL (Publish-க்கு)</label>
+                <input type="text" id="workerUrl" value="https://tamilnanaban2.mathanstudio8807656338.workers.dev" style="font-size:0.85rem;">
             </div>
             
             <div class="card">
@@ -260,6 +273,38 @@
             log(`📅 Default date: ${today}`, 'info');
         }
         
+        // 🚀 Publish to KV via Worker API (makes results LIVE for students)
+        async function publishToKV() {
+            const examDate = document.getElementById('examDate').value;
+            if (!examDate) { alert('தேதியை தேர்ந்தெடுக்கவும்!'); return; }
+            const workerUrl = document.getElementById('workerUrl').value.trim().replace(/\/$/, '');
+            const kvBtn = document.getElementById('kvBtn');
+            kvBtn.disabled = true;
+            kvBtn.textContent = '⏳ Publishing...';
+            log(`\n🚀 KV Publish தொடங்கியது (${examDate})...`, 'warn');
+            try {
+                const res = await fetch(`${workerUrl}/api/admin-generate-results`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ adminKey: ADMIN_KEY, examDate })
+                });
+                const data = await res.json();
+                if (!res.ok || data.error) throw new Error(data.error || `HTTP ${res.status}`);
+                log(`✅ KV Publish வெற்றி!`, 'success');
+                log(`   📘 Paper 1: ${data.paper1Count} students`, 'info');
+                log(`   📗 Paper 2: ${data.paper2Count} students`, 'info');
+                log(`   🧪 Test skipped: ${data.testModeSkipped}`, 'info');
+                log(`\n🎉 இப்போ மாணவர்கள் result page-ல் பார்க்கலாம்!`, 'success');
+                alert(`✅ Live ஆச்சு!\nPaper 1: ${data.paper1Count}\nPaper 2: ${data.paper2Count}`);
+            } catch (err) {
+                log(`❌ KV Publish பிழை: ${err.message}`, 'error');
+                alert('❌ Publish fail: ' + err.message);
+            } finally {
+                kvBtn.disabled = false;
+                kvBtn.textContent = '🚀 KV-ல் Publish செய் (மாணவர்களுக்கு Live ஆக்கு)';
+            }
+        }
+
         async function generateResults() {
             selectedDate = document.getElementById('examDate').value;
             if (!selectedDate) {
