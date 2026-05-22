@@ -255,6 +255,32 @@
 
         console.log('📄 Exam file:', examFile);
 
+        // ═══════════════════════════════════════════════════════
+        // 🔒 DEVICE FINGERPRINT — ஒரு device → ஒரு mobile மட்டும்
+        // ═══════════════════════════════════════════════════════
+        function getDeviceFingerprint() {
+            let fp = localStorage.getItem('tn_device_fp');
+            if (fp) return fp;
+            const signals = [
+                navigator.userAgent || '', navigator.platform || '',
+                navigator.language || '', screen.width + 'x' + screen.height,
+                screen.colorDepth || '', new Date().getTimezoneOffset(),
+                navigator.hardwareConcurrency || ''
+            ].join('|');
+            let hash = 0;
+            for (let i = 0; i < signals.length; i++) {
+                hash = ((hash << 5) - hash) + signals.charCodeAt(i);
+                hash = hash & hash;
+            }
+            const uuid = 'xxxxxxxx-xxxx-4xxx'.replace(/[x]/g, () => (Math.random()*16|0).toString(16));
+            fp = 'dev_' + Math.abs(hash).toString(36) + '_' + uuid;
+            localStorage.setItem('tn_device_fp', fp);
+            console.log('🆕 New device fingerprint generated');
+            return fp;
+        }
+        const DEVICE_FP = getDeviceFingerprint();
+        console.log('🔒 Device FP:', DEVICE_FP);
+
         if (!examFile) {
             document.getElementById('examTitle').innerHTML = '❌ தேர்வு தகவல் இல்லை';
             document.getElementById('submitBtn').disabled = true;
@@ -316,11 +342,34 @@
 
             try {
                 const today = new Date().toISOString().split('T')[0];
-                const deviceId = `${mobile}_${today}_${examFile.replace('.json', '')}`;
+                const examKey = examFile.replace('.json', '');
+                const deviceId = `${mobile}_${today}_${examKey}`;
+                const deviceLockPath = `device_locks/${DEVICE_FP}_${today}_${examKey}`;
 
                 console.log('🔑 Device ID:', deviceId);
+                console.log('🔒 Device Lock Path:', deviceLockPath);
 
-                // Check if already registered
+                // ═══════════════════════════════════════════════════════
+                // 🔒 DEVICE LOCK CHECK — இந்த device முன்பு வேற mobile-ல் எழுதியதா?
+                // ═══════════════════════════════════════════════════════
+                const lockSnap = await firebase.database().ref(deviceLockPath).once('value');
+                if (lockSnap.exists() && !TEST_MODE) {
+                    const lockedMobile = lockSnap.val().mobile;
+                    if (lockedMobile !== mobile) {
+                        errorMsg.innerHTML = '⚠️ இந்த device-ல் ஏற்கனவே வேறு மொபைல் எண்ணில் (' +
+                            lockedMobile.slice(0,2) + '****' + lockedMobile.slice(-2) +
+                            ') இந்த தேர்வு எழுதப்பட்டது.<br>ஒரு device-ல் ஒரே மொபைல் எண்ணை மட்டுமே பயன்படுத்த முடியும்.';
+                        errorMsg.style.display = 'block';
+                        submitBtn.disabled = false;
+                        submitBtn.textContent = 'தேர்வை தொடங்கு →';
+                        console.log('🚫 BLOCKED: Different mobile on same device');
+                        return;
+                    }
+                    console.log('✅ Device lock matches this mobile');
+                }
+                if (TEST_MODE) console.log('🧪 TEST MODE: device lock bypassed');
+
+                // Check if already registered (same mobile)
                 const snapshot = await firebase.database().ref(`device_sessions/${deviceId}`).once('value');
                 
                 if (snapshot.exists()) {
@@ -341,6 +390,17 @@
                     }
                 }
 
+                // 🔒 Save device lock (if not already set)
+                if (!lockSnap.exists()) {
+                    await firebase.database().ref(deviceLockPath).set({
+                        mobile: mobile,
+                        examKey: examKey,
+                        examDate: today,
+                        lockedAt: new Date().toISOString()
+                    });
+                    console.log('🔒 Device lock SET for', mobile);
+                }
+
                 // Save registration (CORRECT FIELD ORDER for Firebase)
                 const registrationData = {
                     mobile: mobile,
@@ -350,7 +410,8 @@
                     examFile: examFile,
                     registeredAt: new Date().toISOString(),
                     examDate: today,
-                    hasAttempted: false
+                    hasAttempted: false,
+                    deviceFp: DEVICE_FP
                 };
 
                 console.log('💾 Saving registration:', registrationData);

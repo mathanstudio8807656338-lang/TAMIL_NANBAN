@@ -357,6 +357,9 @@
             <div style="display: flex; flex-direction: column; gap: 0.8rem;">
                 <button onclick="closeResults()" class="btn btn-primary" style="width:100%; padding: 1rem;">விடைகளைச்
                     சரிபார் (Review Answers)</button>
+                <a id="goToResults" href="free-result-check.html" class="btn btn-primary" style="width:100%; padding: 1rem; text-decoration:none; display:none; background:linear-gradient(135deg,#10b981,#059669);">
+                    📊 முடிவுகள் & PDF (10:15 PM-க்கு பிறகு)
+                </a>
                 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem;">
                     <button onclick="window.location.reload()" class="btn btn-outline"
                         style="font-size: 0.9rem; padding: 0.8rem;">மீண்டும் முயற்சி</button>
@@ -658,6 +661,13 @@
                         const resultMsg = document.getElementById('resultMsg');
                         if (overlay) overlay.style.display = 'block';
                         if (resultView) resultView.style.display = 'block';
+                        // 📊 Free exam: show "results & PDF" button linking to result page
+                        const goBtn = document.getElementById('goToResults');
+                        if (goBtn) {
+                            const dateParam = params.get('date') || new Date().toISOString().split('T')[0];
+                            goBtn.href = `free-result-check.html`;
+                            goBtn.style.display = 'block';
+                        }
                         if (finalScore) finalScore.innerText = `${score}/${questions.length}`;
                         const pct = (score / questions.length) * 100;
                         if (resultMsg) {
