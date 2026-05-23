@@ -640,6 +640,7 @@
                         
                         const endTime = Date.now();
                         const timeTaken = Math.floor((endTime - (window.quizStartTime || endTime)) / 1000);
+                        const pct = (score / questions.length) * 100;  // for Firebase save (NOT shown to student)
                         
                         resultsRevealed = true;
                         
