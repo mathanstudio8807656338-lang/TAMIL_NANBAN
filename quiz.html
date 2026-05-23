@@ -343,7 +343,7 @@
 
             <div class="submit-section">
                 <button id="finalSubmitBtn" class="btn btn-submit"
-                    style="width: 100%; max-width: 400px;">சமர்ப்பிக்கவும் (SUBMIT TEST)</button>
+                    style="width: 100%; max-width: 400px;">தேர்வை சமர்ப்பிக்க</button>
             </div>
         </div>
 
@@ -650,11 +650,9 @@
                         const resultMsg = document.getElementById('resultMsg');
                         if (overlay) overlay.style.display = 'block';
                         if (resultView) resultView.style.display = 'block';
-                        // 🚫 Free exam: hide "Review Answers" + "Retry" (real exam — no answer review, single attempt)
+                        // 🚫 Free exam: hide "Review Answers" + "Retry" (real exam — single attempt)
                         const reviewBtn = document.getElementById('reviewAnswersBtn');
                         if (reviewBtn) reviewBtn.style.display = 'none';
-                        const retryBtnRow = reviewBtn ? reviewBtn.parentElement.querySelector('div[style*="grid"]') : null;
-                        // hide the retry button specifically
                         document.querySelectorAll('#resultView button').forEach(b => {
                             if (b.textContent.includes('மீண்டும்')) b.style.display = 'none';
                         });
@@ -664,12 +662,15 @@
                             goBtn.href = `free-result-check.html`;
                             goBtn.style.display = 'block';
                         }
-                        if (finalScore) finalScore.innerText = `${score}/${questions.length}`;
-                        const pct = (score / questions.length) * 100;
+                        // 🚫 IMPORTANT: Free exam — DO NOT show score! (results only at 10:15 PM)
+                        const resultTitle = document.querySelector('#resultView h2');
+                        if (resultTitle) resultTitle.innerText = 'தேர்வு வெற்றிகரமாக சமர்ப்பிக்கப்பட்டது!';
+                        if (finalScore) finalScore.style.display = 'none';   // hide score number
+                        const lessonNameEl = document.getElementById('resultLessonName');
+                        if (lessonNameEl) lessonNameEl.style.display = 'none';
                         if (resultMsg) {
-                            resultMsg.innerText = pct >= 80 ? "சிறப்பு! (Excellent!)" 
-                                : pct >= 50 ? "நல்ல முயற்சி! (Good!)" 
-                                : "மேலும் பயிற்சி தேவை. (Keep it up!)";
+                            resultMsg.innerText = 'உங்கள் பதில்கள் பதிவு செய்யப்பட்டன. முடிவுகள் இரவு 10:15 மணிக்கு வெளியிடப்படும். அதன் பிறகு "முடிவுகள்" பக்கத்தில் உங்கள் மதிப்பெண், ரேங்க் மற்றும் விடைகளை பார்க்கலாம்.';
+                            resultMsg.style.color = '#059669';
                         }
                         window.scrollTo(0, 0);
                         

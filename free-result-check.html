@@ -150,8 +150,23 @@
                 <button onclick="downloadMyPDF()" style="width:100%;margin-top:18px;padding:14px;background:linear-gradient(135deg,#10b981,#059669);color:white;border:none;border-radius:12px;font-weight:700;font-size:1rem;cursor:pointer;font-family:inherit;">
                     📥 எனது முடிவை PDF-ஆ பதிவிறக்கு
                 </button>
+                <button onclick="toggleAnswerKey()" id="answerKeyBtn" style="width:100%;margin-top:10px;padding:14px;background:linear-gradient(135deg,#f59e0b,#d97706);color:white;border:none;border-radius:12px;font-weight:700;font-size:1rem;cursor:pointer;font-family:inherit;">
+                    📖 விடைகளை சரிபார்க்க (Answer Key)
+                </button>
             </div>
-        </div>
+
+            <!-- Answer Key Section -->
+            <div id="answerKeySection" style="display:none;margin-top:15px;">
+                <div style="background:white;border-radius:20px;padding:20px;box-shadow:0 10px 40px rgba(0,0,0,0.2);">
+                    <h2 style="color:#1e3a8a;text-align:center;margin-bottom:5px;">📖 விடைக்குறிப்பு (Answer Key)</h2>
+                    <p style="text-align:center;color:#64748b;font-size:0.85rem;margin-bottom:18px;">சரியான விடைகள் & விளக்கம்</p>
+                    <div id="answerKeyLoading" style="text-align:center;padding:30px;color:#64748b;display:none;">
+                        <div class="spinner" style="border-color:rgba(102,126,234,0.2);border-top-color:#667eea;"></div>
+                        <p style="margin-top:10px;">கேள்விகள் ஏற்றப்படுகின்றன...</p>
+                    </div>
+                    <div id="answerKeyContent"></div>
+                </div>
+            </div>
 
         <div class="full-list" id="fullList">
             <div class="stats-bar">
@@ -366,6 +381,87 @@
         });
 
         // 📄 Individual student's own result PDF (small, single page)
+        // ═══════════════════════════════════════════════════════
+        // 📖 Answer Key — paper JSON-ல் இருந்து சரியான விடைகள் காட்டு
+        // ═══════════════════════════════════════════════════════
+        let answerKeyLoaded = false;
+        async function toggleAnswerKey() {
+            const section = document.getElementById('answerKeySection');
+            const btn = document.getElementById('answerKeyBtn');
+            if (section.style.display === 'none' || !section.style.display) {
+                section.style.display = 'block';
+                btn.textContent = '📖 விடைக்குறிப்பை மறை (Hide)';
+                if (!answerKeyLoaded) await loadAnswerKey();
+                section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            } else {
+                section.style.display = 'none';
+                btn.textContent = '📖 விடைகளை சரிபார்க்க (Answer Key)';
+            }
+        }
+
+        async function loadAnswerKey() {
+            const paperKey = document.getElementById('paperSelect').value;
+            const loading = document.getElementById('answerKeyLoading');
+            const content = document.getElementById('answerKeyContent');
+            loading.style.display = 'block';
+            content.innerHTML = '';
+            try {
+                // Load the question paper JSON (same file used in exam)
+                const res = await fetch(`json-db/free-exams/${paperKey}.json`);
+                if (!res.ok) throw new Error('Paper not found');
+                const paper = await res.json();
+
+                // Flatten all questions from sections
+                let allQuestions = [];
+                if (paper.sections && paper.sections.length) {
+                    paper.sections.forEach(sec => {
+                        (sec.questions || []).forEach(q => allQuestions.push(q));
+                    });
+                } else if (paper.questions) {
+                    allQuestions = paper.questions;
+                }
+
+                content.innerHTML = allQuestions.map((q, idx) => {
+                    const opts = q.options || {};
+                    const optArr = Array.isArray(opts) ? opts : Object.values(opts);
+                    // correct answer: "A"/"B".. or index
+                    let correctIdx = -1;
+                    const ans = (q.correctAnswer || q.answer || '').toString().trim().toUpperCase();
+                    if (ans.length === 1 && /^[A-D]$/.test(ans)) correctIdx = ans.charCodeAt(0) - 65;
+                    else if (typeof q.correctAnswer === 'number') correctIdx = q.correctAnswer;
+
+                    const optsHtml = optArr.map((opt, oi) => {
+                        const isCorrect = oi === correctIdx;
+                        return `<div style="padding:8px 12px;margin:4px 0;border-radius:8px;font-size:0.9rem;${
+                            isCorrect
+                                ? 'background:#dcfce7;border:2px solid #10b981;color:#065f46;font-weight:700;'
+                                : 'background:#f8fafc;border:1px solid #e2e8f0;color:#475569;'
+                        }">${String.fromCharCode(65 + oi)}. ${opt}${isCorrect ? '  ✅' : ''}</div>`;
+                    }).join('');
+
+                    const explanation = q.explanation
+                        ? `<div style="margin-top:8px;padding:10px 12px;background:#fef3c7;border-radius:8px;font-size:0.85rem;color:#92400e;"><strong>விளக்கம்:</strong> ${q.explanation}</div>`
+                        : '';
+
+                    return `
+                        <div style="border-bottom:1px solid #e2e8f0;padding:16px 0;">
+                            <div style="font-weight:700;color:#1e293b;margin-bottom:10px;font-size:0.95rem;">
+                                ${idx + 1}. ${q.question || ''}
+                            </div>
+                            ${optsHtml}
+                            ${explanation}
+                        </div>
+                    `;
+                }).join('');
+
+                answerKeyLoaded = true;
+            } catch (err) {
+                content.innerHTML = `<p style="text-align:center;color:#dc2626;padding:20px;">விடைக்குறிப்பு ஏற்ற முடியவில்லை: ${err.message}</p>`;
+            } finally {
+                loading.style.display = 'none';
+            }
+        }
+
         function downloadMyPDF() {
             if (!myResult) { alert('முதலில் முடிவை load பண்ணுங்கள்'); return; }
             const me = myResult;
