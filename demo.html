@@ -149,7 +149,14 @@
                 const unit = term.units[0];
                 if (!unit.topics || !unit.topics.length) return null;
                 const topic = unit.topics[0];
-                return { title: topic.title, code: topic.code || topic.title };
+                // 📝 Mocktest: topic has sub-quizzes (mt_1 → mt_1_ms). Use first sub-quiz code.
+                let code = topic.code || topic.title;
+                let title = topic.title;
+                if (topic.quizzes && topic.quizzes.length) {
+                    code = topic.quizzes[0].code;
+                    title = topic.title + ' — ' + topic.quizzes[0].title;
+                }
+                return { title, code, hasQuizzes: !!(topic.quizzes && topic.quizzes.length) };
             } catch (e) { return null; }
         }
 
@@ -175,14 +182,19 @@
                 // demo=1 → login skip in material/quiz
                 const notesUrl = `material.html?subject=${subjectId}&class=${cls}&lesson=${lessonParam}&demo=1`;
                 const quizUrl = `quiz.html?subject=${subjectId}&class=${cls}&lesson=${lessonParam}&demo=1`;
+                // Mocktest = quiz only (no notes); others = both notes + quiz
+                const isMockOrTest = subjectId === 'mocktest';
+                const btns = isMockOrTest
+                    ? `<a href="${quizUrl}" class="lbtn lbtn-quiz">✏️ தேர்வு எழுது</a>`
+                    : `<a href="${notesUrl}" class="lbtn lbtn-notes">📄 பாடக்குறிப்பு</a>
+                       <a href="${quizUrl}" class="lbtn lbtn-quiz">✏️ தேர்வு</a>`;
                 html += `
                     <div class="class-block">
                         <div class="class-label">📚 ${clsLabel}<span class="free-tag">FREE DEMO</span></div>
                         <div class="lesson-row">
                             <div class="lesson-name">${lesson.title}</div>
                             <div class="lesson-btns">
-                                <a href="${notesUrl}" class="lbtn lbtn-notes">📄 பாடக்குறிப்பு</a>
-                                <a href="${quizUrl}" class="lbtn lbtn-quiz">✏️ தேர்வு</a>
+                                ${btns}
                             </div>
                         </div>
                     </div>
