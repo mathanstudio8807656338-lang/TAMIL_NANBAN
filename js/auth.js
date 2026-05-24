@@ -182,10 +182,20 @@ function initLoginPage() {
 export async function checkAuth() {
     try {
         const path = window.location.pathname.toLowerCase();
+        const search = window.location.search;
+        // 🎬 Demo mode: ?demo=1 → first lesson free preview, no login
+        const isDemoMode = new URLSearchParams(search).get('demo') === '1';
+        // 🆓 Free exam mode: ?mode=free → free TET exam, no login
+        const isFreeExamMode = new URLSearchParams(search).get('mode') === 'free';
         const isPublicPage =
+            isDemoMode || isFreeExamMode ||
             path.includes('login.html') || path.endsWith('/login') ||
             path.includes('index.html') || path.includes('admin.html') ||
             path.includes('keygen.html') || path.endsWith('/keygen') ||
+            path.includes('subject.html') || path.endsWith('/subject') ||
+            path.includes('class.html') || path.endsWith('/class') ||
+            path.includes('free-exam-select.html') || path.includes('daily-registration-new.html') ||
+            path.includes('free-result-check.html') || path.includes('demo.html') ||
             path === '/' || path === '' || path.endsWith('/index');
         const session = localStorage.getItem(STORAGE_KEY);
         const user = session ? JSON.parse(session) : null;
