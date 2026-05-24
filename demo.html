@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>இலவச டெமோ - Tamil Nanban</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Noto+Sans+Tamil:wght@400;500;600;700&family=Baloo+Thambi+2:wght@700;800&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Outfit', 'Noto Sans Tamil', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh; padding: 18px; padding-bottom: 80px;
+        }
+        .container { max-width: 760px; margin: 0 auto; }
+        .header { text-align: center; color: white; margin-bottom: 22px; }
+        .header h1 { font-family: 'Baloo Thambi 2', cursive; font-size: 2rem; margin-bottom: 6px; }
+        .header p { font-size: 0.95rem; opacity: 0.95; }
+        .demo-badge {
+            display: inline-block; background: rgba(255,255,255,0.25); color: white;
+            padding: 5px 16px; border-radius: 20px; font-size: 0.82rem; font-weight: 600;
+            margin-top: 8px; border: 1px solid rgba(255,255,255,0.4);
+        }
+
+        .subject-grid {
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 12px; margin-bottom: 20px;
+        }
+        .subject-card {
+            background: white; border-radius: 16px; padding: 20px 14px; text-align: center;
+            cursor: pointer; transition: transform 0.15s, box-shadow 0.15s;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.12); border: 2px solid transparent;
+        }
+        .subject-card:hover { transform: translateY(-3px); box-shadow: 0 10px 28px rgba(0,0,0,0.2); }
+        .subject-card.active { border-color: #667eea; background: #f0f4ff; }
+        .subject-card .icon { font-size: 2rem; margin-bottom: 8px; }
+        .subject-card .name { font-weight: 700; color: #1e293b; font-size: 0.95rem; }
+
+        .lessons-area { display: none; }
+        .lessons-area.show { display: block; }
+        .lessons-title {
+            color: white; font-size: 1.2rem; font-weight: 700; margin-bottom: 14px;
+            text-align: center;
+        }
+        .class-block {
+            background: white; border-radius: 16px; padding: 16px 18px; margin-bottom: 14px;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+        }
+        .class-label {
+            font-weight: 800; color: #667eea; font-size: 1.05rem; margin-bottom: 10px;
+            display: flex; align-items: center; gap: 8px;
+        }
+        .lesson-row {
+            display: flex; align-items: center; justify-content: space-between;
+            padding: 12px 14px; background: #f8fafc; border-radius: 12px;
+            margin-bottom: 8px; border: 1px solid #e2e8f0;
+        }
+        .lesson-name { font-weight: 600; color: #1e293b; font-size: 0.92rem; flex: 1; }
+        .lesson-btns { display: flex; gap: 8px; }
+        .lbtn {
+            padding: 8px 14px; border-radius: 10px; font-weight: 700; font-size: 0.82rem;
+            text-decoration: none; border: none; cursor: pointer; font-family: inherit;
+            white-space: nowrap;
+        }
+        .lbtn-notes { background: linear-gradient(135deg, #3b82f6, #2563eb); color: white; }
+        .lbtn-quiz { background: linear-gradient(135deg, #10b981, #059669); color: white; }
+        .free-tag {
+            display: inline-block; background: #fef3c7; color: #92400e;
+            font-size: 0.7rem; font-weight: 700; padding: 2px 8px; border-radius: 8px;
+            margin-left: 6px;
+        }
+
+        .btn-back {
+            display: inline-block; background: rgba(255,255,255,0.2); color: white;
+            padding: 11px 26px; border-radius: 22px; text-decoration: none;
+            font-weight: 700; border: 2px solid rgba(255,255,255,0.4); margin-top: 10px;
+        }
+        .loading { text-align: center; color: white; padding: 30px; }
+        @media (max-width: 600px) {
+            .subject-grid { grid-template-columns: repeat(2, 1fr); }
+            .lesson-row { flex-direction: column; align-items: stretch; gap: 8px; }
+            .lesson-btns { justify-content: stretch; }
+            .lbtn { flex: 1; text-align: center; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎬 இலவச டெமோ</h1>
+            <p>ஒவ்வொரு பாடத்திலும் முதல் பாடம் — இலவசமாக பார்க்கலாம்</p>
+            <div class="demo-badge">✨ Login தேவையில்லை</div>
+        </div>
+
+        <div class="subject-grid" id="subjectGrid"></div>
+
+        <div class="lessons-area" id="lessonsArea">
+            <div class="lessons-title" id="lessonsTitle"></div>
+            <div id="lessonsContent"></div>
+        </div>
+
+        <div style="text-align:center;">
+            <a href="index.html" class="btn-back">← முகப்புப் பக்கம்</a>
+        </div>
+    </div>
+
+    <script type="module">
+        const SUBJECTS = [
+            { id: 'tamil', name: 'தமிழ்', icon: '📖' },
+            { id: 'english', name: 'ஆங்கிலம்', icon: '🔤' },
+            { id: 'maths', name: 'கணிதம்', icon: '🔢' },
+            { id: 'science', name: 'அறிவியல்', icon: '🔬' },
+            { id: 'social', name: 'சமூக அறிவியல்', icon: '🌍' },
+            { id: 'psychology', name: 'உளவியல்', icon: '🧠' },
+            { id: 'mocktest', name: 'மாதிரி தேர்வு', icon: '📝' }
+        ];
+
+        let syllabusData = null;
+
+        // Render subject cards
+        const grid = document.getElementById('subjectGrid');
+        grid.innerHTML = SUBJECTS.map(s =>
+            `<div class="subject-card" data-subject="${s.id}" onclick="window.selectSubject('${s.id}')">
+                <div class="icon">${s.icon}</div>
+                <div class="name">${s.name}</div>
+            </div>`
+        ).join('');
+
+        // Load syllabus
+        (async () => {
+            try {
+                const v = Date.now();
+                const mod = await import(`./js/data/syllabus.js?v=${v}`);
+                syllabusData = mod.syllabusData;
+                console.log('✅ Syllabus loaded');
+            } catch (e) {
+                console.error('Syllabus load error:', e);
+            }
+        })();
+
+        // Get first lesson (term 1 → first unit → first topic) for a subject+class
+        function getFirstLesson(subject, cls) {
+            try {
+                const terms = syllabusData[subject][cls];
+                if (!terms || !terms.length) return null;
+                // Find term 1 (or first term)
+                const term = terms.find(t => t.term === 1) || terms[0];
+                if (!term.units || !term.units.length) return null;
+                const unit = term.units[0];
+                if (!unit.topics || !unit.topics.length) return null;
+                const topic = unit.topics[0];
+                return { title: topic.title, code: topic.code || topic.title };
+            } catch (e) { return null; }
+        }
+
+        window.selectSubject = function(subjectId) {
+            if (!syllabusData) { alert('கொஞ்சம் நேரம் கழித்து முயற்சிக்கவும்...'); return; }
+
+            // Highlight selected card
+            document.querySelectorAll('.subject-card').forEach(c => {
+                c.classList.toggle('active', c.dataset.subject === subjectId);
+            });
+
+            const subj = SUBJECTS.find(s => s.id === subjectId);
+            document.getElementById('lessonsTitle').textContent = `${subj.icon} ${subj.name} — முதல் பாடம் (இலவசம்)`;
+
+            const classes = Object.keys(syllabusData[subjectId] || {});
+            let html = '';
+
+            classes.forEach(cls => {
+                const lesson = getFirstLesson(subjectId, cls);
+                if (!lesson) return;
+                const clsLabel = cls === 'all' ? 'அனைத்து வகுப்புகள்' : `வகுப்பு ${cls}`;
+                const lessonParam = encodeURIComponent(lesson.code);
+                // demo=1 → login skip in material/quiz
+                const notesUrl = `material.html?subject=${subjectId}&class=${cls}&lesson=${lessonParam}&demo=1`;
+                const quizUrl = `quiz.html?subject=${subjectId}&class=${cls}&lesson=${lessonParam}&demo=1`;
+                html += `
+                    <div class="class-block">
+                        <div class="class-label">📚 ${clsLabel}<span class="free-tag">FREE DEMO</span></div>
+                        <div class="lesson-row">
+                            <div class="lesson-name">${lesson.title}</div>
+                            <div class="lesson-btns">
+                                <a href="${notesUrl}" class="lbtn lbtn-notes">📄 பாடக்குறிப்பு</a>
+                                <a href="${quizUrl}" class="lbtn lbtn-quiz">✏️ தேர்வு</a>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            });
+
+            const area = document.getElementById('lessonsArea');
+            document.getElementById('lessonsContent').innerHTML = html || '<p style="color:white;text-align:center;">பாடம் கிடைக்கவில்லை</p>';
+            area.classList.add('show');
+            area.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        };
+    </script>
+</body>
+</html>

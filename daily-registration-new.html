@@ -181,23 +181,24 @@
             </div>
             
             <div class="form-group">
-                <label for="dobInput">பிறந்த தேதி (Date of Birth) *</label>
-                <input type="date" id="dobInput" required>
+                <label for="dobInput">பிறந்த தேதி (DD/MM/YYYY) *</label>
+                <input type="text" id="dobInput" inputmode="numeric" placeholder="நாள்/மாதம்/ஆண்டு (எ.கா: 15/08/1995)" maxlength="10" required>
+                <small style="display:block;margin-top:4px;color:#64748b;font-size:0.8rem;">எண்களை மட்டும் தட்டச்சு செய்யவும் — / தானாக வரும்</small>
             </div>
             
             <div class="form-group">
                 <label for="categoryInput">இனப்பிரிவு (Community) *</label>
                 <select id="categoryInput" required style="width:100%;padding:14px 16px;border:2px solid #e2e8f0;border-radius:12px;font-size:1rem;font-family:inherit;background:white;cursor:pointer;">
                     <option value="">-- தேர்ந்தெடுக்கவும் --</option>
-                    <option value="OC">General / OC (60%)</option>
-                    <option value="BC">BC - Backward Class (50%)</option>
-                    <option value="BCM">BCM - BC Muslim (50%)</option>
-                    <option value="MBC">MBC - Most Backward Class (50%)</option>
-                    <option value="DNC">DNC - Denotified Community (50%)</option>
-                    <option value="SC">SC - Scheduled Caste (40%)</option>
-                    <option value="SCA">SCA - SC Arunthathiyar (40%)</option>
-                    <option value="ST">ST - Scheduled Tribe (40%)</option>
-                    <option value="PWD">PWD - Differently Abled (40%)</option>
+                    <option value="OC">OC - General</option>
+                    <option value="BC">BC - Backward Class</option>
+                    <option value="BCM">BCM - BC Muslim</option>
+                    <option value="MBC">MBC - Most Backward Class</option>
+                    <option value="DNC">DNC - Denotified Community</option>
+                    <option value="SC">SC - Scheduled Caste</option>
+                    <option value="SCA">SCA - SC Arunthathiyar</option>
+                    <option value="ST">ST - Scheduled Tribe</option>
+                    <option value="PWD">PWD - Differently Abled</option>
                 </select>
             </div>
             
@@ -281,6 +282,29 @@
         const DEVICE_FP = getDeviceFingerprint();
         console.log('🔒 Device FP:', DEVICE_FP);
 
+        // 📅 DOB auto-format: type numbers → DD/MM/YYYY (slashes auto-inserted)
+        (function setupDobInput() {
+            const dob = document.getElementById('dobInput');
+            if (!dob) return;
+            dob.addEventListener('input', (e) => {
+                let v = e.target.value.replace(/\D/g, '');   // digits only
+                if (v.length > 8) v = v.slice(0, 8);
+                let out = v;
+                if (v.length > 4) out = v.slice(0,2) + '/' + v.slice(2,4) + '/' + v.slice(4);
+                else if (v.length > 2) out = v.slice(0,2) + '/' + v.slice(2);
+                e.target.value = out;
+            });
+        })();
+
+        // Validate DD/MM/YYYY → returns ISO yyyy-mm-dd or null
+        function parseDob(str) {
+            const m = str.match(/^(\d{2})\/(\d{2})\/(\d{4})$/);
+            if (!m) return null;
+            const d = +m[1], mo = +m[2], y = +m[3];
+            if (d < 1 || d > 31 || mo < 1 || mo > 12 || y < 1940 || y > 2020) return null;
+            return `${y}-${String(mo).padStart(2,'0')}-${String(d).padStart(2,'0')}`;
+        }
+
         if (!examFile) {
             document.getElementById('examTitle').innerHTML = '❌ தேர்வு தகவல் இல்லை';
             document.getElementById('submitBtn').disabled = true;
@@ -310,7 +334,8 @@
             // Get form values (CORRECT ORDER: mobile, name, dob)
             const mobile = document.getElementById('mobileInput').value.trim();
             const name = document.getElementById('nameInput').value.trim();
-            const dob = document.getElementById('dobInput').value;
+            const dobRaw = document.getElementById('dobInput').value.trim();
+            const dob = parseDob(dobRaw);  // DD/MM/YYYY → ISO yyyy-mm-dd
             const category = document.getElementById('categoryInput').value;
             
             const errorMsg = document.getElementById('errorMsg');
@@ -322,10 +347,17 @@
             successMsg.style.display = 'none';
 
             // Validation
-            if (!mobile || !name || !dob || !category) {
+            if (!mobile || !name || !dobRaw || !category) {
                 errorMsg.textContent = 'அனைத்து தகவல்களையும் நிரப்பவும்! (இனப்பிரிவு உட்பட)';
                 errorMsg.style.display = 'block';
                 console.log('❌ Validation failed: Empty fields');
+                return;
+            }
+
+            if (!dob) {
+                errorMsg.textContent = 'பிறந்த தேதியை சரியாக உள்ளிடவும்! (எ.கா: 15/08/1995)';
+                errorMsg.style.display = 'block';
+                console.log('❌ Validation failed: Invalid DOB');
                 return;
             }
 
