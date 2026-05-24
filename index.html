@@ -439,6 +439,22 @@
                     const isContactLink = link.href.startsWith('tel:') || link.href.includes('wa.me') || link.target === '_blank';
                     if (isContactLink) return;
 
+                    const href = link.getAttribute('href') || '';
+                    const hrefLower = href.toLowerCase();
+
+                    // 🚫 Public pages — NO login needed (free browsing)
+                    const isPublicDest =
+                        hrefLower.includes('free-exam-select') || hrefLower.includes('free-result-check') ||
+                        hrefLower.includes('demo.html') || hrefLower.includes('subject.html') ||
+                        hrefLower.includes('class.html') || hrefLower.includes('index.html') ||
+                        hrefLower === '#' || hrefLower === '' || hrefLower.startsWith('http');
+
+                    if (isPublicDest) {
+                        // Let it navigate freely (no login)
+                        return;
+                    }
+
+                    // 🔒 Protected destinations (material/qa/quiz direct) → login required
                     e.preventDefault();
                     if (!authResolved) await waitForAuth();
 
