@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>தேர்வு பதிவு - Tamil Nanban</title>
+    <title>தேர்வு பதிவு - தமிழ் நண்பன்</title>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Noto+Sans+Tamil:wght@400;700&family=Baloo+Thambi+2:wght@800&display=swap" rel="stylesheet">
     <style>
         * {
@@ -161,7 +161,7 @@
 <body>
     <div class="container">
         <div class="header">
-            <div class="brand-main">தமில்நண்பன்</div>
+            <div class="brand-main">தமிழ் நண்பன்</div>
             <div class="subtitle">தேர்வு பதிவு</div>
         </div>
         
@@ -172,12 +172,14 @@
         <form id="registrationForm">
             <div class="form-group">
                 <label for="mobileInput">மொபைல் எண் (Mobile Number) *</label>
-                <input type="tel" id="mobileInput" placeholder="10 இலக்க மொபைல் எண்" maxlength="10" required>
+                <input type="tel" id="mobileInput" inputmode="numeric" placeholder="10 இலக்க மொபைல் எண் (6/7/8/9 தொடக்கம்)" maxlength="10" required>
+                <small style="display:block;margin-top:4px;color:#64748b;font-size:0.8rem;">உண்மையான மொபைல் எண்ணை மட்டும் உள்ளிடவும்</small>
             </div>
             
             <div class="form-group">
-                <label for="nameInput">பெயர் (Name) *</label>
-                <input type="text" id="nameInput" placeholder="உங்கள் பெயரை உள்ளிடவும்" required>
+                <label for="nameInput">பெயர் (Name in ENGLISH) *</label>
+                <input type="text" id="nameInput" placeholder="ENTER NAME IN ENGLISH" required>
+                <small style="display:block;margin-top:4px;color:#64748b;font-size:0.8rem;">ஆங்கிலத்தில் மட்டும் எழுதவும் — பெரிய எழுத்தாக (CAPITAL) தானாக மாறும்</small>
             </div>
             
             <div class="form-group">
@@ -296,6 +298,27 @@
             });
         })();
 
+        // 🔤 Name: English letters + spaces ONLY, auto-UPPERCASE (no Tamil/symbols → no garbled text)
+        (function setupNameInput() {
+            const nameEl = document.getElementById('nameInput');
+            if (!nameEl) return;
+            nameEl.addEventListener('input', (e) => {
+                // Keep only A-Z, a-z, space → then uppercase
+                let v = e.target.value.replace(/[^a-zA-Z ]/g, '');
+                v = v.toUpperCase().replace(/\s+/g, ' ');  // collapse multiple spaces
+                e.target.value = v;
+            });
+        })();
+
+        // 📱 Mobile: digits only (max 10)
+        (function setupMobileInput() {
+            const mob = document.getElementById('mobileInput');
+            if (!mob) return;
+            mob.addEventListener('input', (e) => {
+                e.target.value = e.target.value.replace(/\D/g, '').slice(0, 10);
+            });
+        })();
+
         // Validate DD/MM/YYYY → returns ISO yyyy-mm-dd or null
         function parseDob(str) {
             const m = str.match(/^(\d{2})\/(\d{2})\/(\d{4})$/);
@@ -361,10 +384,25 @@
                 return;
             }
 
-            if (mobile.length !== 10 || !/^\d+$/.test(mobile)) {
-                errorMsg.textContent = 'சரியான 10 இலக்க மொபைல் எண்ணை உள்ளிடவும்!';
+            // 📱 Mobile format check: 10 digits, starts with 6/7/8/9 (Indian mobile)
+            if (mobile.length !== 10 || !/^[6-9]\d{9}$/.test(mobile)) {
+                errorMsg.textContent = 'சரியான மொபைல் எண்ணை உள்ளிடவும்! (6, 7, 8 அல்லது 9-ல் தொடங்கி 10 இலக்கம்)';
                 errorMsg.style.display = 'block';
-                console.log('❌ Validation failed: Invalid mobile number');
+                console.log('❌ Validation failed: Invalid mobile format');
+                return;
+            }
+            // Block fake numbers — all same digit (1111111111, 9999999999, etc.)
+            if (/^(\d)\1{9}$/.test(mobile)) {
+                errorMsg.textContent = 'தயவுசெய்து உங்கள் உண்மையான மொபைல் எண்ணை உள்ளிடவும்!';
+                errorMsg.style.display = 'block';
+                console.log('❌ Validation failed: Fake (repeated digit) mobile');
+                return;
+            }
+            // 🔤 Name: must have at least 2 English letters
+            if (!/[A-Z]{2,}/.test(name)) {
+                errorMsg.textContent = 'உங்கள் பெயரை ஆங்கிலத்தில் சரியாக உள்ளிடவும்!';
+                errorMsg.style.display = 'block';
+                console.log('❌ Validation failed: Invalid name');
                 return;
             }
 

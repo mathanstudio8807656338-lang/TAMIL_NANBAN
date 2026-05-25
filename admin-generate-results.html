@@ -222,6 +222,29 @@
     <script>
         // Admin secret — change this to your own key
         const ADMIN_KEY = 'A1ADMIN2025';
+
+        // 🔤 Tamil font for jsPDF (Noto Sans Tamil) — loaded once, cached
+        let _tamilFontB64 = null;
+        async function ensureTamilFont(doc) {
+            try {
+                if (!_tamilFontB64) {
+                    const url = 'https://cdn.jsdelivr.net/gh/google/fonts/ofl/notosanstamil/NotoSansTamil%5Bwdth%2Cwght%5D.ttf';
+                    const res = await fetch(url);
+                    if (!res.ok) throw new Error('font fetch failed');
+                    const buf = await res.arrayBuffer();
+                    let binary = '';
+                    const bytes = new Uint8Array(buf);
+                    for (let i = 0; i < bytes.length; i++) binary += String.fromCharCode(bytes[i]);
+                    _tamilFontB64 = btoa(binary);
+                }
+                doc.addFileToVFS('NotoTamil.ttf', _tamilFontB64);
+                doc.addFont('NotoTamil.ttf', 'NotoTamil', 'normal');
+                return true;
+            } catch (e) {
+                console.warn('Tamil font load failed, English fallback:', e);
+                return false;
+            }
+        }
         
         // Community-wise pass cutoff percentages
         const CUTOFFS = {
@@ -435,7 +458,7 @@
         // ═══════════════════════════════════════════════════════
         // 📄 PDF Download (Rank-wise + all columns) — Colorful Design
         // ═══════════════════════════════════════════════════════
-        function downloadPDF(paperKey) {
+        async function downloadPDF(paperKey) {
             const data = generatedData[paperKey];
             if (!data || !data.results || data.results.length === 0) {
                 alert('Generate செய்த பின் download பண்ணுங்கள்! Empty data இருக்கு.');
@@ -445,6 +468,8 @@
             const { jsPDF } = window.jspdf;
             const doc = new jsPDF('p', 'mm', 'a4');
             const pageWidth = doc.internal.pageSize.width;
+            const hasTamil = await ensureTamilFont(doc);
+            const TF = hasTamil ? 'NotoTamil' : 'helvetica';
             
             // ═══ HEADER SECTION ═══
             
@@ -452,28 +477,27 @@
             doc.setFillColor(67, 56, 202);  // Indigo-700
             doc.rect(0, 0, pageWidth, 38, 'F');
             
-            // "TAMIL NANBAN" in white
+            // "தமிழ் நண்பன்" header
             doc.setTextColor(255, 255, 255);
-            doc.setFont('helvetica', 'bold');
-            doc.setFontSize(22);
-            doc.text('TAMIL NANBAN', pageWidth / 2, 13, { align: 'center' });
+            doc.setFont(TF, 'normal');
+            doc.setFontSize(20);
+            doc.text(hasTamil ? 'தமிழ் நண்பன் கோச்சிங் சென்டர்' : 'TAMIL NANBAN COACHING CENTER', pageWidth / 2, 13, { align: 'center' });
             
-            // Subtitle "TEST BATCH"
-            doc.setFontSize(13);
-            doc.setFont('helvetica', 'bold');
+            // Subtitle
+            doc.setFontSize(12);
             doc.setTextColor(254, 215, 102);  // Gold
-            doc.text('TEST BATCH', pageWidth / 2, 21, { align: 'center' });
+            doc.text(hasTamil ? 'மெகா டெஸ்ட் சீரியஸ்' : 'MEGA TEST SERIES', pageWidth / 2, 21, { align: 'center' });
             
             // Mobile number
             doc.setFontSize(10);
-            doc.setFont('helvetica', 'normal');
+            doc.setFont(TF, 'normal');
             doc.setTextColor(255, 255, 255);
             doc.text('Mobile: 63 69 37 14 52', pageWidth / 2, 28, { align: 'center' });
             
             // Exam title
-            const examTitle = paperKey === 'paper1'
-                ? 'Paper 1: Mathematics + Science'
-                : 'Paper 2: Social Science';
+            const examTitle = hasTamil
+                ? (paperKey === 'paper1' ? 'பேப்பர் 2 - கணிதம் + அறிவியல்' : 'பேப்பர் 2 - சமூக அறிவியல்')
+                : (paperKey === 'paper1' ? 'Paper 2 - Mathematics + Science' : 'Paper 2 - Social Science');
             doc.setFontSize(10);
             doc.setTextColor(220, 230, 255);
             doc.text(examTitle, pageWidth / 2, 34, { align: 'center' });

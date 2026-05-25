@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>தேர்வு முடிவுகள் - Tamil Nanban</title>
+    <title>தேர்வு முடிவுகள் - தமிழ் நண்பன்</title>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&family=Noto+Sans+Tamil:wght@400;600;700&family=Baloo+Thambi+2:wght@800&display=swap" rel="stylesheet">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -216,17 +216,47 @@
         const CUTOFFS = { 'OC': 60, 'GENERAL': 60, 'BC': 50, 'BCM': 50, 'MBC': 50, 'DNC': 50, 'SC': 40, 'SCA': 40, 'ST': 40, 'PWD': 40 };
         function getCutoff(cat) { return CUTOFFS[(cat || 'OC').toUpperCase()] ?? 60; }
 
+        // 🔤 Tamil font for jsPDF (Noto Sans Tamil) — loaded once, cached
+        let _tamilFontB64 = null;
+        let _tamilFontLoaded = false;
+        async function ensureTamilFont(doc) {
+            try {
+                if (!_tamilFontB64) {
+                    const url = 'https://cdn.jsdelivr.net/gh/google/fonts/ofl/notosanstamil/NotoSansTamil%5Bwdth%2Cwght%5D.ttf';
+                    const res = await fetch(url);
+                    if (!res.ok) throw new Error('font fetch failed');
+                    const buf = await res.arrayBuffer();
+                    // arraybuffer → base64
+                    let binary = '';
+                    const bytes = new Uint8Array(buf);
+                    for (let i = 0; i < bytes.length; i++) binary += String.fromCharCode(bytes[i]);
+                    _tamilFontB64 = btoa(binary);
+                }
+                doc.addFileToVFS('NotoTamil.ttf', _tamilFontB64);
+                doc.addFont('NotoTamil.ttf', 'NotoTamil', 'normal');
+                _tamilFontLoaded = true;
+                return true;
+            } catch (e) {
+                console.warn('Tamil font load failed, using English fallback:', e);
+                _tamilFontLoaded = false;
+                return false;
+            }
+        }
+
         let currentData = null;
         let currentSort = 'az';
         let currentSearch = '';
         let currentMode = 'individual';
         let myPhone = '';
 
-        const now = new Date();
-        const isAfter1015pm = (now.getHours() > 22) || (now.getHours() === 22 && now.getMinutes() >= 15);
+        // 📅 Result date: ALWAYS today (locked — no previous dates)
         const defaultDate = new Date();
-        if (!isAfter1015pm) defaultDate.setDate(defaultDate.getDate() - 1);
-        document.getElementById('examDate').value = defaultDate.toISOString().split('T')[0];
+        const dateEl = document.getElementById('examDate');
+        const todayStr = defaultDate.toISOString().split('T')[0];
+        dateEl.value = todayStr;
+        dateEl.max = todayStr;   // can't pick future
+        dateEl.min = todayStr;   // can't pick past — today only
+        dateEl.setAttribute('readonly', 'readonly');
 
         const savedMobile = localStorage.getItem('studentMobile');
         if (savedMobile && /^[0-9]{10}$/.test(savedMobile)) {
@@ -462,7 +492,7 @@
             }
         }
 
-        function downloadMyPDF() {
+        async function downloadMyPDF() {
             if (!myResult) { alert('முதலில் முடிவை load பண்ணுங்கள்'); return; }
             const me = myResult;
             const cutoff = me.cutoff ?? getCutoff(me.category);
@@ -472,20 +502,25 @@
             const doc = new jsPDF('p', 'mm', 'a4');
             const W = doc.internal.pageSize.width;
 
+            const hasTamil = await ensureTamilFont(doc);
+            const TF = hasTamil ? 'NotoTamil' : 'helvetica';
+
             // Header banner
             doc.setFillColor(67, 56, 202);
             doc.rect(0, 0, W, 40, 'F');
             doc.setTextColor(255, 255, 255);
-            doc.setFont('helvetica', 'bold');
-            doc.setFontSize(24);
-            doc.text('TAMIL NANBAN', W / 2, 15, { align: 'center' });
-            doc.setFontSize(14);
+            doc.setFont(TF, 'normal');
+            doc.setFontSize(22);
+            doc.text(hasTamil ? 'தமிழ் நண்பன் கோச்சிங் சென்டர்' : 'TAMIL NANBAN COACHING CENTER', W / 2, 15, { align: 'center' });
+            doc.setFontSize(13);
             doc.setTextColor(254, 215, 102);
-            doc.text('TEST BATCH', W / 2, 24, { align: 'center' });
+            doc.text(hasTamil ? 'மெகா டெஸ்ட் சீரியஸ்' : 'MEGA TEST SERIES', W / 2, 24, { align: 'center' });
             doc.setFontSize(10);
             doc.setTextColor(255, 255, 255);
             doc.text('Mobile: 63 69 37 14 52', W / 2, 31, { align: 'center' });
-            const examT = currentData.paper === 'paper1' ? 'Paper 1: Maths + Science' : 'Paper 2: Social Science';
+            const examT = hasTamil
+                ? (currentData.paper === 'paper1' ? 'பேப்பர் 2 - கணிதம் + அறிவியல்' : 'பேப்பர் 2 - சமூக அறிவியல்')
+                : (currentData.paper === 'paper1' ? 'Paper 2 - Maths + Science' : 'Paper 2 - Social Science');
             doc.setTextColor(220, 230, 255);
             doc.setFontSize(9);
             doc.text(examT + '  |  ' + currentData.examDate, W / 2, 37, { align: 'center' });
@@ -537,26 +572,32 @@
             doc.save(`my_result_${me.phone}_${currentData.paper}_${currentData.examDate}.pdf`);
         }
 
-        function downloadPDF() {
+        async function downloadPDF() {
             if (!currentData || !currentData.results.length) { alert('முதலில் முடிவுகளை load பண்ணுங்கள்'); return; }
             const { jsPDF } = window.jspdf;
             const doc = new jsPDF('p', 'mm', 'a4');
             const pageWidth = doc.internal.pageSize.width;
 
+            const hasTamil = await ensureTamilFont(doc);
+            const TF = hasTamil ? 'NotoTamil' : 'helvetica';
+
             doc.setFillColor(67, 56, 202);
             doc.rect(0, 0, pageWidth, 38, 'F');
             doc.setTextColor(255, 255, 255);
-            doc.setFont('helvetica', 'bold');
-            doc.setFontSize(22);
-            doc.text('TAMIL NANBAN', pageWidth / 2, 13, { align: 'center' });
-            doc.setFontSize(13);
+            doc.setFont(TF, 'normal');
+            doc.setFontSize(20);
+            doc.text(hasTamil ? 'தமிழ் நண்பன் கோச்சிங் சென்டர்' : 'TAMIL NANBAN COACHING CENTER', pageWidth / 2, 13, { align: 'center' });
+            doc.setFontSize(12);
             doc.setTextColor(254, 215, 102);
-            doc.text('TEST BATCH', pageWidth / 2, 21, { align: 'center' });
+            doc.text(hasTamil ? 'மெகா டெஸ்ட் சீரியஸ்' : 'MEGA TEST SERIES', pageWidth / 2, 21, { align: 'center' });
             doc.setFontSize(10);
             doc.setTextColor(255, 255, 255);
             doc.text('Mobile: 63 69 37 14 52', pageWidth / 2, 28, { align: 'center' });
-            const titleText = currentData.paper === 'paper1' ? 'Paper 1: Mathematics + Science' : 'Paper 2: Social Science';
+            const titleText = hasTamil
+                ? (currentData.paper === 'paper1' ? 'பேப்பர் 2 - கணிதம் + அறிவியல்' : 'பேப்பர் 2 - சமூக அறிவியல்')
+                : (currentData.paper === 'paper1' ? 'Paper 2 - Mathematics + Science' : 'Paper 2 - Social Science');
             doc.setTextColor(220, 230, 255);
+            doc.setFontSize(9);
             doc.text(titleText, pageWidth / 2, 34, { align: 'center' });
 
             doc.setFillColor(254, 243, 199);
