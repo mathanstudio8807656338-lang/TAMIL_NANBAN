@@ -615,8 +615,8 @@
                         const qCard = document.createElement('div');
                         qCard.className = 'question-card';
                         qCard.innerHTML = `
-                            <div class="q">
-                                <span class="qnum">${idx + 1}.</span>
+                            <div class="question-text" style="color:#1d4ed8; font-weight:700; font-size:1.05rem; line-height:1.6; margin-bottom:1rem;">
+                                <span style="opacity:0.6; font-size:0.85rem; margin-right:4px;">${idx + 1}.</span>
                                 ${q.question}
                             </div>
                             <div class="options-grid" id="options-${idx}">
