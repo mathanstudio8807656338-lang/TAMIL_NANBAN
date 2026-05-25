@@ -97,8 +97,8 @@
 
             <div class="control-row">
                 <div>
-                    <label>📅 தேர்வு தேதி</label>
-                    <input type="date" id="examDate">
+                    <label>📅 தேர்வு தேதி (நாள்/மாதம்/ஆண்டு)</label>
+                    <input type="text" id="examDate" inputmode="numeric" placeholder="25/05/2026" maxlength="10" readonly>
                 </div>
                 <div>
                     <label>📄 தேர்வு பேப்பர்</label>
@@ -249,14 +249,14 @@
         let currentMode = 'individual';
         let myPhone = '';
 
-        // 📅 Result date: ALWAYS today (locked — no previous dates)
+        // 📅 Result date: ALWAYS today (DD/MM/YYYY display, locked)
         const defaultDate = new Date();
         const dateEl = document.getElementById('examDate');
-        const todayStr = defaultDate.toISOString().split('T')[0];
-        dateEl.value = todayStr;
-        dateEl.max = todayStr;   // can't pick future
-        dateEl.min = todayStr;   // can't pick past — today only
-        dateEl.setAttribute('readonly', 'readonly');
+        const todayISO = defaultDate.toISOString().split('T')[0]; // YYYY-MM-DD for fetch
+        const dd = String(defaultDate.getDate()).padStart(2,'0');
+        const mm = String(defaultDate.getMonth()+1).padStart(2,'0');
+        const yyyy = defaultDate.getFullYear();
+        dateEl.value = `${dd}/${mm}/${yyyy}`;  // DD/MM/YYYY display
 
         const savedMobile = localStorage.getItem('studentMobile');
         if (savedMobile && /^[0-9]{10}$/.test(savedMobile)) {
@@ -285,9 +285,13 @@
         }
 
         async function loadResults() {
-            const examDate = document.getElementById('examDate').value;
+            const examDateRaw = document.getElementById('examDate').value.trim();
+            // Convert DD/MM/YYYY → YYYY-MM-DD for file fetch
+            let examDate = todayISO; // fallback
+            const parts = examDateRaw.match(/^(\d{2})\/(\d{2})\/(\d{4})$/);
+            if (parts) examDate = `${parts[3]}-${parts[2]}-${parts[1]}`;
             const paperKey = document.getElementById('paperSelect').value;
-            if (!examDate) { showError('தேதியை தேர்ந்தெடுக்கவும்!'); return; }
+            if (!examDateRaw) { showError('தேதி இல்லை!'); return; }
 
             if (currentMode === 'individual') {
                 myPhone = document.getElementById('mobileInput').value.trim();
@@ -307,7 +311,11 @@
 
             try {
                 const response = await fetch(url);
-                if (!response.ok) throw new Error(`File not found (${response.status})`);
+                if (!response.ok) {
+                    document.getElementById('loadingBox').style.display = 'none';
+                    showError('முடிவுகள் இன்னும் வெளியிடப்படவில்லை! இரவு 10:15 மணிக்கு பிறகு மீண்டும் பார்க்கவும்.');
+                    return;
+                }
                 const data = await response.json();
                 currentData = data;
                 document.getElementById('loadingBox').style.display = 'none';
