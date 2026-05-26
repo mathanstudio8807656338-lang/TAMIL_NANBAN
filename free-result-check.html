@@ -226,11 +226,14 @@
                     const res = await fetch(url);
                     if (!res.ok) throw new Error('font fetch failed');
                     const buf = await res.arrayBuffer();
-                    // arraybuffer → base64
-                    let binary = '';
+                    // Safe base64 conversion for large fonts (btoa() fails on large binary)
                     const bytes = new Uint8Array(buf);
-                    for (let i = 0; i < bytes.length; i++) binary += String.fromCharCode(bytes[i]);
-                    _tamilFontB64 = btoa(binary);
+                    let b64 = '';
+                    const chunk = 8192;
+                    for (let i = 0; i < bytes.length; i += chunk) {
+                        b64 += String.fromCharCode(...bytes.subarray(i, i + chunk));
+                    }
+                    _tamilFontB64 = btoa(b64);
                 }
                 doc.addFileToVFS('NotoTamil.ttf', _tamilFontB64);
                 doc.addFont('NotoTamil.ttf', 'NotoTamil', 'normal');
@@ -336,19 +339,30 @@
 
         let myResult = null;
         function renderIndividual() {
-            const me = currentData.results.find(r => r.phone === myPhone);
-            if (!me) {
+            // Multiple attempts support — same phone-க்கு பல records இருக்கலாம்
+            // Best score (highest percentage, then lowest timeTaken) எடு
+            const myRecords = currentData.results.filter(r => r.phone === myPhone);
+            if (!myRecords.length) {
                 document.getElementById('emptyTitle').textContent = 'உங்கள் முடிவு கிடைக்கவில்லை';
                 document.getElementById('emptyDesc').textContent = 'இந்த மொபைல் எண்ணில் இந்த தேர்வுக்கு பதிவு இல்லை';
                 document.getElementById('emptyState').style.display = 'block';
                 return;
             }
+            // Best attempt: highest score, tiebreak by lowest timeTaken
+            myRecords.sort((a, b) => {
+                if (b.score !== a.score) return b.score - a.score;
+                return (a.timeTaken || 0) - (b.timeTaken || 0);
+            });
+            const me = myRecords[0];
             myResult = me;
             const cutoff = me.cutoff ?? getCutoff(me.category);
             const passed = me.passed ?? (me.percentage >= cutoff);
 
+            const attemptNote = myRecords.length > 1
+                ? ` (${myRecords.length} முறை எழுதினீர்கள் — சிறந்த முயற்சி காட்டப்படுகிறது)`
+                : '';
             document.getElementById('indName').textContent = me.name || 'மாணவர்';
-            document.getElementById('indMeta').textContent = `${currentData.examTitle || ''} • ${currentData.examDate}`;
+            document.getElementById('indMeta').textContent = `${currentData.examTitle || ''} • ${currentData.examDate}${attemptNote}`;
 
             const banner = document.getElementById('passfailBanner');
             banner.className = 'passfail-banner ' + (passed ? 'pass' : 'fail');

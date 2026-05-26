@@ -730,26 +730,17 @@
                         try {
                             const phone = params.get('phone');
                             const date = params.get('date');
+                            const ts = params.get('ts') || localStorage.getItem('attemptTs') || Date.now();
                             const studentName = localStorage.getItem('studentName') || 'Student';
                             const studentCategory = localStorage.getItem('studentCategory') || 'OC';
                             const examKey = examFile.replace('.json', '');  // "paper1" or "paper2"
-                            const deviceId = `${phone}_${date}_${examKey}`;  // ⭐ Same format as registration
+                            const deviceId = `${phone}_${date}_${examKey}_${ts}`;  // ⭐ Matches registration unique key
                             
                             // Use the SAME Firebase v8 compat SDK that registration page uses
-                            // It was loaded by daily-registration-new.html and is still in window
                             if (typeof firebase !== 'undefined' && firebase.database) {
                                 const db = firebase.database();
                                 
-                                // 1️⃣ Update registration: hasAttempted = true
-                                await db.ref(`device_sessions/${deviceId}`).update({
-                                    hasAttempted: true,
-                                    attemptedAt: new Date().toISOString(),
-                                    score: score,
-                                    totalQuestions: questions.length
-                                });
-                                console.log('✅ device_sessions updated: hasAttempted=true');
-                                
-                                // 2️⃣ Save full result to free_exam_results
+                                // Save full result to free_exam_results (unique per attempt)
                                 await db.ref(`free_exam_results/${deviceId}`).set({
                                     phoneNumber: phone,
                                     studentName,
@@ -794,11 +785,6 @@
                                     appId: "1:240838259015:web:a5b80f33e9a0fec5ea24b0"
                                 });
                                 const db = firebase.database();
-                                await db.ref(`device_sessions/${deviceId}`).update({
-                                    hasAttempted: true,
-                                    attemptedAt: new Date().toISOString(),
-                                    score, totalQuestions: questions.length
-                                });
                                 await db.ref(`free_exam_results/${deviceId}`).set({
                                     phoneNumber: phone, studentName, category: studentCategory, examFile, examDate: date,
                                     score, correctAnswers: correctCount, wrongAnswers: wrongCount,
@@ -1211,46 +1197,8 @@
 
             window.scrollTo(0, 0);
 
-            // NEW CODE: Save to Firebase
-            try {
-                const {db, doc, setDoc, updateDoc, phoneNumber, examDate, category} = window.firebaseQuizData;
-
-            if (!phoneNumber || !examDate) {
-                console.error('Missing quiz parameters');
-            return;
-                }
-
-            const studentName = localStorage.getItem('studentName') || 'Student';
-
-            await setDoc(doc(db, 'free_exam_results', `${phoneNumber}_${examDate}`), {
-                phoneNumber,
-                studentName,
-                category,
-                examDate,
-                score,
-                correctAnswers: correctCount,
-            wrongAnswers: wrongCount,
-            totalQuestions: questions.length,
-            timeTaken,
-            completedAt: new Date().toISOString(),
-            isTestMode: window.IS_TEST_MODE === true  // 🧪 Test results flag
-                });
-
-            await updateDoc(doc(db, 'exam_registrations', `${phoneNumber}_${examDate}`), {
-                hasAttempted: true,
-            attemptedAt: new Date().toISOString()
-                });
-
-            console.log('Results saved to Firebase!');
-
-                setTimeout(() => {
-                window.location.href = `exam-results.html?phone=${phoneNumber}&date=${examDate}&category=${category}`;
-                }, 3000);
-
-            } catch (error) {
-                console.error('Firebase error:', error);
-            alert('முடிவுகள் save செய்வதில் பிழை!');
-            }
+            // Regular mode result save — skipped (free exam path handles all saves)
+            console.log('Regular mode: result displayed locally');
         };
 
             // TTS Logic

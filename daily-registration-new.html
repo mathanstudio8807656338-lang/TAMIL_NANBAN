@@ -413,65 +413,20 @@
             try {
                 const today = new Date().toISOString().split('T')[0];
                 const examKey = examFile.replace('.json', '');
-                const deviceId = `${mobile}_${today}_${examKey}`;
-                const deviceLockPath = `device_locks/${DEVICE_FP}_${today}_${examKey}`;
+                // Timestamp சேர்க்கப்பட்டது — ஒரே நொடியில் இரண்டு மாணவர்கள் submit செய்தாலும் unique
+                const attemptTs = Date.now();
+                const deviceId = `${mobile}_${today}_${examKey}_${attemptTs}`;
 
                 console.log('🔑 Device ID:', deviceId);
-                console.log('🔒 Device Lock Path:', deviceLockPath);
 
-                // ═══════════════════════════════════════════════════════
-                // 🔒 DEVICE LOCK CHECK — இந்த device முன்பு வேற mobile-ல் எழுதியதா?
-                // ═══════════════════════════════════════════════════════
-                const lockSnap = await firebase.database().ref(deviceLockPath).once('value');
-                if (lockSnap.exists() && !TEST_MODE) {
-                    const lockedMobile = lockSnap.val().mobile;
-                    if (lockedMobile !== mobile) {
-                        errorMsg.innerHTML = '⚠️ இந்த device-ல் ஏற்கனவே வேறு மொபைல் எண்ணில் (' +
-                            lockedMobile.slice(0,2) + '****' + lockedMobile.slice(-2) +
-                            ') இந்த தேர்வு எழுதப்பட்டது.<br>ஒரு device-ல் ஒரே மொபைல் எண்ணை மட்டுமே பயன்படுத்த முடியும்.';
-                        errorMsg.style.display = 'block';
-                        submitBtn.disabled = false;
-                        submitBtn.textContent = 'தேர்வை தொடங்கு →';
-                        console.log('🚫 BLOCKED: Different mobile on same device');
-                        return;
-                    }
-                    console.log('✅ Device lock matches this mobile');
-                }
-                if (TEST_MODE) console.log('🧪 TEST MODE: device lock bypassed');
+                // Device lock removed — multiple attempts allowed on same device
 
                 // Check if already registered (same mobile)
-                const snapshot = await firebase.database().ref(`device_sessions/${deviceId}`).once('value');
-                
-                if (snapshot.exists()) {
-                    const data = snapshot.val();
-                    console.log('📋 Existing registration:', data);
-                    
-                    // 🧪 TEST MODE-ல் already-attempted check skip
-                    if (data.hasAttempted && !TEST_MODE) {
-                        errorMsg.textContent = 'நீங்கள் ஏற்கனவே இந்த தேர்வை எழுதிவிட்டீர்கள்!';
-                        errorMsg.style.display = 'block';
-                        submitBtn.disabled = false;
-                        submitBtn.textContent = 'தேர்வை தொடங்கு →';
-                        console.log('⚠️ Already attempted');
-                        return;
-                    }
-                    if (data.hasAttempted && TEST_MODE) {
-                        console.log('🧪 TEST MODE: Already-attempted check bypassed');
-                    }
-                }
+                // Multiple attempts allowed — no hasAttempted block
 
-                // 🔒 Save device lock (if not already set)
-                if (!lockSnap.exists()) {
-                    await firebase.database().ref(deviceLockPath).set({
-                        mobile: mobile,
-                        examKey: examKey,
-                        examDate: today,
-                        lockedAt: new Date().toISOString()
-                    });
-                    console.log('🔒 Device lock SET for', mobile);
-                }
+                // Device lock removed — no lock saving needed
 
-                // Save registration (CORRECT FIELD ORDER for Firebase)
+                // Save registration
                 const registrationData = {
                     mobile: mobile,
                     name: name,
@@ -480,7 +435,7 @@
                     examFile: examFile,
                     registeredAt: new Date().toISOString(),
                     examDate: today,
-                    hasAttempted: false,
+                    attemptTs: attemptTs,
                     deviceFp: DEVICE_FP
                 };
 
@@ -495,6 +450,7 @@
                 localStorage.setItem('studentMobile', mobile);
                 localStorage.setItem('studentDob', dob);
                 localStorage.setItem('studentCategory', category);
+                localStorage.setItem('attemptTs', attemptTs);
                 
                 successMsg.textContent = 'பதிவு வெற்றிகரமாக முடிந்தது! தேர்வுக்கு செல்கிறீர்கள்...';
                 successMsg.style.display = 'block';
@@ -502,7 +458,7 @@
                 // Redirect to quiz after short delay
                 setTimeout(() => {
                     const testParam = TEST_MODE ? '&test=1' : '';
-                    const quizUrl = `quiz.html?mode=free&examFile=${examFile}&phone=${mobile}&date=${today}${testParam}`;
+                    const quizUrl = `quiz.html?mode=free&examFile=${examFile}&phone=${mobile}&date=${today}&ts=${attemptTs}${testParam}`;
                     console.log('🔗 Redirecting to:', quizUrl);
                     window.location.href = quizUrl;
                 }, 1500);
