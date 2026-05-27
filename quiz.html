@@ -682,6 +682,12 @@
                     
                     // Submit button
                     document.getElementById('finalSubmitBtn').onclick = async () => {
+                        // ✅ FIX: Double-submit தடு — button disabled + resultsRevealed check
+                        if (resultsRevealed) return;
+                        resultsRevealed = true;
+                        const btn = document.getElementById('finalSubmitBtn');
+                        if (btn) { btn.disabled = true; btn.textContent = '⏳ சமர்ப்பிக்கப்படுகிறது...'; }
+
                         let score = 0, correctCount = 0, wrongCount = 0;
                         questions.forEach((q, idx) => {
                             const userIdx = answers[idx];
@@ -696,8 +702,6 @@
                         const endTime = Date.now();
                         const timeTaken = Math.floor((endTime - (window.quizStartTime || endTime)) / 1000);
                         const pct = (score / questions.length) * 100;  // for Firebase save (NOT shown to student)
-                        
-                        resultsRevealed = true;
                         
                         // Show result view
                         const overlay = document.getElementById('overlay');

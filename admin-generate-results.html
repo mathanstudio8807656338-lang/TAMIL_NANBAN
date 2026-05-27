@@ -354,6 +354,10 @@
                 let testModeSkipped = 0;
                 let otherDatesSkipped = 0;
                 
+                // ✅ FIX: Temp map for deduplication — same phone, best score மட்டும் எடு
+                const byPaperMap = { paper1: new Map(), paper2: new Map() };
+                let duplicateSkipped = 0;
+
                 snap.forEach(child => {
                     const r = child.val();
                     if (!r) return;
@@ -364,13 +368,16 @@
                     if (!r.examFile) return;
                     
                     const key = r.examFile.replace('.json', '');
-                    if (!byPaper[key]) return;
-                    
-                    byPaper[key].push({
-                        phone: r.phoneNumber,
+                    if (!byPaperMap[key]) return;
+
+                    const phone = r.phoneNumber;
+                    if (!phone) return; // phone இல்லாத entries skip
+
+                    const entry = {
+                        phone,
                         name: r.studentName || 'மாணவர்',
                         category: r.category || 'OC',
-                        score: r.score,
+                        score: r.score || 0,
                         total: r.totalQuestions,
                         correct: r.correctAnswers,
                         wrong: r.wrongAnswers,
@@ -379,12 +386,32 @@
                         timeTaken: r.timeTaken || 0,
                         completedAt: r.completedAt,
                         ...getPassStatus(r.category, r.percentage || 0)
-                    });
+                    };
+
+                    // ✅ DEDUP: same phone இருந்தால் best score மட்டும் வை
+                    const existing = byPaperMap[key].get(phone);
+                    if (existing) {
+                        duplicateSkipped++;
+                        // Best score தேர்ந்தெடு; same score-ல் fast time-ஐ வை
+                        if (entry.score > existing.score ||
+                            (entry.score === existing.score && entry.timeTaken < existing.timeTaken)) {
+                            byPaperMap[key].set(phone, entry);
+                        }
+                    } else {
+                        byPaperMap[key].set(phone, entry);
+                    }
                 });
+
+                // Map → Array convert
+                const byPaper = {
+                    paper1: Array.from(byPaperMap.paper1.values()),
+                    paper2: Array.from(byPaperMap.paper2.values())
+                };
                 
                 log(`📊 மொத்த records: ${totalRecords}`, 'info');
                 log(`🧪 Test mode skipped: ${testModeSkipped}`, 'info');
                 log(`📅 Other dates skipped: ${otherDatesSkipped}`, 'info');
+                log(`🔁 Duplicate entries merged: ${duplicateSkipped}`, 'info');
                 log(`📘 Paper 1 students: ${byPaper.paper1.length}`, 'success');
                 log(`📗 Paper 2 students: ${byPaper.paper2.length}`, 'success');
                 
