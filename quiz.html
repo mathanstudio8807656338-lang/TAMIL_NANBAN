@@ -26,10 +26,12 @@
     <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
     <script>
         // Free exam mode-ல் மட்டும் Realtime DB initialize
+        // ✅ FIX: Named app 'free-exam-app' — v10 module conflict தவிர்க்க
         (function() {
             const isFreeExamMode = new URLSearchParams(window.location.search).get('mode') === 'free';
-            if (isFreeExamMode && typeof firebase !== 'undefined' && !firebase.apps.length) {
-                firebase.initializeApp({
+            if (isFreeExamMode && typeof firebase !== 'undefined') {
+                const FREE_EXAM_APP_NAME = 'free-exam-app';
+                const freeExamConfig = {
                     apiKey: "AIzaSyBpkL8eZT0u5mnxCxmVZMmmemX15BCaNf4",
                     authDomain: "a1-coaching.firebaseapp.com",
                     databaseURL: "https://tamil-nanban-default-rtdb.asia-southeast1.firebasedatabase.app",
@@ -37,8 +39,12 @@
                     storageBucket: "a1-coaching.firebasestorage.app",
                     messagingSenderId: "240838259015",
                     appId: "1:240838259015:web:a5b80f33e9a0fec5ea24b0"
-                });
-                console.log('✅ Firebase v8 compat SDK ready for free exam');
+                };
+                // Always use named app — v10 Firestore app conflict இல்லாமல்
+                const existing = firebase.apps.find(a => a.name === FREE_EXAM_APP_NAME);
+                window._freeExamApp = existing || firebase.initializeApp(freeExamConfig, FREE_EXAM_APP_NAME);
+                window._freeExamDB = window._freeExamApp.database();
+                console.log('✅ Firebase v8 compat SDK ready (named app: free-exam-app)');
             }
         })();
     </script>
@@ -725,80 +731,103 @@
                         window.scrollTo(0, 0);
                         
                         // ═══════════════════════════════════════════════
-                        // 🔥 Firebase Save — Same Realtime DB as registration
+                        // 🔥 Firebase Save — Bulletproof version (all bugs fixed)
                         // ═══════════════════════════════════════════════
                         try {
-                            const phone = params.get('phone');
-                            const date = params.get('date');
+                            // ✅ FIX 1: URL param + localStorage fallback (private mode safe)
+                            const phone = params.get('phone') || localStorage.getItem('studentMobile') || null;
+                            const date = params.get('date') || new Date().toISOString().split('T')[0];
                             const ts = params.get('ts') || localStorage.getItem('attemptTs') || Date.now();
-                            const studentName = localStorage.getItem('studentName') || 'Student';
-                            const studentCategory = localStorage.getItem('studentCategory') || 'OC';
-                            const examKey = examFile.replace('.json', '');  // "paper1" or "paper2"
-                            const deviceId = `${phone}_${date}_${examKey}_${ts}`;  // ⭐ Matches registration unique key
-                            
-                            // Use the SAME Firebase v8 compat SDK that registration page uses
-                            if (typeof firebase !== 'undefined' && firebase.database) {
-                                const db = firebase.database();
-                                
-                                // Save full result to free_exam_results (unique per attempt)
-                                await db.ref(`free_exam_results/${deviceId}`).set({
-                                    phoneNumber: phone,
-                                    studentName,
-                                    category: studentCategory,
-                                    examFile,
-                                    examDate: date,
-                                    score,
-                                    correctAnswers: correctCount,
-                                    wrongAnswers: wrongCount,
-                                    unanswered: questions.length - correctCount - wrongCount,
-                                    totalQuestions: questions.length,
-                                    percentage: parseFloat(pct.toFixed(2)),
-                                    timeTaken,
-                                    completedAt: new Date().toISOString(),
-                                    isTestMode: window.IS_TEST_MODE === true
-                                });
-                                console.log('✅ Free exam result saved to Firebase!');
-                            } else {
-                                // Firebase compat SDK not loaded — try to load it
-                                console.warn('⚠️ Firebase compat SDK not found, loading now...');
-                                await new Promise((resolve, reject) => {
-                                    const s1 = document.createElement('script');
-                                    s1.src = 'https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js';
-                                    s1.onload = () => {
-                                        const s2 = document.createElement('script');
-                                        s2.src = 'https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js';
-                                        s2.onload = resolve;
-                                        s2.onerror = reject;
-                                        document.head.appendChild(s2);
-                                    };
-                                    s1.onerror = reject;
-                                    document.head.appendChild(s1);
-                                });
-                                // Initialize with same config as registration page
-                                firebase.initializeApp({
-                                    apiKey: "AIzaSyBpkL8eZT0u5mnxCxmVZMmmemX15BCaNf4",
-                                    authDomain: "a1-coaching.firebaseapp.com",
-                                    databaseURL: "https://tamil-nanban-default-rtdb.asia-southeast1.firebasedatabase.app",
-                                    projectId: "a1-coaching",
-                                    storageBucket: "a1-coaching.firebasestorage.app",
-                                    messagingSenderId: "240838259015",
-                                    appId: "1:240838259015:web:a5b80f33e9a0fec5ea24b0"
-                                });
-                                const db = firebase.database();
-                                await db.ref(`free_exam_results/${deviceId}`).set({
-                                    phoneNumber: phone, studentName, category: studentCategory, examFile, examDate: date,
-                                    score, correctAnswers: correctCount, wrongAnswers: wrongCount,
-                                    unanswered: questions.length - correctCount - wrongCount,
-                                    totalQuestions: questions.length,
-                                    percentage: parseFloat(pct.toFixed(2)),
-                                    timeTaken, completedAt: new Date().toISOString(),
-                                    isTestMode: window.IS_TEST_MODE === true
-                                });
-                                console.log('✅ Saved after lazy-loading Firebase SDK');
+                            // ✅ FIX 2: URL param முதலில் படி — localStorage மட்டும் நம்பாமல்
+                            const studentName = decodeURIComponent(params.get('name') || '') || localStorage.getItem('studentName') || 'Student';
+                            const studentCategory = decodeURIComponent(params.get('cat') || '') || localStorage.getItem('studentCategory') || 'OC';
+                            const examKey = examFile.replace('.json', '');
+
+                            // ✅ FIX 3: phone இல்லாமல் save செய்யவே வேண்டாம்
+                            if (!phone) {
+                                console.error('❌ CRITICAL: phone number missing! Cannot save result.');
+                                if (resultMsg) {
+                                    resultMsg.innerText = '⚠️ தொலைபேசி எண் கிடைக்கவில்லை! மீண்டும் Registration செய்து தேர்வு எழுதவும்.';
+                                    resultMsg.style.color = '#dc2626';
+                                }
+                                return;
                             }
+
+                            const deviceId = `${phone}_${date}_${examKey}_${ts}`;
+                            const resultData = {
+                                phoneNumber: phone,
+                                studentName,
+                                category: studentCategory,
+                                examFile,
+                                examDate: date,
+                                score,
+                                correctAnswers: correctCount,
+                                wrongAnswers: wrongCount,
+                                unanswered: questions.length - correctCount - wrongCount,
+                                totalQuestions: questions.length,
+                                percentage: parseFloat(pct.toFixed(2)),
+                                timeTaken,
+                                completedAt: new Date().toISOString(),
+                                isTestMode: window.IS_TEST_MODE === true
+                            };
+
+                            console.log('💾 Saving result:', { deviceId, phone, studentName, studentCategory, examKey });
+
+                            // ✅ FIX 4: Named app _freeExamDB use செய்யவும் — v10 conflict இல்லாமல்
+                            let db = window._freeExamDB || null;
+
+                            if (!db) {
+                                // Fallback: try default firebase app
+                                try {
+                                    db = firebase.app('free-exam-app').database();
+                                    window._freeExamDB = db;
+                                } catch (_) {}
+                            }
+
+                            if (!db && typeof firebase !== 'undefined') {
+                                try {
+                                    db = firebase.database();
+                                } catch (_) {}
+                            }
+
+                            if (!db) {
+                                throw new Error('Firebase Realtime DB கிடைக்கவில்லை!');
+                            }
+
+                            // ✅ FIX 5: 3 முறை retry — network flakiness handle செய்யவும்
+                            let saved = false;
+                            for (let attempt = 1; attempt <= 3; attempt++) {
+                                try {
+                                    await db.ref(`free_exam_results/${deviceId}`).set(resultData);
+                                    saved = true;
+                                    console.log(`✅ Free exam result saved! (attempt ${attempt})`);
+                                    break;
+                                } catch (retryErr) {
+                                    console.warn(`⚠️ Save attempt ${attempt} failed:`, retryErr.message);
+                                    if (attempt < 3) await new Promise(r => setTimeout(r, 1500));
+                                }
+                            }
+
+                            if (!saved) {
+                                throw new Error('3 முறை முயன்றும் save ஆகவில்லை! Internet connection சரிபார்க்கவும்.');
+                            }
+
+                            // ✅ FIX 6: Success message தெளிவாக காட்டவும்
+                            if (resultMsg) {
+                                resultMsg.innerHTML = '✅ உங்கள் பதில்கள் <strong>வெற்றிகரமாக பதிவு செய்யப்பட்டன!</strong><br>முடிவுகள் இரவு 10:15 மணிக்கு வெளியிடப்படும். அதன் பிறகு "முடிவுகள்" பக்கத்தில் மதிப்பெண், ரேங்க் மற்றும் விடைகளை பார்க்கலாம்.';
+                                resultMsg.style.color = '#059669';
+                            }
+
                         } catch (err) {
                             console.error('❌ Firebase save error:', err);
-                            alert('முடிவுகள் save செய்வதில் பிழை: ' + err.message);
+                            // ✅ FIX 7: Error-ஐ மாணவருக்கு தெளிவாக காட்டவும்
+                            if (resultMsg) {
+                                resultMsg.innerHTML = `⚠️ <strong>முடிவுகள் save ஆகவில்லை!</strong><br>காரணம்: ${err.message}<br><br>📞 உடனே Admin-ஐ தொடர்பு கொள்ளவும்: <strong>63 69 37 14 52</strong>`;
+                                resultMsg.style.color = '#dc2626';
+                                resultMsg.style.background = '#fef2f2';
+                                resultMsg.style.padding = '12px';
+                                resultMsg.style.borderRadius = '8px';
+                            }
                         }
                     };
                     
