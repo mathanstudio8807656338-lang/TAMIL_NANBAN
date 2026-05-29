@@ -90,15 +90,15 @@
         </div>
 
         <div class="control-panel">
-            <div class="mode-tabs">
-                <button class="mode-tab active" id="modeIndividual" onclick="setMode('individual')">👤 எனது முடிவு</button>
-                <button class="mode-tab" id="modeFull" onclick="setMode('full')">📋 முழு பட்டியல்</button>
+            <div style="background:#dbeafe; border-left:4px solid #2563eb; padding:10px 14px; border-radius:8px; margin-bottom:15px; color:#1e3a8a; font-size:0.88rem;">
+                ℹ️ உங்கள் தனிப்பட்ட முடிவை மட்டும் பார்க்க முடியும். மொத்த பட்டியல் தமிழ் நண்பன் ஆசிரியரால் மட்டுமே வெளியிடப்படும்.
             </div>
 
             <div class="control-row">
                 <div>
                     <label>📅 தேர்வு தேதி (நாள்/மாதம்/ஆண்டு)</label>
-                    <input type="text" id="examDate" inputmode="numeric" placeholder="25/05/2026" maxlength="10" readonly>
+                    <input type="date" id="examDate" max="2099-12-31">
+                    <div style="font-size:0.72rem; color:#94a3b8; margin-top:3px;">இயல்பாக இன்றைய தேதி. பழைய தேர்வுக்கு தேதியை மாற்றலாம்.</div>
                 </div>
                 <div>
                     <label>📄 தேர்வு பேப்பர்</label>
@@ -168,35 +168,6 @@
                 </div>
             </div>
 
-        <div class="full-list" id="fullList">
-            <div class="stats-bar">
-                <div class="stat"><div class="value" id="totalCount">0</div><div class="label">மொத்தம்</div></div>
-                <div class="stat"><div class="value" id="passCount">0</div><div class="label">தேர்ச்சி</div></div>
-                <div class="stat"><div class="value" id="topScore">0</div><div class="label">அதிக மதிப்பெண்</div></div>
-                <div class="stat"><div class="value" id="topperName" style="font-size:0.9rem;">—</div><div class="label">டாப்பர்</div></div>
-            </div>
-            <div class="toolbar">
-                <input type="text" class="search" id="searchInput" placeholder="🔍 பெயர் தேடு...">
-                <button class="btn-toggle active" id="btnAZ" onclick="setSort('az')">A-Z</button>
-                <button class="btn-toggle" id="btnRank" onclick="setSort('rank')">Rank</button>
-                <button class="btn-pdf" onclick="downloadPDF()">📥 PDF</button>
-            </div>
-            <div class="table-wrap">
-                <table>
-                    <thead>
-                        <tr>
-                            <th style="width:50px;text-align:center;">Rank</th>
-                            <th>பெயர்</th>
-                            <th style="width:55px;text-align:center;">இனம்</th>
-                            <th style="width:70px;text-align:center;">மதிப்பெண்</th>
-                            <th style="width:50px;text-align:center;">%</th>
-                            <th style="width:60px;text-align:center;">முடிவு</th>
-                        </tr>
-                    </thead>
-                    <tbody id="tableBody"></tbody>
-                </table>
-            </div>
-        </div>
 
         <div class="empty-state" id="emptyState" style="display:none;">
             <div class="icon">📭</div>
@@ -212,8 +183,102 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.8.0/jspdf.plugin.autotable.min.js"></script>
 
+    <!-- 🔥 Firebase v8 compat SDK — LIVE result reading directly from Realtime DB -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+
     <script>
         const CUTOFFS = { 'OC': 60, 'GENERAL': 60, 'BC': 50, 'BCM': 50, 'MBC': 50, 'DNC': 50, 'SC': 40, 'SCA': 40, 'ST': 40, 'PWD': 40 };
+
+        // ═══════════════════════════════════════════════════════════════
+        // 🔥 FIREBASE LIVE READ — the permanent fix
+        // Result page reads DIRECTLY from Realtime DB (no KV, no cron, no snapshot).
+        // If Firebase has the student's record → it WILL show. Always.
+        // ═══════════════════════════════════════════════════════════════
+        const FREE_EXAM_CONFIG = {
+            apiKey: "AIzaSyBpkL8eZT0u5mnxCxmVZMmmemX15BCaNf4",
+            authDomain: "a1-coaching.firebaseapp.com",
+            databaseURL: "https://tamil-nanban-default-rtdb.asia-southeast1.firebasedatabase.app",
+            projectId: "a1-coaching",
+            storageBucket: "a1-coaching.firebasestorage.app",
+            messagingSenderId: "240838259015",
+            appId: "1:240838259015:web:a5b80f33e9a0fec5ea24b0"
+        };
+        let _resultDB = null;
+        function getResultDB() {
+            if (_resultDB) return _resultDB;
+            try {
+                const APP_NAME = 'free-exam-app';
+                const existing = (firebase.apps || []).find(a => a.name === APP_NAME);
+                const app = existing || firebase.initializeApp(FREE_EXAM_CONFIG, APP_NAME);
+                _resultDB = app.database();
+                return _resultDB;
+            } catch (e) {
+                console.error('Firebase init failed:', e);
+                return null;
+            }
+        }
+
+        // ⏰ Results reveal time: 10:15 PM IST. Before this, results are hidden.
+        // Admin / test mode (?show=1) bypasses the time gate.
+        function resultsAreLive() {
+            const bypass = new URLSearchParams(location.search).get('show') === '1';
+            if (bypass) return true;
+            const istNow = new Date(new Date().toLocaleString('en-US', { timeZone: 'Asia/Kolkata' }));
+            const mins = istNow.getHours() * 60 + istNow.getMinutes();
+            return mins >= (22 * 60 + 15); // 10:15 PM IST
+        }
+
+        // 🔢 Build a ranked results array LIVE from raw Firebase records, for a given paper+date.
+        // Dedupes by phone (best score, then fastest), sorts, assigns rank — same logic as worker.
+        function buildLiveResults(allRecords, paperKey, examDate) {
+            const byPhone = new Map();
+            for (const id in allRecords) {
+                const r = allRecords[id];
+                if (!r) continue;
+                if (r.isTestMode) continue;
+                if (r.examDate !== examDate) continue;
+                if (!r.examFile) continue;
+                if (r.examFile.replace('.json', '') !== paperKey) continue;
+                const phone = r.phoneNumber;
+                if (!phone) continue;
+                const cat = (r.category || 'OC').toUpperCase();
+                const cutoff = CUTOFFS[cat] ?? 60;
+                const pct = r.percentage || 0;
+                const entry = {
+                    phone,
+                    name: r.studentName || 'மாணவர்',
+                    category: r.category || 'OC',
+                    score: r.score || 0,
+                    total: r.totalQuestions || 0,
+                    correct: r.correctAnswers || 0,
+                    wrong: r.wrongAnswers || 0,
+                    unanswered: r.unanswered || 0,
+                    percentage: pct,
+                    timeTaken: r.timeTaken || 0,
+                    completedAt: r.completedAt,
+                    cutoff,
+                    passed: pct >= cutoff
+                };
+                const existing = byPhone.get(phone);
+                if (!existing || entry.score > existing.score ||
+                    (entry.score === existing.score && entry.timeTaken < existing.timeTaken)) {
+                    byPhone.set(phone, entry);
+                }
+            }
+            const arr = Array.from(byPhone.values());
+            arr.sort((a, b) => {
+                if (b.score !== a.score) return b.score - a.score;
+                return a.timeTaken - b.timeTaken;
+            });
+            arr.forEach((r, i) => r.rank = i + 1);
+            return arr;
+        }
+
+        const PAPER_TITLES = {
+            paper1: 'ஆசிரியர் தகுதி தேர்வு - கணிதம் + அறிவியல்',
+            paper2: 'ஆசிரியர் தகுதி தேர்வு - சமூக அறிவியல்'
+        };
         function getCutoff(cat) { return CUTOFFS[(cat || 'OC').toUpperCase()] ?? 60; }
 
         // 🔤 Tamil font for jsPDF (Noto Sans Tamil) — loaded once, cached
@@ -246,20 +311,78 @@
             }
         }
 
+        // 🛡️ RECOVERY: Try to upload any pending saves from previous failed attempts
+        (async function recoverPendingSaves() {
+            try {
+                const pendingKeys = Object.keys(localStorage).filter(k => k.startsWith('pending_save_'));
+                if (pendingKeys.length === 0) return;
+                console.log(`🔁 Found ${pendingKeys.length} pending save(s) to recover`);
+
+                // Load Firebase v8 compat dynamically if not present
+                if (typeof firebase === 'undefined') {
+                    await new Promise((resolve, reject) => {
+                        const s1 = document.createElement('script');
+                        s1.src = 'https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js';
+                        s1.onload = () => {
+                            const s2 = document.createElement('script');
+                            s2.src = 'https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js';
+                            s2.onload = resolve;
+                            s2.onerror = reject;
+                            document.head.appendChild(s2);
+                        };
+                        s1.onerror = reject;
+                        document.head.appendChild(s1);
+                    });
+                }
+
+                const FREE_EXAM_APP_NAME = 'free-exam-app';
+                const freeExamConfig = {
+                    apiKey: "AIzaSyBpkL8eZT0u5mnxCxmVZMmmemX15BCaNf4",
+                    authDomain: "a1-coaching.firebaseapp.com",
+                    databaseURL: "https://tamil-nanban-default-rtdb.asia-southeast1.firebasedatabase.app",
+                    projectId: "a1-coaching",
+                    storageBucket: "a1-coaching.firebasestorage.app",
+                    messagingSenderId: "240838259015",
+                    appId: "1:240838259015:web:a5b80f33e9a0fec5ea24b0"
+                };
+                const existing = firebase.apps.find(a => a.name === FREE_EXAM_APP_NAME);
+                const app = existing || firebase.initializeApp(freeExamConfig, FREE_EXAM_APP_NAME);
+                const db = app.database();
+
+                for (const key of pendingKeys) {
+                    try {
+                        const data = JSON.parse(localStorage.getItem(key));
+                        const deviceId = key.replace('pending_save_', '');
+                        await db.ref(`free_exam_results/${deviceId}`).set(data);
+                        localStorage.removeItem(key);
+                        console.log('✅ Recovered pending save:', deviceId);
+                        // Show alert for student transparency
+                        const banner = document.createElement('div');
+                        banner.style.cssText = 'position:fixed;top:0;left:0;right:0;background:#10b981;color:white;padding:12px;text-align:center;font-weight:700;z-index:9999;';
+                        banner.innerHTML = '✅ உங்கள் முந்தைய தேர்வின் முடிவு இப்போது save ஆனது!';
+                        document.body.appendChild(banner);
+                        setTimeout(() => banner.remove(), 5000);
+                    } catch (e) {
+                        console.warn('Recovery failed for:', key, e.message);
+                    }
+                }
+            } catch (e) {
+                console.warn('Pending save recovery error:', e);
+            }
+        })();
+
         let currentData = null;
         let currentSort = 'az';
         let currentSearch = '';
         let currentMode = 'individual';
         let myPhone = '';
 
-        // 📅 Result date: ALWAYS today (DD/MM/YYYY display, locked)
+        // 📅 Result date: defaults to today in IST. type="date" uses YYYY-MM-DD natively.
         const defaultDate = new Date();
         const dateEl = document.getElementById('examDate');
-        const todayISO = defaultDate.toISOString().split('T')[0]; // YYYY-MM-DD for fetch
-        const dd = String(defaultDate.getDate()).padStart(2,'0');
-        const mm = String(defaultDate.getMonth()+1).padStart(2,'0');
-        const yyyy = defaultDate.getFullYear();
-        dateEl.value = `${dd}/${mm}/${yyyy}`;  // DD/MM/YYYY display
+        const todayISO = defaultDate.toLocaleDateString('en-CA', { timeZone: 'Asia/Kolkata' }); // YYYY-MM-DD IST
+        dateEl.value = todayISO;   // native date input value
+        dateEl.max = todayISO;     // can't pick a future date
 
         const savedMobile = localStorage.getItem('studentMobile');
         if (savedMobile && /^[0-9]{10}$/.test(savedMobile)) {
@@ -271,13 +394,16 @@
         });
 
         function setMode(mode) {
-            currentMode = mode;
-            document.getElementById('modeIndividual').classList.toggle('active', mode === 'individual');
-            document.getElementById('modeFull').classList.toggle('active', mode === 'full');
-            document.getElementById('mobileRow').style.display = mode === 'individual' ? 'grid' : 'none';
-            document.getElementById('individualResult').style.display = 'none';
-            document.getElementById('fullList').style.display = 'none';
-            document.getElementById('emptyState').style.display = 'none';
+            // Locked to 'individual' — students can only view their own result
+            currentMode = 'individual';
+            const mobileRow = document.getElementById('mobileRow');
+            if (mobileRow) mobileRow.style.display = 'grid';
+            const ind = document.getElementById('individualResult');
+            if (ind) ind.style.display = 'none';
+            const full = document.getElementById('fullList');
+            if (full) full.style.display = 'none';
+            const empty = document.getElementById('emptyState');
+            if (empty) empty.style.display = 'none';
         }
 
         function showError(msg) {
@@ -289,10 +415,14 @@
 
         async function loadResults() {
             const examDateRaw = document.getElementById('examDate').value.trim();
-            // Convert DD/MM/YYYY → YYYY-MM-DD for file fetch
+            // Native date input gives YYYY-MM-DD directly; support DD/MM/YYYY too (older value)
             let examDate = todayISO; // fallback
-            const parts = examDateRaw.match(/^(\d{2})\/(\d{2})\/(\d{4})$/);
-            if (parts) examDate = `${parts[3]}-${parts[2]}-${parts[1]}`;
+            if (/^\d{4}-\d{2}-\d{2}$/.test(examDateRaw)) {
+                examDate = examDateRaw;
+            } else {
+                const parts = examDateRaw.match(/^(\d{2})\/(\d{2})\/(\d{4})$/);
+                if (parts) examDate = `${parts[3]}-${parts[2]}-${parts[1]}`;
+            }
             const paperKey = document.getElementById('paperSelect').value;
             if (!examDateRaw) { showError('தேதி இல்லை!'); return; }
 
@@ -304,37 +434,133 @@
                 }
             }
 
+            // ⏰ Time gate — results reveal at 10:15 PM IST (admin ?show=1 bypasses)
+            if (!resultsAreLive()) {
+                showError('முடிவுகள் இரவு 10:15 மணிக்கு வெளியிடப்படும். அதன் பிறகு மீண்டும் பார்க்கவும்.');
+                return;
+            }
+
             document.getElementById('individualResult').style.display = 'none';
-            document.getElementById('fullList').style.display = 'none';
             document.getElementById('emptyState').style.display = 'none';
             document.getElementById('loadingBox').style.display = 'block';
 
-            const fileName = `${paperKey}_results_${examDate}.json`;
-            const url = `results/${fileName}`;
+            // ═══════════════════════════════════════════════════════════
+            // 💰 COST-OPTIMIZED RESULT LOAD — 3-layer cascade
+            // Layer 1: sessionStorage cache (instant, free)
+            // Layer 2: KV static file (free, served by Cloudflare)
+            // Layer 3: Firebase — ONLY this student's record (cheap fallback)
+            // ═══════════════════════════════════════════════════════════
+            const cacheKey = `result_${paperKey}_${examDate}_${myPhone}`;
+            currentData = null;
 
+            // LAYER 1: Browser cache (5 min TTL)
             try {
-                const response = await fetch(url);
-                if (!response.ok) {
-                    document.getElementById('loadingBox').style.display = 'none';
-                    showError('முடிவுகள் இன்னும் வெளியிடப்படவில்லை! இரவு 10:15 மணிக்கு பிறகு மீண்டும் பார்க்கவும்.');
-                    return;
+                const cached = sessionStorage.getItem(cacheKey);
+                if (cached) {
+                    const obj = JSON.parse(cached);
+                    if (Date.now() - obj.ts < 5*60*1000) {
+                        currentData = obj.data;
+                        console.log('⚡ Cache hit — 0 Firebase reads');
+                    }
                 }
-                const data = await response.json();
-                currentData = data;
-                document.getElementById('loadingBox').style.display = 'none';
+            } catch(_){}
 
-                if (!data.results || data.results.length === 0) {
-                    document.getElementById('emptyState').style.display = 'block';
-                    return;
+            // LAYER 2: KV static file (free, no Firebase cost)
+            if (!currentData) {
+                try {
+                    const fileName = `${paperKey}_results_${examDate}.json`;
+                    const response = await fetch(`results/${fileName}`, { cache: 'no-store' });
+                    if (response.ok) {
+                        const kvData = await response.json();
+                        kvData._source = 'kv';
+                        // Only keep this student's record + ranking metadata
+                        const mine = (kvData.results || []).filter(r => r.phone === myPhone);
+                        if (mine.length > 0) {
+                            currentData = {
+                                examDate,
+                                paper: paperKey,
+                                examTitle: PAPER_TITLES[paperKey] || '',
+                                totalStudents: kvData.totalStudents || kvData.results.length,
+                                results: mine,
+                                _source: 'kv'
+                            };
+                            console.log('💚 KV hit — 0 Firebase reads');
+                        }
+                    }
+                } catch (e) {
+                    console.warn('KV fetch failed:', e.message);
                 }
-
-                if (currentMode === 'individual') renderIndividual();
-                else renderFullList();
-            } catch (err) {
-                document.getElementById('loadingBox').style.display = 'none';
-                document.getElementById('emptyState').style.display = 'block';
-                console.warn('Load error:', err.message);
             }
+
+            // LAYER 3: Firebase — fetch ONLY this student's records
+            // (uses phoneNumber index — fetches ~400 bytes, not 400 KB)
+            if (!currentData) {
+                try {
+                    const db = getResultDB();
+                    if (db) {
+                        const snap = await db.ref('free_exam_results')
+                            .orderByChild('phoneNumber')
+                            .equalTo(myPhone)
+                            .once('value');
+                        const myRecords = snap.val() || {};
+                        // Filter to the right date+paper
+                        const matching = [];
+                        for (const id in myRecords) {
+                            const r = myRecords[id];
+                            if (!r || r.isTestMode) continue;
+                            if (r.examDate !== examDate) continue;
+                            if ((r.examFile||'').replace('.json','') !== paperKey) continue;
+                            const cat = (r.category||'OC').toUpperCase();
+                            const cutoff = CUTOFFS[cat] ?? 60;
+                            const pct = r.percentage || 0;
+                            matching.push({
+                                phone: r.phoneNumber,
+                                name: r.studentName || 'மாணவர்',
+                                category: r.category || 'OC',
+                                score: r.score || 0,
+                                total: r.totalQuestions || 0,
+                                correct: r.correctAnswers || 0,
+                                wrong: r.wrongAnswers || 0,
+                                unanswered: r.unanswered || 0,
+                                percentage: pct,
+                                timeTaken: r.timeTaken || 0,
+                                completedAt: r.completedAt,
+                                cutoff,
+                                passed: pct >= cutoff,
+                                rank: null  // unknown without full leaderboard
+                            });
+                        }
+                        if (matching.length > 0) {
+                            currentData = {
+                                examDate, paper: paperKey,
+                                examTitle: PAPER_TITLES[paperKey] || '',
+                                totalStudents: matching.length,
+                                results: matching,
+                                _source: 'firebase-single'
+                            };
+                            console.log(`🔥 Firebase single-record read (${matching.length} record)`);
+                        }
+                    }
+                } catch (err) {
+                    console.warn('Firebase fallback failed:', err.message);
+                }
+            }
+
+            // Cache result for 5 minutes
+            if (currentData) {
+                try { sessionStorage.setItem(cacheKey, JSON.stringify({ts: Date.now(), data: currentData})); } catch(_){}
+            }
+
+            document.getElementById('loadingBox').style.display = 'none';
+
+            if (!currentData || !currentData.results || currentData.results.length === 0) {
+                document.getElementById('emptyTitle').textContent = 'உங்கள் முடிவு கிடைக்கவில்லை';
+                document.getElementById('emptyDesc').textContent = 'இந்த தேதி + பேப்பருக்கு உங்கள் phone-ல் பதிவு இல்லை. தேதி/பேப்பர் சரிபார்க்கவும், அல்லது admin-ஐ தொடர்பு கொள்ளவும்.';
+                document.getElementById('emptyState').style.display = 'block';
+                return;
+            }
+
+            renderIndividual();
         }
 
         let myResult = null;
@@ -427,10 +653,14 @@
             renderFullList();
         }
 
-        document.getElementById('searchInput').addEventListener('input', (e) => {
-            currentSearch = e.target.value.trim();
-            renderFullList();
-        });
+        // searchInput element removed from student page (admin-only feature)
+        const _searchEl = document.getElementById('searchInput');
+        if (_searchEl) {
+            _searchEl.addEventListener('input', (e) => {
+                currentSearch = e.target.value.trim();
+                if (typeof renderFullList === 'function') renderFullList();
+            });
+        }
 
         // 📄 Individual student's own result PDF (small, single page)
         // ═══════════════════════════════════════════════════════

@@ -680,13 +680,21 @@
                         body.classList.add('lang-' + lang);
                     };
                     
-                    // Submit button
+                    // Submit button — BULLETPROOF: Firebase save MUST complete before UI lets student leave
                     document.getElementById('finalSubmitBtn').onclick = async () => {
-                        // ✅ FIX: Double-submit தடு — button disabled + resultsRevealed check
+                        // ✅ Double-submit guard
                         if (resultsRevealed) return;
                         resultsRevealed = true;
                         const btn = document.getElementById('finalSubmitBtn');
                         if (btn) { btn.disabled = true; btn.textContent = '⏳ சமர்ப்பிக்கப்படுகிறது...'; }
+
+                        // 🔒 CRITICAL FIX: Prevent student from closing browser during save
+                        const _beforeUnloadHandler = (e) => {
+                            e.preventDefault();
+                            e.returnValue = 'உங்கள் முடிவு இன்னும் save ஆகவில்லை! தயவுசெய்து காத்திருக்கவும்.';
+                            return e.returnValue;
+                        };
+                        window.addEventListener('beforeunload', _beforeUnloadHandler);
 
                         let score = 0, correctCount = 0, wrongCount = 0;
                         questions.forEach((q, idx) => {
@@ -698,63 +706,60 @@
                                 wrongCount++;
                             }
                         });
-                        
+
                         const endTime = Date.now();
                         const timeTaken = Math.floor((endTime - (window.quizStartTime || endTime)) / 1000);
-                        const pct = (score / questions.length) * 100;  // for Firebase save (NOT shown to student)
-                        
-                        // Show result view
+                        const pct = (score / questions.length) * 100;
+
+                        // 🔒 CRITICAL FIX: Show "SAVING" loading UI FIRST — student MUST wait
                         const overlay = document.getElementById('overlay');
                         const resultView = document.getElementById('resultView');
                         const finalScore = document.getElementById('finalScore');
                         const resultMsg = document.getElementById('resultMsg');
                         if (overlay) overlay.style.display = 'block';
                         if (resultView) resultView.style.display = 'block';
-                        // 🚫 Free exam: hide "Review Answers" + "Retry" (real exam — single attempt)
                         const reviewBtn = document.getElementById('reviewAnswersBtn');
                         if (reviewBtn) reviewBtn.style.display = 'none';
                         document.querySelectorAll('#resultView button').forEach(b => {
                             if (b.textContent.includes('மீண்டும்')) b.style.display = 'none';
                         });
-                        // 📊 Free exam: show "results & PDF" button linking to result page
+
+                        // 🔒 CRITICAL FIX: Hide all navigation buttons until save completes
                         const goBtn = document.getElementById('goToResults');
-                        if (goBtn) {
-                            goBtn.href = `free-result-check.html`;
-                            goBtn.style.display = 'block';
-                        }
-                        // 🚫 IMPORTANT: Free exam — DO NOT show score! (results only at 10:15 PM)
+                        if (goBtn) goBtn.style.display = 'none';  // hidden until save success
+                        const backHomeBtn = document.getElementById('backHome');
+                        if (backHomeBtn) backHomeBtn.style.pointerEvents = 'none';
+                        const exitBtn = document.getElementById('exitQuizSticky');
+                        if (exitBtn) exitBtn.style.pointerEvents = 'none';
+
                         const resultTitle = document.querySelector('#resultView h2');
-                        if (resultTitle) resultTitle.innerText = 'தேர்வு வெற்றிகரமாக சமர்ப்பிக்கப்பட்டது!';
-                        if (finalScore) finalScore.style.display = 'none';   // hide score number
+                        if (resultTitle) resultTitle.innerText = '⏳ உங்கள் முடிவுகள் save ஆகின்றன...';
+                        if (finalScore) finalScore.style.display = 'none';
                         const lessonNameEl = document.getElementById('resultLessonName');
                         if (lessonNameEl) lessonNameEl.style.display = 'none';
                         if (resultMsg) {
-                            resultMsg.innerText = 'உங்கள் பதில்கள் பதிவு செய்யப்பட்டன. முடிவுகள் இரவு 10:15 மணிக்கு வெளியிடப்படும். அதன் பிறகு "முடிவுகள்" பக்கத்தில் உங்கள் மதிப்பெண், ரேங்க் மற்றும் விடைகளை பார்க்கலாம்.';
-                            resultMsg.style.color = '#059669';
+                            resultMsg.innerHTML = '<strong>⏳ தயவுசெய்து காத்திருக்கவும்...</strong><br>இந்த page-ஐ மூட வேண்டாம் / Back செய்ய வேண்டாம்.<br>உங்கள் பதில்கள் Firebase-ல் save ஆகின்றன.';
+                            resultMsg.style.color = '#f59e0b';
                         }
                         window.scrollTo(0, 0);
-                        
+
                         // ═══════════════════════════════════════════════
-                        // 🔥 Firebase Save — Bulletproof version (all bugs fixed)
+                        // 🔥 Firebase Save — UI shows "saving" until this completes
                         // ═══════════════════════════════════════════════
+                        let saveSucceeded = false;
+                        let saveError = null;
                         try {
-                            // ✅ FIX 1: URL param + localStorage fallback (private mode safe)
+                            // URL param + localStorage fallback (private mode safe)
                             const phone = params.get('phone') || localStorage.getItem('studentMobile') || null;
-                            const date = params.get('date') || new Date().toISOString().split('T')[0];
+                            // ✅ FIX: IST date (UTC date mismatch தவிர்க்க)
+                            const date = params.get('date') || new Date().toLocaleDateString('en-CA', { timeZone: 'Asia/Kolkata' });
                             const ts = params.get('ts') || localStorage.getItem('attemptTs') || Date.now();
-                            // ✅ FIX 2: URL param முதலில் படி — localStorage மட்டும் நம்பாமல்
                             const studentName = decodeURIComponent(params.get('name') || '') || localStorage.getItem('studentName') || 'Student';
                             const studentCategory = decodeURIComponent(params.get('cat') || '') || localStorage.getItem('studentCategory') || 'OC';
                             const examKey = examFile.replace('.json', '');
 
-                            // ✅ FIX 3: phone இல்லாமல் save செய்யவே வேண்டாம்
                             if (!phone) {
-                                console.error('❌ CRITICAL: phone number missing! Cannot save result.');
-                                if (resultMsg) {
-                                    resultMsg.innerText = '⚠️ தொலைபேசி எண் கிடைக்கவில்லை! மீண்டும் Registration செய்து தேர்வு எழுதவும்.';
-                                    resultMsg.style.color = '#dc2626';
-                                }
-                                return;
+                                throw new Error('தொலைபேசி எண் கிடைக்கவில்லை! மீண்டும் Registration செய்யவும்.');
                             }
 
                             const deviceId = `${phone}_${date}_${examKey}_${ts}`;
@@ -775,63 +780,125 @@
                                 isTestMode: window.IS_TEST_MODE === true
                             };
 
-                            console.log('💾 Saving result:', { deviceId, phone, studentName, studentCategory, examKey });
+                            console.log('💾 Saving result:', { deviceId, phone, studentName, studentCategory, examKey, examDate: date });
 
-                            // ✅ FIX 4: Named app _freeExamDB use செய்யவும் — v10 conflict இல்லாமல்
+                            // 🛡️ FALLBACK 1: Save full payload to localStorage IMMEDIATELY (offline backup)
+                            try {
+                                const localKey = `pending_save_${deviceId}`;
+                                localStorage.setItem(localKey, JSON.stringify(resultData));
+                                console.log('💾 Local backup saved:', localKey);
+                            } catch (_) {}
+
+                            // 🔧 Firebase DB — lazy re-init if not ready (handles ?mode=free missing edge case)
                             let db = window._freeExamDB || null;
-
                             if (!db) {
-                                // Fallback: try default firebase app
-                                try {
-                                    db = firebase.app('free-exam-app').database();
-                                    window._freeExamDB = db;
-                                } catch (_) {}
+                                try { db = firebase.app('free-exam-app').database(); window._freeExamDB = db; } catch (_) {}
                             }
-
                             if (!db && typeof firebase !== 'undefined') {
+                                // 🆕 EMERGENCY RE-INIT: if isFreeExamMode check failed on page load
                                 try {
-                                    db = firebase.database();
-                                } catch (_) {}
-                            }
-
-                            if (!db) {
-                                throw new Error('Firebase Realtime DB கிடைக்கவில்லை!');
-                            }
-
-                            // ✅ FIX 5: 3 முறை retry — network flakiness handle செய்யவும்
-                            let saved = false;
-                            for (let attempt = 1; attempt <= 3; attempt++) {
-                                try {
-                                    await db.ref(`free_exam_results/${deviceId}`).set(resultData);
-                                    saved = true;
-                                    console.log(`✅ Free exam result saved! (attempt ${attempt})`);
-                                    break;
-                                } catch (retryErr) {
-                                    console.warn(`⚠️ Save attempt ${attempt} failed:`, retryErr.message);
-                                    if (attempt < 3) await new Promise(r => setTimeout(r, 1500));
+                                    const FREE_EXAM_APP_NAME = 'free-exam-app';
+                                    const freeExamConfig = {
+                                        apiKey: "AIzaSyBpkL8eZT0u5mnxCxmVZMmmemX15BCaNf4",
+                                        authDomain: "a1-coaching.firebaseapp.com",
+                                        databaseURL: "https://tamil-nanban-default-rtdb.asia-southeast1.firebasedatabase.app",
+                                        projectId: "a1-coaching",
+                                        storageBucket: "a1-coaching.firebasestorage.app",
+                                        messagingSenderId: "240838259015",
+                                        appId: "1:240838259015:web:a5b80f33e9a0fec5ea24b0"
+                                    };
+                                    const existing = firebase.apps.find(a => a.name === FREE_EXAM_APP_NAME);
+                                    const app = existing || firebase.initializeApp(freeExamConfig, FREE_EXAM_APP_NAME);
+                                    db = app.database();
+                                    window._freeExamDB = db;
+                                    console.log('🚨 Emergency Firebase re-init successful');
+                                } catch (e) {
+                                    console.error('Emergency re-init failed:', e);
                                 }
                             }
-
-                            if (!saved) {
-                                throw new Error('3 முறை முயன்றும் save ஆகவில்லை! Internet connection சரிபார்க்கவும்.');
+                            if (!db) {
+                                throw new Error('Firebase கிடைக்கவில்லை. Internet connection சரிபார்க்கவும்.');
                             }
 
-                            // ✅ FIX 6: Success message தெளிவாக காட்டவும்
-                            if (resultMsg) {
-                                resultMsg.innerHTML = '✅ உங்கள் பதில்கள் <strong>வெற்றிகரமாக பதிவு செய்யப்பட்டன!</strong><br>முடிவுகள் இரவு 10:15 மணிக்கு வெளியிடப்படும். அதன் பிறகு "முடிவுகள்" பக்கத்தில் மதிப்பெண், ரேங்க் மற்றும் விடைகளை பார்க்கலாம்.';
-                                resultMsg.style.color = '#059669';
+                            // 🔁 5 முறை retry with exponential backoff — network resilience
+                            const delays = [0, 1500, 3000, 5000, 8000];
+                            let lastErr = null;
+                            for (let attempt = 0; attempt < 5; attempt++) {
+                                if (delays[attempt] > 0) await new Promise(r => setTimeout(r, delays[attempt]));
+                                try {
+                                    if (resultMsg) {
+                                        resultMsg.innerHTML = `<strong>⏳ Save ஆகின்றது... (முயற்சி ${attempt + 1}/5)</strong><br>இந்த page-ஐ மூட வேண்டாம்.`;
+                                    }
+                                    await db.ref(`free_exam_results/${deviceId}`).set(resultData);
+                                    saveSucceeded = true;
+                                    console.log(`✅ Firebase save SUCCESS (attempt ${attempt + 1})`);
+                                    // Cleanup local backup
+                                    try { localStorage.removeItem(`pending_save_${deviceId}`); } catch (_) {}
+                                    break;
+                                } catch (retryErr) {
+                                    lastErr = retryErr;
+                                    console.warn(`⚠️ Save attempt ${attempt + 1} failed:`, retryErr.message);
+                                }
+                            }
+                            if (!saveSucceeded) {
+                                throw lastErr || new Error('5 முறை முயன்றும் save ஆகவில்லை.');
                             }
 
                         } catch (err) {
-                            console.error('❌ Firebase save error:', err);
-                            // ✅ FIX 7: Error-ஐ மாணவருக்கு தெளிவாக காட்டவும்
+                            saveError = err;
+                            console.error('❌ Save failed:', err);
+                        }
+
+                        // 🔓 NOW remove navigation guard — save attempt complete (success or fail)
+                        window.removeEventListener('beforeunload', _beforeUnloadHandler);
+                        if (backHomeBtn) backHomeBtn.style.pointerEvents = '';
+                        if (exitBtn) exitBtn.style.pointerEvents = '';
+
+                        // 🎯 Final UI based on result
+                        if (saveSucceeded) {
+                            if (resultTitle) resultTitle.innerText = '✅ தேர்வு வெற்றிகரமாக சமர்ப்பிக்கப்பட்டது!';
                             if (resultMsg) {
-                                resultMsg.innerHTML = `⚠️ <strong>முடிவுகள் save ஆகவில்லை!</strong><br>காரணம்: ${err.message}<br><br>📞 உடனே Admin-ஐ தொடர்பு கொள்ளவும்: <strong>63 69 37 14 52</strong>`;
+                                resultMsg.innerHTML = '✅ உங்கள் பதில்கள் <strong>Firebase-ல் save ஆகிவிட்டன!</strong><br>முடிவுகள் இரவு <strong>10:15 மணிக்கு</strong> வெளியிடப்படும். அதன் பிறகு "முடிவுகள்" பக்கத்தில் மதிப்பெண், ரேங்க் மற்றும் விடைகளை பார்க்கலாம்.';
+                                resultMsg.style.color = '#059669';
+                                resultMsg.style.background = '#f0fdf4';
+                                resultMsg.style.padding = '12px';
+                                resultMsg.style.borderRadius = '8px';
+                            }
+                            if (goBtn) { goBtn.href = 'free-result-check.html'; goBtn.style.display = 'block'; }
+                        } else {
+                            // ❌ Save failed — keep local backup, show clear error
+                            if (resultTitle) resultTitle.innerText = '⚠️ Save பிழை!';
+                            if (resultMsg) {
+                                resultMsg.innerHTML = `❌ <strong>முடிவுகள் save ஆகவில்லை!</strong><br>காரணம்: ${saveError ? saveError.message : 'Unknown'}<br><br>✅ உங்கள் பதில்கள் <strong>browser-ல் backup எடுக்கப்பட்டுள்ளன</strong> — admin-ஐ உடனே தொடர்பு கொள்ளவும்.<br><br>📞 <strong>Admin: 63 69 37 14 52</strong><br><br>⚠️ இந்த browser-ஐ delete செய்ய வேண்டாம்! Cache clear செய்ய வேண்டாம்!`;
                                 resultMsg.style.color = '#dc2626';
                                 resultMsg.style.background = '#fef2f2';
                                 resultMsg.style.padding = '12px';
                                 resultMsg.style.borderRadius = '8px';
                             }
+                            // 🔁 Auto-retry in background every 30s while page is open
+                            window._retrySaveInterval = setInterval(async () => {
+                                try {
+                                    const pendingKey = Object.keys(localStorage).find(k => k.startsWith('pending_save_'));
+                                    if (!pendingKey) { clearInterval(window._retrySaveInterval); return; }
+                                    const pendingData = JSON.parse(localStorage.getItem(pendingKey));
+                                    const deviceId = pendingKey.replace('pending_save_', '');
+                                    let db = window._freeExamDB || (typeof firebase !== 'undefined' ? firebase.app('free-exam-app').database() : null);
+                                    if (!db) return;
+                                    await db.ref(`free_exam_results/${deviceId}`).set(pendingData);
+                                    localStorage.removeItem(pendingKey);
+                                    console.log('✅ Background retry SUCCESS:', deviceId);
+                                    if (resultMsg) {
+                                        resultMsg.innerHTML = '✅ <strong>Background retry வெற்றி! உங்கள் முடிவுகள் இப்போது save ஆகிவிட்டன.</strong><br>முடிவுகள் இரவு 10:15 மணிக்கு வெளியிடப்படும்.';
+                                        resultMsg.style.color = '#059669';
+                                        resultMsg.style.background = '#f0fdf4';
+                                    }
+                                    if (resultTitle) resultTitle.innerText = '✅ தேர்வு வெற்றிகரமாக சமர்ப்பிக்கப்பட்டது!';
+                                    if (goBtn) { goBtn.href = 'free-result-check.html'; goBtn.style.display = 'block'; }
+                                    clearInterval(window._retrySaveInterval);
+                                } catch (e) {
+                                    console.warn('Background retry failed, will try again in 30s');
+                                }
+                            }, 30000);
                         }
                     };
                     

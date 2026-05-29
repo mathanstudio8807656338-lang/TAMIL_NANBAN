@@ -411,7 +411,8 @@
             console.log('⏳ Checking registration...');
 
             try {
-                const today = new Date().toISOString().split('T')[0];
+                // ✅ FIX: IST தேதி பயன்படுத்தவும் — UTC தேதி தவறான date mismatch ஏற்படுத்தும்
+                const today = new Date().toLocaleDateString('en-CA', { timeZone: 'Asia/Kolkata' });
                 const examKey = examFile.replace('.json', '');
                 // Timestamp சேர்க்கப்பட்டது — ஒரே நொடியில் இரண்டு மாணவர்கள் submit செய்தாலும் unique
                 const attemptTs = Date.now();

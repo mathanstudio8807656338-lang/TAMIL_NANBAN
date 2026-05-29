@@ -3,830 +3,873 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400;500;600;700;800&family=Noto+Sans+Tamil:wght@400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <title>A1 Coaching - Admin Dashboard</title>
-<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600;700&family=Noto+Sans+Tamil:wght@400;600;700&display=swap" rel="stylesheet">
+<title>Admin Dashboard — தமிழ் நண்பன்</title>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800;900&family=Noto+Sans+Tamil:wght@400;600;700;800;900&family=Playfair+Display:ital,wght@0,700;0,900;1,700&display=swap" rel="stylesheet">
 <style>
-/* --- BRAND HEADER --- */
-.header-standard {
-    background: #ffffff;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
-    height: 70px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-top: 1px solid #1e3a8a;
-    border-bottom: 1px solid #1e3a8a;
-}
-.brand-container {
-    text-decoration: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.brand-main {
-    font-family: 'Baloo Thambi 2', cursive;
-    font-size: 1.8rem;
-    font-weight: 800;
-    color: #1e3a8a;
-    line-height: 1.2;
-    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
-}
-.brand-sub {
-    font-family: 'Outfit', sans-serif;
-    font-size: 0.75rem;
-    font-weight: 700;
-    color: #ef4444;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
-    margin-top: -2px;
-}
-@media (max-width: 480px) {
-    .brand-main { font-size: 1.5rem; }
-    .brand-sub { font-size: 0.65rem; }
-    .header-standard { height: 60px; }
-}
-
-/* Bottom Nav */
-.bottom-nav {
-    position: fixed;
-    bottom: 0; left: 0; right: 0;
-    background: white;
-    display: flex;
-    justify-content: space-around;
-    padding: 0.6rem 0.4rem;
-    box-shadow: 0 -4px 20px rgba(0,0,0,0.08);
-    z-index: 1000;
-    border-top: 1px solid #f1f5f9;
-}
-.nav-item {
-    text-decoration: none;
-    color: #64748b;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 0.65rem;
-    font-weight: 700;
-    gap: 4px;
-    flex: 1;
-    transition: color 0.3s ease;
-}
-.nav-item.active { color: #1e3a8a; }
-.nav-item.logout { color: #ef4444; }
-.nav-icon { font-size: 1.2rem; margin-bottom: 2px; }
-
-/* Global fixes */
-body {
-    padding-bottom: 80px;
-}
-
-  :root {
-    --bg: #0a0f1e;
-    --surface: #111827;
-    --surface2: #1a2236;
-    --border: #1e3a5f;
-    --accent: #0ea5e9;
-    --accent2: #f59e0b;
-    --danger: #ef4444;
-    --success: #22c55e;
-    --text: #e2e8f0;
-    --muted: #64748b;
-    --p1: #6366f1;
-    --p2: #0ea5e9;
-  }
-
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-
-  body {
-    font-family: 'Rajdhani', 'Noto Sans Tamil', sans-serif;
-    background: var(--bg);
-    color: var(--text);
-    min-height: 100vh;
-  }
-
-  /* ── LOGIN SCREEN ── */
-  #loginScreen {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: radial-gradient(ellipse at 30% 50%, #0c1f3f 0%, #0a0f1e 70%);
-    position: relative;
-    overflow: hidden;
-  }
-
-  #loginScreen::before {
-    content: '';
-    position: absolute;
-    width: 600px; height: 600px;
-    border-radius: 50%;
-    background: radial-gradient(circle, rgba(14,165,233,0.08) 0%, transparent 70%);
-    top: -200px; right: -100px;
-  }
-
-  .login-box {
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: 16px;
-    padding: 48px 40px;
-    width: 100%;
-    max-width: 420px;
-    box-shadow: 0 25px 60px rgba(0,0,0,0.5);
-    position: relative;
-    z-index: 1;
-  }
-
-  .login-logo {
-    text-align: center;
-    margin-bottom: 32px;
-  }
-
-  .login-logo .brand {
-    font-size: 2rem;
-    font-weight: 700;
-    letter-spacing: 2px;
-    color: var(--accent);
-  }
-
-  .login-logo .sub {
-    font-size: 0.85rem;
-    color: var(--muted);
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    margin-top: 4px;
-  }
-
-  .login-title {
-    font-size: 1.4rem;
-    font-weight: 700;
-    text-align: center;
-    margin-bottom: 28px;
-    color: var(--text);
-  }
-
-  .form-group { margin-bottom: 20px; }
-
-  .form-group label {
-    display: block;
-    font-size: 0.8rem;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: var(--muted);
-    margin-bottom: 8px;
-  }
-
-  .form-group input {
-    width: 100%;
-    background: var(--bg);
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    padding: 12px 16px;
-    color: var(--text);
-    font-family: 'Rajdhani', sans-serif;
-    font-size: 1rem;
-    font-weight: 600;
-    letter-spacing: 1px;
-    outline: none;
-    transition: border-color 0.2s;
-  }
-
-  .form-group input:focus { border-color: var(--accent); }
-
-  .login-btn {
-    width: 100%;
-    background: var(--accent);
-    color: #fff;
-    border: none;
-    border-radius: 8px;
-    padding: 14px;
-    font-family: 'Rajdhani', sans-serif;
-    font-size: 1.1rem;
-    font-weight: 700;
-    letter-spacing: 2px;
-    cursor: pointer;
-    transition: opacity 0.2s, transform 0.1s;
-    margin-top: 8px;
-  }
-
-  .login-btn:hover { opacity: 0.9; transform: translateY(-1px); }
-  .login-btn:active { transform: translateY(0); }
-
-  .login-error {
-    background: rgba(239,68,68,0.1);
-    border: 1px solid rgba(239,68,68,0.3);
-    border-radius: 8px;
-    padding: 10px 14px;
-    color: var(--danger);
-    font-size: 0.9rem;
-    margin-top: 16px;
-    display: none;
-    text-align: center;
-  }
-
-  /* ── DASHBOARD ── */
-  #dashboard { display: none; }
-
-  .topbar {
-    background: var(--surface);
-    border-bottom: 1px solid var(--border);
-    padding: 16px 32px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: sticky;
-    top: 0;
-    z-index: 100;
-  }
-
-  .topbar-left {
-    display: flex;
-    align-items: center;
-    gap: 16px;
-  }
-
-  .topbar-brand {
-    font-size: 1.4rem;
-    font-weight: 700;
-    letter-spacing: 2px;
-    color: var(--accent);
-  }
-
-  .topbar-sub {
-    font-size: 0.75rem;
-    color: var(--muted);
-    letter-spacing: 2px;
-    text-transform: uppercase;
-  }
-
-  .topbar-right {
-    display: flex;
-    align-items: center;
-    gap: 16px;
-  }
-
-  .refresh-btn, .logout-btn {
-    background: var(--surface2);
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    padding: 8px 16px;
-    color: var(--text);
-    font-family: 'Rajdhani', sans-serif;
-    font-size: 0.9rem;
-    font-weight: 600;
-    cursor: pointer;
-    transition: all 0.2s;
-    letter-spacing: 1px;
-  }
-
-  .refresh-btn:hover { border-color: var(--accent); color: var(--accent); }
-  .logout-btn:hover { border-color: var(--danger); color: var(--danger); }
-
-  .main-content { padding: 32px; max-width: 1400px; margin: 0 auto; }
-
-  /* Stats */
-  .stats-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 16px;
-    margin-bottom: 32px;
-  }
-
-  .stat-card {
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: 12px;
-    padding: 24px;
-    position: relative;
-    overflow: hidden;
-  }
-
-  .stat-card::before {
-    content: '';
-    position: absolute;
-    top: 0; left: 0; right: 0;
-    height: 3px;
-  }
-
-  .stat-card.total::before { background: var(--accent); }
-  .stat-card.p1::before { background: var(--p1); }
-  .stat-card.p2::before { background: var(--p2); }
-  .stat-card.blocked::before { background: var(--danger); }
-
-  .stat-label {
-    font-size: 0.75rem;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: var(--muted);
-    margin-bottom: 8px;
-  }
-
-  .stat-value {
-    font-size: 2.5rem;
-    font-weight: 700;
-    line-height: 1;
-  }
-
-  .stat-card.total .stat-value { color: var(--accent); }
-  .stat-card.p1 .stat-value { color: var(--p1); }
-  .stat-card.p2 .stat-value { color: var(--p2); }
-  .stat-card.blocked .stat-value { color: var(--danger); }
-
-  /* Tabs */
-  .tabs {
-    display: flex;
-    gap: 8px;
-    margin-bottom: 24px;
-  }
-
-  .tab-btn {
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    padding: 10px 24px;
-    color: var(--muted);
-    font-family: 'Rajdhani', sans-serif;
-    font-size: 1rem;
-    font-weight: 600;
-    letter-spacing: 1px;
-    cursor: pointer;
-    transition: all 0.2s;
-  }
-
-  .tab-btn.active.all { border-color: var(--accent); color: var(--accent); background: rgba(14,165,233,0.08); }
-  .tab-btn.active.p1 { border-color: var(--p1); color: var(--p1); background: rgba(99,102,241,0.08); }
-  .tab-btn.active.p2 { border-color: var(--p2); color: var(--p2); background: rgba(14,165,233,0.08); }
-
-  /* Search */
-  .search-bar {
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    padding: 10px 16px;
-    color: var(--text);
-    font-family: 'Rajdhani', sans-serif;
-    font-size: 1rem;
-    font-weight: 600;
-    outline: none;
-    width: 280px;
-    transition: border-color 0.2s;
-    margin-bottom: 24px;
-  }
-
-  .search-bar:focus { border-color: var(--accent); }
-  .search-bar::placeholder { color: var(--muted); }
-
-  /* Table */
-  .table-wrap {
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: 12px;
-    overflow: hidden;
-  }
-
-  table {
-    width: 100%;
-    border-collapse: collapse;
-  }
-
-  thead {
-    background: var(--surface2);
-    border-bottom: 1px solid var(--border);
-  }
-
-  th {
-    padding: 14px 20px;
-    text-align: left;
-    font-size: 0.75rem;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: var(--muted);
-    font-weight: 600;
-  }
-
-  td {
-    padding: 14px 20px;
-    border-bottom: 1px solid rgba(30,58,95,0.4);
-    font-size: 0.95rem;
-    font-weight: 500;
-  }
-
-  tr:last-child td { border-bottom: none; }
-  tr:hover td { background: rgba(14,165,233,0.04); }
-
-  .badge {
-    display: inline-block;
-    padding: 3px 10px;
-    border-radius: 20px;
-    font-size: 0.75rem;
-    font-weight: 700;
-    letter-spacing: 1px;
-  }
-
-  .badge-p1 { background: rgba(99,102,241,0.15); color: var(--p1); border: 1px solid rgba(99,102,241,0.3); }
-  .badge-p2 { background: rgba(14,165,233,0.15); color: var(--p2); border: 1px solid rgba(14,165,233,0.3); }
-  .badge-active { background: rgba(34,197,94,0.15); color: var(--success); border: 1px solid rgba(34,197,94,0.3); }
-  .badge-blocked { background: rgba(239,68,68,0.15); color: var(--danger); border: 1px solid rgba(239,68,68,0.3); }
-  .badge-mobile { background: rgba(245,158,11,0.15); color: var(--accent2); border: 1px solid rgba(245,158,11,0.3); }
-  .badge-desktop { background: rgba(100,116,139,0.15); color: #94a3b8; border: 1px solid rgba(100,116,139,0.3); }
-
-  .action-btn {
-    padding: 6px 14px;
-    border-radius: 6px;
-    font-family: 'Rajdhani', sans-serif;
-    font-size: 0.85rem;
-    font-weight: 700;
-    letter-spacing: 1px;
-    cursor: pointer;
-    border: 1px solid;
-    transition: all 0.2s;
-  }
-
-  .btn-block { color: var(--danger); border-color: rgba(239,68,68,0.4); background: rgba(239,68,68,0.08); }
-  .btn-block:hover { background: rgba(239,68,68,0.2); }
-  .btn-unblock { color: var(--success); border-color: rgba(34,197,94,0.4); background: rgba(34,197,94,0.08); }
-  .btn-unblock:hover { background: rgba(34,197,94,0.2); }
-
-  .loading {
-    text-align: center;
-    padding: 60px;
-    color: var(--muted);
-    font-size: 1rem;
-    letter-spacing: 2px;
-  }
-
-  .loading-spinner {
-    width: 32px; height: 32px;
-    border: 3px solid var(--border);
-    border-top-color: var(--accent);
-    border-radius: 50%;
-    animation: spin 0.8s linear infinite;
-    margin: 0 auto 16px;
-  }
-
-  @keyframes spin { to { transform: rotate(360deg); } }
-
-  .empty {
-    text-align: center;
-    padding: 60px;
-    color: var(--muted);
-  }
-
-  .last-updated {
-    font-size: 0.8rem;
-    color: var(--muted);
-    letter-spacing: 1px;
-    margin-bottom: 16px;
-  }
-
-  @media (max-width: 768px) {
-    .stats-grid { grid-template-columns: repeat(2, 1fr); }
-    .main-content { padding: 16px; }
-    .topbar { padding: 12px 16px; }
-  }
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Outfit','Noto Sans Tamil',sans-serif;background:linear-gradient(135deg,#0f172a 0%,#1e293b 100%);color:#e2e8f0;min-height:100vh;padding:18px}
+.container{max-width:1100px;margin:0 auto}
+h1{color:#f59e0b;font-size:1.8rem;font-weight:800;margin-bottom:4px}
+.subtitle{color:#94a3b8;margin-bottom:22px;font-size:.92rem}
+.card{background:#1e293b;border:1px solid #334155;border-radius:14px;padding:20px;margin-bottom:16px;box-shadow:0 6px 24px rgba(0,0,0,.3)}
+.card h2{color:#fbbf24;font-size:1.15rem;margin-bottom:14px;display:flex;align-items:center;gap:8px}
+label{display:block;color:#cbd5e1;font-weight:600;margin-bottom:5px;font-size:.85rem}
+input,select{width:100%;padding:10px 12px;background:#0f172a;border:1px solid #475569;border-radius:8px;color:#e2e8f0;font-family:inherit;font-size:.92rem}
+input:focus,select:focus{outline:none;border-color:#fbbf24}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:12px}
+@media(max-width:600px){.row{grid-template-columns:1fr}}
+.btn{padding:11px 18px;border:none;border-radius:8px;font-weight:700;cursor:pointer;font-family:inherit;font-size:.92rem;transition:all .2s;display:inline-flex;align-items:center;gap:6px}
+.btn-primary{background:linear-gradient(135deg,#f59e0b,#d97706);color:#fff}
+.btn-primary:hover{transform:translateY(-1px);box-shadow:0 6px 16px rgba(245,158,11,.4)}
+.btn-secondary{background:#475569;color:#fff}
+.btn-secondary:hover{background:#64748b}
+.btn-success{background:linear-gradient(135deg,#10b981,#059669);color:#fff}
+.btn-success:hover{transform:translateY(-1px);box-shadow:0 6px 16px rgba(16,185,129,.4)}
+.btn-pink{background:linear-gradient(135deg,#ec4899,#db2777);color:#fff}
+.btn-pink:hover{transform:translateY(-1px);box-shadow:0 6px 16px rgba(236,72,153,.4)}
+.btn-row{display:flex;flex-wrap:wrap;gap:10px;margin-top:12px}
+.stat-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin:15px 0}
+.stat{background:#0f172a;border:1px solid #334155;border-radius:10px;padding:13px;text-align:center}
+.stat-val{font-size:1.5rem;font-weight:800;color:#fbbf24}
+.stat-lbl{font-size:.78rem;color:#94a3b8;margin-top:3px}
+.table-wrap{background:#0f172a;border-radius:10px;padding:6px;max-height:480px;overflow-y:auto;border:1px solid #334155}
+table{width:100%;border-collapse:collapse;font-size:.82rem}
+th{background:#334155;color:#fbbf24;padding:9px 8px;text-align:left;position:sticky;top:0;font-weight:700}
+td{padding:8px;border-bottom:1px solid #1e293b;color:#cbd5e1}
+tr:hover td{background:#1e293b}
+.badge-pass{background:#16a34a;color:#fff;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:700}
+.badge-fail{background:#dc2626;color:#fff;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:700}
+.rank-1{color:#fbbf24;font-weight:900}
+.rank-2{color:#cbd5e1;font-weight:800}
+.rank-3{color:#fb923c;font-weight:800}
+.msg{padding:10px 14px;border-radius:8px;margin:10px 0;font-size:.88rem;display:none}
+.msg-info{background:#1e3a8a;color:#bfdbfe;border-left:3px solid #3b82f6;display:block}
+.msg-success{background:#14532d;color:#bbf7d0;border-left:3px solid #10b981}
+.msg-error{background:#7f1d1d;color:#fecaca;border-left:3px solid #ef4444}
+.msg-warn{background:#78350f;color:#fde68a;border-left:3px solid #f59e0b}
+.loader{display:none;text-align:center;padding:20px;color:#fbbf24}
+.loader.active{display:block}
+.login-overlay{position:fixed;inset:0;background:rgba(15,23,42,.97);display:flex;align-items:center;justify-content:center;z-index:9999}
+.login-box{background:#1e293b;border:1px solid #fbbf24;border-radius:14px;padding:30px;max-width:400px;width:90%;text-align:center}
+.login-box h2{color:#fbbf24;margin-bottom:16px}
+.login-box input{margin:10px 0;text-align:center;font-size:1.2rem;letter-spacing:.3em}
+.progress{height:6px;background:#334155;border-radius:3px;overflow:hidden;margin-top:8px;display:none}
+.progress.active{display:block}
+.progress-bar{height:100%;background:linear-gradient(90deg,#f59e0b,#fbbf24);width:0;transition:width .3s}
+a{color:#fbbf24}
 </style>
 </head>
 <body>
 
-<!-- LOGIN SCREEN -->
-<div id="loginScreen">
-  <div class="login-box">
-    <div class="login-logo">
-      <div class="brand">A1 COACHING</div>
-      <div class="sub">TNPSC & TET Experts</div>
+<div class="login-overlay" id="loginOverlay">
+    <div class="login-box">
+        <h2>🔐 Admin Login</h2>
+        <p style="color:#94a3b8;font-size:.9rem;margin-bottom:10px">Admin PIN உள்ளிடவும்</p>
+        <input type="password" id="pinInput" placeholder="****" maxlength="6">
+        <button class="btn btn-primary" style="width:100%;margin-top:10px;justify-content:center" onclick="checkPin()">உள் நுழை</button>
+        <p style="color:#64748b;font-size:.78rem;margin-top:14px">PIN தவறானால் இந்த page வேலை செய்யாது</p>
     </div>
-    <div class="login-title">Admin Dashboard</div>
-    <div class="form-group">
-      <label>Username</label>
-      <input type="text" id="adminUser" placeholder="Username உள்ளிடவும்" autocomplete="off">
-    </div>
-    <div class="form-group">
-      <label>Password</label>
-      <input type="password" id="adminPass" placeholder="Password உள்ளிடவும்">
-    </div>
-    <button class="login-btn" onclick="adminLogin()">உள்நுழைய (Login)</button>
-    <div class="login-error" id="loginError">தவறான Username அல்லது Password!</div>
-  </div>
 </div>
 
-<!-- DASHBOARD -->
-<div id="dashboard">
-  <div class="topbar">
-    <div class="topbar-left">
-      <div>
-        <div class="topbar-brand">A1 COACHING</div>
-        <div class="topbar-sub">Admin Dashboard</div>
-      </div>
+<div class="container" id="mainPanel" style="display:none">
+
+<h1>🎯 Admin Dashboard</h1>
+<p class="subtitle">தமிழ் நண்பன் — Live முடிவு மேலாண்மை மற்றும் வெற்றியாளர் கோப்பை</p>
+
+<div class="card">
+    <h2>📅 தேர்வு தேர்ந்தெடு</h2>
+    <div class="row">
+        <div>
+            <label>தேர்வு தேதி</label>
+            <input type="date" id="examDate">
+        </div>
+        <div>
+            <label>பேப்பர்</label>
+            <select id="paperSelect">
+                <option value="paper1">பேப்பர் 2 — கணிதம் + அறிவியல்</option>
+                <option value="paper2">பேப்பர் 2 — சமூக அறிவியல்</option>
+            </select>
+        </div>
     </div>
-    <div class="topbar-right">
-      <button class="refresh-btn" onclick="loadData()">↻ Refresh</button>
-      <button class="logout-btn" onclick="adminLogout()">Logout</button>
+    <button class="btn btn-primary" onclick="loadData()">🔄 Live முடிவுகளை ஏற்று</button>
+    <button class="btn btn-secondary" onclick="loadBothPapers()">📊 இரு பேப்பருக்கும் summary</button>
+    <div id="msg" class="msg"></div>
+    <div class="loader" id="loader">⏳ Firebase-ல் இருந்து live data ஏற்றப்படுகிறது...</div>
+</div>
+
+<div class="card" id="summaryCard" style="display:none">
+    <h2>📊 Summary</h2>
+    <div class="stat-grid">
+        <div class="stat"><div class="stat-val" id="sTotal">0</div><div class="stat-lbl">மொத்த மாணவர்</div></div>
+        <div class="stat"><div class="stat-val" id="sPass" style="color:#10b981">0</div><div class="stat-lbl">தேர்ச்சி</div></div>
+        <div class="stat"><div class="stat-val" id="sFail" style="color:#ef4444">0</div><div class="stat-lbl">தேர்ச்சி இல்லை</div></div>
+        <div class="stat"><div class="stat-val" id="sTopScore">0</div><div class="stat-lbl">அதிக மதிப்பெண்</div></div>
+        <div class="stat"><div class="stat-val" id="sAvg">0%</div><div class="stat-lbl">சராசரி %</div></div>
     </div>
-  </div>
+</div>
 
-  <div class="main-content">
-    <!-- Stats -->
-    <div class="stats-grid">
-      <div class="stat-card total">
-        <div class="stat-label">மொத்த Students</div>
-        <div class="stat-value" id="statTotal">—</div>
-      </div>
-      <div class="stat-card p1">
-        <div class="stat-label">Paper 1 Students</div>
-        <div class="stat-value" id="statP1">—</div>
-      </div>
-      <div class="stat-card p2">
-        <div class="stat-label">Paper 2 Students</div>
-        <div class="stat-value" id="statP2">—</div>
-      </div>
-      <div class="stat-card blocked">
-        <div class="stat-label">Blocked Students</div>
-        <div class="stat-value" id="statBlocked">—</div>
-      </div>
+<div class="card" id="searchCard" style="display:none">
+    <h2>🔍 மாணவர் தேடு (Phone)</h2>
+    <div class="row">
+        <input type="text" id="phoneSearch" placeholder="10 இலக்க Phone எண்" maxlength="10" inputmode="numeric">
+        <button class="btn btn-secondary" onclick="searchStudent()">தேடு</button>
     </div>
+    <div id="searchResult" style="margin-top:12px"></div>
+</div>
 
-    <!-- Tabs -->
-    <div class="tabs">
-      <button class="tab-btn active all" onclick="filterTab('all', this)">அனைவரும் (All)</button>
-      <button class="tab-btn" onclick="filterTab('p1', this)">Paper 1</button>
-      <button class="tab-btn" onclick="filterTab('p2', this)">Paper 2</button>
-      <button class="tab-btn" onclick="filterTab('blocked', this)">Blocked</button>
+<div class="card" id="leaderboardCard" style="display:none">
+    <h2>🏆 முழு பட்டியல் <span style="color:#94a3b8;font-size:.78rem;font-weight:400" id="leaderCount"></span></h2>
+    <div class="btn-row" style="margin-bottom:10px">
+        <button class="btn btn-success" onclick="downloadFullPDF()">📄 முழு PDF (இனம் இல்லை)</button>
+        <button class="btn btn-pink" onclick="downloadCertificate('top1')">🥇 Top 1 — Animated Certificate</button>
+        <button class="btn btn-pink" onclick="downloadCertificate('top10')">🏆 Top 10 — Animated Certificate</button>
     </div>
-
-    <!-- Search -->
-    <input class="search-bar" type="text" id="searchInput" placeholder="📞 Phone number தேடவும்..." oninput="renderTable()">
-
-    <!-- Last Updated -->
-    <div class="last-updated" id="lastUpdated"></div>
-
-    <!-- Table -->
+    <div class="progress" id="zipProgress"><div class="progress-bar" id="zipBar"></div></div>
     <div class="table-wrap">
-      <div class="loading" id="loadingEl">
-        <div class="loading-spinner"></div>
-        DATA LOADING...
-      </div>
-      <table id="userTable" style="display:none;">
-        <thead>
-          <tr>
-            <th>#</th>
-            <th>Phone Number</th>
-            <th>Project</th>
-            <th>Device</th>
-            <th>Device ID</th>
-            <th>Last Login</th>
-            <th>Registered</th>
-            <th>Status</th>
-            <th>Action</th>
-          </tr>
-        </thead>
-        <tbody id="tableBody"></tbody>
-      </table>
-      <div class="empty" id="emptyEl" style="display:none;">
-        📭 Data இல்லை
-      </div>
+        <table>
+            <thead>
+                <tr><th>Rank</th><th>பெயர்</th><th>இனம்</th><th>மதிப்பெண்</th><th>%</th><th>முடிவு</th></tr>
+            </thead>
+            <tbody id="leaderTbody"></tbody>
+        </table>
     </div>
-  </div>
 </div>
 
-        <nav class="bottom-nav">
-        <a href="index.html" class="nav-item">
-            <span class="nav-icon">🏠</span>
-            <span>Home</span>
-        </a>
-        <a href="subject.html" class="nav-item">
-            <span class="nav-icon">📚</span>
-            <span>Course</span>
-        </a>
-        <a href="tel:6369371452" class="nav-item">
-            <span class="nav-icon">📞</span>
-            <span>Contact</span>
-        </a>
-        <a href="#" class="nav-item">
-            <span class="nav-icon">💳</span>
-            <span>Pay</span>
-        </a>
-        <a href="#" onclick="window.logout(); return false;" class="nav-item logout">
-            <span class="nav-icon">🚪</span>
-            <span>Logout</span>
-        </a>
-    </nav>
+<div class="card" id="bothSummary" style="display:none">
+    <h2>📊 இரு பேப்பர் சுருக்கம்</h2>
+    <div id="bothSummaryContent"></div>
+</div>
 
-    <script type="module">
-  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
-  import { getFirestore, collection, getDocs, doc, updateDoc, setDoc } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js";
+</div>
 
-  const firebaseConfig = {
-    apiKey: "AIzaSyCtbz8pKglviupPOwQvlioqsLELuQqtHhA",
-    authDomain: "greenpen-device-lock.firebaseapp.com",
-    projectId: "greenpen-device-lock",
-    storageBucket: "greenpen-device-lock.firebasestorage.app",
-    messagingSenderId: "270447669595",
-    appId: "1:270447669595:web:954d2aa2c38fc53b982a7e"
-  };
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.8.0/jspdf.plugin.autotable.min.js"></script>
 
-  const app = initializeApp(firebaseConfig);
-  const db = getFirestore(app);
+<script>
+const ADMIN_PIN = '8807';
+const SESSION_KEY = 'tn_admin_ok';
 
-  // Admin credentials
-  const ADMIN_USER = "MYGREENPEN";
-  const ADMIN_PASS = "MYgreenPEN";
-  const ADMIN_SESSION = "a1_admin_session";
-
-  let allUsers = [];
-  let currentFilter = 'all';
-
-  // ── Login ──
-  window.adminLogin = function() {
-    const u = document.getElementById('adminUser').value.trim();
-    const p = document.getElementById('adminPass').value.trim();
-    const err = document.getElementById('loginError');
-    if (u === ADMIN_USER && p === ADMIN_PASS) {
-      sessionStorage.setItem(ADMIN_SESSION, '1');
-      document.getElementById('loginScreen').style.display = 'none';
-      document.getElementById('dashboard').style.display = 'block';
-      loadData();
+function checkPin(){
+    const pin = document.getElementById('pinInput').value.trim();
+    if(pin === ADMIN_PIN){
+        try{sessionStorage.setItem(SESSION_KEY,'1')}catch(_){}
+        document.getElementById('loginOverlay').style.display='none';
+        document.getElementById('mainPanel').style.display='block';
+        initDate();
     } else {
-      err.style.display = 'block';
-      setTimeout(() => err.style.display = 'none', 3000);
+        alert('தவறான PIN!');
     }
-  };
-
-  // Enter key login
-  document.addEventListener('keydown', e => {
-    if (e.key === 'Enter' && document.getElementById('loginScreen').style.display !== 'none') {
-      window.adminLogin();
+}
+document.getElementById('pinInput').addEventListener('keypress',e=>{if(e.key==='Enter')checkPin()});
+try{
+    if(sessionStorage.getItem(SESSION_KEY)==='1'){
+        document.getElementById('loginOverlay').style.display='none';
+        document.getElementById('mainPanel').style.display='block';
+        setTimeout(initDate, 50);
     }
-  });
+}catch(_){}
 
-  // ── Logout ──
-  window.adminLogout = function() {
-    sessionStorage.removeItem(ADMIN_SESSION);
-    location.reload();
-  };
+function initDate(){
+    const today = new Date().toLocaleDateString('en-CA',{timeZone:'Asia/Kolkata'});
+    const el = document.getElementById('examDate');
+    if(el){el.value = today; el.max = today;}
+}
 
-  // ── Auto login check ──
-  if (sessionStorage.getItem(ADMIN_SESSION)) {
-    document.getElementById('loginScreen').style.display = 'none';
-    document.getElementById('dashboard').style.display = 'block';
-    loadData();
-  }
+const FREE_EXAM_CONFIG = {
+    apiKey: "AIzaSyBpkL8eZT0u5mnxCxmVZMmmemX15BCaNf4",
+    authDomain: "a1-coaching.firebaseapp.com",
+    databaseURL: "https://tamil-nanban-default-rtdb.asia-southeast1.firebasedatabase.app",
+    projectId: "a1-coaching",
+    storageBucket: "a1-coaching.firebasestorage.app",
+    messagingSenderId: "240838259015",
+    appId: "1:240838259015:web:a5b80f33e9a0fec5ea24b0"
+};
+let _db = null;
+function getDB(){
+    if(_db) return _db;
+    const APP_NAME='free-exam-app';
+    const existing=(firebase.apps||[]).find(a=>a.name===APP_NAME);
+    const app=existing||firebase.initializeApp(FREE_EXAM_CONFIG,APP_NAME);
+    _db=app.database();
+    return _db;
+}
 
-  // ── Load Data from Firestore ──
-  window.loadData = async function() {
-    document.getElementById('loadingEl').style.display = 'block';
-    document.getElementById('userTable').style.display = 'none';
-    document.getElementById('emptyEl').style.display = 'none';
+const CUTOFFS={'OC':60,'GENERAL':60,'BC':50,'BCM':50,'MBC':50,'DNC':50,'SC':40,'SCA':40,'ST':40,'PWD':40};
+let currentResults=[], currentDate='', currentPaper='';
 
-    try {
-      const snap = await getDocs(collection(db, 'device_sessions'));
-      allUsers = [];
-      snap.forEach(d => {
-        allUsers.push({ id: d.id, ...d.data() });
-      });
-
-      // Update stats
-      const p1 = allUsers.filter(u => (u.project || '').startsWith('p1'));
-      const p2 = allUsers.filter(u => (u.project || '').startsWith('p2'));
-      const blocked = allUsers.filter(u => u.blocked === true);
-
-      document.getElementById('statTotal').textContent = allUsers.length;
-      document.getElementById('statP1').textContent = p1.length;
-      document.getElementById('statP2').textContent = p2.length;
-      document.getElementById('statBlocked').textContent = blocked.length;
-
-      const now = new Date();
-      document.getElementById('lastUpdated').textContent =
-        `கடைசியாக refresh: ${now.toLocaleTimeString('ta-IN')}`;
-
-      renderTable();
-    } catch (e) {
-      document.getElementById('loadingEl').innerHTML = `<div style="color:var(--danger)">❌ Firebase Error: ${e.message}</div>`;
+function buildResults(allRecords,paperKey,examDate){
+    const byPhone=new Map();
+    for(const id in allRecords){
+        const r=allRecords[id];
+        if(!r||r.isTestMode) continue;
+        if(r.examDate!==examDate) continue;
+        if(!r.examFile) continue;
+        if(r.examFile.replace('.json','')!==paperKey) continue;
+        const phone=r.phoneNumber;
+        if(!phone) continue;
+        const cat=(r.category||'OC').toUpperCase();
+        const cutoff=CUTOFFS[cat]??60;
+        const pct=r.percentage||0;
+        const entry={
+            phone,name:r.studentName||'மாணவர்',category:r.category||'OC',
+            score:r.score||0,total:r.totalQuestions||0,
+            correct:r.correctAnswers||0,wrong:r.wrongAnswers||0,
+            unanswered:r.unanswered||0,percentage:pct,
+            timeTaken:r.timeTaken||0,completedAt:r.completedAt,
+            cutoff,passed:pct>=cutoff
+        };
+        const ex=byPhone.get(phone);
+        if(!ex||entry.score>ex.score||(entry.score===ex.score&&entry.timeTaken<ex.timeTaken)){
+            byPhone.set(phone,entry);
+        }
     }
-  };
+    const arr=Array.from(byPhone.values());
+    arr.sort((a,b)=>b.score!==a.score?b.score-a.score:a.timeTaken-b.timeTaken);
+    arr.forEach((r,i)=>r.rank=i+1);
+    return arr;
+}
 
-  // ── Filter Tab ──
-  window.filterTab = function(filter, btn) {
-    currentFilter = filter;
-    document.querySelectorAll('.tab-btn').forEach(b => {
-      b.classList.remove('active', 'all', 'p1', 'p2', 'blocked');
+function showMsg(text,type){
+    const el=document.getElementById('msg');
+    el.textContent=text;
+    el.className='msg msg-'+type;
+}
+
+async function loadData(){
+    const examDate=document.getElementById('examDate').value;
+    const paper=document.getElementById('paperSelect').value;
+    if(!examDate){alert('தேதியை தேர்வு செய்யவும்');return;}
+    document.getElementById('loader').classList.add('active');
+    document.getElementById('summaryCard').style.display='none';
+    document.getElementById('searchCard').style.display='none';
+    document.getElementById('leaderboardCard').style.display='none';
+    document.getElementById('bothSummary').style.display='none';
+    try{
+        const db=getDB();
+        const snap=await db.ref('free_exam_results').orderByChild('examDate').equalTo(examDate).once('value');
+        const all=snap.val()||{};
+        currentResults=buildResults(all,paper,examDate);
+        currentDate=examDate;
+        currentPaper=paper;
+        document.getElementById('loader').classList.remove('active');
+        if(currentResults.length===0){
+            showMsg('இந்த தேதியில் இந்த பேப்பருக்கு பதிவுகள் இல்லை','warn');
+            return;
+        }
+        showMsg('✅ ' + currentResults.length + ' மாணவர்களின் முடிவுகள் ஏற்றப்பட்டன','success');
+        renderSummary();
+        renderLeaderboard();
+        document.getElementById('searchCard').style.display='block';
+    }catch(err){
+        document.getElementById('loader').classList.remove('active');
+        showMsg('Firebase load failed: '+err.message,'error');
+        console.error(err);
+    }
+}
+
+function renderSummary(){
+    const total=currentResults.length;
+    const pass=currentResults.filter(r=>r.passed).length;
+    const avg=total?(currentResults.reduce((s,r)=>s+r.percentage,0)/total).toFixed(1):0;
+    const topScore=currentResults[0]?.score||0;
+    document.getElementById('sTotal').textContent=total;
+    document.getElementById('sPass').textContent=pass;
+    document.getElementById('sFail').textContent=total-pass;
+    document.getElementById('sTopScore').textContent=topScore;
+    document.getElementById('sAvg').textContent=avg+'%';
+    document.getElementById('summaryCard').style.display='block';
+}
+
+function renderLeaderboard(){
+    const tbody=document.getElementById('leaderTbody');
+    tbody.innerHTML='';
+    currentResults.forEach(r=>{
+        const rankCls=r.rank===1?'rank-1':r.rank===2?'rank-2':r.rank===3?'rank-3':'';
+        const tr=document.createElement('tr');
+        tr.innerHTML='<td class="'+rankCls+'">'+r.rank+'</td>'+
+            '<td><strong>'+escapeHtml(r.name)+'</strong><br><span style="color:#64748b;font-size:.72rem">'+r.phone+'</span></td>'+
+            '<td>'+escapeHtml(r.category)+'</td>'+
+            '<td>'+r.score+'/'+r.total+'</td>'+
+            '<td>'+r.percentage.toFixed(1)+'%</td>'+
+            '<td>'+(r.passed?'<span class="badge-pass">PASS</span>':'<span class="badge-fail">FAIL</span>')+'</td>';
+        tbody.appendChild(tr);
     });
-    btn.classList.add('active', filter);
-    renderTable();
-  };
+    document.getElementById('leaderCount').textContent='('+currentResults.length+' மாணவர்)';
+    document.getElementById('leaderboardCard').style.display='block';
+}
 
-  // ── Render Table ──
-  window.renderTable = function() {
-    const search = document.getElementById('searchInput').value.trim().toLowerCase();
+function escapeHtml(s){return (s||'').toString().replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
 
-    let filtered = allUsers.filter(u => {
-      if (currentFilter === 'p1') return (u.project || '').startsWith('p1');
-      if (currentFilter === 'p2') return (u.project || '').startsWith('p2');
-      if (currentFilter === 'blocked') return u.blocked === true;
-      return true;
+function searchStudent(){
+    const phone=document.getElementById('phoneSearch').value.trim();
+    if(!/^\d{10}$/.test(phone)){alert('சரியான 10 இலக்க phone எண்');return;}
+    const r=currentResults.find(x=>x.phone===phone);
+    const out=document.getElementById('searchResult');
+    if(!r){
+        out.innerHTML='<div class="msg msg-error" style="display:block">❌ இந்த phone ('+phone+')-க்கு இந்த தேர்வுக்கு பதிவு இல்லை! மாணவர் submit செய்யவில்லை அல்லது Firebase-ல் record இல்லை.</div>';
+        return;
+    }
+    out.innerHTML='<div class="msg msg-success" style="display:block">'+
+        '✅ <strong>'+escapeHtml(r.name)+'</strong> ('+r.phone+') — '+escapeHtml(r.category)+'<br>'+
+        'Rank: <strong>#'+r.rank+'</strong> | மதிப்பெண்: <strong>'+r.score+'/'+r.total+'</strong> ('+r.percentage.toFixed(1)+'%) | '+
+        (r.passed?'<span class="badge-pass">PASS</span>':'<span class="badge-fail">FAIL</span>')+'<br>'+
+        '<span style="font-size:.78rem;color:#94a3b8">Completed: '+(r.completedAt||'?')+'</span>'+
+    '</div>';
+}
+
+async function loadBothPapers(){
+    const examDate=document.getElementById('examDate').value;
+    if(!examDate){alert('தேதியை தேர்வு செய்யவும்');return;}
+    document.getElementById('loader').classList.add('active');
+    document.getElementById('bothSummary').style.display='none';
+    try{
+        const db=getDB();
+        const snap=await db.ref('free_exam_results').orderByChild('examDate').equalTo(examDate).once('value');
+        const all=snap.val()||{};
+        const p1=buildResults(all,'paper1',examDate);
+        const p2=buildResults(all,'paper2',examDate);
+        document.getElementById('loader').classList.remove('active');
+        const html=
+            '<div class="row">'+
+                '<div class="stat"><div class="stat-val">'+p1.length+'</div><div class="stat-lbl">பேப்பர் 2 — கணிதம் + அறிவியல்</div></div>'+
+                '<div class="stat"><div class="stat-val">'+p2.length+'</div><div class="stat-lbl">பேப்பர் 2 — சமூக அறிவியல்</div></div>'+
+            '</div>'+
+            '<div class="stat-grid" style="margin-top:10px">'+
+                '<div class="stat"><div class="stat-val" style="color:#10b981">'+p1.filter(r=>r.passed).length+'</div><div class="stat-lbl">P1 தேர்ச்சி</div></div>'+
+                '<div class="stat"><div class="stat-val" style="color:#10b981">'+p2.filter(r=>r.passed).length+'</div><div class="stat-lbl">P2 தேர்ச்சி</div></div>'+
+                '<div class="stat"><div class="stat-val">'+(p1[0]?.score||0)+'</div><div class="stat-lbl">P1 Top</div></div>'+
+                '<div class="stat"><div class="stat-val">'+(p2[0]?.score||0)+'</div><div class="stat-lbl">P2 Top</div></div>'+
+            '</div>'+
+            '<p style="color:#94a3b8;font-size:.85rem;margin-top:10px">P1 டாப்பர்: <strong style="color:#fbbf24">'+escapeHtml(p1[0]?.name||'—')+'</strong> | '+
+            'P2 டாப்பர்: <strong style="color:#fbbf24">'+escapeHtml(p2[0]?.name||'—')+'</strong></p>';
+        document.getElementById('bothSummaryContent').innerHTML=html;
+        document.getElementById('bothSummary').style.display='block';
+    }catch(err){
+        document.getElementById('loader').classList.remove('active');
+        showMsg('Both papers load failed: '+err.message,'error');
+    }
+}
+
+// ═══════════════════════════════════════════════════════════
+// 📄 FULL LEADERBOARD PDF (NO category column)
+// ═══════════════════════════════════════════════════════════
+let _tamilFontB64=null;
+async function ensureTamilFont(doc){
+    try{
+        if(!_tamilFontB64){
+            const url='https://cdn.jsdelivr.net/gh/google/fonts/ofl/notosanstamil/NotoSansTamil%5Bwdth%2Cwght%5D.ttf';
+            const res=await fetch(url);
+            if(!res.ok) throw new Error('font fetch failed');
+            const buf=await res.arrayBuffer();
+            const bytes=new Uint8Array(buf);
+            let s='',chunk=8192;
+            for(let i=0;i<bytes.length;i+=chunk) s+=String.fromCharCode(...bytes.subarray(i,i+chunk));
+            _tamilFontB64=btoa(s);
+        }
+        doc.addFileToVFS('NotoTamil.ttf',_tamilFontB64);
+        doc.addFont('NotoTamil.ttf','NotoTamil','normal');
+        return true;
+    }catch(e){console.warn('Tamil font fail',e);return false;}
+}
+
+async function downloadFullPDF(){
+    if(!currentResults.length){alert('முதலில் முடிவுகளை load பண்ணுங்கள்');return;}
+    const {jsPDF}=window.jspdf;
+    const doc=new jsPDF('p','mm','a4');
+    const W=doc.internal.pageSize.width;
+    const hasTamil=await ensureTamilFont(doc);
+    const TF=hasTamil?'NotoTamil':'helvetica';
+
+    doc.setFillColor(30,41,59);
+    doc.rect(0,0,W,40,'F');
+    doc.setTextColor(251,191,36);
+    doc.setFont(TF,'normal');
+    doc.setFontSize(22);
+    doc.text(hasTamil?'தமிழ் நண்பன்':'TAMIL NANBAN',W/2,14,{align:'center'});
+    doc.setTextColor(255,255,255);
+    doc.setFontSize(11);
+    doc.text('Test Batch Series',W/2,22,{align:'center'});
+    doc.setFontSize(10);
+    doc.setTextColor(203,213,225);
+    const ptitle=currentPaper==='paper1'
+        ?(hasTamil?'ஆசிரியர் தகுதித் தேர்வு - தாள் 2 - கணிதம் + அறிவியல்':'TET Paper 2 - Math + Science')
+        :(hasTamil?'ஆசிரியர் தகுதித் தேர்வு - தாள் 2 - சமூக அறிவியல்':'TET Paper 2 - Social Science');
+    doc.text(ptitle,W/2,29,{align:'center'});
+    doc.setFontSize(9);
+    doc.text('Mobile: 63 69 37 14 52',W/2,35,{align:'center'});
+
+    doc.setFillColor(254,243,199);
+    doc.rect(0,40,W,8,'F');
+    doc.setTextColor(120,53,15);
+    doc.setFontSize(9);
+    doc.setFont('helvetica','bold');
+    doc.text('Exam Date: '+currentDate,15,45.5);
+    doc.text('Total Students: '+currentResults.length,W-15,45.5,{align:'right'});
+
+    const body=currentResults.map(r=>[
+        r.rank,r.name||'Student',r.score+'/'+r.total,
+        r.correct||0,r.wrong||0,(r.percentage||0).toFixed(1)+'%',
+        r.passed?'PASS':'FAIL'
+    ]);
+    doc.autoTable({
+        head:[['Rank','Name','Score','Correct','Wrong','%','Result']],
+        body,startY:52,
+        styles:{font:TF,fontSize:9,cellPadding:2.5,lineColor:[200,200,200],lineWidth:.15,textColor:[30,41,59]},
+        headStyles:{fillColor:[30,41,59],textColor:[251,191,36],fontStyle:'bold',halign:'center',fontSize:9.5},
+        columnStyles:{
+            0:{halign:'center',cellWidth:15,fontStyle:'bold'},
+            1:{cellWidth:62,fontStyle:'bold'},
+            2:{halign:'center',cellWidth:24,fontStyle:'bold'},
+            3:{halign:'center',cellWidth:20},
+            4:{halign:'center',cellWidth:20},
+            5:{halign:'center',cellWidth:20,fontStyle:'bold'},
+            6:{halign:'center',cellWidth:20,fontStyle:'bold'}
+        },
+        didParseCell:function(cd){
+            if(cd.section!=='body') return;
+            const row=currentResults[cd.row.index];
+            if(cd.column.index===0){
+                if(row?.rank===1){cd.cell.styles.fillColor=[251,191,36];cd.cell.styles.textColor=[120,53,15]}
+                else if(row?.rank===2){cd.cell.styles.fillColor=[203,213,225];cd.cell.styles.textColor=[30,41,59]}
+                else if(row?.rank===3){cd.cell.styles.fillColor=[251,146,60];cd.cell.styles.textColor=[255,255,255]}
+            }
+            if(cd.column.index===6){
+                if(row?.passed){cd.cell.styles.fillColor=[34,197,94];cd.cell.styles.textColor=[255,255,255]}
+                else{cd.cell.styles.fillColor=[239,68,68];cd.cell.styles.textColor=[255,255,255]}
+            }
+        },
+        didDrawPage:(hd)=>{
+            const pc=doc.internal.getNumberOfPages();
+            doc.setFontSize(8);
+            doc.setTextColor(100);
+            doc.setFont('helvetica','normal');
+            doc.text('Page '+hd.pageNumber+'/'+pc+'  |  Generated: '+new Date().toLocaleString('en-IN')+'  |  Tamil Nanban',
+                W/2,doc.internal.pageSize.height-6,{align:'center'});
+        }
     });
+    doc.save(currentPaper+'_results_'+currentDate+'.pdf');
+}
 
-    if (search) {
-      filtered = filtered.filter(u =>
-        (u.phone || '').includes(search) ||
-        (u.deviceId || '').toLowerCase().includes(search)
-      );
-    }
+// ═══════════════════════════════════════════════════════════
+// 🏆 WINNER CERTIFICATE — Animated HTML + Static PNG, in ZIP
+// ═══════════════════════════════════════════════════════════
+function buildCertificateHTML(winner, rank, paperTitle, dateStr){
+    const safeName = escapeHtml(winner.name);
+    const score = winner.score+'/'+winner.total;
+    const pct = winner.percentage.toFixed(1);
+    const confetti = Array.from({length:30},(_,i)=>{
+        const colors=['#fbbf24','#f59e0b','#ef4444','#10b981','#3b82f6','#a855f7','#ec4899'];
+        const c=colors[i%colors.length];
+        const left=Math.random()*100;
+        const delay=Math.random()*4;
+        const dur=3+Math.random()*2;
+        return '<div class="confetti" style="left:'+left+'%;background:'+c+';animation-delay:'+delay+'s;animation-duration:'+dur+'s"></div>';
+    }).join('');
+    return '<!DOCTYPE html>\n<html lang="ta"><head><meta charset="UTF-8">'+
+'<title>'+safeName+' - வாழ்த்துக்கள் - Rank '+rank+'</title>'+
+'<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Noto+Sans+Tamil:wght@700;800;900&family=Outfit:wght@600;700;800&display=swap" rel="stylesheet">'+
+'<style>'+
+'*{margin:0;padding:0;box-sizing:border-box}'+
+'html,body{width:100%;height:100%;overflow:hidden}'+
+'body{background:radial-gradient(ellipse at center,#1e3a8a 0%,#0c1e4f 60%,#020617 100%);font-family:Outfit,"Noto Sans Tamil",sans-serif;display:flex;align-items:center;justify-content:center;color:#fff;position:relative}'+
+'.particle{position:absolute;border-radius:50%;background:radial-gradient(circle,#fbbf24,transparent 70%);pointer-events:none;opacity:.7;animation:float 6s ease-in-out infinite}'+
+'@keyframes float{0%,100%{transform:translateY(0) translateX(0) scale(1);opacity:.7}50%{transform:translateY(-30px) translateX(15px) scale(1.2);opacity:.3}}'+
+'.confetti{position:absolute;width:10px;height:14px;animation:confetti-fall 4s linear infinite;top:-20px}'+
+'@keyframes confetti-fall{0%{transform:translateY(-20px) rotate(0deg);opacity:1}100%{transform:translateY(110vh) rotate(720deg);opacity:0}}'+
+'.cert{position:relative;width:min(92vw,820px);aspect-ratio:1.4/1;background:linear-gradient(135deg,#fef3c7,#fde68a 50%,#fcd34d);border-radius:20px;padding:40px;box-shadow:0 30px 80px rgba(0,0,0,.6),inset 0 0 0 4px #92400e,inset 0 0 0 10px #fbbf24,inset 0 0 0 14px #92400e;color:#451a03;display:flex;flex-direction:column;align-items:center;justify-content:space-between;text-align:center;animation:cert-in 1s cubic-bezier(.34,1.56,.64,1) both}'+
+'@keyframes cert-in{0%{transform:scale(.5) rotate(-8deg);opacity:0}100%{transform:scale(1) rotate(0);opacity:1}}'+
+'.corner{position:absolute;width:60px;height:60px;border:3px solid #92400e}'+
+'.corner.tl{top:18px;left:18px;border-right:none;border-bottom:none;border-top-left-radius:14px}'+
+'.corner.tr{top:18px;right:18px;border-left:none;border-bottom:none;border-top-right-radius:14px}'+
+'.corner.bl{bottom:18px;left:18px;border-right:none;border-top:none;border-bottom-left-radius:14px}'+
+'.corner.br{bottom:18px;right:18px;border-left:none;border-top:none;border-bottom-right-radius:14px}'+
+'.brand{display:flex;flex-direction:column;align-items:center;gap:2px;animation:slide-down .8s .3s both}'+
+'@keyframes slide-down{from{transform:translateY(-30px);opacity:0}to{transform:translateY(0);opacity:1}}'+
+'.brand-tamil{font-family:"Noto Sans Tamil",sans-serif;font-size:clamp(22px,3.2vw,32px);font-weight:900;color:#7c2d12;letter-spacing:.02em}'+
+'.brand-en{font-family:Outfit,sans-serif;font-size:clamp(12px,1.6vw,16px);font-weight:700;color:#9a3412;letter-spacing:.35em;text-transform:uppercase}'+
+'.paper{font-family:"Noto Sans Tamil",sans-serif;font-size:clamp(12px,1.6vw,15px);color:#78350f;margin-top:6px;font-weight:600}'+
+'.trophy{font-size:clamp(60px,8vw,80px);animation:trophy-shine 2s ease-in-out infinite;filter:drop-shadow(0 0 18px rgba(251,191,36,.8))}'+
+'@keyframes trophy-shine{0%,100%{transform:scale(1) rotate(-2deg);filter:drop-shadow(0 0 18px rgba(251,191,36,.8))}50%{transform:scale(1.08) rotate(3deg);filter:drop-shadow(0 0 28px rgba(251,191,36,1))}}'+
+'.congrats{font-family:"Playfair Display",serif;font-style:italic;font-size:clamp(20px,2.6vw,28px);color:#7c2d12;font-weight:700;animation:fade-in 1s .6s both}'+
+'@keyframes fade-in{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}'+
+'.tamil-congrats{font-family:"Noto Sans Tamil",sans-serif;font-size:clamp(18px,2.4vw,24px);color:#92400e;font-weight:700;margin-top:-4px;animation:fade-in 1s .9s both}'+
+'.name-wrap{position:relative;padding:14px 32px;margin:8px 0;animation:name-pop 1.2s 1s both}'+
+'@keyframes name-pop{0%{transform:scale(.3);opacity:0}60%{transform:scale(1.1)}100%{transform:scale(1);opacity:1}}'+
+'.name-wrap::before,.name-wrap::after{content:"";position:absolute;left:50%;transform:translateX(-50%);width:60%;height:3px;background:linear-gradient(90deg,transparent,#92400e,transparent)}'+
+'.name-wrap::before{top:0}.name-wrap::after{bottom:0}'+
+'.winner-name{font-family:"Playfair Display",serif;font-size:clamp(28px,4.5vw,46px);font-weight:900;color:#7c2d12;text-shadow:0 2px 0 rgba(146,64,14,.3);position:relative;display:inline-block}'+
+'.sparkle{position:absolute;width:8px;height:8px;background:#fbbf24;border-radius:50%;box-shadow:0 0 12px #fbbf24,0 0 24px #f59e0b;animation:sparkle-orbit 4s linear infinite}'+
+'@keyframes sparkle-orbit{from{transform:rotate(0deg) translateX(180px) rotate(0deg)}to{transform:rotate(360deg) translateX(180px) rotate(-360deg)}}'+
+'.score-block{display:flex;gap:18px;align-items:stretch;animation:fade-in 1s 1.4s both}'+
+'.score-box{background:linear-gradient(135deg,#7c2d12,#9a3412);color:#fef3c7;padding:10px 18px;border-radius:10px;text-align:center;min-width:90px}'+
+'.score-val{font-family:Outfit,sans-serif;font-size:clamp(20px,2.6vw,28px);font-weight:900;color:#fbbf24}'+
+'.score-lbl{font-family:"Noto Sans Tamil",sans-serif;font-size:11px;margin-top:2px;letter-spacing:.05em}'+
+'.rank-badge{position:absolute;top:-20px;right:30px;background:linear-gradient(135deg,#7c2d12,#451a03);color:#fbbf24;padding:8px 16px;border-radius:8px;font-family:"Playfair Display",serif;font-weight:900;font-size:clamp(14px,2vw,18px);box-shadow:0 6px 18px rgba(0,0,0,.4);animation:rank-spin 1s .5s both}'+
+'@keyframes rank-spin{0%{transform:scale(0) rotate(-180deg)}100%{transform:scale(1) rotate(0)}}'+
+'.footer{display:flex;justify-content:space-between;width:100%;align-items:flex-end;font-size:clamp(10px,1.3vw,13px);animation:fade-in 1s 1.7s both}'+
+'.date-pill{background:#7c2d12;color:#fef3c7;padding:5px 14px;border-radius:20px;font-weight:700}'+
+'.signature{font-family:"Playfair Display",serif;font-style:italic;color:#7c2d12;text-align:right}'+
+'.signature small{display:block;font-style:normal;font-size:10px;color:#92400e;letter-spacing:.1em;text-transform:uppercase;margin-top:2px}'+
+'</style></head><body>'+
+'<div class="particle" style="width:200px;height:200px;top:10%;left:5%;animation-delay:0s"></div>'+
+'<div class="particle" style="width:150px;height:150px;top:60%;left:80%;animation-delay:2s"></div>'+
+'<div class="particle" style="width:120px;height:120px;top:30%;left:70%;animation-delay:4s"></div>'+
+'<div class="particle" style="width:180px;height:180px;top:70%;left:10%;animation-delay:1s"></div>'+
+confetti+
+'<div class="cert">'+
+'<div class="corner tl"></div><div class="corner tr"></div><div class="corner bl"></div><div class="corner br"></div>'+
+'<div class="rank-badge">RANK #'+rank+'</div>'+
+'<div class="brand"><div class="brand-tamil">தமிழ் நண்பன்</div>'+
+'<div class="brand-en">Test Batch Series</div>'+
+'<div class="paper">'+paperTitle+'</div></div>'+
+'<div class="trophy">🏆</div>'+
+'<div class="congrats">Heartfelt Congratulations</div>'+
+'<div class="tamil-congrats">மனமார்ந்த வாழ்த்துக்கள்!</div>'+
+'<div class="name-wrap"><span class="winner-name">'+safeName+'</span>'+
+'<span class="sparkle" style="animation-delay:0s;top:50%;left:50%;margin-top:-4px;margin-left:-4px"></span>'+
+'<span class="sparkle" style="animation-delay:-1s;top:50%;left:50%;margin-top:-4px;margin-left:-4px"></span>'+
+'<span class="sparkle" style="animation-delay:-2s;top:50%;left:50%;margin-top:-4px;margin-left:-4px"></span>'+
+'<span class="sparkle" style="animation-delay:-3s;top:50%;left:50%;margin-top:-4px;margin-left:-4px"></span></div>'+
+'<div class="score-block">'+
+'<div class="score-box"><div class="score-val">'+score+'</div><div class="score-lbl">மதிப்பெண்</div></div>'+
+'<div class="score-box"><div class="score-val">'+pct+'%</div><div class="score-lbl">சதவீதம்</div></div>'+
+'<div class="score-box"><div class="score-val">#'+rank+'</div><div class="score-lbl">இடம்</div></div>'+
+'</div>'+
+'<div class="footer"><div class="date-pill">'+dateStr+'</div>'+
+'<div class="signature">தமிழ் நண்பன்<small>Test Batch Series</small></div></div>'+
+'</div></body></html>';
+}
 
-    document.getElementById('loadingEl').style.display = 'none';
 
-    if (filtered.length === 0) {
-      document.getElementById('userTable').style.display = 'none';
-      document.getElementById('emptyEl').style.display = 'block';
-      return;
-    }
+// ═══════════════════════════════════════════════════════════
+// 🏆 SINGLE ANIMATED CERTIFICATE FILE — Top 1 or Top 10
+// One self-contained HTML file with auto-rotating cards.
+// Open in browser → smooth animation.
+// Shareable via Google Drive / WhatsApp link / direct file.
+// ═══════════════════════════════════════════════════════════
+function downloadCertificate(mode) {
+    if (!currentResults.length) { alert('முதலில் முடிவுகளை load பண்ணுங்கள்'); return; }
+    const count = mode === 'top1' ? 1 : 10;
+    const winners = currentResults.slice(0, count);
+    if (winners.length === 0) { alert('வெற்றியாளர்கள் இல்லை'); return; }
 
-    document.getElementById('emptyEl').style.display = 'none';
-    document.getElementById('userTable').style.display = 'table';
+    const paperTitle = currentPaper === 'paper1'
+        ? 'ஆசிரியர் தகுதித் தேர்வு - தாள் 2 - கணிதம் + அறிவியல்'
+        : 'ஆசிரியர் தகுதித் தேர்வு - தாள் 2 - சமூக அறிவியல்';
+    const dateStr = new Date().toLocaleDateString('en-IN', { day: '2-digit', month: 'long', year: 'numeric' });
+    const examDateStr = currentDate;
 
-    const tbody = document.getElementById('tableBody');
-    tbody.innerHTML = '';
+    const html = buildAnimatedCertificateFile(winners, paperTitle, dateStr, examDateStr, mode);
+    const blob = new Blob([html], { type: 'text/html;charset=utf-8' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    const fname = mode === 'top1'
+        ? `TamilNanban_Top1_${currentPaper}_${currentDate}.html`
+        : `TamilNanban_Top10_${currentPaper}_${currentDate}.html`;
+    a.href = url;
+    a.download = fname;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+    showMsg('✅ ' + (mode === 'top1' ? 'Top 1' : 'Top 10') + ' animated certificate download ஆனது!', 'success');
+}
 
-    filtered.forEach((u, i) => {
-      const isBlocked = u.blocked === true;
-      const project = u.project || '—';
-      const isPaper1 = project.startsWith('p1');
-      const browser = u.browser || 'Unknown';
-      const isMobile = browser === 'Mobile';
+function esc(s) {
+    return (s || '').toString().replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+}
 
-      const lastLogin = u.lastLogin ? formatDate(u.lastLogin) : '—';
-      const registeredAt = u.registeredAt ? formatDate(u.registeredAt) : '—';
-      const deviceShort = (u.deviceId || '—').substring(0, 20) + '...';
+function buildAnimatedCertificateFile(winners, paperTitle, dateStr, examDateStr, mode) {
+    // Build slide cards
+    const cards = winners.map((w, i) => {
+        const rank = i + 1;
+        const medal = rank === 1 ? '🥇' : rank === 2 ? '🥈' : rank === 3 ? '🥉' : '🏆';
+        const rankColor = rank === 1 ? '#fbbf24' : rank === 2 ? '#cbd5e1' : rank === 3 ? '#fb923c' : '#fde68a';
+        return `
+        <div class="slide" data-rank="${rank}">
+            <div class="cert">
+                <div class="corner tl"></div><div class="corner tr"></div>
+                <div class="corner bl"></div><div class="corner br"></div>
+                <div class="rank-badge" style="background:linear-gradient(135deg,#7c2d12,#451a03);color:${rankColor}">RANK #${rank}</div>
+                <div class="brand">
+                    <div class="brand-tamil">தமிழ் நண்பன்</div>
+                    <div class="brand-en">Test Batch Series</div>
+                    <div class="paper">${esc(paperTitle)}</div>
+                    <div class="exam-date">தேர்வு தேதி: ${esc(examDateStr)}</div>
+                </div>
+                <div class="trophy">${medal}</div>
+                <div class="congrats">Heartfelt Congratulations</div>
+                <div class="tamil-congrats">மனமார்ந்த வாழ்த்துக்கள்!</div>
+                <div class="name-wrap">
+                    <span class="winner-name">${esc(w.name || 'மாணவர்')}</span>
+                    <span class="sparkle s1"></span>
+                    <span class="sparkle s2"></span>
+                    <span class="sparkle s3"></span>
+                    <span class="sparkle s4"></span>
+                    <span class="sparkle s5"></span>
+                    <span class="sparkle s6"></span>
+                </div>
+                <div class="score-block">
+                    <div class="score-box">
+                        <div class="score-val">${w.score}/${w.total}</div>
+                        <div class="score-lbl">மதிப்பெண்</div>
+                    </div>
+                    <div class="score-box">
+                        <div class="score-val">${w.percentage.toFixed(1)}%</div>
+                        <div class="score-lbl">சதவீதம்</div>
+                    </div>
+                    <div class="score-box">
+                        <div class="score-val">#${rank}</div>
+                        <div class="score-lbl">இடம்</div>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="date-pill">${esc(dateStr)}</div>
+                    <div class="signature">தமிழ் நண்பன்<small>Test Batch Series</small></div>
+                </div>
+            </div>
+        </div>`;
+    }).join('');
 
-      const tr = document.createElement('tr');
-      tr.innerHTML = `
-        <td style="color:var(--muted)">${i + 1}</td>
-        <td style="font-size:1.05rem;font-weight:700;letter-spacing:1px">${u.phone || '—'}</td>
-        <td>
-          <span class="badge ${isPaper1 ? 'badge-p1' : 'badge-p2'}">
-            ${isPaper1 ? 'PAPER 1' : 'PAPER 2'}
-          </span>
-        </td>
-        <td>
-          <span class="badge ${isMobile ? 'badge-mobile' : 'badge-desktop'}">
-            ${isMobile ? '📱 Mobile' : '🖥️ Desktop'}
-          </span>
-        </td>
-        <td style="font-size:0.8rem;color:var(--muted);font-family:monospace" title="${u.deviceId || ''}">${deviceShort}</td>
-        <td style="font-size:0.85rem">${lastLogin}</td>
-        <td style="font-size:0.85rem">${registeredAt}</td>
-        <td>
-          <span class="badge ${isBlocked ? 'badge-blocked' : 'badge-active'}">
-            ${isBlocked ? '🔴 Blocked' : '🟢 Active'}
-          </span>
-        </td>
-        <td>
-          <button class="action-btn ${isBlocked ? 'btn-unblock' : 'btn-block'}"
-            onclick="toggleBlock('${u.id}', ${isBlocked})">
-            ${isBlocked ? 'Unblock' : 'Block'}
-          </button>
-        </td>
-      `;
-      tbody.appendChild(tr);
+    const showControls = winners.length > 1;
+    const title = mode === 'top1' ? 'Top 1 Winner' : 'Top ' + winners.length + ' Winners';
+
+    return `<!DOCTYPE html>
+<html lang="ta">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>${title} - தமிழ் நண்பன் - ${esc(examDateStr)}</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Noto+Sans+Tamil:wght@600;700;800;900&family=Outfit:wght@600;700;800;900&display=swap" rel="stylesheet">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { width: 100%; height: 100%; overflow: hidden; }
+body {
+    background: radial-gradient(ellipse at center, #1e3a8a 0%, #0c1e4f 60%, #020617 100%);
+    font-family: 'Outfit', 'Noto Sans Tamil', sans-serif;
+    color: #fff; position: relative;
+    display: flex; align-items: center; justify-content: center;
+}
+
+/* Floating particles */
+.particle { position: absolute; border-radius: 50%; background: radial-gradient(circle, #fbbf24, transparent 70%); pointer-events: none; opacity: .7; animation: float 6s ease-in-out infinite; }
+@keyframes float { 0%, 100% { transform: translateY(0) scale(1); opacity: .7; } 50% { transform: translateY(-30px) scale(1.2); opacity: .3; } }
+
+/* Confetti */
+.confetti { position: absolute; width: 10px; height: 14px; animation: confetti-fall 4s linear infinite; top: -20px; pointer-events: none; }
+@keyframes confetti-fall { 0% { transform: translateY(-20px) rotate(0deg); opacity: 1; } 100% { transform: translateY(110vh) rotate(720deg); opacity: 0; } }
+
+/* Slides container */
+.slides { position: relative; width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; }
+.slide { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; opacity: 0; visibility: hidden; transition: opacity .8s ease; padding: 20px; }
+.slide.active { opacity: 1; visibility: visible; z-index: 2; }
+
+/* Certificate card */
+.cert {
+    position: relative; width: min(92vw, 820px); aspect-ratio: 1.4/1;
+    background: linear-gradient(135deg, #fef3c7, #fde68a 50%, #fcd34d);
+    border-radius: 20px; padding: 32px;
+    box-shadow: 0 30px 80px rgba(0, 0, 0, .6), inset 0 0 0 4px #92400e, inset 0 0 0 10px #fbbf24, inset 0 0 0 14px #92400e;
+    color: #451a03;
+    display: flex; flex-direction: column; align-items: center; justify-content: space-between;
+    text-align: center;
+}
+.slide.active .cert { animation: cert-in 1s cubic-bezier(.34, 1.56, .64, 1) both; }
+@keyframes cert-in { 0% { transform: scale(.5) rotate(-8deg); opacity: 0; } 100% { transform: scale(1) rotate(0); opacity: 1; } }
+
+.corner { position: absolute; width: 50px; height: 50px; border: 3px solid #92400e; }
+.corner.tl { top: 14px; left: 14px; border-right: none; border-bottom: none; border-top-left-radius: 12px; }
+.corner.tr { top: 14px; right: 14px; border-left: none; border-bottom: none; border-top-right-radius: 12px; }
+.corner.bl { bottom: 14px; left: 14px; border-right: none; border-top: none; border-bottom-left-radius: 12px; }
+.corner.br { bottom: 14px; right: 14px; border-left: none; border-top: none; border-bottom-right-radius: 12px; }
+
+.rank-badge {
+    position: absolute; top: -18px; right: 28px;
+    padding: 8px 16px; border-radius: 8px;
+    font-family: 'Playfair Display', serif; font-weight: 900;
+    font-size: clamp(13px, 1.9vw, 17px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, .4);
+}
+.slide.active .rank-badge { animation: rank-spin 1s .5s both; }
+@keyframes rank-spin { 0% { transform: scale(0) rotate(-180deg); } 100% { transform: scale(1) rotate(0); } }
+
+.brand { display: flex; flex-direction: column; align-items: center; gap: 1px; }
+.slide.active .brand { animation: slide-down .8s .3s both; }
+@keyframes slide-down { from { transform: translateY(-30px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+.brand-tamil { font-family: 'Noto Sans Tamil', sans-serif; font-size: clamp(20px, 3vw, 30px); font-weight: 900; color: #7c2d12; }
+.brand-en { font-family: 'Outfit', sans-serif; font-size: clamp(11px, 1.5vw, 15px); font-weight: 700; color: #9a3412; letter-spacing: .35em; text-transform: uppercase; }
+.paper { font-family: 'Noto Sans Tamil', sans-serif; font-size: clamp(11px, 1.5vw, 14px); color: #78350f; margin-top: 5px; font-weight: 600; }
+.exam-date { font-family: 'Outfit', sans-serif; font-size: clamp(10px, 1.3vw, 12px); color: #92400e; margin-top: 2px; font-weight: 600; }
+
+.trophy { font-size: clamp(50px, 7vw, 70px); filter: drop-shadow(0 0 18px rgba(251, 191, 36, .8)); }
+.slide.active .trophy { animation: trophy-shine 2s ease-in-out infinite; }
+@keyframes trophy-shine {
+    0%, 100% { transform: scale(1) rotate(-2deg); filter: drop-shadow(0 0 18px rgba(251, 191, 36, .8)); }
+    50% { transform: scale(1.08) rotate(3deg); filter: drop-shadow(0 0 28px rgba(251, 191, 36, 1)); }
+}
+
+.congrats { font-family: 'Playfair Display', serif; font-style: italic; font-size: clamp(18px, 2.4vw, 26px); color: #7c2d12; font-weight: 700; }
+.slide.active .congrats { animation: fade-in 1s .6s both; }
+@keyframes fade-in { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+.tamil-congrats { font-family: 'Noto Sans Tamil', sans-serif; font-size: clamp(16px, 2.2vw, 22px); color: #92400e; font-weight: 700; }
+.slide.active .tamil-congrats { animation: fade-in 1s .9s both; }
+
+.name-wrap { position: relative; padding: 12px 28px; margin: 6px 0; }
+.slide.active .name-wrap { animation: name-pop 1.2s 1s both; }
+@keyframes name-pop { 0% { transform: scale(.3); opacity: 0; } 60% { transform: scale(1.1); } 100% { transform: scale(1); opacity: 1; } }
+.name-wrap::before, .name-wrap::after {
+    content: ''; position: absolute; left: 50%; transform: translateX(-50%);
+    width: 70%; height: 3px;
+    background: linear-gradient(90deg, transparent, #92400e, transparent);
+}
+.name-wrap::before { top: 0; }
+.name-wrap::after { bottom: 0; }
+.winner-name {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(26px, 4.2vw, 42px);
+    font-weight: 900; color: #7c2d12;
+    text-shadow: 0 2px 0 rgba(146, 64, 14, .3);
+    position: relative; display: inline-block;
+}
+
+/* Sparkles orbiting the name */
+.sparkle {
+    position: absolute; width: 8px; height: 8px;
+    background: #fbbf24; border-radius: 50%;
+    box-shadow: 0 0 12px #fbbf24, 0 0 24px #f59e0b;
+    top: 50%; left: 50%; margin-top: -4px; margin-left: -4px;
+}
+.slide.active .sparkle { animation: sparkle-orbit 5s linear infinite; }
+.s1 { animation-delay: 0s !important; }
+.s2 { animation-delay: -0.83s !important; }
+.s3 { animation-delay: -1.66s !important; }
+.s4 { animation-delay: -2.5s !important; }
+.s5 { animation-delay: -3.33s !important; }
+.s6 { animation-delay: -4.16s !important; }
+@keyframes sparkle-orbit {
+    from { transform: rotate(0deg) translateX(170px) rotate(0deg); }
+    to { transform: rotate(360deg) translateX(170px) rotate(-360deg); }
+}
+
+.score-block { display: flex; gap: 16px; align-items: stretch; }
+.slide.active .score-block { animation: fade-in 1s 1.4s both; }
+.score-box {
+    background: linear-gradient(135deg, #7c2d12, #9a3412);
+    color: #fef3c7; padding: 9px 16px; border-radius: 10px;
+    text-align: center; min-width: 84px;
+}
+.score-val { font-family: 'Outfit', sans-serif; font-size: clamp(18px, 2.4vw, 26px); font-weight: 900; color: #fbbf24; }
+.score-lbl { font-family: 'Noto Sans Tamil', sans-serif; font-size: 11px; margin-top: 2px; letter-spacing: .05em; }
+
+.footer { display: flex; justify-content: space-between; width: 100%; align-items: flex-end; }
+.slide.active .footer { animation: fade-in 1s 1.7s both; }
+.date-pill {
+    background: #7c2d12; color: #fef3c7; padding: 5px 14px;
+    border-radius: 20px; font-weight: 700;
+    font-size: clamp(10px, 1.3vw, 13px);
+}
+.signature {
+    font-family: 'Playfair Display', serif; font-style: italic;
+    color: #7c2d12; text-align: right;
+    font-size: clamp(11px, 1.4vw, 14px);
+}
+.signature small {
+    display: block; font-style: normal;
+    font-size: 9px; color: #92400e;
+    letter-spacing: .1em; text-transform: uppercase; margin-top: 2px;
+}
+
+/* Controls */
+.controls {
+    position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%);
+    display: ${showControls ? 'flex' : 'none'}; gap: 12px;
+    background: rgba(0, 0, 0, .6); backdrop-filter: blur(10px);
+    padding: 8px 16px; border-radius: 50px; z-index: 100;
+    align-items: center;
+}
+.ctrl-btn {
+    background: #fbbf24; color: #451a03; border: none;
+    width: 38px; height: 38px; border-radius: 50%;
+    font-size: 16px; font-weight: 900; cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
+}
+.ctrl-btn:hover { background: #f59e0b; }
+.slide-indicator { color: #fbbf24; font-family: 'Outfit', sans-serif; font-weight: 700; min-width: 60px; text-align: center; font-size: 14px; }
+.auto-btn { background: transparent; color: #fbbf24; border: 1px solid #fbbf24; padding: 6px 14px; border-radius: 20px; cursor: pointer; font-family: inherit; font-size: 12px; font-weight: 700; }
+.auto-btn.active { background: #fbbf24; color: #451a03; }
+</style>
+</head>
+<body>
+
+<!-- Background particles -->
+<div class="particle" style="width:200px;height:200px;top:10%;left:5%;animation-delay:0s"></div>
+<div class="particle" style="width:150px;height:150px;top:60%;left:80%;animation-delay:2s"></div>
+<div class="particle" style="width:120px;height:120px;top:30%;left:70%;animation-delay:4s"></div>
+<div class="particle" style="width:180px;height:180px;top:70%;left:10%;animation-delay:1s"></div>
+
+<!-- Confetti -->
+${Array.from({ length: 40 }, (_, i) => {
+    const colors = ['#fbbf24', '#f59e0b', '#ef4444', '#10b981', '#3b82f6', '#a855f7', '#ec4899'];
+    const c = colors[i % colors.length];
+    const left = (Math.random() * 100).toFixed(1);
+    const delay = (Math.random() * 4).toFixed(2);
+    const dur = (3 + Math.random() * 2).toFixed(2);
+    return '<div class="confetti" style="left:' + left + '%;background:' + c + ';animation-delay:' + delay + 's;animation-duration:' + dur + 's"></div>';
+}).join('')}
+
+<div class="slides" id="slides">${cards}</div>
+
+<div class="controls" id="controls">
+    <button class="ctrl-btn" onclick="prevSlide()" title="Previous">‹</button>
+    <div class="slide-indicator" id="indicator">1 / ${winners.length}</div>
+    <button class="ctrl-btn" onclick="nextSlide()" title="Next">›</button>
+    <button class="auto-btn active" id="autoBtn" onclick="toggleAuto()">⏯ Auto</button>
+</div>
+
+<script>
+const total = ${winners.length};
+let cur = 0;
+let autoOn = true;
+let autoTimer = null;
+
+function show(i) {
+    cur = (i + total) % total;
+    document.querySelectorAll('.slide').forEach((s, idx) => {
+        s.classList.toggle('active', idx === cur);
     });
-  };
+    document.getElementById('indicator').textContent = (cur + 1) + ' / ' + total;
+}
+function nextSlide() { show(cur + 1); resetAuto(); }
+function prevSlide() { show(cur - 1); resetAuto(); }
+function toggleAuto() {
+    autoOn = !autoOn;
+    document.getElementById('autoBtn').classList.toggle('active', autoOn);
+    if (autoOn) startAuto(); else stopAuto();
+}
+function startAuto() {
+    stopAuto();
+    if (total > 1) autoTimer = setInterval(() => show(cur + 1), 6000);
+}
+function stopAuto() { if (autoTimer) { clearInterval(autoTimer); autoTimer = null; } }
+function resetAuto() { if (autoOn) startAuto(); }
 
-  // ── Block / Unblock ──
-  window.toggleBlock = async function(docId, isCurrentlyBlocked) {
-    const action = isCurrentlyBlocked ? 'Unblock' : 'Block';
-    const phone = allUsers.find(u => u.id === docId)?.phone || docId;
-    if (!confirm(`${phone} - இந்த student-ஐ ${action} செய்யவா?`)) return;
+// Init
+show(0);
+if (total > 1) startAuto();
 
-    try {
-      await updateDoc(doc(db, 'device_sessions', docId), {
-        blocked: !isCurrentlyBlocked
-      });
-      // Update local
-      const idx = allUsers.findIndex(u => u.id === docId);
-      if (idx !== -1) allUsers[idx].blocked = !isCurrentlyBlocked;
+// Keyboard
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'ArrowLeft') prevSlide();
+    if (e.key === 'ArrowRight') nextSlide();
+    if (e.key === ' ') { e.preventDefault(); toggleAuto(); }
+});
+<\/script>
+</body>
+</html>`;
+}
 
-      // Update stats
-      const blocked = allUsers.filter(u => u.blocked === true);
-      document.getElementById('statBlocked').textContent = blocked.length;
-
-      renderTable();
-    } catch (e) {
-      alert('Error: ' + e.message);
-    }
-  };
-
-  // ── Format Date ──
-  function formatDate(dateStr) {
-    try {
-      const d = new Date(dateStr);
-      return d.toLocaleString('ta-IN', {
-        day: '2-digit', month: '2-digit', year: 'numeric',
-        hour: '2-digit', minute: '2-digit'
-      });
-    } catch { return dateStr; }
-  }
 </script>
 </body>
 </html>

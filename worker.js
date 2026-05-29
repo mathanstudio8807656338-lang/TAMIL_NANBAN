@@ -137,19 +137,27 @@ export default {
   },
 
   // ═══════════════════════════════════════════════════════
-  // ⏰ Scheduled Handler — runs at 10:15 PM IST daily
-  //    Cron: "45 16 * * *" (16:45 UTC = 22:15 IST)
+  // ⏰ Scheduled Handler — runs twice daily (IST):
+  //    Cron "45 16 * * *" = 10:15 PM IST (primary, right after exam)
+  //    Cron "30 0 * * *"  = 6:00 AM IST  (backup, catches late writes)
+  // To be safe, every run regenerates BOTH today's and yesterday's results.
+  // This guarantees late-arriving submissions are never permanently missed.
   // ═══════════════════════════════════════════════════════
   async scheduled(event, env, ctx) {
-    const istDate = new Date(event.scheduledTime);
-    // Convert to IST date string
-    const istString = istDate.toLocaleDateString('en-CA', { timeZone: 'Asia/Kolkata' });
-    console.log(`⏰ Scheduled run for IST date: ${istString}`);
-    try {
-      const result = await generateAndStore(istString, env);
-      console.log('✅ Scheduled generation success:', result);
-    } catch (err) {
-      console.error('❌ Scheduled generation failed:', err.message);
+    const istNow = new Date(new Date(event.scheduledTime).toLocaleString('en-US', { timeZone: 'Asia/Kolkata' }));
+    const todayStr = istNow.toLocaleDateString('en-CA', { timeZone: 'Asia/Kolkata' });
+    // Yesterday in IST
+    const y = new Date(istNow);
+    y.setDate(y.getDate() - 1);
+    const yStr = y.toLocaleDateString('en-CA');
+    console.log(`⏰ Scheduled run. Regenerating IST dates: ${todayStr} and ${yStr}`);
+    for (const d of [todayStr, yStr]) {
+      try {
+        const result = await generateAndStore(d, env);
+        console.log(`✅ Generated ${d}:`, result);
+      } catch (err) {
+        console.error(`❌ Generation failed for ${d}:`, err.message);
+      }
     }
   }
 };
@@ -173,8 +181,9 @@ async function generateAndStore(examDate, env) {
     var allData = await response.json() || {};
   }
   
-  const byPaper = { paper1: [], paper2: [] };
-  let total = 0, testSkipped = 0, dateSkipped = 0;
+  // FIX: Map-based deduplication - same phone, best score only
+  const byPaperMap = { paper1: new Map(), paper2: new Map() };
+  let total = 0, testSkipped = 0, dateSkipped = 0, dupSkipped = 0;
   
   for (const id in allData) {
     const r = allData[id];
@@ -185,13 +194,16 @@ async function generateAndStore(examDate, env) {
     if (!r.examFile) continue;
     
     const key = r.examFile.replace('.json', '');
-    if (!byPaper[key]) continue;
-    
-    byPaper[key].push({
-      phone: r.phoneNumber,
-      name: r.studentName || 'மாணவர்',
-      category: r.category || 'OC',
-      score: r.score,
+    if (!byPaperMap[key]) continue;
+
+    const phone = r.phoneNumber;
+    if (!phone) continue;
+
+    const entry = {
+      phone,
+      name: r.studentName || "Student",
+      category: r.category || "OC",
+      score: r.score || 0,
       total: r.totalQuestions,
       correct: r.correctAnswers,
       wrong: r.wrongAnswers,
@@ -200,8 +212,24 @@ async function generateAndStore(examDate, env) {
       timeTaken: r.timeTaken || 0,
       completedAt: r.completedAt,
       ...getPassStatus(r.category, r.percentage || 0)
-    });
+    };
+
+    const existing = byPaperMap[key].get(phone);
+    if (existing) {
+      dupSkipped++;
+      if (entry.score > existing.score ||
+          (entry.score === existing.score && entry.timeTaken < existing.timeTaken)) {
+        byPaperMap[key].set(phone, entry);
+      }
+    } else {
+      byPaperMap[key].set(phone, entry);
+    }
   }
+
+  const byPaper = {
+    paper1: Array.from(byPaperMap.paper1.values()),
+    paper2: Array.from(byPaperMap.paper2.values())
+  };
   
   // Sort & assign rank
   const summary = {};
@@ -239,6 +267,7 @@ async function generateAndStore(examDate, env) {
     totalRecordsScanned: total,
     testModeSkipped: testSkipped,
     otherDatesSkipped: dateSkipped,
+    duplicatesMerged: dupSkipped,
     paper1Count: summary.paper1,
     paper2Count: summary.paper2
   };
