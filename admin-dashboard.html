@@ -131,10 +131,10 @@ a{color:#fbbf24}
     <h2>🏆 முழு பட்டியல் <span style="color:#94a3b8;font-size:.78rem;font-weight:400" id="leaderCount"></span></h2>
     <div class="btn-row" style="margin-bottom:10px">
         <button class="btn btn-success" onclick="downloadFullPDF()">📄 முழு PDF (இனம் இல்லை)</button>
-        <button class="btn btn-pink" onclick="downloadCertificateGIF('top1')">🥇 Top 1 — Animated GIF</button>
+        <button class="btn btn-pink" onclick="downloadCertificateGIF('top1')">🥇 இன்றைய வெற்றியாளர் (Animated)</button>
         <button class="btn btn-pink" onclick="downloadTop10PDF()">🏆 Top 10 — PDF List</button>
     </div>
-    <p style="color:#94a3b8;font-size:.78rem;margin-top:-4px;margin-bottom:8px">💡 Top 1 GIF generate ஆக ~30 விநாடிகள் எடுக்கலாம். Browser tab open வைக்கவும்.</p>
+    <p style="color:#94a3b8;font-size:.78rem;margin-top:-4px;margin-bottom:8px">💡 Animated certificate HTML file-ஆக download ஆகும். Phone-ல் tap செய்தால் browser-ல் animation திறக்கும்.</p>
     <div class="progress" id="zipProgress"><div class="progress-bar" id="zipBar"></div></div>
     <div class="table-wrap">
         <table>
@@ -609,13 +609,10 @@ async function downloadFullPDF(){
                 W/2,doc.internal.pageSize.height-6,{align:'center'});
         }
     });
-    // 📝 Tamil filename — DD-MM-YYYY format
+    // 📝 Mobile-safe ASCII filename (Tamil filenames cause "unusual format" warnings on Android)
     const [yy, mm, dd] = currentDate.split('-');
-    const tamilFileDate = dd + '-' + mm + '-' + yy;
-    const tamilPaperName = currentPaper === 'paper1'
-        ? 'கணிதம் மற்றும் அறிவியல்'
-        : 'சமூக அறிவியல்';
-    const tamilFileName = 'தமிழ் நண்பன் - ' + tamilPaperName + ' - ' + tamilFileDate + '.pdf';
+    const paperShort = currentPaper === 'paper1' ? 'Math_Science' : 'Social_Science';
+    const tamilFileName = 'TamilNanban_FullResults_' + paperShort + '_' + dd + mm + yy + '.pdf';
     doc.save(tamilFileName);
 }
 
@@ -1142,7 +1139,7 @@ async function generateGIF(winner, rank, paperTitle, dateStr, examDateStr, onPro
 
 async function downloadCertificateGIF(mode) {
     if (!currentResults.length) { alert('முதலில் முடிவுகளை load பண்ணுங்கள்'); return; }
-    if (mode !== 'top1') { alert('Top 1 மட்டுமே GIF — Top 10 PDF button பயன்படுத்தவும்'); return; }
+    if (mode !== 'top1') { alert('Top 1 மட்டுமே — Top 10 PDF button பயன்படுத்தவும்'); return; }
     const winner = currentResults[0];
     if (!winner) { alert('வெற்றியாளர் இல்லை'); return; }
 
@@ -1151,32 +1148,147 @@ async function downloadCertificateGIF(mode) {
         : 'சமூக அறிவியல்';
     const dateStr = new Date().toLocaleDateString('en-IN', { day: '2-digit', month: 'long', year: 'numeric' });
 
-    const progressEl = document.getElementById('zipProgress');
-    const barEl = document.getElementById('zipBar');
-    progressEl.classList.add('active');
-    barEl.style.width = '0%';
-    showMsg('⏳ GIF generate ஆகின்றது... browser tab open வைக்கவும்', 'info');
-
     try {
-        const gifBlob = await generateGIF(winner, 1, paperTitle, dateStr, currentDate, p => {
-            barEl.style.width = (p * 100).toFixed(1) + '%';
-        });
-        const safeName = (winner.name || 'Student').replace(/[^a-zA-Z0-9_\u0B80-\u0BFF]/g, '_').slice(0, 40);
+        // 🎬 Build self-contained HTML certificate (animation runs in browser)
+        const html = buildAnimatedCertificateHTML(winner, paperTitle, dateStr, currentDate);
+        const blob = new Blob([html], { type: 'text/html;charset=utf-8' });
+
+        // 📝 Tamil filename — HTML files don't trigger "unusual format" warnings
         const [yy, mm, dd] = currentDate.split('-');
-        const fname = 'தமிழ் நண்பன் - வெற்றியாளர் - ' + safeName + ' - ' + dd + '-' + mm + '-' + yy + '.gif';
-        const url = URL.createObjectURL(gifBlob);
+        const tamilDate = dd + '-' + mm + '-' + yy;
+        const fname = 'இன்றைய வெற்றியாளர் - ' + paperTitle + ' - ' + tamilDate + '.html';
+
+        const url = URL.createObjectURL(blob);
         const a = document.createElement('a');
-        a.href = url; a.download = fname;
+        a.href = url;
+        a.download = fname;
         document.body.appendChild(a); a.click(); document.body.removeChild(a);
-        URL.revokeObjectURL(url);
-        progressEl.classList.remove('active');
-        showMsg('✅ Top 1 animated GIF download ஆனது! (' + Math.round(gifBlob.size/1024) + ' KB)', 'success');
+        setTimeout(() => URL.revokeObjectURL(url), 1000);
+
+        showMsg('✅ வெற்றியாளர் certificate download ஆனது: ' + fname, 'success');
     } catch (err) {
-        progressEl.classList.remove('active');
         console.error(err);
-        showMsg('❌ GIF generation failed: ' + err.message, 'error');
+        showMsg('❌ Certificate generation failed: ' + err.message, 'error');
     }
 }
+
+// ═══════════════════════════════════════════════════════════
+// 🎨 Build self-contained animated HTML certificate
+// White bg, multi-color sections, crown, typewriter name, sparkles
+// ═══════════════════════════════════════════════════════════
+function buildAnimatedCertificateHTML(winner, paperTitle, dateStr, examDateStr) {
+    const safeName = (winner.name || 'மாணவர்').replace(/[<>&"]/g, c => ({'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;'}[c]));
+    const score = winner.score + ' / ' + winner.total;
+    const pct = winner.percentage.toFixed(1) + '%';
+    const total = winner.total;
+
+    return '<!DOCTYPE html>\n<html lang="ta"><head><meta charset="UTF-8">' +
+'<meta name="viewport" content="width=device-width,initial-scale=1">' +
+'<title>இன்றைய வெற்றியாளர் - ' + safeName + '</title>' +
+'<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Tamil:wght@400;600;700;800;900&family=Playfair+Display:ital,wght@0,700;0,900;1,700;1,900&family=Outfit:wght@600;700;800;900&display=swap" rel="stylesheet">' +
+'<style>' +
+'*{margin:0;padding:0;box-sizing:border-box}' +
+'html,body{width:100%;min-height:100vh;background:#FFFFFF;font-family:Outfit,"Noto Sans Tamil",sans-serif;overflow-x:hidden}' +
+'body{display:flex;align-items:center;justify-content:center;padding:16px}' +
+'.card{position:relative;width:100%;max-width:820px;aspect-ratio:4/3;background:#FFFFFF;border:1px solid #E5E7EB;border-radius:14px;box-shadow:0 20px 60px rgba(0,0,0,0.08);padding:32px 36px;display:flex;flex-direction:column;align-items:center;text-align:center;overflow:hidden}' +
+'@media(max-width:600px){.card{aspect-ratio:auto;padding:24px 20px}}' +
+'.top-accent{position:absolute;top:0;left:0;right:0;height:4px;background:linear-gradient(90deg,#D97706 0%,#7C3AED 50%,#1E3A8A 100%)}' +
+'.brand-tamil{font-family:"Noto Sans Tamil",sans-serif;font-weight:900;font-size:clamp(28px,4.5vw,42px);color:#D97706;letter-spacing:0.02em;margin-top:18px;animation:fadeDown 0.8s ease-out}' +
+'.brand-en{font-family:"Arial Black",Arial,sans-serif;font-weight:900;font-size:clamp(11px,1.6vw,14px);color:#1E3A8A;letter-spacing:6px;margin-top:6px;animation:fadeDown 0.8s 0.2s both}' +
+'.divider{width:160px;height:1px;background:#E5E7EB;margin:14px auto;animation:expand 0.6s 0.4s both}' +
+'@keyframes expand{from{width:0}to{width:160px}}' +
+'.paper{font-family:"Noto Sans Tamil",sans-serif;font-weight:600;font-size:clamp(14px,2vw,18px);color:#7C3AED;animation:fadeDown 0.8s 0.5s both}' +
+'.exam-date{font-family:Outfit,sans-serif;font-weight:500;font-size:clamp(11px,1.4vw,13px);color:#64748B;margin-top:4px;animation:fadeDown 0.8s 0.6s both}' +
+'.crown-wrap{margin:18px 0 8px;position:relative;animation:fadeIn 1s 0.7s both}' +
+'.crown{font-size:clamp(48px,7vw,68px);display:inline-block;animation:bob 2s ease-in-out infinite;filter:drop-shadow(0 4px 12px rgba(245,158,11,0.5))}' +
+'@keyframes bob{0%,100%{transform:translateY(0) rotate(-3deg)}50%{transform:translateY(-6px) rotate(3deg)}}' +
+'.sparkle{position:absolute;width:8px;height:8px;background:#FBBF24;border-radius:50%;box-shadow:0 0 10px #FBBF24,0 0 20px #F59E0B;top:50%;left:50%;margin:-4px 0 0 -4px;animation:orbit 5s linear infinite}' +
+'@keyframes orbit{from{transform:rotate(0deg) translateX(70px) rotate(0deg)}to{transform:rotate(360deg) translateX(70px) rotate(-360deg)}}' +
+'.sp1{animation-delay:0s}.sp2{animation-delay:-0.83s}.sp3{animation-delay:-1.66s}.sp4{animation-delay:-2.5s}.sp5{animation-delay:-3.33s}.sp6{animation-delay:-4.16s}' +
+'.congrats-en{font-family:"Playfair Display",Georgia,serif;font-style:italic;font-weight:700;font-size:clamp(18px,2.6vw,24px);color:#0F766E;margin-top:8px;animation:fadeIn 1s 1s both}' +
+'.congrats-ta{font-family:"Noto Sans Tamil",sans-serif;font-weight:700;font-size:clamp(15px,2.2vw,20px);color:#BE185D;margin-top:2px;animation:fadeIn 1s 1.2s both}' +
+'.name-wrap{position:relative;margin:14px 0 6px;min-height:60px;display:flex;align-items:center;justify-content:center;animation:fadeIn 0.5s 1.4s both}' +
+'.name{font-family:"Playfair Display",Georgia,"Noto Sans Tamil",serif;font-weight:900;font-size:clamp(28px,5vw,46px);color:#991B1B;text-shadow:0 2px 0 rgba(146,64,14,0.15);display:inline-block;position:relative;white-space:nowrap}' +
+'.name::after{content:"";display:inline-block;width:3px;height:0.9em;background:#DC2626;margin-left:4px;vertical-align:middle;animation:blink 0.6s steps(2) infinite}' +
+'.name.done::after{animation:blink 0.8s steps(2) infinite}' +
+'@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}' +
+'.underline{width:0;height:2px;background:#7C2D12;margin:4px auto 0;animation:none}' +
+'.underline.show{animation:expandLine 0.6s ease-out forwards}' +
+'@keyframes expandLine{from{width:0}to{width:min(70%,420px)}}' +
+'.scores{display:flex;gap:14px;flex-wrap:wrap;justify-content:center;margin-top:18px;animation:fadeIn 0.8s 1.6s both}' +
+'.score-box{padding:12px 18px;border-radius:10px;min-width:130px;border:1.5px solid}' +
+'.score-box.green{background:#ECFDF5;border-color:#A7F3D0}' +
+'.score-box.blue{background:#EFF6FF;border-color:#BFDBFE}' +
+'.score-box.amber{background:#FEF3C7;border-color:#FCD34D}' +
+'.score-val{font-family:Outfit,sans-serif;font-weight:900;font-size:clamp(18px,2.8vw,24px)}' +
+'.score-lbl{font-family:"Noto Sans Tamil",sans-serif;font-weight:600;font-size:11px;margin-top:3px}' +
+'.green .score-val{color:#047857}.green .score-lbl{color:#065F46}' +
+'.blue .score-val{color:#1D4ED8}.blue .score-lbl{color:#1E40AF}' +
+'.amber .score-val{color:#B45309}.amber .score-lbl{color:#92400E}' +
+'.footer{display:flex;justify-content:space-between;align-items:center;width:100%;margin-top:auto;padding-top:14px;border-top:1px solid #E5E7EB;flex-wrap:wrap;gap:8px;animation:fadeIn 0.8s 1.8s both}' +
+'.date-pill{background:#F1F5F9;color:#475569;padding:6px 14px;border-radius:13px;font-weight:600;font-size:12px;border:1px solid #E5E7EB}' +
+'.signature{text-align:right}' +
+'.signature-name{font-family:"Playfair Display",Georgia,serif;font-style:italic;font-weight:700;font-size:14px;color:#1E3A8A}' +
+'.signature-sub{font-family:Outfit,sans-serif;font-weight:600;font-size:9px;color:#475569;letter-spacing:2px;margin-top:2px}' +
+'@keyframes fadeDown{from{opacity:0;transform:translateY(-12px)}to{opacity:1;transform:translateY(0)}}' +
+'@keyframes fadeIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}' +
+'</style></head><body>' +
+'<div class="card">' +
+'<div class="top-accent"></div>' +
+'<div class="brand-tamil">தமிழ் நண்பன்</div>' +
+'<div class="brand-en">TEST BATCH SERIES</div>' +
+'<div class="divider"></div>' +
+'<div class="paper">' + paperTitle + '</div>' +
+'<div class="exam-date">தேர்வு தேதி: ' + examDateStr + '</div>' +
+'<div class="crown-wrap">' +
+'<span class="crown">👑</span>' +
+'<span class="sparkle sp1"></span><span class="sparkle sp2"></span><span class="sparkle sp3"></span>' +
+'<span class="sparkle sp4"></span><span class="sparkle sp5"></span><span class="sparkle sp6"></span>' +
+'</div>' +
+'<div class="congrats-en">Heartfelt Congratulations</div>' +
+'<div class="congrats-ta">மனமார்ந்த வாழ்த்துக்கள்!</div>' +
+'<div class="name-wrap"><span class="name" id="winnerName"></span></div>' +
+'<div class="underline" id="underline"></div>' +
+'<div class="scores">' +
+'<div class="score-box green"><div class="score-val">' + score + '</div><div class="score-lbl">மதிப்பெண்</div></div>' +
+'<div class="score-box blue"><div class="score-val">' + pct + '</div><div class="score-lbl">சதவீதம்</div></div>' +
+'<div class="score-box amber"><div class="score-val"># 1</div><div class="score-lbl">இடம்</div></div>' +
+'</div>' +
+'<div class="footer">' +
+'<div class="date-pill">📅 ' + dateStr + '</div>' +
+'<div class="signature">' +
+'<div class="signature-name">Tamil Nanban</div>' +
+'<div class="signature-sub">TEST BATCH SERIES</div>' +
+'</div>' +
+'</div>' +
+'</div>' +
+'<scr' + 'ipt>' +
+'const fullName = ' + JSON.stringify(safeName.replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&amp;/g,'&').replace(/&quot;/g,'"')) + ';' +
+'const chars = Array.from(fullName);' +
+'const nameEl = document.getElementById("winnerName");' +
+'const underlineEl = document.getElementById("underline");' +
+'function typewriter() {' +
+'  nameEl.classList.remove("done");' +
+'  nameEl.textContent = "";' +
+'  underlineEl.classList.remove("show");' +
+'  let i = 0;' +
+'  const interval = setInterval(() => {' +
+'    if (i >= chars.length) {' +
+'      clearInterval(interval);' +
+'      nameEl.classList.add("done");' +
+'      setTimeout(() => underlineEl.classList.add("show"), 200);' +
+'      setTimeout(typewriter, 5500);' +
+'    } else {' +
+'      nameEl.textContent += chars[i];' +
+'      i++;' +
+'    }' +
+'  }, 120);' +
+'}' +
+'setTimeout(typewriter, 1500);' +
+'</scr' + 'ipt>' +
+'</body></html>';
+}
+
 
 // ═══════════════════════════════════════════════════════════
 // 🏆 TOP 10 PDF — Ranked list with paper title at top
@@ -1285,13 +1397,12 @@ async function downloadTop10PDF() {
     doc.text('Tamil Nanban — Test Batch Series  |  Mobile: 63 69 37 14 52',
         W / 2, doc.internal.pageSize.height - 8, { align: 'center' });
 
-    // ── Filename in Tamil ──
+    // ── Mobile-safe ASCII filename ──
     const [yy2, mm2, dd2] = currentDate.split('-');
-    const tamilDate = dd2 + '-' + mm2 + '-' + yy2;
-    const paperShort = currentPaper === 'paper1' ? 'கணிதம் மற்றும் அறிவியல்' : 'சமூக அறிவியல்';
-    const filename = 'தமிழ் நண்பன் - Top 10 - ' + paperShort + ' - ' + tamilDate + '.pdf';
+    const paperShort = currentPaper === 'paper1' ? 'Math_Science' : 'Social_Science';
+    const filename = 'TamilNanban_Top10_' + paperShort + '_' + dd2 + mm2 + yy2 + '.pdf';
     doc.save(filename);
-    showMsg('✅ Top 10 PDF download ஆனது!', 'success');
+    showMsg('✅ Top 10 PDF download ஆனது: ' + filename, 'success');
 }
 
 
