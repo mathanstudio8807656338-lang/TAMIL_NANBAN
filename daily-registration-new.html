@@ -48,6 +48,115 @@
                 window._freeExamDB = window._freeExamApp.database();
                 console.log('✅ Firebase v8 compat SDK ready (named app: free-exam-app)');
             }
+        // ═══════════════════════════════════════════════════════════
+        // 🆕 REVIEW MODE — 30-minute time-limited answer review
+        // ═══════════════════════════════════════════════════════════
+        // ═══════════════════════════════════════════════════════════════
+        //  🆕 REVIEW MODE — Time-limited answer review after submit
+        //  ──────────────────────────────────────────────────────────────
+        //  ஏற்கனவே உள்ள revealAllResults() function-ஐ pickup செய்து,
+        //  Submit success-க்கு பிறகு "விடைகளைச் சரிபார்" button-ஐ
+        //  காட்டி, count-down-உடன் review மட்டுமே allow செய்கிறது.
+        //
+        //  ⏱️ TIME LIMIT-ஐ மாற்ற — REVIEW_MINUTES மதிப்பை மாற்றவும்:
+        //        30  → 30 நிமிடங்கள் (recommended)
+        //        60  → 1 மணி நேரம்
+        //        15  → 15 நிமிடம் (strict)
+        // ═══════════════════════════════════════════════════════════════
+        const REVIEW_MINUTES = 30;   // ← இங்கே நேரத்தை மாற்றவும்
+
+        (function setupReviewMode() {
+            let setupDone = false;
+
+            // Save success ஆனதை detect செய்ய — 'goToResults' button visible ஆகும் வரை poll
+            const poll = setInterval(() => {
+                if (setupDone) return;
+                const goBtn = document.getElementById('goToResults');
+                if (goBtn && getComputedStyle(goBtn).display !== 'none') {
+                    setupDone = true;
+                    clearInterval(poll);
+                    enableReview();
+                }
+            }, 500);
+
+            // 5 நிமிடம் கழித்தும் save success ஆகவில்லை என்றால் — give up
+            setTimeout(() => clearInterval(poll), 5 * 60 * 1000);
+
+            function enableReview() {
+                const reviewBtn = document.getElementById('reviewAnswersBtn');
+                if (!reviewBtn) return;
+
+                // Re-show & re-style the review button (was hidden by free-mode submit)
+                reviewBtn.style.display    = 'block';
+                reviewBtn.disabled         = false;
+                reviewBtn.style.opacity    = '1';
+                reviewBtn.style.cursor     = 'pointer';
+                reviewBtn.style.background = 'linear-gradient(135deg, #f59e0b, #d97706)';
+                reviewBtn.style.color      = 'white';
+
+                const expiresAt = Date.now() + REVIEW_MINUTES * 60 * 1000;
+
+                const updateText = () => {
+                    const left = expiresAt - Date.now();
+                    if (left <= 0) {
+                        reviewBtn.disabled        = true;
+                        reviewBtn.style.opacity   = '0.5';
+                        reviewBtn.style.cursor    = 'not-allowed';
+                        reviewBtn.style.background = '#94a3b8';
+                        reviewBtn.innerHTML       = '⏱️ விடை சரிபார்ப்பு நேரம் முடிந்தது';
+                        clearInterval(timer);
+                        return;
+                    }
+                    const m = Math.floor(left / 60000);
+                    const s = Math.floor((left % 60000) / 1000);
+                    reviewBtn.innerHTML =
+                        `📖 விடைகளைச் சரிபார் <span style="opacity:.85;font-weight:600">(${m}:${String(s).padStart(2,'0')} மீதம்)</span>`;
+                };
+                const timer = setInterval(updateText, 1000);
+                updateText();
+
+                // Replace existing onclick (was closeResults — just closed modal)
+                reviewBtn.onclick = function(e) {
+                    if (e) { e.preventDefault(); e.stopPropagation(); }
+                    if (reviewBtn.disabled) return false;
+
+                    // Hide result modal
+                    const overlay    = document.getElementById('overlay');
+                    const resultView = document.getElementById('resultView');
+                    if (overlay)    overlay.style.display    = 'none';
+                    if (resultView) resultView.style.display = 'none';
+
+                    // 🔥 Call the existing revealAllResults function (already in scope!)
+                    if (typeof revealAllResults === 'function') {
+                        revealAllResults();
+                    }
+                    window.scrollTo(0, 0);
+
+                    // Floating "Back to Result" button so student can return
+                    if (!document.getElementById('backToResultBtn')) {
+                        const back = document.createElement('button');
+                        back.id        = 'backToResultBtn';
+                        back.innerHTML = '↑ முடிவுக்கு திரும்பு';
+                        back.style.cssText =
+                            'position:fixed;bottom:20px;right:20px;z-index:9999;' +
+                            'padding:1rem 1.5rem;background:#1e293b;color:white;' +
+                            'border:none;border-radius:12px;font-weight:700;' +
+                            'cursor:pointer;box-shadow:0 8px 24px rgba(0,0,0,.25);' +
+                            'font-family:inherit;font-size:.95rem;';
+                        back.onclick = () => {
+                            if (overlay)    overlay.style.display    = 'block';
+                            if (resultView) resultView.style.display = 'block';
+                            back.remove();
+                            window.scrollTo(0, 0);
+                        };
+                        document.body.appendChild(back);
+                    }
+                    return false;
+                };
+            }
+        })();
+
+
         })();
     </script>
 
