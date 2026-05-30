@@ -49,113 +49,163 @@
                 console.log('✅ Firebase v8 compat SDK ready (named app: free-exam-app)');
             }
         // ═══════════════════════════════════════════════════════════
-        // 🆕 REVIEW MODE — time-limited answer review after submit
+        // 🆕 Registration Form Function — phone, name, DOB, category
         // ═══════════════════════════════════════════════════════════
-        // ═══════════════════════════════════════════════════════════════
-        //  🆕 REVIEW MODE — Time-limited answer review after submit
-        //  ──────────────────────────────────────────────────────────────
-        //  ஏற்கனவே உள்ள revealAllResults() function-ஐ pickup செய்து,
-        //  Submit success-க்கு பிறகு "விடைகளைச் சரிபார்" button-ஐ
-        //  காட்டி, count-down-உடன் review மட்டுமே allow செய்கிறது.
-        //
-        //  ⏱️ TIME LIMIT-ஐ மாற்ற — REVIEW_MINUTES மதிப்பை மாற்றவும்:
-        //        30  → 30 நிமிடங்கள் (recommended)
-        //        60  → 1 மணி நேரம்
-        //        15  → 15 நிமிடம் (strict)
-        // ═══════════════════════════════════════════════════════════════
-        const REVIEW_MINUTES = 30;   // ← இங்கே நேரத்தை மாற்றவும்
+        function showFreeExamRegistrationForm(examFile) {
+            // Hide loader
+            const loader = document.getElementById('quizLoader');
+            if (loader) loader.style.display = 'none';
 
-        (function setupReviewMode() {
-            let setupDone = false;
+            // Build the form HTML
+            const formHtml = `
+              <div id="freeExamRegOverlay" style="
+                position:fixed; inset:0; z-index:9999;
+                background:rgba(15,23,42,.92); backdrop-filter:blur(8px);
+                display:flex; align-items:center; justify-content:center;
+                padding:1rem; overflow-y:auto; font-family:'Noto Sans Tamil', sans-serif;">
+                <div style="
+                  background:white; padding:2rem; border-radius:16px;
+                  width:100%; max-width:440px;
+                  box-shadow:0 25px 60px rgba(0,0,0,.4);">
+                  <h2 style="margin:0 0 .25rem; color:#dc2626; font-weight:800; font-size:1.5rem;">
+                    இலவச தேர்வு பதிவு
+                  </h2>
+                  <p style="color:#64748b; font-size:.85rem; margin:0 0 1.25rem;">
+                    Free Exam Registration · ${examFile.replace('.json','').toUpperCase()}
+                  </p>
 
-            // Save success ஆனதை detect செய்ய — 'goToResults' button visible ஆகும் வரை poll
-            const poll = setInterval(() => {
-                if (setupDone) return;
-                const goBtn = document.getElementById('goToResults');
-                if (goBtn && getComputedStyle(goBtn).display !== 'none') {
-                    setupDone = true;
-                    clearInterval(poll);
-                    enableReview();
+                  <div style="margin-bottom:1rem;">
+                    <label style="display:block; font-weight:700; font-size:.8rem; color:#475569; margin-bottom:.35rem;">முழுப் பெயர் / Full Name *</label>
+                    <input id="regName" type="text" maxlength="80" style="width:100%; padding:.7rem .85rem; border:1.5px solid #cbd5e1; border-radius:8px; font-size:1rem; font-family:inherit; box-sizing:border-box;">
+                  </div>
+
+                  <div style="display:grid; grid-template-columns:1fr 1fr; gap:.75rem; margin-bottom:1rem;">
+                    <div>
+                      <label style="display:block; font-weight:700; font-size:.8rem; color:#475569; margin-bottom:.35rem;">மொபைல் / Mobile *</label>
+                      <input id="regPhone" type="tel" inputmode="numeric" maxlength="10" style="width:100%; padding:.7rem .85rem; border:1.5px solid #cbd5e1; border-radius:8px; font-size:1rem; font-family:inherit; box-sizing:border-box;">
+                    </div>
+                    <div>
+                      <label style="display:block; font-weight:700; font-size:.8rem; color:#475569; margin-bottom:.35rem;">பிறந்த தேதி / DOB *</label>
+                      <input id="regDob" type="date" style="width:100%; padding:.7rem .85rem; border:1.5px solid #cbd5e1; border-radius:8px; font-size:1rem; font-family:inherit; box-sizing:border-box;">
+                    </div>
+                  </div>
+
+                  <div style="margin-bottom:1.25rem;">
+                    <label style="display:block; font-weight:700; font-size:.8rem; color:#475569; margin-bottom:.35rem;">இனப்பிரிவு / Community *</label>
+                    <select id="regCat" style="width:100%; padding:.7rem .85rem; border:1.5px solid #cbd5e1; border-radius:8px; font-size:1rem; font-family:inherit; box-sizing:border-box; background:white;">
+                      <option value="">— தேர்ந்தெடுக்கவும் —</option>
+                      <option value="OC">OC / General</option>
+                      <option value="BC">BC</option>
+                      <option value="BCM">BCM</option>
+                      <option value="MBC">MBC</option>
+                      <option value="DNC">DNC</option>
+                      <option value="SC">SC</option>
+                      <option value="SCA">SCA</option>
+                      <option value="ST">ST</option>
+                      <option value="PWD">PWD</option>
+                    </select>
+                  </div>
+
+                  <div id="regErr" style="color:#dc2626; font-size:.85rem; font-weight:600; min-height:1.2em; margin-bottom:.5rem;"></div>
+
+                  <button id="regSubmitBtn" style="
+                    width:100%; padding:.9rem; background:#dc2626; color:white;
+                    border:none; border-radius:8px; font-family:inherit;
+                    font-weight:800; font-size:1rem; cursor:pointer;">
+                    தேர்வைத் தொடங்கு (START EXAM)
+                  </button>
+                </div>
+              </div>
+            `;
+            document.body.insertAdjacentHTML('beforeend', formHtml);
+
+            // Restore saved values (if user previously registered on same device)
+            try {
+                const savedPhone = localStorage.getItem('studentMobile');
+                const savedName  = localStorage.getItem('studentName');
+                const savedCat   = localStorage.getItem('studentCategory');
+                const savedDob   = localStorage.getItem('studentDob');
+                if (savedPhone) document.getElementById('regPhone').value = savedPhone;
+                if (savedName)  document.getElementById('regName').value  = savedName;
+                if (savedCat)   document.getElementById('regCat').value   = savedCat;
+                if (savedDob)   document.getElementById('regDob').value   = savedDob;
+            } catch (_) {}
+
+            // Submit handler
+            document.getElementById('regSubmitBtn').onclick = function() {
+                const name  = document.getElementById('regName').value.trim();
+                const phone = document.getElementById('regPhone').value.trim();
+                const dob   = document.getElementById('regDob').value.trim();
+                const cat   = document.getElementById('regCat').value.trim();
+                const err   = document.getElementById('regErr');
+
+                if (!name)                       { err.textContent = 'பெயரை உள்ளிடவும்'; return; }
+                if (!/^\d{10}$/.test(phone))    { err.textContent = '10 இலக்க மொபைல் எண் தேவை'; return; }
+                if (!dob)                        { err.textContent = 'பிறந்த தேதி தேவை'; return; }
+                if (!cat)                        { err.textContent = 'இனப்பிரிவைத் தேர்ந்தெடுக்கவும்'; return; }
+
+                // Save to localStorage for backup
+                try {
+                    localStorage.setItem('studentMobile',   phone);
+                    localStorage.setItem('studentName',     name);
+                    localStorage.setItem('studentCategory', cat);
+                    localStorage.setItem('studentDob',      dob);
+                    localStorage.setItem('attemptTs',       String(Date.now()));
+                } catch (_) {}
+
+                // 🆕 Save registration to Firebase device_sessions (so admin attendance picks it up)
+                try {
+                    const examDate = new Date().toLocaleDateString('en-CA', { timeZone: 'Asia/Kolkata' });
+                    const ts = Date.now();
+                    const safePhone = phone.replace(/[^0-9]/g, '');
+                    const paperKey = examFile.replace(/\.json$/i, '').toLowerCase();
+                    const sessionKey = `${safePhone}_${examDate}_${paperKey}_${ts}`;
+                    const regRecord = {
+                        mobile:       phone,
+                        name:         name,
+                        dob:          dob,
+                        category:     cat,
+                        examFile:     examFile,
+                        examDate:     examDate,
+                        attemptTs:    ts,
+                        registeredAt: new Date().toISOString()
+                    };
+                    let db = window._freeExamDB;
+                    if (!db && typeof firebase !== 'undefined') {
+                        try { db = firebase.app('free-exam-app').database(); } catch (_) {}
+                    }
+                    if (db) {
+                        db.ref(`device_sessions/${sessionKey}`).set(regRecord)
+                          .catch(e => console.warn('Registration save failed (non-blocking):', e));
+                    }
+                } catch (e) {
+                    console.warn('Registration save error (non-blocking):', e);
                 }
-            }, 500);
 
-            // 5 நிமிடம் கழித்தும் save success ஆகவில்லை என்றால் — give up
-            setTimeout(() => clearInterval(poll), 5 * 60 * 1000);
+                // Redirect to same page with all params (so quiz loads properly)
+                const examDate = new Date().toLocaleDateString('en-CA', { timeZone: 'Asia/Kolkata' });
+                const ts = Date.now();
+                const currentParams = new URLSearchParams(window.location.search);
+                currentParams.set('mode',  'free');
+                currentParams.set('phone', phone);
+                currentParams.set('name',  encodeURIComponent(name));
+                currentParams.set('cat',   encodeURIComponent(cat));
+                currentParams.set('date',  examDate);
+                currentParams.set('ts',    String(ts));
+                // examFile may already be in URL as ?exam= — keep both for safety
+                if (!currentParams.get('examFile')) currentParams.set('examFile', examFile);
 
-            function enableReview() {
-                const reviewBtn = document.getElementById('reviewAnswersBtn');
-                if (!reviewBtn) return;
+                window.location.href = window.location.pathname + '?' + currentParams.toString();
+            };
 
-                // Re-show & re-style the review button (was hidden by free-mode submit)
-                reviewBtn.style.display    = 'block';
-                reviewBtn.disabled         = false;
-                reviewBtn.style.opacity    = '1';
-                reviewBtn.style.cursor     = 'pointer';
-                reviewBtn.style.background = 'linear-gradient(135deg, #f59e0b, #d97706)';
-                reviewBtn.style.color      = 'white';
-
-                const expiresAt = Date.now() + REVIEW_MINUTES * 60 * 1000;
-
-                const updateText = () => {
-                    const left = expiresAt - Date.now();
-                    if (left <= 0) {
-                        reviewBtn.disabled        = true;
-                        reviewBtn.style.opacity   = '0.5';
-                        reviewBtn.style.cursor    = 'not-allowed';
-                        reviewBtn.style.background = '#94a3b8';
-                        reviewBtn.innerHTML       = '⏱️ விடை சரிபார்ப்பு நேரம் முடிந்தது';
-                        clearInterval(timer);
-                        return;
-                    }
-                    const m = Math.floor(left / 60000);
-                    const s = Math.floor((left % 60000) / 1000);
-                    reviewBtn.innerHTML =
-                        `📖 விடைகளைச் சரிபார் <span style="opacity:.85;font-weight:600">(${m}:${String(s).padStart(2,'0')} மீதம்)</span>`;
-                };
-                const timer = setInterval(updateText, 1000);
-                updateText();
-
-                // Replace existing onclick (was closeResults — just closed modal)
-                reviewBtn.onclick = function(e) {
-                    if (e) { e.preventDefault(); e.stopPropagation(); }
-                    if (reviewBtn.disabled) return false;
-
-                    // Hide result modal
-                    const overlay    = document.getElementById('overlay');
-                    const resultView = document.getElementById('resultView');
-                    if (overlay)    overlay.style.display    = 'none';
-                    if (resultView) resultView.style.display = 'none';
-
-                    // 🔥 Call the existing revealAllResults function (already in scope!)
-                    if (typeof revealAllResults === 'function') {
-                        revealAllResults();
-                    }
-                    window.scrollTo(0, 0);
-
-                    // Floating "Back to Result" button so student can return
-                    if (!document.getElementById('backToResultBtn')) {
-                        const back = document.createElement('button');
-                        back.id        = 'backToResultBtn';
-                        back.innerHTML = '↑ முடிவுக்கு திரும்பு';
-                        back.style.cssText =
-                            'position:fixed;bottom:20px;right:20px;z-index:9999;' +
-                            'padding:1rem 1.5rem;background:#1e293b;color:white;' +
-                            'border:none;border-radius:12px;font-weight:700;' +
-                            'cursor:pointer;box-shadow:0 8px 24px rgba(0,0,0,.25);' +
-                            'font-family:inherit;font-size:.95rem;';
-                        back.onclick = () => {
-                            if (overlay)    overlay.style.display    = 'block';
-                            if (resultView) resultView.style.display = 'block';
-                            back.remove();
-                            window.scrollTo(0, 0);
-                        };
-                        document.body.appendChild(back);
-                    }
-                    return false;
-                };
-            }
-        })();
-
+            // Enter key submits
+            ['regName','regPhone','regDob','regCat'].forEach(id => {
+                const el = document.getElementById(id);
+                if (el) el.addEventListener('keydown', e => {
+                    if (e.key === 'Enter') document.getElementById('regSubmitBtn').click();
+                });
+            });
+        }
 
         })();
     </script>
@@ -703,6 +753,16 @@
 
         if (isFreeExam && examFile) {
             console.log('🎯 Free Exam Mode!');
+
+            // ═══════════════════════════════════════════════════════════
+            // 🆕 REGISTRATION GATE — phone/name URL-ல் இல்லை என்றால் form காட்டு
+            // ═══════════════════════════════════════════════════════════
+            const _hasReg = params.get('phone') && params.get('name');
+            if (!_hasReg) {
+                console.log('📝 No registration in URL — showing registration form');
+                showFreeExamRegistrationForm(examFile);
+                return;  // exit — form-ஐ submit பண்ணினபின் page reload ஆகும்
+            }
             
             (async () => {
                 try {
