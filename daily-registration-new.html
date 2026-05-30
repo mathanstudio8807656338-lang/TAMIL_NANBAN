@@ -615,7 +615,7 @@
                     இலவச தேர்வு பதிவு
                   </h2>
                   <p style="color:#64748b; font-size:.85rem; margin:0 0 1.25rem;">
-                    Free Exam Registration · ${examFile.replace('.json','').toUpperCase()}
+                    Free Exam Registration · ${(examFile.replace(/\.json$/i,'').replace(/paper(\d+)/i, 'Paper $1').replace(/_/g,' '))}
                   </p>
 
                   <div style="margin-bottom:1rem;">
@@ -663,17 +663,7 @@
             `;
             document.body.insertAdjacentHTML('beforeend', formHtml);
 
-            // Restore saved values (if user previously registered on same device)
-            try {
-                const savedPhone = localStorage.getItem('studentMobile');
-                const savedName  = localStorage.getItem('studentName');
-                const savedCat   = localStorage.getItem('studentCategory');
-                const savedDob   = localStorage.getItem('studentDob');
-                if (savedPhone) document.getElementById('regPhone').value = savedPhone;
-                if (savedName)  document.getElementById('regName').value  = savedName;
-                if (savedCat)   document.getElementById('regCat').value   = savedCat;
-                if (savedDob)   document.getElementById('regDob').value   = savedDob;
-            } catch (_) {}
+            // Always empty form (no auto-fill from previous registration)
 
             // Submit handler
             document.getElementById('regSubmitBtn').onclick = function() {
