@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>தேர்வு வருகை — Admin</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Inter:wght@400;500;600;700&family=Noto+Sans+Tamil:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+  :root{--ink:#0f172a;--paper:#fafaf7;--paper-2:#f0eee7;--line:#d6d3c7;--accent:#b91c1c;--good:#15803d;--warn:#b45309;--muted:#57534e}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:'Inter','Noto Sans Tamil',sans-serif;background:var(--paper);color:var(--ink);line-height:1.55;min-height:100vh}
+  .wrap{max-width:1100px;margin:0 auto;padding:2.5rem 1.25rem 6rem}
+  header{border-bottom:2px solid var(--ink);padding-bottom:1.5rem;margin-bottom:2rem}
+  header h1{font-family:'Fraunces','Noto Sans Tamil',serif;font-weight:900;font-size:clamp(2rem,5vw,3.25rem);letter-spacing:-0.02em;line-height:1.05}
+  header .sub{color:var(--muted);font-size:.95rem;margin-top:.5rem;text-transform:uppercase;letter-spacing:.18em;font-weight:600}
+  .controls{display:flex;flex-wrap:wrap;gap:.75rem;align-items:end;background:var(--paper-2);border:1px solid var(--line);padding:1.25rem;border-radius:4px;margin-bottom:2rem}
+  .field{display:flex;flex-direction:column;gap:.35rem;flex:1;min-width:160px}
+  .field label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.12em;color:var(--muted)}
+  .field input{padding:.7rem .8rem;border:1px solid var(--line);background:white;font-family:inherit;font-size:1rem;border-radius:2px;outline:none}
+  .field input:focus{border-color:var(--ink)}
+  button.go{padding:.7rem 1.5rem;background:var(--ink);color:var(--paper);border:none;font-family:inherit;font-weight:700;font-size:.95rem;letter-spacing:.05em;cursor:pointer;border-radius:2px}
+  button.go:hover{opacity:.85}
+  button.go:disabled{opacity:.4;cursor:wait}
+  button.regen{padding:.7rem 1.2rem;background:#f59e0b;color:white;border:none;font-family:inherit;font-weight:700;font-size:.95rem;cursor:pointer;border-radius:2px}
+  button.regen:hover{background:#d97706}
+  button.regen:disabled{opacity:.4;cursor:wait}
+  button.csv{padding:.5rem 1rem;background:white;color:var(--ink);border:1px solid var(--line);font-family:inherit;font-weight:600;font-size:.8rem;cursor:pointer;border-radius:2px}
+  button.csv:hover{background:var(--paper-2)}
+  #status{min-height:1.5em;font-size:.9rem;color:var(--muted);margin-bottom:1rem;font-style:italic}
+  #status.err{color:var(--accent);font-style:normal;font-weight:600}
+  #status.ok{color:var(--good);font-style:normal;font-weight:600}
+  .paper{margin-top:2.5rem;border:1px solid var(--line);background:white;border-radius:4px;overflow:hidden}
+  .paper-head{padding:1.25rem 1.5rem;background:var(--ink);color:var(--paper);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:.5rem}
+  .paper-head h2{font-family:'Fraunces','Noto Sans Tamil',serif;font-size:1.5rem;font-weight:700;letter-spacing:-0.01em}
+  .paper-head .key{font-family:'Inter',monospace;font-size:.75rem;color:#a8a29e;letter-spacing:.1em}
+  .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));border-bottom:1px solid var(--line)}
+  .stat{padding:1.25rem 1.5rem;border-right:1px solid var(--line);text-align:left}
+  .stat:last-child{border-right:none}
+  .stat .num{font-family:'Fraunces',serif;font-size:2.5rem;font-weight:900;line-height:1;letter-spacing:-0.02em}
+  .stat .lbl{font-size:.7rem;text-transform:uppercase;letter-spacing:.15em;color:var(--muted);font-weight:600;margin-top:.4rem}
+  .stat.warn .num{color:var(--warn)}
+  .stat.good .num{color:var(--good)}
+  .stat.alert .num{color:var(--accent)}
+  .tabs{display:flex;border-bottom:1px solid var(--line);background:var(--paper-2);flex-wrap:wrap;align-items:center}
+  .tab{padding:.85rem 1.25rem;cursor:pointer;font-size:.85rem;font-weight:600;letter-spacing:.03em;border-right:1px solid var(--line)}
+  .tab:hover{background:white}
+  .tab.active{background:white;border-bottom:2px solid var(--ink);margin-bottom:-1px}
+  .tab .badge{display:inline-block;margin-left:.4rem;padding:.1em .55em;background:var(--ink);color:white;border-radius:2em;font-size:.7rem;font-weight:700}
+  .tab.warn .badge{background:var(--warn)}
+  .tab.good .badge{background:var(--good)}
+  .csv-btn-wrap{margin-left:auto;padding:.4rem .75rem}
+  .panel{display:none}
+  .panel.active{display:block}
+  table{width:100%;border-collapse:collapse;font-size:.9rem}
+  thead th{text-align:left;padding:.75rem 1.5rem;background:var(--paper-2);font-size:.7rem;text-transform:uppercase;letter-spacing:.12em;color:var(--muted);font-weight:700;border-bottom:1px solid var(--line)}
+  tbody td{padding:.75rem 1.5rem;border-bottom:1px solid #f0eee7;vertical-align:top}
+  tbody tr:hover{background:#fffbf2}
+  td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
+  td.mono{font-family:ui-monospace,monospace;font-size:.85rem;color:var(--muted)}
+  td.score{font-weight:700;font-size:1rem}
+  td.rank{font-family:'Fraunces',serif;font-size:1.1rem;font-weight:700;width:3em}
+  .empty{padding:3rem 1.5rem;text-align:center;color:var(--muted);font-style:italic}
+  .pill{display:inline-block;padding:.15em .6em;border-radius:2em;font-size:.7rem;font-weight:700;letter-spacing:.05em}
+  .pill.pass{background:#dcfce7;color:#15803d}
+  .pill.fail{background:#fee2e2;color:#b91c1c}
+  @media (max-width:600px){
+    .stat .num{font-size:1.75rem}
+    thead{display:none}
+    tbody tr{display:block;padding:.75rem 1.5rem;border-bottom:1px solid var(--line)}
+    tbody td{padding:.2rem 0;border:none;display:block}
+    tbody td:before{content:attr(data-label);font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);font-weight:700;display:inline-block;min-width:80px}
+    td.num,td.score,td.rank{text-align:left}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>தேர்வு வருகை பதிவேடு<br><span style="font-size:.55em;color:var(--muted);font-weight:700">Exam Attendance Register</span></h1>
+    <div class="sub">Tamil Nanban · Free Exam Admin</div>
+  </header>
+
+  <div class="controls">
+    <div class="field">
+      <label>தேதி / Date</label>
+      <input type="date" id="dateInput">
+    </div>
+    <div class="field">
+      <label>Admin Key</label>
+      <input type="password" id="adminKeyInput" placeholder="••••••••" autocomplete="current-password">
+    </div>
+    <button class="go" id="loadBtn" onclick="load()">பதிவேட்டை திற</button>
+    <button class="regen" id="regenBtn" onclick="regen()" title="Force-regenerate result cache for this date">↻ Result Regen</button>
+  </div>
+
+  <div id="status">தேதி & admin key போட்டு "பதிவேட்டை திற" அழுத்தவும். Result-ஐ உடனே publish செய்ய — "↻ Result Regen" அழுத்தவும்.</div>
+
+  <div id="papers"></div>
+</div>
+
+<script>
+  const WORKER_URL = "https://tamilnanaban2.mathanstudio8807656338.workers.dev";
+
+  const today = new Date(new Date().toLocaleString("en-US",{timeZone:"Asia/Kolkata"}));
+  document.getElementById('dateInput').value = today.toISOString().split('T')[0];
+
+  const savedKey = sessionStorage.getItem('admin_key');
+  if (savedKey) document.getElementById('adminKeyInput').value = savedKey;
+
+  let lastData = null;
+
+  const setStatus = (msg, type='') => {
+    const el = document.getElementById('status');
+    el.textContent = msg;
+    el.className = type;
+  };
+
+  async function load() {
+    const date = document.getElementById('dateInput').value;
+    const key  = document.getElementById('adminKeyInput').value.trim();
+    if (!date || !key) return setStatus("தேதி + admin key இரண்டும் தேவை.", 'err');
+    sessionStorage.setItem('admin_key', key);
+
+    const btn = document.getElementById('loadBtn');
+    btn.disabled = true;
+    setStatus("Firebase-லிருந்து தரவை எடுக்கிறது…");
+
+    try {
+      const url = `${WORKER_URL}/api/admin-attendance?date=${date}&adminKey=${encodeURIComponent(key)}`;
+      const res = await fetch(url);
+      const data = await res.json();
+      if (!res.ok)    throw new Error(data.error || `HTTP ${res.status}`);
+      if (data.error) throw new Error(data.error);
+      lastData = data;
+      render(data);
+      setStatus(`தேதி: ${data.examDate} · papers: ${data.papersFound.join(', ') || 'none'} · refreshed ${new Date().toLocaleTimeString('ta-IN')}`);
+    } catch (e) {
+      setStatus("பிழை: " + e.message, 'err');
+      document.getElementById('papers').innerHTML = '';
+    } finally {
+      btn.disabled = false;
+    }
+  }
+
+  async function regen() {
+    const date = document.getElementById('dateInput').value;
+    const key  = document.getElementById('adminKeyInput').value.trim();
+    if (!date || !key) return setStatus("தேதி + admin key இரண்டும் தேவை.", 'err');
+    const btn = document.getElementById('regenBtn');
+    btn.disabled = true;
+    setStatus("Result cache regenerate செய்கிறது… (a few seconds)");
+    try {
+      const res = await fetch(`${WORKER_URL}/api/admin-generate-results`, {
+        method:'POST',
+        headers:{'Content-Type':'application/json'},
+        body: JSON.stringify({ adminKey: key, examDate: date })
+      });
+      const d = await res.json();
+      if (!res.ok || d.error) throw new Error(d.error || `HTTP ${res.status}`);
+      setStatus(`✓ Result Published! Scanned ${d.totalRecordsScanned}, papers: ${(d.papersFound||[]).join(', ')}, duplicates merged: ${d.duplicatesMerged}`, 'ok');
+    } catch (e) {
+      setStatus("Regen பிழை: " + e.message, 'err');
+    } finally {
+      btn.disabled = false;
+    }
+  }
+
+  function render(data) {
+    const root = document.getElementById('papers');
+    root.innerHTML = '';
+    const keys = Object.keys(data.perPaper || {});
+    if (keys.length === 0) {
+      root.innerHTML = `<div class="empty">இந்த தேதியில் எந்த paper-க்கும் தரவு இல்லை.</div>`;
+      return;
+    }
+    keys.sort();
+    for (const k of keys) {
+      const p = data.perPaper[k];
+      const block = document.createElement('section');
+      block.className = 'paper';
+      block.innerHTML = `
+        <div class="paper-head">
+          <h2>${esc(p.paperTitle)}</h2>
+          <div class="key">${esc(k)}</div>
+        </div>
+        <div class="stats">
+          <div class="stat"><div class="num">${p.totalStarted}</div><div class="lbl">Start பண்ணினவர்</div></div>
+          <div class="stat good"><div class="num">${p.totalCompleted}</div><div class="lbl">Submit பண்ணியவர்</div></div>
+          <div class="stat alert"><div class="num">${p.totalNotCompleted}</div><div class="lbl">Submit பண்ணாதவர்</div></div>
+          <div class="stat warn"><div class="num">${p.totalSubmittedWithoutStart}</div><div class="lbl">Start இல்லாமல் submit</div></div>
+        </div>
+        <div class="tabs">
+          <div class="tab good active" data-tab="c-${k}">Submitted <span class="badge">${p.totalCompleted}</span></div>
+          <div class="tab warn" data-tab="n-${k}">Not Submitted <span class="badge">${p.totalNotCompleted}</span></div>
+          ${p.totalSubmittedWithoutStart ? `<div class="tab" data-tab="w-${k}">No-Start Submits <span class="badge">${p.totalSubmittedWithoutStart}</span></div>` : ''}
+          <div class="csv-btn-wrap"><button class="csv" onclick="downloadCsv('${k}')">⬇ CSV Download</button></div>
+        </div>
+        <div class="panel active" id="c-${k}">${renderCompleted(p.completed)}</div>
+        <div class="panel" id="n-${k}">${renderNotCompleted(p.notCompleted)}</div>
+        ${p.totalSubmittedWithoutStart ? `<div class="panel" id="w-${k}">${renderWithoutStart(p.submittedWithoutStart)}</div>` : ''}
+      `;
+      root.appendChild(block);
+      block.querySelectorAll('.tab').forEach(t => {
+        if (!t.dataset.tab) return;
+        t.addEventListener('click', () => {
+          block.querySelectorAll('.tab').forEach(x => x.classList.remove('active'));
+          block.querySelectorAll('.panel').forEach(x => x.classList.remove('active'));
+          t.classList.add('active');
+          block.querySelector('#' + t.dataset.tab).classList.add('active');
+        });
+      });
+    }
+  }
+
+  function renderCompleted(list) {
+    if (!list || list.length === 0) return `<div class="empty">யாரும் submit செய்யவில்லை.</div>`;
+    list.sort((a,b)=>(b.score||0)-(a.score||0));
+    const rows = list.map((r,i) => `
+      <tr>
+        <td data-label="Rank" class="rank">${i+1}</td>
+        <td data-label="பெயர்">${esc(r.name)}</td>
+        <td data-label="DOB" class="mono">${esc(r.dob || '—')}</td>
+        <td data-label="மொபைல்" class="mono">${esc(r.phone)}</td>
+        <td data-label="மதிப்பெண்" class="num score">${r.score || 0}</td>
+        <td data-label="%" class="num">${(r.percentage||0).toFixed(1)}</td>
+        <td data-label="முடிந்த நேரம்" class="mono">${formatTime(r.completedAt)}</td>
+      </tr>`).join('');
+    return `<table><thead><tr><th>Rank</th><th>பெயர்</th><th>DOB</th><th>மொபைல்</th><th class="num">மதிப்</th><th class="num">%</th><th>முடிந்த நேரம்</th></tr></thead><tbody>${rows}</tbody></table>`;
+  }
+
+  function renderNotCompleted(list) {
+    if (!list || list.length === 0) return `<div class="empty">எல்லாரும் submit செய்துவிட்டார்கள் 🎉</div>`;
+    list.sort((a,b)=>(a.startedAt||'').localeCompare(b.startedAt||''));
+    const rows = list.map(r => `
+      <tr>
+        <td data-label="பெயர்">${esc(r.name)}</td>
+        <td data-label="DOB" class="mono">${esc(r.dob || '—')}</td>
+        <td data-label="மொபைல்" class="mono">${esc(r.phone)}</td>
+        <td data-label="Start நேரம்" class="mono">${formatTime(r.startedAt)}</td>
+        <td data-label="நிலை"><span class="pill fail">Incomplete</span></td>
+      </tr>`).join('');
+    return `<table><thead><tr><th>பெயர்</th><th>DOB</th><th>மொபைல்</th><th>Start நேரம்</th><th>நிலை</th></tr></thead><tbody>${rows}</tbody></table>`;
+  }
+
+  function renderWithoutStart(list) {
+    if (!list || list.length === 0) return '';
+    list.sort((a,b)=>(b.score||0)-(a.score||0));
+    const rows = list.map((r,i) => `
+      <tr>
+        <td data-label="Rank" class="rank">${i+1}</td>
+        <td data-label="பெயர்">${esc(r.name)}</td>
+        <td data-label="மொபைல்" class="mono">${esc(r.phone)}</td>
+        <td data-label="மதிப்பெண்" class="num score">${r.score || 0}</td>
+        <td data-label="%" class="num">${(r.percentage||0).toFixed(1)}</td>
+        <td data-label="முடிந்த நேரம்" class="mono">${formatTime(r.completedAt)}</td>
+      </tr>`).join('');
+    return `<table><thead><tr><th>Rank</th><th>பெயர்</th><th>மொபைல்</th><th class="num">மதிப்</th><th class="num">%</th><th>முடிந்த நேரம்</th></tr></thead><tbody>${rows}</tbody></table>`;
+  }
+
+  function downloadCsv(paperKey) {
+    if (!lastData) return;
+    const p = lastData.perPaper[paperKey];
+    if (!p) return;
+    const date = lastData.examDate;
+    const all = [
+      ...p.completed.map(r => ({...r, status: 'Submitted (started)', __sortKey: 1})),
+      ...p.submittedWithoutStart.map(r => ({...r, status: 'Submitted (no start)', dob: '', startedAt: '', __sortKey: 2})),
+      ...p.notCompleted.map(r => ({...r, score: '', percentage: '', completedAt: '', status: 'Started — Did not submit', __sortKey: 3}))
+    ];
+    const submittedSorted = [...p.completed, ...p.submittedWithoutStart].sort((a,b)=>(b.score||0)-(a.score||0));
+    const rankMap = new Map();
+    submittedSorted.forEach((r,i)=>rankMap.set(r.phone, i+1));
+    all.sort((a,b)=>{
+      if (a.__sortKey !== b.__sortKey) return a.__sortKey - b.__sortKey;
+      return (b.score||0) - (a.score||0);
+    });
+    const rows = [['Rank','Name','DOB','Mobile','Score','Percentage','Started','Completed','Status']];
+    for (const r of all) {
+      rows.push([rankMap.get(r.phone) || '', r.name || '', r.dob || '', r.phone || '',
+        r.score === '' ? '' : (r.score || 0),
+        r.percentage === '' ? '' : (typeof r.percentage === 'number' ? r.percentage.toFixed(2) : ''),
+        r.startedAt ? formatTime(r.startedAt) : '',
+        r.completedAt ? formatTime(r.completedAt) : '',
+        r.status || '']);
+    }
+    const csv = rows.map(row => row.map(cell => {
+      const s = String(cell ?? '');
+      return /[",\n]/.test(s) ? `"${s.replace(/"/g,'""')}"` : s;
+    }).join(',')).join('\n');
+    const blob = new Blob(['\ufeff' + csv], { type: 'text/csv;charset=utf-8' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `${paperKey}_${date}_attendance.csv`;
+    document.body.appendChild(a); a.click(); document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  }
+
+  function formatTime(iso) {
+    if (!iso) return '—';
+    try {
+      const d = new Date(iso);
+      return d.toLocaleString('ta-IN', { timeZone: 'Asia/Kolkata', hour:'2-digit', minute:'2-digit', day:'2-digit', month:'short' });
+    } catch { return iso; }
+  }
+
+  function esc(s) {
+    return String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[c]);
+  }
+</script>
+</body>
+</html>
