@@ -48,165 +48,6 @@
                 window._freeExamDB = window._freeExamApp.database();
                 console.log('✅ Firebase v8 compat SDK ready (named app: free-exam-app)');
             }
-        // ═══════════════════════════════════════════════════════════
-        // 🆕 Registration Form Function — phone, name, DOB, category
-        // ═══════════════════════════════════════════════════════════
-        function showFreeExamRegistrationForm(examFile) {
-            // Hide loader
-            const loader = document.getElementById('quizLoader');
-            if (loader) loader.style.display = 'none';
-
-            // Build the form HTML
-            const formHtml = `
-              <div id="freeExamRegOverlay" style="
-                position:fixed; inset:0; z-index:9999;
-                background:rgba(15,23,42,.92); backdrop-filter:blur(8px);
-                display:flex; align-items:center; justify-content:center;
-                padding:1rem; overflow-y:auto; font-family:'Noto Sans Tamil', sans-serif;">
-                <div style="
-                  background:white; padding:2rem; border-radius:16px;
-                  width:100%; max-width:440px;
-                  box-shadow:0 25px 60px rgba(0,0,0,.4);">
-                  <h2 style="margin:0 0 .25rem; color:#dc2626; font-weight:800; font-size:1.5rem;">
-                    இலவச தேர்வு பதிவு
-                  </h2>
-                  <p style="color:#64748b; font-size:.85rem; margin:0 0 1.25rem;">
-                    Free Exam Registration · ${examFile.replace('.json','').toUpperCase()}
-                  </p>
-
-                  <div style="margin-bottom:1rem;">
-                    <label style="display:block; font-weight:700; font-size:.8rem; color:#475569; margin-bottom:.35rem;">முழுப் பெயர் / Full Name *</label>
-                    <input id="regName" type="text" maxlength="80" style="width:100%; padding:.7rem .85rem; border:1.5px solid #cbd5e1; border-radius:8px; font-size:1rem; font-family:inherit; box-sizing:border-box;">
-                  </div>
-
-                  <div style="display:grid; grid-template-columns:1fr 1fr; gap:.75rem; margin-bottom:1rem;">
-                    <div>
-                      <label style="display:block; font-weight:700; font-size:.8rem; color:#475569; margin-bottom:.35rem;">மொபைல் / Mobile *</label>
-                      <input id="regPhone" type="tel" inputmode="numeric" maxlength="10" style="width:100%; padding:.7rem .85rem; border:1.5px solid #cbd5e1; border-radius:8px; font-size:1rem; font-family:inherit; box-sizing:border-box;">
-                    </div>
-                    <div>
-                      <label style="display:block; font-weight:700; font-size:.8rem; color:#475569; margin-bottom:.35rem;">பிறந்த தேதி / DOB *</label>
-                      <input id="regDob" type="date" style="width:100%; padding:.7rem .85rem; border:1.5px solid #cbd5e1; border-radius:8px; font-size:1rem; font-family:inherit; box-sizing:border-box;">
-                    </div>
-                  </div>
-
-                  <div style="margin-bottom:1.25rem;">
-                    <label style="display:block; font-weight:700; font-size:.8rem; color:#475569; margin-bottom:.35rem;">இனப்பிரிவு / Community *</label>
-                    <select id="regCat" style="width:100%; padding:.7rem .85rem; border:1.5px solid #cbd5e1; border-radius:8px; font-size:1rem; font-family:inherit; box-sizing:border-box; background:white;">
-                      <option value="">— தேர்ந்தெடுக்கவும் —</option>
-                      <option value="OC">OC / General</option>
-                      <option value="BC">BC</option>
-                      <option value="BCM">BCM</option>
-                      <option value="MBC">MBC</option>
-                      <option value="DNC">DNC</option>
-                      <option value="SC">SC</option>
-                      <option value="SCA">SCA</option>
-                      <option value="ST">ST</option>
-                      <option value="PWD">PWD</option>
-                    </select>
-                  </div>
-
-                  <div id="regErr" style="color:#dc2626; font-size:.85rem; font-weight:600; min-height:1.2em; margin-bottom:.5rem;"></div>
-
-                  <button id="regSubmitBtn" style="
-                    width:100%; padding:.9rem; background:#dc2626; color:white;
-                    border:none; border-radius:8px; font-family:inherit;
-                    font-weight:800; font-size:1rem; cursor:pointer;">
-                    தேர்வைத் தொடங்கு (START EXAM)
-                  </button>
-                </div>
-              </div>
-            `;
-            document.body.insertAdjacentHTML('beforeend', formHtml);
-
-            // Restore saved values (if user previously registered on same device)
-            try {
-                const savedPhone = localStorage.getItem('studentMobile');
-                const savedName  = localStorage.getItem('studentName');
-                const savedCat   = localStorage.getItem('studentCategory');
-                const savedDob   = localStorage.getItem('studentDob');
-                if (savedPhone) document.getElementById('regPhone').value = savedPhone;
-                if (savedName)  document.getElementById('regName').value  = savedName;
-                if (savedCat)   document.getElementById('regCat').value   = savedCat;
-                if (savedDob)   document.getElementById('regDob').value   = savedDob;
-            } catch (_) {}
-
-            // Submit handler
-            document.getElementById('regSubmitBtn').onclick = function() {
-                const name  = document.getElementById('regName').value.trim();
-                const phone = document.getElementById('regPhone').value.trim();
-                const dob   = document.getElementById('regDob').value.trim();
-                const cat   = document.getElementById('regCat').value.trim();
-                const err   = document.getElementById('regErr');
-
-                if (!name)                       { err.textContent = 'பெயரை உள்ளிடவும்'; return; }
-                if (!/^\d{10}$/.test(phone))    { err.textContent = '10 இலக்க மொபைல் எண் தேவை'; return; }
-                if (!dob)                        { err.textContent = 'பிறந்த தேதி தேவை'; return; }
-                if (!cat)                        { err.textContent = 'இனப்பிரிவைத் தேர்ந்தெடுக்கவும்'; return; }
-
-                // Save to localStorage for backup
-                try {
-                    localStorage.setItem('studentMobile',   phone);
-                    localStorage.setItem('studentName',     name);
-                    localStorage.setItem('studentCategory', cat);
-                    localStorage.setItem('studentDob',      dob);
-                    localStorage.setItem('attemptTs',       String(Date.now()));
-                } catch (_) {}
-
-                // 🆕 Save registration to Firebase device_sessions (so admin attendance picks it up)
-                try {
-                    const examDate = new Date().toLocaleDateString('en-CA', { timeZone: 'Asia/Kolkata' });
-                    const ts = Date.now();
-                    const safePhone = phone.replace(/[^0-9]/g, '');
-                    const paperKey = examFile.replace(/\.json$/i, '').toLowerCase();
-                    const sessionKey = `${safePhone}_${examDate}_${paperKey}_${ts}`;
-                    const regRecord = {
-                        mobile:       phone,
-                        name:         name,
-                        dob:          dob,
-                        category:     cat,
-                        examFile:     examFile,
-                        examDate:     examDate,
-                        attemptTs:    ts,
-                        registeredAt: new Date().toISOString()
-                    };
-                    let db = window._freeExamDB;
-                    if (!db && typeof firebase !== 'undefined') {
-                        try { db = firebase.app('free-exam-app').database(); } catch (_) {}
-                    }
-                    if (db) {
-                        db.ref(`device_sessions/${sessionKey}`).set(regRecord)
-                          .catch(e => console.warn('Registration save failed (non-blocking):', e));
-                    }
-                } catch (e) {
-                    console.warn('Registration save error (non-blocking):', e);
-                }
-
-                // Redirect to same page with all params (so quiz loads properly)
-                const examDate = new Date().toLocaleDateString('en-CA', { timeZone: 'Asia/Kolkata' });
-                const ts = Date.now();
-                const currentParams = new URLSearchParams(window.location.search);
-                currentParams.set('mode',  'free');
-                currentParams.set('phone', phone);
-                currentParams.set('name',  encodeURIComponent(name));
-                currentParams.set('cat',   encodeURIComponent(cat));
-                currentParams.set('date',  examDate);
-                currentParams.set('ts',    String(ts));
-                // examFile may already be in URL as ?exam= — keep both for safety
-                if (!currentParams.get('examFile')) currentParams.set('examFile', examFile);
-
-                window.location.href = window.location.pathname + '?' + currentParams.toString();
-            };
-
-            // Enter key submits
-            ['regName','regPhone','regDob','regCat'].forEach(id => {
-                const el = document.getElementById(id);
-                if (el) el.addEventListener('keydown', e => {
-                    if (e.key === 'Enter') document.getElementById('regSubmitBtn').click();
-                });
-            });
-        }
-
         })();
     </script>
 
@@ -751,6 +592,165 @@
         let currentIdx = 0;
         let resultsRevealed = false;
 
+        // ═══════════════════════════════════════════════════════════
+        // 🆕 Registration Form Function — phone, name, DOB, category
+        // ═══════════════════════════════════════════════════════════
+        window.showFreeExamRegistrationForm = function(examFile) {
+            // Hide loader
+            const loader = document.getElementById('quizLoader');
+            if (loader) loader.style.display = 'none';
+
+            // Build the form HTML
+            const formHtml = `
+              <div id="freeExamRegOverlay" style="
+                position:fixed; inset:0; z-index:9999;
+                background:rgba(15,23,42,.92); backdrop-filter:blur(8px);
+                display:flex; align-items:center; justify-content:center;
+                padding:1rem; overflow-y:auto; font-family:'Noto Sans Tamil', sans-serif;">
+                <div style="
+                  background:white; padding:2rem; border-radius:16px;
+                  width:100%; max-width:440px;
+                  box-shadow:0 25px 60px rgba(0,0,0,.4);">
+                  <h2 style="margin:0 0 .25rem; color:#dc2626; font-weight:800; font-size:1.5rem;">
+                    இலவச தேர்வு பதிவு
+                  </h2>
+                  <p style="color:#64748b; font-size:.85rem; margin:0 0 1.25rem;">
+                    Free Exam Registration · ${examFile.replace('.json','').toUpperCase()}
+                  </p>
+
+                  <div style="margin-bottom:1rem;">
+                    <label style="display:block; font-weight:700; font-size:.8rem; color:#475569; margin-bottom:.35rem;">முழுப் பெயர் / Full Name *</label>
+                    <input id="regName" type="text" maxlength="80" style="width:100%; padding:.7rem .85rem; border:1.5px solid #cbd5e1; border-radius:8px; font-size:1rem; font-family:inherit; box-sizing:border-box;">
+                  </div>
+
+                  <div style="display:grid; grid-template-columns:1fr 1fr; gap:.75rem; margin-bottom:1rem;">
+                    <div>
+                      <label style="display:block; font-weight:700; font-size:.8rem; color:#475569; margin-bottom:.35rem;">மொபைல் / Mobile *</label>
+                      <input id="regPhone" type="tel" inputmode="numeric" maxlength="10" style="width:100%; padding:.7rem .85rem; border:1.5px solid #cbd5e1; border-radius:8px; font-size:1rem; font-family:inherit; box-sizing:border-box;">
+                    </div>
+                    <div>
+                      <label style="display:block; font-weight:700; font-size:.8rem; color:#475569; margin-bottom:.35rem;">பிறந்த தேதி / DOB *</label>
+                      <input id="regDob" type="date" style="width:100%; padding:.7rem .85rem; border:1.5px solid #cbd5e1; border-radius:8px; font-size:1rem; font-family:inherit; box-sizing:border-box;">
+                    </div>
+                  </div>
+
+                  <div style="margin-bottom:1.25rem;">
+                    <label style="display:block; font-weight:700; font-size:.8rem; color:#475569; margin-bottom:.35rem;">இனப்பிரிவு / Community *</label>
+                    <select id="regCat" style="width:100%; padding:.7rem .85rem; border:1.5px solid #cbd5e1; border-radius:8px; font-size:1rem; font-family:inherit; box-sizing:border-box; background:white;">
+                      <option value="">— தேர்ந்தெடுக்கவும் —</option>
+                      <option value="OC">OC / General</option>
+                      <option value="BC">BC</option>
+                      <option value="BCM">BCM</option>
+                      <option value="MBC">MBC</option>
+                      <option value="DNC">DNC</option>
+                      <option value="SC">SC</option>
+                      <option value="SCA">SCA</option>
+                      <option value="ST">ST</option>
+                      <option value="PWD">PWD</option>
+                    </select>
+                  </div>
+
+                  <div id="regErr" style="color:#dc2626; font-size:.85rem; font-weight:600; min-height:1.2em; margin-bottom:.5rem;"></div>
+
+                  <button id="regSubmitBtn" style="
+                    width:100%; padding:.9rem; background:#dc2626; color:white;
+                    border:none; border-radius:8px; font-family:inherit;
+                    font-weight:800; font-size:1rem; cursor:pointer;">
+                    தேர்வைத் தொடங்கு (START EXAM)
+                  </button>
+                </div>
+              </div>
+            `;
+            document.body.insertAdjacentHTML('beforeend', formHtml);
+
+            // Restore saved values (if user previously registered on same device)
+            try {
+                const savedPhone = localStorage.getItem('studentMobile');
+                const savedName  = localStorage.getItem('studentName');
+                const savedCat   = localStorage.getItem('studentCategory');
+                const savedDob   = localStorage.getItem('studentDob');
+                if (savedPhone) document.getElementById('regPhone').value = savedPhone;
+                if (savedName)  document.getElementById('regName').value  = savedName;
+                if (savedCat)   document.getElementById('regCat').value   = savedCat;
+                if (savedDob)   document.getElementById('regDob').value   = savedDob;
+            } catch (_) {}
+
+            // Submit handler
+            document.getElementById('regSubmitBtn').onclick = function() {
+                const name  = document.getElementById('regName').value.trim();
+                const phone = document.getElementById('regPhone').value.trim();
+                const dob   = document.getElementById('regDob').value.trim();
+                const cat   = document.getElementById('regCat').value.trim();
+                const err   = document.getElementById('regErr');
+
+                if (!name)                       { err.textContent = 'பெயரை உள்ளிடவும்'; return; }
+                if (!/^\d{10}$/.test(phone))    { err.textContent = '10 இலக்க மொபைல் எண் தேவை'; return; }
+                if (!dob)                        { err.textContent = 'பிறந்த தேதி தேவை'; return; }
+                if (!cat)                        { err.textContent = 'இனப்பிரிவைத் தேர்ந்தெடுக்கவும்'; return; }
+
+                // Save to localStorage for backup
+                try {
+                    localStorage.setItem('studentMobile',   phone);
+                    localStorage.setItem('studentName',     name);
+                    localStorage.setItem('studentCategory', cat);
+                    localStorage.setItem('studentDob',      dob);
+                    localStorage.setItem('attemptTs',       String(Date.now()));
+                } catch (_) {}
+
+                // 🆕 Save registration to Firebase device_sessions (so admin attendance picks it up)
+                try {
+                    const examDate = new Date().toLocaleDateString('en-CA', { timeZone: 'Asia/Kolkata' });
+                    const ts = Date.now();
+                    const safePhone = phone.replace(/[^0-9]/g, '');
+                    const paperKey = examFile.replace(/\.json$/i, '').toLowerCase();
+                    const sessionKey = `${safePhone}_${examDate}_${paperKey}_${ts}`;
+                    const regRecord = {
+                        mobile:       phone,
+                        name:         name,
+                        dob:          dob,
+                        category:     cat,
+                        examFile:     examFile,
+                        examDate:     examDate,
+                        attemptTs:    ts,
+                        registeredAt: new Date().toISOString()
+                    };
+                    let db = window._freeExamDB;
+                    if (!db && typeof firebase !== 'undefined') {
+                        try { db = firebase.app('free-exam-app').database(); } catch (_) {}
+                    }
+                    if (db) {
+                        db.ref(`device_sessions/${sessionKey}`).set(regRecord)
+                          .catch(e => console.warn('Registration save failed (non-blocking):', e));
+                    }
+                } catch (e) {
+                    console.warn('Registration save error (non-blocking):', e);
+                }
+
+                // Redirect to same page with all params (so quiz loads properly)
+                const examDate = new Date().toLocaleDateString('en-CA', { timeZone: 'Asia/Kolkata' });
+                const ts = Date.now();
+                const currentParams = new URLSearchParams(window.location.search);
+                currentParams.set('mode',  'free');
+                currentParams.set('phone', phone);
+                currentParams.set('name',  encodeURIComponent(name));
+                currentParams.set('cat',   encodeURIComponent(cat));
+                currentParams.set('date',  examDate);
+                currentParams.set('ts',    String(ts));
+                // examFile may already be in URL as ?exam= — keep both for safety
+                if (!currentParams.get('examFile')) currentParams.set('examFile', examFile);
+
+                window.location.href = window.location.pathname + '?' + currentParams.toString();
+            };
+
+            // Enter key submits
+            ['regName','regPhone','regDob','regCat'].forEach(id => {
+                const el = document.getElementById(id);
+                if (el) el.addEventListener('keydown', e => {
+                    if (e.key === 'Enter') document.getElementById('regSubmitBtn').click();
+                });
+            });
+        };
+
         if (isFreeExam && examFile) {
             console.log('🎯 Free Exam Mode!');
 
@@ -760,7 +760,7 @@
             const _hasReg = params.get('phone') && params.get('name');
             if (!_hasReg) {
                 console.log('📝 No registration in URL — showing registration form');
-                showFreeExamRegistrationForm(examFile);
+                window.showFreeExamRegistrationForm(examFile);
                 return;  // exit — form-ஐ submit பண்ணினபின் page reload ஆகும்
             }
             
