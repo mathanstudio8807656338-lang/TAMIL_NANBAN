@@ -928,7 +928,7 @@
         // Helper to normalize strings for comparison
         const normalize = (s) => (s || "").toString().trim();
 
-            // Robust helper to get correct answer index across different question styles
+            // ✅ Robust helper - எந்த answer format வந்தாலும் சரியாக match செய்யும்
             function getCorrectIdx(q) {
             const raw = q.answer !== undefined ? q.answer : q.a;
             if (raw === undefined) return -1;
@@ -945,6 +945,23 @@
                 if (charIndex >= 0 && charIndex < q.options.length) return charIndex;
             }
 
+            // ✅ NEW: Try matching "a) Text", "b) Text" style (English quiz format)
+            // e.g. answer="c) Seven", options=["a) Five", "b) Six", "c) Seven", "d) Eight"]
+            const prefixMatch = /^([a-dA-D])\)/;
+            const ansPrefix = normAns.match(prefixMatch);
+            if (ansPrefix) {
+                const ansLetter = ansPrefix[1].toLowerCase();
+                // First try: find option with same letter prefix
+                const prefIdx = q.options.findIndex(opt => {
+                    const m = normalize(opt).match(prefixMatch);
+                    return m && m[1].toLowerCase() === ansLetter;
+                });
+                if (prefIdx !== -1) return prefIdx;
+                // Second try: match by index (a=0, b=1, c=2, d=3)
+                const letterIdx = ansLetter.charCodeAt(0) - 97;
+                if (letterIdx >= 0 && letterIdx < q.options.length) return letterIdx;
+            }
+
             // Try matching single letters "A", "B", "C", "D"
             if (normAns.length === 1 && /^[A-D]$/i.test(normAns)) {
                 return normAns.toUpperCase().charCodeAt(0) - 65;
@@ -953,6 +970,14 @@
             // Try exact text match (fallback for some protocols)
             const exactIdx = q.options.findIndex(opt => normalize(opt) === normAns);
             if (exactIdx !== -1) return exactIdx;
+
+            // ✅ NEW: Try text content match (strip prefix letters)
+            const stripPrefix = (s) => normalize(s).replace(/^[a-dA-D]\)\s*/, '');
+            const textOnlyAns = stripPrefix(normAns);
+            if (textOnlyAns) {
+                const textIdx = q.options.findIndex(opt => stripPrefix(opt) === textOnlyAns);
+                if (textIdx !== -1) return textIdx;
+            }
 
             // Try partial match (if option starts with the answer string, or vice-versa)
             const partialIdx = q.options.findIndex(opt => {

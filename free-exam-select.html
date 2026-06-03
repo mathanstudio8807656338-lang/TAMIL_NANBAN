@@ -258,8 +258,44 @@
         // Inline FreeExamLoader class
         class FreeExamLoader {
             constructor() {
-                this.examFolder = 'json-db/free-exams/';  // ✅ FIXED: Correct path
+                this.examFolder = 'json-db/free-exams/';
                 this.availableExams = [];
+            }
+
+            // ✅ Universal Normalizer: எந்த JSON format வந்தாலும் படிக்கும்
+            _convertArrayFormat(arr) {
+                const subjectMap = {};
+                arr.forEach(q => {
+                    const subject = q.Subject || q.subject || 'பொது';
+                    if (!subjectMap[subject]) subjectMap[subject] = [];
+                    subjectMap[subject].push({
+                        question: q.Question || q.question || '',
+                        options: {
+                            a: q['Option A'] || q.optionA || '',
+                            b: q['Option B'] || q.optionB || '',
+                            c: q['Option C'] || q.optionC || '',
+                            d: q['Option D'] || q.optionD || ''
+                        },
+                        answer: (q.Answer || q.answer || 'A').toLowerCase(),
+                        explanation: q.Explanation || q.explanation || ''
+                    });
+                });
+                return {
+                    title: 'இலவச தேர்வு - Paper 1',
+                    paper_type: 'free',
+                    total_questions: arr.length,
+                    sections: Object.keys(subjectMap).map(s => ({ subject: s, questions: subjectMap[s] }))
+                };
+            }
+
+            _normalizeExamData(examData) {
+                if (examData && examData.sections && Array.isArray(examData.sections)) return examData;
+                if (Array.isArray(examData)) return this._convertArrayFormat(examData);
+                if (examData && examData.questions && Array.isArray(examData.questions)) {
+                    const c = this._convertArrayFormat(examData.questions);
+                    return { ...c, title: examData.title || c.title, paper_type: examData.paper_type || 'free', total_questions: examData.total_questions || examData.questions.length };
+                }
+                return { title: 'தேர்வு', paper_type: 'free', total_questions: 0, sections: [] };
             }
 
             async loadAvailableExams() {
@@ -272,14 +308,15 @@
                             const response = await fetch(`${this.examFolder}${paperFile}`);
                             if (response.ok) {
                                 const examData = await response.json();
+                                const normalized = this._normalizeExamData(examData);
                                 this.availableExams.push({
                                     filename: paperFile,
-                                    data: examData,
-                                    title: examData.title,
-                                    paperType: examData.paper_type,
-                                    totalQuestions: examData.total_questions
+                                    data: normalized,
+                                    title: normalized.title,
+                                    paperType: normalized.paper_type,
+                                    totalQuestions: normalized.total_questions
                                 });
-                                console.log(`✅ Loaded: ${paperFile}`);
+                                console.log(`✅ Loaded: ${paperFile} — ${normalized.title} (${normalized.total_questions}Qs)`);
                             }
                         } catch (err) {
                             console.log(`⏭️ Skipped: ${paperFile} (not found)`);
