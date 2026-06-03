@@ -262,22 +262,25 @@
                 this.availableExams = [];
             }
 
-            // ✅ Universal Normalizer: எந்த JSON format வந்தாலும் படிக்கும்
+            // ✅ Universal Normalizer: எந்த JSON format (Tamil/English keys) வந்தாலும் படிக்கும்
             _convertArrayFormat(arr) {
                 const subjectMap = {};
                 arr.forEach(q => {
-                    const subject = q.Subject || q.subject || 'பொது';
+                    const subject = q['பாடம்'] || q.Subject || q.subject || q.category || 'பொது';
+                    const question = q['கேள்வி'] || q.Question || q.question || q.Q || '';
+                    const optA = q['Option_A'] || q['Option A'] || q.optionA || q.A || '';
+                    const optB = q['Option_B'] || q['Option B'] || q.optionB || q.B || '';
+                    const optC = q['Option_C'] || q['Option C'] || q.optionC || q.C || '';
+                    const optD = q['Option_D'] || q['Option D'] || q.optionD || q.D || '';
+                    const rawAns = q['சரியான_விடை'] || q.Answer || q.answer || q.correct || 'A';
+                    const explanation = q['விளக்கம்'] || q.Explanation || q.explanation || q.exp || '';
+                    const topic = q['பாட_தலைப்பு'] || q['வினா_இடம்பெறும்_பகுதி'] || q.Topic || q.topic || '';
                     if (!subjectMap[subject]) subjectMap[subject] = [];
                     subjectMap[subject].push({
-                        question: q.Question || q.question || '',
-                        options: {
-                            a: q['Option A'] || q.optionA || '',
-                            b: q['Option B'] || q.optionB || '',
-                            c: q['Option C'] || q.optionC || '',
-                            d: q['Option D'] || q.optionD || ''
-                        },
-                        answer: (q.Answer || q.answer || 'A').toLowerCase(),
-                        explanation: q.Explanation || q.explanation || ''
+                        question, explanation, topic,
+                        options: { a: optA, b: optB, c: optC, d: optD },
+                        answer: rawAns.toString().toLowerCase().trim(),
+                        difficulty: q.difficulty || 'medium'
                     });
                 });
                 return {

@@ -480,39 +480,98 @@
             const className = params.get('class');
             const lessonId = params.get('lesson');
 // ========== FREE EXAM SUPPORT ==========
-        // Inline FreeExamLoader class (Cloudflare Workers compatible)
+        // Inline FreeExamLoader class
+        // ✅ Universal Format Support: எந்த JSON format வந்தாலும் auto-read செய்யும்
         if (!window.FreeExamLoader) {
             class FreeExamLoader {
                 constructor() {
-                    this.examFolder = 'json-db/free-exams/';  // ✅ FIXED: Correct path
+                    this.examFolder = 'json-db/free-exams/';
                     this.availableExams = [];
+                }
+
+                // ✅ Array format → sections format
+                // எந்த key format வந்தாலும் (English / Tamil / Mixed) படிக்கும்
+                _convertArrayFormat(arr) {
+                    const subjectMap = {};
+                    arr.forEach(q => {
+                        // Subject: Tamil or English key
+                        const subject = q['பாடம்'] || q.Subject || q.subject || q.category || 'பொது';
+
+                        // Question text
+                        const question = q['கேள்வி'] || q.Question || q.question || q.Q || '';
+
+                        // Options - Tamil keys (Option_A) or English keys (Option A / optionA)
+                        const optA = q['Option_A'] || q['Option A'] || q.optionA || q.A || '';
+                        const optB = q['Option_B'] || q['Option B'] || q.optionB || q.B || '';
+                        const optC = q['Option_C'] || q['Option C'] || q.optionC || q.C || '';
+                        const optD = q['Option_D'] || q['Option D'] || q.optionD || q.D || '';
+
+                        // Answer - Tamil key (சரியான_விடை) or English
+                        const rawAns = q['சரியான_விடை'] || q.Answer || q.answer || q.correct || 'A';
+
+                        // Explanation - Tamil key (விளக்கம்) or English
+                        const explanation = q['விளக்கம்'] || q.Explanation || q.explanation || q.exp || '';
+
+                        // Topic
+                        const topic = q['பாட_தலைப்பு'] || q['வினா_இடம்பெறும்_பகுதி'] || q.Topic || q.topic || '';
+
+                        if (!subjectMap[subject]) subjectMap[subject] = [];
+                        subjectMap[subject].push({
+                            question: question,
+                            options: { a: optA, b: optB, c: optC, d: optD },
+                            answer: rawAns.toString().toLowerCase().trim(),
+                            explanation: explanation,
+                            difficulty: q.difficulty || 'medium',
+                            topic: topic
+                        });
+                    });
+                    return {
+                        title: 'இலவச தேர்வு',
+                        paper_type: 'free',
+                        total_questions: arr.length,
+                        sections: Object.keys(subjectMap).map(s => ({ subject: s, questions: subjectMap[s] }))
+                    };
+                }
+
+                // எந்த format வந்தாலும் sections format-ஆக மாற்றும்
+                _normalizeExamData(examData) {
+                    // Format 1: Already has sections
+                    if (examData && examData.sections && Array.isArray(examData.sections)) return examData;
+                    // Format 2: Array [ {Question, Option A, Answer} ]
+                    if (Array.isArray(examData)) return this._convertArrayFormat(examData);
+                    // Format 3: { questions: [...] }
+                    if (examData && examData.questions && Array.isArray(examData.questions)) {
+                        const c = this._convertArrayFormat(examData.questions);
+                        return { ...c, title: examData.title || c.title, paper_type: examData.paper_type || 'free', total_questions: examData.total_questions || examData.questions.length };
+                    }
+                    // Unknown format
+                    console.warn('⚠️ Unknown JSON format');
+                    return { title: 'தேர்வு', paper_type: 'free', total_questions: 0, sections: [] };
                 }
 
                 async loadAvailableExams() {
                     try {
                         const possiblePapers = ['paper1.json', 'paper2.json'];
                         this.availableExams = [];
-
                         for (const paperFile of possiblePapers) {
                             try {
                                 const response = await fetch(`${this.examFolder}${paperFile}`);
                                 if (response.ok) {
                                     const examData = await response.json();
+                                    const normalized = this._normalizeExamData(examData);
                                     this.availableExams.push({
                                         filename: paperFile,
-                                        data: examData,
-                                        title: examData.title,
-                                        paperType: examData.paper_type,
-                                        totalQuestions: examData.total_questions
+                                        data: normalized,
+                                        title: normalized.title,
+                                        paperType: normalized.paper_type,
+                                        totalQuestions: normalized.total_questions
                                     });
-                                    console.log(`✅ Loaded: ${paperFile}`);
+                                    console.log(`✅ Loaded: ${paperFile} (${normalized.total_questions} கேள்விகள்)`);
                                 }
                             } catch (err) {
-                                console.log(`⏭️ Skipped: ${paperFile} (not found)`);
+                                console.log(`⏭️ Skipped: ${paperFile}`);
                             }
                         }
-
-                        console.log(`📋 Total exams available: ${this.availableExams.length}`);
                         return this.availableExams;
                     } catch (error) {
                         console.error('Error loading exams:', error);
@@ -523,12 +582,11 @@
                 async loadExam(filename) {
                     try {
                         const response = await fetch(`${this.examFolder}${filename}`);
-                        if (!response.ok) {
-                            throw new Error(`Failed to load ${filename}`);
-                        }
+                        if (!response.ok) throw new Error(`Failed to load ${filename}`);
                         const examData = await response.json();
-                        console.log(`✅ Loaded exam: ${filename}`);
-                        return examData;
+                        const normalized = this._normalizeExamData(examData);
+                        console.log(`✅ Exam loaded: ${filename} — ${normalized.total_questions} கேள்விகள்`);
+                        return normalized;
                     } catch (error) {
                         console.error(`Error loading exam ${filename}:`, error);
                         return null;
@@ -538,7 +596,10 @@
                 getAllQuestions(examData) {
                     const allQuestions = [];
                     let questionNumber = 1;
-
+                    if (!examData || !examData.sections) {
+                        console.error('❌ examData.sections இல்லை!');
+                        return [];
+                    }
                     examData.sections.forEach(section => {
                         section.questions.forEach(q => {
                             allQuestions.push({
@@ -552,7 +613,6 @@
                             });
                         });
                     });
-
                     return allQuestions;
                 }
 
