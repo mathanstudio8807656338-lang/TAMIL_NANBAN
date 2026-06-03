@@ -632,28 +632,6 @@
                     <div>
                       <label style="display:block; font-weight:700; font-size:.8rem; color:#475569; margin-bottom:.35rem;">பிறந்த தேதி / DOB *</label>
                       <input id="regDob" type="text" inputmode="numeric" maxlength="10" placeholder="DD/MM/YYYY" style="width:100%; padding:.7rem .85rem; border:1.5px solid #cbd5e1; border-radius:8px; font-size:1rem; font-family:inherit; box-sizing:border-box; letter-spacing:1px;">
-                      <script>
-                      (function(){
-                        const dobInput = document.getElementById('regDob');
-                        dobInput.addEventListener('input', function(e) {
-                          let v = e.target.value.replace(/\D/g, ''); // digits only
-                          if (v.length > 8) v = v.slice(0, 8);
-                          let result = '';
-                          if (v.length >= 1) result = v.slice(0, 2);
-                          if (v.length >= 3) result += '/' + v.slice(2, 4);
-                          if (v.length >= 5) result += '/' + v.slice(4, 8);
-                          e.target.value = result;
-                        });
-                        // Convert DD/MM/YYYY to YYYY-MM-DD for Firebase before submit
-                        dobInput.addEventListener('blur', function() {
-                          const val = dobInput.value.trim();
-                          if (/^\d{2}\/\d{2}\/\d{4}$/.test(val)) {
-                            const [dd, mm, yyyy] = val.split('/');
-                            dobInput.dataset.isoDate = `${yyyy}-${mm}-${dd}`;
-                          }
-                        });
-                      })();
-                      </script>
                     </div>
                   </div>
 
@@ -685,6 +663,28 @@
               </div>
             `;
             document.body.insertAdjacentHTML('beforeend', formHtml);
+
+            // ✅ DOB auto-format DD/MM/YYYY
+            (function() {
+                const dobInput = document.getElementById('regDob');
+                if (!dobInput) return;
+                dobInput.addEventListener('input', function(e) {
+                    let v = e.target.value.replace(/\D/g, '');
+                    if (v.length > 8) v = v.slice(0, 8);
+                    let result = '';
+                    if (v.length >= 1) result = v.slice(0, 2);
+                    if (v.length >= 3) result += '/' + v.slice(2, 4);
+                    if (v.length >= 5) result += '/' + v.slice(4, 8);
+                    e.target.value = result;
+                });
+                dobInput.addEventListener('blur', function() {
+                    const val = dobInput.value.trim();
+                    if (/^\d{2}\/\d{2}\/\d{4}$/.test(val)) {
+                        const [dd, mm, yyyy] = val.split('/');
+                        dobInput.dataset.isoDate = yyyy + '-' + mm + '-' + dd;
+                    }
+                });
+            })();
 
             // Always empty form (no auto-fill from previous registration)
 
