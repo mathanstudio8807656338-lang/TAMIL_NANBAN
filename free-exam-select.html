@@ -433,16 +433,21 @@
             const grid = document.getElementById('examsGrid');
             grid.innerHTML = '';
 
+            // ✅ Exam card display config
+            const EXAM_DISPLAY = {
+                'paper1.json': { paper: 'PAPER 2', subject: 'கணிதம் மற்றும் அறிவியல்' },
+                'paper2.json': { paper: 'PAPER 2', subject: 'சமூக அறிவியல்' }
+            };
+
             exams.forEach(exam => {
                 const card = document.createElement('div');
                 card.className = 'exam-card';
+                const display = EXAM_DISPLAY[exam.filename] || { paper: '', subject: '' };
                 
                 card.innerHTML = `
-                    <h3 class="exam-title">${exam.title}</h3>
-                    <div class="exam-info">
-                        <span>📝 ${exam.totalQuestions} கேள்விகள்</span>
-                        <span>⏱️ 3 மணி நேரம்</span>
-                    </div>
+                    <h3 class="exam-title" style="margin-bottom:2px; font-size:1rem; color:#1e3a8a;">இலவச தேர்வு</h3>
+                    <div style="font-weight:800; font-size:1.15rem; color:#dc2626; letter-spacing:1px; margin:4px 0;">SPECIAL TET - ${display.paper}</div>
+                    <div style="font-size:0.95rem; color:#475569; font-weight:600; margin-bottom:12px;">${display.subject}</div>
                     <button 
                         class="exam-btn" 
                         onclick="startExam('${exam.filename}')"
