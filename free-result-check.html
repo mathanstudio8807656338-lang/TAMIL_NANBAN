@@ -709,6 +709,11 @@
                     const ans = (q.correctAnswer || q.answer || '').toString().trim().toUpperCase();
                     if (ans.length === 1 && /^[A-D]$/.test(ans)) correctIdx = ans.charCodeAt(0) - 65;
                     else if (typeof q.correctAnswer === 'number') correctIdx = q.correctAnswer;
+                    // ✅ "A) text..." format (English)
+                    if (correctIdx === -1) {
+                        const pm = ans.match(/^([A-D])\)/);
+                        if (pm) correctIdx = pm[1].charCodeAt(0) - 65;
+                    }
 
                     const optsHtml = optArr.map((opt, oi) => {
                         const isCorrect = oi === correctIdx;

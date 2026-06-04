@@ -902,8 +902,24 @@
                     // Free exam answers: "A","B","C","D" — convert to index
                     window._feCorrectIdx = (q) => {
                         const ans = (q.correctAnswer || q.answer || '').toString().trim().toUpperCase();
+                        // Single letter: A, B, C, D
                         if (ans.length === 1 && /^[A-D]$/.test(ans)) return ans.charCodeAt(0) - 65;
+                        // Number index
                         if (typeof q.correctAnswer === 'number') return q.correctAnswer;
+                        // ✅ "A) text..." format (English questions)
+                        const prefixMatch = ans.match(/^([A-D])\)/);
+                        if (prefixMatch) return prefixMatch[1].charCodeAt(0) - 65;
+                        // ✅ "OPTION A" / "OPTION B" format
+                        const optMatch = ans.match(/^OPTION\s+([A-D])/);
+                        if (optMatch) return optMatch[1].charCodeAt(0) - 65;
+                        // ✅ Text match: compare answer text with options
+                        const opts = q.options;
+                        if (opts) {
+                            const optArr = Array.isArray(opts) ? opts : Object.values(opts);
+                            const cleanAns = ans.replace(/^[A-D]\)\s*/, '');
+                            const idx = optArr.findIndex(o => o && o.toString().trim().toUpperCase() === cleanAns);
+                            if (idx !== -1) return idx;
+                        }
                         return -1;
                     };
                     
