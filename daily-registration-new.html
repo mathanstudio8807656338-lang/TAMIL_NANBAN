@@ -585,6 +585,12 @@
                         if (!response.ok) throw new Error(`Failed to load ${filename}`);
                         const examData = await response.json();
                         const normalized = this._normalizeExamData(examData);
+                        // ✅ Proper Tamil titles
+                        const EXAM_TITLES = {
+                            'paper1.json': 'இலவச தேர்வு TET கணிதம் மற்றும் அறிவியல்',
+                            'paper2.json': 'இலவச தேர்வு TET சமூக அறிவியல்'
+                        };
+                        normalized.title = EXAM_TITLES[filename] || normalized.title;
                         console.log(`✅ Exam loaded: ${filename} — ${normalized.total_questions} கேள்விகள்`);
                         return normalized;
                     } catch (error) {
@@ -1267,9 +1273,8 @@
                 }
             });
             
-            // Scroll to top of questions
-            const firstQ = document.querySelector('.question-card');
-            if (firstQ) firstQ.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            // ✅ Stay at same position — no scroll
+            // மாணவர்கள் back button அல்லது வேறு button press செய்யலாம்
         };
 
         window.closeResults = () => {

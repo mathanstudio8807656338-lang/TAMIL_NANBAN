@@ -492,53 +492,26 @@
                 }
             }
 
-            // LAYER 3: Firebase — fetch ONLY this student's records
-            // (uses phoneNumber index — fetches ~400 bytes, not 400 KB)
+            // LAYER 3: Firebase — fetch ALL results for this date+paper (rank calculation-க்கு)
             if (!currentData) {
                 try {
                     const db = getResultDB();
                     if (db) {
-                        const snap = await db.ref('free_exam_results')
-                            .orderByChild('phoneNumber')
-                            .equalTo(myPhone)
-                            .once('value');
-                        const myRecords = snap.val() || {};
-                        // Filter to the right date+paper
-                        const matching = [];
-                        for (const id in myRecords) {
-                            const r = myRecords[id];
-                            if (!r || r.isTestMode) continue;
-                            if (r.examDate !== examDate) continue;
-                            if ((r.examFile||'').replace('.json','') !== paperKey) continue;
-                            const cat = (r.category||'OC').toUpperCase();
-                            const cutoff = CUTOFFS[cat] ?? 60;
-                            const pct = r.percentage || 0;
-                            matching.push({
-                                phone: r.phoneNumber,
-                                name: r.studentName || 'மாணவர்',
-                                category: r.category || 'OC',
-                                score: r.score || 0,
-                                total: r.totalQuestions || 0,
-                                correct: r.correctAnswers || 0,
-                                wrong: r.wrongAnswers || 0,
-                                unanswered: r.unanswered || 0,
-                                percentage: pct,
-                                timeTaken: r.timeTaken || 0,
-                                completedAt: r.completedAt,
-                                cutoff,
-                                passed: pct >= cutoff,
-                                rank: null  // unknown without full leaderboard
-                            });
-                        }
-                        if (matching.length > 0) {
+                        const snap = await db.ref('free_exam_results').once('value');
+                        const allRecords = snap.val() || {};
+                        // buildLiveResults calculates rank for everyone
+                        const rankedResults = buildLiveResults(allRecords, paperKey, examDate);
+                        // Check if this student exists
+                        const myResult = rankedResults.find(r => r.phone === myPhone);
+                        if (myResult) {
                             currentData = {
                                 examDate, paper: paperKey,
                                 examTitle: PAPER_TITLES[paperKey] || '',
-                                totalStudents: matching.length,
-                                results: matching,
-                                _source: 'firebase-single'
+                                totalStudents: rankedResults.length,
+                                results: rankedResults,
+                                _source: 'firebase-full'
                             };
-                            console.log(`🔥 Firebase single-record read (${matching.length} record)`);
+                            console.log(`🔥 Firebase full read — ${rankedResults.length} students ranked`);
                         }
                     }
                 } catch (err) {

@@ -319,6 +319,12 @@
                                     paperType: normalized.paper_type,
                                     totalQuestions: normalized.total_questions
                                 });
+                                // ✅ Proper Tamil titles based on filename
+                                const EXAM_TITLES = {
+                                    'paper1.json': 'இலவச தேர்வு TET கணிதம் மற்றும் அறிவியல்',
+                                    'paper2.json': 'இலவச தேர்வு TET சமூக அறிவியல்'
+                                };
+                                normalized.title = EXAM_TITLES[paperFile] || normalized.title;
                                 console.log(`✅ Loaded: ${paperFile} — ${normalized.title} (${normalized.total_questions}Qs)`);
                             }
                         } catch (err) {
