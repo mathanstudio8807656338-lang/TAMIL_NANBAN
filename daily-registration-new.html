@@ -993,7 +993,7 @@
                             resultMsg.innerHTML = '<strong>⏳ தயவுசெய்து காத்திருக்கவும்...</strong><br>இந்த page-ஐ மூட வேண்டாம் / Back செய்ய வேண்டாம்.<br>உங்கள் பதில்கள் Firebase-ல் save ஆகின்றன.';
                             resultMsg.style.color = '#f59e0b';
                         }
-                        window.scrollTo(0, 0);
+                        // ✅ No scroll — result overlay will show at current position
 
                         // ═══════════════════════════════════════════════
                         // 🔥 Firebase Save — UI shows "saving" until this completes
