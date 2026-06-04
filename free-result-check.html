@@ -668,6 +668,18 @@
         // ═══════════════════════════════════════════════════════
         let answerKeyLoaded = false;
         async function toggleAnswerKey() {
+            // ✅ Midnight check: exam date-க்கு அடுத்த நாள் 12 AM வரை மட்டும்
+            const dateInput = document.getElementById('dateInput');
+            if (dateInput && dateInput.value) {
+                const now = new Date(new Date().toLocaleString('en-US', {timeZone: 'Asia/Kolkata'}));
+                const examDate = new Date(dateInput.value + 'T00:00:00');
+                const midnight = new Date(examDate);
+                midnight.setDate(midnight.getDate() + 1);
+                if (now >= midnight) {
+                    alert('⏰ விடைகளை சரிபார்க்கும் நேரம் முடிந்துவிட்டது!\n(தேர்வு நாளில் இரவு 12 மணிக்குள் மட்டுமே பார்க்க முடியும்)');
+                    return;
+                }
+            }
             const section = document.getElementById('answerKeySection');
             const btn = document.getElementById('answerKeyBtn');
             if (section.style.display === 'none' || !section.style.display) {
@@ -693,7 +705,7 @@
                 if (!res.ok) throw new Error('Paper not found');
                 const paper = await res.json();
 
-                // Flatten all questions from sections
+                // ✅ Universal format support: sections / questions / array / Tamil keys
                 let allQuestions = [];
                 if (paper.sections && paper.sections.length) {
                     paper.sections.forEach(sec => {
@@ -701,6 +713,19 @@
                     });
                 } else if (paper.questions) {
                     allQuestions = paper.questions;
+                } else if (Array.isArray(paper)) {
+                    // ✅ Array format with Tamil/English keys
+                    allQuestions = paper.map(q => ({
+                        question: q['கேள்வி'] || q.Question || q.question || '',
+                        options: [
+                            q['Option_A'] || q['Option A'] || q.optionA || '',
+                            q['Option_B'] || q['Option B'] || q.optionB || '',
+                            q['Option_C'] || q['Option C'] || q.optionC || '',
+                            q['Option_D'] || q['Option D'] || q.optionD || ''
+                        ],
+                        answer: q['சரியான_விடை'] || q.Answer || q.answer || q.correct || '',
+                        explanation: q['விளக்கம்'] || q.Explanation || q.explanation || ''
+                    }));
                 }
 
                 content.innerHTML = allQuestions.map((q, idx) => {

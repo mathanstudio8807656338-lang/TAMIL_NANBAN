@@ -411,7 +411,7 @@
             <div class="score-display" id="finalScore" style="margin: 0.5rem 0 1.5rem 0;">0/0</div>
             <p id="resultMsg" style="color: #64748b; font-weight: 600; margin-bottom: 2rem;"></p>
             <div style="display: flex; flex-direction: column; gap: 0.8rem;">
-                <button id="reviewAnswersBtn" onclick="closeResults()" class="btn btn-primary" style="width:100%; padding: 1rem;">விடைகளைச்
+                <button id="reviewAnswersBtn" onclick="reviewFreeExamAnswers()" class="btn btn-primary" style="width:100%; padding: 1rem;">விடைகளைச்
                     சரிபார் (Review Answers)</button>
                 <a id="goToResults" href="free-result-check.html" class="btn btn-primary" style="width:100%; padding: 1rem; text-decoration:none; display:none; background:linear-gradient(135deg,#10b981,#059669);">
                     📊 முடிவுகள் & PDF (10:15 PM-க்கு பிறகு)
@@ -894,7 +894,7 @@
                     // ═══════════════════════════════════════════════
                     
                     // Free exam answers: "A","B","C","D" — convert to index
-                    const _feCorrectIdx = (q) => {
+                    window._feCorrectIdx = (q) => {
                         const ans = (q.correctAnswer || q.answer || '').toString().trim().toUpperCase();
                         if (ans.length === 1 && /^[A-D]$/.test(ans)) return ans.charCodeAt(0) - 65;
                         if (typeof q.correctAnswer === 'number') return q.correctAnswer;
@@ -945,7 +945,7 @@
                         let score = 0, correctCount = 0, wrongCount = 0;
                         questions.forEach((q, idx) => {
                             const userIdx = answers[idx];
-                            const correctIdx = _feCorrectIdx(q);
+                            const correctIdx = window._feCorrectIdx(q);
                             if (userIdx !== undefined && correctIdx !== -1 && userIdx === correctIdx) {
                                 score++; correctCount++;
                             } else if (userIdx !== undefined) {
@@ -965,7 +965,7 @@
                         if (overlay) overlay.style.display = 'block';
                         if (resultView) resultView.style.display = 'block';
                         const reviewBtn = document.getElementById('reviewAnswersBtn');
-                        if (reviewBtn) reviewBtn.style.display = 'none';
+                        // reviewBtn shown after save succeeds
                         document.querySelectorAll('#resultView button').forEach(b => {
                             if (b.textContent.includes('மீண்டும்')) b.style.display = 'none';
                         });
@@ -1023,7 +1023,8 @@
                                 percentage: parseFloat(pct.toFixed(2)),
                                 timeTaken,
                                 completedAt: new Date().toISOString(),
-                                isTestMode: window.IS_TEST_MODE === true
+                                isTestMode: window.IS_TEST_MODE === true,
+                                userAnswers: Object.fromEntries(Object.entries(answers).map(([k, v]) => [k, v]))
                             };
 
                             console.log('💾 Saving result:', { deviceId, phone, studentName, studentCategory, examKey, examDate: date });
@@ -1111,6 +1112,9 @@
                                 resultMsg.style.borderRadius = '8px';
                             }
                             if (goBtn) { goBtn.href = 'free-result-check.html'; goBtn.style.display = 'block'; }
+                            // ✅ Show review button after save success
+                            const rb = document.getElementById('reviewAnswersBtn');
+                            if (rb) rb.style.display = 'block';
                         } else {
                             // ❌ Save failed — keep local backup, show clear error
                             if (resultTitle) resultTitle.innerText = '⚠️ Save பிழை!';
@@ -1209,6 +1213,64 @@
 
             return -1;
         }
+
+        // ✅ Review Answers: விடைகளை காண்பிக்கும் (இரவு 12 மணி வரை மட்டும்)
+        window.reviewFreeExamAnswers = () => {
+            // Midnight check
+            const now = new Date(new Date().toLocaleString('en-US', {timeZone: 'Asia/Kolkata'}));
+            const examDateStr = new URLSearchParams(window.location.search).get('date');
+            if (examDateStr) {
+                const examDate = new Date(examDateStr + 'T00:00:00');
+                const midnight = new Date(examDate);
+                midnight.setDate(midnight.getDate() + 1); // next day 12 AM
+                if (now >= midnight) {
+                    alert('⏰ விடைகளை சரிபார்க்கும் நேரம் முடிந்துவிட்டது!\n(இரவு 12 மணிக்கு மேல் பார்க்க முடியாது)');
+                    return;
+                }
+            }
+            
+            // Close result popup
+            document.getElementById('overlay').style.display = 'none';
+            document.getElementById('resultView').style.display = 'none';
+            
+            // Show correct/wrong/explanation for each question
+            questions.forEach((q, idx) => {
+                const userIdx = answers[idx];
+                const correctIdx = window._feCorrectIdx(q);
+                const grid = document.getElementById(`options-${idx}`);
+                if (!grid) return;
+                const items = grid.querySelectorAll('.option-item');
+                
+                // Remove all previous highlights
+                items.forEach(it => it.classList.remove('correct', 'wrong', 'selected'));
+                
+                if (correctIdx !== -1) {
+                    // Always highlight correct answer
+                    if (items[correctIdx]) items[correctIdx].classList.add('correct');
+                    
+                    if (userIdx !== undefined) {
+                        if (userIdx === correctIdx) {
+                            // User got it right
+                            if (items[userIdx]) items[userIdx].classList.add('correct');
+                        } else {
+                            // User got it wrong
+                            if (items[userIdx]) items[userIdx].classList.add('wrong');
+                        }
+                    }
+                }
+                
+                // Show explanation
+                const expBox = document.getElementById(`exp-${idx}`);
+                if (expBox) {
+                    expBox.style.display = 'block';
+                    expBox.style.opacity = '1';
+                }
+            });
+            
+            // Scroll to top of questions
+            const firstQ = document.querySelector('.question-card');
+            if (firstQ) firstQ.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        };
 
         window.closeResults = () => {
             if (window.history.state && window.history.state.results) {
