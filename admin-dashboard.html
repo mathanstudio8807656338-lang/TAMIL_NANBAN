@@ -1177,274 +1177,182 @@ async function downloadCertificateGIF(mode) {
 // White bg, multi-color sections, crown, typewriter name, sparkles
 // ═══════════════════════════════════════════════════════════
 function buildAnimatedCertificateHTML(winner, paperTitle, dateStr, examDateStr) {
-    const rawName = winner.name || 'மாணவர்';
-    const safeName = rawName.replace(/[<>&"]/g, c => ({'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;'}[c]));
-    const score = winner.score + ' / ' + winner.total;
-    const pct = winner.percentage.toFixed(1) + '%';
-    const scoreNum = winner.score;
-    const totalNum = winner.total;
+    var rawName = winner.name || '\u0bae\u0bbe\u0ba3\u0bb5\u0bb0\u0bcd';
+    var scoreStr = winner.score + ' / ' + winner.total;
+    var pctStr = winner.percentage.toFixed(1) + '%';
+    var scoreNum = winner.score;
+    var pctNum = winner.percentage.toFixed(0);
 
-    // Tamil voice script — spoken when page opens
-    const voiceText = `வாழ்த்துக்கள்! ${rawName} அவர்கள் இன்றைய ${paperTitle} தேர்வில் முதலிடம் பிடித்தார்கள்! மொத்த மதிப்பெண் ${scoreNum} — சதவீதம் ${winner.percentage.toFixed(0)} சதவீதம். தமிழ் நண்பன் கோச்சிங் சென்டர் சார்பாக மனமார்ந்த வாழ்த்துக்கள்!`;
-    const safeVoice = voiceText.replace(/`/g,"'").replace(/\\/g,"\\\\").replace(/"/g,'\\"');
+    // Tamil voice text — plain string, no backticks
+    var voiceText = '\u0bb5\u0bbe\u0bb4\u0bcd\u0ba4\u0bcd\u0ba4\u0bc1\u0b95\u0bcd\u0b95\u0bb3\u0bcd! ' + rawName + ' \u0b85\u0bb5\u0bb0\u0bcd\u0b95\u0bb3\u0bcd \u0b87\u0ba9\u0bcd\u0bb1\u0bc8\u0baf ' + paperTitle + ' \u0ba4\u0bc7\u0bb0\u0bcd\u0bb5\u0bbf\u0bb2\u0bcd \u0bae\u0bc1\u0ba4\u0bb2\u0bbf\u0b9f\u0bae\u0bcd \u0baa\u0bbf\u0b9f\u0bbf\u0ba4\u0bcd\u0ba4\u0bbe\u0bb0\u0bcd\u0b95\u0bb3\u0bcd! \u0bae\u0bca\u0ba4\u0bcd\u0ba4 \u0bae\u0ba4\u0bbf\u0baa\u0bcd\u0baa\u0bc6\u0ba3\u0bcd ' + scoreNum + ' \u2014 \u0b9a\u0ba4\u0bb5\u0bc0\u0ba4\u0bae\u0bcd ' + pctNum + ' \u0b9a\u0ba4\u0bb5\u0bc0\u0ba4\u0bae\u0bcd. \u0ba4\u0bae\u0bbf\u0bb4\u0bcd \u0ba8\u0ba3\u0bcd\u0baa\u0ba9\u0bcd \u0b95\u0bcb\u0b9a\u0bcd\u0b9a\u0bbf\u0b99\u0bcd \u0b9a\u0bc6\u0ba9\u0bcd\u0b9f\u0bb0\u0bcd \u0b9a\u0bbe\u0bb0\u0bcd\u0baa\u0bbe\u0b95 \u0bae\u0ba9\u0bae\u0bbe\u0bb0\u0bcd\u0ba8\u0bcd\u0ba4 \u0bb5\u0bbe\u0bb4\u0bcd\u0ba4\u0bcd\u0ba4\u0bc1\u0b95\u0bcd\u0b95\u0bb3\u0bcd!';
 
-    return `<!DOCTYPE html>
-<html lang="ta"><head><meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>🏆 இன்றைய வெற்றியாளர் - ${safeName}</title>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Tamil:wght@400;700;800;900&family=Playfair+Display:ital,wght@0,700;0,900;1,900&family=Outfit:wght@600;700;800;900&display=swap" rel="stylesheet">
-<style>
-*{margin:0;padding:0;box-sizing:border-box}
-html,body{width:100%;min-height:100vh;overflow-x:hidden;font-family:Outfit,"Noto Sans Tamil",sans-serif}
-body{background:radial-gradient(ellipse at 30% 20%,#1e3a8a 0%,#0c1642 50%,#000 100%);display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:100vh;padding:16px;position:relative}
+    // Safely JSON-encode name and voice for embedding in JS
+    var nameJson = JSON.stringify(rawName);
+    var voiceJson = JSON.stringify(voiceText);
 
-/* ── Confetti particles ── */
-.confetti-wrap{position:fixed;inset:0;pointer-events:none;overflow:hidden;z-index:0}
-.cf{position:absolute;top:-20px;width:10px;height:14px;border-radius:2px;animation:cfFall linear infinite}
-@keyframes cfFall{0%{transform:translateY(0) rotate(0deg);opacity:1}100%{transform:translateY(110vh) rotate(720deg);opacity:0}}
-
-/* ── Glowing orbs background ── */
-.orb{position:fixed;border-radius:50%;filter:blur(80px);opacity:0.25;pointer-events:none;animation:orbFloat ease-in-out infinite}
-@keyframes orbFloat{0%,100%{transform:translateY(0) scale(1)}50%{transform:translateY(-30px) scale(1.1)}}
-
-/* ── Main card ── */
-.card{position:relative;z-index:10;width:100%;max-width:780px;background:rgba(255,255,255,0.04);backdrop-filter:blur(20px);border:1px solid rgba(255,255,255,0.12);border-radius:24px;padding:36px 32px 28px;display:flex;flex-direction:column;align-items:center;text-align:center;box-shadow:0 40px 120px rgba(0,0,0,0.6),inset 0 1px 0 rgba(255,255,255,0.15);animation:cardIn 0.9s cubic-bezier(.34,1.56,.64,1) both}
-@keyframes cardIn{from{transform:scale(0.7) translateY(40px);opacity:0}to{transform:scale(1) translateY(0);opacity:1}}
-@media(max-width:480px){.card{padding:28px 18px 22px}}
-
-/* ── Top gradient bar ── */
-.top-bar{position:absolute;top:0;left:0;right:0;height:5px;border-radius:24px 24px 0 0;background:linear-gradient(90deg,#f59e0b,#ec4899,#6366f1,#06b6d4)}
-
-/* ── Brand ── */
-.brand{animation:slideDown 0.8s 0.2s both}
-@keyframes slideDown{from{opacity:0;transform:translateY(-20px)}to{opacity:1;transform:translateY(0)}}
-.brand-ta{font-family:"Noto Sans Tamil",sans-serif;font-size:clamp(26px,5vw,40px);font-weight:900;background:linear-gradient(135deg,#fbbf24,#f59e0b);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;letter-spacing:.02em}
-.brand-en{font-size:clamp(10px,1.5vw,12px);font-weight:800;color:#94a3b8;letter-spacing:5px;margin-top:4px}
-.paper-lbl{font-family:"Noto Sans Tamil",sans-serif;font-size:clamp(13px,2vw,16px);font-weight:700;color:#a78bfa;margin-top:8px;padding:4px 14px;border:1px solid rgba(167,139,250,0.3);border-radius:20px;display:inline-block}
-.exam-date{font-size:12px;color:#64748b;margin-top:6px}
-
-/* ── Trophy + sparkles ── */
-.trophy-wrap{position:relative;margin:22px 0 10px;animation:fadeUp 0.8s 0.7s both}
-@keyframes fadeUp{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
-.trophy{font-size:clamp(64px,10vw,88px);display:inline-block;animation:trophyShine 2.4s ease-in-out infinite;filter:drop-shadow(0 0 24px rgba(251,191,36,0.8))}
-@keyframes trophyShine{0%,100%{transform:scale(1) rotate(-4deg);filter:drop-shadow(0 0 20px rgba(251,191,36,0.7))}50%{transform:scale(1.1) rotate(4deg);filter:drop-shadow(0 0 36px rgba(251,191,36,1))}}
-.sp{position:absolute;width:9px;height:9px;background:#fbbf24;border-radius:50%;box-shadow:0 0 12px #fbbf24,0 0 24px #f59e0b;top:50%;left:50%;margin:-4.5px 0 0 -4.5px;animation:spOrbit 4s linear infinite}
-@keyframes spOrbit{from{transform:rotate(0deg) translateX(65px) rotate(0deg)}to{transform:rotate(360deg) translateX(65px) rotate(-360deg)}}
-.sp1{animation-delay:0s}.sp2{animation-delay:-.67s}.sp3{animation-delay:-1.33s}.sp4{animation-delay:-2s}.sp5{animation-delay:-2.67s}.sp6{animation-delay:-3.33s}
-
-/* ── Congrats text ── */
-.cong-en{font-family:"Playfair Display",serif;font-style:italic;font-size:clamp(18px,3vw,26px);font-weight:900;color:#34d399;animation:fadeUp 0.8s 1s both}
-.cong-ta{font-family:"Noto Sans Tamil",sans-serif;font-size:clamp(16px,2.5vw,22px);font-weight:800;color:#f472b6;margin-top:4px;animation:fadeUp 0.8s 1.2s both}
-
-/* ── Winner name ── */
-.name-section{margin:18px 0 4px;animation:fadeUp 0.5s 1.4s both}
-.first-place{font-family:"Noto Sans Tamil",sans-serif;font-size:clamp(11px,1.5vw,13px);font-weight:700;color:#94a3b8;letter-spacing:3px;text-transform:uppercase;margin-bottom:6px}
-.name{font-family:"Playfair Display","Noto Sans Tamil",serif;font-size:clamp(30px,6vw,52px);font-weight:900;color:#fff;text-shadow:0 0 40px rgba(251,191,36,0.6),0 4px 0 rgba(0,0,0,0.4);display:inline-block;position:relative;white-space:nowrap}
-.name::after{content:"";display:inline-block;width:3px;height:0.85em;background:#f59e0b;margin-left:4px;vertical-align:middle;animation:blink 0.55s steps(2) infinite}
-.name.done::after{display:none}
-.name-underline{height:3px;width:0;margin:6px auto 0;border-radius:2px;background:linear-gradient(90deg,transparent,#f59e0b,#ec4899,transparent)}
-.name-underline.show{animation:expandLine 0.7s ease-out forwards}
-@keyframes expandLine{from{width:0}to{width:min(80%,440px)}}
-@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
-
-/* ── Score boxes ── */
-.scores{display:flex;gap:12px;flex-wrap:wrap;justify-content:center;margin-top:22px;animation:fadeUp 0.8s 1.6s both}
-.sbox{padding:14px 20px;border-radius:14px;min-width:120px;position:relative;overflow:hidden}
-.sbox::before{content:"";position:absolute;inset:0;opacity:0.12;background:white}
-.sbox-score{background:linear-gradient(135deg,#065f46,#047857);border:1px solid #10b981}
-.sbox-pct{background:linear-gradient(135deg,#1e40af,#1d4ed8);border:1px solid #3b82f6}
-.sbox-rank{background:linear-gradient(135deg,#92400e,#b45309);border:1px solid #f59e0b}
-.sv{font-family:Outfit,sans-serif;font-weight:900;font-size:clamp(20px,3.5vw,28px);color:#fff}
-.sl{font-family:"Noto Sans Tamil",sans-serif;font-weight:700;font-size:11px;color:rgba(255,255,255,0.75);margin-top:3px}
-@media(max-width:400px){.sbox{min-width:90px;padding:10px 12px}}
-
-/* ── Footer ── */
-.footer{display:flex;justify-content:space-between;align-items:center;width:100%;margin-top:24px;padding-top:16px;border-top:1px solid rgba(255,255,255,0.08);flex-wrap:wrap;gap:8px;animation:fadeUp 0.8s 1.8s both}
-.date-pill{background:rgba(255,255,255,0.07);color:#94a3b8;padding:6px 14px;border-radius:20px;font-size:12px;font-weight:600;border:1px solid rgba(255,255,255,0.1)}
-.sig{text-align:right;font-size:11px;color:#64748b}
-.sig strong{display:block;font-family:"Playfair Display",serif;font-style:italic;font-size:13px;color:#a78bfa}
-
-/* ── Voice status bar ── */
-.voice-bar{position:fixed;bottom:18px;left:50%;transform:translateX(-50%);background:rgba(15,23,42,0.92);backdrop-filter:blur(10px);border:1px solid rgba(251,191,36,0.3);border-radius:30px;padding:10px 22px;font-size:13px;color:#fbbf24;font-family:Outfit,sans-serif;font-weight:700;display:flex;align-items:center;gap:10px;z-index:99;animation:voiceBarIn 0.6s 2s both;white-space:nowrap}
-@keyframes voiceBarIn{from{opacity:0;transform:translateX(-50%) translateY(20px)}to{opacity:1;transform:translateX(-50%) translateY(0)}}
-.voice-dot{width:10px;height:10px;border-radius:50%;background:#fbbf24;animation:pulse 1s ease-in-out infinite}
-@keyframes pulse{0%,100%{transform:scale(1);opacity:1}50%{transform:scale(1.5);opacity:0.5}}
-.voice-dot.done{animation:none;background:#10b981}
-</style>
-</head>
-<body>
-
-<!-- Background orbs -->
-<div class="orb" style="width:400px;height:400px;background:#1e40af;top:10%;left:5%;animation-duration:8s;animation-delay:0s"></div>
-<div class="orb" style="width:300px;height:300px;background:#7c3aed;top:60%;left:75%;animation-duration:10s;animation-delay:2s"></div>
-<div class="orb" style="width:250px;height:250px;background:#be185d;top:40%;left:50%;animation-duration:7s;animation-delay:4s"></div>
-
-<!-- Confetti -->
-<div class="confetti-wrap" id="confettiWrap"></div>
-
-<!-- Main card -->
-<div class="card">
-  <div class="top-bar"></div>
-
-  <div class="brand">
-    <div class="brand-ta">தமிழ் நண்பன்</div>
-    <div class="brand-en">TEST BATCH SERIES</div>
-    <div class="paper-lbl">${paperTitle}</div>
-    <div class="exam-date">தேர்வு தேதி: ${examDateStr}</div>
-  </div>
-
-  <div class="trophy-wrap">
-    <span class="trophy">🏆</span>
-    <span class="sp sp1"></span><span class="sp sp2"></span><span class="sp sp3"></span>
-    <span class="sp sp4"></span><span class="sp sp5"></span><span class="sp sp6"></span>
-  </div>
-
-  <div class="cong-en">Heartfelt Congratulations!</div>
-  <div class="cong-ta">மனமார்ந்த வாழ்த்துக்கள்! 🎉</div>
-
-  <div class="name-section">
-    <div class="first-place">🥇 முதலிடம் பிடித்தவர்</div>
-    <div class="name" id="winnerName"></div>
-    <div class="name-underline" id="nameUnder"></div>
-  </div>
-
-  <div class="scores">
-    <div class="sbox sbox-score">
-      <div class="sv">${score}</div>
-      <div class="sl">மதிப்பெண்</div>
-    </div>
-    <div class="sbox sbox-pct">
-      <div class="sv">${pct}</div>
-      <div class="sl">சதவீதம்</div>
-    </div>
-    <div class="sbox sbox-rank">
-      <div class="sv"># 1</div>
-      <div class="sl">இடம்</div>
-    </div>
-  </div>
-
-  <div class="footer">
-    <div class="date-pill">📅 ${dateStr}</div>
-    <div class="sig">
-      <strong>Tamil Nanban</strong>
-      <span>COACHING CENTER</span>
-    </div>
-  </div>
-</div>
-
-<!-- Voice status -->
-<div class="voice-bar" id="voiceBar">
-  <span class="voice-dot" id="voiceDot"></span>
-  <span id="voiceStatus">🔊 வாழ்த்துச் செய்தி...</span>
-</div>
-
-<script>
-// ── Confetti generator ──
-(function(){
-  const wrap = document.getElementById('confettiWrap');
-  const colors = ['#fbbf24','#f59e0b','#ec4899','#6366f1','#10b981','#3b82f6','#f97316','#a855f7'];
-  for(let i=0;i<45;i++){
-    const el = document.createElement('div');
-    el.className = 'cf';
-    el.style.cssText = 'left:'+Math.random()*100+'%;background:'+colors[i%colors.length]+';animation-delay:'+Math.random()*6+'s;animation-duration:'+(3+Math.random()*4)+'s;width:'+(8+Math.random()*8)+'px;height:'+(10+Math.random()*8)+'px;border-radius:'+Math.random()*4+'px';
-    wrap.appendChild(el);
-  }
-})();
-
-// ── Typewriter for winner name ──
-const fullName = ${JSON.stringify(rawName)};
-const chars = Array.from(fullName);
-const nameEl = document.getElementById('winnerName');
-const underEl = document.getElementById('nameUnder');
-
-function typeWriter() {
-  nameEl.classList.remove('done');
-  nameEl.textContent = '';
-  underEl.classList.remove('show');
-  let i = 0;
-  const iv = setInterval(() => {
-    if(i >= chars.length){
-      clearInterval(iv);
-      nameEl.classList.add('done');
-      setTimeout(()=>underEl.classList.add('show'), 150);
-      setTimeout(typeWriter, 6000);
-    } else {
-      nameEl.textContent += chars[i++];
-    }
-  }, 110);
-}
-setTimeout(typeWriter, 1400);
-
-// ── Tamil Voice (Web Speech API) ──
-const voiceBar = document.getElementById('voiceBar');
-const voiceDot = document.getElementById('voiceDot');
-const voiceStatus = document.getElementById('voiceStatus');
-const voiceText = "${safeVoice}";
-
-function speakTamil() {
-  if (!('speechSynthesis' in window)) {
-    voiceStatus.textContent = '⚠️ இந்த browser-ல் voice இல்லை';
-    setTimeout(()=>voiceBar.style.opacity='0', 3000);
-    return;
-  }
-  window.speechSynthesis.cancel();
-  const utter = new SpeechSynthesisUtterance(voiceText);
-  utter.lang = 'ta-IN';
-  utter.rate = 0.88;
-  utter.pitch = 1.05;
-  utter.volume = 1.0;
-
-  // Try to find Tamil voice; fallback to any available
-  const voices = window.speechSynthesis.getVoices();
-  const tamilVoice = voices.find(v => v.lang === 'ta-IN' || v.lang === 'ta' || v.name.toLowerCase().includes('tamil'));
-  if(tamilVoice) utter.voice = tamilVoice;
-
-  utter.onstart = () => {
-    voiceStatus.textContent = '🔊 வாழ்த்துச் செய்தி பேசுகிறது...';
-    voiceDot.style.background = '#f59e0b';
-  };
-  utter.onend = () => {
-    voiceDot.classList.add('done');
-    voiceStatus.textContent = '✅ வாழ்த்துக்கள் சொல்லப்பட்டது!';
-    setTimeout(() => {
-      voiceBar.style.transition = 'opacity 1s';
-      voiceBar.style.opacity = '0';
-    }, 2500);
-  };
-  utter.onerror = () => {
-    voiceStatus.textContent = '🔇 Voice play ஆகவில்லை — tap செய்யவும்';
-    voiceBar.style.cursor = 'pointer';
-    voiceBar.onclick = () => speakTamil();
-  };
-  window.speechSynthesis.speak(utter);
+    var h = '';
+    h += '<!DOCTYPE html>\n<html lang="ta"><head><meta charset="UTF-8">\n';
+    h += '<meta name="viewport" content="width=device-width,initial-scale=1">\n';
+    h += '<title>\u2b50 \u0b87\u0ba9\u0bcd\u0bb1\u0bc8\u0baf \u0bb5\u0bc6\u0bb1\u0bcd\u0bb1\u0bbf\u0baf\u0bbe\u0bb3\u0bb0\u0bcd - ' + rawName.replace(/</g,'&lt;').replace(/>/g,'&gt;') + '</title>\n';
+    h += '<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Tamil:wght@400;700;800;900&family=Playfair+Display:ital,wght@0,700;0,900;1,900&family=Outfit:wght@600;700;800;900&display=swap" rel="stylesheet">\n';
+    h += '<style>\n';
+    h += '*{margin:0;padding:0;box-sizing:border-box}\n';
+    h += 'html,body{width:100%;min-height:100vh;overflow-x:hidden;font-family:Outfit,"Noto Sans Tamil",sans-serif}\n';
+    h += 'body{background:radial-gradient(ellipse at 30% 20%,#1e3a8a 0%,#0c1642 50%,#000 100%);display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:100vh;padding:16px;position:relative}\n';
+    h += '.cfWrap{position:fixed;inset:0;pointer-events:none;overflow:hidden;z-index:0}\n';
+    h += '.cf{position:absolute;top:-20px;border-radius:2px;animation:cfFall linear infinite}\n';
+    h += '@keyframes cfFall{0%{transform:translateY(0) rotate(0deg);opacity:1}100%{transform:translateY(110vh) rotate(720deg);opacity:0}}\n';
+    h += '.orb{position:fixed;border-radius:50%;filter:blur(80px);opacity:0.22;pointer-events:none;animation:orbFloat ease-in-out infinite}\n';
+    h += '@keyframes orbFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-30px)}}\n';
+    h += '.card{position:relative;z-index:10;width:100%;max-width:780px;background:rgba(255,255,255,0.04);backdrop-filter:blur(20px);border:1px solid rgba(255,255,255,0.12);border-radius:24px;padding:36px 32px 28px;display:flex;flex-direction:column;align-items:center;text-align:center;box-shadow:0 40px 120px rgba(0,0,0,0.6),inset 0 1px 0 rgba(255,255,255,0.15);animation:cardIn 0.9s cubic-bezier(.34,1.56,.64,1) both}\n';
+    h += '@keyframes cardIn{from{transform:scale(0.7) translateY(40px);opacity:0}to{transform:scale(1) translateY(0);opacity:1}}\n';
+    h += '@media(max-width:480px){.card{padding:28px 18px 22px}}\n';
+    h += '.topBar{position:absolute;top:0;left:0;right:0;height:5px;border-radius:24px 24px 0 0;background:linear-gradient(90deg,#f59e0b,#ec4899,#6366f1,#06b6d4)}\n';
+    h += '.brand{animation:sD 0.8s 0.2s both}@keyframes sD{from{opacity:0;transform:translateY(-20px)}to{opacity:1;transform:translateY(0)}}\n';
+    h += '.bTa{font-family:"Noto Sans Tamil",sans-serif;font-size:clamp(26px,5vw,40px);font-weight:900;background:linear-gradient(135deg,#fbbf24,#f59e0b);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}\n';
+    h += '.bEn{font-size:clamp(10px,1.5vw,12px);font-weight:800;color:#94a3b8;letter-spacing:5px;margin-top:4px}\n';
+    h += '.pLbl{font-family:"Noto Sans Tamil",sans-serif;font-size:clamp(13px,2vw,16px);font-weight:700;color:#a78bfa;margin-top:8px;padding:4px 14px;border:1px solid rgba(167,139,250,0.3);border-radius:20px;display:inline-block}\n';
+    h += '.eDate{font-size:12px;color:#64748b;margin-top:6px}\n';
+    h += '.tWrap{position:relative;margin:22px 0 10px;animation:fU 0.8s 0.7s both}@keyframes fU{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}\n';
+    h += '.trophy{font-size:clamp(64px,10vw,88px);display:inline-block;animation:tS 2.4s ease-in-out infinite;filter:drop-shadow(0 0 24px rgba(251,191,36,0.8))}\n';
+    h += '@keyframes tS{0%,100%{transform:scale(1) rotate(-4deg)}50%{transform:scale(1.1) rotate(4deg);filter:drop-shadow(0 0 36px rgba(251,191,36,1))}}\n';
+    h += '.sp{position:absolute;width:9px;height:9px;background:#fbbf24;border-radius:50%;box-shadow:0 0 12px #fbbf24;top:50%;left:50%;margin:-4.5px 0 0 -4.5px;animation:spO 4s linear infinite}\n';
+    h += '@keyframes spO{from{transform:rotate(0deg) translateX(65px) rotate(0deg)}to{transform:rotate(360deg) translateX(65px) rotate(-360deg)}}\n';
+    h += '.s1{animation-delay:0s}.s2{animation-delay:-.67s}.s3{animation-delay:-1.33s}.s4{animation-delay:-2s}.s5{animation-delay:-2.67s}.s6{animation-delay:-3.33s}\n';
+    h += '.cEn{font-family:"Playfair Display",serif;font-style:italic;font-size:clamp(18px,3vw,26px);font-weight:900;color:#34d399;animation:fU 0.8s 1s both}\n';
+    h += '.cTa{font-family:"Noto Sans Tamil",sans-serif;font-size:clamp(16px,2.5vw,22px);font-weight:800;color:#f472b6;margin-top:4px;animation:fU 0.8s 1.2s both}\n';
+    h += '.nSec{margin:18px 0 4px;animation:fU 0.5s 1.4s both}\n';
+    h += '.fp{font-family:"Noto Sans Tamil",sans-serif;font-size:clamp(11px,1.5vw,13px);font-weight:700;color:#94a3b8;letter-spacing:2px;margin-bottom:6px}\n';
+    h += '.wName{font-family:"Playfair Display","Noto Sans Tamil",serif;font-size:clamp(30px,6vw,52px);font-weight:900;color:#fff;text-shadow:0 0 40px rgba(251,191,36,0.6),0 4px 0 rgba(0,0,0,0.4);display:inline-block;min-height:1.2em}\n';
+    h += '.cur{display:inline-block;width:3px;height:0.85em;background:#f59e0b;margin-left:4px;vertical-align:middle;animation:bl 0.55s steps(2) infinite}\n';
+    h += '.cur.off{display:none}@keyframes bl{0%,49%{opacity:1}50%,100%{opacity:0}}\n';
+    h += '.wUnder{height:3px;width:0;margin:6px auto 0;border-radius:2px;background:linear-gradient(90deg,transparent,#f59e0b,#ec4899,transparent)}\n';
+    h += '.wUnder.show{animation:xL 0.7s ease-out forwards}@keyframes xL{from{width:0}to{width:min(80%,440px)}}\n';
+    h += '.scores{display:flex;gap:12px;flex-wrap:wrap;justify-content:center;margin-top:22px;animation:fU 0.8s 1.6s both}\n';
+    h += '.sb{padding:14px 20px;border-radius:14px;min-width:120px;border:1px solid}\n';
+    h += '.sb1{background:linear-gradient(135deg,#065f46,#047857);border-color:#10b981}\n';
+    h += '.sb2{background:linear-gradient(135deg,#1e40af,#1d4ed8);border-color:#3b82f6}\n';
+    h += '.sb3{background:linear-gradient(135deg,#92400e,#b45309);border-color:#f59e0b}\n';
+    h += '.sv{font-family:Outfit,sans-serif;font-weight:900;font-size:clamp(20px,3.5vw,28px);color:#fff}\n';
+    h += '.sl{font-family:"Noto Sans Tamil",sans-serif;font-weight:700;font-size:11px;color:rgba(255,255,255,0.75);margin-top:3px}\n';
+    h += '@media(max-width:400px){.sb{min-width:90px;padding:10px 12px}}\n';
+    h += '.foot{display:flex;justify-content:space-between;align-items:center;width:100%;margin-top:24px;padding-top:16px;border-top:1px solid rgba(255,255,255,0.08);flex-wrap:wrap;gap:8px;animation:fU 0.8s 1.8s both}\n';
+    h += '.dPill{background:rgba(255,255,255,0.07);color:#94a3b8;padding:6px 14px;border-radius:20px;font-size:12px;font-weight:600;border:1px solid rgba(255,255,255,0.1)}\n';
+    h += '.sig{text-align:right;font-size:11px;color:#64748b}\n';
+    h += '.sig strong{display:block;font-family:"Playfair Display",serif;font-style:italic;font-size:13px;color:#a78bfa}\n';
+    h += '.vBar{position:fixed;bottom:18px;left:50%;transform:translateX(-50%);background:rgba(15,23,42,0.92);backdrop-filter:blur(10px);border:1px solid rgba(251,191,36,0.3);border-radius:30px;padding:10px 22px;font-size:13px;color:#fbbf24;font-family:Outfit,sans-serif;font-weight:700;display:flex;align-items:center;gap:10px;z-index:99;animation:vBI 0.6s 2s both;cursor:pointer}\n';
+    h += '@keyframes vBI{from{opacity:0;transform:translateX(-50%) translateY(20px)}to{opacity:1;transform:translateX(-50%) translateY(0)}}\n';
+    h += '.vDot{width:10px;height:10px;border-radius:50%;background:#fbbf24;animation:vP 1s ease-in-out infinite}\n';
+    h += '@keyframes vP{0%,100%{transform:scale(1)}50%{transform:scale(1.5);opacity:0.5}}\n';
+    h += '.vDot.done{animation:none;background:#10b981}\n';
+    h += '</style></head><body>\n';
+    h += '<div class="orb" style="width:400px;height:400px;background:#1e40af;top:10%;left:5%;animation-duration:8s"></div>\n';
+    h += '<div class="orb" style="width:300px;height:300px;background:#7c3aed;top:60%;left:75%;animation-duration:10s;animation-delay:2s"></div>\n';
+    h += '<div class="cfWrap" id="cfW"></div>\n';
+    h += '<div class="card">\n';
+    h += '  <div class="topBar"></div>\n';
+    h += '  <div class="brand">\n';
+    h += '    <div class="bTa">\u0ba4\u0bae\u0bbf\u0bb4\u0bcd \u0ba8\u0ba3\u0bcd\u0baa\u0ba9\u0bcd</div>\n';
+    h += '    <div class="bEn">TEST BATCH SERIES</div>\n';
+    h += '    <div class="pLbl">' + paperTitle.replace(/</g,'&lt;').replace(/>/g,'&gt;') + '</div>\n';
+    h += '    <div class="eDate">\u0ba4\u0bc7\u0bb0\u0bcd\u0bb5\u0bc1 \u0ba4\u0bc7\u0ba4\u0bbf: ' + examDateStr.replace(/</g,'&lt;') + '</div>\n';
+    h += '  </div>\n';
+    h += '  <div class="tWrap">\n';
+    h += '    <span class="trophy">\uD83C\uDFC6</span>\n';
+    h += '    <span class="sp s1"></span><span class="sp s2"></span><span class="sp s3"></span>\n';
+    h += '    <span class="sp s4"></span><span class="sp s5"></span><span class="sp s6"></span>\n';
+    h += '  </div>\n';
+    h += '  <div class="cEn">Heartfelt Congratulations!</div>\n';
+    h += '  <div class="cTa">\u0bae\u0ba9\u0bae\u0bbe\u0bb0\u0bcd\u0ba8\u0bcd\u0ba4 \u0bb5\u0bbe\u0bb4\u0bcd\u0ba4\u0bcd\u0ba4\u0bc1\u0b95\u0bcd\u0b95\u0bb3\u0bcd! \uD83C\uDF89</div>\n';
+    h += '  <div class="nSec">\n';
+    h += '    <div class="fp">\uD83E\uDD47 \u0bae\u0bc1\u0ba4\u0bb2\u0bbf\u0b9f\u0bae\u0bcd \u0baa\u0bbf\u0b9f\u0bbf\u0ba4\u0bcd\u0ba4\u0bb5\u0bb0\u0bcd</div>\n';
+    h += '    <div class="wName" id="wN"></div>\n';
+    h += '    <div class="wUnder" id="wU"></div>\n';
+    h += '  </div>\n';
+    h += '  <div class="scores">\n';
+    h += '    <div class="sb sb1"><div class="sv">' + scoreStr.replace(/</g,'&lt;') + '</div><div class="sl">\u0bae\u0ba4\u0bbf\u0baa\u0bcd\u0baa\u0bc6\u0ba3\u0bcd</div></div>\n';
+    h += '    <div class="sb sb2"><div class="sv">' + pctStr + '</div><div class="sl">\u0b9a\u0ba4\u0bb5\u0bc0\u0ba4\u0bae\u0bcd</div></div>\n';
+    h += '    <div class="sb sb3"><div class="sv"># 1</div><div class="sl">\u0b87\u0b9f\u0bae\u0bcd</div></div>\n';
+    h += '  </div>\n';
+    h += '  <div class="foot">\n';
+    h += '    <div class="dPill">\uD83D\uDCC5 ' + dateStr.replace(/</g,'&lt;') + '</div>\n';
+    h += '    <div class="sig"><strong>Tamil Nanban</strong><span>COACHING CENTER</span></div>\n';
+    h += '  </div>\n';
+    h += '</div>\n';
+    h += '<div class="vBar" id="vBar" onclick="spk()">\n';
+    h += '  <span class="vDot" id="vDot"></span>\n';
+    h += '  <span id="vSt">\uD83D\uDD0A \u0bb5\u0bbe\u0bb4\u0bcd\u0ba4\u0bcd\u0ba4\u0bc1\u0b9a\u0bcd \u0b9a\u0bc6\u0baf\u0bcd\u0ba4\u0bbf...</span>\n';
+    h += '</div>\n';
+    h += '<script>\n';
+    h += '(function(){\n';
+    h += '  var w=document.getElementById("cfW");\n';
+    h += '  var c=["#fbbf24","#f59e0b","#ec4899","#6366f1","#10b981","#3b82f6","#f97316","#a855f7"];\n';
+    h += '  for(var i=0;i<45;i++){\n';
+    h += '    var el=document.createElement("div");\n';
+    h += '    el.className="cf";\n';
+    h += '    el.style.cssText="left:"+Math.random()*100+"%;background:"+c[i%c.length]+";animation-delay:"+Math.random()*6+"s;animation-duration:"+(3+Math.random()*4)+"s;width:"+(8+Math.random()*8)+"px;height:"+(10+Math.random()*8)+"px";\n';
+    h += '    w.appendChild(el);\n';
+    h += '  }\n';
+    h += '})();\n';
+    h += 'var nm=' + nameJson + ';\n';
+    h += 'var ch=Array.from(nm);\n';
+    h += 'var nEl=document.getElementById("wN");\n';
+    h += 'var uEl=document.getElementById("wU");\n';
+    h += 'function tw(){\n';
+    h += '  nEl.textContent="";\n';
+    h += '  var cur=document.createElement("span");\n';
+    h += '  cur.className="cur";\n';
+    h += '  nEl.appendChild(cur);\n';
+    h += '  uEl.classList.remove("show");\n';
+    h += '  var i=0;\n';
+    h += '  var iv=setInterval(function(){\n';
+    h += '    if(i>=ch.length){\n';
+    h += '      clearInterval(iv);\n';
+    h += '      cur.className="cur off";\n';
+    h += '      setTimeout(function(){uEl.classList.add("show");},150);\n';
+    h += '      setTimeout(tw,6000);\n';
+    h += '    } else {\n';
+    h += '      nEl.insertBefore(document.createTextNode(ch[i]),cur);\n';
+    h += '      i++;\n';
+    h += '    }\n';
+    h += '  },110);\n';
+    h += '}\n';
+    h += 'setTimeout(tw,1400);\n';
+    h += 'var vTxt=' + voiceJson + ';\n';
+    h += 'var spkd=false;\n';
+    h += 'function spk(){\n';
+    h += '  if(!("speechSynthesis" in window)){document.getElementById("vSt").textContent="Voice \u0b87\u0bb2\u0bcd\u0bb2\u0bc8";return;}\n';
+    h += '  window.speechSynthesis.cancel();\n';
+    h += '  var u=new SpeechSynthesisUtterance(vTxt);\n';
+    h += '  u.lang="ta-IN";u.rate=0.88;u.pitch=1.05;u.volume=1.0;\n';
+    h += '  var vs=window.speechSynthesis.getVoices();\n';
+    h += '  var tv=vs.find(function(v){return v.lang==="ta-IN"||v.lang==="ta"||v.name.toLowerCase().indexOf("tamil")>=0;});\n';
+    h += '  if(tv)u.voice=tv;\n';
+    h += '  u.onstart=function(){document.getElementById("vSt").textContent="\uD83D\uDD0A \u0bb5\u0bbe\u0bb4\u0bcd\u0ba4\u0bcd\u0ba4\u0bc1\u0b9a\u0bcd \u0b9a\u0bc6\u0baf\u0bcd\u0ba4\u0bbf \u0baa\u0bc7\u0b9a\u0bc1\u0b95\u0bbf\u0bb1\u0ba4\u0bc1...";};\n';
+    h += '  u.onend=function(){\n';
+    h += '    document.getElementById("vDot").className="vDot done";\n';
+    h += '    document.getElementById("vSt").textContent="\u2705 \u0bb5\u0bbe\u0bb4\u0bcd\u0ba4\u0bcd\u0ba4\u0bc1\u0b95\u0bcd\u0b95\u0bb3\u0bcd \u0b9a\u0bca\u0bb2\u0bcd\u0bb2\u0baa\u0bcd\u0baa\u0b9f\u0bcd\u0b9f\u0ba4\u0bc1!";\n';
+    h += '    setTimeout(function(){\n';
+    h += '      var b=document.getElementById("vBar");\n';
+    h += '      b.style.transition="opacity 1.2s";b.style.opacity="0";\n';
+    h += '    },2500);\n';
+    h += '  };\n';
+    h += '  u.onerror=function(){document.getElementById("vSt").textContent="\uD83D\uDD07 Tap \u0b9a\u0bc6\u0baf\u0bcd\u0baf\u0bb5\u0bc1\u0bae\u0bcd";};\n';
+    h += '  window.speechSynthesis.speak(u);\n';
+    h += '  spkd=true;\n';
+    h += '}\n';
+    h += 'function tryA(){\n';
+    h += '  if(window.speechSynthesis.getVoices().length>0){setTimeout(spk,900);}\n';
+    h += '  else{window.speechSynthesis.onvoiceschanged=function(){setTimeout(spk,900);};setTimeout(spk,2200);}\n';
+    h += '}\n';
+    h += 'setTimeout(tryA,700);\n';
+    h += 'document.body.addEventListener("click",function(){if(!spkd)spk();},{once:true});\n';
+    h += '<\/script>\n';
+    h += '</body></html>';
+    return h;
 }
 
-// Voices may load async — wait for them then speak
-function trySpeak() {
-  const voices = window.speechSynthesis.getVoices();
-  if(voices.length > 0){
-    setTimeout(speakTamil, 800);
-  } else {
-    window.speechSynthesis.onvoiceschanged = () => setTimeout(speakTamil, 800);
-    // Fallback: speak after 2s even if onvoiceschanged never fires
-    setTimeout(speakTamil, 2000);
-  }
-}
 
-// iOS/Android: audio needs user gesture first — we try auto, fallback to tap
-document.addEventListener('DOMContentLoaded', () => {
-  setTimeout(trySpeak, 600);
-});
-
-// If autoplay blocked → tap anywhere to speak
-document.body.addEventListener('click', () => {
-  if (window.speechSynthesis && !window.speechSynthesis.speaking) {
-    speakTamil();
-  }
-}, { once: true });
-</script>
-</body></html>`;
-}
 
 
 // ═══════════════════════════════════════════════════════════
