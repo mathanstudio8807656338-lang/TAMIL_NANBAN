@@ -1,9 +1,43 @@
 // ═══════════════════════════════════════════════════════════════════
-// TAMIL NANBAN — Free Exam Cloudflare Worker  (v3 — final)
+// TAMIL NANBAN — Free Exam Cloudflare Worker  (v4 — auto schedule)
 // ═══════════════════════════════════════════════════════════════════
 
 const FIREBASE_DB_URL = "https://tamil-nanban-default-rtdb.asia-southeast1.firebasedatabase.app";
 const ADMIN_KEY       = "A1ADMIN2025";
+
+// ═══════════════════════════════════════════════════════════════════
+// 📅 AUTO SCHEDULE CONFIG
+// தொடக்க தேதி: 2026-06-21 → வினாத்தாள் 13
+// ஒவ்வொரு நாளும் +1 வினாத்தாள் எண்
+// File format: "வினாத்தாள் {N} கணிதம் மற்றும் அறிவியல்.json"
+//              "வினாத்தாள் {N} சமூக அறிவியல்.json"
+// ═══════════════════════════════════════════════════════════════════
+const SCHEDULE_START_DATE    = "2026-06-21";  // Day 1 தேதி
+const SCHEDULE_START_VINATH  = 13;            // Day 1 வினாத்தாள் எண்
+const VINATH_PAPER1_SUFFIX   = " கணிதம் மற்றும் அறிவியல்";
+const VINATH_PAPER2_SUFFIX   = " சமூக அறிவியல்";
+
+// இன்றைய வினாத்தாள் எண் கணக்கிட
+function getTodayVinathNum(dateStr) {
+  const start = new Date(SCHEDULE_START_DATE + "T00:00:00+05:30");
+  const target = new Date(dateStr + "T00:00:00+05:30");
+  const diffDays = Math.round((target - start) / (1000 * 60 * 60 * 24));
+  return SCHEDULE_START_VINATH + diffDays;
+}
+
+// வினாத்தாள் எண்ணிலிருந்து file names
+function getFileNamesForVinath(num) {
+  return {
+    paper1: `வினாத்தாள் ${num}${VINATH_PAPER1_SUFFIX}.json`,
+    paper2: `வினாத்தாள் ${num}${VINATH_PAPER2_SUFFIX}.json`,
+    vinathNum: num
+  };
+}
+
+// இன்றைய IST தேதி
+function getTodayIST() {
+  return new Date().toLocaleDateString("en-CA", { timeZone: "Asia/Kolkata" });
+}
 
 const CUTOFFS = {
   "OC": 60, "GENERAL": 60,
@@ -140,6 +174,127 @@ export default {
       return json({ success: true, message: `${phone} device reset செய்யப்பட்டது!` });
     }
 
+
+    // ═══════════════════════════════════════════════════════════════════
+    // 📅 EXAM SCHEDULE MANAGEMENT API (v4)
+    // KV key: "exam_schedule" — JSON object, date→config
+    // ═══════════════════════════════════════════════════════════════════
+
+    // GET /api/exam-status — இன்றைய தேர்வு நிலை (public)
+    // Auto-schedule: தேதியிலிருந்து தானாக வினாத்தாள் எண் கணக்கிடும்
+    if (path === "/api/exam-status" && request.method === "GET") {
+      const todayIST = getTodayIST();
+      const vinathNum = getTodayVinathNum(todayIST);
+      const autoFiles = getFileNamesForVinath(vinathNum);
+
+      // Admin manual override இருக்கிறதா check செய்
+      const schedule = await env.RESULTS_KV?.get("exam_schedule");
+      let enabled = true;
+      let paper1_display = autoFiles.paper1;
+      let paper2_display = autoFiles.paper2;
+      let source = "auto";
+
+      if (schedule) {
+        const data = JSON.parse(schedule);
+        const cfg = data[todayIST];
+        if (cfg) {
+          // Admin override உள்ளது — enabled மட்டும் எடு, files auto
+          enabled = cfg.enabled !== false;
+          // Admin manually வேறு file set செய்திருந்தால் மட்டும் override
+          if (cfg.paper1_display && cfg.paper1_display !== "paper1.json") {
+            paper1_display = cfg.paper1_display;
+            source = "manual";
+          }
+          if (cfg.paper2_display && cfg.paper2_display !== "paper2.json") {
+            paper2_display = cfg.paper2_display;
+            source = "manual";
+          }
+        }
+      }
+
+      return json({
+        date: todayIST,
+        enabled,
+        vinathNum,
+        paper1: "paper1.json",        // student page எப்போதும் paper1.json fetch செய்யும்
+        paper2: "paper2.json",         // student page எப்போதும் paper2.json fetch செய்யும்
+        paper1_display,                // admin-ல் காண்பிக்க உண்மையான பெயர்
+        paper2_display,
+        source
+      });
+    }
+
+    // GET /api/admin-schedule — Admin: full schedule
+    if (path === "/api/admin-schedule" && request.method === "GET") {
+      const adminKey = url.searchParams.get("adminKey");
+      if (adminKey !== ADMIN_KEY) return json({ error: "Unauthorized" }, 401);
+      const schedule = await env.RESULTS_KV?.get("exam_schedule");
+      const data = schedule ? JSON.parse(schedule) : {};
+      return json({ success: true, schedule: data });
+    }
+
+    // POST /api/admin-schedule/set — Admin: ஒரு நாளுக்கு schedule set
+    if (path === "/api/admin-schedule/set" && request.method === "POST") {
+      const body = await request.json();
+      if (body.adminKey !== ADMIN_KEY) return json({ error: "Unauthorized" }, 401);
+      const { date, paper1, paper2, paper1_display, paper2_display, enabled } = body;
+      if (!date || !paper1 || !paper2) return json({ error: "date, paper1, paper2 தேவை" }, 400);
+      const schedule = await env.RESULTS_KV?.get("exam_schedule");
+      const data = schedule ? JSON.parse(schedule) : {};
+      data[date] = {
+        paper1, paper2,
+        paper1_display: paper1_display || paper1,
+        paper2_display: paper2_display || paper2,
+        enabled: enabled !== false,
+        updatedAt: new Date().toISOString()
+      };
+      await env.RESULTS_KV?.put("exam_schedule", JSON.stringify(data));
+      return json({ success: true, message: `${date} schedule சேமிக்கப்பட்டது`, config: data[date] });
+    }
+
+    // POST /api/admin-schedule/toggle — Admin: enable/disable
+    if (path === "/api/admin-schedule/toggle" && request.method === "POST") {
+      const body = await request.json();
+      if (body.adminKey !== ADMIN_KEY) return json({ error: "Unauthorized" }, 401);
+      const { date, enabled } = body;
+      if (!date) return json({ error: "date தேவை" }, 400);
+      const schedule = await env.RESULTS_KV?.get("exam_schedule");
+      const data = schedule ? JSON.parse(schedule) : {};
+      if (!data[date]) {
+        data[date] = { paper1: "paper1.json", paper2: "paper2.json",
+          paper1_display: "paper1.json", paper2_display: "paper2.json", enabled };
+      } else {
+        data[date].enabled = enabled;
+      }
+      data[date].updatedAt = new Date().toISOString();
+      await env.RESULTS_KV?.put("exam_schedule", JSON.stringify(data));
+      return json({ success: true, message: `தேர்வு ${enabled ? "✅ Enable" : "🔒 Disable"} செய்யப்பட்டது!`, enabled });
+    }
+
+    // POST /api/admin-schedule/bulk — Admin: பல நாட்களுக்கு bulk schedule
+    if (path === "/api/admin-schedule/bulk" && request.method === "POST") {
+      const body = await request.json();
+      if (body.adminKey !== ADMIN_KEY) return json({ error: "Unauthorized" }, 401);
+      const { entries } = body;
+      if (!Array.isArray(entries) || !entries.length) return json({ error: "entries array தேவை" }, 400);
+      const schedule = await env.RESULTS_KV?.get("exam_schedule");
+      const data = schedule ? JSON.parse(schedule) : {};
+      let count = 0;
+      for (const e of entries) {
+        if (!e.date || !e.paper1 || !e.paper2) continue;
+        data[e.date] = {
+          paper1: e.paper1, paper2: e.paper2,
+          paper1_display: e.paper1_display || e.paper1,
+          paper2_display: e.paper2_display || e.paper2,
+          enabled: e.enabled !== false,
+          updatedAt: new Date().toISOString()
+        };
+        count++;
+      }
+      await env.RESULTS_KV?.put("exam_schedule", JSON.stringify(data));
+      return json({ success: true, message: `${count} நாட்கள் schedule சேமிக்கப்பட்டது!` });
+    }
+
     return env.ASSETS.fetch(request);
   },
 
@@ -149,7 +304,20 @@ export default {
     const y = new Date(istNow); y.setDate(y.getDate() - 1);
     const yStr = y.toLocaleDateString("en-CA");
 
-    console.log(`⏰ Scheduled run — regenerating ${todayStr} and ${yStr}`);
+    // ═══════════════════════════════════════════════════════
+    // 📋 AUTO PAPER COPY — இன்றைய வினாத்தாள் → paper1/paper2
+    // Cron: 10:15 PM IST = results generate. 
+    // But paper copy happens at midnight (next day cron) or via admin trigger
+    // உண்மையான copy: ASSETS static files — KV-ல் flag மட்டும் set
+    // ═══════════════════════════════════════════════════════
+    console.log(`⏰ Scheduled run — date: ${todayStr}`);
+
+    // இன்றைய வினாத்தாள் எண் log செய்
+    const vinathNum = getTodayVinathNum(todayStr);
+    const files = getFileNamesForVinath(vinathNum);
+    console.log(`📋 Today's vinath: ${vinathNum} → ${files.paper1} | ${files.paper2}`);
+
+    // Results generate (existing logic)
     for (const d of [todayStr, yStr]) {
       try {
         const r = await generateAndStore(d, env);

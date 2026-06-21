@@ -352,6 +352,21 @@
             console.log('%c🧪 TEST MODE ACTIVE - Time check bypassed!', 'background:#f59e0b;color:white;font-size:16px;padding:8px;font-weight:bold;');
         }
 
+        // Worker URL
+        const WORKER_BASE = 'https://tamilnanaban2.mathanstudio8807656338.workers.dev';
+
+        // Auto-schedule constants (worker.js உடன் ஒத்திருக்க வேண்டும்)
+        const SCHED_START_DATE   = '2026-06-21';
+        const SCHED_START_VINATH = 13;
+
+        function getVinathForToday() {
+            const today = new Date().toLocaleDateString('en-CA', {timeZone:'Asia/Kolkata'});
+            const start = new Date(SCHED_START_DATE + 'T00:00:00');
+            const tgt   = new Date(today + 'T00:00:00');
+            const diff  = Math.round((tgt - start) / (1000*60*60*24));
+            return SCHED_START_VINATH + diff;
+        }
+
         // Initialize
         async function init() {
             console.log('🚀 Initializing Free Exam System...');
@@ -360,28 +375,91 @@
             updateTimeStatus();
             setInterval(updateTimeStatus, 1000);
 
-            // Load available exams
-            const exams = await loader.loadAvailableExams();
-            
+            // ✅ Worker-ல் இருந்து இன்றைய schedule check
+            let examEnabled = true;
+            let paper1File  = null;
+            let paper2File  = null;
+            let vinathNum   = getVinathForToday(); // fallback
+
+            try {
+                const statusResp = await fetch(WORKER_BASE + '/api/exam-status');
+                if (statusResp.ok) {
+                    const s = await statusResp.json();
+                    examEnabled = s.enabled !== false;
+                    vinathNum   = s.vinathNum || vinathNum;
+                    // Worker auto-schedule file names
+                    paper1File  = `json-db/free-exams/வினாத்தாள் ${vinathNum} கணிதம் மற்றும் அறிவியல்.json`;
+                    paper2File  = `json-db/free-exams/வினாத்தாள் ${vinathNum} சமூக அறிவியல்.json`;
+                    console.log('📋 Schedule:', s);
+                }
+            } catch(e) {
+                console.log('⚠️ Worker check failed, using auto-calc:', e.message);
+            }
+
+            // Fallback if worker failed
+            if (!paper1File) {
+                paper1File = `json-db/free-exams/வினாத்தாள் ${vinathNum} கணிதம் மற்றும் அறிவியல்.json`;
+                paper2File = `json-db/free-exams/வினாத்தாள் ${vinathNum} சமூக அறிவியல்.json`;
+            }
+
+            // Admin disable செய்திருந்தால்
+            if (!examEnabled) {
+                document.getElementById('loadingBox').style.display = 'none';
+                document.getElementById('examsGrid').innerHTML = `
+                    <div style="text-align:center;color:white;padding:50px;">
+                        <h2>🔒 இன்றைய தேர்வு இல்லை</h2>
+                        <p style="opacity:0.8;margin-top:10px;">நாளை மீண்டும் வாருங்கள்!</p>
+                        <p style="margin-top:12px;font-size:.85rem;opacity:0.65;">தொடர்புக்கு: 63693 71452</p>
+                    </div>`;
+                document.getElementById('examsGrid').style.display = 'block';
+                return;
+            }
+
+            // இன்றைய files load செய்
+            const exams = [];
+            const fileList = [
+                { url: paper1File, filename: 'paper1.json',
+                  displayName: `வினாத்தாள் ${vinathNum} — கணிதம் & அறிவியல்` },
+                { url: paper2File, filename: 'paper2.json',
+                  displayName: `வினாத்தாள் ${vinathNum} — சமூக அறிவியல்` }
+            ];
+
+            for (const f of fileList) {
+                try {
+                    const resp = await fetch(f.url);
+                    if (resp.ok) {
+                        const raw  = await resp.json();
+                        const norm = loader._normalizeExamData(raw);
+                        norm.title = f.displayName;
+                        exams.push({
+                            filename:       f.filename,
+                            data:           norm,
+                            title:          f.displayName,
+                            paperType:      'free',
+                            totalQuestions: norm.total_questions
+                        });
+                        console.log('✅ Loaded:', f.url);
+                    } else {
+                        console.log('⏭️ Not found:', f.url);
+                    }
+                } catch(e) {
+                    console.log('❌ Error loading:', f.url, e.message);
+                }
+            }
+
             document.getElementById('loadingBox').style.display = 'none';
-            
+
             if (exams.length === 0) {
                 document.getElementById('examsGrid').innerHTML = `
-                    <div style="text-align: center; color: white; padding: 50px;">
+                    <div style="text-align:center;color:white;padding:50px;">
                         <h2>😔 தற்போது தேர்வுகள் இல்லை</h2>
-                        <p>விரைவில் தேர்வுகள் சேர்க்கப்படும்!</p>
-                        <p style="margin-top: 15px; font-size: 0.9rem; opacity: 0.8;">
-                            JSON files-ஐ root folder-ல் upload செய்யவும்
-                        </p>
-                    </div>
-                `;
+                        <p>வினாத்தாள் ${vinathNum} files upload ஆகவில்லை</p>
+                    </div>`;
                 document.getElementById('examsGrid').style.display = 'block';
                 return;
             }
 
             console.log(`✅ ${exams.length} தேர்வுகள் கிடைத்தன`);
-            
-            // Display exams
             displayExams(exams);
             document.getElementById('examsGrid').style.display = 'grid';
             document.getElementById('instructionsBox').style.display = 'block';
