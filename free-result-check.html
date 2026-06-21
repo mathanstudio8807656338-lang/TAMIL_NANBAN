@@ -673,8 +673,24 @@
             loading.style.display = 'block';
             content.innerHTML = '';
             try {
-                // Load the question paper JSON (same file used in exam)
-                const res = await fetch(`json-db/free-exams/${paperKey}.json`);
+                // AUTO SCHEDULE: paperKey (paper1/paper2) → இன்றைய வினாத்தாள் file
+                const SCHED_START_DATE   = '2026-06-21';
+                const SCHED_START_VINATH = 13;
+                function getTodayVinath() {
+                    const today = new Date().toLocaleDateString('en-CA', {timeZone:'Asia/Kolkata'});
+                    const start = new Date(SCHED_START_DATE + 'T00:00:00');
+                    const tgt   = new Date(today + 'T00:00:00');
+                    const diff  = Math.round((tgt - start) / (1000*60*60*24));
+                    return SCHED_START_VINATH + diff;
+                }
+                const vNum = getTodayVinath();
+                const actualFile = (paperKey === 'paper1')
+                    ? `வினாத்தாள் ${vNum} கணிதம் மற்றும் அறிவியல்.json`
+                    : `வினாத்தாள் ${vNum} சமூக அறிவியல்.json`;
+                console.log(`📋 Answer Key: ${paperKey} → ${actualFile}`);
+
+                // Load the question paper JSON
+                const res = await fetch(`json-db/free-exams/${encodeURIComponent(actualFile)}`);
                 if (!res.ok) throw new Error('Paper not found');
                 const paper = await res.json();
 
